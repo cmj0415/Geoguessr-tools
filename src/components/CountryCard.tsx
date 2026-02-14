@@ -24,7 +24,7 @@ export function CountryCard({
     >
       <div className="
         absolute left-4 top-0 -translate-y-1/2 rounded-lg
-        bg-(--bg) group-hover:bg-blue-800
+        bg-slate-900 group-hover:bg-blue-800
         px-3 py-2 text-xl  
         transition-colors duration-200
       ">
