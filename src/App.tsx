@@ -1,10 +1,15 @@
 import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Home from './components/Home'
+import Home from './Home'
+import USStates from './pages/USStates'
 
 function App() {
   return (
-    <Home />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/us/state" element={<Home />} />
+    </Routes>
   )
 }
 

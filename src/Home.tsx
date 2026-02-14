@@ -1,4 +1,5 @@
-import { CountryCard } from './CountryCard.tsx'
+import { CountryCard } from './components/CountryCard.tsx'
+import { Link } from 'react-router-dom'
 function Home() {
     return (
         <div className="relative min-h-screen bg-slate-900">
@@ -23,46 +24,46 @@ function Home() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
                     <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
-                        <a className="inline-block underline text-white" href="/br/area-code">
+                        <Link className="inline-block underline text-white" to="/br/area-code">
                             Area Code Quiz
-                        </a>
+                        </Link>
                     </CountryCard>
 
                     <CountryCard countryName="India" flag={<span>🇮🇳</span>}>
-                        <a className="inline-block underline text-white" href="/in/states">
+                        <Link className="inline-block underline text-white" to="/in/states">
                             States Quiz
-                        </a>
+                        </Link>
                     </CountryCard>
 
                     <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
-                        <a className="inline-block underline text-white" href="/id/kabupaten">
+                        <Link className="inline-block underline text-white" to="/id/kabupaten">
                             Kabupatens Quiz
-                        </a>
+                        </Link>
                     </CountryCard>
 
                     <CountryCard countryName="Japan" flag={<span>🇯🇵</span>}>
-                        <a className="inline-block underline text-white" href="/jp/prefecture">
+                        <Link className="inline-block underline text-white" to="/jp/prefecture">
                             Prefecture Quiz
-                        </a>
+                        </Link>
                     </CountryCard>
 
                     <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
-                        <a className="inline-block underline text-white" href="/mx/postal-code">
+                        <Link className="inline-block underline text-white" to="/mx/postal-code">
                             Postal Code Quiz
-                        </a>
+                        </Link>
                     </CountryCard>
 
                     <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
                         <ul>
                             <li>
-                                <a className="inline-block underline text-white" href="/usa/area-code">
+                                <Link className="inline-block underline text-white" to="/usa/area-code">
                                     Area Code Quiz
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a className="inline-block underline text-white" href="/usa/states">
+                                <Link className="inline-block underline text-white" to="/usa/states">
                                     States Quiz
-                                </a>
+                                </Link>
                             </li>
                         </ul> 
                     </CountryCard>
