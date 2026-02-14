@@ -21,32 +21,50 @@ function Home() {
                     <h1 className="text-4xl font-bold mt-4 mb-4">Welcome to GeoGuessr Quizzes</h1>
                     <p className="text-lg text-gray-400">Master your knowledge of the globe</p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
-                        <ul>
-                            <li>
-                                <a className="inline-block underline text-white" href="/usa/area-code">
-                                Area Code Quiz
-                                </a>
-                            </li>
-                            <li>
-                                <a className="inline-block underline text-white" href="/usa/states">
-                                States Quiz
-                                </a>
-                            </li>
-                        </ul> 
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+                    <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
+                        <a className="inline-block underline text-white" href="/br/area-code">
+                            Area Code Quiz
+                        </a>
+                    </CountryCard>
+
+                    <CountryCard countryName="India" flag={<span>🇮🇳</span>}>
+                        <a className="inline-block underline text-white" href="/in/states">
+                            States Quiz
+                        </a>
+                    </CountryCard>
+
+                    <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
+                        <a className="inline-block underline text-white" href="/id/kabupaten">
+                            Kabupatens Quiz
+                        </a>
                     </CountryCard>
 
                     <CountryCard countryName="Japan" flag={<span>🇯🇵</span>}>
                         <a className="inline-block underline text-white" href="/jp/prefecture">
-                        Prefecture Quiz
+                            Prefecture Quiz
                         </a>
                     </CountryCard>
 
-                    <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
-                        <a className="inline-block underline text-white" href="/br/area-code">
-                        Area Code Quiz
+                    <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
+                        <a className="inline-block underline text-white" href="/mx/postal-code">
+                            Postal Code Quiz
                         </a>
+                    </CountryCard>
+
+                    <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
+                        <ul>
+                            <li>
+                                <a className="inline-block underline text-white" href="/usa/area-code">
+                                    Area Code Quiz
+                                </a>
+                            </li>
+                            <li>
+                                <a className="inline-block underline text-white" href="/usa/states">
+                                    States Quiz
+                                </a>
+                            </li>
+                        </ul> 
                     </CountryCard>
                 </div>
             </div>
