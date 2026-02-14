@@ -16,7 +16,7 @@ export function CountryCard({
   return (
     <section
       className={[
-        "group relative border border-white/70 bg-inherit rounded-xl",
+        "group relative border-2 border-white/70 bg-inherit rounded-xl",
         "transition-colors duration-200 hover:border-blue-800",
         "p-6 pt-10",
         className,
