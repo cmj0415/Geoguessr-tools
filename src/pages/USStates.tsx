@@ -19,24 +19,16 @@ export default function USStates() {
 
         function handleEnter(e: MouseEvent) {
             const target = e.target as SVGElement
-            if (target.tagName !== "path" && target.tagName !== "circle") return
-            
-            const cls = target.getAttribute("class")
-            if (!cls) return
-
-            const area = interactiveArea.get(cls)
-            if (area) area.style.fill = "blue"
+            if (!target || (target.tagName !== "path" && target.tagName !== "circle")) return
+            if (target.getAttribute("class") === "separator1") return
+            target.style.fill = "blue"
         }
 
         function handleLeave(e: MouseEvent) {
             const target = e.target as SVGElement
-            if (target.tagName !== "path" && target.tagName !== "circle") return
-
-            const cls = target.getAttribute("class")
-            if (!cls) return
-
-            const area = interactiveArea.get(cls)
-            if (area) area.style.fill = ""
+            if (!target || target.tagName !== "path" && target.tagName !== "circle") return
+            if (target.getAttribute("class") === "separator1") return
+            target.style.fill = ""
         }
 
         svg.addEventListener("mouseover", handleEnter)
@@ -49,6 +41,9 @@ export default function USStates() {
     }, [])
     
     return (
-        <USMap ref={ svgRef }/>
+        <div className="relative min-h-screen bg-slate-900">
+            <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
+            <USMap className="mx-auto mt-24 w-full max-w-4xl h-auto" ref={ svgRef }/>
+        </div>
     )
 }
