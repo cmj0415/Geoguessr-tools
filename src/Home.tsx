@@ -56,12 +56,12 @@ function Home() {
                     <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
                         <ul>
                             <li>
-                                <Link className="inline-block underline text-white" to="/usa/area-code">
+                                <Link className="inline-block underline text-white" to="/us/area-code">
                                     Area Code Quiz
                                 </Link>
                             </li>
                             <li>
-                                <Link className="inline-block underline text-white" to="/usa/states">
+                                <Link className="inline-block underline text-white" to="/us/states">
                                     States Quiz
                                 </Link>
                             </li>
