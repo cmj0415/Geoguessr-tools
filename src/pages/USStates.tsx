@@ -1,5 +1,6 @@
 import React from "react";
 import USMap from '../assets/us-state-map.svg?react'
+import QuestionCard from "../components/QuestionCard";
 import { useRef, useEffect, useState } from 'react'
 
 export default function USStates() {
@@ -43,7 +44,8 @@ export default function USStates() {
     return (
         <div className="relative min-h-screen bg-slate-900">
             <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
-            <USMap className="mx-auto mt-24 w-full max-w-4xl h-auto" ref={ svgRef }/>
+            <QuestionCard target="California"/>
+            <USMap className="mx-auto mt-16 w-full max-w-4xl h-auto" ref={ svgRef }/>
         </div>
     )
 }
