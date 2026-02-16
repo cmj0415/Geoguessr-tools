@@ -19,6 +19,46 @@ export default function USStates() {
         targetRef.current = question[0]
     }, [question])
 
+    const [hovered, setHovered] = useState<string | null>(null)
+    const [result, setResult] = useState<"correct" | "wrong" | null>(null)
+
+    useEffect(() => {
+        if (!result) return
+
+        const timer = setTimeout(() => {
+            if (result === "correct") {
+                setQuestion(pickRandomState())
+            }
+            setResult(null)
+        }, 250)
+
+        return () => clearTimeout(timer)
+    }, [result])
+
+    useEffect(() => {
+        const svg = svgRef.current
+        if (!svg) return
+
+        svg.querySelectorAll("path, circle").forEach(el => {
+            const cls = el.getAttribute("class")?.split(" ")[0]
+            if (!cls || cls === "separator1") return
+
+            const state = cls.split("-")[0]
+            const e = el as SVGElement
+
+            // reset
+            e.style.fill = ""
+
+            if (result === "correct" && state === targetRef.current) {
+                e.style.fill = "#6bffa78c"
+            } else if (result === "wrong" && state === hovered) {
+                e.style.fill = "#f53f2fbf"
+            } else if (!result && state === hovered) {
+                e.style.fill = "#b2dcf7ad"
+            }
+        })
+    }, [hovered, result])
+
     useEffect(() => {
         const svg = svgRef.current
         if (!svg) return
@@ -32,17 +72,17 @@ export default function USStates() {
         })
 
         function handleEnter(e: MouseEvent) {
-            const target = e.target as SVGElement
-            if (!target || (target.tagName !== "path" && target.tagName !== "circle")) return
-            if (target.getAttribute("class") === "separator1") return
-            target.style.fill = "blue"
+            const el = (e.target as Element | null)?.closest?.("path,circle") as SVGElement | null
+            if (!el) return
+
+            const state = el.getAttribute("class")
+            if (!state) return
+
+            setHovered(state)
         }
 
-        function handleLeave(e: MouseEvent) {
-            const target = e.target as SVGElement
-            if (!target || target.tagName !== "path" && target.tagName !== "circle") return
-            if (target.getAttribute("class") === "separator1") return
-            target.style.fill = ""
+        function handleLeave() {
+            setHovered(null)
         }
 
         function handleClick(e: MouseEvent) {
@@ -50,9 +90,11 @@ export default function USStates() {
             if (!target || target.tagName !== "path" && target.tagName !== "circle") return
             if (target.getAttribute("class") === "separator1") return
             const stateAbbr = target.getAttribute("class")
-            if (stateAbbr !== targetRef.current) return
-
-            setQuestion(pickRandomState())
+            if (stateAbbr === targetRef.current) {
+                setResult("correct")
+            } else {
+                setResult("wrong")
+            }
         }
 
         svg.addEventListener("mouseover", handleEnter)
