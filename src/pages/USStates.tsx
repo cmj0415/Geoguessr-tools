@@ -2,9 +2,15 @@ import React from "react";
 import USMap from '../assets/us-state-map.svg?react'
 import QuestionCard from "../components/QuestionCard";
 import { useRef, useEffect, useState } from 'react'
+import { STATE_NAME_MAP } from "../utils/USStateData";
 
 export default function USStates() {
     const svgRef = useRef<SVGSVGElement>(null)
+
+    const [target, setTarget] = useState(() => {
+        const arr = [...STATE_NAME_MAP]
+        return arr[Math.floor(Math.random() * STATE_NAME_MAP.size)]
+    })
 
     useEffect(() => {
         const svg = svgRef.current
@@ -44,7 +50,7 @@ export default function USStates() {
     return (
         <div className="relative min-h-screen bg-slate-900">
             <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
-            <QuestionCard target="California"/>
+            <QuestionCard target={ target[1] }/>
             <USMap className="mx-auto mt-16 w-full max-w-4xl h-auto" ref={ svgRef }/>
         </div>
     )
