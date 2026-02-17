@@ -1,8 +1,10 @@
-import React from "react";
+import React from "react"
 import USMap from '../assets/us-state-map.svg?react'
-import QuestionCard from "../components/QuestionCard";
+import QuestionCard from "../components/QuestionCard"
+import InfoButton from "../components/InfoButton"
+import InfoWindow from "../components/InfoWindow"
 import { useRef, useEffect, useState } from 'react'
-import { STATE_NAME_MAP } from "../utils/USStateData";
+import { STATE_NAME_MAP } from "../utils/USStateData"
 
 export default function USStates() {
     const svgRef = useRef<SVGSVGElement>(null)
@@ -107,12 +109,28 @@ export default function USStates() {
             svg.removeEventListener("click", handleClick)
         }
     }, [])
+
+    const [isInfoOpen, setIsInfoOpen] = useState(false)
     
     return (
         <div className="relative min-h-screen bg-slate-900">
-            <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
+            <header className="relative">
+                <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
+                <InfoButton active={isInfoOpen} onClick={ (() => setIsInfoOpen(true)) } />
+            </header>
             <QuestionCard target={ question[1] }/>
             <USMap className="mx-auto mt-16 w-full max-w-4xl h-auto" ref={ svgRef }/>
+            { isInfoOpen && <InfoWindow content={
+                <div className="text-justify">
+                    <h2 className="text-center font-bold">US States Quiz</h2>
+                    <p>
+                        So this is just a easy quiz. It's so easy that I don't even want to do any customizable stuffs.
+                    </p>
+                    <p>
+                        Actually this page is the first page I made and it was just to help me familiarlize with React lol. 
+                    </p>
+                </div>
+            } onClose={ (() => setIsInfoOpen(false)) }/>}
         </div>
     )
 }
