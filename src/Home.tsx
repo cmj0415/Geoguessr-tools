@@ -36,7 +36,7 @@ function Home() {
                     </CountryCard>
 
                     <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
-                        <Link className="inline-block underline text-white" to="/id/kabupaten">
+                        <Link className="inline-block underline text-white" to="/id/kabupatens">
                             Kabupatens Quiz
                         </Link>
                     </CountryCard>
