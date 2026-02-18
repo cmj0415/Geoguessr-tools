@@ -120,17 +120,22 @@ export default function USStates() {
             </header>
             <QuestionCard target={ question[1] }/>
             <USMap className="mx-auto mt-16 w-full max-w-4xl h-auto" ref={ svgRef }/>
-            { isInfoOpen && <InfoWindow content={
-                <div className="text-justify">
+            { isInfoOpen && <InfoWindow 
+                title={
                     <h2 className="text-center font-bold">US States Quiz</h2>
-                    <p>
-                        So this is just a easy quiz. It's so easy that I don't even want to do any customizable stuffs.
-                    </p>
-                    <p>
-                        Actually this page is the first page I made and it was just to help me familiarlize with React lol. 
-                    </p>
-                </div>
-            } onClose={ (() => setIsInfoOpen(false)) }/>}
+                }
+                content={
+                    <div className="text-justify">
+                        <p>
+                            So this is just an easy quiz. It's so easy that I don't even want to do any customizable stuffs.
+                        </p>
+                        <p>
+                            Actually this page is the first page I made and it was just to help me familiarlize with React lol. 
+                        </p>
+                    </div>
+                } 
+                onClose={ (() => setIsInfoOpen(false)) }
+            />}
         </div>
     )
 }
