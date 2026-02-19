@@ -3,12 +3,22 @@ import IndonesiaMap from '../assets/id-kab-map.svg?react'
 import QuestionCard from "../components/QuestionCard"
 import InfoButton from "../components/InfoButton"
 import InfoWindow from "../components/InfoWindow"
+import { QuestionSelector } from "../components/QuestionSelector"
 import { useRef, useEffect, useState, useMemo } from 'react'
 import { ID_MAP } from "../utils/IDRegencyData"
 import type { Regency, ProvinceData } from "../utils/IDRegencyData"
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch"
 
 export default function USStates() {
+    const divs: Record<string, string[]> = {
+        "Sumatra": ["Aceh", "North Sumatra", "West Sumatra", "Riau", "Jambi", "Bengkulu", "South Sumatra", "Lampung", "Bangka Belitung Islands", "Riau Islands"],
+        "Kalimantan": ["West Kalimantan", "Central Kalimanatan", "South Kalimantan", "East Kalimantan", "North Kalimantan"],
+        "Java": ["Banten", "Jakarta", "West Java", "Yogyakarta", "Central Java", "East Java"],
+        "Sulawesi": ["North Sulawesi", "Gorontalo", "Central Sulawesi", "West Sulawesi", "South Sulawesi", "Southeast Sulawesi"],
+        "Lesser Sunda Islands": ["Bali", "West Nusa Tenggara", "East Nusa Tenggara"],
+        "Maluku Islands": ["Maluku", "North Maluku"],
+        "Western New Guinea": ["West Papua", "Papua", "Highland Papua", "South Papua", "Central Papua", "Southwest Papua"]
+    }
     const svgRef = useRef<SVGSVGElement>(null)
 
     const [selectedProvinces, setSelectedProvinces] = useState<Set<string>>(
@@ -143,6 +153,7 @@ export default function USStates() {
                     </TransformComponent>
                 </TransformWrapper>
             </div>
+            <QuestionSelector divisions={divs} defaultValue={ Array.from(selectedProvinces) } onChange={ setSelectedProvinces }/>
             { isInfoOpen && <InfoWindow 
                 title={
                     <h2 className="text-center font-bold">Indonesia Regencies Quiz</h2>
