@@ -59,9 +59,6 @@ export function QuestionSelector({
     <div className="mt-16 w-full max-w-5xl mx-auto rounded-xl border border-white/10 bg-white/5 p-4">
       <div className="mb-3 flex items-center justify-between gap-3">
         <div className="text-lg font-semibold">{title}</div>
-        <div className="text-sm opacity-70">
-          selected: {selectedSet.size}
-        </div>
       </div>    
 
       <div className="grid grid-cols-2 gap-6 items-start">

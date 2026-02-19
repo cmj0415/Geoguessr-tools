@@ -251,7 +251,7 @@ export const ID_MAP: Record<string, string[]> = {
     "Tegal",
     "Brebes",
     "Magelang (kota)",
-    "Surwakarta (kota)",
+    "Surakarta (kota)",
     "Salatiga",
     "Semarang (kota)",
     "Pekalongan (kota)",

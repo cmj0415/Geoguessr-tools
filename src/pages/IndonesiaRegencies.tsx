@@ -12,7 +12,7 @@ import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch"
 export default function USStates() {
     const divs: Record<string, string[]> = {
         "Sumatra": ["Aceh", "North Sumatra", "West Sumatra", "Riau", "Jambi", "Bengkulu", "South Sumatra", "Lampung", "Bangka Belitung Islands", "Riau Islands"],
-        "Kalimantan": ["West Kalimantan", "Central Kalimanatan", "South Kalimantan", "East Kalimantan", "North Kalimantan"],
+        "Kalimantan": ["West Kalimantan", "Central Kalimantan", "South Kalimantan", "East Kalimantan", "North Kalimantan"],
         "Java": ["Banten", "Jakarta", "West Java", "Yogyakarta", "Central Java", "East Java"],
         "Sulawesi": ["North Sulawesi", "Gorontalo", "Central Sulawesi", "West Sulawesi", "South Sulawesi", "Southeast Sulawesi"],
         "Lesser Sunda Islands": ["Bali", "West Nusa Tenggara", "East Nusa Tenggara"],
@@ -32,6 +32,10 @@ export default function USStates() {
         }
         return out
     }, [selectedProvinces])
+
+    useEffect(() => {
+        setQuestion(pickRandomRegency(pool))
+    }, [pool])
 
     function pickRandomRegency(pool: Regency[]) {
         if (pool.length == 0) return null
@@ -141,12 +145,12 @@ export default function USStates() {
                 <InfoButton active={isInfoOpen} onClick={ (() => setIsInfoOpen(true)) } />
             </header>
             <QuestionCard target={ question?.name }/>
-            <div className="mt-16 mx-auto w-full max-w-4xl">
+            <div className="mt-16 mx-auto w-full max-w-5xl border-2">
                 <TransformWrapper
                     minScale={1}
-                    maxScale={15}
-                    initialScale={1}
-                    wheel={{ step: 0.5 }}
+                    maxScale={20}
+                    initialScale={2}
+                    wheel={{ step: 10 }}
                     >
                     <TransformComponent>
                         <IndonesiaMap  className="w-full h-auto" ref={ svgRef }/>
@@ -161,10 +165,13 @@ export default function USStates() {
                 content={
                     <div className="text-justify">
                         <p>
-                            So this is just an easy quiz. It's so easy that I don't even want to do any customizable stuffs.
+                            This practice contains every (I suppose) regencies of Indonesia, even including those without official coverage such as the Papua area.
                         </p>
-                        <p>
-                            Actually this page is the first page I made and it was just to help me familiarlize with React lol. 
+                        <p className="mt-4">
+                            The best part about this is that you can choose the provinces that you want to practice! Once a checkbox is changed, the selector immediately re-select a new target. Also, this map is zoomable and pannable. Though the layout sucks (I suck at designing these stuffs), it should be decent enough for practice purpose.
+                        </p>
+                        <p className="mt-4">
+                            p.s.: I spent 4 hours just dealing with the svg file, MANUALLY adding properties to all the paths to mark which regency it is. That was a disaster.
                         </p>
                     </div>
                 } 
