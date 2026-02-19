@@ -1,5 +1,5 @@
-type Regency = { province: string; name: string }
-type ProvinceData = { province: string; regencies: string[] }
+export type Regency = { province: string; name: string }
+export type ProvinceData = { province: string; regencies: string[] }
 export const ID_MAP: Record<string, string[]> = {
   "Aceh": [
     "Aceh Jaya",

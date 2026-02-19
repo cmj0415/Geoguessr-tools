@@ -3,23 +3,36 @@ import IndonesiaMap from '../assets/id-kab-map.svg?react'
 import QuestionCard from "../components/QuestionCard"
 import InfoButton from "../components/InfoButton"
 import InfoWindow from "../components/InfoWindow"
-import { useRef, useEffect, useState } from 'react'
-import { STATE_NAME_MAP } from "../utils/USStateData"
+import { useRef, useEffect, useState, useMemo } from 'react'
+import { ID_MAP } from "../utils/IDRegencyData"
+import type { Regency, ProvinceData } from "../utils/IDRegencyData"
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch"
 
 export default function USStates() {
     const svgRef = useRef<SVGSVGElement>(null)
 
-    function pickRandomState() {
-        const arr = [...STATE_NAME_MAP]
-        return arr[Math.floor(Math.random() * arr.length)]
+    const [selectedProvinces, setSelectedProvinces] = useState<Set<string>>(
+        () => new Set(Object.keys(ID_MAP))
+    )
+
+    const pool = useMemo(() => {
+        const out: Regency[] = []
+        for (const p of selectedProvinces) {
+            for (const r of ID_MAP[p] ?? []) out.push({ province: p, name: r })
+        }
+        return out
+    }, [selectedProvinces])
+
+    function pickRandomRegency(pool: Regency[]) {
+        if (pool.length == 0) return null
+        return pool[Math.floor(Math.random() * pool.length)]
     }
 
-    const [question, setQuestion] = useState(pickRandomState())
+    const [question, setQuestion] = useState<Regency | null>(pickRandomRegency(pool))
 
-    const targetRef = useRef(question[0])
+    const targetRef = useRef(question)
     useEffect(() => {
-        targetRef.current = question[0]
+        targetRef.current = question
     }, [question])
 
     const [hovered, setHovered] = useState<string | null>(null)
@@ -30,7 +43,7 @@ export default function USStates() {
 
         const timer = setTimeout(() => {
             if (result === "correct") {
-                setQuestion(pickRandomState())
+                setQuestion(pickRandomRegency(pool))
             }
             setResult(null)
         }, 250)
@@ -51,7 +64,7 @@ export default function USStates() {
             // reset
             e.style.fill = ""
 
-            if (result === "correct" && cls === targetRef.current) {
+            if (result === "correct" && cls === targetRef.current?.name) {
                 e.style.fill = "#6bffa78c"
             } else if (result === "wrong" && cls === hovered) {
                 e.style.fill = "#f53f2fbf"
@@ -77,10 +90,10 @@ export default function USStates() {
             const el = (e.target as Element | null)?.closest?.("path,polygon") as SVGElement | null
             if (!el) return
 
-            const state = el.getAttribute("regency")
-            if (!state) return
+            const r = el.getAttribute("regency")
+            if (!r) return
 
-            setHovered(state)
+            setHovered(r)
         }
 
         function handleLeave() {
@@ -90,8 +103,8 @@ export default function USStates() {
         function handleClick(e: MouseEvent) {
             const target = e.target as SVGElement
             if (!target || target.tagName !== "path" && target.tagName !== "polygon") return
-            const stateAbbr = target.getAttribute("regency")
-            if (stateAbbr === targetRef.current) {
+            const r = target.getAttribute("regency")
+            if (r === targetRef.current?.name) {
                 setResult("correct")
             } else {
                 setResult("wrong")
@@ -117,7 +130,7 @@ export default function USStates() {
                 <h1 className="text-4xl font-bold pt-4 mb-4">Indonesia Regencies Quiz</h1>
                 <InfoButton active={isInfoOpen} onClick={ (() => setIsInfoOpen(true)) } />
             </header>
-            <QuestionCard target={ question[1] }/>
+            <QuestionCard target={ question?.name }/>
             <div className="mt-16 mx-auto w-full max-w-4xl">
                 <TransformWrapper
                     minScale={1}
