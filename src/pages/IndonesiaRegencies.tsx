@@ -5,6 +5,7 @@ import InfoButton from "../components/InfoButton"
 import InfoWindow from "../components/InfoWindow"
 import { useRef, useEffect, useState } from 'react'
 import { STATE_NAME_MAP } from "../utils/USStateData"
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch"
 
 export default function USStates() {
     const svgRef = useRef<SVGSVGElement>(null)
@@ -42,20 +43,19 @@ export default function USStates() {
         if (!svg) return
 
         svg.querySelectorAll("path, polygon").forEach(el => {
-            const cls = el.getAttribute("class")?.split(" ")[0]
+            const cls = el.getAttribute("regency")
             if (!cls) return
 
-            const state = cls.split("-")[0]
             const e = el as SVGElement
 
             // reset
             e.style.fill = ""
 
-            if (result === "correct" && state === targetRef.current) {
+            if (result === "correct" && cls === targetRef.current) {
                 e.style.fill = "#6bffa78c"
-            } else if (result === "wrong" && state === hovered) {
+            } else if (result === "wrong" && cls === hovered) {
                 e.style.fill = "#f53f2fbf"
-            } else if (!result && state === hovered) {
+            } else if (!result && cls === hovered) {
                 e.style.fill = "#b2dcf7ad"
             }
         })
@@ -66,18 +66,18 @@ export default function USStates() {
         if (!svg) return
 
         const interactiveArea = new Map<string, SVGElement>()
-        svg.querySelectorAll("path, circle").forEach(el => {
-            const cls = el.getAttribute("class")?.split(" ")[0]
+        svg.querySelectorAll("path, polygon").forEach(el => {
+            const cls = el.getAttribute("regency")
             if (cls && cls.length == 2) {
                 interactiveArea.set(cls, el as SVGElement)
             }
         })
 
         function handleEnter(e: MouseEvent) {
-            const el = (e.target as Element | null)?.closest?.("path,circle") as SVGElement | null
+            const el = (e.target as Element | null)?.closest?.("path,polygon") as SVGElement | null
             if (!el) return
 
-            const state = el.getAttribute("class")
+            const state = el.getAttribute("regency")
             if (!state) return
 
             setHovered(state)
@@ -89,9 +89,8 @@ export default function USStates() {
 
         function handleClick(e: MouseEvent) {
             const target = e.target as SVGElement
-            if (!target || target.tagName !== "path" && target.tagName !== "circle") return
-            if (target.getAttribute("class") === "separator1") return
-            const stateAbbr = target.getAttribute("class")
+            if (!target || target.tagName !== "path" && target.tagName !== "polygon") return
+            const stateAbbr = target.getAttribute("regency")
             if (stateAbbr === targetRef.current) {
                 setResult("correct")
             } else {
@@ -119,7 +118,18 @@ export default function USStates() {
                 <InfoButton active={isInfoOpen} onClick={ (() => setIsInfoOpen(true)) } />
             </header>
             <QuestionCard target={ question[1] }/>
-            <IndonesiaMap className="mx-auto mt-16 w-full max-w-4xl h-auto" ref={ svgRef }/>
+            <div className="mt-16 mx-auto w-full max-w-4xl">
+                <TransformWrapper
+                    minScale={1}
+                    maxScale={15}
+                    initialScale={1}
+                    wheel={{ step: 0.5 }}
+                    >
+                    <TransformComponent>
+                        <IndonesiaMap  className="w-full h-auto" ref={ svgRef }/>
+                    </TransformComponent>
+                </TransformWrapper>
+            </div>
             { isInfoOpen && <InfoWindow 
                 title={
                     <h2 className="text-center font-bold">Indonesia Regencies Quiz</h2>
