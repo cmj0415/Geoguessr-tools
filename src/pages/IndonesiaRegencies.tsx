@@ -9,7 +9,7 @@ import { ID_MAP } from "../utils/IDRegencyData"
 import type { Regency, ProvinceData } from "../utils/IDRegencyData"
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch"
 
-export default function USStates() {
+export default function IndonesiaRegencies() {
     const divs: Record<string, string[]> = {
         "Sumatra": ["Aceh", "North Sumatra", "West Sumatra", "Riau", "Jambi", "Bengkulu", "South Sumatra", "Lampung", "Bangka Belitung Islands", "Riau Islands"],
         "Kalimantan": ["West Kalimantan", "Central Kalimantan", "South Kalimantan", "East Kalimantan", "North Kalimantan"],

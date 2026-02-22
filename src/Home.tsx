@@ -67,6 +67,11 @@ function Home() {
                             </li>
                         </ul> 
                     </CountryCard>
+                    <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>
+                        <Link className="inline-block underline text-white" to="/ph/provinces">
+                            Province Quiz
+                        </Link>
+                    </CountryCard>
                 </div>
             </div>
         </div>
