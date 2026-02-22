@@ -63,7 +63,7 @@ export default function PhilippinesProvinces() {
         const svg = svgRef.current
         if (!svg) return
 
-        svg.querySelectorAll("path, polygon").forEach(el => {
+        svg.querySelectorAll("path").forEach(el => {
             const cls = el.getAttribute("province")
             if (!cls) return
 
@@ -87,7 +87,7 @@ export default function PhilippinesProvinces() {
         if (!svg) return
 
         const interactiveArea = new Map<string, SVGElement>()
-        svg.querySelectorAll("path, polygon").forEach(el => {
+        svg.querySelectorAll("path").forEach(el => {
             const cls = el.getAttribute("province")
             if (cls && cls.length == 2) {
                 interactiveArea.set(cls, el as SVGElement)
@@ -95,7 +95,7 @@ export default function PhilippinesProvinces() {
         })
 
         function handleEnter(e: MouseEvent) {
-            const el = (e.target as Element | null)?.closest?.("path,polygon") as SVGElement | null
+            const el = (e.target as Element | null)?.closest?.("path") as SVGElement | null
             if (!el) return
 
             const r = el.getAttribute("province")
@@ -110,7 +110,7 @@ export default function PhilippinesProvinces() {
 
         function handleClick(e: MouseEvent) {
             const target = e.target as SVGElement
-            if (!target || target.tagName !== "path" && target.tagName !== "polygon") return
+            if (!target || target.tagName !== "path") return
             const r = target.getAttribute("province")
             if (r === targetRef.current?.province) {
                 setResult("correct")
