@@ -146,16 +146,20 @@ export default function IndonesiaRegencies() {
             </header>
             <QuestionCard target={ question?.name }/>
             <div className="mt-16 mx-auto w-full max-w-5xl border-2">
-                <TransformWrapper
-                    minScale={1}
-                    maxScale={20}
-                    initialScale={2}
-                    wheel={{ step: 10 }}
-                    >
-                    <TransformComponent>
-                        <IndonesiaMap  className="w-full h-auto" ref={ svgRef }/>
-                    </TransformComponent>
-                </TransformWrapper>
+                <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">
+                    <TransformWrapper
+                        minScale={1}
+                        maxScale={20}
+                        initialScale={1}
+                        wheel={{ step: 10 }}
+                        centerOnInit
+                        limitToBounds={ false }
+                        >
+                        <TransformComponent>
+                            <IndonesiaMap  className="max-w-full max-h-full" ref={ svgRef }/>
+                        </TransformComponent>
+                    </TransformWrapper>
+                </div>
             </div>
             <QuestionSelector divisions={divs} defaultValue={ Array.from(selectedProvinces) } onChange={ setSelectedProvinces }/>
             { isInfoOpen && <InfoWindow 

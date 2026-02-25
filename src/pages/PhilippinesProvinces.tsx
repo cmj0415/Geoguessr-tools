@@ -139,17 +139,24 @@ export default function PhilippinesProvinces() {
                 <InfoButton active={isInfoOpen} onClick={ (() => setIsInfoOpen(true)) } />
             </header>
             <QuestionCard target={ question?.province }/>
-            <div className="mt-16 mx-auto w-full max-w-4xl border-2">
-                <TransformWrapper
-                    minScale={1}
-                    maxScale={20}
-                    initialScale={1}
-                    wheel={{ step: 10 }}
-                    >
-                    <TransformComponent>
-                        <PhilippinesMap  className="w-full h-auto" ref={ svgRef }/>
-                    </TransformComponent>
-                </TransformWrapper>
+            <div className="mt-16 mx-auto w-full max-w-4xl max-h-2xl border-2">
+                <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">
+                    <TransformWrapper
+                        minScale={0.5}
+                        maxScale={20}
+                        initialScale={0.5}
+                        wheel={{ step: 10 }}
+                        centerOnInit
+                        limitToBounds={ false }
+                        >
+                        <TransformComponent
+                            wrapperClass="w-full h-full flex items-center justify-center"
+                            contentClass="flex items-center justify-center"
+                        >
+                            <PhilippinesMap  className="max-w-full max-h-full" ref={ svgRef }/>
+                        </TransformComponent>
+                    </TransformWrapper>
+                </div>
             </div>
             <QuestionSelector divisions={divs} defaultValue={ Array.from(selectedGroups) } onChange={ setSelectedGroups }/>
             { isInfoOpen && <InfoWindow 
