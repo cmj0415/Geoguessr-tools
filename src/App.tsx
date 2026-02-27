@@ -5,6 +5,7 @@ import Home from './Home'
 import USStates from './pages/USStates'
 import IndonesiaRegencies from './pages/IndonesiaRegencies'
 import PhilippinesProvinces from './pages/PhilippinesProvinces'
+import BrazilCodes from './pages/BrazilCodes'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/us/states" element={<USStates />} />
       <Route path="id/kabupatens" element={<IndonesiaRegencies />} />
       <Route path="/ph/provinces" element={<PhilippinesProvinces />} />
+      <Route path="br/area-codes" element={<BrazilCodes />} />
     </Routes>
   )
 }

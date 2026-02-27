@@ -24,7 +24,7 @@ function Home() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
                     <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
-                        <Link className="inline-block underline text-white" to="/br/area-code">
+                        <Link className="inline-block underline text-white" to="/br/area-codes">
                             Area Code Quiz
                         </Link>
                     </CountryCard>
@@ -42,13 +42,13 @@ function Home() {
                     </CountryCard>
 
                     <CountryCard countryName="Japan" flag={<span>🇯🇵</span>}>
-                        <Link className="inline-block underline text-white" to="/jp/prefecture">
+                        <Link className="inline-block underline text-white" to="/jp/prefectures">
                             Prefecture Quiz
                         </Link>
                     </CountryCard>
 
                     <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
-                        <Link className="inline-block underline text-white" to="/mx/postal-code">
+                        <Link className="inline-block underline text-white" to="/mx/postal-codes">
                             Postal Code Quiz
                         </Link>
                     </CountryCard>
@@ -56,7 +56,7 @@ function Home() {
                     <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
                         <ul>
                             <li>
-                                <Link className="inline-block underline text-white" to="/us/area-code">
+                                <Link className="inline-block underline text-white" to="/us/area-codes">
                                     Area Code Quiz
                                 </Link>
                             </li>
