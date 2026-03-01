@@ -35,7 +35,7 @@ export default function USCodes() {
                 <h1 className="text-4xl font-bold pt-4 mb-4">US Area Codes Quiz</h1>
                 <InfoButton active={isInfoOpen} onClick={ (() => setIsInfoOpen(true)) } />
             </header>
-            <div className="mt-16 mx-auto w-full max-w-4xl max-h-[70vh] border-2">
+            <div className="mt-16 mx-auto w-full max-w-4xl max-h-[70vh] border-2 z-0">
                 <MapContainer center={[37.8, -96]} zoom={4} scrollWheelZoom={true} style={{ height: '70vh' }}>
                     <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -59,6 +59,22 @@ export default function USCodes() {
                     )}
                 </MapContainer>
             </div>
+            { isInfoOpen && <InfoWindow 
+                title={
+                    <h2 className="text-center font-bold">US Area Codes Quiz</h2>
+                }
+                content={
+                    <div className="text-justify">
+                        <p>
+                            This practice contains every area codes of the US territories, including Puerto Rico, Guam, and NMI.
+                        </p>
+                        <p className="mt-4">
+                            You can choose the range of codes that you want to practice. This page is still under progress, so not all codes are available. It might take me a month or two to draw all the divisions lol. 
+                        </p>
+                    </div>
+                } 
+                onClose={ (() => setIsInfoOpen(false)) }
+            />}
         </div>
     )
 }

@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
+
 type InfoWindowProps = {
     onClose: () => void,
     title?: React.ReactNode,
@@ -19,9 +21,9 @@ export default function InfoWindow({ onClose, title, content }: InfoWindowProps)
         }
     }, [onClose])
 
-    return (
-        <div className="fixed flex inset-0 bg-[#0000007f] items-center justify-center">   
-            <div className="bg-black text-white rounded-xl w-full max-w-xl p-3 border-2 border-white z-10">
+    return createPortal(
+        <div className="fixed flex inset-0 bg-[#0000007f] items-center justify-center z-9999">   
+            <div className="bg-black text-white rounded-xl w-full max-w-xl p-3 border-2 border-white">
                 <div className="text-center text-xl m-2">
                     { title }
                 </div>
@@ -29,10 +31,11 @@ export default function InfoWindow({ onClose, title, content }: InfoWindowProps)
                 <div className="text-justify text-base m-3">
                     { content }
                 </div>
-                <p className="text-gray-600">
+                <p className="text-gray-600 text-center">
                     Press esc to close
                 </p>
             </div>
-        </div>
+        </div>,
+        document.body
     )
 }
