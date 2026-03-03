@@ -1,5 +1,5 @@
 type QuestionCardProps = {
-    target?: string;
+    target: string | null;
 }
 export default function QuestionCard({ target = "" }: QuestionCardProps) {
     return (
