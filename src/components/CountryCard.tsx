@@ -1,33 +1,35 @@
-import React from "react";
+import React from 'react'
 
 type CountryCardProps = {
-  countryName: string;
-  flag?: React.ReactNode;
-  children?: React.ReactNode;
-  className?: string;
-};
+  countryName: string
+  flag?: React.ReactNode
+  children?: React.ReactNode
+  className?: string
+}
 
 export function CountryCard({
   countryName,
   flag,
   children,
-  className = "",
+  className = '',
 }: CountryCardProps) {
   return (
     <section
       className={[
-        "group relative border-2 border-white/70 bg-inherit rounded-xl",
-        "transition-colors duration-200 hover:border-blue-800",
-        "p-6 pt-10",
+        'group relative border-2 border-white/70 bg-inherit rounded-xl',
+        'transition-colors duration-200 hover:border-blue-800',
+        'p-6 pt-10',
         className,
-      ].join(" ")}
+      ].join(' ')}
     >
-      <div className="
+      <div
+        className="
         absolute left-4 top-0 -translate-y-1/2 rounded-lg
         bg-slate-900 group-hover:bg-blue-800
         px-3 py-2 text-xl  
         transition-colors duration-200
-      ">
+      "
+      >
         <div className="flex items-center gap-2">
           <div className="h-7 w-7 bg-inherit flex items-center justify-center">
             {flag ?? null}
@@ -40,5 +42,5 @@ export function CountryCard({
 
       <div className="space-y-3">{children}</div>
     </section>
-  );
+  )
 }

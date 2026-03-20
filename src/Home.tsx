@@ -1,81 +1,97 @@
 import { CountryCard } from './components/CountryCard.tsx'
 import { Link } from 'react-router-dom'
+import NavBar from './components/NavBar.tsx'
+import Header from './components/Header.tsx'
 function Home() {
-    return (
-        <div className="relative min-h-screen bg-slate-900">
+  return (
+    <div className="relative min-h-screen bg-slate-900">
+      <Header
+        navbar={<NavBar />}
+        title="Welcome to GeoGuessr Quizzes"
+        bgUrl="/src/assets/bg1.png"
+      />
 
-            {/* background image */}
-            <div
-                className="absolute inset-0 bg-cover bg-center z-0 h-[30vh]"
-                style={{ backgroundImage: "url('/src/assets/bg1.png')" }}
-            />
-
-            {/* fade transition */}
-            <div className="
-                absolute top-0 left-0 w-full h-[30vh]
-                bg-linear-to-b from-transparent to-slate-900
-            " />
-
-            {/* content */}
-            <div className="relative z-10 mx-20">
-                <div className="flex flex-col items-center pt-16 mb-24 text-center">
+      {/* content */}
+      <div className="relative z-10 mx-20">
+        {/* <div className="flex flex-col items-center pt-16 mb-24 text-center">
                     <h1 className="text-4xl font-bold mt-4 mb-4">Welcome to GeoGuessr Quizzes</h1>
                     <p className="text-lg text-gray-400">Master your knowledge of the globe</p>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
-                    <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
-                        <Link className="inline-block underline text-white" to="/br/area-codes">
-                            Area Code Quiz
-                        </Link>
-                    </CountryCard>
+                </div> */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+          <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
+            <Link
+              className="inline-block underline text-white"
+              to="/br/area-codes"
+            >
+              Area Code Quiz
+            </Link>
+          </CountryCard>
 
-                    <CountryCard countryName="India" flag={<span>🇮🇳</span>}>
-                        <Link className="inline-block underline text-white" to="/in/states">
-                            States Quiz
-                        </Link>
-                    </CountryCard>
+          <CountryCard countryName="India" flag={<span>🇮🇳</span>}>
+            <Link className="inline-block underline text-white" to="/in/states">
+              States Quiz
+            </Link>
+          </CountryCard>
 
-                    <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
-                        <Link className="inline-block underline text-white" to="/id/kabupatens">
-                            Kabupatens Quiz
-                        </Link>
-                    </CountryCard>
+          <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
+            <Link
+              className="inline-block underline text-white"
+              to="/id/kabupatens"
+            >
+              Kabupatens Quiz
+            </Link>
+          </CountryCard>
 
-                    <CountryCard countryName="Japan" flag={<span>🇯🇵</span>}>
-                        <Link className="inline-block underline text-white" to="/jp/prefectures">
-                            Prefecture Quiz
-                        </Link>
-                    </CountryCard>
+          <CountryCard countryName="Japan" flag={<span>🇯🇵</span>}>
+            <Link
+              className="inline-block underline text-white"
+              to="/jp/prefectures"
+            >
+              Prefecture Quiz
+            </Link>
+          </CountryCard>
 
-                    <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
-                        <Link className="inline-block underline text-white" to="/mx/postal-codes">
-                            Postal Code Quiz
-                        </Link>
-                    </CountryCard>
+          <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
+            <Link
+              className="inline-block underline text-white"
+              to="/mx/postal-codes"
+            >
+              Postal Code Quiz
+            </Link>
+          </CountryCard>
 
-                    <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
-                        <ul>
-                            <li>
-                                <Link className="inline-block underline text-white" to="/us/area-codes">
-                                    Area Code Quiz
-                                </Link>
-                            </li>
-                            <li>
-                                <Link className="inline-block underline text-white" to="/us/states">
-                                    States Quiz
-                                </Link>
-                            </li>
-                        </ul> 
-                    </CountryCard>
-                    <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>
-                        <Link className="inline-block underline text-white" to="/ph/provinces">
-                            Province Quiz
-                        </Link>
-                    </CountryCard>
-                </div>
-            </div>
+          <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
+            <ul>
+              <li>
+                <Link
+                  className="inline-block underline text-white"
+                  to="/us/area-codes"
+                >
+                  Area Code Quiz
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="inline-block underline text-white"
+                  to="/us/states"
+                >
+                  States Quiz
+                </Link>
+              </li>
+            </ul>
+          </CountryCard>
+          <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>
+            <Link
+              className="inline-block underline text-white"
+              to="/ph/provinces"
+            >
+              Province Quiz
+            </Link>
+          </CountryCard>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 export default Home

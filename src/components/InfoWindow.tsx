@@ -1,41 +1,39 @@
-import { useEffect } from 'react';
-import { createPortal } from 'react-dom';
+import { useEffect } from 'react'
+import { createPortal } from 'react-dom'
 
 type InfoWindowProps = {
-    onClose: () => void,
-    title?: React.ReactNode,
-    content?: React.ReactNode
+  onClose: () => void
+  title?: React.ReactNode
+  content?: React.ReactNode
 }
-export default function InfoWindow({ onClose, title, content }: InfoWindowProps) {
-    useEffect(() => {
-        const handleKeyDown = (e: KeyboardEvent) => {
-            if (e.key === "Escape") {
-                onClose()
-            }
-        }
+export default function InfoWindow({
+  onClose,
+  title,
+  content,
+}: InfoWindowProps) {
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose()
+      }
+    }
 
-        window.addEventListener("keydown", handleKeyDown)
+    window.addEventListener('keydown', handleKeyDown)
 
-        return () => {
-            window.removeEventListener("keydown", handleKeyDown)
-        }
-    }, [onClose])
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [onClose])
 
-    return createPortal(
-        <div className="fixed flex inset-0 bg-[#0000007f] items-center justify-center z-9999">   
-            <div className="bg-black text-white rounded-xl w-full max-w-xl p-3 border-2 border-white">
-                <div className="text-center text-xl m-2">
-                    { title }
-                </div>
-                <hr></hr>
-                <div className="text-justify text-base m-3">
-                    { content }
-                </div>
-                <p className="text-gray-600 text-center">
-                    Press esc to close
-                </p>
-            </div>
-        </div>,
-        document.body
-    )
+  return createPortal(
+    <div className="fixed flex inset-0 bg-[#0000007f] items-center justify-center z-9999">
+      <div className="bg-black text-white rounded-xl w-full max-w-xl p-3 border-2 border-white">
+        <div className="text-center text-xl m-2">{title}</div>
+        <hr></hr>
+        <div className="text-justify text-base m-3">{content}</div>
+        <p className="text-gray-600 text-center">Press esc to close</p>
+      </div>
+    </div>,
+    document.body
+  )
 }
