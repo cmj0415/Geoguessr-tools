@@ -196,7 +196,7 @@ export default function IndonesiaRegencies() {
         </h1>
         <InfoButton active={isInfoOpen} onClick={() => setIsInfoOpen(true)} />
       </header>
-      <QuestionCard target={question!.name} />
+      <QuestionCard target={question ? question.name : null} />
       <div className="mt-16 mx-auto w-full max-w-5xl border-2">
         <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">
           <TransformWrapper

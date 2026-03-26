@@ -164,7 +164,7 @@ export default function BrazilCodes() {
         }
         bgUrl="/src/assets/bg1.png"
       />
-      <QuestionCard target={question!.code} />
+      <QuestionCard target={question ? question.code : null} />
       <div className="mt-16 mx-auto w-full max-w-4xl max-h-2xl border-2">
         <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">
           <TransformWrapper
