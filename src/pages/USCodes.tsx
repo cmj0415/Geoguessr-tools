@@ -114,6 +114,9 @@ export default function USCodes() {
 
   const [question, setQuestion] = useState<string | null>(null)
   const qref = useRef<string | null>(null)
+  useEffect(() => {
+    setQuestion(pickRandomArea(pool, correctRef.current, revisedRef.current))
+  }, [])
 
   const onRestartClicked = () => {
     const emptyCorrect = new Set<string>()
