@@ -1,154 +1,154 @@
-import React from "react";
-import BrazilMap from "../assets/br-code-map.svg?react";
-import QuestionCard from "../components/QuestionCard";
-import InfoButton from "../components/InfoButton";
-import InfoWindow from "../components/InfoWindow";
-import { QuestionSelector } from "../components/QuestionSelector";
-import { useRef, useEffect, useState, useMemo } from "react";
-import { BR_MAP } from "../utils/BRCodeData";
-import type { Area, AreaData } from "../utils/BRCodeData";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import NavBar from "../components/NavBar.tsx";
-import Header from "../components/Header.tsx";
+import React from 'react'
+import BrazilMap from '../assets/br-code-map.svg?react'
+import QuestionCard from '../components/QuestionCard'
+import InfoButton from '../components/InfoButton'
+import InfoWindow from '../components/InfoWindow'
+import { QuestionSelector } from '../components/QuestionSelector'
+import { useRef, useEffect, useState, useMemo } from 'react'
+import { BR_MAP } from '../utils/BRCodeData'
+import type { Area, AreaData } from '../utils/BRCodeData'
+import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
+import NavBar from '../components/NavBar.tsx'
+import Header from '../components/Header.tsx'
 
 export default function BrazilCodes() {
   const divs: Record<string, string[]> = {
-    "Code Groups": [
-      "10s",
-      "20s",
-      "30s",
-      "40s",
-      "50s",
-      "60s",
-      "70s",
-      "80s",
-      "90s",
+    'Code Groups': [
+      '10s',
+      '20s',
+      '30s',
+      '40s',
+      '50s',
+      '60s',
+      '70s',
+      '80s',
+      '90s',
     ],
-  };
-  const svgRef = useRef<SVGSVGElement>(null);
+  }
+  const svgRef = useRef<SVGSVGElement>(null)
 
   const [selectedGroups, setSelectedGroups] = useState<Set<string>>(
-    () => new Set(Object.keys(BR_MAP)),
-  );
+    () => new Set(Object.keys(BR_MAP))
+  )
 
   const pool = useMemo(() => {
-    const out: Area[] = [];
+    const out: Area[] = []
     for (const p of selectedGroups) {
-      for (const r of BR_MAP[p] ?? []) out.push({ group: p, code: r });
+      for (const r of BR_MAP[p] ?? []) out.push({ group: p, code: r })
     }
-    return out;
-  }, [selectedGroups]);
+    return out
+  }, [selectedGroups])
 
   useEffect(() => {
-    setQuestion(pickRandomArea(pool));
-  }, [pool]);
+    setQuestion(pickRandomArea(pool))
+  }, [pool])
 
   function pickRandomArea(pool: Area[]) {
-    if (pool.length == 0) return null;
-    return pool[Math.floor(Math.random() * pool.length)];
+    if (pool.length == 0) return null
+    return pool[Math.floor(Math.random() * pool.length)]
   }
 
-  const [question, setQuestion] = useState<Area | null>(pickRandomArea(pool));
+  const [question, setQuestion] = useState<Area | null>(pickRandomArea(pool))
 
-  const targetRef = useRef(question);
+  const targetRef = useRef(question)
   useEffect(() => {
-    targetRef.current = question;
-  }, [question]);
+    targetRef.current = question
+  }, [question])
 
-  const [hovered, setHovered] = useState<string | null>(null);
-  const [result, setResult] = useState<"correct" | "wrong" | null>(null);
+  const [hovered, setHovered] = useState<string | null>(null)
+  const [result, setResult] = useState<'correct' | 'wrong' | null>(null)
 
   useEffect(() => {
-    if (!result) return;
+    if (!result) return
 
     const timer = setTimeout(() => {
-      if (result === "correct") {
-        setQuestion(pickRandomArea(pool));
+      if (result === 'correct') {
+        setQuestion(pickRandomArea(pool))
       }
-      setResult(null);
-    }, 250);
+      setResult(null)
+    }, 250)
 
-    return () => clearTimeout(timer);
-  }, [result]);
+    return () => clearTimeout(timer)
+  }, [result])
 
   useEffect(() => {
-    const svg = svgRef.current;
-    if (!svg) return;
+    const svg = svgRef.current
+    if (!svg) return
 
-    svg.querySelectorAll("path, polygon").forEach((el) => {
-      const cls = el.getAttribute("code");
-      if (!cls) return;
+    svg.querySelectorAll('path, polygon').forEach((el) => {
+      const cls = el.getAttribute('code')
+      if (!cls) return
 
-      const e = el as SVGElement;
+      const e = el as SVGElement
 
       // reset
-      e.style.fill = "";
+      e.style.fill = ''
 
-      if (result === "correct" && cls === targetRef.current?.code) {
-        e.style.fill = "#6bffa78c";
-      } else if (result === "wrong" && cls === hovered) {
-        e.style.fill = "#f53f2fbf";
+      if (result === 'correct' && cls === targetRef.current?.code) {
+        e.style.fill = '#6bffa78c'
+      } else if (result === 'wrong' && cls === hovered) {
+        e.style.fill = '#f53f2fbf'
       } else if (!result && cls === hovered) {
-        e.style.fill = "#b2dcf7ad";
+        e.style.fill = '#b2dcf7ad'
       }
-    });
-  }, [hovered, result]);
+    })
+  }, [hovered, result])
 
   useEffect(() => {
-    const svg = svgRef.current;
-    if (!svg) return;
+    const svg = svgRef.current
+    if (!svg) return
 
-    const interactiveArea = new Map<string, SVGElement>();
-    svg.querySelectorAll("path, polygon").forEach((el) => {
-      const cls = el.getAttribute("code");
+    const interactiveArea = new Map<string, SVGElement>()
+    svg.querySelectorAll('path, polygon').forEach((el) => {
+      const cls = el.getAttribute('code')
       if (cls && cls.length == 2) {
-        interactiveArea.set(cls, el as SVGElement);
+        interactiveArea.set(cls, el as SVGElement)
       }
-    });
+    })
 
     function handleEnter(e: MouseEvent) {
       const el = (e.target as Element | null)?.closest?.(
-        "path, polygon",
-      ) as SVGElement | null;
-      if (!el) return;
+        'path, polygon'
+      ) as SVGElement | null
+      if (!el) return
 
-      const r = el.getAttribute("code");
-      if (!r) return;
+      const r = el.getAttribute('code')
+      if (!r) return
 
-      setHovered(r);
+      setHovered(r)
     }
 
     function handleLeave() {
-      setHovered(null);
+      setHovered(null)
     }
 
     function handleClick(e: MouseEvent) {
-      const target = e.target as SVGElement;
+      const target = e.target as SVGElement
       if (
         !target ||
-        (target.tagName !== "path" && target.tagName !== "polygon")
+        (target.tagName !== 'path' && target.tagName !== 'polygon')
       )
-        return;
-      const r = target.getAttribute("code");
+        return
+      const r = target.getAttribute('code')
       if (r === targetRef.current?.code) {
-        setResult("correct");
+        setResult('correct')
       } else {
-        setResult("wrong");
+        setResult('wrong')
       }
     }
 
-    svg.addEventListener("mouseover", handleEnter);
-    svg.addEventListener("mouseout", handleLeave);
-    svg.addEventListener("click", handleClick);
+    svg.addEventListener('mouseover', handleEnter)
+    svg.addEventListener('mouseout', handleLeave)
+    svg.addEventListener('click', handleClick)
 
     return () => {
-      svg.removeEventListener("mouseover", handleEnter);
-      svg.removeEventListener("mouseout", handleLeave);
-      svg.removeEventListener("click", handleClick);
-    };
-  }, []);
+      svg.removeEventListener('mouseover', handleEnter)
+      svg.removeEventListener('mouseout', handleLeave)
+      svg.removeEventListener('click', handleClick)
+    }
+  }, [])
 
-  const [isInfoOpen, setIsInfoOpen] = useState(false);
+  const [isInfoOpen, setIsInfoOpen] = useState(false)
 
   return (
     <div className="relative min-h-screen bg-slate-900">
@@ -206,5 +206,5 @@ export default function BrazilCodes() {
         />
       )}
     </div>
-  );
+  )
 }

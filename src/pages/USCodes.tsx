@@ -48,10 +48,19 @@ export default function USCodes() {
     }
   }
 
-  function wrongStyle() {
+  function revisedStyle() {
     return {
       color: '#ff0000',
       fillColor: '#ff0000',
+      weight: 3,
+      fillOpacity: 0.5,
+    }
+  }
+
+  function hintedStyle() {
+    return {
+      color: '#ffff00',
+      fillColor: '#ffff00',
       weight: 3,
       fillOpacity: 0.5,
     }
@@ -69,9 +78,31 @@ export default function USCodes() {
     return out
   }, [selectedGroups])
 
-  function pickRandomArea(pool: string[]) {
-    if (pool.length == 0) return null
-    const q = pool[Math.floor(Math.random() * pool.length)]
+  const [correct, setCorrect] = useState<Set<string>>(new Set())
+  const [revised, setRevised] = useState<Set<string>>(new Set())
+  const [hinted, setHinted] = useState<string | null>(null)
+
+  const correctRef = useRef<Set<string>>(new Set())
+  const revisedRef = useRef<Set<string>>(new Set())
+  const hintedRef = useRef<string | null>(null)
+  useEffect(() => {
+    correctRef.current = correct
+  }, [correct])
+  useEffect(() => {
+    revisedRef.current = revised
+  }, [revised])
+  useEffect(() => {
+    hintedRef.current = hinted
+  }, [hinted])
+
+  function pickRandomArea(
+    pool: string[],
+    correct: Set<string>,
+    revised: Set<string>
+  ) {
+    const candidates = pool.filter((e) => !correct.has(e) && !revised.has(e))
+    if (candidates.length == 0) return null
+    const q = candidates[Math.floor(Math.random() * candidates.length)]
     return q
   }
 
@@ -83,35 +114,45 @@ export default function USCodes() {
 
   const [question, setQuestion] = useState<string | null>(null)
   const qref = useRef<string | null>(null)
-  const [result, setResult] = useState<'correct' | 'wrong' | null>(null)
-  const [highlightCode, setHighlightCode] = useState<string | null>(null)
-  const [highlightKind, setHighlightKind] = useState<
-    'correct' | 'wrong' | null
-  >(null)
 
   const onRestartClicked = () => {
-    setQuestion(pickRandomArea(pool))
+    const emptyCorrect = new Set<string>()
+    const emptyRevised = new Set<string>()
+    setCorrect(emptyCorrect)
+    setRevised(emptyRevised)
+    setHinted(null)
+    setQuestion(pickRandomArea(pool, emptyCorrect, emptyRevised))
   }
 
   useEffect(() => {
     qref.current = question
   }, [question])
 
-  const styleByState = (feature: any) => {
-    const code = feature.properties.code
-
-    if (highlightCode && code === highlightCode) {
-      if (highlightKind === 'correct') return correctStyle()
-      if (highlightKind === 'wrong') return wrongStyle()
+  const getCodes = (rawCode: any): string[] => {
+  if (typeof rawCode === "string") {
+    try {
+      return JSON.parse(rawCode).map(String)
+    } catch {
+      return [rawCode.trim()]
     }
-
-    return defaultStyle()
   }
+  return [String(rawCode)]
+}
+
+const styleByState = (feature: any) => {
+  const codes = getCodes(feature.properties.code)
+
+  if (codes.some((c) => correctRef.current.has(c))) return correctStyle()
+  if (codes.some((c) => revisedRef.current.has(c))) return revisedStyle()
+  if (hintedRef.current && codes.includes(hintedRef.current)) return hintedStyle()
+
+  return defaultStyle()
+}
 
   const geoRef = useRef<L.GeoJSON | null>(null)
   useEffect(() => {
-    geoRef.current?.resetStyle()
-  }, [highlightCode, highlightKind])
+    geoRef.current?.setStyle(styleByState)
+  }, [correct, revised, hinted])
 
   return (
     <div className="relative min-h-screen bg-slate-900">
@@ -149,17 +190,19 @@ export default function USCodes() {
               onEachFeature={(feature, layer) => {
                 layer.on({
                   mouseover: (e) => {
+                    const code = feature.properties.code
                     if (
-                      highlightCode &&
-                      feature.properties.code === highlightCode
+                      correctRef.current.has(code) ||
+                      revisedRef.current.has(code)
                     )
                       return
                     e.target.setStyle(hoverStyle())
                   },
                   mouseout: (e) => {
+                    const code = feature.properties.code
                     if (
-                      highlightCode &&
-                      feature.properties.code === highlightCode
+                      correctRef.current.has(code) ||
+                      revisedRef.current.has(code)
                     )
                       return
                     geoRef.current?.resetStyle(e.target)
@@ -167,9 +210,23 @@ export default function USCodes() {
                   click: (e) => {
                     const code = feature.properties.code
                     if (matching(code)) {
-                      e.target.setStyle(correctStyle())
-                      setQuestion(pickRandomArea(pool))
+                      setQuestion(pickRandomArea(pool, correctRef.current, revisedRef.current))
+                      if (hintedRef.current === qref.current) {
+                        setHinted(null)
+                        setRevised((prev) => {
+                          const next = new Set(prev)
+                          next.add(qref.current || '')
+                          return next
+                        })
+                      } else {
+                        setCorrect((prev) => {
+                          const next = new Set(prev)
+                          next.add(qref.current || '')
+                          return next
+                        })
+                      }
                     } else {
+                      setHinted(qref.current || '')
                     }
                   },
                 })
