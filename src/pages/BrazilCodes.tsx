@@ -152,18 +152,18 @@ export default function BrazilCodes() {
 
   return (
     <div className="relative min-h-screen bg-slate-900">
-      {/* <header className="relative">
-                <h1 className="text-4xl font-bold pt-4 mb-4">Brazil Area Quiz</h1>
-                <InfoButton active={isInfoOpen} onClick={ (() => setIsInfoOpen(true)) } />
-            </header> */}
-      <Header
-        navbar={<NavBar />}
-        title="Brazil Area Code Quiz"
-        infobutton={
-          <InfoButton active={isInfoOpen} onClick={() => setIsInfoOpen(true)} />
-        }
-        bgUrl="/src/assets/bg1.png"
-      />
+      <header className="relative">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
+          <div />
+          <h1 className="text-4xl font-bold pt-4 mb-4">Brazil Codes Quiz</h1>
+          <div className="justify-self-end">
+            <InfoButton
+              active={isInfoOpen}
+              onClick={() => setIsInfoOpen(true)}
+            />
+          </div>
+        </div>
+      </header>
       <QuestionCard target={question ? question.code : null} />
       <div className="mt-16 mx-auto w-full max-w-4xl max-h-2xl border-2">
         <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">

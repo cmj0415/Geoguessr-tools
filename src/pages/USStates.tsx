@@ -118,8 +118,16 @@ export default function USStates() {
   return (
     <div className="relative min-h-screen bg-slate-900">
       <header className="relative">
-        <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
-        <InfoButton active={isInfoOpen} onClick={() => setIsInfoOpen(true)} />
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
+          <div />
+          <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
+          <div className="justify-self-end">
+            <InfoButton
+              active={isInfoOpen}
+              onClick={() => setIsInfoOpen(true)}
+            />
+          </div>
+        </div>
       </header>
       <QuestionCard target={question[1]} />
       <USMap className="mx-auto mt-16 w-full max-w-4xl h-auto" ref={svgRef} />

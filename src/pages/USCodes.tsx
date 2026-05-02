@@ -5,6 +5,8 @@ import QuestionCard from '../components/QuestionCard'
 import Button from '../components/Button'
 import InfoButton from '../components/InfoButton'
 import InfoWindow from '../components/InfoWindow'
+import Header from '../components/Header'
+import NavBar from '../components/NavBar'
 import { US_CODE_MAP } from '../utils/USAreaCodeData'
 
 export default function USCodes() {
@@ -142,8 +144,16 @@ export default function USCodes() {
   return (
     <div className="relative min-h-screen bg-slate-900">
       <header className="relative">
-        <h1 className="text-4xl font-bold pt-4 mb-4">US Area Codes Quiz</h1>
-        <InfoButton active={isInfoOpen} onClick={() => setIsInfoOpen(true)} />
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
+          <div />
+          <h1 className="text-4xl font-bold pt-4 mb-4">US Area Codes Quiz</h1>
+          <div className="justify-self-end">
+            <InfoButton
+              active={isInfoOpen}
+              onClick={() => setIsInfoOpen(true)}
+            />
+          </div>
+        </div>
       </header>
       <QuestionCard target={question} />
       <div className="mt-16 mx-auto w-full max-w-4xl max-h-[70vh] border-2 z-0">
