@@ -48,15 +48,6 @@ export default function USCodes() {
     }
   }
 
-  function revisedStyle() {
-    return {
-      color: '#ff0000',
-      fillColor: '#ff0000',
-      weight: 3,
-      fillOpacity: 0.5,
-    }
-  }
-
   function hintedStyle() {
     return {
       color: '#ffff00',
@@ -78,31 +69,20 @@ export default function USCodes() {
     return out
   }, [selectedGroups])
 
-  const [correct, setCorrect] = useState<Set<string>>(new Set())
-  const [revised, setRevised] = useState<Set<string>>(new Set())
+  const [correct, setCorrect] = useState<string | null>(null)
   const [hinted, setHinted] = useState<string | null>(null)
 
-  const correctRef = useRef<Set<string>>(new Set())
-  const revisedRef = useRef<Set<string>>(new Set())
+  const correctRef = useRef<string | null>(null)
   const hintedRef = useRef<string | null>(null)
   useEffect(() => {
     correctRef.current = correct
   }, [correct])
   useEffect(() => {
-    revisedRef.current = revised
-  }, [revised])
-  useEffect(() => {
     hintedRef.current = hinted
   }, [hinted])
 
-  function pickRandomArea(
-    pool: string[],
-    correct: Set<string>,
-    revised: Set<string>
-  ) {
-    const candidates = pool.filter((e) => !correct.has(e) && !revised.has(e))
-    if (candidates.length == 0) return null
-    const q = candidates[Math.floor(Math.random() * candidates.length)]
+  function pickRandomArea(pool: string[]) {
+    const q = pool[Math.floor(Math.random() * pool.length)]
     return q
   }
 
@@ -115,47 +95,49 @@ export default function USCodes() {
   const [question, setQuestion] = useState<string | null>(null)
   const qref = useRef<string | null>(null)
   useEffect(() => {
-    setQuestion(pickRandomArea(pool, correctRef.current, revisedRef.current))
+    setQuestion(pickRandomArea(pool))
   }, [])
-
-  const onRestartClicked = () => {
-    const emptyCorrect = new Set<string>()
-    const emptyRevised = new Set<string>()
-    setCorrect(emptyCorrect)
-    setRevised(emptyRevised)
-    setHinted(null)
-    setQuestion(pickRandomArea(pool, emptyCorrect, emptyRevised))
-  }
 
   useEffect(() => {
     qref.current = question
   }, [question])
 
   const getCodes = (rawCode: any): string[] => {
-  if (typeof rawCode === "string") {
-    try {
-      return JSON.parse(rawCode).map(String)
-    } catch {
-      return [rawCode.trim()]
+    if (typeof rawCode === 'string') {
+      try {
+        return JSON.parse(rawCode).map(String)
+      } catch {
+        return [rawCode.trim()]
+      }
     }
+    return [String(rawCode)]
   }
-  return [String(rawCode)]
-}
 
-const styleByState = (feature: any) => {
-  const codes = getCodes(feature.properties.code)
+  useEffect(() => {
+    if (!correct) return
 
-  if (codes.some((c) => correctRef.current.has(c))) return correctStyle()
-  if (codes.some((c) => revisedRef.current.has(c))) return revisedStyle()
-  if (hintedRef.current && codes.includes(hintedRef.current)) return hintedStyle()
+    const timer = setTimeout(() => {
+      setQuestion(pickRandomArea(pool))
+      setCorrect(null)
+    }, 500)
 
-  return defaultStyle()
-}
+    return () => clearTimeout(timer)
+  }, [correct])
+
+  const styleByState = (feature: any) => {
+    const codes = getCodes(feature.properties.code)
+    if (hintedRef.current && codes.includes(hintedRef.current))
+      return hintedStyle()
+    if (!correct) return defaultStyle()
+    if (codes.includes(correct)) return correctStyle()
+
+    return defaultStyle()
+  }
 
   const geoRef = useRef<L.GeoJSON | null>(null)
   useEffect(() => {
     geoRef.current?.setStyle(styleByState)
-  }, [correct, revised, hinted])
+  }, [correct, hinted])
 
   return (
     <div className="relative min-h-screen bg-slate-900">
@@ -164,15 +146,6 @@ const styleByState = (feature: any) => {
         <InfoButton active={isInfoOpen} onClick={() => setIsInfoOpen(true)} />
       </header>
       <QuestionCard target={question} />
-      <Button
-        className="
-                bg-slate-900 border border-fuchsia-900 rounded-2xl
-                max-w-4xl inline-block ml-4 px-4 py-2
-                hover:bg-fuchsia-900
-                "
-        content="Restart"
-        onClick={onRestartClicked}
-      />
       <div className="mt-16 mx-auto w-full max-w-4xl max-h-[70vh] border-2 z-0">
         <MapContainer
           center={[37.8, -96]}
@@ -195,8 +168,8 @@ const styleByState = (feature: any) => {
                   mouseover: (e) => {
                     const code = feature.properties.code
                     if (
-                      correctRef.current.has(code) ||
-                      revisedRef.current.has(code)
+                      correctRef.current &&
+                      getCodes(code).includes(correctRef.current)
                     )
                       return
                     e.target.setStyle(hoverStyle())
@@ -204,8 +177,8 @@ const styleByState = (feature: any) => {
                   mouseout: (e) => {
                     const code = feature.properties.code
                     if (
-                      correctRef.current.has(code) ||
-                      revisedRef.current.has(code)
+                      correctRef.current &&
+                      getCodes(code).includes(correctRef.current)
                     )
                       return
                     geoRef.current?.resetStyle(e.target)
@@ -213,21 +186,9 @@ const styleByState = (feature: any) => {
                   click: (e) => {
                     const code = feature.properties.code
                     if (matching(code)) {
-                      setQuestion(pickRandomArea(pool, correctRef.current, revisedRef.current))
-                      if (hintedRef.current === qref.current) {
-                        setHinted(null)
-                        setRevised((prev) => {
-                          const next = new Set(prev)
-                          next.add(qref.current || '')
-                          return next
-                        })
-                      } else {
-                        setCorrect((prev) => {
-                          const next = new Set(prev)
-                          next.add(qref.current || '')
-                          return next
-                        })
-                      }
+                      setQuestion(pickRandomArea(pool))
+                      setHinted(null)
+                      setCorrect(qref.current)
                     } else {
                       setHinted(qref.current || '')
                     }
