@@ -2,11 +2,8 @@ import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet'
 import { useState, useEffect, useMemo, useRef } from 'react'
 import type L from 'leaflet'
 import QuestionCard from '../components/QuestionCard'
-import Button from '../components/Button'
 import InfoButton from '../components/InfoButton'
 import InfoWindow from '../components/InfoWindow'
-import Header from '../components/Header'
-import NavBar from '../components/NavBar'
 import { US_CODE_MAP } from '../utils/USAreaCodeData'
 
 export default function USCodes() {
@@ -22,6 +19,7 @@ export default function USCodes() {
       .then(setGeoData)
   }, [])
 
+  /* area styles */
   function defaultStyle() {
     return {
       color: '#0000ff',
@@ -59,6 +57,10 @@ export default function USCodes() {
     }
   }
 
+  /* 
+    pool: set from selectedGroups
+    pickRandomArea: select a question from pool
+  */
   const [selectedGroups, setSelectedGroups] = useState<Set<string>>(
     () => new Set(Object.keys(US_CODE_MAP))
   )
@@ -71,6 +73,15 @@ export default function USCodes() {
     return out
   }, [selectedGroups])
 
+  function pickRandomArea(pool: string[]) {
+    const q = pool[Math.floor(Math.random() * pool.length)]
+    return q
+  }
+
+  /*
+    correct: set to current question if clicked correctly
+    hinted: set to current question if clicked incorrectly
+  */
   const [correct, setCorrect] = useState<string | null>(null)
   const [hinted, setHinted] = useState<string | null>(null)
 
@@ -83,27 +94,10 @@ export default function USCodes() {
     hintedRef.current = hinted
   }, [hinted])
 
-  function pickRandomArea(pool: string[]) {
-    const q = pool[Math.floor(Math.random() * pool.length)]
-    return q
-  }
-
-  function matching(code?: string) {
-    if (!code) return false
-    const arr = JSON.parse(code)
-    return arr.includes(Number(qref.current))
-  }
-
-  const [question, setQuestion] = useState<string | null>(null)
-  const qref = useRef<string | null>(null)
-  useEffect(() => {
-    setQuestion(pickRandomArea(pool))
-  }, [])
-
-  useEffect(() => {
-    qref.current = question
-  }, [question])
-
+  /*
+    getCodes: get a string array of codes from "aaa/bbb/ccc" 
+    matching: check code is in the array
+  */
   const getCodes = (rawCode: any): string[] => {
     if (typeof rawCode === 'string') {
       try {
@@ -114,7 +108,23 @@ export default function USCodes() {
     }
     return [String(rawCode)]
   }
+  function matching(code?: string) {
+    if (!code || !qref.current) return false
+    return getCodes(code).includes(qref.current)
+  }
 
+  /* question: current question shown on the question card */
+  const [question, setQuestion] = useState<string | null>(null)
+  const qref = useRef<string | null>(null)
+  useEffect(() => {
+    setQuestion(pickRandomArea(pool))
+  }, [])
+
+  useEffect(() => {
+    qref.current = question
+  }, [question])
+
+  /* upon correct area is clicked, wait 500ms and then select new question */
   useEffect(() => {
     if (!correct) return
 
@@ -126,6 +136,7 @@ export default function USCodes() {
     return () => clearTimeout(timer)
   }, [correct])
 
+  /* GeoJSON style function */
   const styleByState = (feature: any) => {
     const codes = getCodes(feature.properties.code)
     if (hintedRef.current && codes.includes(hintedRef.current))
