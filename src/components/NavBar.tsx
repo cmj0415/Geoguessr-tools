@@ -6,7 +6,7 @@ export default function NavBar() {
       <Link
         className="
                 group
-                w-10 h-10 rounded-full
+                w-16 h-16 rounded-full
                 flex items-center justify-center
                 border-2 border-transparent
                 hover:border-3 hover:border-purple-800
@@ -15,7 +15,7 @@ export default function NavBar() {
       >
         <FaHome
           className="
-                    text-gray-900 w-6 h-6
+                    text-gray-900 w-8 h-8
                     transition duration-200
                     group-hover:scale-110
                     group-hover:text-white"
@@ -24,7 +24,7 @@ export default function NavBar() {
       <a
         className="
                 group
-                w-10 h-10 rounded-full
+                w-16 h-16 rounded-full
                 flex items-center justify-center
                 border-2 border-transparent
                 hover:border-3 hover:border-purple-800
@@ -33,7 +33,7 @@ export default function NavBar() {
       >
         <FaGithub
           className="
-                    text-gray-900 w-6 h-6
+                    text-gray-900 w-8 h-8
                     transition duration-200
                     group-hover:scale-110
                     group-hover:text-white"

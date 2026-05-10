@@ -24,6 +24,7 @@ export default function Header({
                 `,
       }}
     >
+      <div className="absolute inset-x-8 inset-y-8">{navbar}</div>
       <div
         className="
                 mx-4
@@ -32,7 +33,7 @@ export default function Header({
                 max-[700px]:grid-cols-[1fr_auto]
                 "
       >
-        <div className="justify-self-start">{navbar}</div>
+        <div className="justify-self-start"></div>
         <h1 className="text-4xl text-center font-bold pt-4 mb-4">{title}</h1>
         <div className="justify-self-end">{infobutton}</div>
       </div>
