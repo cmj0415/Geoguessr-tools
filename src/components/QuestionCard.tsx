@@ -1,18 +1,21 @@
+import Frame from './Frame'
 type QuestionCardProps = {
   target: string | null
 }
+
 export default function QuestionCard({ target = '' }: QuestionCardProps) {
   return (
-    <div className="inline-block bg-white">
+    <Frame className="mx-auto">
       <p
         className="
-                text-center text-slate-900 text-xl font-bold p-3
-                outline-3 outline-dashed outline-black
-                -outline-offset-4
-            "
+          px-8 py-4
+          text-center text-2xl font-black tracking-wide
+          text-white
+          drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]
+        "
       >
         {target}
       </p>
-    </div>
+    </Frame>
   )
 }
