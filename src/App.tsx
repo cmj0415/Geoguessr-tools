@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './Home'
@@ -7,6 +6,7 @@ import USCodes from './pages/USCodes'
 import IndonesiaRegencies from './pages/IndonesiaRegencies'
 import PhilippinesProvinces from './pages/PhilippinesProvinces'
 import BrazilCodes from './pages/BrazilCodes'
+import JapanPrefectures from './pages/JapanPrefectures'
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Route path="/us/states" element={<USStates />} />
       <Route path="us/area-codes" element={<USCodes />} />
       <Route path="id/kabupatens" element={<IndonesiaRegencies />} />
+      <Route path="/jp/prefectures" element={<JapanPrefectures />} />
       <Route path="/ph/provinces" element={<PhilippinesProvinces />} />
       <Route path="br/area-codes" element={<BrazilCodes />} />
     </Routes>
