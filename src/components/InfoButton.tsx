@@ -1,5 +1,4 @@
 import { FaInfoCircle } from 'react-icons/fa'
-import { useEffect } from 'react'
 type Props = {
   active: boolean
   onClick: () => void

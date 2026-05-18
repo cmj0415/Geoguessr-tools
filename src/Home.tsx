@@ -8,7 +8,7 @@ function Home() {
       <Header
         navbar={<NavBar />}
         title="Welcome to GeoGuessr Quizzes"
-        bgUrl="/src/assets/bg1.png"
+        bgUrl="/bg1.png"
       />
 
       {/* content */}

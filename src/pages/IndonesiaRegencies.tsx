@@ -1,4 +1,3 @@
-import React from 'react'
 import IndonesiaMap from '../assets/id-kab-map.svg?react'
 import QuestionCard from '../components/QuestionCard'
 import InfoButton from '../components/InfoButton'

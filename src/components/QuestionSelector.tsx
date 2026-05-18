@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 type QuestionSelectorProps = {
   divisions?: Record<string, string[]>
   value?: string[] // optional: controlled

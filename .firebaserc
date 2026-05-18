@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "test-project-bfe44",
+    "prod": "geoguessr-9ui2"
+  },
+  "targets": {},
+  "etags": {}
+}

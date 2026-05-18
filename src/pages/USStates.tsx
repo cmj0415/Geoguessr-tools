@@ -1,4 +1,3 @@
-import React from 'react'
 import USMap from '../assets/us-state-map.svg?react'
 import QuestionCard from '../components/QuestionCard'
 import InfoButton from '../components/InfoButton'

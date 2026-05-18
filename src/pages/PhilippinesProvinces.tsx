@@ -1,4 +1,3 @@
-import React from 'react'
 import PhilippinesMap from '../assets/ph-province-map.svg?react'
 import QuestionCard from '../components/QuestionCard'
 import InfoButton from '../components/InfoButton'

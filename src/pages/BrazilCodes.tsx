@@ -1,4 +1,3 @@
-import React from 'react'
 import BrazilMap from '../assets/br-code-map.svg?react'
 import QuestionCard from '../components/QuestionCard'
 import InfoButton from '../components/InfoButton'
@@ -8,8 +7,6 @@ import { useRef, useEffect, useState, useMemo } from 'react'
 import { BR_MAP } from '../utils/BRCodeData'
 import type { Area, AreaData } from '../utils/BRCodeData'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
-import NavBar from '../components/NavBar.tsx'
-import Header from '../components/Header.tsx'
 
 export default function BrazilCodes() {
   const divs: Record<string, string[]> = {
