@@ -206,7 +206,6 @@ export default function USCodes() {
                   click: (e) => {
                     const code = feature.properties.code
                     if (matching(code)) {
-                      setQuestion(pickRandomArea(pool))
                       setHinted(null)
                       setCorrect(qref.current)
                     } else {
