@@ -1,7 +1,6 @@
 import IndonesiaMap from '../assets/id-kab-map.svg?react'
-import QuestionCard from '../components/QuestionCard'
-import InfoButton from '../components/InfoButton'
 import InfoWindow from '../components/InfoWindow'
+import QuizLayout from '../components/QuizLayout'
 import { QuestionSelector } from '../components/QuestionSelector'
 import { useRef, useEffect, useState, useMemo } from 'react'
 import { ID_MAP } from '../utils/IDRegencyData'
@@ -188,56 +187,41 @@ export default function IndonesiaRegencies() {
   const [isInfoOpen, setIsInfoOpen] = useState(false)
 
   return (
-    <div className="relative flex h-screen flex-col overflow-hidden bg-slate-900">
-      <header className="relative shrink-0 border-b border-white/10 bg-slate-950/35 shadow-lg">
-        <div className="mx-4 grid grid-cols-[1fr_auto_1fr] items-center gap-4">
-          <div />
-          <h1 className="my-4 text-center text-2xl font-bold tracking-tight sm:text-4xl">
-            Indonesia Regencies Quiz
-          </h1>
-          <div className="justify-self-end">
-            <InfoButton
-              active={isInfoOpen}
-              onClick={() => setIsInfoOpen(true)}
-            />
-          </div>
-        </div>
-      </header>
-      <main className="relative min-h-0 flex-1 p-3 sm:p-5">
-        <div className="absolute right-6 top-6 z-20 sm:right-8 sm:top-8">
+    <>
+      <QuizLayout
+        title="Indonesia Regencies Quiz"
+        question={question ? question.name : 'Select provinces to begin'}
+        selector={
           <QuestionSelector
             divisions={divs}
             defaultValue={Array.from(selectedProvinces)}
             onChange={setSelectedProvinces}
+            menuLabel="Province pool"
+            searchPlaceholder="Find a province..."
             variant="menu"
           />
-        </div>
-        <div className="relative h-full w-full overflow-hidden rounded-2xl border border-violet-400/35 bg-slate-950/25 shadow-2xl">
-          <div className="pointer-events-none absolute inset-x-0 top-20 z-10 flex justify-center px-4 lg:top-4">
-            <QuestionCard
-              target={question ? question.name : 'Select provinces to begin'}
-              className="pointer-events-auto shadow-2xl"
-            />
-          </div>
-          <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
-            <TransformWrapper
-              minScale={1}
-              maxScale={20}
-              initialScale={1}
-              wheel={{ step: 10 }}
-              centerOnInit
-              limitToBounds={false}
+        }
+        isInfoOpen={isInfoOpen}
+        onInfoClick={() => setIsInfoOpen(true)}
+      >
+        <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
+          <TransformWrapper
+            minScale={1}
+            maxScale={20}
+            initialScale={1}
+            wheel={{ step: 10 }}
+            centerOnInit
+            limitToBounds={false}
+          >
+            <TransformComponent
+              wrapperClass="w-full h-full flex items-center justify-center"
+              contentClass="flex items-center justify-center"
             >
-              <TransformComponent
-                wrapperClass="w-full h-full flex items-center justify-center"
-                contentClass="flex items-center justify-center"
-              >
-                <IndonesiaMap className="max-w-full max-h-full" ref={svgRef} />
-              </TransformComponent>
-            </TransformWrapper>
-          </div>
+              <IndonesiaMap className="max-w-full max-h-full" ref={svgRef} />
+            </TransformComponent>
+          </TransformWrapper>
         </div>
-      </main>
+      </QuizLayout>
       {isInfoOpen && (
         <InfoWindow
           title={
@@ -266,6 +250,6 @@ export default function IndonesiaRegencies() {
           onClose={() => setIsInfoOpen(false)}
         />
       )}
-    </div>
+    </>
   )
 }

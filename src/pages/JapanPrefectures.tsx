@@ -1,7 +1,6 @@
 import JapanMap from '../assets/jp-pref-map.svg?react'
-import QuestionCard from '../components/QuestionCard'
-import InfoButton from '../components/InfoButton'
 import InfoWindow from '../components/InfoWindow'
+import QuizLayout from '../components/QuizLayout'
 import { QuestionSelector } from '../components/QuestionSelector'
 import { useRef, useEffect, useState, useMemo } from 'react'
 import { JP_MAP, JP_PREFECTURE_CODES } from '../utils/JPPrefData'
@@ -135,24 +134,25 @@ export default function JapanPrefecture() {
   const [isInfoOpen, setIsInfoOpen] = useState(false)
 
   return (
-    <div className="relative min-h-screen bg-slate-900">
-      <header className="relative">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
-          <div />
-          <h1 className="text-4xl font-bold pt-4 mb-4">
-            Japan Prefectures Quiz
-          </h1>
-          <div className="justify-self-end">
-            <InfoButton
-              active={isInfoOpen}
-              onClick={() => setIsInfoOpen(true)}
-            />
-          </div>
-        </div>
-      </header>
-      <QuestionCard target={question ? question.name : null} />
-      <div className="mt-16 mx-auto w-full max-w-5xl border-2">
-        <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">
+    <>
+      <QuizLayout
+        title="Japan Prefectures Quiz"
+        question={question ? question.name : 'Select regions to begin'}
+        selector={
+          <QuestionSelector
+            divisions={divs}
+            defaultValue={Array.from(selectedRegions)}
+            onChange={setSelectedRegions}
+            title="Select regions"
+            menuLabel="Region pool"
+            searchPlaceholder="Find a region..."
+            variant="menu"
+          />
+        }
+        isInfoOpen={isInfoOpen}
+        onInfoClick={() => setIsInfoOpen(true)}
+      >
+        <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
           <TransformWrapper
             minScale={0.5}
             maxScale={20}
@@ -172,13 +172,7 @@ export default function JapanPrefecture() {
             </TransformComponent>
           </TransformWrapper>
         </div>
-      </div>
-      <QuestionSelector
-        divisions={divs}
-        defaultValue={Array.from(selectedRegions)}
-        onChange={setSelectedRegions}
-        title="Select regions"
-      />
+      </QuizLayout>
       {isInfoOpen && (
         <InfoWindow
           title={
@@ -200,6 +194,6 @@ export default function JapanPrefecture() {
           onClose={() => setIsInfoOpen(false)}
         />
       )}
-    </div>
+    </>
   )
 }

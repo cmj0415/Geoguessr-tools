@@ -5,6 +5,8 @@ type QuestionSelectorProps = {
   defaultValue?: string[] // optional: uncontrolled
   onChange?: (next: Set<string>) => void
   title?: string
+  menuLabel?: string
+  searchPlaceholder?: string
   variant?: 'panel' | 'menu'
   className?: string
 }
@@ -15,6 +17,8 @@ export function QuestionSelector({
   defaultValue,
   onChange,
   title = 'Select regions',
+  menuLabel = title,
+  searchPlaceholder = 'Find an option...',
   variant = 'panel',
   className = '',
 }: QuestionSelectorProps) {
@@ -89,7 +93,7 @@ export function QuestionSelector({
         className="mb-3 w-full rounded-lg border border-white/10 bg-slate-950/60 px-3 py-2 text-sm outline-none placeholder:text-slate-500 focus:border-violet-400"
         type="search"
         value={query}
-        placeholder="Find a province..."
+        placeholder={searchPlaceholder}
         onChange={(event) => setQuery(event.target.value)}
       />
 
@@ -159,7 +163,7 @@ export function QuestionSelector({
       <details className={`group relative w-fit ${className}`}>
         <summary className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-violet-400/50 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-violet-300 hover:bg-slate-900">
           <span className="text-sm font-bold uppercase tracking-[0.16em] text-violet-200">
-            Province pool
+            {menuLabel}
           </span>
           <span className="rounded-full bg-violet-400/15 px-2 py-0.5 text-xs text-violet-100">
             {selectedSet.size}/{allItems.length}

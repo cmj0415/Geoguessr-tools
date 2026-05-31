@@ -1,11 +1,10 @@
 import PhilippinesMap from '../assets/ph-province-map.svg?react'
-import QuestionCard from '../components/QuestionCard'
-import InfoButton from '../components/InfoButton'
 import InfoWindow from '../components/InfoWindow'
+import QuizLayout from '../components/QuizLayout'
 import { QuestionSelector } from '../components/QuestionSelector'
 import { useRef, useEffect, useState, useMemo } from 'react'
 import { PH_MAP } from '../utils/PHProvinceData'
-import type { Province, GroupData } from '../utils/PHProvinceData'
+import type { Province } from '../utils/PHProvinceData'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 
 export default function PhilippinesProvinces() {
@@ -136,24 +135,26 @@ export default function PhilippinesProvinces() {
   const [isInfoOpen, setIsInfoOpen] = useState(false)
 
   return (
-    <div className="relative min-h-screen bg-slate-900">
-      <header className="relative">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
-          <div />
-          <h1 className="text-4xl font-bold pt-4 mb-4">
-            Philippines Provinces Quiz
-          </h1>
-          <div className="justify-self-end">
-            <InfoButton
-              active={isInfoOpen}
-              onClick={() => setIsInfoOpen(true)}
-            />
-          </div>
-        </div>
-      </header>
-      <QuestionCard target={question ? question.province : null} />
-      <div className="mt-16 mx-auto w-full max-w-4xl max-h-2xl border-2">
-        <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">
+    <>
+      <QuizLayout
+        title="Philippines Provinces Quiz"
+        question={
+          question ? question.province : 'Select island groups to begin'
+        }
+        selector={
+          <QuestionSelector
+            divisions={divs}
+            defaultValue={Array.from(selectedGroups)}
+            onChange={setSelectedGroups}
+            menuLabel="Island group pool"
+            searchPlaceholder="Find an island group..."
+            variant="menu"
+          />
+        }
+        isInfoOpen={isInfoOpen}
+        onInfoClick={() => setIsInfoOpen(true)}
+      >
+        <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
           <TransformWrapper
             minScale={0.5}
             maxScale={20}
@@ -170,12 +171,7 @@ export default function PhilippinesProvinces() {
             </TransformComponent>
           </TransformWrapper>
         </div>
-      </div>
-      <QuestionSelector
-        divisions={divs}
-        defaultValue={Array.from(selectedGroups)}
-        onChange={setSelectedGroups}
-      />
+      </QuizLayout>
       {isInfoOpen && (
         <InfoWindow
           title={
@@ -201,6 +197,6 @@ export default function PhilippinesProvinces() {
           onClose={() => setIsInfoOpen(false)}
         />
       )}
-    </div>
+    </>
   )
 }

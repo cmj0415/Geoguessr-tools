@@ -1,15 +1,11 @@
-import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import { useState, useEffect, useMemo, useRef } from 'react'
 import type L from 'leaflet'
-import QuestionCard from '../components/QuestionCard'
-import InfoButton from '../components/InfoButton'
 import InfoWindow from '../components/InfoWindow'
+import QuizLayout from '../components/QuizLayout'
 import { US_CODE_MAP } from '../utils/USAreaCodeData'
 
 export default function USCodes() {
-  const divs: Record<string, string[]> = {
-    Ranges: ['200s', '300s', '400s', '500s', '600s', '700s', '800s', '900s'],
-  }
   const [isInfoOpen, setIsInfoOpen] = useState(false)
   const [geoData, setGeoData] = useState(null)
 
@@ -61,7 +57,7 @@ export default function USCodes() {
     pool: set from selectedGroups
     pickRandomArea: select a question from pool
   */
-  const [selectedGroups, setSelectedGroups] = useState<Set<string>>(
+  const [selectedGroups] = useState<Set<string>>(
     () => new Set(Object.keys(US_CODE_MAP))
   )
 
@@ -153,26 +149,20 @@ export default function USCodes() {
   }, [correct, hinted])
 
   return (
-    <div className="relative min-h-screen bg-slate-900">
-      <header className="relative">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
-          <div />
-          <h1 className="text-4xl font-bold pt-4 mb-4">US Area Codes Quiz</h1>
-          <div className="justify-self-end">
-            <InfoButton
-              active={isInfoOpen}
-              onClick={() => setIsInfoOpen(true)}
-            />
-          </div>
-        </div>
-      </header>
-      <QuestionCard target={question} />
-      <div className="mt-16 mx-auto w-full max-w-4xl max-h-[70vh] border-2 z-0">
+    <>
+      <QuizLayout
+        title="US Area Codes Quiz"
+        question={question}
+        selector={<div />}
+        hasSelector={false}
+        isInfoOpen={isInfoOpen}
+        onInfoClick={() => setIsInfoOpen(true)}
+      >
         <MapContainer
           center={[37.8, -96]}
           zoom={4}
           scrollWheelZoom={true}
-          style={{ height: '70vh' }}
+          style={{ height: '100%', width: '100%' }}
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -217,7 +207,7 @@ export default function USCodes() {
             />
           )}
         </MapContainer>
-      </div>
+      </QuizLayout>
       {isInfoOpen && (
         <InfoWindow
           title={<h2 className="text-center font-bold">US Area Codes Quiz</h2>}
@@ -238,6 +228,6 @@ export default function USCodes() {
           onClose={() => setIsInfoOpen(false)}
         />
       )}
-    </div>
+    </>
   )
 }

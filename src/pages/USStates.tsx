@@ -1,7 +1,6 @@
 import USMap from '../assets/us-state-map.svg?react'
-import QuestionCard from '../components/QuestionCard'
-import InfoButton from '../components/InfoButton'
 import InfoWindow from '../components/InfoWindow'
+import QuizLayout from '../components/QuizLayout'
 import { useRef, useEffect, useState } from 'react'
 import { STATE_NAME_MAP } from '../utils/USStateData'
 
@@ -115,21 +114,19 @@ export default function USStates() {
   const [isInfoOpen, setIsInfoOpen] = useState(false)
 
   return (
-    <div className="relative min-h-screen bg-slate-900">
-      <header className="relative">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
-          <div />
-          <h1 className="text-4xl font-bold pt-4 mb-4">US States Quiz</h1>
-          <div className="justify-self-end">
-            <InfoButton
-              active={isInfoOpen}
-              onClick={() => setIsInfoOpen(true)}
-            />
-          </div>
+    <>
+      <QuizLayout
+        title="US States Quiz"
+        question={question[1]}
+        selector={<div />}
+        hasSelector={false}
+        isInfoOpen={isInfoOpen}
+        onInfoClick={() => setIsInfoOpen(true)}
+      >
+        <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
+          <USMap className="max-h-full max-w-full" ref={svgRef} />
         </div>
-      </header>
-      <QuestionCard target={question[1]} />
-      <USMap className="mx-auto mt-16 w-full max-w-4xl h-auto" ref={svgRef} />
+      </QuizLayout>
       {isInfoOpen && (
         <InfoWindow
           title={<h2 className="text-center font-bold">US States Quiz</h2>}
@@ -148,6 +145,6 @@ export default function USStates() {
           onClose={() => setIsInfoOpen(false)}
         />
       )}
-    </div>
+    </>
   )
 }
