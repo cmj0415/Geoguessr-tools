@@ -5,7 +5,7 @@ import InfoWindow from '../components/InfoWindow'
 import { QuestionSelector } from '../components/QuestionSelector'
 import { useRef, useEffect, useState, useMemo } from 'react'
 import { ID_MAP } from '../utils/IDRegencyData'
-import type { Regency, ProvinceData } from '../utils/IDRegencyData'
+import type { Regency } from '../utils/IDRegencyData'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 
 export default function IndonesiaRegencies() {
@@ -188,11 +188,11 @@ export default function IndonesiaRegencies() {
   const [isInfoOpen, setIsInfoOpen] = useState(false)
 
   return (
-    <div className="relative min-h-screen bg-slate-900">
-      <header className="relative">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mx-4">
+    <div className="relative flex h-screen flex-col overflow-hidden bg-slate-900">
+      <header className="relative shrink-0 border-b border-white/10 bg-slate-950/35 shadow-lg">
+        <div className="mx-4 grid grid-cols-[1fr_auto_1fr] items-center gap-4">
           <div />
-          <h1 className="text-4xl font-bold pt-4 mb-4">
+          <h1 className="my-4 text-center text-2xl font-bold tracking-tight sm:text-4xl">
             Indonesia Regencies Quiz
           </h1>
           <div className="justify-self-end">
@@ -203,28 +203,41 @@ export default function IndonesiaRegencies() {
           </div>
         </div>
       </header>
-      <QuestionCard target={question ? question.name : null} />
-      <div className="mt-16 mx-auto w-full max-w-5xl border-2">
-        <div className="w-full h-[70vh] flex items-center justify-center overflow-hidden">
-          <TransformWrapper
-            minScale={1}
-            maxScale={20}
-            initialScale={1}
-            wheel={{ step: 10 }}
-            centerOnInit
-            limitToBounds={false}
-          >
-            <TransformComponent>
-              <IndonesiaMap className="max-w-full max-h-full" ref={svgRef} />
-            </TransformComponent>
-          </TransformWrapper>
+      <main className="relative min-h-0 flex-1 p-3 sm:p-5">
+        <div className="absolute right-6 top-6 z-20 sm:right-8 sm:top-8">
+          <QuestionSelector
+            divisions={divs}
+            defaultValue={Array.from(selectedProvinces)}
+            onChange={setSelectedProvinces}
+            variant="menu"
+          />
         </div>
-      </div>
-      <QuestionSelector
-        divisions={divs}
-        defaultValue={Array.from(selectedProvinces)}
-        onChange={setSelectedProvinces}
-      />
+        <div className="relative h-full w-full overflow-hidden rounded-2xl border border-violet-400/35 bg-slate-950/25 shadow-2xl">
+          <div className="pointer-events-none absolute inset-x-0 top-20 z-10 flex justify-center px-4 lg:top-4">
+            <QuestionCard
+              target={question ? question.name : 'Select provinces to begin'}
+              className="pointer-events-auto shadow-2xl"
+            />
+          </div>
+          <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
+            <TransformWrapper
+              minScale={1}
+              maxScale={20}
+              initialScale={1}
+              wheel={{ step: 10 }}
+              centerOnInit
+              limitToBounds={false}
+            >
+              <TransformComponent
+                wrapperClass="w-full h-full flex items-center justify-center"
+                contentClass="flex items-center justify-center"
+              >
+                <IndonesiaMap className="max-w-full max-h-full" ref={svgRef} />
+              </TransformComponent>
+            </TransformWrapper>
+          </div>
+        </div>
+      </main>
       {isInfoOpen && (
         <InfoWindow
           title={
@@ -241,9 +254,7 @@ export default function IndonesiaRegencies() {
                 The best part about this is that you can choose the provinces
                 that you want to practice! Once a checkbox is changed, the
                 selector immediately re-select a new target. Also, this map is
-                zoomable and pannable. Though the layout sucks (I suck at
-                designing these stuffs), it should be decent enough for practice
-                purpose.
+                zoomable and pannable.
               </p>
               <p className="mt-4">
                 p.s.: I spent 4 hours just dealing with the svg file, MANUALLY
