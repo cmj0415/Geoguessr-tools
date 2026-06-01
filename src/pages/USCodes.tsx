@@ -10,7 +10,7 @@ export default function USCodes() {
   const [geoData, setGeoData] = useState(null)
 
   useEffect(() => {
-    fetch('/map.geojson')
+    fetch('/map.geojson', { cache: 'no-store' })
       .then((res) => res.json())
       .then(setGeoData)
   }, [])
