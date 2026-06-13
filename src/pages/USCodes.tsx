@@ -3,9 +3,15 @@ import { useState, useEffect, useMemo, useRef } from 'react'
 import type L from 'leaflet'
 import InfoWindow from '../components/InfoWindow'
 import QuizLayout from '../components/QuizLayout'
+import { QuestionSelector } from '../components/QuestionSelector'
 import { US_CODE_MAP } from '../utils/USAreaCodeData'
 
 export default function USCodes() {
+  const codeGroups = Object.keys(US_CODE_MAP).filter(
+    (group) => US_CODE_MAP[group].length > 0
+  )
+  const divisions = { 'Code Groups': codeGroups }
+
   const [isInfoOpen, setIsInfoOpen] = useState(false)
   const [geoData, setGeoData] = useState(null)
 
@@ -57,19 +63,20 @@ export default function USCodes() {
     pool: set from selectedGroups
     pickRandomArea: select a question from pool
   */
-  const [selectedGroups] = useState<Set<string>>(
-    () => new Set(Object.keys(US_CODE_MAP))
+  const [selectedGroups, setSelectedGroups] = useState<Set<string>>(
+    () => new Set(codeGroups)
   )
 
   const pool = useMemo(() => {
     const out: string[] = []
     for (const p of selectedGroups) {
-      for (const r of US_CODE_MAP[p]) out.push(r)
+      for (const r of US_CODE_MAP[p] ?? []) out.push(r)
     }
     return out
   }, [selectedGroups])
 
   function pickRandomArea(pool: string[]) {
+    if (pool.length === 0) return null
     const q = pool[Math.floor(Math.random() * pool.length)]
     return q
   }
@@ -110,11 +117,13 @@ export default function USCodes() {
   }
 
   /* question: current question shown on the question card */
-  const [question, setQuestion] = useState<string | null>(null)
+  const [question, setQuestion] = useState<string | null>(pickRandomArea(pool))
   const qref = useRef<string | null>(null)
   useEffect(() => {
     setQuestion(pickRandomArea(pool))
-  }, [])
+    setCorrect(null)
+    setHinted(null)
+  }, [pool])
 
   useEffect(() => {
     qref.current = question
@@ -144,6 +153,26 @@ export default function USCodes() {
   }
 
   const geoRef = useRef<L.GeoJSON | null>(null)
+
+  const highlightRegionsWithCodes = (rawCode: unknown) => {
+    const hoveredCodes = new Set(getCodes(rawCode))
+
+    geoRef.current?.eachLayer((candidateLayer) => {
+      const path = candidateLayer as L.Path & {
+        feature?: { properties?: { code?: unknown } }
+      }
+      const candidateCode = path.feature?.properties?.code
+      if (candidateCode === undefined) return
+
+      const candidateCodes = getCodes(candidateCode)
+      if (!candidateCodes.some((code) => hoveredCodes.has(code))) return
+      if (correctRef.current && candidateCodes.includes(correctRef.current))
+        return
+
+      path.setStyle(hoverStyle())
+    })
+  }
+
   useEffect(() => {
     geoRef.current?.setStyle(styleByState)
   }, [correct, hinted])
@@ -152,9 +181,17 @@ export default function USCodes() {
     <>
       <QuizLayout
         title="US Area Codes Quiz"
-        question={question}
-        selector={<div />}
-        hasSelector={false}
+        question={question ?? 'Select code groups to begin'}
+        selector={
+          <QuestionSelector
+            divisions={divisions}
+            defaultValue={Array.from(selectedGroups)}
+            onChange={setSelectedGroups}
+            menuLabel="Code group pool"
+            searchPlaceholder="Find a code group..."
+            variant="menu"
+          />
+        }
         isInfoOpen={isInfoOpen}
         onInfoClick={() => setIsInfoOpen(true)}
       >
@@ -182,16 +219,16 @@ export default function USCodes() {
                       getCodes(code).includes(correctRef.current)
                     )
                       return
-                    e.target.setStyle(hoverStyle())
+                    highlightRegionsWithCodes(code)
                   },
-                  mouseout: (e) => {
+                  mouseout: () => {
                     const code = feature.properties.code
                     if (
                       correctRef.current &&
                       getCodes(code).includes(correctRef.current)
                     )
                       return
-                    geoRef.current?.resetStyle(e.target)
+                    geoRef.current?.setStyle(styleByState)
                   },
                   click: (e) => {
                     const code = feature.properties.code
