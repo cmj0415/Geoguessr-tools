@@ -155,7 +155,6 @@ export default function USCodes() {
   const geoRef = useRef<L.GeoJSON | null>(null)
 
   const highlightRegionsWithCodes = (rawCode: unknown) => {
-    const hoveredCodes = new Set(getCodes(rawCode))
 
     geoRef.current?.eachLayer((candidateLayer) => {
       const path = candidateLayer as L.Path & {
@@ -165,7 +164,7 @@ export default function USCodes() {
       if (candidateCode === undefined) return
 
       const candidateCodes = getCodes(candidateCode)
-      if (!candidateCodes.some((code) => hoveredCodes.has(code))) return
+      if (!(candidateCode === rawCode)) return
       if (correctRef.current && candidateCodes.includes(correctRef.current))
         return
 
