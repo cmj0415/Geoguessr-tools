@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 .firebase/
 __pycache__
+res.geojson
+forger/in/
+forger/out/

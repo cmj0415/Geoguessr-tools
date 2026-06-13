@@ -3,12 +3,17 @@
 import argparse
 import json
 import math
+import re
 import sys
 from pathlib import Path
 from typing import Any
 
 
 Point = list[float]
+SCRIPT_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = SCRIPT_DIR / "out"
+RESULT_PATH = SCRIPT_DIR / "res.geojson"
+NUMBERED_GEOJSON = re.compile(r"^(\d+)\.geojson$")
 
 
 def load_linestring(path: Path) -> list[Point]:
@@ -67,42 +72,75 @@ def merge_lines(lines: list[list[Point]]) -> list[Point]:
     return ring
 
 
+def find_numbered_lines(directory: Path) -> list[Path]:
+    try:
+        entries = list(directory.iterdir())
+    except OSError as error:
+        raise ValueError(f"cannot read {directory}: {error}") from error
+
+    numbered_paths: list[tuple[int, Path]] = []
+    seen_numbers: dict[int, Path] = {}
+
+    for path in entries:
+        if not path.is_file():
+            continue
+
+        match = NUMBERED_GEOJSON.fullmatch(path.name)
+        if not match:
+            continue
+
+        number = int(match.group(1))
+        if number in seen_numbers:
+            raise ValueError(
+                f"{path} and {seen_numbers[number]} have the same numeric filename"
+            )
+
+        seen_numbers[number] = path
+        numbered_paths.append((number, path))
+
+    if not numbered_paths:
+        raise ValueError(f"{directory} contains no numerically named GeoJSON files")
+
+    numbered_paths.sort(key=lambda item: item[0])
+    return [path for _, path in numbered_paths]
+
+
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(
+    return argparse.ArgumentParser(
         description=(
-            "Merge GeoJSON LineString features, in argument order, into one "
-            "Polygon feature."
+            "Merge numerically named LineString files from out/ into res.geojson."
         )
     )
-    parser.add_argument(
-        "geojson_files",
-        type=Path,
-        nargs="+",
-        help="LineString GeoJSON files in polygon boundary order",
-    )
-    return parser
 
 
 def main() -> int:
-    args = build_parser().parse_args()
+    build_parser().parse_args()
 
     try:
-        lines = [load_linestring(path) for path in args.geojson_files]
+        paths = find_numbered_lines(OUTPUT_DIR)
+        lines = [load_linestring(path) for path in paths]
         ring = merge_lines(lines)
+
+        feature = {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [ring],
+            },
+        }
+
+        with RESULT_PATH.open("w", encoding="utf-8") as output_file:
+            json.dump(feature, output_file, indent=2)
+            output_file.write("\n")
     except ValueError as error:
         print(f"merge.py: error: {error}", file=sys.stderr)
         return 1
+    except OSError as error:
+        print(f"merge.py: error: cannot write {RESULT_PATH}: {error}", file=sys.stderr)
+        return 1
 
-    feature = {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-            "type": "Polygon",
-            "coordinates": [ring],
-        },
-    }
-    json.dump(feature, sys.stdout, indent=2)
-    sys.stdout.write("\n")
+    print(RESULT_PATH)
     return 0
 
 
