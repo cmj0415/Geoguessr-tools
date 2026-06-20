@@ -3,14 +3,17 @@ import { useState, useEffect, useMemo, useRef } from 'react'
 import type L from 'leaflet'
 import InfoWindow from '../components/InfoWindow'
 import QuizLayout from '../components/QuizLayout'
-import { QuestionSelector } from '../components/QuestionSelector'
+import { RangeSelector } from '../components/RangeSelector'
 import { US_CODE_MAP } from '../utils/USAreaCodeData'
 
 export default function USCodes() {
-  const codeGroups = Object.keys(US_CODE_MAP).filter(
-    (group) => US_CODE_MAP[group].length > 0
+  const availableCodes = useMemo(
+    () =>
+      Object.values(US_CODE_MAP)
+        .flat()
+        .sort((a, b) => Number(a) - Number(b)),
+    []
   )
-  const divisions = { 'Code Groups': codeGroups }
 
   const [isInfoOpen, setIsInfoOpen] = useState(false)
   const [geoData, setGeoData] = useState(null)
@@ -60,20 +63,16 @@ export default function USCodes() {
   }
 
   /* 
-    pool: set from selectedGroups
+    pool: set from selectedCodes
     pickRandomArea: select a question from pool
   */
-  const [selectedGroups, setSelectedGroups] = useState<Set<string>>(
-    () => new Set(codeGroups)
+  const [selectedCodes, setSelectedCodes] = useState<Set<string>>(
+    () => new Set(availableCodes)
   )
 
   const pool = useMemo(() => {
-    const out: string[] = []
-    for (const p of selectedGroups) {
-      for (const r of US_CODE_MAP[p] ?? []) out.push(r)
-    }
-    return out
-  }, [selectedGroups])
+    return availableCodes.filter((code) => selectedCodes.has(code))
+  }, [availableCodes, selectedCodes])
 
   function pickRandomArea(pool: string[]) {
     if (pool.length === 0) return null
@@ -180,15 +179,16 @@ export default function USCodes() {
     <>
       <QuizLayout
         title="US Area Codes Quiz"
-        question={question ?? 'Select code groups to begin'}
+        question={question ?? 'Select code range to begin'}
         selector={
-          <QuestionSelector
-            divisions={divisions}
-            defaultValue={Array.from(selectedGroups)}
-            onChange={setSelectedGroups}
-            menuLabel="Code group pool"
-            searchPlaceholder="Find a code group..."
-            variant="menu"
+          <RangeSelector
+            items={availableCodes}
+            min={201}
+            max={989}
+            defaultRange={[201, 989]}
+            onChange={setSelectedCodes}
+            title="Select code range"
+            menuLabel="Code range"
           />
         }
         isInfoOpen={isInfoOpen}
