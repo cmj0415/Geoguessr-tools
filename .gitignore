@@ -25,5 +25,5 @@ dist-ssr
 .firebase/
 __pycache__
 res.geojson
-forger/in/
-forger/out/
+forger/*
+AGENTS.md

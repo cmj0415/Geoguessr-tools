@@ -1,50 +1,90 @@
-import BrazilMap from '../assets/br-code-map.svg?react'
-import InfoWindow from '../components/InfoWindow'
-import QuizLayout from '../components/QuizLayout'
-import { QuestionSelector } from '../components/QuestionSelector'
+import IndonesiaMap from '../../assets/id-kab-map.svg?react'
+import InfoWindow from '../../components/InfoWindow'
+import QuizLayout from '../../components/QuizLayout'
+import { QuestionSelector } from '../../components/QuestionSelector'
 import { useRef, useEffect, useState, useMemo } from 'react'
-import { BR_MAP } from '../utils/BRCodeData'
-import type { Area } from '../utils/BRCodeData'
+import { ID_MAP } from '../../utils/id/regencyData'
+import type { Regency } from '../../utils/id/regencyData'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 
-export default function BrazilCodes() {
+export default function IndonesiaRegencies() {
   const divs: Record<string, string[]> = {
-    'Code Groups': [
-      '10s',
-      '20s',
-      '30s',
-      '40s',
-      '50s',
-      '60s',
-      '70s',
-      '80s',
-      '90s',
+    Sumatra: [
+      'Aceh',
+      'North Sumatra',
+      'West Sumatra',
+      'Riau',
+      'Jambi',
+      'Bengkulu',
+      'South Sumatra',
+      'Lampung',
+      'Bangka Belitung Islands',
+      'Riau Islands',
+    ],
+    Kalimantan: [
+      'West Kalimantan',
+      'Central Kalimantan',
+      'South Kalimantan',
+      'East Kalimantan',
+      'North Kalimantan',
+    ],
+    Java: [
+      'Banten',
+      'Jakarta',
+      'West Java',
+      'Yogyakarta',
+      'Central Java',
+      'East Java',
+    ],
+    Sulawesi: [
+      'North Sulawesi',
+      'Gorontalo',
+      'Central Sulawesi',
+      'West Sulawesi',
+      'South Sulawesi',
+      'Southeast Sulawesi',
+    ],
+    'Lesser Sunda Islands': [
+      'Bali',
+      'West Nusa Tenggara',
+      'East Nusa Tenggara',
+    ],
+    'Maluku Islands': ['Maluku', 'North Maluku'],
+    'Western New Guinea': [
+      'West Papua',
+      'Papua',
+      'Highland Papua',
+      'South Papua',
+      'Central Papua',
+      'Southwest Papua',
     ],
   }
   const svgRef = useRef<SVGSVGElement>(null)
 
-  const [selectedGroups, setSelectedGroups] = useState<Set<string>>(
-    () => new Set(Object.keys(BR_MAP))
+  const [selectedProvinces, setSelectedProvinces] = useState<Set<string>>(
+    () => new Set(Object.keys(ID_MAP))
   )
 
   const pool = useMemo(() => {
-    const out: Area[] = []
-    for (const p of selectedGroups) {
-      for (const r of BR_MAP[p] ?? []) out.push({ group: p, code: r })
+    const out: Regency[] = []
+    for (const p of selectedProvinces) {
+      for (const r of ID_MAP[p] ?? []) out.push({ province: p, name: r })
     }
     return out
-  }, [selectedGroups])
+  }, [selectedProvinces])
 
   useEffect(() => {
-    setQuestion(pickRandomArea(pool))
+    setQuestion(pickRandomRegency(pool))
   }, [pool])
 
-  function pickRandomArea(pool: Area[]) {
+  function pickRandomRegency(pool: Regency[]) {
     if (pool.length == 0) return null
     return pool[Math.floor(Math.random() * pool.length)]
   }
 
-  const [question, setQuestion] = useState<Area | null>(pickRandomArea(pool))
+  const [question, setQuestion] = useState<Regency | null>(
+    pickRandomRegency(pool)
+  )
 
   const targetRef = useRef(question)
   useEffect(() => {
@@ -59,7 +99,7 @@ export default function BrazilCodes() {
 
     const timer = setTimeout(() => {
       if (result === 'correct') {
-        setQuestion(pickRandomArea(pool))
+        setQuestion(pickRandomRegency(pool))
       }
       setResult(null)
     }, 250)
@@ -72,7 +112,7 @@ export default function BrazilCodes() {
     if (!svg) return
 
     svg.querySelectorAll('path, polygon').forEach((el) => {
-      const cls = el.getAttribute('code')
+      const cls = el.getAttribute('regency')
       if (!cls) return
 
       const e = el as SVGElement
@@ -80,7 +120,7 @@ export default function BrazilCodes() {
       // reset
       e.style.fill = ''
 
-      if (result === 'correct' && cls === targetRef.current?.code) {
+      if (result === 'correct' && cls === targetRef.current?.name) {
         e.style.fill = '#6bffa78c'
       } else if (result === 'wrong' && cls === hovered) {
         e.style.fill = '#f53f2fbf'
@@ -96,7 +136,7 @@ export default function BrazilCodes() {
 
     const interactiveArea = new Map<string, SVGElement>()
     svg.querySelectorAll('path, polygon').forEach((el) => {
-      const cls = el.getAttribute('code')
+      const cls = el.getAttribute('regency')
       if (cls && cls.length == 2) {
         interactiveArea.set(cls, el as SVGElement)
       }
@@ -104,11 +144,11 @@ export default function BrazilCodes() {
 
     function handleEnter(e: MouseEvent) {
       const el = (e.target as Element | null)?.closest?.(
-        'path, polygon'
+        'path,polygon'
       ) as SVGElement | null
       if (!el) return
 
-      const r = el.getAttribute('code')
+      const r = el.getAttribute('regency')
       if (!r) return
 
       setHovered(r)
@@ -125,8 +165,8 @@ export default function BrazilCodes() {
         (target.tagName !== 'path' && target.tagName !== 'polygon')
       )
         return
-      const r = target.getAttribute('code')
-      if (r === targetRef.current?.code) {
+      const r = target.getAttribute('regency')
+      if (r === targetRef.current?.name) {
         setResult('correct')
       } else {
         setResult('wrong')
@@ -149,15 +189,15 @@ export default function BrazilCodes() {
   return (
     <>
       <QuizLayout
-        title="Brazil Codes Quiz"
-        question={question ? question.code : 'Select code groups to begin'}
+        title="Indonesia Regencies Quiz"
+        question={question ? question.name : 'Select provinces to begin'}
         selector={
           <QuestionSelector
             divisions={divs}
-            defaultValue={Array.from(selectedGroups)}
-            onChange={setSelectedGroups}
-            menuLabel="Code group pool"
-            searchPlaceholder="Find a code group..."
+            defaultValue={Array.from(selectedProvinces)}
+            onChange={setSelectedProvinces}
+            menuLabel="Province pool"
+            searchPlaceholder="Find a province..."
             variant="menu"
           />
         }
@@ -166,9 +206,9 @@ export default function BrazilCodes() {
       >
         <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
           <TransformWrapper
-            minScale={0.5}
+            minScale={1}
             maxScale={20}
-            initialScale={0.5}
+            initialScale={1}
             wheel={{ step: 10 }}
             centerOnInit
             limitToBounds={false}
@@ -177,7 +217,7 @@ export default function BrazilCodes() {
               wrapperClass="w-full h-full flex items-center justify-center"
               contentClass="flex items-center justify-center"
             >
-              <BrazilMap className="max-w-full max-h-full" ref={svgRef} />
+              <IndonesiaMap className="max-w-full max-h-full" ref={svgRef} />
             </TransformComponent>
           </TransformWrapper>
         </div>
@@ -185,13 +225,25 @@ export default function BrazilCodes() {
       {isInfoOpen && (
         <InfoWindow
           title={
-            <h2 className="text-center font-bold">Brazil Area Codes Quiz</h2>
+            <h2 className="text-center font-bold">Indonesia Regencies Quiz</h2>
           }
           content={
             <div className="text-justify">
-              <p>This practice contains every area code in Brazil.</p>
+              <p>
+                This practice contains every (I suppose) regencies of Indonesia,
+                even including those without official coverage such as the Papua
+                area.
+              </p>
               <p className="mt-4">
-                You can choose the code group(s) you want to practice!
+                The best part about this is that you can choose the provinces
+                that you want to practice! Once a checkbox is changed, the
+                selector immediately re-select a new target. Also, this map is
+                zoomable and pannable.
+              </p>
+              <p className="mt-4">
+                p.s.: I spent 4 hours just dealing with the svg file, MANUALLY
+                adding properties to all the paths to mark which regency it is.
+                That was a disaster.
               </p>
             </div>
           }

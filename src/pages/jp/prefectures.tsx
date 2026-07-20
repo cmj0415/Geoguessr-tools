@@ -1,10 +1,10 @@
-import JapanMap from '../assets/jp-pref-map.svg?react'
-import InfoWindow from '../components/InfoWindow'
-import QuizLayout from '../components/QuizLayout'
-import { QuestionSelector } from '../components/QuestionSelector'
+import JapanMap from '../../assets/jp-pref-map.svg?react'
+import InfoWindow from '../../components/InfoWindow'
+import QuizLayout from '../../components/QuizLayout'
+import { QuestionSelector } from '../../components/QuestionSelector'
 import { useRef, useEffect, useState, useMemo } from 'react'
-import { JP_MAP, JP_PREFECTURE_CODES } from '../utils/JPPrefData'
-import type { Prefecture } from '../utils/JPPrefData'
+import { JP_MAP, JP_PREFECTURE_CODES } from '../../utils/jp/prefectureData'
+import type { Prefecture } from '../../utils/jp/prefectureData'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 
 export default function JapanPrefecture() {

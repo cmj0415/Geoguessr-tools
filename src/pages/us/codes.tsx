@@ -1,10 +1,10 @@
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet'
 import { useState, useEffect, useMemo, useRef } from 'react'
 import type L from 'leaflet'
-import InfoWindow from '../components/InfoWindow'
-import QuizLayout from '../components/QuizLayout'
-import { RangeSelector } from '../components/RangeSelector'
-import { US_CODE_MAP } from '../utils/USAreaCodeData'
+import InfoWindow from '../../components/InfoWindow'
+import QuizLayout from '../../components/QuizLayout'
+import { RangeSelector } from '../../components/RangeSelector'
+import { US_CODE_MAP } from '../../utils/us/areaCodeData'
 
 export default function USCodes() {
   const availableCodes = useMemo(

@@ -1,10 +1,10 @@
-import PhilippinesMap from '../assets/ph-province-map.svg?react'
-import InfoWindow from '../components/InfoWindow'
-import QuizLayout from '../components/QuizLayout'
-import { QuestionSelector } from '../components/QuestionSelector'
+import PhilippinesMap from '../../assets/ph-province-map.svg?react'
+import InfoWindow from '../../components/InfoWindow'
+import QuizLayout from '../../components/QuizLayout'
+import { QuestionSelector } from '../../components/QuestionSelector'
 import { useRef, useEffect, useState, useMemo } from 'react'
-import { PH_MAP } from '../utils/PHProvinceData'
-import type { Province } from '../utils/PHProvinceData'
+import { PH_MAP } from '../../utils/ph/provinceData'
+import type { Province } from '../../utils/ph/provinceData'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 
 export default function PhilippinesProvinces() {

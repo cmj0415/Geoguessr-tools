@@ -1,8 +1,8 @@
-import USMap from '../assets/us-state-map.svg?react'
-import InfoWindow from '../components/InfoWindow'
-import QuizLayout from '../components/QuizLayout'
+import USMap from '../../assets/us-state-map.svg?react'
+import InfoWindow from '../../components/InfoWindow'
+import QuizLayout from '../../components/QuizLayout'
 import { useRef, useEffect, useState } from 'react'
-import { STATE_NAME_MAP } from '../utils/USStateData'
+import { STATE_NAME_MAP } from '../../utils/us/stateData'
 
 export default function USStates() {
   const svgRef = useRef<SVGSVGElement>(null)

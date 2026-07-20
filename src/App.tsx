@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './Home'
-import USStates from './pages/USStates'
-import USCodes from './pages/USCodes'
-import IndonesiaRegencies from './pages/IndonesiaRegencies'
-import PhilippinesProvinces from './pages/PhilippinesProvinces'
-import BrazilCodes from './pages/BrazilCodes'
-import JapanPrefectures from './pages/JapanPrefectures'
+import USStates from './pages/us/states'
+import USCodes from './pages/us/codes'
+import IndonesiaRegencies from './pages/id/regencies'
+import PhilippinesProvinces from './pages/ph/provinces'
+import BrazilCodes from './pages/br/codes'
+import JapanPrefectures from './pages/jp/prefectures'
 
 function App() {
   return (
