@@ -3,8 +3,8 @@ import type {
   ButtonHTMLAttributes,
   SubmitEvent as ReactSubmitEvent,
 } from 'react'
-import { Link } from 'react-router-dom'
 import BengaliExplanation from '../../components/BengaliExplanation'
+import NavBar from '../../components/NavBar'
 import places from '../../utils/bd/places.json'
 
 type QuizStatus = 'unanswered' | 'incorrect' | 'correct' | 'revealed'
@@ -97,19 +97,19 @@ export default function Bengali() {
       <div className="pointer-events-none absolute -left-24 -top-28 h-80 w-80 rounded-full bg-emerald-500/15 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 -right-20 h-96 w-96 rounded-full bg-rose-500/10 blur-3xl" />
 
-      <header className="relative border-b border-white/10 bg-slate-950/60 backdrop-blur">
-        <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
-          <Link
-            to="/"
-            className="rounded-lg px-2 py-2 text-sm font-semibold text-slate-300 transition hover:bg-white/5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
-          >
-            ← All quizzes
-          </Link>
-          <div className="text-right">
-            <p className="font-bold text-white">Bengali Practice</p>
-            <p className="text-xs text-slate-400">
-              {places.length} place names
-            </p>
+      <header className="relative z-[1200] shrink-0 border-b border-white/10 bg-slate-950/60 backdrop-blur">
+        <div className="mx-auto flex items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
+          <NavBar />
+          <div className="flex min-w-0 items-center gap-3 text-right">
+            <h1 className="truncate text-base font-bold text-white sm:text-lg">
+              Bengali Practice
+            </h1>
+            <span
+              aria-label={`${places.length} place names`}
+              className="inline-flex h-10 items-center rounded-xl border border-white/10 bg-white/5 px-3 text-xs font-semibold text-slate-400"
+            >
+              {places.length} places
+            </span>
           </div>
         </div>
       </header>

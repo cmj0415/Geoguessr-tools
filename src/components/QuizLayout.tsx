@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
-import { Link } from 'react-router-dom'
 import InfoButton from './InfoButton'
+import NavBar from './NavBar'
 import QuestionCard from './QuestionCard'
 
 type QuizLayoutProps = {
@@ -29,12 +29,7 @@ export default function QuizLayout({
 
       <header className="relative z-[1200] shrink-0 border-b border-white/10 bg-slate-950/60 backdrop-blur">
         <div className="mx-auto flex items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
-          <Link
-            to="/"
-            className="rounded-lg px-2 py-2 text-sm font-semibold text-slate-300 transition hover:bg-white/5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
-          >
-            ← All quizzes
-          </Link>
+          <NavBar />
           <div className="flex min-w-0 items-center gap-3 text-right">
             <h1 className="truncate text-base font-bold text-white sm:text-lg">
               {title}
