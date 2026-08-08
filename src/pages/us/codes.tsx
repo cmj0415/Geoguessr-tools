@@ -27,8 +27,8 @@ export default function USCodes() {
   /* area styles */
   function defaultStyle() {
     return {
-      color: '#0000ff',
-      fillColor: '#0000ff',
+      color: '#2563eb',
+      fillColor: '#3b82f6',
       weight: 1,
       opacity: 1,
       fillOpacity: 0.2,
@@ -37,8 +37,8 @@ export default function USCodes() {
 
   function hoverStyle() {
     return {
-      color: '#0000ff',
-      fillColor: '#0000ff',
+      color: '#0284c7',
+      fillColor: '#38bdf8',
       weight: 3,
       fillOpacity: 0.5,
     }
@@ -46,8 +46,8 @@ export default function USCodes() {
 
   function correctStyle() {
     return {
-      color: '#00ff00',
-      fillColor: '#00ff00',
+      color: '#34d399',
+      fillColor: '#34d399',
       weight: 3,
       fillOpacity: 0.5,
     }
@@ -55,8 +55,8 @@ export default function USCodes() {
 
   function hintedStyle() {
     return {
-      color: '#ffff00',
-      fillColor: '#ffff00',
+      color: '#fbbf24',
+      fillColor: '#fbbf24',
       weight: 3,
       fillOpacity: 0.5,
     }
@@ -154,7 +154,6 @@ export default function USCodes() {
   const geoRef = useRef<L.GeoJSON | null>(null)
 
   const highlightRegionsWithCodes = (rawCode: unknown) => {
-
     geoRef.current?.eachLayer((candidateLayer) => {
       const path = candidateLayer as L.Path & {
         feature?: { properties?: { code?: unknown } }

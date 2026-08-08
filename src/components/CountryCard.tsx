@@ -16,31 +16,20 @@ export function CountryCard({
   return (
     <section
       className={[
-        'group relative border-2 border-white/70 bg-inherit rounded-xl',
-        'transition-colors duration-200 hover:border-blue-800',
-        'p-6 pt-10',
+        'group relative overflow-hidden rounded-2xl border border-white/10 bg-slate-900/80',
+        'p-5 shadow-lg shadow-black/10 transition duration-200 hover:-translate-y-1 hover:border-emerald-300/30 hover:shadow-xl hover:shadow-emerald-950/20 sm:p-6',
         className,
       ].join(' ')}
     >
-      <div
-        className="
-        absolute left-4 top-0 -translate-y-1/2 rounded-lg
-        bg-slate-900 group-hover:bg-blue-800
-        px-3 py-2 text-xl  
-        transition-colors duration-200
-      "
-      >
-        <div className="flex items-center gap-2">
-          <div className="h-7 w-7 bg-inherit flex items-center justify-center">
-            {flag ?? null}
-          </div>
-          <div className="text-white/95 font-semibold tracking-wide">
-            {countryName}
-          </div>
+      <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-emerald-400/5 blur-2xl transition group-hover:bg-emerald-400/10" />
+      <div className="relative flex items-center gap-3 border-b border-white/10 pb-4">
+        <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/[0.06] text-2xl ring-1 ring-inset ring-white/10">
+          {flag ?? null}
         </div>
+        <div className="font-bold tracking-wide text-white">{countryName}</div>
       </div>
 
-      <div className="space-y-3">{children}</div>
+      <div className="relative mt-4 space-y-2">{children}</div>
     </section>
   )
 }

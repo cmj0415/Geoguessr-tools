@@ -2,94 +2,90 @@ import { CountryCard } from './components/CountryCard.tsx'
 import { Link } from 'react-router-dom'
 import NavBar from './components/NavBar.tsx'
 import Header from './components/Header.tsx'
+
+const QUIZ_LINK_CLASSES =
+  'flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm font-semibold text-slate-300 transition hover:border-emerald-300/30 hover:bg-emerald-400/10 hover:text-emerald-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300'
+
 function Home() {
   return (
-    <div className="relative min-h-screen bg-slate-900">
-      <Header
-        navbar={<NavBar />}
-        title="Welcome to GeoGuessr Quizzes"
-        bgUrl="/bg1.png"
-      />
+    <div className="relative min-h-screen overflow-hidden bg-slate-950 text-slate-100">
+      <Header navbar={<NavBar />} title="Master the map" bgUrl="/bg1.png" />
 
-      {/* content */}
-      <div className="relative z-10 mx-20">
-        {/* <div className="flex flex-col items-center pt-16 mb-24 text-center">
-                    <h1 className="text-4xl font-bold mt-4 mb-4">Welcome to GeoGuessr Quizzes</h1>
-                    <p className="text-lg text-gray-400">Master your knowledge of the globe</p>
-                </div> */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+      <main className="relative z-10 mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+        <div className="mb-8 text-left">
+          <p className="text-xs font-bold uppercase tracking-[0.28em] text-emerald-300/80">
+            Quiz library
+          </p>
+          <h2 className="mt-2 text-2xl font-bold text-white sm:text-3xl">
+            Choose a place to practice
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 items-start gap-5 md:grid-cols-2 lg:grid-cols-3">
           <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
-            <Link
-              className="inline-block underline text-white"
-              to="/br/area-codes"
-            >
-              Area Code Quiz
+            <Link className={QUIZ_LINK_CLASSES} to="/br/area-codes">
+              <span>Area Code Quiz</span>
+              <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
 
           <CountryCard countryName="India" flag={<span>🇮🇳</span>}>
-            <Link className="inline-block underline text-white" to="/in/states">
-              States Quiz
+            <Link className={QUIZ_LINK_CLASSES} to="/in/states">
+              <span>States Quiz</span>
+              <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
 
           <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
-            <Link
-              className="inline-block underline text-white"
-              to="/id/kabupatens"
-            >
-              Kabupatens Quiz
+            <Link className={QUIZ_LINK_CLASSES} to="/id/kabupatens">
+              <span>Kabupatens Quiz</span>
+              <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
 
           <CountryCard countryName="Japan" flag={<span>🇯🇵</span>}>
-            <Link
-              className="inline-block underline text-white"
-              to="/jp/prefectures"
-            >
-              Prefecture Quiz
+            <Link className={QUIZ_LINK_CLASSES} to="/jp/prefectures">
+              <span>Prefecture Quiz</span>
+              <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
 
           <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
-            <Link
-              className="inline-block underline text-white"
-              to="/mx/postal-codes"
-            >
-              Postal Code Quiz
+            <Link className={QUIZ_LINK_CLASSES} to="/mx/postal-codes">
+              <span>Postal Code Quiz</span>
+              <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
 
           <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
-            <ul>
+            <ul className="space-y-2">
               <li>
-                <Link
-                  className="inline-block underline text-white"
-                  to="/us/area-codes"
-                >
-                  Area Code Quiz
+                <Link className={QUIZ_LINK_CLASSES} to="/us/area-codes">
+                  <span>Area Code Quiz</span>
+                  <span aria-hidden="true">→</span>
                 </Link>
               </li>
               <li>
-                <Link
-                  className="inline-block underline text-white"
-                  to="/us/states"
-                >
-                  States Quiz
+                <Link className={QUIZ_LINK_CLASSES} to="/us/states">
+                  <span>States Quiz</span>
+                  <span aria-hidden="true">→</span>
                 </Link>
               </li>
             </ul>
           </CountryCard>
           <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>
-            <Link
-              className="inline-block underline text-white"
-              to="/ph/provinces"
-            >
-              Province Quiz
+            <Link className={QUIZ_LINK_CLASSES} to="/ph/provinces">
+              <span>Province Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+          <CountryCard countryName="Bangladesh" flag={<span>🇧🇩</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/bd/bengali">
+              <span>Translation Practice</span>
+              <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
         </div>
-      </div>
+      </main>
     </div>
   )
 }

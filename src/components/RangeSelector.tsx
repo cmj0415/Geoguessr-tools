@@ -79,11 +79,11 @@ export function RangeSelector({
 
   return (
     <details className={`group relative w-fit ${className}`}>
-      <summary className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-violet-400/50 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-violet-300 hover:bg-slate-900">
-        <span className="text-sm font-bold uppercase tracking-[0.16em] text-violet-200">
+      <summary className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-emerald-300/25 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-emerald-300/50 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300">
+        <span className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-200">
           {menuLabel}
         </span>
-        <span className="rounded-full bg-violet-400/15 px-2 py-0.5 text-xs text-violet-100">
+        <span className="rounded-full bg-emerald-400/15 px-2 py-0.5 text-xs text-emerald-100">
           {selectedCodes.length}/{availableCodes.length}
         </span>
         <span className="ml-auto text-xs text-slate-400 transition group-open:rotate-180">
@@ -91,7 +91,7 @@ export function RangeSelector({
         </span>
       </summary>
 
-      <div className="absolute right-0 top-[calc(100%+0.5rem)] w-[min(24rem,calc(100vw-2rem))] rounded-xl border border-white/15 bg-slate-950/95 p-4 shadow-2xl backdrop-blur-md">
+      <div className="absolute right-0 top-[calc(100%+0.5rem)] w-[min(24rem,calc(100vw-2rem))] rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md">
         <div className="mb-6 flex items-center justify-between gap-3">
           <div>
             <div className="font-semibold">{title}</div>
@@ -99,20 +99,20 @@ export function RangeSelector({
               {selectedCodes.length} of {availableCodes.length} selected
             </div>
           </div>
-          <div className="rounded-full bg-violet-400/15 px-3 py-1 text-sm font-semibold text-violet-100">
+          <div className="rounded-full bg-emerald-400/15 px-3 py-1 text-sm font-semibold text-emerald-100">
             {left}-{right}
           </div>
         </div>
 
         <div className="relative h-20 px-3">
-          <div className="flex justify-between text-sm font-semibold text-violet-100">
+          <div className="flex justify-between text-sm font-semibold text-emerald-100">
             <span>{left}</span>
             <span>{right}</span>
           </div>
 
           <div className="absolute inset-x-3 top-12 h-1 rounded-full bg-white/20">
             <div
-              className="absolute h-1 rounded-full bg-violet-500"
+              className="absolute h-1 rounded-full bg-emerald-500"
               style={{
                 left: `${leftPct}%`,
                 width: `${rightPct - leftPct}%`,
@@ -162,14 +162,14 @@ export function RangeSelector({
           margin-top: -0.75rem;
           border: 0;
           border-radius: 9999px;
-          background: rgb(139 92 246);
-          box-shadow: 0 0 0 4px rgb(139 92 246 / 0.18);
+          background: rgb(16 185 129);
+          box-shadow: 0 0 0 4px rgb(16 185 129 / 0.18);
           cursor: grab;
         }
 
         .range-selector-thumb:active::-webkit-slider-thumb {
           cursor: grabbing;
-          background: rgb(167 139 250);
+          background: rgb(52 211 153);
         }
 
         .range-selector-thumb::-moz-range-track {
@@ -184,14 +184,14 @@ export function RangeSelector({
           height: 1.5rem;
           border: 0;
           border-radius: 9999px;
-          background: rgb(139 92 246);
-          box-shadow: 0 0 0 4px rgb(139 92 246 / 0.18);
+          background: rgb(16 185 129);
+          box-shadow: 0 0 0 4px rgb(16 185 129 / 0.18);
           cursor: grab;
         }
 
         .range-selector-thumb:active::-moz-range-thumb {
           cursor: grabbing;
-          background: rgb(167 139 250);
+          background: rgb(52 211 153);
         }
       `}</style>
     </details>

@@ -50,11 +50,11 @@ export default function USStates() {
       e.style.fill = ''
 
       if (result === 'correct' && state === targetRef.current) {
-        e.style.fill = '#6bffa78c'
+        e.style.fill = '#34d399b3'
       } else if (result === 'wrong' && state === hovered) {
-        e.style.fill = '#f53f2fbf'
+        e.style.fill = '#fb7185cc'
       } else if (!result && state === hovered) {
-        e.style.fill = '#b2dcf7ad'
+        e.style.fill = '#38bdf899'
       }
     })
   }, [hovered, result])

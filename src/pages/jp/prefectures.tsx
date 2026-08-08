@@ -72,10 +72,10 @@ export default function JapanPrefecture() {
       const code = el.getAttribute('data-code')
       const fill = (() => {
         if (result === 'correct' && code === targetRef.current?.code) {
-          return '#6bffa78c'
+          return '#34d399b3'
         }
-        if (result === 'wrong' && code === clickedCode) return '#f53f2fbf'
-        if (!result && code === hoveredCode) return '#b2dcf7ad'
+        if (result === 'wrong' && code === clickedCode) return '#fb7185cc'
+        if (!result && code === hoveredCode) return '#38bdf899'
         return ''
       })()
 

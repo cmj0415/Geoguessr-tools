@@ -66,7 +66,7 @@ export function QuestionSelector({
     <>
       <div className="mb-3 flex items-center justify-between gap-3">
         <div>
-          <div className="font-semibold">{title}</div>
+          <div className="font-semibold text-white">{title}</div>
           <div className="text-xs text-slate-400">
             {selectedSet.size} of {allItems.length} selected
           </div>
@@ -74,14 +74,14 @@ export function QuestionSelector({
         <div className="flex gap-1 text-xs">
           <button
             type="button"
-            className="border border-white/10 bg-white/5 px-2 py-1 hover:bg-white/10"
+            className="rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5 text-slate-300 transition hover:border-emerald-300/30 hover:bg-emerald-400/10 hover:text-emerald-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
             onClick={() => setSelected(new Set(allItems))}
           >
             All
           </button>
           <button
             type="button"
-            className="border border-white/10 bg-white/5 px-2 py-1 hover:bg-white/10"
+            className="rounded-lg border border-white/10 bg-white/5 px-2.5 py-1.5 text-slate-300 transition hover:border-rose-300/30 hover:bg-rose-400/10 hover:text-rose-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-300"
             onClick={() => setSelected(new Set())}
           >
             None
@@ -90,7 +90,7 @@ export function QuestionSelector({
       </div>
 
       <input
-        className="mb-3 w-full rounded-lg border border-white/10 bg-slate-950/60 px-3 py-2 text-sm outline-none placeholder:text-slate-500 focus:border-violet-400"
+        className="mb-3 w-full rounded-xl border border-white/10 bg-slate-950/70 px-3 py-2.5 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-emerald-300/70 focus:ring-4 focus:ring-emerald-300/10"
         type="search"
         value={query}
         placeholder={searchPlaceholder}
@@ -112,7 +112,7 @@ export function QuestionSelector({
           return (
             <section
               key={groupName}
-              className="rounded-lg border border-white/10 p-3"
+              className="rounded-xl border border-white/10 bg-white/[0.03] p-3"
             >
               <header className="mb-2 flex items-center justify-between gap-3">
                 <div className="font-medium">{groupName} </div>
@@ -120,6 +120,7 @@ export function QuestionSelector({
                 <label className="flex cursor-pointer select-none items-center gap-2 text-sm">
                   <input
                     type="checkbox"
+                    className="accent-emerald-500"
                     checked={allChecked}
                     ref={(el) => {
                       if (el) el.indeterminate = indeterminate
@@ -140,10 +141,11 @@ export function QuestionSelector({
                 {items.map((item) => (
                   <label
                     key={item}
-                    className="flex cursor-pointer items-center gap-2 rounded-md border border-white/10 bg-black/10 px-2 py-1 hover:bg-black/20"
+                    className="flex cursor-pointer items-center gap-2 rounded-lg border border-white/10 bg-slate-950/30 px-2.5 py-2 text-slate-300 transition hover:border-emerald-300/25 hover:bg-emerald-400/[0.07] hover:text-white"
                   >
                     <input
                       type="checkbox"
+                      className="accent-emerald-500"
                       checked={selectedSet.has(item)}
                       onChange={() => toggleOne(item)}
                     />
@@ -161,18 +163,18 @@ export function QuestionSelector({
   if (variant === 'menu') {
     return (
       <details className={`group relative w-fit ${className}`}>
-        <summary className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-violet-400/50 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-violet-300 hover:bg-slate-900">
-          <span className="text-sm font-bold uppercase tracking-[0.16em] text-violet-200">
+        <summary className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-emerald-300/25 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-emerald-300/50 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300">
+          <span className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-200">
             {menuLabel}
           </span>
-          <span className="rounded-full bg-violet-400/15 px-2 py-0.5 text-xs text-violet-100">
+          <span className="rounded-full bg-emerald-400/15 px-2 py-0.5 text-xs text-emerald-100">
             {selectedSet.size}/{allItems.length}
           </span>
           <span className="ml-auto text-xs text-slate-400 transition group-open:rotate-180">
             ▼
           </span>
         </summary>
-        <div className="absolute right-0 top-[calc(100%+0.5rem)] max-h-[min(70vh,42rem)] w-[min(22rem,calc(100vw-2rem))] overflow-y-auto rounded-xl border border-white/15 bg-slate-950/95 p-4 shadow-2xl backdrop-blur-md">
+        <div className="absolute right-0 top-[calc(100%+0.5rem)] max-h-[min(70vh,42rem)] w-[min(22rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md">
           {selectorContent}
         </div>
       </details>
@@ -181,7 +183,7 @@ export function QuestionSelector({
 
   return (
     <div
-      className={`mx-auto mt-16 w-full max-w-5xl rounded-xl border border-white/10 bg-white/5 p-4 ${className}`}
+      className={`mx-auto mt-16 w-full max-w-5xl rounded-2xl border border-white/10 bg-slate-900/80 p-4 ${className}`}
     >
       {selectorContent}
     </div>

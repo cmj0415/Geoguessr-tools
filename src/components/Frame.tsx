@@ -9,8 +9,8 @@ export default function Frame({ children, className = '' }: FrameProps) {
       className={`
         w-fit
         rounded-2xl
-        border border-violet-500/70
-        bg-slate-950/70
+        border border-emerald-300/20
+        bg-slate-950/80
         p-1
         ${className}
       `}
@@ -19,7 +19,7 @@ export default function Frame({ children, className = '' }: FrameProps) {
         className="
           rounded-xl
           border border-white/10
-          bg-slate-900
+          bg-slate-900/95
           shadow-[inset_0_1px_0_rgba(255,255,255,0.18)]
         "
       >
