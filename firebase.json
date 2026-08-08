@@ -8,7 +8,7 @@
     ],
     "headers": [
       {
-        "source": "/map.geojson",
+        "source": "/uscode.geojson",
         "headers": [
           {
             "key": "Cache-Control",
