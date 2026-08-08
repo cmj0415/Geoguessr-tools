@@ -8,6 +8,7 @@ type RangeSelectorProps = {
   onChange?: (next: Set<string>) => void
   title?: string
   menuLabel?: string
+  formatValue?: (value: number) => string
   className?: string
 }
 
@@ -28,6 +29,7 @@ export function RangeSelector({
   onChange,
   title = 'Select range',
   menuLabel = title,
+  formatValue = String,
   className = '',
 }: RangeSelectorProps) {
   const availableCodes = useMemo(
@@ -59,7 +61,7 @@ export function RangeSelector({
     const nextCodes = availableCodes.filter(
       (code) => code >= nextLeft && code <= nextRight
     )
-    onChange?.(new Set(nextCodes.map(String)))
+    onChange?.(new Set(nextCodes.map(formatValue)))
   }
 
   const updateLeft = (rawValue: number) => {
@@ -100,14 +102,14 @@ export function RangeSelector({
             </div>
           </div>
           <div className="rounded-full bg-emerald-400/15 px-3 py-1 text-sm font-semibold text-emerald-100">
-            {left}-{right}
+            {formatValue(left)}-{formatValue(right)}
           </div>
         </div>
 
         <div className="relative h-20 px-3">
           <div className="flex justify-between text-sm font-semibold text-emerald-100">
-            <span>{left}</span>
-            <span>{right}</span>
+            <span>{formatValue(left)}</span>
+            <span>{formatValue(right)}</span>
           </div>
 
           <div className="absolute inset-x-3 top-12 h-1 rounded-full bg-white/20">
@@ -121,7 +123,7 @@ export function RangeSelector({
           </div>
 
           <input
-            aria-label="Minimum area code"
+            aria-label="Minimum range value"
             className="range-selector-thumb pointer-events-none absolute inset-x-0 top-8 z-10 h-8 w-full appearance-none bg-transparent"
             type="range"
             min={min}
@@ -131,7 +133,7 @@ export function RangeSelector({
             onChange={(event) => updateLeft(Number(event.target.value))}
           />
           <input
-            aria-label="Maximum area code"
+            aria-label="Maximum range value"
             className="range-selector-thumb pointer-events-none absolute inset-x-0 top-8 z-20 h-8 w-full appearance-none bg-transparent"
             type="range"
             min={min}
@@ -143,8 +145,8 @@ export function RangeSelector({
         </div>
 
         <div className="mt-1 flex justify-between text-xs font-medium text-slate-400">
-          <span>{min}</span>
-          <span>{max}</span>
+          <span>{formatValue(min)}</span>
+          <span>{formatValue(max)}</span>
         </div>
       </div>
 

@@ -8,6 +8,7 @@ import PhilippinesProvinces from './pages/ph/provinces'
 import BrazilCodes from './pages/br/codes'
 import JapanPrefectures from './pages/jp/prefectures'
 import Bengali from './pages/bd/bengali'
+import MexicoCodes from './pages/mx/codes'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/ph/provinces" element={<PhilippinesProvinces />} />
       <Route path="br/area-codes" element={<BrazilCodes />} />
       <Route path="bd/bengali" element={<Bengali />} />
+      <Route path="mx/postal-codes" element={<MexicoCodes />} />
     </Routes>
   )
 }
