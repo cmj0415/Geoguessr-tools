@@ -895,5 +895,307 @@
       { "bengali": "ট", "romanization": "t" }
     ],
     "note": "Sylhet is an established English spelling rather than a direct transliteration of সিলেট."
+  },
+  {
+    "bengali": "ঈশ্বরদী",
+    "answer": "Ishwardi",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "ঈ", "romanization": "i" },
+      {
+        "bengali": "শ্ব",
+        "romanization": "shwa",
+        "conjunctComponents": ["শ", "ব"]
+      },
+      { "bengali": "র", "romanization": "r" },
+      { "bengali": "দী", "romanization": "di" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "বটিয়াঘাটা",
+    "answer": "Batiaghata",
+    "alternativeAnswers": ["Batiyaghata"],
+    "segments": [
+      { "bengali": "ব", "romanization": "ba" },
+      { "bengali": "টি", "romanization": "ti" },
+      { "bengali": "য়া", "romanization": "ya" },
+      { "bengali": "ঘা", "romanization": "gha" },
+      { "bengali": "টা", "romanization": "ta" }
+    ],
+    "note": "The established English spelling Batiaghata contracts the separately written য়া sound to ia."
+  },
+  {
+    "bengali": "আশাশুনি",
+    "answer": "Assasuni",
+    "alternativeAnswers": ["Ashashuni"],
+    "segments": [
+      { "bengali": "আ", "romanization": "a" },
+      { "bengali": "শা", "romanization": "sha" },
+      { "bengali": "শু", "romanization": "shu" },
+      { "bengali": "নি", "romanization": "ni" }
+    ],
+    "note": "Assasuni is an established English spelling rather than a letter-for-letter transliteration of আশাশুনি."
+  },
+  {
+    "bengali": "ক্ষেতুপাড়া",
+    "answer": "Khetupara",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "bengali": "ক্ষে",
+        "romanization": "khe",
+        "conjunctComponents": ["ক", "ষ"]
+      },
+      { "bengali": "তু", "romanization": "tu" },
+      { "bengali": "পা", "romanization": "pa" },
+      { "bengali": "ড়া", "romanization": "ra" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "অষ্টমনিষা",
+    "answer": "Astomonisha",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "অ", "romanization": "a" },
+      {
+        "bengali": "ষ্ট",
+        "romanization": "sto",
+        "conjunctComponents": ["ষ", "ট"]
+      },
+      { "bengali": "ম", "romanization": "mo" },
+      { "bengali": "নি", "romanization": "ni" },
+      { "bengali": "ষা", "romanization": "sha" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "উল্লাপাড়া",
+    "answer": "Ullapara",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "উ", "romanization": "u" },
+      {
+        "bengali": "ল্লা",
+        "romanization": "lla",
+        "conjunctComponents": ["ল", "ল"]
+      },
+      { "bengali": "পা", "romanization": "pa" },
+      { "bengali": "ড়া", "romanization": "ra" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "সান্তাহার পৌরসভা",
+    "answer": "Santahar Pouroshova",
+    "alternativeAnswers": ["Santahar Pourashava", "Santahar Pourashova"],
+    "segments": [
+      { "bengali": "সা", "romanization": "sa" },
+      {
+        "bengali": "ন্তা",
+        "romanization": "nta",
+        "conjunctComponents": ["ন", "ত"]
+      },
+      { "bengali": "হা", "romanization": "ha" },
+      { "bengali": "র ", "romanization": "r " },
+      { "bengali": "পৌ", "romanization": "pou" },
+      { "bengali": "র", "romanization": "ro" },
+      { "bengali": "স", "romanization": "sho" },
+      { "bengali": "ভা", "romanization": "va" }
+    ],
+    "note": "In the established spelling Pouroshova, স is represented by sh and ভ by v."
+  },
+  {
+    "bengali": "রাজেন্দ্রপুর",
+    "answer": "Rajendrapur",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "রা", "romanization": "ra" },
+      { "bengali": "জে", "romanization": "je" },
+      {
+        "bengali": "ন্দ্র",
+        "romanization": "ndra",
+        "conjunctComponents": ["ন", "দ", "র"]
+      },
+      { "bengali": "পু", "romanization": "pu" },
+      { "bengali": "র", "romanization": "r" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "ভুরুঙ্গামারী",
+    "answer": "Bhurungamari",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "ভু", "romanization": "bhu" },
+      { "bengali": "রু", "romanization": "ru" },
+      {
+        "bengali": "ঙ্গা",
+        "romanization": "nga",
+        "conjunctComponents": ["ঙ", "গ"]
+      },
+      { "bengali": "মা", "romanization": "ma" },
+      { "bengali": "রী", "romanization": "ri" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "শ্রীবরদী",
+    "answer": "Sreebardi",
+    "alternativeAnswers": ["Sribardi"],
+    "segments": [
+      {
+        "bengali": "শ্রী",
+        "romanization": "sree",
+        "conjunctComponents": ["শ", "র"]
+      },
+      { "bengali": "ব", "romanization": "ba" },
+      { "bengali": "র", "romanization": "r" },
+      { "bengali": "দী", "romanization": "di" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "জয়সিদ্ধি",
+    "answer": "Joysiddhi",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "জ", "romanization": "jo" },
+      { "bengali": "য়", "romanization": "y" },
+      { "bengali": "সি", "romanization": "si" },
+      {
+        "bengali": "দ্ধি",
+        "romanization": "ddhi",
+        "conjunctComponents": ["দ", "ধ"]
+      }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "আউশকান্দি",
+    "answer": "Aushkandi",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "আ", "romanization": "a" },
+      { "bengali": "উ", "romanization": "u" },
+      { "bengali": "শ", "romanization": "sh" },
+      { "bengali": "কা", "romanization": "ka" },
+      {
+        "bengali": "ন্দি",
+        "romanization": "ndi",
+        "conjunctComponents": ["ন", "দ"]
+      }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "ফেঞ্চুগঞ্জ",
+    "answer": "Fenchuganj",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "ফে", "romanization": "fe" },
+      {
+        "bengali": "ঞ্চু",
+        "romanization": "nchu",
+        "conjunctComponents": ["ঞ", "চ"]
+      },
+      { "bengali": "গ", "romanization": "ga" },
+      {
+        "bengali": "ঞ্জ",
+        "romanization": "nj",
+        "conjunctComponents": ["ঞ", "জ"]
+      }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "চৌমুহনী",
+    "answer": "Chowmuhani",
+    "alternativeAnswers": ["Chaumuhani"],
+    "segments": [
+      { "bengali": "চৌ", "romanization": "chow" },
+      { "bengali": "মু", "romanization": "mu" },
+      { "bengali": "হ", "romanization": "ha" },
+      { "bengali": "নী", "romanization": "ni" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "স্বরূপকাঠী",
+    "answer": "Swarupkathi",
+    "alternativeAnswers": ["Swarupkati"],
+    "segments": [
+      {
+        "bengali": "স্ব",
+        "romanization": "swa",
+        "conjunctComponents": ["স", "ব"]
+      },
+      { "bengali": "রূ", "romanization": "ru" },
+      { "bengali": "প", "romanization": "p" },
+      { "bengali": "কা", "romanization": "ka" },
+      { "bengali": "ঠী", "romanization": "thi" }
+    ],
+    "note": "In স্ব, the ব is pronounced like w in the established English spelling."
+  },
+  {
+    "bengali": "সাভার",
+    "answer": "Savar",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "সা", "romanization": "sa" },
+      { "bengali": "ভা", "romanization": "va" },
+      { "bengali": "র", "romanization": "r" }
+    ],
+    "note": "The Bengali ভ is conventionally represented by v in the established English name."
+  },
+  {
+    "bengali": "টঙ্গী",
+    "answer": "Tongi",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "ট", "romanization": "to" },
+      {
+        "bengali": "ঙ্গী",
+        "romanization": "ngi",
+        "conjunctComponents": ["ঙ", "গ"]
+      }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "মর্তুজাবাদ",
+    "answer": "Mortujabad",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "ম", "romanization": "mo" },
+      {
+        "bengali": "র্তু",
+        "romanization": "rtu",
+        "conjunctComponents": ["র", "ত"]
+      },
+      { "bengali": "জা", "romanization": "ja" },
+      { "bengali": "বা", "romanization": "ba" },
+      { "bengali": "দ", "romanization": "d" }
+    ],
+    "note": null
+  },
+  {
+    "bengali": "রামকৃষ্ণপুর",
+    "answer": "Ramkrishnapur",
+    "alternativeAnswers": [],
+    "segments": [
+      { "bengali": "রা", "romanization": "ra" },
+      { "bengali": "ম", "romanization": "m" },
+      { "bengali": "কৃ", "romanization": "kri" },
+      {
+        "bengali": "ষ্ণ",
+        "romanization": "shna",
+        "conjunctComponents": ["ষ", "ণ"]
+      },
+      { "bengali": "পু", "romanization": "pu" },
+      { "bengali": "র", "romanization": "r" }
+    ],
+    "note": null
   }
 ]
