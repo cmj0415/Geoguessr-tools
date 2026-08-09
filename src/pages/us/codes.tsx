@@ -15,14 +15,11 @@ export default function USCodes() {
             including Puerto Rico, Guam, and NMI.
           </p>
           <p className="mt-4">
-            You can choose the range of codes that you want to practice. This
-            page is still under progress, so not all codes are available. It
-            might take me a month or two to draw all the divisions lol.
+            You can choose the range of codes that you want to practice!
           </p>
         </div>
       }
       geoJsonUrl="/uscode.geojson"
-      cache="no-store"
       availableCodes={US_AVAILABLE_CODES}
       getFeatureCodes={getUsFeatureCodes}
       range={{
