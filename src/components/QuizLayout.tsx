@@ -6,7 +6,7 @@ import QuestionCard from './QuestionCard'
 type QuizLayoutProps = {
   title: string
   question: string | null
-  selector: ReactNode
+  selector?: ReactNode
   hasSelector?: boolean
   isInfoOpen: boolean
   onInfoClick: () => void
@@ -17,11 +17,13 @@ export default function QuizLayout({
   title,
   question,
   selector,
-  hasSelector = true,
+  hasSelector,
   isInfoOpen,
   onInfoClick,
   children,
 }: QuizLayoutProps) {
+  const showsSelector = hasSelector ?? selector !== undefined
+
   return (
     <div className="relative flex h-dvh flex-col overflow-hidden bg-slate-950 text-slate-100">
       <div className="pointer-events-none absolute -left-24 -top-28 h-80 w-80 rounded-full bg-emerald-500/15 blur-3xl" />
@@ -39,13 +41,15 @@ export default function QuizLayout({
         </div>
       </header>
       <main className="relative min-h-0 flex-1 p-3 sm:p-6">
-        <div className="absolute right-5 top-5 z-[1100] sm:right-9 sm:top-9">
-          {selector}
-        </div>
+        {selector && (
+          <div className="absolute right-5 top-5 z-[1100] sm:right-9 sm:top-9">
+            {selector}
+          </div>
+        )}
         <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/10 bg-slate-900/80 shadow-2xl shadow-black/30">
           <div
             className={`pointer-events-none absolute inset-x-0 z-[1000] flex justify-center px-4 ${
-              hasSelector ? 'top-20 lg:top-5' : 'top-5'
+              showsSelector ? 'top-20 lg:top-5' : 'top-5'
             }`}
           >
             <QuestionCard

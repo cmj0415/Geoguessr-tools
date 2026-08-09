@@ -1,6 +1,12 @@
 import type { GeoJsonObject } from 'geojson'
 import type L from 'leaflet'
 
+export const OPEN_STREET_MAP_TILE_LAYER = {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+}
+
 export const GEO_JSON_DEFAULT_STYLE: L.PathOptions = {
   color: '#2563eb',
   fillColor: '#3b82f6',
@@ -45,11 +51,11 @@ export function getFeatureProperties(
   return properties as Record<string, unknown>
 }
 
-export function pickRandomCode(pool: string[]) {
+export function pickRandomItem<T>(pool: T[]) {
   if (pool.length === 0) return null
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
-export function getCodeGroupKey(codes: string[]) {
-  return [...codes].sort().join('|')
+export function getFeatureGroupKey(featureIds: string[]) {
+  return [...featureIds].sort().join('|')
 }
