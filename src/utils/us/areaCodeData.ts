@@ -1,3 +1,5 @@
+import { getFeatureProperties } from '../geoJsonCodeQuiz'
+
 export type Area = { group: string; code: string }
 export type GroupData = { group: string; codes: string[] }
 export const US_CODE_MAP: Record<string, string[]> = {
@@ -210,4 +212,31 @@ export const US_CODE_MAP: Record<string, string[]> = {
   '700s': [],
   '800s': [],
   '900s': [],
+}
+
+export const US_AVAILABLE_CODES = Object.values(US_CODE_MAP)
+  .flat()
+  .sort((a, b) => Number(a) - Number(b))
+
+function normalizeCodeValues(value: unknown): string[] {
+  if (Array.isArray(value)) return value.flatMap(normalizeCodeValues)
+  if (typeof value === 'number') return [String(value)]
+  if (typeof value !== 'string') return []
+
+  const code = value.trim()
+  if (!code) return []
+
+  try {
+    const parsed: unknown = JSON.parse(code)
+    if (parsed !== code) return normalizeCodeValues(parsed)
+  } catch {
+    return [code]
+  }
+
+  return [code]
+}
+
+export function getUsFeatureCodes(feature: unknown) {
+  const rawCode = getFeatureProperties(feature)?.code
+  return Array.from(new Set(normalizeCodeValues(rawCode)))
 }
