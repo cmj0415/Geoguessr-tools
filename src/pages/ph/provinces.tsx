@@ -1,202 +1,47 @@
-import PhilippinesMap from '../../assets/ph-province-map.svg?react'
-import InfoWindow from '../../components/InfoWindow'
-import QuizLayout from '../../components/QuizLayout'
-import { QuestionSelector } from '../../components/QuestionSelector'
-import { useRef, useEffect, useState, useMemo } from 'react'
-import { PH_MAP } from '../../utils/ph/provinceData'
-import type { Province } from '../../utils/ph/provinceData'
-import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
+import GeoJsonRegionQuiz from '../../components/GeoJsonRegionQuiz'
+import {
+  getPhilippinesProvinceIds,
+  PH_PROVINCES,
+} from '../../utils/ph/provinceData'
+import { OPEN_STREET_MAP_TILE_LAYER } from '../../utils/geoJsonCodeQuiz'
+
+const ISLAND_GROUPS = {
+  'Island Groups': ['Luzon', 'Visayas', 'Mindanao'],
+}
 
 export default function PhilippinesProvinces() {
-  const divs: Record<string, string[]> = {
-    'Island Groups': ['Luzon', 'Visayas', 'Mindanao'],
-  }
-  const svgRef = useRef<SVGSVGElement>(null)
-
-  const [selectedGroups, setSelectedGroups] = useState<Set<string>>(
-    () => new Set(Object.keys(PH_MAP))
-  )
-
-  const pool = useMemo(() => {
-    const out: Province[] = []
-    for (const p of selectedGroups) {
-      for (const r of PH_MAP[p] ?? []) out.push({ group: p, province: r })
-    }
-    return out
-  }, [selectedGroups])
-
-  useEffect(() => {
-    setQuestion(pickRandomProvince(pool))
-  }, [pool])
-
-  function pickRandomProvince(pool: Province[]) {
-    if (pool.length == 0) return null
-    return pool[Math.floor(Math.random() * pool.length)]
-  }
-
-  const [question, setQuestion] = useState<Province | null>(
-    pickRandomProvince(pool)
-  )
-
-  const targetRef = useRef(question)
-  useEffect(() => {
-    targetRef.current = question
-  }, [question])
-
-  const [hovered, setHovered] = useState<string | null>(null)
-  const [result, setResult] = useState<'correct' | 'wrong' | null>(null)
-
-  useEffect(() => {
-    if (!result) return
-
-    const timer = setTimeout(() => {
-      if (result === 'correct') {
-        setQuestion(pickRandomProvince(pool))
-      }
-      setResult(null)
-    }, 250)
-
-    return () => clearTimeout(timer)
-  }, [result])
-
-  useEffect(() => {
-    const svg = svgRef.current
-    if (!svg) return
-
-    svg.querySelectorAll('path').forEach((el) => {
-      const cls = el.getAttribute('province')
-      if (!cls) return
-
-      const e = el as SVGElement
-
-      // reset
-      e.style.fill = ''
-
-      if (result === 'correct' && cls === targetRef.current?.province) {
-        e.style.fill = '#34d399b3'
-      } else if (result === 'wrong' && cls === hovered) {
-        e.style.fill = '#fb7185cc'
-      } else if (!result && cls === hovered) {
-        e.style.fill = '#38bdf899'
-      }
-    })
-  }, [hovered, result])
-
-  useEffect(() => {
-    const svg = svgRef.current
-    if (!svg) return
-
-    const interactiveArea = new Map<string, SVGElement>()
-    svg.querySelectorAll('path').forEach((el) => {
-      const cls = el.getAttribute('province')
-      if (cls && cls.length == 2) {
-        interactiveArea.set(cls, el as SVGElement)
-      }
-    })
-
-    function handleEnter(e: MouseEvent) {
-      const el = (e.target as Element | null)?.closest?.(
-        'path'
-      ) as SVGElement | null
-      if (!el) return
-
-      const r = el.getAttribute('province')
-      if (!r) return
-
-      setHovered(r)
-    }
-
-    function handleLeave() {
-      setHovered(null)
-    }
-
-    function handleClick(e: MouseEvent) {
-      const target = e.target as SVGElement
-      if (!target || target.tagName !== 'path') return
-      const r = target.getAttribute('province')
-      if (r === targetRef.current?.province) {
-        setResult('correct')
-      } else {
-        setResult('wrong')
-      }
-    }
-
-    svg.addEventListener('mouseover', handleEnter)
-    svg.addEventListener('mouseout', handleLeave)
-    svg.addEventListener('click', handleClick)
-
-    return () => {
-      svg.removeEventListener('mouseover', handleEnter)
-      svg.removeEventListener('mouseout', handleLeave)
-      svg.removeEventListener('click', handleClick)
-    }
-  }, [])
-
-  const [isInfoOpen, setIsInfoOpen] = useState(false)
-
   return (
-    <>
-      <QuizLayout
-        title="Philippines Provinces Quiz"
-        question={
-          question ? question.province : 'Select island groups to begin'
-        }
-        selector={
-          <QuestionSelector
-            divisions={divs}
-            defaultValue={Array.from(selectedGroups)}
-            onChange={setSelectedGroups}
-            menuLabel="Island group pool"
-            searchPlaceholder="Find an island group..."
-            variant="menu"
-          />
-        }
-        isInfoOpen={isInfoOpen}
-        onInfoClick={() => setIsInfoOpen(true)}
-      >
-        <div className="flex h-full w-full items-center justify-center overflow-hidden p-2 sm:p-5">
-          <TransformWrapper
-            minScale={0.5}
-            maxScale={20}
-            initialScale={0.5}
-            wheel={{ step: 10 }}
-            centerOnInit
-            limitToBounds={false}
-          >
-            <TransformComponent
-              wrapperClass="w-full h-full flex items-center justify-center"
-              contentClass="flex items-center justify-center"
-            >
-              <PhilippinesMap className="max-w-full max-h-full" ref={svgRef} />
-            </TransformComponent>
-          </TransformWrapper>
+    <GeoJsonRegionQuiz
+      title="Philippines Provinces Quiz"
+      infoContent={
+        <div className="text-justify">
+          <p>
+            This practice contains all 82 provinces of the Philippines, plus
+            Manila.
+          </p>
+          <p className="mt-4">
+            Maguindanao del Norte and Maguindanao del Sur are shown separately,
+            reflecting the 2022 division of the former Maguindanao province.
+          </p>
         </div>
-      </QuizLayout>
-      {isInfoOpen && (
-        <InfoWindow
-          title={
-            <h2 className="text-center font-bold">
-              Philippines Provinces Quiz
-            </h2>
-          }
-          content={
-            <div className="text-justify">
-              <p>
-                This practice contains every (not actually) provinces of the
-                Philippines.
-              </p>
-              <p className="mt-4">
-                Note that the province of Maguindanao has split into Maguindanao
-                del Norte and Maguindanao del Sur in 2022, but I couldn't find
-                an SVG map with those 2 provinces. However, I think this is not
-                actually a big deal. If you know where Maguindanao is, you'll
-                know where the 2 provinces are.
-              </p>
-            </div>
-          }
-          onClose={() => setIsInfoOpen(false)}
-        />
-      )}
-    </>
+      }
+      geoJsonUrl="/phprovince.geojson"
+      items={PH_PROVINCES}
+      getFeatureIds={getPhilippinesProvinceIds}
+      selector={{
+        divisions: ISLAND_GROUPS,
+        title: 'Select island groups',
+        menuLabel: 'Island group pool',
+        searchPlaceholder: 'Find an island group...',
+      }}
+      map={{
+        center: [12.88, 121.77],
+        zoom: 5,
+        minZoom: 4,
+        tileLayer: OPEN_STREET_MAP_TILE_LAYER,
+      }}
+      emptyQuestion="Select island groups to begin"
+      loadErrorMessage="Unable to load the province map."
+    />
   )
 }
