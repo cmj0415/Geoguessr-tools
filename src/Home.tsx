@@ -21,16 +21,16 @@ function Home() {
           </h2>
         </div>
         <div className="grid grid-cols-1 items-start gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
-            <Link className={QUIZ_LINK_CLASSES} to="/br/area-codes">
-              <span>Area Code Quiz</span>
+          <CountryCard countryName="Bangladesh" flag={<span>🇧🇩</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/bd/bengali">
+              <span>Translation Practice</span>
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
 
-          <CountryCard countryName="India" flag={<span>🇮🇳</span>}>
-            <Link className={QUIZ_LINK_CLASSES} to="/in/states">
-              <span>States Quiz</span>
+          <CountryCard countryName="Brazil" flag={<span>🇧🇷</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/br/area-codes">
+              <span>Area Code Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
@@ -72,15 +72,10 @@ function Home() {
               </li>
             </ul>
           </CountryCard>
+          
           <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/ph/provinces">
               <span>Province Quiz</span>
-              <span aria-hidden="true">→</span>
-            </Link>
-          </CountryCard>
-          <CountryCard countryName="Bangladesh" flag={<span>🇧🇩</span>}>
-            <Link className={QUIZ_LINK_CLASSES} to="/bd/bengali">
-              <span>Translation Practice</span>
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
