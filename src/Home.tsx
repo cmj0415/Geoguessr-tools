@@ -57,20 +57,10 @@ function Home() {
           </CountryCard>
 
           <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
-            <ul className="space-y-2">
-              <li>
-                <Link className={QUIZ_LINK_CLASSES} to="/us/area-codes">
-                  <span>Area Code Quiz</span>
-                  <span aria-hidden="true">→</span>
-                </Link>
-              </li>
-              <li>
-                <Link className={QUIZ_LINK_CLASSES} to="/us/states">
-                  <span>States Quiz</span>
-                  <span aria-hidden="true">→</span>
-                </Link>
-              </li>
-            </ul>
+              <Link className={QUIZ_LINK_CLASSES} to="/us/area-codes">
+                <span>Area Code Quiz</span>
+                <span aria-hidden="true">→</span>
+              </Link>
           </CountryCard>
           
           <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>

@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './Home'
-import USStates from './pages/us/states'
 import USCodes from './pages/us/codes'
 import IndonesiaRegencies from './pages/id/regencies'
 import PhilippinesProvinces from './pages/ph/provinces'
@@ -14,7 +13,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/us/states" element={<USStates />} />
       <Route path="us/area-codes" element={<USCodes />} />
       <Route path="id/kabupatens" element={<IndonesiaRegencies />} />
       <Route path="/jp/prefectures" element={<JapanPrefectures />} />
