@@ -1,5 +1,6 @@
 import TranslationPractice from '../../components/TranslationPractice'
 import places from '../../utils/bd/places.json'
+import { BENGALI_SCRIPT_REFERENCE } from '../../utils/bd/scriptReference'
 import type { TranslationPracticeEntry } from '../../utils/translationPractice'
 
 const BENGALI_PLACES: TranslationPracticeEntry[] = places
@@ -12,6 +13,7 @@ export default function Bengali() {
       entries={BENGALI_PLACES}
       itemCountLabel="places"
       componentLabel="Conjunct"
+      scriptReference={BENGALI_SCRIPT_REFERENCE}
     />
   )
 }

@@ -12,6 +12,24 @@ export type TranslationPracticeEntry = {
   note?: string | null
 }
 
+export type ScriptReferenceItem = {
+  symbol: string
+  romanizations: string[]
+  note?: string
+}
+
+export type ScriptReferenceSection = {
+  title: string
+  description?: string
+  items: ScriptReferenceItem[]
+}
+
+export type ScriptReference = {
+  title: string
+  description?: string
+  sections: ScriptReferenceSection[]
+}
+
 export function normalizeTranslationAnswer(value: string) {
   return value
     .normalize('NFKC')

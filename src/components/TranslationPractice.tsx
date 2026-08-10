@@ -1,14 +1,19 @@
-import { useId, useRef, useState } from 'react'
+import { useCallback, useId, useRef, useState } from 'react'
 import type {
   ButtonHTMLAttributes,
+  Ref,
   SubmitEvent as ReactSubmitEvent,
 } from 'react'
 import {
   normalizeTranslationAnswer,
   pickNextTranslationIndex,
 } from '../utils/translationPractice'
-import type { TranslationPracticeEntry } from '../utils/translationPractice'
+import type {
+  ScriptReference,
+  TranslationPracticeEntry,
+} from '../utils/translationPractice'
 import NavBar from './NavBar'
+import ScriptReferencePanel from './ScriptReferencePanel'
 import TranslationExplanation from './TranslationExplanation'
 
 type QuizStatus = 'unanswered' | 'incorrect' | 'correct' | 'revealed'
@@ -16,6 +21,7 @@ type ButtonVariant = 'primary' | 'secondary' | 'next'
 
 type ActionButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant: ButtonVariant
+  buttonRef?: Ref<HTMLButtonElement>
 }
 
 type TranslationPracticeProps = {
@@ -24,6 +30,7 @@ type TranslationPracticeProps = {
   entries: TranslationPracticeEntry[]
   itemCountLabel?: string
   componentLabel?: string
+  scriptReference?: ScriptReference
 }
 
 const BUTTON_BASE_CLASSES =
@@ -39,11 +46,13 @@ const BUTTON_VARIANT_CLASSES: Record<ButtonVariant, string> = {
 
 function ActionButton({
   variant,
+  buttonRef,
   className = '',
   ...buttonProps
 }: ActionButtonProps) {
   return (
     <button
+      ref={buttonRef}
       className={`${BUTTON_BASE_CLASSES} ${BUTTON_VARIANT_CLASSES[variant]} ${className}`}
       {...buttonProps}
     />
@@ -56,16 +65,21 @@ export default function TranslationPractice({
   entries,
   itemCountLabel = 'places',
   componentLabel,
+  scriptReference,
 }: TranslationPracticeProps) {
   const [questionIndex, setQuestionIndex] = useState(() =>
     entries.length > 0 ? Math.floor(Math.random() * entries.length) : 0
   )
   const [answer, setAnswer] = useState('')
   const [status, setStatus] = useState<QuizStatus>('unanswered')
+  const [isReferenceOpen, setIsReferenceOpen] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
+  const referenceButtonRef = useRef<HTMLButtonElement>(null)
   const inputId = useId()
+  const referencePanelId = useId()
   const entry = entries[questionIndex] ?? entries[0]
   const canAdvance = status === 'correct' || status === 'revealed'
+  const closeReference = useCallback(() => setIsReferenceOpen(false), [])
 
   function handleSubmit(event: ReactSubmitEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -108,16 +122,30 @@ export default function TranslationPractice({
       <header className="relative z-[1200] shrink-0 border-b border-white/10 bg-slate-950/60 backdrop-blur">
         <div className="mx-auto flex items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
           <NavBar />
-          <div className="flex min-w-0 items-center gap-3 text-right">
+          <div className="flex min-w-0 items-center gap-2 text-right sm:gap-3">
             <h1 className="truncate text-base font-bold text-white sm:text-lg">
               {title}
             </h1>
             <span
               aria-label={`${entries.length} ${itemCountLabel}`}
-              className="inline-flex h-10 items-center rounded-xl border border-white/10 bg-white/5 px-3 text-xs font-semibold text-slate-400"
+              className="hidden h-10 items-center rounded-xl border border-white/10 bg-white/5 px-3 text-xs font-semibold text-slate-400 sm:inline-flex"
             >
               {entries.length} {itemCountLabel}
             </span>
+            {scriptReference && (
+              <ActionButton
+                buttonRef={referenceButtonRef}
+                aria-controls={referencePanelId}
+                aria-expanded={isReferenceOpen}
+                aria-haspopup="dialog"
+                variant="secondary"
+                type="button"
+                className="min-h-10 shrink-0 px-3 py-2 text-xs sm:text-sm"
+                onClick={() => setIsReferenceOpen(true)}
+              >
+                Script guide
+              </ActionButton>
+            )}
           </div>
         </div>
       </header>
@@ -219,6 +247,17 @@ export default function TranslationPractice({
           </>
         )}
       </main>
+
+      {scriptReference && (
+        <ScriptReferencePanel
+          isOpen={isReferenceOpen}
+          sourceLanguage={sourceLanguage}
+          reference={scriptReference}
+          panelId={referencePanelId}
+          returnFocusRef={referenceButtonRef}
+          onClose={closeReference}
+        />
+      )}
     </div>
   )
 }
