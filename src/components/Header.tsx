@@ -33,7 +33,7 @@ export default function Header({
             {title}
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-            Don't suck at Moving from now on.
+            I suck at memorizing so I made this. 
           </p>
         </div>
       </div>
