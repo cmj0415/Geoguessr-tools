@@ -1,0 +1,566 @@
+[
+  {
+    "prompt": "Уфа",
+    "answer": "Ufa",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Улан-Удэ",
+    "answer": "Ulan-Ude",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Горно-Алтайск",
+    "answer": "Gorno-Altaysk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Махачкала",
+    "answer": "Makhachkala",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Нальчик",
+    "answer": "Nalchik",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Элиста",
+    "answer": "Elista",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Черкесск",
+    "answer": "Cherkessk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Петрозаводск",
+    "answer": "Petrozavodsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Сыктывкар",
+    "answer": "Syktyvkar",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Йошкар-Ола",
+    "answer": "Yoshkar-Ola",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Саранск",
+    "answer": "Saransk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Якутск",
+    "answer": "Yakutsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Владикавказ",
+    "answer": "Vladikavkaz",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Казань",
+    "answer": "Kazan",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Кызыл",
+    "answer": "Kyzyl",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Ижевск",
+    "answer": "Izhevsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Абакан",
+    "answer": "Abakan",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Грозный",
+    "answer": "Grozny",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Чебоксары",
+    "answer": "Cheboksary",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Барнаул",
+    "answer": "Barnaul",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Краснодар",
+    "answer": "Krasnodar",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Красноярск",
+    "answer": "Krasnoyarsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Владивосток",
+    "answer": "Vladivostok",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Ставрополь",
+    "answer": "Stavropol",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Хабаровск",
+    "answer": "Khabarovsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Благовещенск",
+    "answer": "Blagoveshchensk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Архангельск",
+    "answer": "Arkhangelsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Астрахань",
+    "answer": "Astrakhan",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Белгород",
+    "answer": "Belgorod",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Брянск",
+    "answer": "Bryansk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Владимир",
+    "answer": "Vladimir",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Волгоград",
+    "answer": "Volgograd",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Вологда",
+    "answer": "Vologda",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Воронеж",
+    "answer": "Voronezh",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Иваново",
+    "answer": "Ivanovo",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Иркутск",
+    "answer": "Irkutsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Калининград",
+    "answer": "Kaliningrad",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Калуга",
+    "answer": "Kaluga",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Петропавловск-Камчатский",
+    "answer": "Petropavlovsk-Kamchatsky",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Кемерово",
+    "answer": "Kemerovo",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Киров",
+    "answer": "Kirov",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Кострома",
+    "answer": "Kostroma",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Курган",
+    "answer": "Kurgan",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Курск",
+    "answer": "Kursk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Гатчина",
+    "answer": "Gatchina",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Липецк",
+    "answer": "Lipetsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Магадан",
+    "answer": "Magadan",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Балашиха",
+    "answer": "Balashikha",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Мурманск",
+    "answer": "Murmansk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Нижний Новгород",
+    "answer": "Nizhny Novgorod",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Великий Новгород",
+    "answer": "Veliky Novgorod",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Новосибирск",
+    "answer": "Novosibirsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Омск",
+    "answer": "Omsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Оренбург",
+    "answer": "Orenburg",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Орёл",
+    "answer": "Oryol",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Пенза",
+    "answer": "Penza",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Пермь",
+    "answer": "Perm",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Псков",
+    "answer": "Pskov",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Ростов-на-Дону",
+    "answer": "Rostov-on-Don",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": "Rostov-on-Don translates the Russian preposition на as “on” and uses the base river name Don; a direct transliteration would be Rostov-na-Donu."
+  },
+  {
+    "prompt": "Рязань",
+    "answer": "Ryazan",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Самара",
+    "answer": "Samara",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Саратов",
+    "answer": "Saratov",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Южно-Сахалинск",
+    "answer": "Yuzhno-Sakhalinsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Екатеринбург",
+    "answer": "Yekaterinburg",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Смоленск",
+    "answer": "Smolensk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Тамбов",
+    "answer": "Tambov",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Тверь",
+    "answer": "Tver",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Томск",
+    "answer": "Tomsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Тула",
+    "answer": "Tula",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Тюмень",
+    "answer": "Tyumen",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Ульяновск",
+    "answer": "Ulyanovsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Челябинск",
+    "answer": "Chelyabinsk",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Чита",
+    "answer": "Chita",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Ярославль",
+    "answer": "Yaroslavl",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Москва",
+    "answer": "Moscow",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": "Moscow is the established English exonym; Москва is directly transliterated as Moskva."
+  },
+  {
+    "prompt": "Санкт-Петербург",
+    "answer": "Saint Petersburg",
+    "alternativeAnswers": [
+      "Saint-Petersburg",
+      "St. Petersburg",
+      "St Petersburg"
+    ],
+    "segments": [],
+    "note": "Saint Petersburg is the established English form; a direct transliteration would be Sankt-Peterburg."
+  },
+  {
+    "prompt": "Биробиджан",
+    "answer": "Birobidzhan",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Нарьян-Мар",
+    "answer": "Naryan-Mar",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Анадырь",
+    "answer": "Anadyr",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  },
+  {
+    "prompt": "Новый Уренгой",
+    "answer": "Novy Urengoy",
+    "alternativeAnswers": [],
+    "segments": [],
+    "note": null
+  }
+]
