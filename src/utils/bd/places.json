@@ -1,1200 +1,1200 @@
 [
   {
-    "bengali": "বরিশাল",
+    "prompt": "বরিশাল",
     "answer": "Barishal",
     "alternativeAnswers": ["Barisal"],
     "segments": [
-      { "bengali": "ব", "romanization": "ba" },
-      { "bengali": "রি", "romanization": "ri" },
-      { "bengali": "শা", "romanization": "sha" },
-      { "bengali": "ল", "romanization": "l" }
+      { "source": "ব", "reading": "ba" },
+      { "source": "রি", "reading": "ri" },
+      { "source": "শা", "reading": "sha" },
+      { "source": "ল", "reading": "l" }
     ],
     "note": "The established English spelling uses Barishal; the first inherent vowel is often pronounced closer to o in Bengali."
   },
   {
-    "bengali": "বরগুনা",
+    "prompt": "বরগুনা",
     "answer": "Barguna",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ব", "romanization": "ba" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "গু", "romanization": "gu" },
-      { "bengali": "না", "romanization": "na" }
+      { "source": "ব", "reading": "ba" },
+      { "source": "র", "reading": "r" },
+      { "source": "গু", "reading": "gu" },
+      { "source": "না", "reading": "na" }
     ],
     "note": null
   },
   {
-    "bengali": "ভোলা",
+    "prompt": "ভোলা",
     "answer": "Bhola",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ভো", "romanization": "bho" },
-      { "bengali": "লা", "romanization": "la" }
+      { "source": "ভো", "reading": "bho" },
+      { "source": "লা", "reading": "la" }
     ],
     "note": null
   },
   {
-    "bengali": "ঝালকাঠি",
+    "prompt": "ঝালকাঠি",
     "answer": "Jhalokathi",
     "alternativeAnswers": ["Jhalokati"],
     "segments": [
-      { "bengali": "ঝা", "romanization": "jha" },
-      { "bengali": "ল", "romanization": "lo" },
-      { "bengali": "কা", "romanization": "ka" },
-      { "bengali": "ঠি", "romanization": "thi" }
+      { "source": "ঝা", "reading": "jha" },
+      { "source": "ল", "reading": "lo" },
+      { "source": "কা", "reading": "ka" },
+      { "source": "ঠি", "reading": "thi" }
     ],
     "note": "The bare ল supplies the medial inherent vowel in the English spelling."
   },
   {
-    "bengali": "পটুয়াখালী",
+    "prompt": "পটুয়াখালী",
     "answer": "Patuakhali",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "প", "romanization": "pa" },
-      { "bengali": "টু", "romanization": "tu" },
-      { "bengali": "য়া", "romanization": "ya" },
-      { "bengali": "খা", "romanization": "kha" },
-      { "bengali": "লী", "romanization": "li" }
+      { "source": "প", "reading": "pa" },
+      { "source": "টু", "reading": "tu" },
+      { "source": "য়া", "reading": "ya" },
+      { "source": "খা", "reading": "kha" },
+      { "source": "লী", "reading": "li" }
     ],
     "note": null
   },
   {
-    "bengali": "পিরোজপুর",
+    "prompt": "পিরোজপুর",
     "answer": "Pirojpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "পি", "romanization": "pi" },
-      { "bengali": "রো", "romanization": "ro" },
-      { "bengali": "জ", "romanization": "j" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "পি", "reading": "pi" },
+      { "source": "রো", "reading": "ro" },
+      { "source": "জ", "reading": "j" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "ব্রাহ্মণবাড়িয়া",
+    "prompt": "ব্রাহ্মণবাড়িয়া",
     "answer": "Brahmanbaria",
     "alternativeAnswers": [],
     "segments": [
       {
-        "bengali": "ব্রা",
-        "romanization": "bra",
-        "conjunctComponents": ["ব", "র"]
+        "source": "ব্রা",
+        "reading": "bra",
+        "components": ["ব","র"]
       },
       {
-        "bengali": "হ্ম",
-        "romanization": "hma",
-        "conjunctComponents": ["হ", "ম"]
+        "source": "হ্ম",
+        "reading": "hma",
+        "components": ["হ","ম"]
       },
-      { "bengali": "ণ", "romanization": "n" },
-      { "bengali": "বা", "romanization": "ba" },
-      { "bengali": "ড়ি", "romanization": "ri" },
-      { "bengali": "য়া", "romanization": "ya" }
+      { "source": "ণ", "reading": "n" },
+      { "source": "বা", "reading": "ba" },
+      { "source": "ড়ি", "reading": "ri" },
+      { "source": "য়া", "reading": "ya" }
     ],
     "note": "The established English ending -baria does not show the y sound of the final য়া separately."
   },
   {
-    "bengali": "কুমিল্লা",
+    "prompt": "কুমিল্লা",
     "answer": "Cumilla",
-    "alternativeAnswers": ["Comilla", "Kumilla"],
+    "alternativeAnswers": ["Comilla","Kumilla"],
     "segments": [
-      { "bengali": "কু", "romanization": "ku" },
-      { "bengali": "মি", "romanization": "mi" },
+      { "source": "কু", "reading": "ku" },
+      { "source": "মি", "reading": "mi" },
       {
-        "bengali": "ল্লা",
-        "romanization": "lla",
-        "conjunctComponents": ["ল", "ল"]
+        "source": "ল্লা",
+        "reading": "lla",
+        "components": ["ল","ল"]
       }
     ],
     "note": "The Bengali ক is represented by C in the official English spelling. Comilla is the former English spelling."
   },
   {
-    "bengali": "চাঁদপুর",
+    "prompt": "চাঁদপুর",
     "answer": "Chandpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "চাঁ", "romanization": "chan" },
-      { "bengali": "দ", "romanization": "d" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "চাঁ", "reading": "chan" },
+      { "source": "দ", "reading": "d" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "The chandrabindu in চাঁদ marks a nasalized vowel."
   },
   {
-    "bengali": "লক্ষ্মীপুর",
+    "prompt": "লক্ষ্মীপুর",
     "answer": "Lakshmipur",
     "alternativeAnswers": ["Laxmipur"],
     "segments": [
-      { "bengali": "ল", "romanization": "la" },
+      { "source": "ল", "reading": "la" },
       {
-        "bengali": "ক্ষ্মী",
-        "romanization": "kshmi",
-        "conjunctComponents": ["ক", "ষ", "ম"]
+        "source": "ক্ষ্মী",
+        "reading": "kshmi",
+        "components": ["ক","ষ","ম"]
       },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "লক্ষ্মী contains the conjunct ক্ষ্ম, represented conventionally as kshm in the English name."
   },
   {
-    "bengali": "নোয়াখালী",
+    "prompt": "নোয়াখালী",
     "answer": "Noakhali",
     "alternativeAnswers": ["Noyakhali"],
     "segments": [
-      { "bengali": "নো", "romanization": "no" },
-      { "bengali": "য়া", "romanization": "ya" },
-      { "bengali": "খা", "romanization": "kha" },
-      { "bengali": "লী", "romanization": "li" }
+      { "source": "নো", "reading": "no" },
+      { "source": "য়া", "reading": "ya" },
+      { "source": "খা", "reading": "kha" },
+      { "source": "লী", "reading": "li" }
     ],
     "note": "The glide written with য় in নোয়া is not shown as a separate y in the established English spelling Noakhali."
   },
   {
-    "bengali": "ফেনী",
+    "prompt": "ফেনী",
     "answer": "Feni",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ফে", "romanization": "fe" },
-      { "bengali": "নী", "romanization": "ni" }
+      { "source": "ফে", "reading": "fe" },
+      { "source": "নী", "reading": "ni" }
     ],
     "note": null
   },
   {
-    "bengali": "খাগড়াছড়ি",
+    "prompt": "খাগড়াছড়ি",
     "answer": "Khagrachhari",
-    "alternativeAnswers": ["Khagarachhari", "Khagrachari"],
+    "alternativeAnswers": ["Khagarachhari","Khagrachari"],
     "segments": [
-      { "bengali": "খা", "romanization": "kha" },
-      { "bengali": "গ", "romanization": "ga" },
-      { "bengali": "ড়া", "romanization": "ra" },
-      { "bengali": "ছ", "romanization": "chha" },
-      { "bengali": "ড়ি", "romanization": "ri" }
+      { "source": "খা", "reading": "kha" },
+      { "source": "গ", "reading": "ga" },
+      { "source": "ড়া", "reading": "ra" },
+      { "source": "ছ", "reading": "chha" },
+      { "source": "ড়ি", "reading": "ri" }
     ],
     "note": "The conventional English spelling Khagrachhari compresses the inherent vowels in গড়া rather than transliterating them one by one."
   },
   {
-    "bengali": "রাঙ্গামাটি",
+    "prompt": "রাঙ্গামাটি",
     "answer": "Rangamati",
     "alternativeAnswers": ["Rangamatti"],
     "segments": [
-      { "bengali": "রা", "romanization": "ra" },
+      { "source": "রা", "reading": "ra" },
       {
-        "bengali": "ঙ্গা",
-        "romanization": "nga",
-        "conjunctComponents": ["ঙ", "গ"]
+        "source": "ঙ্গা",
+        "reading": "nga",
+        "components": ["ঙ","গ"]
       },
-      { "bengali": "মা", "romanization": "ma" },
-      { "bengali": "টি", "romanization": "ti" }
+      { "source": "মা", "reading": "ma" },
+      { "source": "টি", "reading": "ti" }
     ],
     "note": "The conjunct ঙ্গ supplies the ng sound."
   },
   {
-    "bengali": "বান্দরবান",
+    "prompt": "বান্দরবান",
     "answer": "Bandarban",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "বা", "romanization": "ba" },
+      { "source": "বা", "reading": "ba" },
       {
-        "bengali": "ন্দ",
-        "romanization": "nda",
-        "conjunctComponents": ["ন", "দ"]
+        "source": "ন্দ",
+        "reading": "nda",
+        "components": ["ন","দ"]
       },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "বা", "romanization": "ba" },
-      { "bengali": "ন", "romanization": "n" }
+      { "source": "র", "reading": "r" },
+      { "source": "বা", "reading": "ba" },
+      { "source": "ন", "reading": "n" }
     ],
     "note": null
   },
   {
-    "bengali": "চট্টগ্রাম",
+    "prompt": "চট্টগ্রাম",
     "answer": "Chittagong",
     "alternativeAnswers": ["Chattogram"],
     "segments": [
-      { "bengali": "চ", "romanization": "cha" },
+      { "source": "চ", "reading": "cha" },
       {
-        "bengali": "ট্ট",
-        "romanization": "tto",
-        "conjunctComponents": ["ট", "ট"]
+        "source": "ট্ট",
+        "reading": "tto",
+        "components": ["ট","ট"]
       },
       {
-        "bengali": "গ্রা",
-        "romanization": "gra",
-        "conjunctComponents": ["গ", "র"]
+        "source": "গ্রা",
+        "reading": "gra",
+        "components": ["গ","র"]
       },
-      { "bengali": "ম", "romanization": "m" }
+      { "source": "ম", "reading": "m" }
     ],
     "note": "The Bengali spelling corresponds to Chattogram. Chittagong is a long-established English name rather than a direct transliteration."
   },
   {
-    "bengali": "কক্সবাজার",
+    "prompt": "কক্সবাজার",
     "answer": "Cox's Bazar",
-    "alternativeAnswers": ["Coxs Bazar", "Cox Bazar"],
+    "alternativeAnswers": ["Coxs Bazar","Cox Bazar"],
     "segments": [
-      { "bengali": "ক", "romanization": "ko" },
+      { "source": "ক", "reading": "ko" },
       {
-        "bengali": "ক্স",
-        "romanization": "ks",
-        "conjunctComponents": ["ক", "স"]
+        "source": "ক্স",
+        "reading": "ks",
+        "components": ["ক","স"]
       },
-      { "bengali": "বা", "romanization": "ba" },
-      { "bengali": "জা", "romanization": "za" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "বা", "reading": "ba" },
+      { "source": "জা", "reading": "za" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "Cox's Bazar is an English-derived name written phonetically in Bengali, so the apostrophe and the established English spelling must be restored."
   },
   {
-    "bengali": "ঢাকা",
+    "prompt": "ঢাকা",
     "answer": "Dhaka",
     "alternativeAnswers": ["Dacca"],
     "segments": [
-      { "bengali": "ঢা", "romanization": "dha" },
-      { "bengali": "কা", "romanization": "ka" }
+      { "source": "ঢা", "reading": "dha" },
+      { "source": "কা", "reading": "ka" }
     ],
     "note": "Dacca is an older English spelling."
   },
   {
-    "bengali": "গাজীপুর",
+    "prompt": "গাজীপুর",
     "answer": "Gazipur",
     "alternativeAnswers": ["Gajipur"],
     "segments": [
-      { "bengali": "গা", "romanization": "ga" },
-      { "bengali": "জী", "romanization": "ji" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "গা", "reading": "ga" },
+      { "source": "জী", "reading": "ji" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "The জ sound is conventionally represented by z in the established English spelling Gazipur."
   },
   {
-    "bengali": "মানিকগঞ্জ",
+    "prompt": "মানিকগঞ্জ",
     "answer": "Manikganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "মা", "romanization": "ma" },
-      { "bengali": "নি", "romanization": "ni" },
-      { "bengali": "ক", "romanization": "k" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "মা", "reading": "ma" },
+      { "source": "নি", "reading": "ni" },
+      { "source": "ক", "reading": "k" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "মুন্সীগঞ্জ",
+    "prompt": "মুন্সীগঞ্জ",
     "answer": "Munshiganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "মু", "romanization": "mu" },
+      { "source": "মু", "reading": "mu" },
       {
-        "bengali": "ন্সী",
-        "romanization": "nshi",
-        "conjunctComponents": ["ন", "স"]
+        "source": "ন্সী",
+        "reading": "nshi",
+        "components": ["ন","স"]
       },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "কিশোরগঞ্জ",
+    "prompt": "কিশোরগঞ্জ",
     "answer": "Kishoreganj",
     "alternativeAnswers": ["Kishorganj"],
     "segments": [
-      { "bengali": "কি", "romanization": "ki" },
-      { "bengali": "শো", "romanization": "sho" },
-      { "bengali": "র", "romanization": "re" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "কি", "reading": "ki" },
+      { "source": "শো", "reading": "sho" },
+      { "source": "র", "reading": "re" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "নারায়ণগঞ্জ",
+    "prompt": "নারায়ণগঞ্জ",
     "answer": "Narayanganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "না", "romanization": "na" },
-      { "bengali": "রা", "romanization": "ra" },
-      { "bengali": "য়", "romanization": "ya" },
-      { "bengali": "ণ", "romanization": "n" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "না", "reading": "na" },
+      { "source": "রা", "reading": "ra" },
+      { "source": "য়", "reading": "ya" },
+      { "source": "ণ", "reading": "n" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "নরসিংদী",
+    "prompt": "নরসিংদী",
     "answer": "Narsingdi",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ন", "romanization": "na" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "সিং", "romanization": "sing" },
-      { "bengali": "দী", "romanization": "di" }
+      { "source": "ন", "reading": "na" },
+      { "source": "র", "reading": "r" },
+      { "source": "সিং", "reading": "sing" },
+      { "source": "দী", "reading": "di" }
     ],
     "note": "The anusvara ং supplies the ng sound in সিং."
   },
   {
-    "bengali": "টাঙ্গাইল",
+    "prompt": "টাঙ্গাইল",
     "answer": "Tangail",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "টা", "romanization": "ta" },
+      { "source": "টা", "reading": "ta" },
       {
-        "bengali": "ঙ্গা",
-        "romanization": "nga",
-        "conjunctComponents": ["ঙ", "গ"]
+        "source": "ঙ্গা",
+        "reading": "nga",
+        "components": ["ঙ","গ"]
       },
-      { "bengali": "ই", "romanization": "i" },
-      { "bengali": "ল", "romanization": "l" }
+      { "source": "ই", "reading": "i" },
+      { "source": "ল", "reading": "l" }
     ],
     "note": "The conjunct ঙ্গ supplies the ng sound."
   },
   {
-    "bengali": "ফরিদপুর",
+    "prompt": "ফরিদপুর",
     "answer": "Faridpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ফ", "romanization": "fa" },
-      { "bengali": "রি", "romanization": "ri" },
-      { "bengali": "দ", "romanization": "d" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "ফ", "reading": "fa" },
+      { "source": "রি", "reading": "ri" },
+      { "source": "দ", "reading": "d" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "গোপালগঞ্জ",
+    "prompt": "গোপালগঞ্জ",
     "answer": "Gopalganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "গো", "romanization": "go" },
-      { "bengali": "পা", "romanization": "pa" },
-      { "bengali": "ল", "romanization": "l" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "গো", "reading": "go" },
+      { "source": "পা", "reading": "pa" },
+      { "source": "ল", "reading": "l" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "মাদারীপুর",
+    "prompt": "মাদারীপুর",
     "answer": "Madaripur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "মা", "romanization": "ma" },
-      { "bengali": "দা", "romanization": "da" },
-      { "bengali": "রী", "romanization": "ri" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "মা", "reading": "ma" },
+      { "source": "দা", "reading": "da" },
+      { "source": "রী", "reading": "ri" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "রাজবাড়ী",
+    "prompt": "রাজবাড়ী",
     "answer": "Rajbari",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "রা", "romanization": "ra" },
-      { "bengali": "জ", "romanization": "j" },
-      { "bengali": "বা", "romanization": "ba" },
-      { "bengali": "ড়ী", "romanization": "ri" }
+      { "source": "রা", "reading": "ra" },
+      { "source": "জ", "reading": "j" },
+      { "source": "বা", "reading": "ba" },
+      { "source": "ড়ী", "reading": "ri" }
     ],
     "note": "In বাড়ী, the letter ড় represents a flapped r sound in the English spelling."
   },
   {
-    "bengali": "শরিয়তপুর",
+    "prompt": "শরিয়তপুর",
     "answer": "Shariatpur",
     "alternativeAnswers": ["Shariyatpur"],
     "segments": [
-      { "bengali": "শ", "romanization": "sha" },
-      { "bengali": "রি", "romanization": "ri" },
-      { "bengali": "য়", "romanization": "ya" },
-      { "bengali": "ত", "romanization": "t" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "শ", "reading": "sha" },
+      { "source": "রি", "reading": "ri" },
+      { "source": "য়", "reading": "ya" },
+      { "source": "ত", "reading": "t" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "The Bengali glide in য়ত is not written as a separate y in the established English spelling Shariatpur."
   },
   {
-    "bengali": "বাগেরহাট",
+    "prompt": "বাগেরহাট",
     "answer": "Bagerhat",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "বা", "romanization": "ba" },
-      { "bengali": "গে", "romanization": "ge" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "হা", "romanization": "ha" },
-      { "bengali": "ট", "romanization": "t" }
+      { "source": "বা", "reading": "ba" },
+      { "source": "গে", "reading": "ge" },
+      { "source": "র", "reading": "r" },
+      { "source": "হা", "reading": "ha" },
+      { "source": "ট", "reading": "t" }
     ],
     "note": null
   },
   {
-    "bengali": "চুয়াডাঙ্গা",
+    "prompt": "চুয়াডাঙ্গা",
     "answer": "Chuadanga",
     "alternativeAnswers": ["Chuyadanga"],
     "segments": [
-      { "bengali": "চু", "romanization": "chu" },
-      { "bengali": "য়া", "romanization": "ya" },
-      { "bengali": "ডা", "romanization": "da" },
+      { "source": "চু", "reading": "chu" },
+      { "source": "য়া", "reading": "ya" },
+      { "source": "ডা", "reading": "da" },
       {
-        "bengali": "ঙ্গা",
-        "romanization": "nga",
-        "conjunctComponents": ["ঙ", "গ"]
+        "source": "ঙ্গা",
+        "reading": "nga",
+        "components": ["ঙ","গ"]
       }
     ],
     "note": "The established English spelling does not show the y sound of য়া separately."
   },
   {
-    "bengali": "যশোর",
+    "prompt": "যশোর",
     "answer": "Jashore",
     "alternativeAnswers": ["Jessore"],
     "segments": [
-      { "bengali": "য", "romanization": "ja" },
-      { "bengali": "শো", "romanization": "sho" },
-      { "bengali": "র", "romanization": "re" }
+      { "source": "য", "reading": "ja" },
+      { "source": "শো", "reading": "sho" },
+      { "source": "র", "reading": "re" }
     ],
     "note": "Jessore is the former official English spelling."
   },
   {
-    "bengali": "ঝিনাইদহ",
+    "prompt": "ঝিনাইদহ",
     "answer": "Jhenaidah",
     "alternativeAnswers": ["Jhinaidah"],
     "segments": [
-      { "bengali": "ঝি", "romanization": "jhe" },
-      { "bengali": "না", "romanization": "na" },
-      { "bengali": "ই", "romanization": "i" },
-      { "bengali": "দ", "romanization": "da" },
-      { "bengali": "হ", "romanization": "h" }
+      { "source": "ঝি", "reading": "jhe" },
+      { "source": "না", "reading": "na" },
+      { "source": "ই", "reading": "i" },
+      { "source": "দ", "reading": "da" },
+      { "source": "হ", "reading": "h" }
     ],
     "note": "The established English spelling uses Jhe for the initial ঝি."
   },
   {
-    "bengali": "খুলনা",
+    "prompt": "খুলনা",
     "answer": "Khulna",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "খু", "romanization": "khu" },
-      { "bengali": "ল", "romanization": "l" },
-      { "bengali": "না", "romanization": "na" }
+      { "source": "খু", "reading": "khu" },
+      { "source": "ল", "reading": "l" },
+      { "source": "না", "reading": "na" }
     ],
     "note": null
   },
   {
-    "bengali": "কুষ্টিয়া",
+    "prompt": "কুষ্টিয়া",
     "answer": "Kushtia",
     "alternativeAnswers": ["Kushtiya"],
     "segments": [
-      { "bengali": "কু", "romanization": "ku" },
+      { "source": "কু", "reading": "ku" },
       {
-        "bengali": "ষ্টি",
-        "romanization": "shti",
-        "conjunctComponents": ["ষ", "ট"]
+        "source": "ষ্টি",
+        "reading": "shti",
+        "components": ["ষ","ট"]
       },
-      { "bengali": "য়া", "romanization": "ya" }
+      { "source": "য়া", "reading": "ya" }
     ],
     "note": "The established English ending -tia does not show the y sound of য়া separately."
   },
   {
-    "bengali": "মাগুরা",
+    "prompt": "মাগুরা",
     "answer": "Magura",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "মা", "romanization": "ma" },
-      { "bengali": "গু", "romanization": "gu" },
-      { "bengali": "রা", "romanization": "ra" }
+      { "source": "মা", "reading": "ma" },
+      { "source": "গু", "reading": "gu" },
+      { "source": "রা", "reading": "ra" }
     ],
     "note": null
   },
   {
-    "bengali": "মেহেরপুর",
+    "prompt": "মেহেরপুর",
     "answer": "Meherpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "মে", "romanization": "me" },
-      { "bengali": "হে", "romanization": "he" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "মে", "reading": "me" },
+      { "source": "হে", "reading": "he" },
+      { "source": "র", "reading": "r" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "নড়াইল",
+    "prompt": "নড়াইল",
     "answer": "Narail",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ন", "romanization": "na" },
-      { "bengali": "ড়া", "romanization": "ra" },
-      { "bengali": "ই", "romanization": "i" },
-      { "bengali": "ল", "romanization": "l" }
+      { "source": "ন", "reading": "na" },
+      { "source": "ড়া", "reading": "ra" },
+      { "source": "ই", "reading": "i" },
+      { "source": "ল", "reading": "l" }
     ],
     "note": null
   },
   {
-    "bengali": "সাতক্ষীরা",
+    "prompt": "সাতক্ষীরা",
     "answer": "Satkhira",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "সা", "romanization": "sa" },
-      { "bengali": "ত", "romanization": "t" },
+      { "source": "সা", "reading": "sa" },
+      { "source": "ত", "reading": "t" },
       {
-        "bengali": "ক্ষী",
-        "romanization": "khi",
-        "conjunctComponents": ["ক", "ষ"]
+        "source": "ক্ষী",
+        "reading": "khi",
+        "components": ["ক","ষ"]
       },
-      { "bengali": "রা", "romanization": "ra" }
+      { "source": "রা", "reading": "ra" }
     ],
     "note": "The conjunct ক্ষ is represented by kh, rather than ksh, in the established English spelling."
   },
   {
-    "bengali": "জামালপুর",
+    "prompt": "জামালপুর",
     "answer": "Jamalpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "জা", "romanization": "ja" },
-      { "bengali": "মা", "romanization": "ma" },
-      { "bengali": "ল", "romanization": "l" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "জা", "reading": "ja" },
+      { "source": "মা", "reading": "ma" },
+      { "source": "ল", "reading": "l" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "ময়মনসিংহ",
+    "prompt": "ময়মনসিংহ",
     "answer": "Mymensingh",
     "alternativeAnswers": ["Mymensing"],
     "segments": [
-      { "bengali": "ম", "romanization": "m" },
-      { "bengali": "য়", "romanization": "y" },
-      { "bengali": "ম", "romanization": "me" },
-      { "bengali": "ন", "romanization": "n" },
-      { "bengali": "সিং", "romanization": "sing" },
-      { "bengali": "হ", "romanization": "h" }
+      { "source": "ম", "reading": "m" },
+      { "source": "য়", "reading": "y" },
+      { "source": "ম", "reading": "me" },
+      { "source": "ন", "reading": "n" },
+      { "source": "সিং", "reading": "sing" },
+      { "source": "হ", "reading": "h" }
     ],
     "note": "The established English spelling differs from the Bengali pronunciation, which is closer to Moymonsingho."
   },
   {
-    "bengali": "নেত্রকোণা",
+    "prompt": "নেত্রকোণা",
     "answer": "Netrokona",
     "alternativeAnswers": ["Netrakona"],
     "segments": [
-      { "bengali": "নে", "romanization": "ne" },
+      { "source": "নে", "reading": "ne" },
       {
-        "bengali": "ত্র",
-        "romanization": "tro",
-        "conjunctComponents": ["ত", "র"]
+        "source": "ত্র",
+        "reading": "tro",
+        "components": ["ত","র"]
       },
-      { "bengali": "কো", "romanization": "ko" },
-      { "bengali": "ণা", "romanization": "na" }
+      { "source": "কো", "reading": "ko" },
+      { "source": "ণা", "reading": "na" }
     ],
     "note": null
   },
   {
-    "bengali": "শেরপুর",
+    "prompt": "শেরপুর",
     "answer": "Sherpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "শে", "romanization": "she" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "শে", "reading": "she" },
+      { "source": "র", "reading": "r" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "বগুড়া",
+    "prompt": "বগুড়া",
     "answer": "Bogura",
     "alternativeAnswers": ["Bogra"],
     "segments": [
-      { "bengali": "ব", "romanization": "bo" },
-      { "bengali": "গু", "romanization": "gu" },
-      { "bengali": "ড়া", "romanization": "ra" }
+      { "source": "ব", "reading": "bo" },
+      { "source": "গু", "reading": "gu" },
+      { "source": "ড়া", "reading": "ra" }
     ],
     "note": "Bogra is the former official English spelling."
   },
   {
-    "bengali": "জয়পুরহাট",
+    "prompt": "জয়পুরহাট",
     "answer": "Joypurhat",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "জ", "romanization": "jo" },
-      { "bengali": "য়", "romanization": "y" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "হা", "romanization": "ha" },
-      { "bengali": "ট", "romanization": "t" }
+      { "source": "জ", "reading": "jo" },
+      { "source": "য়", "reading": "y" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" },
+      { "source": "হা", "reading": "ha" },
+      { "source": "ট", "reading": "t" }
     ],
     "note": null
   },
   {
-    "bengali": "নওগাঁ",
+    "prompt": "নওগাঁ",
     "answer": "Naogaon",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ন", "romanization": "na" },
-      { "bengali": "ও", "romanization": "o" },
-      { "bengali": "গাঁ", "romanization": "gaon" }
+      { "source": "ন", "reading": "na" },
+      { "source": "ও", "reading": "o" },
+      { "source": "গাঁ", "reading": "gaon" }
     ],
     "note": "The chandrabindu in গাঁ marks the nasalization represented by n in the English ending -gaon."
   },
   {
-    "bengali": "নাটোর",
+    "prompt": "নাটোর",
     "answer": "Natore",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "না", "romanization": "na" },
-      { "bengali": "টো", "romanization": "to" },
-      { "bengali": "র", "romanization": "re" }
+      { "source": "না", "reading": "na" },
+      { "source": "টো", "reading": "to" },
+      { "source": "র", "reading": "re" }
     ],
     "note": null
   },
   {
-    "bengali": "চাঁপাইনবাবগঞ্জ",
+    "prompt": "চাঁপাইনবাবগঞ্জ",
     "answer": "Chapainawabganj",
     "alternativeAnswers": ["Chapai Nawabganj"],
     "segments": [
-      { "bengali": "চাঁ", "romanization": "cha" },
-      { "bengali": "পা", "romanization": "pa" },
-      { "bengali": "ই", "romanization": "i" },
-      { "bengali": "ন", "romanization": "na" },
-      { "bengali": "বা", "romanization": "wa" },
-      { "bengali": "ব", "romanization": "b" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "চাঁ", "reading": "cha" },
+      { "source": "পা", "reading": "pa" },
+      { "source": "ই", "reading": "i" },
+      { "source": "ন", "reading": "na" },
+      { "source": "বা", "reading": "wa" },
+      { "source": "ব", "reading": "b" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": "The chandrabindu nasalizes চাঁ, while the ব in নবাব is conventionally represented by w in the English name."
   },
   {
-    "bengali": "পাবনা",
+    "prompt": "পাবনা",
     "answer": "Pabna",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "পা", "romanization": "pa" },
-      { "bengali": "ব", "romanization": "b" },
-      { "bengali": "না", "romanization": "na" }
+      { "source": "পা", "reading": "pa" },
+      { "source": "ব", "reading": "b" },
+      { "source": "না", "reading": "na" }
     ],
     "note": null
   },
   {
-    "bengali": "রাজশাহী",
+    "prompt": "রাজশাহী",
     "answer": "Rajshahi",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "রা", "romanization": "ra" },
-      { "bengali": "জ", "romanization": "j" },
-      { "bengali": "শা", "romanization": "sha" },
-      { "bengali": "হী", "romanization": "hi" }
+      { "source": "রা", "reading": "ra" },
+      { "source": "জ", "reading": "j" },
+      { "source": "শা", "reading": "sha" },
+      { "source": "হী", "reading": "hi" }
     ],
     "note": null
   },
   {
-    "bengali": "সিরাজগঞ্জ",
+    "prompt": "সিরাজগঞ্জ",
     "answer": "Sirajganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "সি", "romanization": "si" },
-      { "bengali": "রা", "romanization": "ra" },
-      { "bengali": "জ", "romanization": "j" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "সি", "reading": "si" },
+      { "source": "রা", "reading": "ra" },
+      { "source": "জ", "reading": "j" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "দিনাজপুর",
+    "prompt": "দিনাজপুর",
     "answer": "Dinajpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "দি", "romanization": "di" },
-      { "bengali": "না", "romanization": "na" },
-      { "bengali": "জ", "romanization": "j" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "দি", "reading": "di" },
+      { "source": "না", "reading": "na" },
+      { "source": "জ", "reading": "j" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "গাইবান্ধা",
+    "prompt": "গাইবান্ধা",
     "answer": "Gaibandha",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "গা", "romanization": "ga" },
-      { "bengali": "ই", "romanization": "i" },
-      { "bengali": "বা", "romanization": "ba" },
+      { "source": "গা", "reading": "ga" },
+      { "source": "ই", "reading": "i" },
+      { "source": "বা", "reading": "ba" },
       {
-        "bengali": "ন্ধা",
-        "romanization": "ndha",
-        "conjunctComponents": ["ন", "ধ"]
+        "source": "ন্ধা",
+        "reading": "ndha",
+        "components": ["ন","ধ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "কুড়িগ্রাম",
+    "prompt": "কুড়িগ্রাম",
     "answer": "Kurigram",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "কু", "romanization": "ku" },
-      { "bengali": "ড়ি", "romanization": "ri" },
+      { "source": "কু", "reading": "ku" },
+      { "source": "ড়ি", "reading": "ri" },
       {
-        "bengali": "গ্রা",
-        "romanization": "gra",
-        "conjunctComponents": ["গ", "র"]
+        "source": "গ্রা",
+        "reading": "gra",
+        "components": ["গ","র"]
       },
-      { "bengali": "ম", "romanization": "m" }
+      { "source": "ম", "reading": "m" }
     ],
     "note": null
   },
   {
-    "bengali": "লালমনিরহাট",
+    "prompt": "লালমনিরহাট",
     "answer": "Lalmonirhat",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "লা", "romanization": "la" },
-      { "bengali": "ল", "romanization": "l" },
-      { "bengali": "ম", "romanization": "mo" },
-      { "bengali": "নি", "romanization": "ni" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "হা", "romanization": "ha" },
-      { "bengali": "ট", "romanization": "t" }
+      { "source": "লা", "reading": "la" },
+      { "source": "ল", "reading": "l" },
+      { "source": "ম", "reading": "mo" },
+      { "source": "নি", "reading": "ni" },
+      { "source": "র", "reading": "r" },
+      { "source": "হা", "reading": "ha" },
+      { "source": "ট", "reading": "t" }
     ],
     "note": null
   },
   {
-    "bengali": "নীলফামারী",
+    "prompt": "নীলফামারী",
     "answer": "Nilphamari",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "নী", "romanization": "ni" },
-      { "bengali": "ল", "romanization": "l" },
-      { "bengali": "ফা", "romanization": "pha" },
-      { "bengali": "মা", "romanization": "ma" },
-      { "bengali": "রী", "romanization": "ri" }
+      { "source": "নী", "reading": "ni" },
+      { "source": "ল", "reading": "l" },
+      { "source": "ফা", "reading": "pha" },
+      { "source": "মা", "reading": "ma" },
+      { "source": "রী", "reading": "ri" }
     ],
     "note": null
   },
   {
-    "bengali": "পঞ্চগড়",
+    "prompt": "পঞ্চগড়",
     "answer": "Panchagarh",
     "alternativeAnswers": ["Panchagar"],
     "segments": [
-      { "bengali": "প", "romanization": "pa" },
+      { "source": "প", "reading": "pa" },
       {
-        "bengali": "ঞ্চ",
-        "romanization": "ncha",
-        "conjunctComponents": ["ঞ", "চ"]
+        "source": "ঞ্চ",
+        "reading": "ncha",
+        "components": ["ঞ","চ"]
       },
-      { "bengali": "গ", "romanization": "ga" },
-      { "bengali": "ড়", "romanization": "rh" }
+      { "source": "গ", "reading": "ga" },
+      { "source": "ড়", "reading": "rh" }
     ],
     "note": "The final ড় is conventionally represented by rh in the established English spelling."
   },
   {
-    "bengali": "রংপুর",
+    "prompt": "রংপুর",
     "answer": "Rangpur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "রং", "romanization": "rang" },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "রং", "reading": "rang" },
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "The anusvara ং supplies the ng sound in রং."
   },
   {
-    "bengali": "ঠাকুরগাঁও",
+    "prompt": "ঠাকুরগাঁও",
     "answer": "Thakurgaon",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ঠা", "romanization": "tha" },
-      { "bengali": "কু", "romanization": "ku" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "গাঁ", "romanization": "ga" },
-      { "bengali": "ও", "romanization": "on" }
+      { "source": "ঠা", "reading": "tha" },
+      { "source": "কু", "reading": "ku" },
+      { "source": "র", "reading": "r" },
+      { "source": "গাঁ", "reading": "ga" },
+      { "source": "ও", "reading": "on" }
     ],
     "note": "The chandrabindu nasalizes গাঁ; the established English ending -gaon represents গাঁও as a whole."
   },
   {
-    "bengali": "হবিগঞ্জ",
+    "prompt": "হবিগঞ্জ",
     "answer": "Habiganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "হ", "romanization": "ha" },
-      { "bengali": "বি", "romanization": "bi" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "হ", "reading": "ha" },
+      { "source": "বি", "reading": "bi" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "মৌলভীবাজার",
+    "prompt": "মৌলভীবাজার",
     "answer": "Moulvibazar",
-    "alternativeAnswers": ["Maulvibazar", "Moulvi Bazar"],
+    "alternativeAnswers": ["Maulvibazar","Moulvi Bazar"],
     "segments": [
-      { "bengali": "মৌ", "romanization": "mou" },
-      { "bengali": "ল", "romanization": "l" },
-      { "bengali": "ভী", "romanization": "vi" },
-      { "bengali": "বা", "romanization": "ba" },
-      { "bengali": "জা", "romanization": "za" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "মৌ", "reading": "mou" },
+      { "source": "ল", "reading": "l" },
+      { "source": "ভী", "reading": "vi" },
+      { "source": "বা", "reading": "ba" },
+      { "source": "জা", "reading": "za" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "The Bengali ভ is conventionally represented by v in the established English name."
   },
   {
-    "bengali": "সুনামগঞ্জ",
+    "prompt": "সুনামগঞ্জ",
     "answer": "Sunamganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "সু", "romanization": "su" },
-      { "bengali": "না", "romanization": "na" },
-      { "bengali": "ম", "romanization": "m" },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "সু", "reading": "su" },
+      { "source": "না", "reading": "na" },
+      { "source": "ম", "reading": "m" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "সিলেট",
+    "prompt": "সিলেট",
     "answer": "Sylhet",
-    "alternativeAnswers": ["Silhet", "Silet"],
+    "alternativeAnswers": ["Silhet","Silet"],
     "segments": [
-      { "bengali": "সি", "romanization": "si" },
-      { "bengali": "লে", "romanization": "le" },
-      { "bengali": "ট", "romanization": "t" }
+      { "source": "সি", "reading": "si" },
+      { "source": "লে", "reading": "le" },
+      { "source": "ট", "reading": "t" }
     ],
     "note": "Sylhet is an established English spelling rather than a direct transliteration of সিলেট."
   },
   {
-    "bengali": "ঈশ্বরদী",
+    "prompt": "ঈশ্বরদী",
     "answer": "Ishwardi",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ঈ", "romanization": "i" },
+      { "source": "ঈ", "reading": "i" },
       {
-        "bengali": "শ্ব",
-        "romanization": "shwa",
-        "conjunctComponents": ["শ", "ব"]
+        "source": "শ্ব",
+        "reading": "shwa",
+        "components": ["শ","ব"]
       },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "দী", "romanization": "di" }
+      { "source": "র", "reading": "r" },
+      { "source": "দী", "reading": "di" }
     ],
     "note": null
   },
   {
-    "bengali": "বটিয়াঘাটা",
+    "prompt": "বটিয়াঘাটা",
     "answer": "Batiaghata",
     "alternativeAnswers": ["Batiyaghata"],
     "segments": [
-      { "bengali": "ব", "romanization": "ba" },
-      { "bengali": "টি", "romanization": "ti" },
-      { "bengali": "য়া", "romanization": "ya" },
-      { "bengali": "ঘা", "romanization": "gha" },
-      { "bengali": "টা", "romanization": "ta" }
+      { "source": "ব", "reading": "ba" },
+      { "source": "টি", "reading": "ti" },
+      { "source": "য়া", "reading": "ya" },
+      { "source": "ঘা", "reading": "gha" },
+      { "source": "টা", "reading": "ta" }
     ],
     "note": "The established English spelling Batiaghata contracts the separately written য়া sound to ia."
   },
   {
-    "bengali": "আশাশুনি",
+    "prompt": "আশাশুনি",
     "answer": "Assasuni",
     "alternativeAnswers": ["Ashashuni"],
     "segments": [
-      { "bengali": "আ", "romanization": "a" },
-      { "bengali": "শা", "romanization": "sha" },
-      { "bengali": "শু", "romanization": "shu" },
-      { "bengali": "নি", "romanization": "ni" }
+      { "source": "আ", "reading": "a" },
+      { "source": "শা", "reading": "sha" },
+      { "source": "শু", "reading": "shu" },
+      { "source": "নি", "reading": "ni" }
     ],
     "note": "Assasuni is an established English spelling rather than a letter-for-letter transliteration of আশাশুনি."
   },
   {
-    "bengali": "ক্ষেতুপাড়া",
+    "prompt": "ক্ষেতুপাড়া",
     "answer": "Khetupara",
     "alternativeAnswers": [],
     "segments": [
       {
-        "bengali": "ক্ষে",
-        "romanization": "khe",
-        "conjunctComponents": ["ক", "ষ"]
+        "source": "ক্ষে",
+        "reading": "khe",
+        "components": ["ক","ষ"]
       },
-      { "bengali": "তু", "romanization": "tu" },
-      { "bengali": "পা", "romanization": "pa" },
-      { "bengali": "ড়া", "romanization": "ra" }
+      { "source": "তু", "reading": "tu" },
+      { "source": "পা", "reading": "pa" },
+      { "source": "ড়া", "reading": "ra" }
     ],
     "note": null
   },
   {
-    "bengali": "অষ্টমনিষা",
+    "prompt": "অষ্টমনিষা",
     "answer": "Astomonisha",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "অ", "romanization": "a" },
+      { "source": "অ", "reading": "a" },
       {
-        "bengali": "ষ্ট",
-        "romanization": "sto",
-        "conjunctComponents": ["ষ", "ট"]
+        "source": "ষ্ট",
+        "reading": "sto",
+        "components": ["ষ","ট"]
       },
-      { "bengali": "ম", "romanization": "mo" },
-      { "bengali": "নি", "romanization": "ni" },
-      { "bengali": "ষা", "romanization": "sha" }
+      { "source": "ম", "reading": "mo" },
+      { "source": "নি", "reading": "ni" },
+      { "source": "ষা", "reading": "sha" }
     ],
     "note": null
   },
   {
-    "bengali": "উল্লাপাড়া",
+    "prompt": "উল্লাপাড়া",
     "answer": "Ullapara",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "উ", "romanization": "u" },
+      { "source": "উ", "reading": "u" },
       {
-        "bengali": "ল্লা",
-        "romanization": "lla",
-        "conjunctComponents": ["ল", "ল"]
+        "source": "ল্লা",
+        "reading": "lla",
+        "components": ["ল","ল"]
       },
-      { "bengali": "পা", "romanization": "pa" },
-      { "bengali": "ড়া", "romanization": "ra" }
+      { "source": "পা", "reading": "pa" },
+      { "source": "ড়া", "reading": "ra" }
     ],
     "note": null
   },
   {
-    "bengali": "সান্তাহার পৌরসভা",
+    "prompt": "সান্তাহার পৌরসভা",
     "answer": "Santahar Pouroshova",
-    "alternativeAnswers": ["Santahar Pourashava", "Santahar Pourashova"],
+    "alternativeAnswers": ["Santahar Pourashava","Santahar Pourashova"],
     "segments": [
-      { "bengali": "সা", "romanization": "sa" },
+      { "source": "সা", "reading": "sa" },
       {
-        "bengali": "ন্তা",
-        "romanization": "nta",
-        "conjunctComponents": ["ন", "ত"]
+        "source": "ন্তা",
+        "reading": "nta",
+        "components": ["ন","ত"]
       },
-      { "bengali": "হা", "romanization": "ha" },
-      { "bengali": "র ", "romanization": "r " },
-      { "bengali": "পৌ", "romanization": "pou" },
-      { "bengali": "র", "romanization": "ro" },
-      { "bengali": "স", "romanization": "sho" },
-      { "bengali": "ভা", "romanization": "va" }
+      { "source": "হা", "reading": "ha" },
+      { "source": "র ", "reading": "r " },
+      { "source": "পৌ", "reading": "pou" },
+      { "source": "র", "reading": "ro" },
+      { "source": "স", "reading": "sho" },
+      { "source": "ভা", "reading": "va" }
     ],
     "note": "In the established spelling Pouroshova, স is represented by sh and ভ by v."
   },
   {
-    "bengali": "রাজেন্দ্রপুর",
+    "prompt": "রাজেন্দ্রপুর",
     "answer": "Rajendrapur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "রা", "romanization": "ra" },
-      { "bengali": "জে", "romanization": "je" },
+      { "source": "রা", "reading": "ra" },
+      { "source": "জে", "reading": "je" },
       {
-        "bengali": "ন্দ্র",
-        "romanization": "ndra",
-        "conjunctComponents": ["ন", "দ", "র"]
+        "source": "ন্দ্র",
+        "reading": "ndra",
+        "components": ["ন","দ","র"]
       },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   },
   {
-    "bengali": "ভুরুঙ্গামারী",
+    "prompt": "ভুরুঙ্গামারী",
     "answer": "Bhurungamari",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ভু", "romanization": "bhu" },
-      { "bengali": "রু", "romanization": "ru" },
+      { "source": "ভু", "reading": "bhu" },
+      { "source": "রু", "reading": "ru" },
       {
-        "bengali": "ঙ্গা",
-        "romanization": "nga",
-        "conjunctComponents": ["ঙ", "গ"]
+        "source": "ঙ্গা",
+        "reading": "nga",
+        "components": ["ঙ","গ"]
       },
-      { "bengali": "মা", "romanization": "ma" },
-      { "bengali": "রী", "romanization": "ri" }
+      { "source": "মা", "reading": "ma" },
+      { "source": "রী", "reading": "ri" }
     ],
     "note": null
   },
   {
-    "bengali": "শ্রীবরদী",
+    "prompt": "শ্রীবরদী",
     "answer": "Sreebardi",
     "alternativeAnswers": ["Sribardi"],
     "segments": [
       {
-        "bengali": "শ্রী",
-        "romanization": "sree",
-        "conjunctComponents": ["শ", "র"]
+        "source": "শ্রী",
+        "reading": "sree",
+        "components": ["শ","র"]
       },
-      { "bengali": "ব", "romanization": "ba" },
-      { "bengali": "র", "romanization": "r" },
-      { "bengali": "দী", "romanization": "di" }
+      { "source": "ব", "reading": "ba" },
+      { "source": "র", "reading": "r" },
+      { "source": "দী", "reading": "di" }
     ],
     "note": null
   },
   {
-    "bengali": "জয়সিদ্ধি",
+    "prompt": "জয়সিদ্ধি",
     "answer": "Joysiddhi",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "জ", "romanization": "jo" },
-      { "bengali": "য়", "romanization": "y" },
-      { "bengali": "সি", "romanization": "si" },
+      { "source": "জ", "reading": "jo" },
+      { "source": "য়", "reading": "y" },
+      { "source": "সি", "reading": "si" },
       {
-        "bengali": "দ্ধি",
-        "romanization": "ddhi",
-        "conjunctComponents": ["দ", "ধ"]
+        "source": "দ্ধি",
+        "reading": "ddhi",
+        "components": ["দ","ধ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "আউশকান্দি",
+    "prompt": "আউশকান্দি",
     "answer": "Aushkandi",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "আ", "romanization": "a" },
-      { "bengali": "উ", "romanization": "u" },
-      { "bengali": "শ", "romanization": "sh" },
-      { "bengali": "কা", "romanization": "ka" },
+      { "source": "আ", "reading": "a" },
+      { "source": "উ", "reading": "u" },
+      { "source": "শ", "reading": "sh" },
+      { "source": "কা", "reading": "ka" },
       {
-        "bengali": "ন্দি",
-        "romanization": "ndi",
-        "conjunctComponents": ["ন", "দ"]
+        "source": "ন্দি",
+        "reading": "ndi",
+        "components": ["ন","দ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "ফেঞ্চুগঞ্জ",
+    "prompt": "ফেঞ্চুগঞ্জ",
     "answer": "Fenchuganj",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ফে", "romanization": "fe" },
+      { "source": "ফে", "reading": "fe" },
       {
-        "bengali": "ঞ্চু",
-        "romanization": "nchu",
-        "conjunctComponents": ["ঞ", "চ"]
+        "source": "ঞ্চু",
+        "reading": "nchu",
+        "components": ["ঞ","চ"]
       },
-      { "bengali": "গ", "romanization": "ga" },
+      { "source": "গ", "reading": "ga" },
       {
-        "bengali": "ঞ্জ",
-        "romanization": "nj",
-        "conjunctComponents": ["ঞ", "জ"]
+        "source": "ঞ্জ",
+        "reading": "nj",
+        "components": ["ঞ","জ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "চৌমুহনী",
+    "prompt": "চৌমুহনী",
     "answer": "Chowmuhani",
     "alternativeAnswers": ["Chaumuhani"],
     "segments": [
-      { "bengali": "চৌ", "romanization": "chow" },
-      { "bengali": "মু", "romanization": "mu" },
-      { "bengali": "হ", "romanization": "ha" },
-      { "bengali": "নী", "romanization": "ni" }
+      { "source": "চৌ", "reading": "chow" },
+      { "source": "মু", "reading": "mu" },
+      { "source": "হ", "reading": "ha" },
+      { "source": "নী", "reading": "ni" }
     ],
     "note": null
   },
   {
-    "bengali": "স্বরূপকাঠী",
+    "prompt": "স্বরূপকাঠী",
     "answer": "Swarupkathi",
     "alternativeAnswers": ["Swarupkati"],
     "segments": [
       {
-        "bengali": "স্ব",
-        "romanization": "swa",
-        "conjunctComponents": ["স", "ব"]
+        "source": "স্ব",
+        "reading": "swa",
+        "components": ["স","ব"]
       },
-      { "bengali": "রূ", "romanization": "ru" },
-      { "bengali": "প", "romanization": "p" },
-      { "bengali": "কা", "romanization": "ka" },
-      { "bengali": "ঠী", "romanization": "thi" }
+      { "source": "রূ", "reading": "ru" },
+      { "source": "প", "reading": "p" },
+      { "source": "কা", "reading": "ka" },
+      { "source": "ঠী", "reading": "thi" }
     ],
     "note": "In স্ব, the ব is pronounced like w in the established English spelling."
   },
   {
-    "bengali": "সাভার",
+    "prompt": "সাভার",
     "answer": "Savar",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "সা", "romanization": "sa" },
-      { "bengali": "ভা", "romanization": "va" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "সা", "reading": "sa" },
+      { "source": "ভা", "reading": "va" },
+      { "source": "র", "reading": "r" }
     ],
     "note": "The Bengali ভ is conventionally represented by v in the established English name."
   },
   {
-    "bengali": "টঙ্গী",
+    "prompt": "টঙ্গী",
     "answer": "Tongi",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ট", "romanization": "to" },
+      { "source": "ট", "reading": "to" },
       {
-        "bengali": "ঙ্গী",
-        "romanization": "ngi",
-        "conjunctComponents": ["ঙ", "গ"]
+        "source": "ঙ্গী",
+        "reading": "ngi",
+        "components": ["ঙ","গ"]
       }
     ],
     "note": null
   },
   {
-    "bengali": "মর্তুজাবাদ",
+    "prompt": "মর্তুজাবাদ",
     "answer": "Mortujabad",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "ম", "romanization": "mo" },
+      { "source": "ম", "reading": "mo" },
       {
-        "bengali": "র্তু",
-        "romanization": "rtu",
-        "conjunctComponents": ["র", "ত"]
+        "source": "র্তু",
+        "reading": "rtu",
+        "components": ["র","ত"]
       },
-      { "bengali": "জা", "romanization": "ja" },
-      { "bengali": "বা", "romanization": "ba" },
-      { "bengali": "দ", "romanization": "d" }
+      { "source": "জা", "reading": "ja" },
+      { "source": "বা", "reading": "ba" },
+      { "source": "দ", "reading": "d" }
     ],
     "note": null
   },
   {
-    "bengali": "রামকৃষ্ণপুর",
+    "prompt": "রামকৃষ্ণপুর",
     "answer": "Ramkrishnapur",
     "alternativeAnswers": [],
     "segments": [
-      { "bengali": "রা", "romanization": "ra" },
-      { "bengali": "ম", "romanization": "m" },
-      { "bengali": "কৃ", "romanization": "kri" },
+      { "source": "রা", "reading": "ra" },
+      { "source": "ম", "reading": "m" },
+      { "source": "কৃ", "reading": "kri" },
       {
-        "bengali": "ষ্ণ",
-        "romanization": "shna",
-        "conjunctComponents": ["ষ", "ণ"]
+        "source": "ষ্ণ",
+        "reading": "shna",
+        "components": ["ষ","ণ"]
       },
-      { "bengali": "পু", "romanization": "pu" },
-      { "bengali": "র", "romanization": "r" }
+      { "source": "পু", "reading": "pu" },
+      { "source": "র", "reading": "r" }
     ],
     "note": null
   }
