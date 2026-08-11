@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://geoguessr-9ui2.web.app/sitemap.xml

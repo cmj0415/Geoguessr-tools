@@ -1,0 +1,57 @@
+{
+  "siteName": "GeoGuessr Tools",
+  "siteUrl": "https://geoguessr-9ui2.web.app",
+  "socialImage": "/bg1.png",
+  "pages": [
+    {
+      "path": "/",
+      "title": "GeoGuessr Practice Quizzes | GeoGuessr Tools",
+      "description": "Explore interactive geography quizzes for countries around the world and sharpen the knowledge you need for GeoGuessr."
+    },
+    {
+      "path": "/us/area-codes",
+      "title": "US Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn and test United States telephone area codes with an interactive map quiz designed for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/br/area-codes",
+      "title": "Brazil DDD Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Practice Brazil's DDD telephone area codes from 11 to 99 with an interactive map quiz for geography and GeoGuessr study."
+    },
+    {
+      "path": "/mx/postal-codes",
+      "title": "Mexico Postal Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn Mexico's two-digit postal code regions with an interactive map quiz covering codes 01 to 97."
+    },
+    {
+      "path": "/ng/states",
+      "title": "Nigeria States Map Quiz | GeoGuessr Tools",
+      "description": "Learn Nigeria's 36 states and Abuja with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/id/regencies",
+      "title": "Indonesia Regencies Map Quiz | GeoGuessr Tools",
+      "description": "Practice identifying Indonesia's kabupaten and kota by region with an interactive map quiz for geography and GeoGuessr study."
+    },
+    {
+      "path": "/jp/prefectures",
+      "title": "Japan Prefectures Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 47 Japanese prefectures with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ph/provinces",
+      "title": "Philippines Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Practice identifying Philippine provinces across Luzon, Visayas, and Mindanao with an interactive map quiz."
+    },
+    {
+      "path": "/bd/bengali",
+      "title": "Bengali Place Name Translation Practice | GeoGuessr Tools",
+      "description": "Learn to read Bengali place names with translation practice, romanized breakdowns, conjunct explanations, and a Bengali script guide."
+    },
+    {
+      "path": "/ru/russian",
+      "title": "Russian Place Name Translation Practice | GeoGuessr Tools",
+      "description": "Learn to read Russian place names in Cyrillic with translation practice, spelling notes, and a complete Russian alphabet guide."
+    }
+  ]
+}
