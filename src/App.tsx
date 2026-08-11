@@ -9,20 +9,28 @@ import JapanPrefectures from './pages/jp/prefectures'
 import Bengali from './pages/bd/bengali'
 import MexicoCodes from './pages/mx/codes'
 import Russian from './pages/ru/russian'
+import PageMetadata from './components/PageMetadata'
+import NotFound from './pages/NotFound'
+import NigeriaStates from './pages/ng/states'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="us/area-codes" element={<USCodes />} />
-      <Route path="id/kabupatens" element={<IndonesiaRegencies />} />
-      <Route path="/jp/prefectures" element={<JapanPrefectures />} />
-      <Route path="/ph/provinces" element={<PhilippinesProvinces />} />
-      <Route path="br/area-codes" element={<BrazilCodes />} />
-      <Route path="bd/bengali" element={<Bengali />} />
-      <Route path="mx/postal-codes" element={<MexicoCodes />} />
-      <Route path="ru/russian" element={<Russian />} />
-    </Routes>
+    <>
+      <PageMetadata />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="us/area-codes" element={<USCodes />} />
+        <Route path="id/regencies" element={<IndonesiaRegencies />} />
+        <Route path="/jp/prefectures" element={<JapanPrefectures />} />
+        <Route path="/ph/provinces" element={<PhilippinesProvinces />} />
+        <Route path="br/area-codes" element={<BrazilCodes />} />
+        <Route path="bd/bengali" element={<Bengali />} />
+        <Route path="mx/postal-codes" element={<MexicoCodes />} />
+        <Route path="ng/states" element={<NigeriaStates />} />
+        <Route path="ru/russian" element={<Russian />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   )
 }
 

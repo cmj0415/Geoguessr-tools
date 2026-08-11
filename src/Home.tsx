@@ -36,7 +36,7 @@ function Home() {
           </CountryCard>
 
           <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
-            <Link className={QUIZ_LINK_CLASSES} to="/id/kabupatens">
+            <Link className={QUIZ_LINK_CLASSES} to="/id/regencies">
               <span>Kabupatens Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
@@ -56,6 +56,13 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="Nigeria" flag={<span>🇳🇬</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/ng/states">
+              <span>State Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Russia" flag={<span>🇷🇺</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/ru/russian">
               <span>Translation Practice</span>
@@ -63,16 +70,16 @@ function Home() {
             </Link>
           </CountryCard>
 
-          <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
-              <Link className={QUIZ_LINK_CLASSES} to="/us/area-codes">
-                <span>Area Code Quiz</span>
-                <span aria-hidden="true">→</span>
-              </Link>
-          </CountryCard>
-          
           <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/ph/provinces">
               <span>Province Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
+          <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/us/area-codes">
+              <span>Area Code Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
