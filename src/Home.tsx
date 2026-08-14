@@ -60,6 +60,13 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="Italy" flag={<span>🇮🇹</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/it/provinces">
+              <span>Province Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Japan" flag={<span>🇯🇵</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/jp/prefectures">
               <span>Prefecture Quiz</span>

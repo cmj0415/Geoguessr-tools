@@ -44,6 +44,11 @@
       "description": "Practice identifying Indonesia's kabupaten and kota by region with an interactive map quiz for geography and GeoGuessr study."
     },
     {
+      "path": "/it/provinces",
+      "title": "Italy Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn 107 province-level areas of Italy with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/jp/prefectures",
       "title": "Japan Prefectures Map Quiz | GeoGuessr Tools",
       "description": "Learn all 47 Japanese prefectures with an interactive map quiz for geography and GeoGuessr practice."
