@@ -12,6 +12,7 @@ import Russian from './pages/ru/russian'
 import PageMetadata from './components/PageMetadata'
 import NotFound from './pages/NotFound'
 import NigeriaStates from './pages/ng/states'
+import FranceDepartments from './pages/fr/departments'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/ph/provinces" element={<PhilippinesProvinces />} />
         <Route path="br/area-codes" element={<BrazilCodes />} />
         <Route path="bd/bengali" element={<Bengali />} />
+        <Route path="fr/departments" element={<FranceDepartments />} />
         <Route path="mx/postal-codes" element={<MexicoCodes />} />
         <Route path="ng/states" element={<NigeriaStates />} />
         <Route path="ru/russian" element={<Russian />} />

@@ -19,6 +19,11 @@
       "description": "Practice Brazil's DDD telephone area codes from 11 to 99 with an interactive map quiz for geography and GeoGuessr study."
     },
     {
+      "path": "/fr/departments",
+      "title": "France Departments Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 96 departments of metropolitan France with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/mx/postal-codes",
       "title": "Mexico Postal Code Map Quiz | GeoGuessr Tools",
       "description": "Learn Mexico's two-digit postal code regions with an interactive map quiz covering codes 01 to 97."

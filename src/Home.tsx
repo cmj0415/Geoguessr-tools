@@ -35,6 +35,13 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="France" flag={<span>🇫🇷</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/fr/departments">
+              <span>Department Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/id/regencies">
               <span>Kabupatens Quiz</span>
