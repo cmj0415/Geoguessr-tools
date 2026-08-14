@@ -48,4 +48,10 @@
   <url>
     <loc>https://geoguessr-9ui2.web.app/ru/area-codes</loc>
   </url>
+  <url>
+    <loc>https://geoguessr-9ui2.web.app/es/provinces</loc>
+  </url>
+  <url>
+    <loc>https://geoguessr-9ui2.web.app/es/provincial-road-prefixes</loc>
+  </url>
 </urlset>

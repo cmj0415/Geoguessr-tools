@@ -82,6 +82,16 @@
       "path": "/ru/area-codes",
       "title": "Russia Area Code Map Quiz | GeoGuessr Tools",
       "description": "Learn 89 Russian three-digit geographic area codes by prefix with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/es/provinces",
+      "title": "Spain Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn Spain's 50 provinces plus Ceuta and Melilla with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/es/provincial-road-prefixes",
+      "title": "Spain Provincial Road Prefix Map Quiz | GeoGuessr Tools",
+      "description": "Learn Spain's provincial road prefixes with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }

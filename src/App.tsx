@@ -18,6 +18,8 @@ import GermanyCodes from './pages/de/codes'
 import ItalyProvinces from './pages/it/provinces'
 import RussiaFederalSubjects from './pages/ru/federalSubjects'
 import RussiaCodes from './pages/ru/codes'
+import SpainProvinces from './pages/es/provinces'
+import SpainProvincialRoadPrefixes from './pages/es/roadPrefix'
 
 function App() {
   return (
@@ -40,6 +42,11 @@ function App() {
         <Route path="ru/area-codes" element={<RussiaCodes />} />
         <Route path="ru/federal-subjects" element={<RussiaFederalSubjects />} />
         <Route path="ru/russian" element={<Russian />} />
+        <Route path="es/provinces" element={<SpainProvinces />} />
+        <Route
+          path="es/provincial-road-prefixes"
+          element={<SpainProvincialRoadPrefixes />}
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

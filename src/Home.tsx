@@ -103,6 +103,20 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="Spain" flag={<span>🇪🇸</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/es/provinces">
+              <span>Province Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+            <Link
+              className={QUIZ_LINK_CLASSES}
+              to="/es/provincial-road-prefixes"
+            >
+              <span>Provincial Road Prefix Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="The Philippines" flag={<span>🇵🇭</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/ph/provinces">
               <span>Province Quiz</span>
