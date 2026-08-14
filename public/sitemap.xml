@@ -22,7 +22,13 @@
     <loc>https://geoguessr-9ui2.web.app/fr/departments</loc>
   </url>
   <url>
+    <loc>https://geoguessr-9ui2.web.app/de/area-codes</loc>
+  </url>
+  <url>
     <loc>https://geoguessr-9ui2.web.app/bd/bengali</loc>
+  </url>
+  <url>
+    <loc>https://geoguessr-9ui2.web.app/bd/districts</loc>
   </url>
   <url>
     <loc>https://geoguessr-9ui2.web.app/mx/postal-codes</loc>

@@ -24,6 +24,11 @@
       "description": "Learn all 96 departments of metropolitan France with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/de/area-codes",
+      "title": "Germany Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn Germany's two-digit geographic area-code prefixes with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/mx/postal-codes",
       "title": "Mexico Postal Code Map Quiz | GeoGuessr Tools",
       "description": "Learn Mexico's two-digit postal code regions with an interactive map quiz covering codes 01 to 97."
@@ -52,6 +57,11 @@
       "path": "/bd/bengali",
       "title": "Bengali Place Name Translation Practice | GeoGuessr Tools",
       "description": "Learn to read Bengali place names with translation practice, romanized breakdowns, conjunct explanations, and a Bengali script guide."
+    },
+    {
+      "path": "/bd/districts",
+      "title": "Bangladesh Districts Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 64 districts of Bangladesh by division with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
       "path": "/ru/russian",

@@ -22,6 +22,10 @@ function Home() {
         </div>
         <div className="grid grid-cols-1 items-start gap-5 md:grid-cols-2 lg:grid-cols-3">
           <CountryCard countryName="Bangladesh" flag={<span>🇧🇩</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/bd/districts">
+              <span>District Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
             <Link className={QUIZ_LINK_CLASSES} to="/bd/bengali">
               <span>Translation Practice</span>
               <span aria-hidden="true">→</span>
@@ -38,6 +42,13 @@ function Home() {
           <CountryCard countryName="France" flag={<span>🇫🇷</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/fr/departments">
               <span>Department Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
+          <CountryCard countryName="Germany" flag={<span>🇩🇪</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/de/area-codes">
+              <span>Area Code Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
