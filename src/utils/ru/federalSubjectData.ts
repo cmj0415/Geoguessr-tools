@@ -55,7 +55,7 @@ const RUSSIA_FEDERAL_SUBJECT_NAMES = [
   'Orenburg',
   'Oryol',
   'Penza',
-  'Perm Krai',
+  'Perm',
   'Primorsky Krai',
   'Pskov',
   'Rostov',

@@ -17,6 +17,7 @@ import BangladeshDistricts from './pages/bd/districts'
 import GermanyCodes from './pages/de/codes'
 import ItalyProvinces from './pages/it/provinces'
 import RussiaFederalSubjects from './pages/ru/federalSubjects'
+import RussiaCodes from './pages/ru/codes'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="it/provinces" element={<ItalyProvinces />} />
         <Route path="mx/postal-codes" element={<MexicoCodes />} />
         <Route path="ng/states" element={<NigeriaStates />} />
+        <Route path="ru/area-codes" element={<RussiaCodes />} />
         <Route path="ru/federal-subjects" element={<RussiaFederalSubjects />} />
         <Route path="ru/russian" element={<Russian />} />
         <Route path="*" element={<NotFound />} />

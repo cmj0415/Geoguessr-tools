@@ -89,6 +89,10 @@ function Home() {
           </CountryCard>
 
           <CountryCard countryName="Russia" flag={<span>🇷🇺</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/ru/area-codes">
+              <span>Area Code Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
             <Link className={QUIZ_LINK_CLASSES} to="/ru/federal-subjects">
               <span>Federal Subject Quiz</span>
               <span aria-hidden="true">→</span>

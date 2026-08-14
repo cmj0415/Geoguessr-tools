@@ -77,6 +77,11 @@
       "path": "/ru/federal-subjects",
       "title": "Russia Federal Subjects Map Quiz | GeoGuessr Tools",
       "description": "Learn the 83 federal subjects included in this Russia map with an interactive quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ru/area-codes",
+      "title": "Russia Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 89 Russian three-digit geographic area codes by prefix with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }
