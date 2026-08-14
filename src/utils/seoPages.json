@@ -72,6 +72,11 @@
       "path": "/ru/russian",
       "title": "Russian Place Name Translation Practice | GeoGuessr Tools",
       "description": "Learn to read Russian place names in Cyrillic with translation practice, spelling notes, and a complete Russian alphabet guide."
+    },
+    {
+      "path": "/ru/federal-subjects",
+      "title": "Russia Federal Subjects Map Quiz | GeoGuessr Tools",
+      "description": "Learn the 83 federal subjects included in this Russia map with an interactive quiz for geography and GeoGuessr practice."
     }
   ]
 }
