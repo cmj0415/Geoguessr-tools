@@ -231,12 +231,13 @@ export function calculateRoundScore(
   distanceKm: number
 ) {
   const safeElapsedSeconds = Math.max(0, elapsedSeconds)
+  const safeEffSeconds = Math.max(0, safeElapsedSeconds - 5)
   const safeDistanceKm = Math.max(0, distanceKm)
   const distancePenalty =
     Math.max(safeDistanceKm, FULL_SCORE_DISTANCE_KM) - FULL_SCORE_DISTANCE_KM
   const score = Math.round(
     MAX_ROUND_SCORE *
-      Math.exp(-safeElapsedSeconds / TIME_DECAY_SECONDS) *
+      Math.exp(-safeEffSeconds / TIME_DECAY_SECONDS) *
       Math.exp(-distancePenalty / DISTANCE_DECAY_KM)
   )
 
