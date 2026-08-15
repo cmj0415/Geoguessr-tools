@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 type QuestionSelectorProps = {
   divisions?: Record<string, string[]>
   value?: string[] // optional: controlled
@@ -8,6 +8,8 @@ type QuestionSelectorProps = {
   menuLabel?: string
   searchPlaceholder?: string
   variant?: 'panel' | 'menu'
+  menuAlign?: 'left' | 'right'
+  menuPlacement?: 'auto' | 'down' | 'up'
   className?: string
 }
 
@@ -20,6 +22,8 @@ export function QuestionSelector({
   menuLabel = title,
   searchPlaceholder = 'Find an option...',
   variant = 'panel',
+  menuAlign = 'right',
+  menuPlacement = 'auto',
   className = '',
 }: QuestionSelectorProps) {
   const groups = useMemo(() => Object.entries(divisions ?? {}), [divisions])
@@ -30,6 +34,31 @@ export function QuestionSelector({
   const selectedSet = isControlled ? new Set(value) : inner
 
   const [query, setQuery] = useState('')
+  const summaryRef = useRef<HTMLElement | null>(null)
+  const [menuLayout, setMenuLayout] = useState({
+    opensUpward: false,
+    maxHeight: 672,
+  })
+
+  function handleMenuToggle(event: React.SyntheticEvent<HTMLDetailsElement>) {
+    if (!event.currentTarget.open || !summaryRef.current) return
+
+    const viewportPadding = 16
+    const menuGap = 8
+    const summaryBounds = summaryRef.current.getBoundingClientRect()
+    const spaceAbove = summaryBounds.top - viewportPadding - menuGap
+    const spaceBelow =
+      window.innerHeight - summaryBounds.bottom - viewportPadding - menuGap
+    const opensUpward =
+      menuPlacement === 'up' ||
+      (menuPlacement === 'auto' && spaceAbove > spaceBelow)
+    const availableHeight = opensUpward ? spaceAbove : spaceBelow
+
+    setMenuLayout({
+      opensUpward,
+      maxHeight: Math.max(96, Math.min(672, availableHeight)),
+    })
+  }
 
   const setSelected = (next: Set<string>) => {
     if (!isControlled) setInner(next)
@@ -162,8 +191,14 @@ export function QuestionSelector({
 
   if (variant === 'menu') {
     return (
-      <details className={`group relative w-fit ${className}`}>
-        <summary className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-emerald-300/25 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-emerald-300/50 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300">
+      <details
+        className={`group relative w-fit ${className}`}
+        onToggle={handleMenuToggle}
+      >
+        <summary
+          ref={summaryRef}
+          className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-emerald-300/25 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-emerald-300/50 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
+        >
           <span className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-200">
             {menuLabel}
           </span>
@@ -174,7 +209,16 @@ export function QuestionSelector({
             ▼
           </span>
         </summary>
-        <div className="absolute right-0 top-[calc(100%+0.5rem)] max-h-[min(70vh,42rem)] w-[min(22rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md">
+        <div
+          className={`absolute z-10 w-[min(22rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md ${
+            menuAlign === 'left' ? 'left-0' : 'right-0'
+          } ${
+            menuLayout.opensUpward
+              ? 'bottom-[calc(100%+0.5rem)]'
+              : 'top-[calc(100%+0.5rem)]'
+          }`}
+          style={{ maxHeight: menuLayout.maxHeight }}
+        >
           {selectorContent}
         </div>
       </details>

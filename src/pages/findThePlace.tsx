@@ -263,8 +263,7 @@ export default function FindThePlace() {
                 distance.
               </p>
               <p>
-                This initial version uses a small starter dataset that will be
-                replaced by the full curated place pool.
+                More and more locations will be added to this quiz!
               </p>
             </div>
           }

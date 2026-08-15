@@ -31,8 +31,8 @@ export default function FindThePlacePoolSetup({
   const canStart = eligiblePlaceCount >= 5
 
   return (
-    <section className="absolute inset-0 z-[1000] flex items-center justify-center bg-slate-950/55 p-4 backdrop-blur-sm">
-      <div className="w-full max-w-xl rounded-3xl border border-white/10 bg-slate-950/95 p-5 shadow-2xl shadow-black/50 sm:p-7">
+    <section className="absolute inset-0 z-[1000] flex items-start justify-center overflow-y-auto bg-slate-950/55 p-4 backdrop-blur-sm">
+      <div className="mt-2 w-full max-w-xl rounded-3xl border border-white/10 bg-slate-950/95 p-5 shadow-2xl shadow-black/50 sm:mt-6 sm:p-7">
         <p className="text-xs font-bold uppercase tracking-[0.24em] text-emerald-300/80">
           Question pool
         </p>
@@ -53,6 +53,8 @@ export default function FindThePlacePoolSetup({
             menuLabel="Country pool"
             searchPlaceholder="Find a country..."
             variant="menu"
+            menuAlign="left"
+            menuPlacement="down"
           />
 
           <fieldset>
