@@ -2,6 +2,7 @@ import { CountryCard } from './components/CountryCard.tsx'
 import { Link } from 'react-router-dom'
 import NavBar from './components/NavBar.tsx'
 import Header from './components/Header.tsx'
+import { FaMapMarkedAlt } from 'react-icons/fa'
 
 const QUIZ_LINK_CLASSES =
   'flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm font-semibold text-slate-300 transition hover:border-emerald-300/30 hover:bg-emerald-400/10 hover:text-emerald-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300'
@@ -132,6 +133,14 @@ function Home() {
           </CountryCard>
         </div>
       </main>
+      <Link
+        to="/find-the-place"
+        aria-label="Play Find the Place"
+        title="Play Find the Place"
+        className="fixed bottom-5 right-5 z-30 inline-flex h-14 w-14 items-center justify-center rounded-2xl border border-emerald-200/40 bg-emerald-400 text-slate-950 shadow-2xl shadow-emerald-950/50 transition hover:-translate-y-1 hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200 sm:bottom-7 sm:right-7"
+      >
+        <FaMapMarkedAlt className="h-6 w-6" />
+      </Link>
     </div>
   )
 }

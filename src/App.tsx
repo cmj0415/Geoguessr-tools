@@ -20,6 +20,7 @@ import RussiaFederalSubjects from './pages/ru/federalSubjects'
 import RussiaCodes from './pages/ru/codes'
 import SpainProvinces from './pages/es/provinces'
 import SpainProvincialRoadPrefixes from './pages/es/roadPrefix'
+import FindThePlace from './pages/findThePlace'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <PageMetadata />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/find-the-place" element={<FindThePlace />} />
         <Route path="us/area-codes" element={<USCodes />} />
         <Route path="id/regencies" element={<IndonesiaRegencies />} />
         <Route path="/jp/prefectures" element={<JapanPrefectures />} />

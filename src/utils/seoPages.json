@@ -9,6 +9,11 @@
       "description": "Explore interactive geography quizzes for countries around the world and sharpen the knowledge you need for GeoGuessr."
     },
     {
+      "path": "/find-the-place",
+      "title": "Find the Place Map Game | GeoGuessr Tools",
+      "description": "Practice locating cities and towns around the world with a five-round OpenStreetMap game scored by time and distance."
+    },
+    {
       "path": "/us/area-codes",
       "title": "US Area Code Map Quiz | GeoGuessr Tools",
       "description": "Learn and test United States telephone area codes with an interactive map quiz designed for geography and GeoGuessr practice."
