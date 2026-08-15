@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bahia",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-feira-de-santana-ba",
+      "name": "Feira de Santana",
+      "coordinates": [
+        -12.2664,
+        -38.9663
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

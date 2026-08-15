@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Arizona",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-phoenix-az",
+      "name": "Phoenix",
+      "coordinates": [
+        33.448195,
+        -112.074234
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-tucson-az",
+      "name": "Tucson",
+      "coordinates": [
+        32.220901,
+        -110.979974
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-flagstaff-az",
+      "name": "Flagstaff",
+      "coordinates": [
+        35.198276,
+        -111.65131
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-page-az",
+      "name": "Page",
+      "coordinates": [
+        36.914842,
+        -111.455705
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-tuba-city-az",
+      "name": "Tuba City",
+      "coordinates": [
+        36.11936,
+        -111.229177
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-yuma-az",
+      "name": "Yuma",
+      "coordinates": [
+        32.698581,
+        -114.624658
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-nogales-az",
+      "name": "Nogales",
+      "coordinates": [
+        31.334869,
+        -110.943133
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-st-johns-az",
+      "name": "St Johns",
+      "coordinates": [
+        34.506054,
+        -109.361183
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

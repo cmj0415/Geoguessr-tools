@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Oregon",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-astoria-or",
+      "name": "Astoria",
+      "coordinates": [
+        46.1879,
+        -123.8313
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-portland-or",
+      "name": "Portland",
+      "coordinates": [
+        45.52345,
+        -122.67621
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-eugene-or",
+      "name": "Eugene",
+      "coordinates": [
+        44.05207,
+        -123.08675
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-bend-or",
+      "name": "Bend",
+      "coordinates": [
+        44.05817,
+        -121.31531
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-medford-or",
+      "name": "Medford",
+      "coordinates": [
+        42.32652,
+        -122.87559
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-pendleton-or",
+      "name": "Pendleton",
+      "coordinates": [
+        45.67207,
+        -118.7886
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-klamath-falls-or",
+      "name": "Klamath Falls",
+      "coordinates": [
+        42.22487,
+        -121.78167
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

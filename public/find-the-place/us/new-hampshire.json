@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "New Hampshire",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-manchester-nh",
+      "name": "Manchester",
+      "coordinates": [
+        42.99564,
+        -71.45479
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-nashua-nh",
+      "name": "Nashua",
+      "coordinates": [
+        42.76537,
+        -71.46757
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-concord-nh",
+      "name": "Concord",
+      "coordinates": [
+        43.20814,
+        -71.53757
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-portsmouth-nh",
+      "name": "Portsmouth",
+      "coordinates": [
+        43.07704,
+        -70.75766
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-keene-nh",
+      "name": "Keene",
+      "coordinates": [
+        42.93369,
+        -72.27814
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-berlin-nh",
+      "name": "Berlin",
+      "coordinates": [
+        44.46867,
+        -71.18508
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-littleton-nh",
+      "name": "Littleton",
+      "coordinates": [
+        44.30617,
+        -71.77009
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

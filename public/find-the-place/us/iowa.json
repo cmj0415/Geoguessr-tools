@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Iowa",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-des-moines-ia",
+      "name": "Des Moines",
+      "coordinates": [
+        41.60054,
+        -93.60911
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-cedar-rapids-ia",
+      "name": "Cedar Rapids",
+      "coordinates": [
+        42.00833,
+        -91.64407
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-davenport-ia",
+      "name": "Davenport",
+      "coordinates": [
+        41.52364,
+        -90.57764
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-sioux-city-ia",
+      "name": "Sioux City",
+      "coordinates": [
+        42.49999,
+        -96.40031
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-iowa-city-ia",
+      "name": "Iowa City",
+      "coordinates": [
+        41.66113,
+        -91.53017
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-waterloo-ia",
+      "name": "Waterloo",
+      "coordinates": [
+        42.49276,
+        -92.34296
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-dubuque-ia",
+      "name": "Dubuque",
+      "coordinates": [
+        42.50056,
+        -90.66457
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

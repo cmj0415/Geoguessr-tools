@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Miyazaki",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-miyazaki",
+      "name": "Miyazaki",
+      "coordinates": [
+        31.9077,
+        131.4202
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

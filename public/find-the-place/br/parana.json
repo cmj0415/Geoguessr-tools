@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Paraná",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-londrina-pr",
+      "name": "Londrina",
+      "coordinates": [
+        -23.3045,
+        -51.1696
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

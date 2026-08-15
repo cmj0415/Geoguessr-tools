@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Mississippi",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-jackson-ms",
+      "name": "Jackson",
+      "coordinates": [
+        32.2988,
+        -90.1848
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-gulfport-ms",
+      "name": "Gulfport",
+      "coordinates": [
+        30.36742,
+        -89.09282
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-hattiesburg-ms",
+      "name": "Hattiesburg",
+      "coordinates": [
+        31.32712,
+        -89.29034
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-tupelo-ms",
+      "name": "Tupelo",
+      "coordinates": [
+        34.25807,
+        -88.70464
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-meridian-ms",
+      "name": "Meridian",
+      "coordinates": [
+        32.36431,
+        -88.70366
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-greenville-ms",
+      "name": "Greenville",
+      "coordinates": [
+        33.40898,
+        -91.05978
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-biloxi-ms",
+      "name": "Biloxi",
+      "coordinates": [
+        30.39603,
+        -88.88531
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

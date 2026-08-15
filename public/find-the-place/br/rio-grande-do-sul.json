@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Rio Grande do Sul",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-pelotas-rs",
+      "name": "Pelotas",
+      "coordinates": [
+        -31.7654,
+        -52.3376
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

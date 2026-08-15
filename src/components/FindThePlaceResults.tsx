@@ -3,12 +3,14 @@ import { formatDistance, formatTime } from '../utils/findThePlace'
 
 type FindThePlaceResultsProps = {
   results: readonly RoundResult[]
+  isStarting: boolean
   onNextGame: () => void
   onChangePool: () => void
 }
 
 export default function FindThePlaceResults({
   results,
+  isStarting,
   onNextGame,
   onChangePool,
 }: FindThePlaceResultsProps) {
@@ -79,9 +81,10 @@ export default function FindThePlaceResults({
           <button
             type="button"
             onClick={onNextGame}
-            className="rounded-xl bg-emerald-400 px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200"
+            disabled={isStarting}
+            className="rounded-xl bg-emerald-400 px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200 disabled:cursor-wait disabled:bg-slate-700 disabled:text-slate-400"
           >
-            Next game
+            {isStarting ? 'Loading…' : 'Next game'}
           </button>
         </div>
       </div>

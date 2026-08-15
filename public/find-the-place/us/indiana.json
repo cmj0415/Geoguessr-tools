@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Indiana",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-indianapolis-in",
+      "name": "Indianapolis",
+      "coordinates": [
+        39.76838,
+        -86.15804
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-fort-wayne-in",
+      "name": "Fort Wayne",
+      "coordinates": [
+        41.1306,
+        -85.12886
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-evansville-in",
+      "name": "Evansville",
+      "coordinates": [
+        37.97476,
+        -87.55585
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-south-bend-in",
+      "name": "South Bend",
+      "coordinates": [
+        41.68338,
+        -86.25001
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-lafayette-in",
+      "name": "Lafayette",
+      "coordinates": [
+        40.4167,
+        -86.87529
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-terre-haute-in",
+      "name": "Terre Haute",
+      "coordinates": [
+        39.4667,
+        -87.41391
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-bloomington-in",
+      "name": "Bloomington",
+      "coordinates": [
+        39.16533,
+        -86.52639
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

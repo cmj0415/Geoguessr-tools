@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "West Virginia",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-charleston-wv",
+      "name": "Charleston",
+      "coordinates": [
+        38.34982,
+        -81.63262
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-huntington-wv",
+      "name": "Huntington",
+      "coordinates": [
+        38.41925,
+        -82.44515
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-morgantown-wv",
+      "name": "Morgantown",
+      "coordinates": [
+        39.62953,
+        -79.9559
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-parkersburg-wv",
+      "name": "Parkersburg",
+      "coordinates": [
+        39.26674,
+        -81.56151
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-wheeling-wv",
+      "name": "Wheeling",
+      "coordinates": [
+        40.06396,
+        -80.72091
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-beckley-wv",
+      "name": "Beckley",
+      "coordinates": [
+        37.77817,
+        -81.18816
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-martinsburg-wv",
+      "name": "Martinsburg",
+      "coordinates": [
+        39.45621,
+        -77.96389
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

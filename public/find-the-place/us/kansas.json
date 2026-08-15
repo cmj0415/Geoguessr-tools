@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Kansas",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-dodge-city-ks",
+      "name": "Dodge City",
+      "coordinates": [
+        37.7528,
+        -100.0171
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-wichita-ks",
+      "name": "Wichita",
+      "coordinates": [
+        37.69224,
+        -97.33754
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-topeka-ks",
+      "name": "Topeka",
+      "coordinates": [
+        39.04833,
+        -95.67804
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-lawrence-ks",
+      "name": "Lawrence",
+      "coordinates": [
+        38.97167,
+        -95.23525
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-salina-ks",
+      "name": "Salina",
+      "coordinates": [
+        38.84028,
+        -97.61142
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-hays-ks",
+      "name": "Hays",
+      "coordinates": [
+        38.87918,
+        -99.32677
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-garden-city-ks",
+      "name": "Garden City",
+      "coordinates": [
+        37.97169,
+        -100.87266
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

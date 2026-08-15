@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Vermont",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-burlington-vt",
+      "name": "Burlington",
+      "coordinates": [
+        44.47588,
+        -73.21207
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-montpelier-vt",
+      "name": "Montpelier",
+      "coordinates": [
+        44.26006,
+        -72.57539
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-rutland-vt",
+      "name": "Rutland",
+      "coordinates": [
+        43.61062,
+        -72.97261
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-bennington-vt",
+      "name": "Bennington",
+      "coordinates": [
+        42.87813,
+        -73.19677
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-brattleboro-vt",
+      "name": "Brattleboro",
+      "coordinates": [
+        42.85092,
+        -72.55787
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-st-johnsbury-vt",
+      "name": "St. Johnsbury",
+      "coordinates": [
+        44.42526,
+        -72.01512
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-newport-vt",
+      "name": "Newport",
+      "coordinates": [
+        44.93644,
+        -72.2051
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

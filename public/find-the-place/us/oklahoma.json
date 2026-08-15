@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Oklahoma",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-oklahoma-city-ok",
+      "name": "Oklahoma City",
+      "coordinates": [
+        35.46756,
+        -97.51643
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-tulsa-ok",
+      "name": "Tulsa",
+      "coordinates": [
+        36.15398,
+        -95.99277
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-norman-ok",
+      "name": "Norman",
+      "coordinates": [
+        35.22257,
+        -97.43948
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-lawton-ok",
+      "name": "Lawton",
+      "coordinates": [
+        34.60869,
+        -98.39033
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-enid-ok",
+      "name": "Enid",
+      "coordinates": [
+        36.39559,
+        -97.87839
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-stillwater-ok",
+      "name": "Stillwater",
+      "coordinates": [
+        36.11561,
+        -97.05837
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-mcalester-ok",
+      "name": "McAlester",
+      "coordinates": [
+        34.93343,
+        -95.76971
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Missouri",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-st-louis-mo",
+      "name": "St. Louis",
+      "coordinates": [
+        38.62727,
+        -90.19789
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-kansas-city-mo",
+      "name": "Kansas City",
+      "coordinates": [
+        39.09973,
+        -94.57857
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-springfield-mo",
+      "name": "Springfield",
+      "coordinates": [
+        37.21533,
+        -93.29824
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-columbia-mo",
+      "name": "Columbia",
+      "coordinates": [
+        38.95171,
+        -92.33407
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-joplin-mo",
+      "name": "Joplin",
+      "coordinates": [
+        37.08423,
+        -94.51328
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-cape-girardeau-mo",
+      "name": "Cape Girardeau",
+      "coordinates": [
+        37.30588,
+        -89.51815
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-st-joseph-mo",
+      "name": "St. Joseph",
+      "coordinates": [
+        39.75946,
+        -94.821143
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

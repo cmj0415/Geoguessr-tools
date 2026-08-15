@@ -5,11 +5,14 @@ import FindThePlaceResults from '../components/FindThePlaceResults'
 import InfoWindow from '../components/InfoWindow'
 import QuizLayout from '../components/QuizLayout'
 import {
-  FIND_THE_PLACE_COUNTRY_CODES,
-  FIND_THE_PLACE_COUNTRY_DIVISIONS,
-  FIND_THE_PLACE_DATA,
-  FIND_THE_PLACE_PLACES,
+  countEligibleManifestPlaces,
+  getAllCountryCodes,
+  getCountryCodesByName,
+  getCountryDivisions,
+  loadFindThePlaceManifest,
+  loadSelectedPlaceData,
 } from '../utils/findThePlaceData'
+import type { FindThePlaceManifest } from '../utils/findThePlaceData'
 import {
   DIFFICULTIES,
   calculateDistanceKm,
@@ -29,18 +32,14 @@ import type {
 
 const ROUND_COUNT = 5
 
-function getAllCountryCodes(): Set<string> {
-  return new Set<string>(
-    FIND_THE_PLACE_DATA.flatMap((continent) =>
-      continent.countries.map((country) => country.code)
-    )
-  )
-}
-
 export default function FindThePlace() {
   const [isInfoOpen, setIsInfoOpen] = useState(false)
-  const [selectedCountryCodes, setSelectedCountryCodes] =
-    useState(getAllCountryCodes)
+  const [manifest, setManifest] = useState<FindThePlaceManifest | null>(null)
+  const [manifestError, setManifestError] = useState(false)
+  const [manifestRequestVersion, setManifestRequestVersion] = useState(0)
+  const [selectedCountryCodes, setSelectedCountryCodes] = useState<Set<string>>(
+    new Set()
+  )
   const [selectedDifficulties, setSelectedDifficulties] = useState<
     Set<Difficulty>
   >(() => new Set(DIFFICULTIES))
@@ -48,25 +47,54 @@ export default function FindThePlace() {
   const [questions, setQuestions] = useState<PlayablePlace[]>([])
   const [results, setResults] = useState<RoundResult[]>([])
   const [now, setNow] = useState(() => performance.now())
+  const [isStarting, setIsStarting] = useState(false)
+  const [startError, setStartError] = useState<string | null>(null)
   const guessLockedRef = useRef(false)
+  const startRequestRef = useRef(false)
 
-  const eligiblePlaces = useMemo(
+  const countryDivisions = useMemo(
+    () => (manifest ? getCountryDivisions(manifest) : {}),
+    [manifest]
+  )
+  const countryCodesByName = useMemo(
+    () => (manifest ? getCountryCodesByName(manifest) : {}),
+    [manifest]
+  )
+  const eligiblePlaceCount = useMemo(
     () =>
-      getEligiblePlaces(
-        FIND_THE_PLACE_PLACES,
-        selectedCountryCodes,
-        selectedDifficulties
-      ),
-    [selectedCountryCodes, selectedDifficulties]
+      manifest
+        ? countEligibleManifestPlaces(
+            manifest,
+            selectedCountryCodes,
+            selectedDifficulties
+          )
+        : 0,
+    [manifest, selectedCountryCodes, selectedDifficulties]
   )
 
   const selectedCountryNames = useMemo(
     () =>
-      Object.entries(FIND_THE_PLACE_COUNTRY_CODES)
+      Object.entries(countryCodesByName)
         .filter(([, code]) => selectedCountryCodes.has(code))
         .map(([name]) => name),
-    [selectedCountryCodes]
+    [countryCodesByName, selectedCountryCodes]
   )
+
+  useEffect(() => {
+    const controller = new AbortController()
+
+    loadFindThePlaceManifest(controller.signal)
+      .then((nextManifest) => {
+        setManifest(nextManifest)
+        setSelectedCountryCodes(getAllCountryCodes(nextManifest))
+      })
+      .catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === 'AbortError') return
+        setManifestError(true)
+      })
+
+    return () => controller.abort()
+  }, [manifestRequestVersion])
 
   useEffect(() => {
     if (phase.name !== 'guessing') return
@@ -75,23 +103,58 @@ export default function FindThePlace() {
     return () => window.clearInterval(timer)
   }, [phase])
 
-  function startGame() {
-    if (eligiblePlaces.length < ROUND_COUNT) return
+  async function startGame() {
+    if (
+      !manifest ||
+      eligiblePlaceCount < ROUND_COUNT ||
+      startRequestRef.current
+    ) {
+      return
+    }
 
-    const startedAt = performance.now()
-    guessLockedRef.current = false
-    setQuestions(createSessionQuestions(eligiblePlaces, ROUND_COUNT))
-    setResults([])
-    setNow(startedAt)
-    setPhase({ name: 'guessing', roundIndex: 0, startedAt })
+    startRequestRef.current = true
+    setIsStarting(true)
+    setStartError(null)
+
+    try {
+      const loadedPlaces = await loadSelectedPlaceData(
+        manifest,
+        selectedCountryCodes
+      )
+      const eligiblePlaces = getEligiblePlaces(
+        loadedPlaces,
+        selectedCountryCodes,
+        selectedDifficulties
+      )
+      if (eligiblePlaces.length < ROUND_COUNT) {
+        throw new Error('The selected data contains fewer than five places.')
+      }
+
+      const startedAt = performance.now()
+      guessLockedRef.current = false
+      setQuestions(createSessionQuestions(eligiblePlaces, ROUND_COUNT))
+      setResults([])
+      setNow(startedAt)
+      setPhase({ name: 'guessing', roundIndex: 0, startedAt })
+    } catch (error: unknown) {
+      setStartError(
+        error instanceof Error
+          ? error.message
+          : 'Unable to load the selected place data.'
+      )
+    } finally {
+      startRequestRef.current = false
+      setIsStarting(false)
+    }
   }
 
   function handleCountrySelectionChange(countryNames: Set<string>) {
     const countryCodes = new Set<string>()
     countryNames.forEach((name) => {
-      const code = FIND_THE_PLACE_COUNTRY_CODES[name]
+      const code = countryCodesByName[name]
       if (code) countryCodes.add(code)
     })
+    setStartError(null)
     setSelectedCountryCodes(countryCodes)
   }
 
@@ -143,6 +206,7 @@ export default function FindThePlace() {
     guessLockedRef.current = false
     setQuestions([])
     setResults([])
+    setStartError(null)
     setPhase({ name: 'setup' })
   }
 
@@ -172,16 +236,45 @@ export default function FindThePlace() {
           onGuess={handleGuess}
         />
 
-        {phase.name === 'setup' && (
+        {phase.name === 'setup' && manifest && (
           <FindThePlacePoolSetup
-            countryDivisions={FIND_THE_PLACE_COUNTRY_DIVISIONS}
+            countryDivisions={countryDivisions}
             selectedCountryNames={selectedCountryNames}
             selectedDifficulties={selectedDifficulties}
-            eligiblePlaceCount={eligiblePlaces.length}
+            eligiblePlaceCount={eligiblePlaceCount}
+            isLoading={isStarting}
+            loadError={startError}
             onCountrySelectionChange={handleCountrySelectionChange}
-            onDifficultySelectionChange={setSelectedDifficulties}
+            onDifficultySelectionChange={(difficulties) => {
+              setStartError(null)
+              setSelectedDifficulties(difficulties)
+            }}
             onStart={startGame}
           />
+        )}
+
+        {phase.name === 'setup' && !manifest && (
+          <section className="absolute inset-0 z-[1000] flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-sm">
+            <div className="rounded-2xl border border-white/10 bg-slate-950/95 px-6 py-5 text-center shadow-2xl">
+              <p className="font-bold text-white">
+                {manifestError
+                  ? 'Unable to load the question pool.'
+                  : 'Loading question pool…'}
+              </p>
+              {manifestError && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setManifestError(false)
+                    setManifestRequestVersion((version) => version + 1)
+                  }}
+                  className="mt-4 rounded-xl bg-emerald-400 px-4 py-2 text-sm font-black text-slate-950 transition hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200"
+                >
+                  Retry
+                </button>
+              )}
+            </div>
+          </section>
         )}
 
         {(phase.name === 'guessing' || phase.name === 'review') && (
@@ -242,6 +335,7 @@ export default function FindThePlace() {
         {phase.name === 'results' && (
           <FindThePlaceResults
             results={results}
+            isStarting={isStarting}
             onNextGame={startGame}
             onChangePool={changePool}
           />
@@ -262,9 +356,7 @@ export default function FindThePlace() {
                 Beyond that, points decrease smoothly with both time and
                 distance.
               </p>
-              <p>
-                More and more locations will be added to this quiz!
-              </p>
+              <p>More and more locations will be added to this quiz!</p>
             </div>
           }
           onClose={() => setIsInfoOpen(false)}

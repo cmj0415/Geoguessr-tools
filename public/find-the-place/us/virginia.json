@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Virginia",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-virginia-beach-va",
+      "name": "Virginia Beach",
+      "coordinates": [
+        36.85293,
+        -75.97799
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-richmond-va",
+      "name": "Richmond",
+      "coordinates": [
+        37.55376,
+        -77.46026
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-norfolk-va",
+      "name": "Norfolk",
+      "coordinates": [
+        36.84681,
+        -76.28522
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-roanoke-va",
+      "name": "Roanoke",
+      "coordinates": [
+        37.27097,
+        -79.94143
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-charlottesville-va",
+      "name": "Charlottesville",
+      "coordinates": [
+        38.02931,
+        -78.47668
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-lynchburg-va",
+      "name": "Lynchburg",
+      "coordinates": [
+        37.41375,
+        -79.14225
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-bristol-va",
+      "name": "Bristol",
+      "coordinates": [
+        36.59649,
+        -82.18847
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

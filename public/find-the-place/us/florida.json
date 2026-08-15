@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Florida",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-miami-fl",
+      "name": "Miami",
+      "coordinates": [
+        25.77427,
+        -80.19366
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-orlando-fl",
+      "name": "Orlando",
+      "coordinates": [
+        28.53834,
+        -81.37924
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-tampa-fl",
+      "name": "Tampa",
+      "coordinates": [
+        27.94752,
+        -82.45843
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-jacksonville-fl",
+      "name": "Jacksonville",
+      "coordinates": [
+        30.33218,
+        -81.65565
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-tallahassee-fl",
+      "name": "Tallahassee",
+      "coordinates": [
+        30.43826,
+        -84.28073
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-fort-myers-fl",
+      "name": "Fort Myers",
+      "coordinates": [
+        26.62168,
+        -81.84059
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-key-west-fl",
+      "name": "Key West",
+      "coordinates": [
+        24.55524,
+        -81.78163
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

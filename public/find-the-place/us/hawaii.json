@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Hawaii",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-honolulu-hi",
+      "name": "Honolulu",
+      "coordinates": [
+        21.30694,
+        -157.85833
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-hilo-hi",
+      "name": "Hilo",
+      "coordinates": [
+        19.72991,
+        -155.09073
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-kailua-kona-hi",
+      "name": "Kailua-Kona",
+      "coordinates": [
+        19.64016,
+        -155.99912
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-kahului-hi",
+      "name": "Kahului",
+      "coordinates": [
+        20.88933,
+        -156.47293
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-lihue-hi",
+      "name": "Lihue",
+      "coordinates": [
+        21.98121,
+        -159.3721
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-waimea-hi",
+      "name": "Waimea",
+      "coordinates": [
+        20.02323,
+        -155.67288
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-kapaa-hi",
+      "name": "Kapaa",
+      "coordinates": [
+        22.07521,
+        -159.31895
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "administrative",
+  "name": "Bourgogne-Franche-Comté",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Nièvre",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-nevers",
+          "name": "Nevers",
+          "coordinates": [
+            46.9896,
+            3.159
+          ],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

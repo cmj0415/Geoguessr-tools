@@ -1,0 +1,22 @@
+{
+  "type": "administrative",
+  "name": "Brittany",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Finistère",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-quimper",
+          "name": "Quimper",
+          "coordinates": [
+            47.996,
+            -4.1025
+          ],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Minas Gerais",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-uberlandia-mg",
+      "name": "Uberlândia",
+      "coordinates": [
+        -18.9186,
+        -48.2772
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

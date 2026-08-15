@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kōchi",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-kochi",
+      "name": "Kōchi",
+      "coordinates": [
+        33.5597,
+        133.5311
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

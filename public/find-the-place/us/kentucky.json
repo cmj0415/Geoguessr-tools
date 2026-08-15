@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Kentucky",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-louisville-ky",
+      "name": "Louisville",
+      "coordinates": [
+        38.25424,
+        -85.75941
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-lexington-ky",
+      "name": "Lexington",
+      "coordinates": [
+        37.98869,
+        -84.47772
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-bowling-green-ky",
+      "name": "Bowling Green",
+      "coordinates": [
+        36.99032,
+        -86.4436
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-owensboro-ky",
+      "name": "Owensboro",
+      "coordinates": [
+        37.77422,
+        -87.11333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-paducah-ky",
+      "name": "Paducah",
+      "coordinates": [
+        37.08339,
+        -88.60005
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-pikeville-ky",
+      "name": "Pikeville",
+      "coordinates": [
+        37.47927,
+        -82.51876
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-somerset-ky",
+      "name": "Somerset",
+      "coordinates": [
+        37.09202,
+        -84.60411
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

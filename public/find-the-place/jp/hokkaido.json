@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Hokkaido",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-sapporo",
+      "name": "Sapporo",
+      "coordinates": [
+        43.0618,
+        141.3545
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

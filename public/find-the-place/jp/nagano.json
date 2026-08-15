@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Nagano",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-matsumoto",
+      "name": "Matsumoto",
+      "coordinates": [
+        36.238,
+        137.972
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Aomori",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-hirosaki",
+      "name": "Hirosaki",
+      "coordinates": [
+        40.6031,
+        140.4638
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Nebraska",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-omaha-ne",
+      "name": "Omaha",
+      "coordinates": [
+        41.25626,
+        -95.94043
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-lincoln-ne",
+      "name": "Lincoln",
+      "coordinates": [
+        40.8,
+        -96.66696
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-grand-island-ne",
+      "name": "Grand Island",
+      "coordinates": [
+        40.92501,
+        -98.34201
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-kearney-ne",
+      "name": "Kearney",
+      "coordinates": [
+        40.69946,
+        -99.08148
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-north-platte-ne",
+      "name": "North Platte",
+      "coordinates": [
+        41.12389,
+        -100.76542
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-scottsbluff-ne",
+      "name": "Scottsbluff",
+      "coordinates": [
+        41.86663,
+        -103.66717
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-norfolk-ne",
+      "name": "Norfolk",
+      "coordinates": [
+        42.02834,
+        -97.417
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

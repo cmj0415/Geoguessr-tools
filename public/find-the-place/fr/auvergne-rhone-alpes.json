@@ -1,0 +1,38 @@
+{
+  "type": "administrative",
+  "name": "Auvergne-Rhône-Alpes",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Rhône",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-lyon",
+          "name": "Lyon",
+          "coordinates": [
+            45.764,
+            4.8357
+          ],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Cantal",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-saint-flour",
+          "name": "Saint-Flour",
+          "coordinates": [
+            45.0344,
+            3.092
+          ],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Rhode Island",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-providence-ri",
+      "name": "Providence",
+      "coordinates": [
+        41.82399,
+        -71.41283
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-newport-ri",
+      "name": "Newport",
+      "coordinates": [
+        41.4901,
+        -71.31283
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-warwick-ri",
+      "name": "Warwick",
+      "coordinates": [
+        41.7001,
+        -71.41617
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-westerly-ri",
+      "name": "Westerly",
+      "coordinates": [
+        41.3776,
+        -71.82729
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-woonsocket-ri",
+      "name": "Woonsocket",
+      "coordinates": [
+        42.00288,
+        -71.51478
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-pawtucket-ri",
+      "name": "Pawtucket",
+      "coordinates": [
+        41.87871,
+        -71.38256
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-narragansett-ri",
+      "name": "Narragansett",
+      "coordinates": [
+        41.4501,
+        -71.4495
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

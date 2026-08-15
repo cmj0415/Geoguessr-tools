@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Alabama",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-birmingham-al",
+      "name": "Birmingham",
+      "coordinates": [
+        33.515599,
+        -86.809657
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-montgomery-al",
+      "name": "Montgomery",
+      "coordinates": [
+        32.375167,
+        -86.306603
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-huntsville-al",
+      "name": "Huntsville",
+      "coordinates": [
+        34.731205,
+        -86.588984
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-mobile-al",
+      "name": "Mobile",
+      "coordinates": [
+        30.691762,
+        -88.045664
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-dothan-al",
+      "name": "Dothan",
+      "coordinates": [
+        31.223776,
+        -85.393537
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-enterprise-al",
+      "name": "Enterprise",
+      "coordinates": [
+        31.315353,
+        -85.854725
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-tuscaloosa-al",
+      "name": "Tuscaloosa",
+      "coordinates": [
+        33.199907,
+        -87.564416
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-jackson-al",
+      "name": "Jackson",
+      "coordinates": [
+        31.51513,
+        -87.894543
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-florence-al",
+      "name": "Florence",
+      "coordinates": [
+        34.79739,
+        -87.674024
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Delaware",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-wilmington-de",
+      "name": "Wilmington",
+      "coordinates": [
+        39.74595,
+        -75.54659
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-dover-de",
+      "name": "Dover",
+      "coordinates": [
+        39.15817,
+        -75.52437
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-newark-de",
+      "name": "Newark",
+      "coordinates": [
+        39.68372,
+        -75.74966
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-middletown-de",
+      "name": "Middletown",
+      "coordinates": [
+        39.44956,
+        -75.71632
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-milford-de",
+      "name": "Milford",
+      "coordinates": [
+        38.91261,
+        -75.42797
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-seaford-de",
+      "name": "Seaford",
+      "coordinates": [
+        38.64123,
+        -75.61104
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-rehoboth-beach-de",
+      "name": "Rehoboth Beach",
+      "coordinates": [
+        38.72095,
+        -75.07601
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

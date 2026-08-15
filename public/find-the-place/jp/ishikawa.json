@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ishikawa",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-kanazawa",
+      "name": "Kanazawa",
+      "coordinates": [
+        36.5613,
+        136.6562
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

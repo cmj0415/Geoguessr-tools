@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Tennessee",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-nashville-tn",
+      "name": "Nashville",
+      "coordinates": [
+        36.16589,
+        -86.78444
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-memphis-tn",
+      "name": "Memphis",
+      "coordinates": [
+        35.14953,
+        -90.04898
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-knoxville-tn",
+      "name": "Knoxville",
+      "coordinates": [
+        35.96064,
+        -83.92074
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-chattanooga-tn",
+      "name": "Chattanooga",
+      "coordinates": [
+        35.04563,
+        -85.30968
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-clarksville-tn",
+      "name": "Clarksville",
+      "coordinates": [
+        36.52977,
+        -87.35945
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-jackson-tn",
+      "name": "Jackson",
+      "coordinates": [
+        35.61452,
+        -88.81395
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-johnson-city-tn",
+      "name": "Johnson City",
+      "coordinates": [
+        36.31344,
+        -82.35347
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

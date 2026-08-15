@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Pará",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-santarem-pa",
+      "name": "Santarém",
+      "coordinates": [
+        -2.4385,
+        -54.6996
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Wyoming",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-cheyenne-wy",
+      "name": "Cheyenne",
+      "coordinates": [
+        41.13998,
+        -104.82025
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-casper-wy",
+      "name": "Casper",
+      "coordinates": [
+        42.86663,
+        -106.31308
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-laramie-wy",
+      "name": "Laramie",
+      "coordinates": [
+        41.31137,
+        -105.5911
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-gillette-wy",
+      "name": "Gillette",
+      "coordinates": [
+        44.29109,
+        -105.50222
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-rock-springs-wy",
+      "name": "Rock Springs",
+      "coordinates": [
+        41.58746,
+        -109.2029
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-jackson-wy",
+      "name": "Jackson",
+      "coordinates": [
+        43.47993,
+        -110.76243
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-cody-wy",
+      "name": "Cody",
+      "coordinates": [
+        44.52634,
+        -109.05653
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

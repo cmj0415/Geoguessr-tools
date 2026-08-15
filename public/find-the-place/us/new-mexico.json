@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "New Mexico",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-albuquerque-nm",
+      "name": "Albuquerque",
+      "coordinates": [
+        35.08449,
+        -106.65114
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-santa-fe-nm",
+      "name": "Santa Fe",
+      "coordinates": [
+        35.68698,
+        -105.9378
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-las-cruces-nm",
+      "name": "Las Cruces",
+      "coordinates": [
+        32.31232,
+        -106.77834
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-roswell-nm",
+      "name": "Roswell",
+      "coordinates": [
+        33.39437,
+        -104.52491
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-farmington-nm",
+      "name": "Farmington",
+      "coordinates": [
+        36.72806,
+        -108.21869
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-gallup-nm",
+      "name": "Gallup",
+      "coordinates": [
+        35.52808,
+        -108.74258
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-carlsbad-nm",
+      "name": "Carlsbad",
+      "coordinates": [
+        32.42067,
+        -104.22884
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

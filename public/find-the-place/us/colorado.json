@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Colorado",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-denver-co",
+      "name": "Denver",
+      "coordinates": [
+        39.73915,
+        -104.9847
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-colorado-springs-co",
+      "name": "Colorado Springs",
+      "coordinates": [
+        38.83388,
+        -104.82136
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-fort-collins-co",
+      "name": "Fort Collins",
+      "coordinates": [
+        40.58526,
+        -105.08442
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-pueblo-co",
+      "name": "Pueblo",
+      "coordinates": [
+        38.25445,
+        -104.60914
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-grand-junction-co",
+      "name": "Grand Junction",
+      "coordinates": [
+        39.06387,
+        -108.55065
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-durango-co",
+      "name": "Durango",
+      "coordinates": [
+        37.27528,
+        -107.88007
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-steamboat-springs-co",
+      "name": "Steamboat Springs",
+      "coordinates": [
+        40.48498,
+        -106.83172
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

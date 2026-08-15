@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Connecticut",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-hartford-ct",
+      "name": "Hartford",
+      "coordinates": [
+        41.76371,
+        -72.68509
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-bridgeport-ct",
+      "name": "Bridgeport",
+      "coordinates": [
+        41.17923,
+        -73.18945
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-new-haven-ct",
+      "name": "New Haven",
+      "coordinates": [
+        41.30815,
+        -72.92816
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-stamford-ct",
+      "name": "Stamford",
+      "coordinates": [
+        41.05343,
+        -73.53873
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-waterbury-ct",
+      "name": "Waterbury",
+      "coordinates": [
+        41.55815,
+        -73.0515
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-new-london-ct",
+      "name": "New London",
+      "coordinates": [
+        41.35565,
+        -72.09952
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-danbury-ct",
+      "name": "Danbury",
+      "coordinates": [
+        41.39482,
+        -73.45401
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

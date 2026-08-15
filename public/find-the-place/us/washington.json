@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Washington",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-seattle-wa",
+      "name": "Seattle",
+      "coordinates": [
+        47.60621,
+        -122.33207
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-spokane-wa",
+      "name": "Spokane",
+      "coordinates": [
+        47.65966,
+        -117.42908
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-tacoma-wa",
+      "name": "Tacoma",
+      "coordinates": [
+        47.25288,
+        -122.44429
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-vancouver-wa",
+      "name": "Vancouver",
+      "coordinates": [
+        45.63873,
+        -122.66149
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-yakima-wa",
+      "name": "Yakima",
+      "coordinates": [
+        46.60207,
+        -120.5059
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-bellingham-wa",
+      "name": "Bellingham",
+      "coordinates": [
+        48.75955,
+        -122.48822
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-walla-walla-wa",
+      "name": "Walla Walla",
+      "coordinates": [
+        46.06458,
+        -118.34302
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

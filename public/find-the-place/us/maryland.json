@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Maryland",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-baltimore-md",
+      "name": "Baltimore",
+      "coordinates": [
+        39.29038,
+        -76.61219
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-annapolis-md",
+      "name": "Annapolis",
+      "coordinates": [
+        38.97859,
+        -76.49184
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-frederick-md",
+      "name": "Frederick",
+      "coordinates": [
+        39.41427,
+        -77.41054
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-hagerstown-md",
+      "name": "Hagerstown",
+      "coordinates": [
+        39.64176,
+        -77.71999
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-salisbury-md",
+      "name": "Salisbury",
+      "coordinates": [
+        38.36067,
+        -75.59937
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-cumberland-md",
+      "name": "Cumberland",
+      "coordinates": [
+        39.65287,
+        -78.76252
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-ocean-city-md",
+      "name": "Ocean City",
+      "coordinates": [
+        38.3365,
+        -75.08491
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

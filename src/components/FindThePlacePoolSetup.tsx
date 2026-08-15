@@ -7,6 +7,8 @@ type FindThePlacePoolSetupProps = {
   selectedCountryNames: string[]
   selectedDifficulties: ReadonlySet<Difficulty>
   eligiblePlaceCount: number
+  isLoading: boolean
+  loadError: string | null
   onCountrySelectionChange: (countries: Set<string>) => void
   onDifficultySelectionChange: (difficulties: Set<Difficulty>) => void
   onStart: () => void
@@ -17,6 +19,8 @@ export default function FindThePlacePoolSetup({
   selectedCountryNames,
   selectedDifficulties,
   eligiblePlaceCount,
+  isLoading,
+  loadError,
   onCountrySelectionChange,
   onDifficultySelectionChange,
   onStart,
@@ -32,7 +36,17 @@ export default function FindThePlacePoolSetup({
 
   return (
     <section className="absolute inset-0 z-[1000] flex items-start justify-center overflow-y-auto bg-slate-950/55 p-4 backdrop-blur-sm">
-      <div className="mt-2 w-full max-w-xl rounded-3xl border border-white/10 bg-slate-950/95 p-5 shadow-2xl shadow-black/50 sm:mt-6 sm:p-7">
+      <div
+        className="relative mt-2 w-full max-w-xl rounded-3xl border border-white/10 bg-slate-950/95 p-5 shadow-2xl shadow-black/50 sm:mt-6 sm:p-7"
+        aria-busy={isLoading}
+      >
+        {isLoading && (
+          <div className="absolute inset-0 z-20 flex cursor-wait items-center justify-center rounded-3xl bg-slate-950/75 p-4 backdrop-blur-sm">
+            <p className="rounded-xl border border-white/10 bg-slate-900 px-4 py-3 text-sm font-bold text-slate-200 shadow-xl">
+              Loading selected places…
+            </p>
+          </div>
+        )}
         <p className="text-xs font-bold uppercase tracking-[0.24em] text-emerald-300/80">
           Question pool
         </p>
@@ -98,10 +112,15 @@ export default function FindThePlacePoolSetup({
                 Select a pool containing at least five places.
               </p>
             )}
+            {loadError && (
+              <p className="mt-1 max-w-sm text-xs font-medium text-rose-300">
+                {loadError} Try starting the game again.
+              </p>
+            )}
           </div>
           <button
             type="button"
-            disabled={!canStart}
+            disabled={!canStart || isLoading}
             onClick={onStart}
             className="rounded-xl bg-emerald-400 px-5 py-3 text-sm font-black text-slate-950 transition hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-200 disabled:cursor-not-allowed disabled:bg-slate-700 disabled:text-slate-400"
           >

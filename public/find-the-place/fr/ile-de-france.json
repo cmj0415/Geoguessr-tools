@@ -1,0 +1,22 @@
+{
+  "type": "administrative",
+  "name": "Île-de-France",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Paris",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-paris",
+          "name": "Paris",
+          "coordinates": [
+            48.8566,
+            2.3522
+          ],
+          "difficulty": "Easy"
+        }
+      ]
+    }
+  ]
+}

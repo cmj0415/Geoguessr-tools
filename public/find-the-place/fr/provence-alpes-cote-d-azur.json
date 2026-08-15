@@ -1,0 +1,22 @@
+{
+  "type": "administrative",
+  "name": "Provence-Alpes-Côte d'Azur",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Alpes-Maritimes",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-menton",
+          "name": "Menton",
+          "coordinates": [
+            43.7745,
+            7.4975
+          ],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

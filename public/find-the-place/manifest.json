@@ -1,0 +1,135 @@
+{
+  "continents": [
+    {
+      "name": "North America",
+      "countries": [
+        {
+          "code": "us",
+          "name": "USA",
+          "counts": {
+            "Easy": 103,
+            "Medium": 153,
+            "Hard": 97
+          },
+          "shards": [
+            "/find-the-place/us/alabama.json",
+            "/find-the-place/us/alaska.json",
+            "/find-the-place/us/arizona.json",
+            "/find-the-place/us/arkansas.json",
+            "/find-the-place/us/california.json",
+            "/find-the-place/us/colorado.json",
+            "/find-the-place/us/connecticut.json",
+            "/find-the-place/us/delaware.json",
+            "/find-the-place/us/florida.json",
+            "/find-the-place/us/georgia.json",
+            "/find-the-place/us/hawaii.json",
+            "/find-the-place/us/idaho.json",
+            "/find-the-place/us/illinois.json",
+            "/find-the-place/us/indiana.json",
+            "/find-the-place/us/iowa.json",
+            "/find-the-place/us/kansas.json",
+            "/find-the-place/us/kentucky.json",
+            "/find-the-place/us/louisiana.json",
+            "/find-the-place/us/maine.json",
+            "/find-the-place/us/maryland.json",
+            "/find-the-place/us/massachusetts.json",
+            "/find-the-place/us/michigan.json",
+            "/find-the-place/us/minnesota.json",
+            "/find-the-place/us/mississippi.json",
+            "/find-the-place/us/missouri.json",
+            "/find-the-place/us/montana.json",
+            "/find-the-place/us/nebraska.json",
+            "/find-the-place/us/nevada.json",
+            "/find-the-place/us/new-hampshire.json",
+            "/find-the-place/us/new-jersey.json",
+            "/find-the-place/us/new-mexico.json",
+            "/find-the-place/us/new-york.json",
+            "/find-the-place/us/north-carolina.json",
+            "/find-the-place/us/north-dakota.json",
+            "/find-the-place/us/ohio.json",
+            "/find-the-place/us/oklahoma.json",
+            "/find-the-place/us/oregon.json",
+            "/find-the-place/us/pennsylvania.json",
+            "/find-the-place/us/rhode-island.json",
+            "/find-the-place/us/south-carolina.json",
+            "/find-the-place/us/south-dakota.json",
+            "/find-the-place/us/tennessee.json",
+            "/find-the-place/us/texas.json",
+            "/find-the-place/us/utah.json",
+            "/find-the-place/us/vermont.json",
+            "/find-the-place/us/virginia.json",
+            "/find-the-place/us/washington.json",
+            "/find-the-place/us/west-virginia.json",
+            "/find-the-place/us/wisconsin.json",
+            "/find-the-place/us/wyoming.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "South America",
+      "countries": [
+        {
+          "code": "br",
+          "name": "Brazil",
+          "counts": {
+            "Easy": 2,
+            "Medium": 2,
+            "Hard": 2
+          },
+          "shards": [
+            "/find-the-place/br/parana.json",
+            "/find-the-place/br/para.json",
+            "/find-the-place/br/bahia.json",
+            "/find-the-place/br/minas-gerais.json",
+            "/find-the-place/br/rio-grande-do-sul.json",
+            "/find-the-place/br/roraima.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Europe",
+      "countries": [
+        {
+          "code": "fr",
+          "name": "France",
+          "counts": {
+            "Easy": 2,
+            "Medium": 2,
+            "Hard": 2
+          },
+          "shards": [
+            "/find-the-place/fr/ile-de-france.json",
+            "/find-the-place/fr/auvergne-rhone-alpes.json",
+            "/find-the-place/fr/brittany.json",
+            "/find-the-place/fr/provence-alpes-cote-d-azur.json",
+            "/find-the-place/fr/bourgogne-franche-comte.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Asia",
+      "countries": [
+        {
+          "code": "jp",
+          "name": "Japan",
+          "counts": {
+            "Easy": 2,
+            "Medium": 2,
+            "Hard": 2
+          },
+          "shards": [
+            "/find-the-place/jp/hokkaido.json",
+            "/find-the-place/jp/nagano.json",
+            "/find-the-place/jp/ishikawa.json",
+            "/find-the-place/jp/kochi.json",
+            "/find-the-place/jp/miyazaki.json",
+            "/find-the-place/jp/aomori.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

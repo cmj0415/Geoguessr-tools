@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Arkansas",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-littlerock-ar",
+      "name": "Little Rock",
+      "coordinates": [
+        34.739315,
+        -92.276996
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-jonesboro-ar",
+      "name": "Jonesboro",
+      "coordinates": [
+        35.821367,
+        -90.702607
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-fort-smith-ar",
+      "name": "Fort Smith",
+      "coordinates": [
+        35.384171,
+        -94.420714
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-conway-ar",
+      "name": "Conway",
+      "coordinates": [
+        35.091789,
+        -92.436695
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-crossett-ar",
+      "name": "Crossett",
+      "coordinates": [
+        33.135239,
+        -91.961589
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-hot-springs-ar",
+      "name": "Hot Springs",
+      "coordinates": [
+        34.503667,
+        -93.055373
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

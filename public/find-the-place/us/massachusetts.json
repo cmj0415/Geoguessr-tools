@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Massachusetts",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-boston-ma",
+      "name": "Boston",
+      "coordinates": [
+        42.35843,
+        -71.05977
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-worcester-ma",
+      "name": "Worcester",
+      "coordinates": [
+        42.26259,
+        -71.80229
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-springfield-ma",
+      "name": "Springfield",
+      "coordinates": [
+        42.10148,
+        -72.58981
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-lowell-ma",
+      "name": "Lowell",
+      "coordinates": [
+        42.63342,
+        -71.31617
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-new-bedford-ma",
+      "name": "New Bedford",
+      "coordinates": [
+        41.63526,
+        -70.92701
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-pittsfield-ma",
+      "name": "Pittsfield",
+      "coordinates": [
+        42.45008,
+        -73.24538
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-provincetown-ma",
+      "name": "Provincetown",
+      "coordinates": [
+        42.05295,
+        -70.1864
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

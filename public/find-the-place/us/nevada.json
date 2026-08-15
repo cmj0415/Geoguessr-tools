@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Nevada",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-ely-nv",
+      "name": "Ely",
+      "coordinates": [
+        39.2474,
+        -114.8881
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-las-vegas-nv",
+      "name": "Las Vegas",
+      "coordinates": [
+        36.17497,
+        -115.13722
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-reno-nv",
+      "name": "Reno",
+      "coordinates": [
+        39.52963,
+        -119.8138
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-carson-city-nv",
+      "name": "Carson City",
+      "coordinates": [
+        39.1638,
+        -119.7674
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-winnemucca-nv",
+      "name": "Winnemucca",
+      "coordinates": [
+        40.97296,
+        -117.73568
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-tonopah-nv",
+      "name": "Tonopah",
+      "coordinates": [
+        38.06716,
+        -117.23008
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-elko-nv",
+      "name": "Elko",
+      "coordinates": [
+        40.83242,
+        -115.76312
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Illinois",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-chicago-il",
+      "name": "Chicago",
+      "coordinates": [
+        41.85003,
+        -87.65005
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-springfield-il",
+      "name": "Springfield",
+      "coordinates": [
+        39.80172,
+        -89.64371
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-rockford-il",
+      "name": "Rockford",
+      "coordinates": [
+        42.27113,
+        -89.094
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-peoria-il",
+      "name": "Peoria",
+      "coordinates": [
+        40.69365,
+        -89.58899
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-champaign-il",
+      "name": "Champaign",
+      "coordinates": [
+        40.11642,
+        -88.24338
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-carbondale-il",
+      "name": "Carbondale",
+      "coordinates": [
+        37.72727,
+        -89.21675
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-rock-island-il",
+      "name": "Rock Island",
+      "coordinates": [
+        41.50948,
+        -90.57875
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

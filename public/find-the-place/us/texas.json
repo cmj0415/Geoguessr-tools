@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Texas",
+  "children": [
+    {
+      "type": "place",
+      "id": "us-marfa-tx",
+      "name": "Marfa",
+      "coordinates": [
+        30.3095,
+        -104.0206
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-houston-tx",
+      "name": "Houston",
+      "coordinates": [
+        29.76328,
+        -95.36327
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-dallas-tx",
+      "name": "Dallas",
+      "coordinates": [
+        32.78306,
+        -96.80667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "us-san-antonio-tx",
+      "name": "San Antonio",
+      "coordinates": [
+        29.42412,
+        -98.49363
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-austin-tx",
+      "name": "Austin",
+      "coordinates": [
+        30.26715,
+        -97.74306
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-el-paso-tx",
+      "name": "El Paso",
+      "coordinates": [
+        31.75872,
+        -106.48693
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "us-amarillo-tx",
+      "name": "Amarillo",
+      "coordinates": [
+        35.222,
+        -101.8313
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "us-lubbock-tx",
+      "name": "Lubbock",
+      "coordinates": [
+        33.57786,
+        -101.85517
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}
