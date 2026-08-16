@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Galicia",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of Pontevedra",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-vigo",
+          "name": "Vigo",
+          "coordinates": [42.23282, -8.72264],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of A Coruña",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-a-coruna",
+          "name": "A Coruña",
+          "coordinates": [43.37135, -8.396],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Ourense",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-ourense",
+          "name": "Ourense",
+          "coordinates": [42.33669, -7.86407],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

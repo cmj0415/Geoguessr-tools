@@ -1,0 +1,39 @@
+{
+  "type": "administrative",
+  "name": "Campania",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Metropolitan City of Naples",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-naples",
+          "name": "Naples",
+          "coordinates": [40.85216, 14.26811],
+          "difficulty": "Medium"
+        },
+        {
+          "type": "place",
+          "id": "it-torre-del-greco",
+          "name": "Torre del Greco",
+          "coordinates": [40.78931, 14.36806],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Salerno",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-salerno",
+          "name": "Salerno",
+          "coordinates": [40.67545, 14.79328],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

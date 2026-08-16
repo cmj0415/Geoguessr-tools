@@ -1,0 +1,33 @@
+{
+  "type": "administrative",
+  "name": "Balearic Islands",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of the Balearic Islands",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-palma",
+          "name": "Palma",
+          "coordinates": [39.56939, 2.65024],
+          "difficulty": "Medium"
+        },
+        {
+          "type": "place",
+          "id": "es-calvia",
+          "name": "Calvià",
+          "coordinates": [39.5657, 2.50621],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-ibiza",
+          "name": "Ibiza",
+          "coordinates": [38.90883, 1.43296],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "administrative",
+  "name": "Calabria",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Metropolitan City of Reggio Calabria",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-reggio-calabria",
+          "name": "Reggio Calabria",
+          "coordinates": [38.11047, 15.66129],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Catanzaro",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-catanzaro",
+          "name": "Catanzaro",
+          "coordinates": [38.88247, 16.60086],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "it-lamezia-terme",
+          "name": "Lamezia Terme",
+          "coordinates": [38.96255, 16.30938],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

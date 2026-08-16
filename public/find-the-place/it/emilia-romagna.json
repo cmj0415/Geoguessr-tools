@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Emilia-Romagna",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Metropolitan City of Bologna",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-bologna",
+          "name": "Bologna",
+          "coordinates": [44.49381, 11.33875],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Parma",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-parma",
+          "name": "Parma",
+          "coordinates": [44.79935, 10.32618],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Modena",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-modena",
+          "name": "Modena",
+          "coordinates": [44.64783, 10.92539],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

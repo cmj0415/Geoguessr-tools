@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Schleswig-Holstein",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Kiel Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-kiel",
+          "name": "Kiel",
+          "coordinates": [54.32133, 10.13489],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Lübeck Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-lubeck",
+          "name": "Lübeck",
+          "coordinates": [53.86893, 10.68729],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Flensburg Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-flensburg",
+          "name": "Flensburg",
+          "coordinates": [54.78805, 9.43722],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

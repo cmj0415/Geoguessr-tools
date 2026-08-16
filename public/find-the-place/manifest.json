@@ -121,6 +121,64 @@
           ]
         },
         {
+          "code": "de",
+          "name": "Germany",
+          "counts": {
+            "Easy": 4,
+            "Medium": 13,
+            "Hard": 31
+          },
+          "shards": [
+            "/find-the-place/de/baden-wurttemberg.json",
+            "/find-the-place/de/bavaria.json",
+            "/find-the-place/de/berlin.json",
+            "/find-the-place/de/brandenburg.json",
+            "/find-the-place/de/bremen.json",
+            "/find-the-place/de/hamburg.json",
+            "/find-the-place/de/hesse.json",
+            "/find-the-place/de/lower-saxony.json",
+            "/find-the-place/de/mecklenburg-vorpommern.json",
+            "/find-the-place/de/north-rhine-westphalia.json",
+            "/find-the-place/de/rhineland-palatinate.json",
+            "/find-the-place/de/saarland.json",
+            "/find-the-place/de/saxony.json",
+            "/find-the-place/de/saxony-anhalt.json",
+            "/find-the-place/de/schleswig-holstein.json",
+            "/find-the-place/de/thuringia.json"
+          ]
+        },
+        {
+          "code": "it",
+          "name": "Italy",
+          "counts": {
+            "Easy": 2,
+            "Medium": 8,
+            "Hard": 50
+          },
+          "shards": [
+            "/find-the-place/it/abruzzo.json",
+            "/find-the-place/it/aosta-valley.json",
+            "/find-the-place/it/apulia.json",
+            "/find-the-place/it/basilicata.json",
+            "/find-the-place/it/calabria.json",
+            "/find-the-place/it/campania.json",
+            "/find-the-place/it/emilia-romagna.json",
+            "/find-the-place/it/friuli-venezia-giulia.json",
+            "/find-the-place/it/lazio.json",
+            "/find-the-place/it/liguria.json",
+            "/find-the-place/it/lombardy.json",
+            "/find-the-place/it/marche.json",
+            "/find-the-place/it/molise.json",
+            "/find-the-place/it/piedmont.json",
+            "/find-the-place/it/sardinia.json",
+            "/find-the-place/it/sicily.json",
+            "/find-the-place/it/trentino-alto-adige-sudtirol.json",
+            "/find-the-place/it/tuscany.json",
+            "/find-the-place/it/umbria.json",
+            "/find-the-place/it/veneto.json"
+          ]
+        },
+        {
           "code": "ru",
           "name": "Russia",
           "counts": {
@@ -212,6 +270,36 @@
             "/find-the-place/ru/yamalo-nenets-autonomous-okrug.json",
             "/find-the-place/ru/yaroslavl-oblast.json",
             "/find-the-place/ru/zabaykalsky-krai.json"
+          ]
+        },
+        {
+          "code": "es",
+          "name": "Spain",
+          "counts": {
+            "Easy": 2,
+            "Medium": 11,
+            "Hard": 40
+          },
+          "shards": [
+            "/find-the-place/es/andalusia.json",
+            "/find-the-place/es/aragon.json",
+            "/find-the-place/es/balearic-islands.json",
+            "/find-the-place/es/basque-country.json",
+            "/find-the-place/es/canary-islands.json",
+            "/find-the-place/es/cantabria.json",
+            "/find-the-place/es/castile-and-leon.json",
+            "/find-the-place/es/castilla-la-mancha.json",
+            "/find-the-place/es/catalonia.json",
+            "/find-the-place/es/ceuta.json",
+            "/find-the-place/es/community-of-madrid.json",
+            "/find-the-place/es/extremadura.json",
+            "/find-the-place/es/galicia.json",
+            "/find-the-place/es/la-rioja.json",
+            "/find-the-place/es/melilla.json",
+            "/find-the-place/es/navarre.json",
+            "/find-the-place/es/principality-of-asturias.json",
+            "/find-the-place/es/region-of-murcia.json",
+            "/find-the-place/es/valencian-community.json"
           ]
         }
       ]

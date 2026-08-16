@@ -1,0 +1,39 @@
+{
+  "type": "administrative",
+  "name": "Molise",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of Campobasso",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-campobasso",
+          "name": "Campobasso",
+          "coordinates": [41.55947, 14.66737],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "it-termoli",
+          "name": "Termoli",
+          "coordinates": [41.99994, 14.99389],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Isernia",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-isernia",
+          "name": "Isernia",
+          "coordinates": [41.59603, 14.23399],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

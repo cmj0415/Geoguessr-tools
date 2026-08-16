@@ -1,0 +1,39 @@
+{
+  "type": "administrative",
+  "name": "Basilicata",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of Matera",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-matera",
+          "name": "Matera",
+          "coordinates": [40.66599, 16.60463],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Potenza",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-potenza",
+          "name": "Potenza",
+          "coordinates": [40.64175, 15.80794],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "it-lavello",
+          "name": "Lavello",
+          "coordinates": [41.04769, 15.78915],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

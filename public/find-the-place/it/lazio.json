@@ -1,0 +1,39 @@
+{
+  "type": "administrative",
+  "name": "Lazio",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Metropolitan City of Rome Capital",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-rome",
+          "name": "Rome",
+          "coordinates": [41.89193, 12.51133],
+          "difficulty": "Easy"
+        },
+        {
+          "type": "place",
+          "id": "it-guidonia-montecelio",
+          "name": "Guidonia Montecelio",
+          "coordinates": [41.99362, 12.72238],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Latina",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-latina",
+          "name": "Latina",
+          "coordinates": [41.46614, 12.9043],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

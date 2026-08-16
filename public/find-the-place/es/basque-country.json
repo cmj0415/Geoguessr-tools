@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Basque Country",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Biscay",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-bilbao",
+          "name": "Bilbao",
+          "coordinates": [43.26271, -2.92528],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Álava",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-gasteiz-vitoria",
+          "name": "Gasteiz / Vitoria",
+          "coordinates": [42.84998, -2.67268],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Gipuzkoa",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-donostia-san-sebastian",
+          "name": "Donostia / San Sebastián",
+          "coordinates": [43.31283, -1.97499],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

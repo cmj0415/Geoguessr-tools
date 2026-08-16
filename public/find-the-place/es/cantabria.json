@@ -1,0 +1,33 @@
+{
+  "type": "administrative",
+  "name": "Cantabria",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of Cantabria",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-santander",
+          "name": "Santander",
+          "coordinates": [43.46589, -3.80493],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-torrelavega",
+          "name": "Torrelavega",
+          "coordinates": [43.34943, -4.04785],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-castro-urdiales",
+          "name": "Castro-Urdiales",
+          "coordinates": [43.38285, -3.22043],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

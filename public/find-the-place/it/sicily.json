@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Sicily",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Metropolitan City of Palermo",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-palermo",
+          "name": "Palermo",
+          "coordinates": [38.1166, 13.3636],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Metropolitan City of Catania",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-catania",
+          "name": "Catania",
+          "coordinates": [37.49223, 15.07041],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Metropolitan City of Messina",
+      "children": [
+        {
+          "type": "place",
+          "id": "it-messina",
+          "name": "Messina",
+          "coordinates": [38.19394, 15.55256],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

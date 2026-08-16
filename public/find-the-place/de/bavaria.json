@@ -1,0 +1,63 @@
+{
+  "type": "administrative",
+  "name": "Bavaria",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Upper Bavaria",
+      "children": [
+        {
+          "type": "administrative",
+          "name": "Munich Urban District",
+          "children": [
+            {
+              "type": "place",
+              "id": "de-munich",
+              "name": "Munich",
+              "coordinates": [48.13743, 11.57549],
+              "difficulty": "Easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Middle Franconia",
+      "children": [
+        {
+          "type": "administrative",
+          "name": "Nuremberg Urban District",
+          "children": [
+            {
+              "type": "place",
+              "id": "de-nuremberg",
+              "name": "Nuremberg",
+              "coordinates": [49.45421, 11.07752],
+              "difficulty": "Medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Swabia",
+      "children": [
+        {
+          "type": "administrative",
+          "name": "Augsburg Urban District",
+          "children": [
+            {
+              "type": "place",
+              "id": "de-augsburg",
+              "name": "Augsburg",
+              "coordinates": [48.37154, 10.89851],
+              "difficulty": "Medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

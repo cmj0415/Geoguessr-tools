@@ -1,0 +1,57 @@
+{
+  "type": "administrative",
+  "name": "North Rhine-Westphalia",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Cologne Government Region",
+      "children": [
+        {
+          "type": "administrative",
+          "name": "Cologne Urban District",
+          "children": [
+            {
+              "type": "place",
+              "id": "de-koln",
+              "name": "Köln",
+              "coordinates": [50.93333, 6.95],
+              "difficulty": "Easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Düsseldorf Government Region",
+      "children": [
+        {
+          "type": "administrative",
+          "name": "Düsseldorf Urban District",
+          "children": [
+            {
+              "type": "place",
+              "id": "de-dusseldorf",
+              "name": "Düsseldorf",
+              "coordinates": [51.22319, 6.77927],
+              "difficulty": "Medium"
+            }
+          ]
+        },
+        {
+          "type": "administrative",
+          "name": "Essen Urban District",
+          "children": [
+            {
+              "type": "place",
+              "id": "de-essen",
+              "name": "Essen",
+              "coordinates": [51.45657, 7.01228],
+              "difficulty": "Medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

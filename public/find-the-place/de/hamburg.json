@@ -1,0 +1,39 @@
+{
+  "type": "administrative",
+  "name": "Hamburg",
+  "children": [
+    {
+      "type": "place",
+      "id": "de-hamburg",
+      "name": "Hamburg",
+      "coordinates": [53.55073, 9.99302],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "administrative",
+      "name": "Wandsbek Borough",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-wandsbek",
+          "name": "Wandsbek",
+          "coordinates": [53.58334, 10.08305],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Hamburg-Nord Borough",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-hamburg-nord",
+          "name": "Hamburg-Nord",
+          "coordinates": [53.58935, 9.984],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Lower Saxony",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Hanover Region",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-hannover",
+          "name": "Hannover",
+          "coordinates": [52.37052, 9.73322],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Braunschweig Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-braunschweig",
+          "name": "Braunschweig",
+          "coordinates": [52.26594, 10.52673],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Osnabrück Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-osnabruck",
+          "name": "Osnabrück",
+          "coordinates": [52.27264, 8.0498],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

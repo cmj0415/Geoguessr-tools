@@ -1,0 +1,13 @@
+{
+  "type": "administrative",
+  "name": "Melilla",
+  "children": [
+    {
+      "type": "place",
+      "id": "es-melilla",
+      "name": "Melilla",
+      "coordinates": [35.29369, -2.93833],
+      "difficulty": "Hard"
+    }
+  ]
+}

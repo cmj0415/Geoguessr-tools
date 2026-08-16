@@ -1,0 +1,39 @@
+{
+  "type": "administrative",
+  "name": "Canary Islands",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of Las Palmas",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-las-palmas-de-gran-canaria",
+          "name": "Las Palmas de Gran Canaria",
+          "coordinates": [28.10178, -15.41573],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Province of Santa Cruz de Tenerife",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-santa-cruz-de-tenerife",
+          "name": "Santa Cruz de Tenerife",
+          "coordinates": [28.46824, -16.25462],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-la-laguna",
+          "name": "La Laguna",
+          "coordinates": [28.4853, -16.32014],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

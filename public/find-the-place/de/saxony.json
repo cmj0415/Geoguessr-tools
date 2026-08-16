@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Saxony",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Dresden Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-dresden",
+          "name": "Dresden",
+          "coordinates": [51.05089, 13.73832],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Leipzig Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-leipzig",
+          "name": "Leipzig",
+          "coordinates": [51.33962, 12.37129],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Chemnitz Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-chemnitz",
+          "name": "Chemnitz",
+          "coordinates": [50.8357, 12.92922],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

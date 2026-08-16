@@ -1,0 +1,45 @@
+{
+  "type": "administrative",
+  "name": "Thuringia",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Erfurt Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-erfurt",
+          "name": "Erfurt",
+          "coordinates": [50.97734, 11.03536],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Jena Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-jena",
+          "name": "Jena",
+          "coordinates": [50.92878, 11.5899],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Gera Urban District",
+      "children": [
+        {
+          "type": "place",
+          "id": "de-gera",
+          "name": "Gera",
+          "coordinates": [50.88029, 12.08187],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

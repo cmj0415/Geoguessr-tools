@@ -1,0 +1,33 @@
+{
+  "type": "administrative",
+  "name": "La Rioja",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of La Rioja",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-logrono",
+          "name": "Logroño",
+          "coordinates": [42.46615, -2.45115],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-calahorra",
+          "name": "Calahorra",
+          "coordinates": [42.30506, -1.96521],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-arnedo",
+          "name": "Arnedo",
+          "coordinates": [42.228, -2.10083],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

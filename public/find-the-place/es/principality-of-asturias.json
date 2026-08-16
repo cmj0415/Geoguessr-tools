@@ -1,0 +1,33 @@
+{
+  "type": "administrative",
+  "name": "Principality of Asturias",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Province of Asturias",
+      "children": [
+        {
+          "type": "place",
+          "id": "es-gijon",
+          "name": "Gijón",
+          "coordinates": [43.53573, -5.66152],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-oviedo",
+          "name": "Oviedo",
+          "coordinates": [43.36029, -5.84476],
+          "difficulty": "Hard"
+        },
+        {
+          "type": "place",
+          "id": "es-aviles",
+          "name": "Avilés",
+          "coordinates": [43.55473, -5.92483],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}
