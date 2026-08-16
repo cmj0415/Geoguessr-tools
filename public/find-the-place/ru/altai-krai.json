@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Altai Krai",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Barnaul Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-altai-krai-barnaul",
+          "name": "Barnaul",
+          "coordinates": [53.36199, 83.72786],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Biysk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-altai-krai-biysk",
+          "name": "Biysk",
+          "coordinates": [52.53423, 85.19661],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Rubtsovsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-altai-krai-rubtsovsk",
+          "name": "Rubtsovsk",
+          "coordinates": [51.51473, 81.20613],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Novoaltaysk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-altai-krai-novoaltaysk",
+          "name": "Novoaltaysk",
+          "coordinates": [53.41426, 83.94108],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Zarinsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-altai-krai-zarinsk",
+          "name": "Zarinsk",
+          "coordinates": [53.70821, 84.94307],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

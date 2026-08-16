@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Sakha",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Yakutsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakha-yakutsk",
+          "name": "Yakutsk",
+          "coordinates": [62.03114, 129.72288],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Neryungrinsky Municipal District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakha-neryungri",
+          "name": "Neryungri",
+          "coordinates": [56.65836, 124.72499],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Mirninsky Ulus",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakha-mirny",
+          "name": "Mirny",
+          "coordinates": [62.53528, 113.96111],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Aldansky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakha-aldan",
+          "name": "Aldan",
+          "coordinates": [58.61232, 125.40002],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Lensky Ulus",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakha-lensk",
+          "name": "Lensk",
+          "coordinates": [60.72383, 114.93447],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

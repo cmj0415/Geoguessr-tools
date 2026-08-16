@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Chelyabinsk Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Chelyabinsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-chelyabinsk-oblast-chelyabinsk",
+          "name": "Chelyabinsk",
+          "coordinates": [55.1611, 61.42877],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Magnitogorsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-chelyabinsk-oblast-magnitogorsk",
+          "name": "Magnitogorsk",
+          "coordinates": [53.39808, 59.0066],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Zlatoustovsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-chelyabinsk-oblast-zlatoust",
+          "name": "Zlatoust",
+          "coordinates": [55.17182, 59.65471],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Miassky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-chelyabinsk-oblast-miass",
+          "name": "Miass",
+          "coordinates": [55.04552, 60.10756],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Troitsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-chelyabinsk-oblast-troitsk",
+          "name": "Troitsk",
+          "coordinates": [54.09224, 61.56756],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

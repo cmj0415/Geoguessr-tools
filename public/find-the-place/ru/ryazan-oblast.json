@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Ryazan Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Ryazan Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ryazan-oblast-ryazan",
+          "name": "Ryazan",
+          "coordinates": [54.62696, 39.70415],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kasimov Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ryazan-oblast-kasimov",
+          "name": "Kasimov",
+          "coordinates": [54.94377, 41.40341],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sasovo Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ryazan-oblast-sasovo",
+          "name": "Sasovo",
+          "coordinates": [54.35369, 41.91986],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Skopin Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ryazan-oblast-skopin",
+          "name": "Skopin",
+          "coordinates": [53.82499, 39.5531],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Ryazhsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ryazan-oblast-ryazhsk",
+          "name": "Ryazhsk",
+          "coordinates": [53.70588, 40.08045],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

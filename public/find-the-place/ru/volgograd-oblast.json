@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Volgograd Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Volgograd Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-volgograd-oblast-volgograd",
+          "name": "Volgograd",
+          "coordinates": [48.71378, 44.4976],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Volzhsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-volgograd-oblast-volzhsky",
+          "name": "Volzhsky",
+          "coordinates": [48.78583, 44.77973],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kamyshin Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-volgograd-oblast-kamyshin",
+          "name": "Kamyshin",
+          "coordinates": [50.0885, 45.41277],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Mikhaylovka Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-volgograd-oblast-mikhaylovka",
+          "name": "Mikhaylovka",
+          "coordinates": [50.06187, 43.23335],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Uryupinsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-volgograd-oblast-uryupinsk",
+          "name": "Uryupinsk",
+          "coordinates": [50.806, 42.00923],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

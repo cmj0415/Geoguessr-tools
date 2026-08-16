@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Penza Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Penza Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-penza-oblast-penza",
+          "name": "Penza",
+          "coordinates": [53.19568, 45.01075],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kuznetsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-penza-oblast-kuznetsk",
+          "name": "Kuznetsk",
+          "coordinates": [53.11675, 46.60037],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Zarechny Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-penza-oblast-zarechnyy",
+          "name": "Zarechnyy",
+          "coordinates": [53.20356, 45.19227],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Serdobsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-penza-oblast-serdobsk",
+          "name": "Serdobsk",
+          "coordinates": [52.45861, 44.21689],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kamensky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-penza-oblast-kamenka",
+          "name": "Kamenka",
+          "coordinates": [53.18139, 44.04944],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

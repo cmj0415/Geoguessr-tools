@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Tver Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Tver Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-tver-oblast-tver",
+          "name": "Tver",
+          "coordinates": [56.85836, 35.90057],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Rzhev Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-tver-oblast-rzhev",
+          "name": "Rzhev",
+          "coordinates": [56.26289, 34.3289],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Vyshny Volochyok Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-tver-oblast-vyshniy-volochek",
+          "name": "Vyshniy Volochek",
+          "coordinates": [57.5888, 34.56854],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kimry Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-tver-oblast-kimry",
+          "name": "Kimry",
+          "coordinates": [56.87456, 37.35957],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Torzhok District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-tver-oblast-torzhok",
+          "name": "Torzhok",
+          "coordinates": [57.0436, 34.96221],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

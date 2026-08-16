@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Vologda Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Cherepovets Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vologda-oblast-cherepovets",
+          "name": "Cherepovets",
+          "coordinates": [59.13333, 37.9],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Vologda Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vologda-oblast-vologda",
+          "name": "Vologda",
+          "coordinates": [59.2239, 39.88398],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sokolsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vologda-oblast-sokol",
+          "name": "Sokol",
+          "coordinates": [59.46167, 40.12056],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Velikoustyugsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vologda-oblast-velikiy-ustyug",
+          "name": "Velikiy Ustyug",
+          "coordinates": [60.76186, 46.31352],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sheksninsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vologda-oblast-sheksna",
+          "name": "Sheksna",
+          "coordinates": [59.20998, 38.51066],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

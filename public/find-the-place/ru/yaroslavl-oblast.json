@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Yaroslavl Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Yaroslavl Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-yaroslavl-oblast-yaroslavl",
+          "name": "Yaroslavl",
+          "coordinates": [57.62987, 39.87368],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Rybinsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-yaroslavl-oblast-rybinsk",
+          "name": "Rybinsk",
+          "coordinates": [58.04562, 38.83811],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Tutayevsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-yaroslavl-oblast-tutayev",
+          "name": "Tutayev",
+          "coordinates": [57.87292, 39.52969],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Pereslavl-Zalessky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-yaroslavl-oblast-pereslavl-zalessky",
+          "name": "Pereslavl-Zalessky",
+          "coordinates": [56.73912, 38.85966],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Uglichsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-yaroslavl-oblast-uglich",
+          "name": "Uglich",
+          "coordinates": [57.52322, 38.32258],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

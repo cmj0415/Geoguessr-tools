@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Sakhalin Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Yuzhno-Sakhalinsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakhalin-oblast-yuzhno-sakhalinsk",
+          "name": "Yuzhno-Sakhalinsk",
+          "coordinates": [46.9543, 142.73559],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Korsakovsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakhalin-oblast-korsakov",
+          "name": "Korsakov",
+          "coordinates": [46.63406, 142.78288],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kholmsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakhalin-oblast-kholmsk",
+          "name": "Kholmsk",
+          "coordinates": [47.04612, 142.04938],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Okhinsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakhalin-oblast-okha",
+          "name": "Okha",
+          "coordinates": [53.59485, 142.9528],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Nevelsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sakhalin-oblast-nevelsk",
+          "name": "Nevelsk",
+          "coordinates": [46.67956, 141.85587],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

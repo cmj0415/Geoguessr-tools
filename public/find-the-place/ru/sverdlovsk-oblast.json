@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Sverdlovsk Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Yekaterinburg Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sverdlovsk-oblast-yekaterinburg",
+          "name": "Yekaterinburg",
+          "coordinates": [56.85733, 60.61529],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Nizhny Tagil Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sverdlovsk-oblast-nizhny-tagil",
+          "name": "Nizhny Tagil",
+          "coordinates": [57.91944, 59.965],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kamensk-Uralsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sverdlovsk-oblast-kamensk-uralskiy",
+          "name": "Kamensk-Uralskiy",
+          "coordinates": [56.40626, 61.93347],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Pervoural Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sverdlovsk-oblast-pervouralsk",
+          "name": "Pervouralsk",
+          "coordinates": [56.90528, 59.94361],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Serov Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-sverdlovsk-oblast-serov",
+          "name": "Serov",
+          "coordinates": [59.59737, 60.58608],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

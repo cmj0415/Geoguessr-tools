@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Vladimir Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Vladimir Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vladimir-oblast-vladimir",
+          "name": "Vladimir",
+          "coordinates": [56.13854, 40.39976],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kovrov Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vladimir-oblast-kovrov",
+          "name": "Kovrov",
+          "coordinates": [56.35752, 41.31893],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Murom Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vladimir-oblast-murom",
+          "name": "Murom",
+          "coordinates": [55.56853, 42.02388],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Aleksandrovsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vladimir-oblast-aleksandrov",
+          "name": "Aleksandrov",
+          "coordinates": [56.39733, 38.71404],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Gus-Khrustalny District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-vladimir-oblast-gus-khrustalnyy",
+          "name": "Gus-Khrustalnyy",
+          "coordinates": [55.61171, 40.65023],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

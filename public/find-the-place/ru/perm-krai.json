@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Perm Krai",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Perm Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-perm-krai-perm",
+          "name": "Perm",
+          "coordinates": [58.01046, 56.25017],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Berezniki Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-perm-krai-berezniki",
+          "name": "Berezniki",
+          "coordinates": [59.4091, 56.8204],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Solikamsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-perm-krai-solikamsk",
+          "name": "Solikamsk",
+          "coordinates": [59.66686, 56.74267],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Chaykovsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-perm-krai-chaykovskiy",
+          "name": "Chaykovskiy",
+          "coordinates": [56.76323, 54.11256],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Lysva Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-perm-krai-lysva",
+          "name": "Lysva",
+          "coordinates": [58.10737, 57.81063],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

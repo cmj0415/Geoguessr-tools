@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Bryansk Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Bryansk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bryansk-oblast-bryansk",
+          "name": "Bryansk",
+          "coordinates": [53.27096, 34.32143],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Klintsy Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bryansk-oblast-klintsy",
+          "name": "Klintsy",
+          "coordinates": [52.76033, 32.23905],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Novozybkovsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bryansk-oblast-novozybkov",
+          "name": "Novozybkov",
+          "coordinates": [52.53711, 31.93659],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Unechsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bryansk-oblast-unecha",
+          "name": "Unecha",
+          "coordinates": [52.84294, 32.68761],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Dyatkovsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bryansk-oblast-dyatkovo",
+          "name": "Dyatkovo",
+          "coordinates": [53.59782, 34.33825],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

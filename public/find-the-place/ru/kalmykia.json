@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Kalmykia",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Elista Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kalmykia-elista",
+          "name": "Elista",
+          "coordinates": [46.30794, 44.25537],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Lagansky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kalmykia-lagan",
+          "name": "Lagan",
+          "coordinates": [45.39177, 47.36452],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Tselinny District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kalmykia-troitskoye",
+          "name": "Troitskoye",
+          "coordinates": [46.41303, 44.25788],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Gorodovikovsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kalmykia-gorodovikovsk",
+          "name": "Gorodovikovsk",
+          "coordinates": [46.08776, 41.93344],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Yashkulsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kalmykia-yashkul",
+          "name": "Yashkul",
+          "coordinates": [46.1709, 45.34213],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

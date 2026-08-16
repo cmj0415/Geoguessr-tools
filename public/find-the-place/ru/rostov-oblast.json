@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Rostov Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Rostov-on-Don Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-rostov-oblast-rostov-on-don",
+          "name": "Rostov-on-Don",
+          "coordinates": [47.21997, 39.70769],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Taganrog Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-rostov-oblast-taganrog",
+          "name": "Taganrog",
+          "coordinates": [47.23627, 38.9053],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Shakhty Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-rostov-oblast-shakhty",
+          "name": "Shakhty",
+          "coordinates": [47.71916, 40.21603],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Volgodonsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-rostov-oblast-volgodonsk",
+          "name": "Volgodonsk",
+          "coordinates": [47.51141, 42.15269],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Novocherkassk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-rostov-oblast-novocherkassk",
+          "name": "Novocherkassk",
+          "coordinates": [47.4222, 40.09373],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

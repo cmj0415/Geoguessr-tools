@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Primorsky Krai",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Vladivostok Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-primorsky-krai-vladivostok",
+          "name": "Vladivostok",
+          "coordinates": [43.10562, 131.87353],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Ussuriysky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-primorsky-krai-ussuriysk",
+          "name": "Ussuriysk",
+          "coordinates": [43.80467, 131.95734],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Nakhodkinsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-primorsky-krai-nakhodka",
+          "name": "Nakhodka",
+          "coordinates": [42.8436, 132.91831],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Artemovsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-primorsky-krai-artem",
+          "name": "Artem",
+          "coordinates": [43.35757, 132.19137],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Arsenyevsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-primorsky-krai-arsenyev",
+          "name": "Arsenyev",
+          "coordinates": [44.15695, 133.27331],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "administrative",
+  "name": "Jewish Autonomous Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Birobidzhan Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-jewish-autonomous-oblast-birobidzhan",
+          "name": "Birobidzhan",
+          "coordinates": [48.793, 132.92033],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Obluchensky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-jewish-autonomous-oblast-obluchye",
+          "name": "Obluchye",
+          "coordinates": [49.01603, 131.0545],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Leninsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-jewish-autonomous-oblast-leninskoye",
+          "name": "Leninskoye",
+          "coordinates": [47.94275, 132.61924],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Smidovichsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-jewish-autonomous-oblast-nikolayevka",
+          "name": "Nikolayevka",
+          "coordinates": [48.55651, 134.78359],
+          "difficulty": "Medium"
+        },
+        {
+          "type": "place",
+          "id": "ru-jewish-autonomous-oblast-smidovich",
+          "name": "Smidovich",
+          "coordinates": [48.59434, 133.81029],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

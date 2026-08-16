@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Bashkortostan",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Ufa Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bashkortostan-ufa",
+          "name": "Ufa",
+          "coordinates": [54.74306, 55.96779],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sterlitamak Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bashkortostan-sterlitamak",
+          "name": "Sterlitamak",
+          "coordinates": [53.63793, 55.9533],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Salavat Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bashkortostan-salavat",
+          "name": "Salavat",
+          "coordinates": [53.3828, 55.91094],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Neftekamsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bashkortostan-neftekamsk",
+          "name": "Neftekamsk",
+          "coordinates": [56.08879, 54.26383],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Oktyabrsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-bashkortostan-oktyabrsky",
+          "name": "Oktyabrsky",
+          "coordinates": [54.48147, 53.47103],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Kaliningrad Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Kaliningradsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kaliningrad-oblast-kaliningrad",
+          "name": "Kaliningrad",
+          "coordinates": [54.70639, 20.51102],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Chernyakhovsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kaliningrad-oblast-chernyakhovsk",
+          "name": "Chernyakhovsk",
+          "coordinates": [54.63345, 21.81557],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sovetsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kaliningrad-oblast-sovetsk",
+          "name": "Sovetsk",
+          "coordinates": [55.08392, 21.87851],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Baltiysk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kaliningrad-oblast-baltiysk",
+          "name": "Baltiysk",
+          "coordinates": [54.65455, 19.90929],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Gusevsky Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kaliningrad-oblast-gusev",
+          "name": "Gusev",
+          "coordinates": [54.59222, 22.19972],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

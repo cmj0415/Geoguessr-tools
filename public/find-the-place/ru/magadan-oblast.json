@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Magadan Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Magadan Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-magadan-oblast-magadan",
+          "name": "Magadan",
+          "coordinates": [59.56274, 150.80211],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Susumansky Municipal Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-magadan-oblast-susuman",
+          "name": "Susuman",
+          "coordinates": [62.78045, 148.15376],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Olsky Municipal Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-magadan-oblast-ola",
+          "name": "Ola",
+          "coordinates": [59.58032, 151.29946],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Khasynsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-magadan-oblast-palatka",
+          "name": "Palatka",
+          "coordinates": [60.10135, 150.93379],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Tenkinsky Municipal Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-magadan-oblast-ust-omchug",
+          "name": "Ust-Omchug",
+          "coordinates": [61.13672, 149.63259],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

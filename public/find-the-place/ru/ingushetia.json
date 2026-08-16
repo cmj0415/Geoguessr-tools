@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Ingushetia",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Nazran Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ingushetia-nazran",
+          "name": "Nazran",
+          "coordinates": [43.22597, 44.77323],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sunzha Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ingushetia-sunzha",
+          "name": "Sunzha",
+          "coordinates": [43.32059, 45.04903],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Malgobek Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ingushetia-malgobek",
+          "name": "Malgobek",
+          "coordinates": [43.51121, 44.59051],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Karabulak Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ingushetia-karabulak",
+          "name": "Karabulak",
+          "coordinates": [43.30513, 44.89949],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Nazranovsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ingushetia-ekazhevo",
+          "name": "Ekazhevo",
+          "coordinates": [43.21222, 44.82306],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Leningrad Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Gatchinsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-leningrad-oblast-gatchina",
+          "name": "Gatchina",
+          "coordinates": [59.57639, 30.12833],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Vyborgsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-leningrad-oblast-vyborg",
+          "name": "Vyborg",
+          "coordinates": [60.70763, 28.75283],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sosnovy Bor Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-leningrad-oblast-sosnovyy-bor",
+          "name": "Sosnovyy Bor",
+          "coordinates": [59.8996, 29.08574],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Tikhvinsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-leningrad-oblast-tikhvin",
+          "name": "Tikhvin",
+          "coordinates": [59.63924, 33.52555],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Kirishsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-leningrad-oblast-kirishi",
+          "name": "Kirishi",
+          "coordinates": [59.47417, 32.04007],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

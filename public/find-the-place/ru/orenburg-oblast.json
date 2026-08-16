@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Orenburg Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Orenburg Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-orenburg-oblast-orenburg",
+          "name": "Orenburg",
+          "coordinates": [51.76712, 55.09883],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Orsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-orenburg-oblast-orsk",
+          "name": "Orsk",
+          "coordinates": [51.23206, 58.48802],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Novotroitsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-orenburg-oblast-novotroitsk",
+          "name": "Novotroitsk",
+          "coordinates": [51.20099, 58.31318],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Buzuluk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-orenburg-oblast-buzuluk",
+          "name": "Buzuluk",
+          "coordinates": [52.77825, 52.25854],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Buguruslan Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-orenburg-oblast-buguruslan",
+          "name": "Buguruslan",
+          "coordinates": [53.6554, 52.442],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

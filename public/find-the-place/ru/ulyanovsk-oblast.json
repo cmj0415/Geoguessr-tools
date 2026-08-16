@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Ulyanovsk Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Ulyanovsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ulyanovsk-oblast-ulyanovsk",
+          "name": "Ulyanovsk",
+          "coordinates": [54.32824, 48.38657],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Dimitrovgrad Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ulyanovsk-oblast-dimitrovgrad",
+          "name": "Dimitrovgrad",
+          "coordinates": [54.21386, 49.61838],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Inzensky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ulyanovsk-oblast-inza",
+          "name": "Inza",
+          "coordinates": [53.85342, 46.3513],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Baryshsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ulyanovsk-oblast-barysh",
+          "name": "Barysh",
+          "coordinates": [53.64976, 47.12715],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Novoulyanovsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-ulyanovsk-oblast-novoulyanovsk",
+          "name": "Novoulyanovsk",
+          "coordinates": [54.14774, 48.38644],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

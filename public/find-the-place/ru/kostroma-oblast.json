@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Kostroma Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Kostroma Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kostroma-oblast-kostroma",
+          "name": "Kostroma",
+          "coordinates": [57.76638, 40.92828],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sharya Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kostroma-oblast-sharya",
+          "name": "Sharya",
+          "coordinates": [58.36848, 45.51622],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Buy Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kostroma-oblast-buy",
+          "name": "Buy",
+          "coordinates": [58.47959, 41.53587],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Nerekhtsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kostroma-oblast-nerekhta",
+          "name": "Nerekhta",
+          "coordinates": [57.45795, 40.57169],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Manturovo Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-kostroma-oblast-manturovo",
+          "name": "Manturovo",
+          "coordinates": [58.32582, 44.75881],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

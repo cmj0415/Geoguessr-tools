@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "North Ossetia–Alania",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Vladikavkaz Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-north-ossetia-alania-vladikavkaz",
+          "name": "Vladikavkaz",
+          "coordinates": [43.04101, 44.66986],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Mozdoksky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-north-ossetia-alania-mozdok",
+          "name": "Mozdok",
+          "coordinates": [43.73976, 44.65157],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Pravoberezhnyy District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-north-ossetia-alania-beslan",
+          "name": "Beslan",
+          "coordinates": [43.19277, 44.53274],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Alagirsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-north-ossetia-alania-alagir",
+          "name": "Alagir",
+          "coordinates": [43.04252, 44.2202],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Ardonsky District",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-north-ossetia-alania-ardon",
+          "name": "Ardon",
+          "coordinates": [43.17888, 44.29464],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Amur Oblast",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Blagoveshchensk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-amur-oblast-blagoveshchensk",
+          "name": "Blagoveshchensk",
+          "coordinates": [50.27593, 127.52637],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Belogorsk Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-amur-oblast-belogorsk",
+          "name": "Belogorsk",
+          "coordinates": [50.91239, 128.51238],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Svobodnyy Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-amur-oblast-svobodnyy",
+          "name": "Svobodnyy",
+          "coordinates": [51.37498, 128.1401],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Tynda Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-amur-oblast-tynda",
+          "name": "Tynda",
+          "coordinates": [55.14941, 124.73676],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Zeya Urban Okrug",
+      "children": [
+        {
+          "type": "place",
+          "id": "ru-amur-oblast-zeya",
+          "name": "Zeya",
+          "coordinates": [53.73586, 127.25598],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}
