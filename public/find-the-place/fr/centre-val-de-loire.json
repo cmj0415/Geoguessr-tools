@@ -1,0 +1,84 @@
+{
+  "type": "administrative",
+  "name": "Centre-Val de Loire",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Cher",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-18-bourges",
+          "name": "Bourges",
+          "coordinates": [47.078, 2.3983],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Eure-et-Loir",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-28-chartres",
+          "name": "Chartres",
+          "coordinates": [48.4481, 1.5046],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Indre",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-36-chateauroux",
+          "name": "Châteauroux",
+          "coordinates": [46.8023, 1.6903],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Indre-et-Loire",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-37-tours",
+          "name": "Tours",
+          "coordinates": [47.3943, 0.6949],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Loir-et-Cher",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-41-blois",
+          "name": "Blois",
+          "coordinates": [47.5813, 1.3049],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Loiret",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-45-orleans",
+          "name": "Orléans",
+          "coordinates": [47.8734, 1.9122],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "administrative",
+  "name": "Mayotte",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Mayotte Department",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-976-mamoudzou",
+          "name": "Mamoudzou",
+          "coordinates": [-12.7875, 45.1964],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

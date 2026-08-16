@@ -1,0 +1,19 @@
+{
+  "type": "administrative",
+  "name": "La Réunion",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "La Réunion Department",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-974-saint-denis",
+          "name": "Saint-Denis",
+          "coordinates": [-20.9434, 55.4444],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

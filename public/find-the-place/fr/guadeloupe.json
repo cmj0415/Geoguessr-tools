@@ -1,0 +1,19 @@
+{
+  "type": "administrative",
+  "name": "Guadeloupe",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Guadeloupe Department",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-971-les-abymes",
+          "name": "Les Abymes",
+          "coordinates": [16.2678, -61.4967],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

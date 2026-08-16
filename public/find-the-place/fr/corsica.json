@@ -1,0 +1,32 @@
+{
+  "type": "administrative",
+  "name": "Corsica",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Corse-du-Sud",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-2a-ajaccio",
+          "name": "Ajaccio",
+          "coordinates": [41.9228, 8.7058],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Haute-Corse",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-2b-bastia",
+          "name": "Bastia",
+          "coordinates": [42.6861, 9.424],
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}

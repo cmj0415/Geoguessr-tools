@@ -1,0 +1,71 @@
+{
+  "type": "administrative",
+  "name": "Pays de la Loire",
+  "children": [
+    {
+      "type": "administrative",
+      "name": "Loire-Atlantique",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-44-nantes",
+          "name": "Nantes",
+          "coordinates": [47.2382, -1.5603],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Maine-et-Loire",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-49-angers",
+          "name": "Angers",
+          "coordinates": [47.4819, -0.5629],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Mayenne",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-53-laval",
+          "name": "Laval",
+          "coordinates": [48.0578, -0.7692],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Sarthe",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-72-le-mans",
+          "name": "Le Mans",
+          "coordinates": [47.9819, 0.1957],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Vendée",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-85-la-roche-sur-yon",
+          "name": "La Roche-sur-Yon",
+          "coordinates": [46.6659, -1.4162],
+          "difficulty": "Medium"
+        }
+      ]
+    }
+  ]
+}

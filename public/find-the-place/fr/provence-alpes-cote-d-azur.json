@@ -4,16 +4,78 @@
   "children": [
     {
       "type": "administrative",
+      "name": "Alpes-de-Haute-Provence",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-04-manosque",
+          "name": "Manosque",
+          "coordinates": [43.8293, 5.7896],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Hautes-Alpes",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-05-gap",
+          "name": "Gap",
+          "coordinates": [44.5797, 6.0616],
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
       "name": "Alpes-Maritimes",
       "children": [
         {
           "type": "place",
           "id": "fr-menton",
           "name": "Menton",
-          "coordinates": [
-            43.7745,
-            7.4975
-          ],
+          "coordinates": [43.7745, 7.4975],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Bouches-du-Rhône",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-13-marseille",
+          "name": "Marseille",
+          "coordinates": [43.2803, 5.3806],
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Var",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-83-toulon",
+          "name": "Toulon",
+          "coordinates": [43.1364, 5.9334],
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "type": "administrative",
+      "name": "Vaucluse",
+      "children": [
+        {
+          "type": "place",
+          "id": "fr-84-avignon",
+          "name": "Avignon",
+          "coordinates": [43.9416, 4.8333],
           "difficulty": "Medium"
         }
       ]

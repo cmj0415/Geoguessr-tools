@@ -95,16 +95,29 @@
           "code": "fr",
           "name": "France",
           "counts": {
-            "Easy": 2,
-            "Medium": 2,
-            "Hard": 2
+            "Easy": 10,
+            "Medium": 54,
+            "Hard": 37
           },
           "shards": [
-            "/find-the-place/fr/ile-de-france.json",
             "/find-the-place/fr/auvergne-rhone-alpes.json",
+            "/find-the-place/fr/bourgogne-franche-comte.json",
             "/find-the-place/fr/brittany.json",
+            "/find-the-place/fr/centre-val-de-loire.json",
+            "/find-the-place/fr/corsica.json",
+            "/find-the-place/fr/french-guiana.json",
+            "/find-the-place/fr/grand-est.json",
+            "/find-the-place/fr/guadeloupe.json",
+            "/find-the-place/fr/hauts-de-france.json",
+            "/find-the-place/fr/ile-de-france.json",
+            "/find-the-place/fr/martinique.json",
+            "/find-the-place/fr/mayotte.json",
+            "/find-the-place/fr/normandy.json",
+            "/find-the-place/fr/nouvelle-aquitaine.json",
+            "/find-the-place/fr/occitanie.json",
+            "/find-the-place/fr/pays-de-la-loire.json",
             "/find-the-place/fr/provence-alpes-cote-d-azur.json",
-            "/find-the-place/fr/bourgogne-franche-comte.json"
+            "/find-the-place/fr/reunion.json"
           ]
         },
         {
