@@ -46,3 +46,38 @@ summary,
 a {
   -webkit-tap-highlight-color: transparent;
 }
+
+.leaflet-tooltip.geo-json-answer-label {
+  max-width: 12rem;
+  border: 1px solid rgb(251 191 36 / 0.55);
+  border-radius: 0.45rem;
+  background: rgb(2 6 23 / 0.88);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.45);
+  color: rgb(254 243 199);
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.15;
+  padding: 0.2rem 0.35rem;
+  text-align: center;
+  white-space: normal;
+}
+
+.leaflet-tooltip.geo-json-answer-label::before {
+  display: none;
+}
+
+.geo-json-answer-measurements {
+  position: fixed;
+  left: -10000px;
+  top: 0;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  pointer-events: none;
+}
+
+.geo-json-answer-measurements .geo-json-answer-label {
+  position: static;
+  width: max-content;
+}

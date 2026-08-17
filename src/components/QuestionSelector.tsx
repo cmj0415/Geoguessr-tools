@@ -1,4 +1,5 @@
 import { useMemo, useRef, useState } from 'react'
+import { MAP_CONTROL_TRIGGER_CLASS_NAME } from './mapControlStyles'
 type QuestionSelectorProps = {
   divisions?: Record<string, string[]>
   value?: string[] // optional: controlled
@@ -197,7 +198,7 @@ export function QuestionSelector({
       >
         <summary
           ref={summaryRef}
-          className="flex w-fit cursor-pointer list-none items-center gap-3 whitespace-nowrap rounded-xl border border-emerald-300/25 bg-slate-950/90 px-4 py-3 shadow-xl backdrop-blur-md transition hover:border-emerald-300/50 hover:bg-slate-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
+          className={`${MAP_CONTROL_TRIGGER_CLASS_NAME} cursor-pointer list-none`}
         >
           <span className="text-sm font-bold uppercase tracking-[0.16em] text-emerald-200">
             {menuLabel}

@@ -20,7 +20,9 @@ import {
   pickRandomItem,
 } from '../utils/geoJsonCodeQuiz'
 import InfoWindow from './InfoWindow'
+import GeoJsonAnswerModeButton from './GeoJsonAnswerModeButton'
 import QuizLayout from './QuizLayout'
+import useFixedGeoJsonAnswerLabels from './useFixedGeoJsonAnswerLabels'
 
 export type GeoJsonQuizItem = {
   id: string
@@ -36,6 +38,7 @@ export type GeoJsonQuizMapConfiguration = {
   center: L.LatLngExpression
   zoom: number
   minZoom?: number
+  maxZoom?: number
   tileLayer?: GeoJsonTileLayer | false
 }
 
@@ -56,6 +59,8 @@ type GeoJsonQuizProps = {
   loadErrorMessage: string
 }
 
+type GeoJsonQuizMode = 'quiz' | 'answers'
+
 export default function GeoJsonQuiz({
   title,
   infoContent,
@@ -71,6 +76,7 @@ export default function GeoJsonQuiz({
   const [isInfoOpen, setIsInfoOpen] = useState(false)
   const [geoData, setGeoData] = useState<GeoJsonObject | null>(null)
   const [loadError, setLoadError] = useState(false)
+  const [mode, setMode] = useState<GeoJsonQuizMode>('quiz')
   const [selectedIds, setSelectedIds] = useState<Set<string>>(
     () => new Set(items.map((item) => item.id))
   )
@@ -86,7 +92,23 @@ export default function GeoJsonQuiz({
   const questionRef = useRef(question)
   const correctIdRef = useRef(correctId)
   const hintedIdRef = useRef(hintedId)
+  const modeRef = useRef<GeoJsonQuizMode>(mode)
   const geoRef = useRef<L.GeoJSON | null>(null)
+  const mapRef = useRef<L.Map | null>(null)
+  const labelsById = useMemo(
+    () => new Map(items.map((item) => [item.id, item.label])),
+    [items]
+  )
+  const answerLabels = useFixedGeoJsonAnswerLabels({
+    enabled: mode !== 'quiz',
+    isGeoJsonLoaded: geoData !== null,
+    selectedIds,
+    labelsById,
+    getFeatureIds,
+    referenceZoom: map.maxZoom ?? 18,
+    geoRef,
+    mapRef,
+  })
 
   useEffect(() => {
     const controller = new AbortController()
@@ -121,6 +143,10 @@ export default function GeoJsonQuiz({
   }, [hintedId])
 
   useEffect(() => {
+    modeRef.current = mode
+  }, [mode])
+
+  useEffect(() => {
     if (!correctId) return
 
     const timer = setTimeout(() => {
@@ -151,7 +177,7 @@ export default function GeoJsonQuiz({
   function handleSelectionChange(nextIds: Set<string>) {
     const nextPool = items.filter((item) => nextIds.has(item.id))
     setSelectedIds(nextIds)
-    setQuestion(pickRandomItem(nextPool))
+    setQuestion(mode === 'quiz' ? pickRandomItem(nextPool) : null)
     setCorrectId(null)
     setHintedId(null)
   }
@@ -182,6 +208,8 @@ export default function GeoJsonQuiz({
   }
 
   function handleFeatureClick(featureIds: string[]) {
+    if (modeRef.current !== 'quiz') return
+
     const currentQuestion = questionRef.current
     if (!currentQuestion) return
 
@@ -200,23 +228,66 @@ export default function GeoJsonQuiz({
     }
   }
 
+  function showAnswers() {
+    modeRef.current = 'answers'
+    questionRef.current = null
+    correctIdRef.current = null
+    hintedIdRef.current = null
+    setMode('answers')
+    setQuestion(null)
+    setCorrectId(null)
+    setHintedId(null)
+  }
+
+  function startQuiz() {
+    if (pool.length === 0) return
+
+    const nextQuestion = pickRandomItem(pool)
+    modeRef.current = 'quiz'
+    questionRef.current = nextQuestion
+    correctIdRef.current = null
+    hintedIdRef.current = null
+    setMode('quiz')
+    setQuestion(nextQuestion)
+    setCorrectId(null)
+    setHintedId(null)
+  }
+
   const selectorContent = selector
     ? cloneElement(selector, { onSelectionChange: handleSelectionChange })
     : undefined
+  const controls = (
+    <div className="flex flex-col items-end gap-2 sm:flex-row">
+      {selectorContent}
+      <GeoJsonAnswerModeButton
+        mode={
+          mode === 'quiz'
+            ? 'quiz'
+            : answerLabels.isPrepared
+              ? 'answers'
+              : 'preparing'
+        }
+        disabled={!geoData || pool.length === 0 || answerLabels.isPreparing}
+        onClick={mode === 'answers' ? startQuiz : showAnswers}
+      />
+    </div>
+  )
 
   return (
     <>
       <QuizLayout
         title={title}
-        question={question?.label ?? emptyQuestion}
-        selector={selectorContent}
+        question={mode === 'quiz' ? (question?.label ?? emptyQuestion) : null}
+        controls={controls}
         isInfoOpen={isInfoOpen}
         onInfoClick={() => setIsInfoOpen(true)}
       >
         <MapContainer
+          ref={mapRef}
           center={map.center}
           zoom={map.zoom}
           minZoom={map.minZoom}
+          maxZoom={map.maxZoom ?? 18}
           scrollWheelZoom
           className="h-full w-full !bg-slate-900"
         >
