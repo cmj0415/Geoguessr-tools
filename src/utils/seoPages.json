@@ -107,6 +107,16 @@
       "path": "/tr/area-codes",
       "title": "Turkey Area Code Map Quiz | GeoGuessr Tools",
       "description": "Learn Turkey's three-digit geographic telephone codes by prefix with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ec/provinces",
+      "title": "Ecuador Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn the 23 mainland provinces of Ecuador with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ec/taxi-letters",
+      "title": "Ecuador Taxi First Letters Map Quiz | GeoGuessr Tools",
+      "description": "Learn the first letters on Ecuadorian taxi license plates with an interactive province map quiz for GeoGuessr practice."
     }
   ]
 }
