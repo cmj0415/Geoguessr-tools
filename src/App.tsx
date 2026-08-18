@@ -21,6 +21,8 @@ import RussiaCodes from './pages/ru/codes'
 import SpainProvinces from './pages/es/provinces'
 import SpainProvincialRoadPrefixes from './pages/es/roadPrefix'
 import FindThePlace from './pages/findThePlace'
+import TurkeyProvinces from './pages/tr/provinces'
+import TurkeyCodes from './pages/tr/codes'
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
           path="es/provincial-road-prefixes"
           element={<SpainProvincialRoadPrefixes />}
         />
+        <Route path="tr/provinces" element={<TurkeyProvinces />} />
+        <Route path="tr/area-codes" element={<TurkeyCodes />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

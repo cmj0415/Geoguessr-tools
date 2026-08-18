@@ -54,4 +54,10 @@
   <url>
     <loc>https://geoguessr-9ui2.web.app/es/provincial-road-prefixes</loc>
   </url>
+  <url>
+    <loc>https://geoguessr-9ui2.web.app/tr/provinces</loc>
+  </url>
+  <url>
+    <loc>https://geoguessr-9ui2.web.app/tr/area-codes</loc>
+  </url>
 </urlset>

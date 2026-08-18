@@ -97,6 +97,16 @@
       "path": "/es/provincial-road-prefixes",
       "title": "Spain Provincial Road Prefix Map Quiz | GeoGuessr Tools",
       "description": "Learn Spain's provincial road prefixes with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/tr/provinces",
+      "title": "Turkey Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 81 provinces of Turkey with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/tr/area-codes",
+      "title": "Turkey Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn Turkey's three-digit geographic telephone codes by prefix with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }
