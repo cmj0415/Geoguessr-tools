@@ -19,6 +19,7 @@ export const GEO_JSON_HOVER_STYLE: L.PathOptions = {
   color: '#0284c7',
   fillColor: '#38bdf8',
   weight: 3,
+  opacity: 1,
   fillOpacity: 0.5,
 }
 
@@ -26,6 +27,7 @@ export const GEO_JSON_CORRECT_STYLE: L.PathOptions = {
   color: '#34d399',
   fillColor: '#34d399',
   weight: 3,
+  opacity: 1,
   fillOpacity: 0.55,
 }
 
@@ -33,7 +35,30 @@ export const GEO_JSON_HINTED_STYLE: L.PathOptions = {
   color: '#fbbf24',
   fillColor: '#fbbf24',
   weight: 3,
+  opacity: 1,
   fillOpacity: 0.55,
+}
+
+export const GEO_JSON_REALITY_STYLE: L.PathOptions = {
+  opacity: 0,
+  fillOpacity: 0,
+}
+
+type GeoJsonFeatureStyleState = {
+  hintedId: string | null
+  correctId: string | null
+  isRealityMode: boolean
+}
+
+export function getGeoJsonFeatureStyle(
+  featureIds: string[],
+  { hintedId, correctId, isRealityMode }: GeoJsonFeatureStyleState
+) {
+  if (hintedId && featureIds.includes(hintedId))
+    return GEO_JSON_HINTED_STYLE
+  if (correctId && featureIds.includes(correctId))
+    return GEO_JSON_CORRECT_STYLE
+  return isRealityMode ? GEO_JSON_REALITY_STYLE : GEO_JSON_DEFAULT_STYLE
 }
 
 export function isGeoJsonObject(value: unknown): value is GeoJsonObject {

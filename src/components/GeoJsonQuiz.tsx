@@ -11,16 +11,15 @@ import type { GeoJsonObject } from 'geojson'
 import type L from 'leaflet'
 import { GeoJSON, MapContainer, TileLayer } from 'react-leaflet'
 import {
-  GEO_JSON_CORRECT_STYLE,
-  GEO_JSON_DEFAULT_STYLE,
-  GEO_JSON_HINTED_STYLE,
   GEO_JSON_HOVER_STYLE,
   getFeatureGroupKey,
+  getGeoJsonFeatureStyle,
   isGeoJsonObject,
   pickRandomItem,
 } from '../utils/geoJsonCodeQuiz'
 import InfoWindow from './InfoWindow'
 import GeoJsonAnswerModeButton from './GeoJsonAnswerModeButton'
+import GeoJsonRealityModeButton from './GeoJsonRealityModeButton'
 import QuizLayout from './QuizLayout'
 import useFixedGeoJsonAnswerLabels from './useFixedGeoJsonAnswerLabels'
 
@@ -77,6 +76,7 @@ export default function GeoJsonQuiz({
   const [geoData, setGeoData] = useState<GeoJsonObject | null>(null)
   const [loadError, setLoadError] = useState(false)
   const [mode, setMode] = useState<GeoJsonQuizMode>('quiz')
+  const [isRealityMode, setIsRealityMode] = useState(false)
   const [selectedIds, setSelectedIds] = useState<Set<string>>(
     () => new Set(items.map((item) => item.id))
   )
@@ -93,6 +93,7 @@ export default function GeoJsonQuiz({
   const correctIdRef = useRef(correctId)
   const hintedIdRef = useRef(hintedId)
   const modeRef = useRef<GeoJsonQuizMode>(mode)
+  const isRealityModeRef = useRef(isRealityMode)
   const geoRef = useRef<L.GeoJSON | null>(null)
   const mapRef = useRef<L.Map | null>(null)
   const labelsById = useMemo(
@@ -147,6 +148,10 @@ export default function GeoJsonQuiz({
   }, [mode])
 
   useEffect(() => {
+    isRealityModeRef.current = isRealityMode
+  }, [isRealityMode])
+
+  useEffect(() => {
     if (!correctId) return
 
     const timer = setTimeout(() => {
@@ -161,13 +166,13 @@ export default function GeoJsonQuiz({
   const styleByState = useCallback(
     (feature?: unknown) => {
       const featureIds = getFeatureIds(feature)
-      if (hintedId && featureIds.includes(hintedId))
-        return GEO_JSON_HINTED_STYLE
-      if (correctId && featureIds.includes(correctId))
-        return GEO_JSON_CORRECT_STYLE
-      return GEO_JSON_DEFAULT_STYLE
+      return getGeoJsonFeatureStyle(featureIds, {
+        hintedId,
+        correctId,
+        isRealityMode,
+      })
     },
-    [correctId, getFeatureIds, hintedId]
+    [correctId, getFeatureIds, hintedId, isRealityMode]
   )
 
   useEffect(() => {
@@ -185,15 +190,17 @@ export default function GeoJsonQuiz({
   function restoreCurrentStyles() {
     geoRef.current?.setStyle((feature) => {
       const featureIds = getFeatureIds(feature)
-      if (hintedIdRef.current && featureIds.includes(hintedIdRef.current))
-        return GEO_JSON_HINTED_STYLE
-      if (correctIdRef.current && featureIds.includes(correctIdRef.current))
-        return GEO_JSON_CORRECT_STYLE
-      return GEO_JSON_DEFAULT_STYLE
+      return getGeoJsonFeatureStyle(featureIds, {
+        hintedId: hintedIdRef.current,
+        correctId: correctIdRef.current,
+        isRealityMode: isRealityModeRef.current,
+      })
     })
   }
 
   function highlightFeatureGroup(featureIds: string[]) {
+    if (isRealityModeRef.current) return
+
     const groupKey = getFeatureGroupKey(featureIds)
 
     geoRef.current?.eachLayer((candidateLayer) => {
@@ -230,10 +237,12 @@ export default function GeoJsonQuiz({
 
   function showAnswers() {
     modeRef.current = 'answers'
+    isRealityModeRef.current = false
     questionRef.current = null
     correctIdRef.current = null
     hintedIdRef.current = null
     setMode('answers')
+    setIsRealityMode(false)
     setQuestion(null)
     setCorrectId(null)
     setHintedId(null)
@@ -253,12 +262,23 @@ export default function GeoJsonQuiz({
     setHintedId(null)
   }
 
+  function toggleRealityMode() {
+    const nextRealityMode = !isRealityModeRef.current
+    isRealityModeRef.current = nextRealityMode
+    setIsRealityMode(nextRealityMode)
+  }
+
   const selectorContent = selector
     ? cloneElement(selector, { onSelectionChange: handleSelectionChange })
     : undefined
   const controls = (
     <div className="flex flex-col items-end gap-2 sm:flex-row">
       {selectorContent}
+      <GeoJsonRealityModeButton
+        active={isRealityMode}
+        disabled={!geoData || mode !== 'quiz'}
+        onClick={toggleRealityMode}
+      />
       <GeoJsonAnswerModeButton
         mode={
           mode === 'quiz'
