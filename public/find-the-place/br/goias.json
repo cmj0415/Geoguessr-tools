@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Goiás",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-goiania-3462377",
+      "name": "Goiânia",
+      "coordinates": [
+        -16.67861,
+        -49.25389
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-aparecida-de-goiania-6316406",
+      "name": "Aparecida de Goiânia",
+      "coordinates": [
+        -16.82333,
+        -49.24389
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-anapolis-3472287",
+      "name": "Anápolis",
+      "coordinates": [
+        -16.32667,
+        -48.95278
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-aguas-lindas-de-goias-6316328",
+      "name": "Águas Lindas de Goiás",
+      "coordinates": [
+        -15.76194,
+        -48.28167
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-rio-verde-3451055",
+      "name": "Rio Verde",
+      "coordinates": [
+        -17.79806,
+        -50.92806
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-luziania-3458329",
+      "name": "Luziânia",
+      "coordinates": [
+        -16.2525,
+        -47.95028
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-valparaiso-de-goias-6318856",
+      "name": "Valparaíso de Goiás",
+      "coordinates": [
+        -16.06583,
+        -47.97861
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-senador-canedo-3447854",
+      "name": "Senador Canedo",
+      "coordinates": [
+        -16.70806,
+        -49.09306
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

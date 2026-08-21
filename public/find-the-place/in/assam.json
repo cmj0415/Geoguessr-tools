@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Assam",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-guwahati-1271476",
+      "name": "Guwahati",
+      "coordinates": [
+        26.1844,
+        91.7458
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

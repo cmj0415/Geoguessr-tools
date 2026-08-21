@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Amazonas",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-manaus-3663517",
+      "name": "Manaus",
+      "coordinates": [
+        -3.10194,
+        -60.025
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

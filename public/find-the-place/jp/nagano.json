@@ -1,16 +1,36 @@
 {
   "type": "administrative",
-  "name": "Nagano",
+  "name": "長野県",
   "children": [
     {
       "type": "place",
-      "id": "jp-matsumoto",
-      "name": "Matsumoto",
+      "id": "jp-nagano-1856215",
+      "name": "長野",
       "coordinates": [
-        36.238,
-        137.972
+        36.65,
+        138.18333
       ],
       "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-matsumoto-1857519",
+      "name": "松本",
+      "coordinates": [
+        36.23333,
+        137.96667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-ueda-1849429",
+      "name": "上田",
+      "coordinates": [
+        36.40265,
+        138.28161
+      ],
+      "difficulty": "Hard"
     }
   ]
 }

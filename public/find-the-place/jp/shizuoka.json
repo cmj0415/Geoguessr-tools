@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "静岡県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-hamamatsu-1863289",
+      "name": "浜松",
+      "coordinates": [
+        34.7,
+        137.73333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-shizuoka-1851717",
+      "name": "静岡",
+      "coordinates": [
+        34.98333,
+        138.38333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-fuji-1864134",
+      "name": "富士",
+      "coordinates": [
+        35.16667,
+        138.68333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-numazu-1854902",
+      "name": "沼津",
+      "coordinates": [
+        35.1,
+        138.86667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-iwata-1861171",
+      "name": "磐田",
+      "coordinates": [
+        34.7,
+        137.85
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-fujieda-1864132",
+      "name": "藤枝",
+      "coordinates": [
+        34.86667,
+        138.26667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-yaizu-1848774",
+      "name": "焼津",
+      "coordinates": [
+        34.86877,
+        138.31952
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-fujinomiya-1864105",
+      "name": "富士宮",
+      "coordinates": [
+        35.21667,
+        138.61667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

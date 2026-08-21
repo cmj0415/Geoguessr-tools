@@ -1,0 +1,236 @@
+{
+  "type": "administrative",
+  "name": "Uttar Pradesh",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-kanpur-1267995",
+      "name": "Kanpur",
+      "coordinates": [
+        26.46523,
+        80.34975
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-lucknow-1264733",
+      "name": "Lucknow",
+      "coordinates": [
+        26.83928,
+        80.92313
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-agra-1279259",
+      "name": "Agra",
+      "coordinates": [
+        27.18333,
+        78.01667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-meerut-1263214",
+      "name": "Meerut",
+      "coordinates": [
+        28.98002,
+        77.70636
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-ghaziabad-1271308",
+      "name": "Ghāziābād",
+      "coordinates": [
+        28.66535,
+        77.43915
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-varanasi-1253405",
+      "name": "Varanasi",
+      "coordinates": [
+        25.31668,
+        83.01041
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-prayagraj-1278994",
+      "name": "Prayagraj",
+      "coordinates": [
+        25.44478,
+        81.84322
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-aligarh-1279017",
+      "name": "Alīgarh",
+      "coordinates": [
+        27.88145,
+        78.07464
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-bareilly-1277013",
+      "name": "Bareilly",
+      "coordinates": [
+        28.36678,
+        79.43167
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-moradabad-1262801",
+      "name": "Morādābād",
+      "coordinates": [
+        28.83893,
+        78.77684
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-gorakhpur-1270927",
+      "name": "Gorakhpur",
+      "coordinates": [
+        26.76628,
+        83.36889
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-loni-1264773",
+      "name": "Loni",
+      "coordinates": [
+        28.75143,
+        77.29023
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-saharanpur-1257806",
+      "name": "Sahāranpur",
+      "coordinates": [
+        29.9679,
+        77.54522
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-modinagar-8440756",
+      "name": "Modīnagar",
+      "coordinates": [
+        28.83059,
+        77.57295
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-jhansi-1269006",
+      "name": "Jhānsi",
+      "coordinates": [
+        25.45887,
+        78.57994
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-muzaffarnagar-1262332",
+      "name": "Muzaffarnagar",
+      "coordinates": [
+        29.47091,
+        77.70332
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-mathura-1263364",
+      "name": "Mathura",
+      "coordinates": [
+        27.5035,
+        77.67215
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-shahjanpur-1256728",
+      "name": "Shāhjānpur",
+      "coordinates": [
+        27.88165,
+        79.90918
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-firozabad-1271885",
+      "name": "Fīrozābād",
+      "coordinates": [
+        27.15092,
+        78.39781
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-rampur-1258599",
+      "name": "Rāmpur",
+      "coordinates": [
+        28.81014,
+        79.02699
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-greater-noida-6954929",
+      "name": "Greater Noida",
+      "coordinates": [
+        28.49615,
+        77.53601
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-noida-7279746",
+      "name": "Noida",
+      "coordinates": [
+        28.58,
+        77.33
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-kushinagar-12032137",
+      "name": "Kushinagar",
+      "coordinates": [
+        26.74134,
+        83.88689
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

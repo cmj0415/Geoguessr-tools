@@ -1,0 +1,426 @@
+{
+  "type": "administrative",
+  "name": "Queensland",
+  "children": [
+    {
+      "type": "place",
+      "id": "au-brisbane-2174003",
+      "name": "Brisbane",
+      "coordinates": [
+        -27.46794,
+        153.02809
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-gold-coast-2165087",
+      "name": "Gold Coast",
+      "coordinates": [
+        -28.00029,
+        153.43088
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-sunshine-coast-10630449",
+      "name": "Sunshine Coast",
+      "coordinates": [
+        -26.65682,
+        153.07955
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-logan-city-7281838",
+      "name": "Logan City",
+      "coordinates": [
+        -27.63917,
+        153.10944
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-townsville-2146142",
+      "name": "Townsville",
+      "coordinates": [
+        -19.26639,
+        146.80569
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-cairns-2172797",
+      "name": "Cairns",
+      "coordinates": [
+        -16.92366,
+        145.76613
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-toowoomba-2146268",
+      "name": "Toowoomba",
+      "coordinates": [
+        -27.56056,
+        151.95386
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-caloundra-2172710",
+      "name": "Caloundra",
+      "coordinates": [
+        -26.80346,
+        153.12195
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-mackay-2159220",
+      "name": "Mackay",
+      "coordinates": [
+        -21.15345,
+        149.16554
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-rockhampton-2151437",
+      "name": "Rockhampton",
+      "coordinates": [
+        -23.38032,
+        150.50595
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-bundaberg-2173323",
+      "name": "Bundaberg",
+      "coordinates": [
+        -24.86621,
+        152.3479
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-hervey-bay-6354957",
+      "name": "Hervey Bay",
+      "coordinates": [
+        -25.28762,
+        152.76936
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-gladstone-2165478",
+      "name": "Gladstone",
+      "coordinates": [
+        -23.84852,
+        151.25775
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-maryborough-2158562",
+      "name": "Maryborough",
+      "coordinates": [
+        -25.54073,
+        152.70493
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-gympie-2164129",
+      "name": "Gympie",
+      "coordinates": [
+        -26.18979,
+        152.66499
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-narangba-2155787",
+      "name": "Narangba",
+      "coordinates": [
+        -27.20338,
+        152.95923
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-mount-isa-2065594",
+      "name": "Mount Isa",
+      "coordinates": [
+        -20.72523,
+        139.49727
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-capalaba-2172434",
+      "name": "Capalaba",
+      "coordinates": [
+        -27.54333,
+        153.20287
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-warwick-2144502",
+      "name": "Warwick",
+      "coordinates": [
+        -28.21901,
+        152.03438
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-emerald-2167426",
+      "name": "Emerald",
+      "coordinates": [
+        -23.52296,
+        148.15784
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-coomera-11694935",
+      "name": "Coomera",
+      "coordinates": [
+        -27.84333,
+        153.33901
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-dalby-2169535",
+      "name": "Dalby",
+      "coordinates": [
+        -27.18169,
+        151.26205
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-woodridge-2143069",
+      "name": "Woodridge",
+      "coordinates": [
+        -27.63333,
+        153.1
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-moranbah-6533368",
+      "name": "Moranbah",
+      "coordinates": [
+        -22.00163,
+        148.04661
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-gracemere-2164784",
+      "name": "Gracemere",
+      "coordinates": [
+        -23.43792,
+        150.45749
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-bowen-2174444",
+      "name": "Bowen",
+      "coordinates": [
+        -20.01367,
+        148.24754
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-kingaroy-2161376",
+      "name": "Kingaroy",
+      "coordinates": [
+        -26.53994,
+        151.8373
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-redlynch-2151886",
+      "name": "Redlynch",
+      "coordinates": [
+        -16.9254,
+        145.69559
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-ayr-2177413",
+      "name": "Ayr",
+      "coordinates": [
+        -19.57393,
+        147.40666
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-mareeba-2158767",
+      "name": "Mareeba",
+      "coordinates": [
+        -16.99096,
+        145.42306
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-mango-hill-6943561",
+      "name": "Mango Hill",
+      "coordinates": [
+        -27.24349,
+        153.02384
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-bargara-2176868",
+      "name": "Bargara",
+      "coordinates": [
+        -24.81476,
+        152.46257
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-charters-towers-2171722",
+      "name": "Charters Towers",
+      "coordinates": [
+        -20.07671,
+        146.26353
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-kelvin-grove-6931015",
+      "name": "Kelvin Grove",
+      "coordinates": [
+        -27.44819,
+        153.01337
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-tamborine-mountain-6951440",
+      "name": "Tamborine Mountain",
+      "coordinates": [
+        -27.96954,
+        153.19937
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-atherton-2177541",
+      "name": "Atherton",
+      "coordinates": [
+        -17.26864,
+        145.47522
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-chinchilla-2171596",
+      "name": "Chinchilla",
+      "coordinates": [
+        -26.73787,
+        150.6297
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-roma-2151187",
+      "name": "Roma",
+      "coordinates": [
+        -26.56741,
+        148.78751
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-noosa-heads-2155135",
+      "name": "Noosa Heads",
+      "coordinates": [
+        -26.39433,
+        153.0901
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-yeppoon-2142316",
+      "name": "Yeppoon",
+      "coordinates": [
+        -23.12683,
+        150.74406
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-gatton-2165828",
+      "name": "Gatton",
+      "coordinates": [
+        -27.55873,
+        152.27618
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-urraween-2145361",
+      "name": "Urraween",
+      "coordinates": [
+        -25.29522,
+        152.82206
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

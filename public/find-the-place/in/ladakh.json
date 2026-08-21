@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ladakh",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-leh-1264976",
+      "name": "Leh",
+      "coordinates": [
+        34.16504,
+        77.58402
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

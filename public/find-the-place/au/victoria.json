@@ -1,0 +1,506 @@
+{
+  "type": "administrative",
+  "name": "Victoria",
+  "children": [
+    {
+      "type": "place",
+      "id": "au-melbourne-2158177",
+      "name": "Melbourne",
+      "coordinates": [
+        -37.814,
+        144.96332
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-geelong-2165798",
+      "name": "Geelong",
+      "coordinates": [
+        -38.14711,
+        144.36069
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-ballarat-2177091",
+      "name": "Ballarat",
+      "coordinates": [
+        -37.56622,
+        143.84957
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-bendigo-2176187",
+      "name": "Bendigo",
+      "coordinates": [
+        -36.75818,
+        144.28024
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-wodonga-2143285",
+      "name": "Wodonga",
+      "coordinates": [
+        -36.12179,
+        146.88809
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-st-albans-8015209",
+      "name": "St Albans",
+      "coordinates": [
+        -37.74496,
+        144.80049
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-mildura-2157698",
+      "name": "Mildura",
+      "coordinates": [
+        -34.18551,
+        142.16251
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-frankston-east-2166143",
+      "name": "Frankston East",
+      "coordinates": [
+        -38.13333,
+        145.13333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-warrnambool-2144528",
+      "name": "Warrnambool",
+      "coordinates": [
+        -38.38176,
+        142.48799
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-shepparton-2149645",
+      "name": "Shepparton",
+      "coordinates": [
+        -36.38047,
+        145.39867
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-wangaratta-2144764",
+      "name": "Wangaratta",
+      "coordinates": [
+        -36.35846,
+        146.32056
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-traralgon-2146108",
+      "name": "Traralgon",
+      "coordinates": [
+        -38.19528,
+        146.5415
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-bacchus-marsh-2177394",
+      "name": "Bacchus Marsh",
+      "coordinates": [
+        -37.67268,
+        144.43829
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-balwyn-north-7932629",
+      "name": "Balwyn North",
+      "coordinates": [
+        -37.79086,
+        145.09386
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-warragul-2144604",
+      "name": "Warragul",
+      "coordinates": [
+        -38.15912,
+        145.93118
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-torquay-2146218",
+      "name": "Torquay",
+      "coordinates": [
+        -38.33085,
+        144.32638
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-bairnsdale-2177233",
+      "name": "Bairnsdale",
+      "coordinates": [
+        -37.82289,
+        147.61041
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-horsham-2163055",
+      "name": "Horsham",
+      "coordinates": [
+        -36.71131,
+        142.19981
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-burwood-7932622",
+      "name": "Burwood",
+      "coordinates": [
+        -37.84978,
+        145.11901
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-echuca-2167817",
+      "name": "Echuca",
+      "coordinates": [
+        -36.14057,
+        144.75185
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-wallan-2144949",
+      "name": "Wallan",
+      "coordinates": [
+        -37.41625,
+        144.97859
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-sale-2150615",
+      "name": "Sale",
+      "coordinates": [
+        -38.11095,
+        147.06802
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-west-wodonga-11694936",
+      "name": "West Wodonga",
+      "coordinates": [
+        -36.12346,
+        146.85193
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-fawkner-2166819",
+      "name": "Fawkner",
+      "coordinates": [
+        -37.71667,
+        144.96667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-ocean-grove-12069926",
+      "name": "Ocean Grove",
+      "coordinates": [
+        -38.25772,
+        144.51919
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-morwell-2156825",
+      "name": "Morwell",
+      "coordinates": [
+        -38.23476,
+        146.39499
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-caulfield-south-7932643",
+      "name": "Caulfield South",
+      "coordinates": [
+        -37.89562,
+        145.02597
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-drouin-2168372",
+      "name": "Drouin",
+      "coordinates": [
+        -38.13658,
+        145.85838
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-swan-hill-2147756",
+      "name": "Swan Hill",
+      "coordinates": [
+        -35.33781,
+        143.5544
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-elsternwick-2167449",
+      "name": "Elsternwick",
+      "coordinates": [
+        -37.88639,
+        145.0025
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-colac-2171069",
+      "name": "Colac",
+      "coordinates": [
+        -38.339,
+        143.58489
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-hamilton-2164025",
+      "name": "Hamilton",
+      "coordinates": [
+        -37.74425,
+        142.02202
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-portland-2152667",
+      "name": "Portland",
+      "coordinates": [
+        -38.3462,
+        141.60257
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-moe-2157343",
+      "name": "Moe",
+      "coordinates": [
+        -38.17828,
+        146.26099
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-benalla-2176225",
+      "name": "Benalla",
+      "coordinates": [
+        -36.55113,
+        145.98425
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-gisborne-2165488",
+      "name": "Gisborne",
+      "coordinates": [
+        -37.48858,
+        144.59421
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-ararat-2177756",
+      "name": "Ararat",
+      "coordinates": [
+        -37.28542,
+        142.92728
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-mooroopna-2156974",
+      "name": "Mooroopna",
+      "coordinates": [
+        -36.4,
+        145.35
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-darley-2169386",
+      "name": "Darley",
+      "coordinates": [
+        -37.65807,
+        144.44344
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-aintree-12217997",
+      "name": "Aintree",
+      "coordinates": [
+        -37.72253,
+        144.66765
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-kilmore-2161415",
+      "name": "Kilmore",
+      "coordinates": [
+        -37.29577,
+        144.95252
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-maryborough-2158561",
+      "name": "Maryborough",
+      "coordinates": [
+        -37.04562,
+        143.73923
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-irymple-2162586",
+      "name": "Irymple",
+      "coordinates": [
+        -34.23537,
+        142.17101
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-yarrawonga-2142447",
+      "name": "Yarrawonga",
+      "coordinates": [
+        -36.01923,
+        145.99973
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-castlemaine-2172106",
+      "name": "Castlemaine",
+      "coordinates": [
+        -37.06709,
+        144.21684
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-healesville-2163701",
+      "name": "Healesville",
+      "coordinates": [
+        -37.65395,
+        145.51718
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-clifton-springs-2171320",
+      "name": "Clifton Springs",
+      "coordinates": [
+        -38.1567,
+        144.5551
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-kyabram-2160910",
+      "name": "Kyabram",
+      "coordinates": [
+        -36.31335,
+        145.05035
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-phillip-island-7302624",
+      "name": "Phillip Island",
+      "coordinates": [
+        -38.48349,
+        145.23102
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-kyneton-2160885",
+      "name": "Kyneton",
+      "coordinates": [
+        -37.24444,
+        144.45148
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

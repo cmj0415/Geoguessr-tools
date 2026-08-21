@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Morelos",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-cuernavaca-3529947",
+      "name": "Cuernavaca",
+      "coordinates": [
+        18.9261,
+        -99.23075
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-jiutepec-3526485",
+      "name": "Jiutepec",
+      "coordinates": [
+        18.88139,
+        -99.17778
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-cuautla-3529982",
+      "name": "Cuautla",
+      "coordinates": [
+        18.81302,
+        -98.95513
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-yautepec-3514321",
+      "name": "Yautepec",
+      "coordinates": [
+        18.88188,
+        -99.06715
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-temixco-3516035",
+      "name": "Temixco",
+      "coordinates": [
+        18.84578,
+        -99.22367
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

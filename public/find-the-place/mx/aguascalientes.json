@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Aguascalientes",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-aguascalientes-4019233",
+      "name": "Aguascalientes",
+      "coordinates": [
+        21.88262,
+        -102.2843
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

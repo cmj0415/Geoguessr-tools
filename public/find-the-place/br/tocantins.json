@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Tocantins",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-palmas-3474574",
+      "name": "Palmas",
+      "coordinates": [
+        -10.16745,
+        -48.32766
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-araguaina-3407357",
+      "name": "Araguaína",
+      "coordinates": [
+        -7.19111,
+        -48.20722
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

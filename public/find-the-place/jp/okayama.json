@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "岡山県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-okayama-1854383",
+      "name": "岡山",
+      "coordinates": [
+        34.65,
+        133.93333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-kurashiki-1858311",
+      "name": "倉敷",
+      "coordinates": [
+        34.58333,
+        133.76667
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

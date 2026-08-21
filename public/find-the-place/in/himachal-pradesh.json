@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Himachal Pradesh",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-shimla-1256237",
+      "name": "Shimla",
+      "coordinates": [
+        31.10442,
+        77.16662
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

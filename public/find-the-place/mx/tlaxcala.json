@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Tlaxcala",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-tlaxcala-3815415",
+      "name": "Tlaxcala",
+      "coordinates": [
+        19.31777,
+        -98.23846
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-villa-vicente-guerrero-3815453",
+      "name": "Villa Vicente Guerrero",
+      "coordinates": [
+        19.12123,
+        -98.16572
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

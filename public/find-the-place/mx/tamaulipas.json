@@ -1,0 +1,106 @@
+{
+  "type": "administrative",
+  "name": "Tamaulipas",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-reynosa-3520339",
+      "name": "Reynosa",
+      "coordinates": [
+        26.08005,
+        -98.28456
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-heroica-matamoros-3523466",
+      "name": "Heroica Matamoros",
+      "coordinates": [
+        25.87972,
+        -97.50417
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-nuevo-laredo-3522551",
+      "name": "Nuevo Laredo",
+      "coordinates": [
+        27.47629,
+        -99.51639
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-victoria-3530580",
+      "name": "Ciudad Victoria",
+      "coordinates": [
+        23.74061,
+        -99.14364
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-tampico-3516355",
+      "name": "Tampico",
+      "coordinates": [
+        22.28519,
+        -97.87777
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-madero-3530594",
+      "name": "Ciudad Madero",
+      "coordinates": [
+        22.2475,
+        -97.83665
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-miramar-3523149",
+      "name": "Miramar",
+      "coordinates": [
+        22.36094,
+        -97.89997
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-rio-bravo-3520271",
+      "name": "Ciudad Río Bravo",
+      "coordinates": [
+        25.98507,
+        -98.08964
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-mante-3528756",
+      "name": "Ciudad Mante",
+      "coordinates": [
+        22.74277,
+        -98.97172
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-altamira-3533005",
+      "name": "Altamira",
+      "coordinates": [
+        22.39309,
+        -97.93857
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

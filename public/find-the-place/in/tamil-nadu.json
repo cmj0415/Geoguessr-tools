@@ -1,0 +1,156 @@
+{
+  "type": "administrative",
+  "name": "Tamil Nadu",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-chennai-1264527",
+      "name": "Chennai",
+      "coordinates": [
+        13.08784,
+        80.27847
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-coimbatore-1273865",
+      "name": "Coimbatore",
+      "coordinates": [
+        11.00555,
+        76.96612
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-kallakurichi-12165956",
+      "name": "Kallakurichi",
+      "coordinates": [
+        11.73379,
+        78.95925
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-madurai-1264521",
+      "name": "Madurai",
+      "coordinates": [
+        9.919,
+        78.11953
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-tirunelveli-1254361",
+      "name": "Tirunelveli",
+      "coordinates": [
+        8.72742,
+        77.6838
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-tiruchirappalli-1254388",
+      "name": "Tiruchirappalli",
+      "coordinates": [
+        10.8155,
+        78.69651
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-tiruppur-1254348",
+      "name": "Tiruppur",
+      "coordinates": [
+        11.11541,
+        77.35456
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-salem-1257629",
+      "name": "Salem",
+      "coordinates": [
+        11.65376,
+        78.15538
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-erode-1272013",
+      "name": "Erode",
+      "coordinates": [
+        11.3428,
+        77.72741
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-vellore-1253286",
+      "name": "Vellore",
+      "coordinates": [
+        12.9184,
+        79.13255
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-ambattur-1278840",
+      "name": "Ambattur",
+      "coordinates": [
+        13.09818,
+        80.16152
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-thoothukudi-8629640",
+      "name": "Thoothukudi",
+      "coordinates": [
+        8.76735,
+        78.13425
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-avadi-1278130",
+      "name": "Avadi",
+      "coordinates": [
+        13.1147,
+        80.10981
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-dindigul-1272543",
+      "name": "Dindigul",
+      "coordinates": [
+        10.36896,
+        77.98036
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-thanjavur-1254649",
+      "name": "Thanjavur",
+      "coordinates": [
+        10.78523,
+        79.13909
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

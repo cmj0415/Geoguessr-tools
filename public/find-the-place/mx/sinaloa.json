@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Sinaloa",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-culiacan-4012176",
+      "name": "Culiacán",
+      "coordinates": [
+        24.80209,
+        -107.39421
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-mazatlan-3996322",
+      "name": "Mazatlán",
+      "coordinates": [
+        23.22163,
+        -106.41885
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-los-mochis-3997479",
+      "name": "Los Mochis",
+      "coordinates": [
+        25.79097,
+        -108.99825
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-guamuchil-4005297",
+      "name": "Guamúchil",
+      "coordinates": [
+        25.4587,
+        -108.07732
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-guasave-4005219",
+      "name": "Guasave",
+      "coordinates": [
+        25.56792,
+        -108.46949
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "宮城県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-sendai-2111149",
+      "name": "仙台",
+      "coordinates": [
+        38.26667,
+        140.86667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-ishinomaki-2112576",
+      "name": "石巻",
+      "coordinates": [
+        38.41667,
+        141.3
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Acre",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-rio-branco-3662574",
+      "name": "Rio Branco",
+      "coordinates": [
+        -9.97472,
+        -67.81
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "佐賀県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-saga-1853303",
+      "name": "佐賀",
+      "coordinates": [
+        33.23333,
+        130.3
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

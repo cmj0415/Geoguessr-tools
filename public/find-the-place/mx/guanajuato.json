@@ -1,0 +1,126 @@
+{
+  "type": "administrative",
+  "name": "Guanajuato",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-leon-de-los-aldama-3998655",
+      "name": "León de los Aldama",
+      "coordinates": [
+        21.12183,
+        -101.68253
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-irapuato-4004330",
+      "name": "Irapuato",
+      "coordinates": [
+        20.671,
+        -101.35577
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-celaya-4014875",
+      "name": "Celaya",
+      "coordinates": [
+        20.52181,
+        -100.81399
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-san-miguel-de-allende-3985344",
+      "name": "San Miguel de Allende",
+      "coordinates": [
+        20.91528,
+        -100.74389
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-salamanca-3988214",
+      "name": "Salamanca",
+      "coordinates": [
+        20.56979,
+        -101.1977
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-silao-de-la-victoria-3983058",
+      "name": "Silao de la Victoria",
+      "coordinates": [
+        20.94361,
+        -101.42696
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-guanajuato-4005270",
+      "name": "Guanajuato",
+      "coordinates": [
+        21.01858,
+        -101.2591
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-san-francisco-del-rincon-3986984",
+      "name": "San Francisco del Rincón",
+      "coordinates": [
+        21.01889,
+        -101.85844
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-valle-de-santiago-3980605",
+      "name": "Valle de Santiago",
+      "coordinates": [
+        20.39148,
+        -101.19103
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-dolores-hidalgo-4023117",
+      "name": "Dolores Hidalgo",
+      "coordinates": [
+        21.15611,
+        -100.9325
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-cortazar-4012721",
+      "name": "Cortazar",
+      "coordinates": [
+        20.48301,
+        -100.96352
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-acambaro-4019827",
+      "name": "Acámbaro",
+      "coordinates": [
+        20.03248,
+        -100.72434
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

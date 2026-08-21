@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Odisha",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-nowrangapur-1261162",
+      "name": "Nowrangapur",
+      "coordinates": [
+        19.23114,
+        82.54826
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-bhubaneswar-1275817",
+      "name": "Bhubaneswar",
+      "coordinates": [
+        20.27241,
+        85.83385
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-cuttack-1273780",
+      "name": "Cuttack",
+      "coordinates": [
+        20.46497,
+        85.87927
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-brahmapur-1275198",
+      "name": "Brahmapur",
+      "coordinates": [
+        19.31151,
+        84.7929
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-rourkela-1258315",
+      "name": "Rourkela",
+      "coordinates": [
+        22.22496,
+        84.86414
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

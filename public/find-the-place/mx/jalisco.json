@@ -1,0 +1,106 @@
+{
+  "type": "administrative",
+  "name": "Jalisco",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-zapopan-3979770",
+      "name": "Zapopan",
+      "coordinates": [
+        20.72111,
+        -103.38742
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-guadalajara-4005539",
+      "name": "Guadalajara",
+      "coordinates": [
+        20.67738,
+        -103.34749
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-tlaquepaque-3981461",
+      "name": "Tlaquepaque",
+      "coordinates": [
+        20.64121,
+        -103.29342
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-tonala-3981369",
+      "name": "Tonalá",
+      "coordinates": [
+        20.62263,
+        -103.24168
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-puerto-vallarta-3991328",
+      "name": "Puerto Vallarta",
+      "coordinates": [
+        20.617,
+        -105.23018
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-guzman-4013714",
+      "name": "Ciudad Guzmán",
+      "coordinates": [
+        19.70413,
+        -103.46383
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-lagos-de-moreno-4002224",
+      "name": "Lagos de Moreno",
+      "coordinates": [
+        21.35875,
+        -101.93311
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-tepatitlan-de-morelos-3981984",
+      "name": "Tepatitlán de Morelos",
+      "coordinates": [
+        20.81692,
+        -102.76347
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-hacienda-santa-fe-8858085",
+      "name": "Hacienda Santa Fe",
+      "coordinates": [
+        20.51806,
+        -103.38056
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-ocotlan-3994489",
+      "name": "Ocotlán",
+      "coordinates": [
+        20.35116,
+        -102.76832
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "島根県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-matsue-1857550",
+      "name": "松江",
+      "coordinates": [
+        35.48333,
+        133.05
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-izumo-1861084",
+      "name": "出雲",
+      "coordinates": [
+        35.36667,
+        132.76667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

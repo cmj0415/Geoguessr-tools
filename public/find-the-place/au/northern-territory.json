@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Northern Territory",
+  "children": [
+    {
+      "type": "place",
+      "id": "au-darwin-2073124",
+      "name": "Darwin",
+      "coordinates": [
+        -12.46113,
+        130.84185
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-palmerston-6301965",
+      "name": "Palmerston",
+      "coordinates": [
+        -12.48602,
+        130.9833
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-alice-springs-2077895",
+      "name": "Alice Springs",
+      "coordinates": [
+        -23.69748,
+        133.88362
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

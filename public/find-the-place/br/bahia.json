@@ -4,13 +4,113 @@
   "children": [
     {
       "type": "place",
-      "id": "br-feira-de-santana-ba",
+      "id": "br-salvador-3450554",
+      "name": "Salvador",
+      "coordinates": [
+        -12.97563,
+        -38.49096
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-feira-de-santana-3463478",
       "name": "Feira de Santana",
       "coordinates": [
-        -12.2664,
-        -38.9663
+        -12.26667,
+        -38.96667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-vitoria-da-conquista-3444914",
+      "name": "Vitória da Conquista",
+      "coordinates": [
+        -14.86611,
+        -40.83944
       ],
       "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-camacari-3468031",
+      "name": "Camaçari",
+      "coordinates": [
+        -12.6975,
+        -38.32417
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-juazeiro-3397154",
+      "name": "Juazeiro",
+      "coordinates": [
+        -9.41167,
+        -40.49861
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-lauro-de-freitas-6317464",
+      "name": "Lauro de Freitas",
+      "coordinates": [
+        -12.89444,
+        -38.32722
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-itabuna-3460949",
+      "name": "Itabuna",
+      "coordinates": [
+        -14.78556,
+        -39.28028
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-ilheus-3461408",
+      "name": "Ilhéus",
+      "coordinates": [
+        -14.79909,
+        -39.03228
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-porto-seguro-3452640",
+      "name": "Porto Seguro",
+      "coordinates": [
+        -16.44972,
+        -39.06472
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-barreiras-3470583",
+      "name": "Barreiras",
+      "coordinates": [
+        -12.15278,
+        -44.99
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-alagoinhas-3472766",
+      "name": "Alagoinhas",
+      "coordinates": [
+        -12.13556,
+        -38.41917
+      ],
+      "difficulty": "Hard"
     }
   ]
 }

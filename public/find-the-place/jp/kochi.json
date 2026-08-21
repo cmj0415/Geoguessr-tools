@@ -1,14 +1,14 @@
 {
   "type": "administrative",
-  "name": "Kōchi",
+  "name": "高知県",
   "children": [
     {
       "type": "place",
-      "id": "jp-kochi",
-      "name": "Kōchi",
+      "id": "jp-kochi-1859146",
+      "name": "高知",
       "coordinates": [
-        33.5597,
-        133.5311
+        33.55,
+        133.53333
       ],
       "difficulty": "Medium"
     }

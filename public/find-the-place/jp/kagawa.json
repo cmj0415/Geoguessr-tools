@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "香川県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-takamatsu-1851100",
+      "name": "高松",
+      "coordinates": [
+        34.33333,
+        134.05
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

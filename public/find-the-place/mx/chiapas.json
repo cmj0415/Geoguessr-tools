@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Chiapas",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-tuxtla-3515001",
+      "name": "Tuxtla",
+      "coordinates": [
+        16.75357,
+        -93.11578
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-tapachula-3516266",
+      "name": "Tapachula",
+      "coordinates": [
+        14.90541,
+        -92.25891
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-san-cristobal-de-las-casas-3519537",
+      "name": "San Cristóbal de las Casas",
+      "coordinates": [
+        16.73006,
+        -92.63825
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-comitan-3530367",
+      "name": "Comitán",
+      "coordinates": [
+        16.24004,
+        -92.13668
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

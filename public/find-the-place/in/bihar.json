@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Bihar",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-patna-1260086",
+      "name": "Patna",
+      "coordinates": [
+        25.59408,
+        85.13563
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-gaya-1271439",
+      "name": "Gaya",
+      "coordinates": [
+        24.79686,
+        85.00385
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-bhagalpur-1276300",
+      "name": "Bhāgalpur",
+      "coordinates": [
+        25.24446,
+        86.97183
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-muzaffarpur-1262330",
+      "name": "Muzaffarpur",
+      "coordinates": [
+        26.12259,
+        85.39055
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-bihar-sharif-1275716",
+      "name": "Bihār Sharīf",
+      "coordinates": [
+        25.20084,
+        85.52389
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-darbhanga-1273491",
+      "name": "Darbhanga",
+      "coordinates": [
+        26.15216,
+        85.89707
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-purnia-1259166",
+      "name": "Purnia",
+      "coordinates": [
+        25.77895,
+        87.47422
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

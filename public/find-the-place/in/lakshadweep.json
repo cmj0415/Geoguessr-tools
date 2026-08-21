@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Lakshadweep",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-kavaratti-1267390",
+      "name": "Kavaratti",
+      "coordinates": [
+        10.56688,
+        72.64203
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

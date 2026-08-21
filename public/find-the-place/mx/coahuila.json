@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Coahuila",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-torreon-3981254",
+      "name": "Torreón",
+      "coordinates": [
+        25.54389,
+        -103.41898
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-saltillo-3988086",
+      "name": "Saltillo",
+      "coordinates": [
+        25.42595,
+        -100.97963
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-acuna-4013728",
+      "name": "Ciudad Acuña",
+      "coordinates": [
+        29.32322,
+        -100.95217
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-monclova-3995523",
+      "name": "Monclova",
+      "coordinates": [
+        26.90687,
+        -101.42056
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-piedras-negras-3992619",
+      "name": "Piedras Negras",
+      "coordinates": [
+        28.70007,
+        -100.52353
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-frontera-3980180",
+      "name": "Frontera",
+      "coordinates": [
+        26.92814,
+        -101.45212
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-ramos-arizpe-3991043",
+      "name": "Ramos Arizpe",
+      "coordinates": [
+        25.53928,
+        -100.94742
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

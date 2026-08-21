@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "栃木県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-utsunomiya-1849053",
+      "name": "宇都宮",
+      "coordinates": [
+        36.56667,
+        139.88333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-oyama-1853483",
+      "name": "小山",
+      "coordinates": [
+        36.3,
+        139.8
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-tochigi-1850311",
+      "name": "栃木",
+      "coordinates": [
+        36.38333,
+        139.73333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-ashikaga-1865005",
+      "name": "足利",
+      "coordinates": [
+        36.33333,
+        139.45
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,14 +1,24 @@
 {
   "type": "administrative",
-  "name": "Miyazaki",
+  "name": "宮崎県",
   "children": [
     {
       "type": "place",
-      "id": "jp-miyazaki",
-      "name": "Miyazaki",
+      "id": "jp-miyazaki-1856717",
+      "name": "宮崎",
       "coordinates": [
-        31.9077,
-        131.4202
+        31.91667,
+        131.41667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-miyakonojo-1856775",
+      "name": "都城",
+      "coordinates": [
+        31.73333,
+        131.06667
       ],
       "difficulty": "Hard"
     }

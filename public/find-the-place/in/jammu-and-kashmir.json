@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Jammu and Kashmir",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-srinagar-1255634",
+      "name": "Srinagar",
+      "coordinates": [
+        34.08565,
+        74.80555
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-jammu-1269321",
+      "name": "Jammu",
+      "coordinates": [
+        32.73528,
+        74.86167
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

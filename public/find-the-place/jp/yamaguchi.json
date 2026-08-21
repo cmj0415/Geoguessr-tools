@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "山口県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-shimonoseki-1852225",
+      "name": "下関市",
+      "coordinates": [
+        33.95548,
+        130.93713
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-yamaguchi-1848689",
+      "name": "山口",
+      "coordinates": [
+        34.18333,
+        131.46667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-ube-1849498",
+      "name": "宇部",
+      "coordinates": [
+        33.94306,
+        131.25111
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-shunan-11612583",
+      "name": "周南",
+      "coordinates": [
+        34.08053,
+        131.82564
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

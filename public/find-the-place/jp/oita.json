@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "大分県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-oita-1854487",
+      "name": "大分",
+      "coordinates": [
+        33.23333,
+        131.6
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

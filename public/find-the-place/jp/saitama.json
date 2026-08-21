@@ -1,0 +1,166 @@
+{
+  "type": "administrative",
+  "name": "埼玉県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-saitama-6940394",
+      "name": "さいたま",
+      "coordinates": [
+        35.90807,
+        139.65657
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-kawaguchi-1859730",
+      "name": "川口",
+      "coordinates": [
+        35.80521,
+        139.71072
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-kawagoe-1859740",
+      "name": "川越",
+      "coordinates": [
+        35.90861,
+        139.48528
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-koshigaya-1858729",
+      "name": "越谷",
+      "coordinates": [
+        35.89035,
+        139.78916
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-tokorozawa-1850181",
+      "name": "所沢",
+      "coordinates": [
+        35.79916,
+        139.46903
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-soka-1851604",
+      "name": "草加",
+      "coordinates": [
+        35.83643,
+        139.79957
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-kasukabe-1859884",
+      "name": "春日部",
+      "coordinates": [
+        35.98308,
+        139.74966
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-ageo-1865714",
+      "name": "上尾",
+      "coordinates": [
+        35.97145,
+        139.61382
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-kumagaya-1858428",
+      "name": "熊谷",
+      "coordinates": [
+        36.13497,
+        139.39004
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-niiza-6822138",
+      "name": "新座",
+      "coordinates": [
+        35.82088,
+        139.55791
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-sayama-1907146",
+      "name": "狭山",
+      "coordinates": [
+        35.85295,
+        139.41212
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-kukichuo-1858445",
+      "name": "久喜",
+      "coordinates": [
+        36.06739,
+        139.67498
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-iruma-6822163",
+      "name": "入間",
+      "coordinates": [
+        35.818,
+        139.368
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-misato-saitama-6822137",
+      "name": "三郷",
+      "coordinates": [
+        35.84373,
+        139.88347
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-asaka-1907299",
+      "name": "朝霞",
+      "coordinates": [
+        35.80472,
+        139.60194
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-shimotoda-1907301",
+      "name": "下戸田",
+      "coordinates": [
+        35.815,
+        139.6853
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

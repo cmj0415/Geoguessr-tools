@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Arunachal Pradesh",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-itanagar-1269655",
+      "name": "Itanagar",
+      "coordinates": [
+        27.08694,
+        93.60987
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

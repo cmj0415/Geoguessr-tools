@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Guerrero",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-acapulco-de-juarez-3533462",
+      "name": "Acapulco de Juárez",
+      "coordinates": [
+        16.84942,
+        -99.90891
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-chilpancingo-3530870",
+      "name": "Chilpancingo",
+      "coordinates": [
+        17.55228,
+        -99.50124
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-iguala-de-la-independencia-3526798",
+      "name": "Iguala de la Independencia",
+      "coordinates": [
+        18.34536,
+        -99.5413
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-ixtapa-zihuatanejo-3979673",
+      "name": "Ixtapa-Zihuatanejo",
+      "coordinates": [
+        17.64344,
+        -101.55212
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

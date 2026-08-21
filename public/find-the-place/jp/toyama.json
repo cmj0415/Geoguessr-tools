@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "富山県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-toyama-1849876",
+      "name": "富山",
+      "coordinates": [
+        36.7,
+        137.21667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-takaoka-1851032",
+      "name": "高岡",
+      "coordinates": [
+        36.75,
+        137.01667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,16 +1,76 @@
 {
   "type": "administrative",
-  "name": "Hokkaido",
+  "name": "北海道",
   "children": [
     {
       "type": "place",
-      "id": "jp-sapporo",
-      "name": "Sapporo",
+      "id": "jp-sapporo-2128295",
+      "name": "札幌",
       "coordinates": [
-        43.0618,
-        141.3545
+        43.06667,
+        141.35
       ],
       "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-asahikawa-2130629",
+      "name": "旭川",
+      "coordinates": [
+        43.77063,
+        142.36489
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-hakodate-2130188",
+      "name": "函館",
+      "coordinates": [
+        41.77583,
+        140.73667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-tomakomai-2127733",
+      "name": "苫小牧",
+      "coordinates": [
+        42.63694,
+        141.60333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-kushiro-2129376",
+      "name": "釧路",
+      "coordinates": [
+        42.975,
+        144.37472
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-obihiro-2128815",
+      "name": "帯広",
+      "coordinates": [
+        42.91722,
+        143.20444
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-ebetsu-2130404",
+      "name": "江別",
+      "coordinates": [
+        43.10806,
+        141.55056
+      ],
+      "difficulty": "Hard"
     }
   ]
 }

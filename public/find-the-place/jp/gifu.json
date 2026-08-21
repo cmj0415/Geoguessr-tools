@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "岐阜県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-gifu-1863641",
+      "name": "岐阜",
+      "coordinates": [
+        35.42291,
+        136.76039
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-ogaki-1854703",
+      "name": "大垣",
+      "coordinates": [
+        35.35,
+        136.61667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-kakamigahara-1860735",
+      "name": "各務原",
+      "coordinates": [
+        35.41667,
+        136.86667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

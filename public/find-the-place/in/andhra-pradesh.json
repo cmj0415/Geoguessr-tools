@@ -1,0 +1,106 @@
+{
+  "type": "administrative",
+  "name": "Andhra Pradesh",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-rasapudipalem-1258393",
+      "name": "Rasapūdipalem",
+      "coordinates": [
+        17.73308,
+        83.31622
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-vijayawada-1253184",
+      "name": "Vijayawada",
+      "coordinates": [
+        16.50745,
+        80.6466
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-visakhapatnam-1253102",
+      "name": "Visakhapatnam",
+      "coordinates": [
+        17.68009,
+        83.20161
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-guntur-1270668",
+      "name": "Guntur",
+      "coordinates": [
+        16.29974,
+        80.45729
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-nellore-1261529",
+      "name": "Nellore",
+      "coordinates": [
+        14.44992,
+        79.98697
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-kurnool-1265491",
+      "name": "Kurnool",
+      "coordinates": [
+        15.82887,
+        78.03602
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-kakinada-1268561",
+      "name": "Kākināda",
+      "coordinates": [
+        16.96036,
+        82.23809
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-rajamahendravaram-1258932",
+      "name": "Rajamahendravaram",
+      "coordinates": [
+        17.00517,
+        81.77784
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-kadapa-1273800",
+      "name": "Kadapa",
+      "coordinates": [
+        14.47995,
+        78.82346
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-tirupati-1254360",
+      "name": "Tirupati",
+      "coordinates": [
+        13.63551,
+        79.41989
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

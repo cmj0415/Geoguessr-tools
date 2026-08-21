@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Chihuahua",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-ciudad-juarez-4013708",
+      "name": "Ciudad Juárez",
+      "coordinates": [
+        31.72024,
+        -106.46084
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-chihuahua-4014338",
+      "name": "Chihuahua",
+      "coordinates": [
+        28.63528,
+        -106.08889
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-cuauhtemoc-4012406",
+      "name": "Cuauhtémoc",
+      "coordinates": [
+        28.4063,
+        -106.86667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-delicias-4013720",
+      "name": "Ciudad Delicias",
+      "coordinates": [
+        28.19013,
+        -105.47012
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-hidalgo-del-parral-4004867",
+      "name": "Hidalgo del Parral",
+      "coordinates": [
+        26.92987,
+        -105.66618
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

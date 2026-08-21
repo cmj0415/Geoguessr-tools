@@ -1,0 +1,136 @@
+{
+  "type": "administrative",
+  "name": "Nuevo León",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-monterrey-3995465",
+      "name": "Monterrey",
+      "coordinates": [
+        25.68435,
+        -100.31721
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-guadalupe-4005492",
+      "name": "Guadalupe",
+      "coordinates": [
+        25.67663,
+        -100.25907
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-apodaca-4018390",
+      "name": "Ciudad Apodaca",
+      "coordinates": [
+        25.78143,
+        -100.18911
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-general-escobedo-4005867",
+      "name": "Ciudad General Escobedo",
+      "coordinates": [
+        25.79663,
+        -100.31767
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-san-nicolas-de-los-garza-3985241",
+      "name": "San Nicolás de los Garza",
+      "coordinates": [
+        25.74167,
+        -100.30222
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-benito-juarez-4003757",
+      "name": "Ciudad Benito Juárez",
+      "coordinates": [
+        25.6466,
+        -100.09142
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-santa-catarina-3984583",
+      "name": "Santa Catarina",
+      "coordinates": [
+        25.67325,
+        -100.45813
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-san-pedro-garza-garcia-4005937",
+      "name": "San Pedro Garza García",
+      "coordinates": [
+        25.66158,
+        -100.4034
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-garcia-3980190",
+      "name": "García",
+      "coordinates": [
+        25.80092,
+        -100.58612
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-linares-3524348",
+      "name": "Linares",
+      "coordinates": [
+        24.85798,
+        -99.56768
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-cadereyta-jimenez-3531862",
+      "name": "Cadereyta Jiménez",
+      "coordinates": [
+        25.59051,
+        -100.00095
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-cadereyta-3531865",
+      "name": "Cadereyta",
+      "coordinates": [
+        25.58333,
+        -99.98333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-montemorelos-3523011",
+      "name": "Montemorelos",
+      "coordinates": [
+        25.18897,
+        -99.82933
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Delhi",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-delhi-1273294",
+      "name": "Delhi",
+      "coordinates": [
+        28.65195,
+        77.23149
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-najafgarh-1262111",
+      "name": "Najafgarh",
+      "coordinates": [
+        28.60922,
+        76.97982
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-narela-1261809",
+      "name": "Narela",
+      "coordinates": [
+        28.85267,
+        77.09288
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-new-delhi-1261481",
+      "name": "New Delhi",
+      "coordinates": [
+        28.62137,
+        77.2148
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-kirari-sulemannagar-10263153",
+      "name": "Kirāri Sulemānnagar",
+      "coordinates": [
+        28.69736,
+        77.0648
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

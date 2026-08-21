@@ -1,0 +1,156 @@
+{
+  "type": "administrative",
+  "name": "大阪府",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-osaka-1853909",
+      "name": "大阪",
+      "coordinates": [
+        34.69379,
+        135.50107
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-sakai-1853195",
+      "name": "堺",
+      "coordinates": [
+        34.58216,
+        135.46653
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-higashiosaka-1862752",
+      "name": "東大阪",
+      "coordinates": [
+        34.66667,
+        135.58333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-hirakata-1862540",
+      "name": "枚方",
+      "coordinates": [
+        34.81352,
+        135.64914
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-toyonaka-1849837",
+      "name": "豊中",
+      "coordinates": [
+        34.78244,
+        135.46932
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-suita-1851483",
+      "name": "吹田",
+      "coordinates": [
+        34.76143,
+        135.51567
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-takatsuki-1850910",
+      "name": "高槻",
+      "coordinates": [
+        34.84833,
+        135.61678
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-ibaraki-1862033",
+      "name": "茨木",
+      "coordinates": [
+        34.81641,
+        135.56828
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-yao-1848522",
+      "name": "八尾",
+      "coordinates": [
+        34.61667,
+        135.6
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-neyagawa-6697563",
+      "name": "寝屋川",
+      "coordinates": [
+        34.76615,
+        135.62759
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-kishiwada-1859383",
+      "name": "岸和田",
+      "coordinates": [
+        34.46667,
+        135.36667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-izumi-1861107",
+      "name": "和泉",
+      "coordinates": [
+        34.48333,
+        135.43333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-moriguchi-1856584",
+      "name": "守口",
+      "coordinates": [
+        34.73333,
+        135.56667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-minoh-1857046",
+      "name": "箕面",
+      "coordinates": [
+        34.82691,
+        135.47057
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-tondabayashicho-1850034",
+      "name": "富田林",
+      "coordinates": [
+        34.50065,
+        135.60211
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

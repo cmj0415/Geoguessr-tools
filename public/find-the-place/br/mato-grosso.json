@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Mato Grosso",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-cuiaba-3465038",
+      "name": "Cuiabá",
+      "coordinates": [
+        -15.59611,
+        -56.09667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-varzea-grande-3445451",
+      "name": "Várzea Grande",
+      "coordinates": [
+        -15.64667,
+        -56.1325
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-rondonopolis-3450909",
+      "name": "Rondonópolis",
+      "coordinates": [
+        -16.47083,
+        -54.63556
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-sinop-6318696",
+      "name": "Sinop",
+      "coordinates": [
+        -11.86417,
+        -55.5025
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

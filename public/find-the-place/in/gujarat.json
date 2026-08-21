@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Gujarat",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-ahmedabad-1279233",
+      "name": "Ahmedabad",
+      "coordinates": [
+        23.02579,
+        72.58727
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-surat-1255364",
+      "name": "Surat",
+      "coordinates": [
+        21.19594,
+        72.83023
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-vadodara-1253573",
+      "name": "Vadodara",
+      "coordinates": [
+        22.29941,
+        73.20812
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-rajkot-1258847",
+      "name": "Rājkot",
+      "coordinates": [
+        22.29161,
+        70.79322
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-bhavnagar-1276032",
+      "name": "Bhavnagar",
+      "coordinates": [
+        21.76287,
+        72.15331
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-jamnagar-1269317",
+      "name": "Jamnagar",
+      "coordinates": [
+        22.47292,
+        70.06673
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-bilimora-1275610",
+      "name": "Bilimora",
+      "coordinates": [
+        20.76957,
+        72.96134
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-junagadh-1268773",
+      "name": "Jūnāgadh",
+      "coordinates": [
+        21.51966,
+        70.45981
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-gandhinagar-1271715",
+      "name": "Gandhinagar",
+      "coordinates": [
+        23.21667,
+        72.68333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

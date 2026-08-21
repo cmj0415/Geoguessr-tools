@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Rio Grande do Norte",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-natal-3394023",
+      "name": "Natal",
+      "coordinates": [
+        -5.795,
+        -35.20944
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-parnamirim-3392998",
+      "name": "Parnamirim",
+      "coordinates": [
+        -5.91556,
+        -35.26278
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-mossoro-3394682",
+      "name": "Mossoró",
+      "coordinates": [
+        -5.1875,
+        -37.34417
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

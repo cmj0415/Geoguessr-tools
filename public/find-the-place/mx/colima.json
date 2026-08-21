@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Colima",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-manzanillo-3996663",
+      "name": "Manzanillo",
+      "coordinates": [
+        19.11695,
+        -104.34214
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-colima-4013516",
+      "name": "Colima",
+      "coordinates": [
+        19.24473,
+        -103.7127
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-ciudad-de-villa-de-alvarez-3980194",
+      "name": "Ciudad de Villa de Álvarez",
+      "coordinates": [
+        19.26722,
+        -103.73778
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "mx-tecoman-3982213",
+      "name": "Tecomán",
+      "coordinates": [
+        18.91614,
+        -103.87713
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

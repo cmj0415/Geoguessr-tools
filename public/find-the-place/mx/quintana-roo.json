@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Quintana Roo",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-cancun-3531673",
+      "name": "Cancún",
+      "coordinates": [
+        21.17429,
+        -86.84656
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-chetumal-3531023",
+      "name": "Chetumal",
+      "coordinates": [
+        18.51957,
+        -88.30397
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-playa-del-carmen-3521342",
+      "name": "Playa del Carmen",
+      "coordinates": [
+        20.6274,
+        -87.07987
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-cozumel-3530103",
+      "name": "Cozumel",
+      "coordinates": [
+        20.50038,
+        -86.94272
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

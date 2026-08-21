@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Puducherry",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-puducherry-1259425",
+      "name": "Puducherry",
+      "coordinates": [
+        11.93381,
+        79.82979
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-gundupalaiyam-11679708",
+      "name": "Gundupālaiyam",
+      "coordinates": [
+        11.94096,
+        79.80294
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

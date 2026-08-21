@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Pernambuco",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-recife-3390760",
+      "name": "Recife",
+      "coordinates": [
+        -8.05389,
+        -34.88111
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-jaboatao-dos-guararapes-6317344",
+      "name": "Jaboatão dos Guararapes",
+      "coordinates": [
+        -8.11278,
+        -35.01472
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-petrolina-3392242",
+      "name": "Petrolina",
+      "coordinates": [
+        -9.39861,
+        -40.50083
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-caruaru-3402655",
+      "name": "Caruaru",
+      "coordinates": [
+        -8.28333,
+        -35.97611
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-olinda-3393536",
+      "name": "Olinda",
+      "coordinates": [
+        -8.00889,
+        -34.85528
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-paulista-3392740",
+      "name": "Paulista",
+      "coordinates": [
+        -7.94083,
+        -34.87306
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-cabo-de-santo-agostinho-3404545",
+      "name": "Cabo de Santo Agostinho",
+      "coordinates": [
+        -8.28773,
+        -35.02925
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-camaragibe-3403741",
+      "name": "Camaragibe",
+      "coordinates": [
+        -8.02167,
+        -34.98111
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

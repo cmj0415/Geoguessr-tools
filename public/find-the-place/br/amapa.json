@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Amapá",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-macapa-3396016",
+      "name": "Macapá",
+      "coordinates": [
+        0.03889,
+        -51.06639
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

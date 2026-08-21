@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Tripura",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-agartala-1279290",
+      "name": "Agartala",
+      "coordinates": [
+        23.83605,
+        91.27939
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "福井県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-fukui-shi-1863985",
+      "name": "福井",
+      "coordinates": [
+        36.06443,
+        136.22257
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

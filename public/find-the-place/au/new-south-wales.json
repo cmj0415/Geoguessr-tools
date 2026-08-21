@@ -1,0 +1,596 @@
+{
+  "type": "administrative",
+  "name": "New South Wales",
+  "children": [
+    {
+      "type": "place",
+      "id": "au-sydney-2147714",
+      "name": "Sydney",
+      "coordinates": [
+        -33.86785,
+        151.20732
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-newcastle-2155472",
+      "name": "Newcastle",
+      "coordinates": [
+        -32.92953,
+        151.7801
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-central-coast-8310663",
+      "name": "Central Coast",
+      "coordinates": [
+        -33.42979,
+        151.37144
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-wollongong-2171507",
+      "name": "Wollongong",
+      "coordinates": [
+        -34.424,
+        150.89345
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-maitland-2159045",
+      "name": "Maitland",
+      "coordinates": [
+        -32.73308,
+        151.5574
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-coffs-harbour-2171085",
+      "name": "Coffs Harbour",
+      "coordinates": [
+        -30.29626,
+        153.11351
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-port-macquarie-2152659",
+      "name": "Port Macquarie",
+      "coordinates": [
+        -31.43084,
+        152.90894
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-tamworth-2147497",
+      "name": "Tamworth",
+      "coordinates": [
+        -31.09048,
+        150.92905
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-dubbo-2168305",
+      "name": "Dubbo",
+      "coordinates": [
+        -32.24295,
+        148.60484
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-orange-2154219",
+      "name": "Orange",
+      "coordinates": [
+        -33.28397,
+        149.10018
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-bathurst-2176632",
+      "name": "Bathurst",
+      "coordinates": [
+        -33.41665,
+        149.5806
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-liverpool-2159851",
+      "name": "Liverpool",
+      "coordinates": [
+        -33.91938,
+        150.92588
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-parramatta-7281840",
+      "name": "Parramatta",
+      "coordinates": [
+        -33.8178,
+        151.00348
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "au-goulburn-2164837",
+      "name": "Goulburn",
+      "coordinates": [
+        -34.75155,
+        149.72086
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-cessnock-2171845",
+      "name": "Cessnock",
+      "coordinates": [
+        -32.83211,
+        151.35623
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-hornsby-2163137",
+      "name": "Hornsby",
+      "coordinates": [
+        -33.70244,
+        151.09931
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-armidale-2177671",
+      "name": "Armidale",
+      "coordinates": [
+        -30.50123,
+        151.66553
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-griffith-2164422",
+      "name": "Griffith",
+      "coordinates": [
+        -34.28853,
+        146.05093
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-grafton-2164771",
+      "name": "Grafton",
+      "coordinates": [
+        -29.68104,
+        152.93394
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-batemans-bay-2176639",
+      "name": "Batemans Bay",
+      "coordinates": [
+        -35.70658,
+        150.17541
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-broken-hill-2173911",
+      "name": "Broken Hill",
+      "coordinates": [
+        -31.9652,
+        141.4512
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-taree-2147381",
+      "name": "Taree",
+      "coordinates": [
+        -31.91099,
+        152.45387
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-muswellbrook-2156034",
+      "name": "Muswellbrook",
+      "coordinates": [
+        -32.26118,
+        150.89009
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-forster-2166309",
+      "name": "Forster",
+      "coordinates": [
+        -32.18136,
+        152.51715
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-goonellabah-2164966",
+      "name": "Goonellabah",
+      "coordinates": [
+        -28.81667,
+        153.31667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-campbelltown-2172586",
+      "name": "Campbelltown",
+      "coordinates": [
+        -34.06667,
+        150.81667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-redfern-2151932",
+      "name": "Redfern",
+      "coordinates": [
+        -33.89279,
+        151.20415
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-zetland-8348771",
+      "name": "Zetland",
+      "coordinates": [
+        -33.90748,
+        151.20857
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-figtree-12008915",
+      "name": "Figtree",
+      "coordinates": [
+        -28.45635,
+        152.89199
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-inverell-2162662",
+      "name": "Inverell",
+      "coordinates": [
+        -29.77403,
+        151.11166
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-pymble-2152361",
+      "name": "Pymble",
+      "coordinates": [
+        -33.74386,
+        151.14188
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-turramurra-2145796",
+      "name": "Turramurra",
+      "coordinates": [
+        -33.73342,
+        151.12849
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-toongabbie-west-2146302",
+      "name": "Toongabbie West",
+      "coordinates": [
+        -33.78333,
+        150.93333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-mudgee-2156404",
+      "name": "Mudgee",
+      "coordinates": [
+        -32.59426,
+        149.5871
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-kempsey-2161658",
+      "name": "Kempsey",
+      "coordinates": [
+        -31.07898,
+        152.83093
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "au-mona-vale-2157243",
+      "name": "Mona Vale",
+      "coordinates": [
+        -33.67757,
+        151.30307
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-casino-2172153",
+      "name": "Casino",
+      "coordinates": [
+        -28.85819,
+        153.04748
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-bowral-2174400",
+      "name": "Bowral",
+      "coordinates": [
+        -34.4775,
+        150.4204
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-young-2142245",
+      "name": "Young",
+      "coordinates": [
+        -34.3135,
+        148.30107
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-new-lambton-2205629",
+      "name": "New Lambton",
+      "coordinates": [
+        -32.92838,
+        151.7085
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-cowra-2170139",
+      "name": "Cowra",
+      "coordinates": [
+        -33.83554,
+        148.69663
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-parkes-2153778",
+      "name": "Parkes",
+      "coordinates": [
+        -33.1372,
+        148.1759
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-moree-2156927",
+      "name": "Moree",
+      "coordinates": [
+        -29.46278,
+        149.84157
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-gunnedah-2164206",
+      "name": "Gunnedah",
+      "coordinates": [
+        -30.98065,
+        150.25838
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-nowra-2154787",
+      "name": "Nowra",
+      "coordinates": [
+        -34.88422,
+        150.60036
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-newport-2155412",
+      "name": "Newport",
+      "coordinates": [
+        -33.65639,
+        151.31401
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-tweed-heads-2145765",
+      "name": "Tweed Heads",
+      "coordinates": [
+        -28.17671,
+        153.5452
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-ballina-2177069",
+      "name": "Ballina",
+      "coordinates": [
+        -28.86414,
+        153.56541
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-kelso-2161678",
+      "name": "Kelso",
+      "coordinates": [
+        -33.41667,
+        149.6
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-leeton-2160413",
+      "name": "Leeton",
+      "coordinates": [
+        -34.55105,
+        146.40483
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-forbes-2166368",
+      "name": "Forbes",
+      "coordinates": [
+        -33.38436,
+        148.0076
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-moss-vale-2156777",
+      "name": "Moss Vale",
+      "coordinates": [
+        -34.55374,
+        150.37115
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-katoomba-2161776",
+      "name": "Katoomba",
+      "coordinates": [
+        -33.71977,
+        150.30739
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-narrabri-2155742",
+      "name": "Narrabri",
+      "coordinates": [
+        -30.32488,
+        149.78266
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-deniliquin-2169068",
+      "name": "Deniliquin",
+      "coordinates": [
+        -35.53245,
+        144.95364
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-blaxland-2175341",
+      "name": "Blaxland",
+      "coordinates": [
+        -33.75,
+        150.6
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-sanctuary-point-7304352",
+      "name": "Sanctuary Point",
+      "coordinates": [
+        -35.10361,
+        150.62667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-yamba-2142648",
+      "name": "Yamba",
+      "coordinates": [
+        -29.4375,
+        153.35914
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "au-kiama-2161515",
+      "name": "Kiama",
+      "coordinates": [
+        -34.66828,
+        150.85219
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

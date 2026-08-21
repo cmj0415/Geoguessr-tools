@@ -4,11 +4,61 @@
   "children": [
     {
       "type": "place",
-      "id": "br-santarem-pa",
+      "id": "br-belem-3405870",
+      "name": "Belém",
+      "coordinates": [
+        -1.45583,
+        -48.50444
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-ananindeua-3407669",
+      "name": "Ananindeua",
+      "coordinates": [
+        -1.36556,
+        -48.37222
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-santarem-3389353",
       "name": "Santarém",
       "coordinates": [
-        -2.4385,
-        -54.6996
+        -2.44306,
+        -54.70833
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-parauapebas-6317872",
+      "name": "Parauapebas",
+      "coordinates": [
+        -6.0675,
+        -49.90222
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-maraba-3395503",
+      "name": "Marabá",
+      "coordinates": [
+        -5.38146,
+        -49.13232
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-castanhal-3402591",
+      "name": "Castanhal",
+      "coordinates": [
+        -1.29389,
+        -47.92639
       ],
       "difficulty": "Hard"
     }

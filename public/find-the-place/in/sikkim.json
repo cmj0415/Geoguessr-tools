@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Sikkim",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-gangtok-1271631",
+      "name": "Gangtok",
+      "coordinates": [
+        27.32574,
+        88.61216
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

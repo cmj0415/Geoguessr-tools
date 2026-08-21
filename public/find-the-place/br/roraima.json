@@ -4,13 +4,13 @@
   "children": [
     {
       "type": "place",
-      "id": "br-boa-vista-rr",
+      "id": "br-boa-vista-3664980",
       "name": "Boa Vista",
       "coordinates": [
-        2.8235,
-        -60.6758
+        2.81972,
+        -60.67333
       ],
-      "difficulty": "Hard"
+      "difficulty": "Medium"
     }
   ]
 }

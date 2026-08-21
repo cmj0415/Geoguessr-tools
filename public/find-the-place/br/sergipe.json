@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Sergipe",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-aracaju-3471872",
+      "name": "Aracaju",
+      "coordinates": [
+        -10.91111,
+        -37.07167
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-nossa-senhora-do-socorro-3456223",
+      "name": "Nossa Senhora do Socorro",
+      "coordinates": [
+        -10.855,
+        -37.12611
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "type": "administrative",
+  "name": "Mexico City",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-mexico-city-3530597",
+      "name": "Mexico City",
+      "coordinates": [
+        19.42847,
+        -99.12766
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-iztapalapa-3526683",
+      "name": "Iztapalapa",
+      "coordinates": [
+        19.35529,
+        -99.06224
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-gustavo-adolfo-madero-3514674",
+      "name": "Gustavo Adolfo Madero",
+      "coordinates": [
+        19.49392,
+        -99.11075
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-coyoacan-3530139",
+      "name": "Coyoacán",
+      "coordinates": [
+        19.3467,
+        -99.16174
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-tlalpan-3515428",
+      "name": "Tlalpan",
+      "coordinates": [
+        19.29513,
+        -99.16206
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-cuauhtemoc-3827409",
+      "name": "Cuauhtémoc",
+      "coordinates": [
+        19.44506,
+        -99.14612
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-xochimilco-3514450",
+      "name": "Xochimilco",
+      "coordinates": [
+        19.25465,
+        -99.10356
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-azcapotzalco-3532497",
+      "name": "Azcapotzalco",
+      "coordinates": [
+        19.48698,
+        -99.18594
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "mx-iztacalco-3526700",
+      "name": "Iztacalco",
+      "coordinates": [
+        19.39528,
+        -99.09778
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-miguel-hidalgo-3827408",
+      "name": "Miguel Hidalgo",
+      "coordinates": [
+        19.43411,
+        -99.20024
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-benito-juarez-3827406",
+      "name": "Benito Juarez",
+      "coordinates": [
+        19.3984,
+        -99.15766
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-tlahuac-3515463",
+      "name": "Tláhuac",
+      "coordinates": [
+        19.28689,
+        -99.00507
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-magdalena-contreras-3523760",
+      "name": "Magdalena Contreras",
+      "coordinates": [
+        19.33212,
+        -99.21118
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-delegacion-cuajimalpa-de-morelos-3530049",
+      "name": "Delegación Cuajimalpa de Morelos",
+      "coordinates": [
+        19.3692,
+        -99.29089
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

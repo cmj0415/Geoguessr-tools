@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Jharkhand",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-jamshedpur-1269300",
+      "name": "Jamshedpur",
+      "coordinates": [
+        22.80278,
+        86.18545
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-dhanbad-1272979",
+      "name": "Dhanbad",
+      "coordinates": [
+        23.79759,
+        86.42992
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-ranchi-1258526",
+      "name": "Ranchi",
+      "coordinates": [
+        23.34316,
+        85.3094
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-bokaro-1275362",
+      "name": "Bokāro",
+      "coordinates": [
+        23.66934,
+        86.15161
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

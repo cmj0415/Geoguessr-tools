@@ -1,0 +1,156 @@
+{
+  "type": "administrative",
+  "name": "神奈川県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-yokohama-1848354",
+      "name": "横浜",
+      "coordinates": [
+        35.43333,
+        139.65
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-kawasaki-1859642",
+      "name": "川崎",
+      "coordinates": [
+        35.52056,
+        139.71722
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-aihara-1865689",
+      "name": "相原",
+      "coordinates": [
+        35.6,
+        139.31667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-sagamihara-11611609",
+      "name": "相模原",
+      "coordinates": [
+        35.56707,
+        139.24167
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-fujisawa-1864092",
+      "name": "藤沢",
+      "coordinates": [
+        35.34926,
+        139.47666
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-yokosuka-1848313",
+      "name": "横須賀",
+      "coordinates": [
+        35.28361,
+        139.66722
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-hiratsuka-1862462",
+      "name": "平塚",
+      "coordinates": [
+        35.32785,
+        139.33735
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-chigasaki-1864624",
+      "name": "茅ヶ崎",
+      "coordinates": [
+        35.33638,
+        139.40434
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-yamato-11611478",
+      "name": "大和",
+      "coordinates": [
+        35.47276,
+        139.45101
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-minamirinkan-1857144",
+      "name": "南林間",
+      "coordinates": [
+        35.49527,
+        139.44279
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-atsugi-1847963",
+      "name": "厚木",
+      "coordinates": [
+        35.44272,
+        139.36931
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-odawara-1854747",
+      "name": "小田原",
+      "coordinates": [
+        35.25556,
+        139.15972
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-kamakura-1860672",
+      "name": "鎌倉",
+      "coordinates": [
+        35.31085,
+        139.54698
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-hadano-1863431",
+      "name": "秦野",
+      "coordinates": [
+        35.37111,
+        139.22361
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-ebina-6822128",
+      "name": "海老名",
+      "coordinates": [
+        35.38121,
+        139.39651
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

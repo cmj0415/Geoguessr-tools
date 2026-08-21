@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Ceará",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-fortaleza-3399415",
+      "name": "Fortaleza",
+      "coordinates": [
+        -3.71722,
+        -38.54306
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-caucaia-3402429",
+      "name": "Caucaia",
+      "coordinates": [
+        -3.73611,
+        -38.65306
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-juazeiro-do-norte-3397147",
+      "name": "Juazeiro do Norte",
+      "coordinates": [
+        -7.21306,
+        -39.31528
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-maracanau-3395473",
+      "name": "Maracanaú",
+      "coordinates": [
+        -3.87667,
+        -38.62556
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-sobral-3387296",
+      "name": "Sobral",
+      "coordinates": [
+        -3.68611,
+        -40.34972
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

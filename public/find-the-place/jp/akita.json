@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "秋田県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-akita-2113126",
+      "name": "秋田",
+      "coordinates": [
+        39.71667,
+        140.11667
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

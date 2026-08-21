@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Haryana",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-faridabad-1271951",
+      "name": "Faridabad",
+      "coordinates": [
+        28.41124,
+        77.31316
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-gurugram-1270642",
+      "name": "Gurugram",
+      "coordinates": [
+        28.4601,
+        77.02635
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-rohtak-1258076",
+      "name": "Rohtak",
+      "coordinates": [
+        28.89447,
+        76.58917
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-hisar-1270022",
+      "name": "Hisar",
+      "coordinates": [
+        29.15394,
+        75.72294
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-karnal-1267708",
+      "name": "Karnāl",
+      "coordinates": [
+        29.69197,
+        76.98448
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-panipat-1260476",
+      "name": "Panipat",
+      "coordinates": [
+        29.38747,
+        76.96825
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-sonipat-1255744",
+      "name": "Sonīpat",
+      "coordinates": [
+        28.99478,
+        77.01937
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

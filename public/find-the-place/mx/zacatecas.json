@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Zacatecas",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-guadalupe-4005509",
+      "name": "Guadalupe",
+      "coordinates": [
+        22.74678,
+        -102.5188
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-fresnillo-4006163",
+      "name": "Fresnillo",
+      "coordinates": [
+        23.1749,
+        -102.86785
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-zacatecas-3979844",
+      "name": "Zacatecas",
+      "coordinates": [
+        22.76843,
+        -102.58141
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

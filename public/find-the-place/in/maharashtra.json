@@ -1,0 +1,306 @@
+{
+  "type": "administrative",
+  "name": "Maharashtra",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-mumbai-1275339",
+      "name": "Mumbai",
+      "coordinates": [
+        19.07283,
+        72.88261
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-pune-1259229",
+      "name": "Pune",
+      "coordinates": [
+        18.51957,
+        73.85535
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-nagpur-1262180",
+      "name": "Nagpur",
+      "coordinates": [
+        21.14631,
+        79.08491
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-thane-1254661",
+      "name": "Thāne",
+      "coordinates": [
+        19.19704,
+        72.96355
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-pimpri-chinchwad-7626690",
+      "name": "Pimpri-Chinchwad",
+      "coordinates": [
+        18.61867,
+        73.80375
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-nashik-1261731",
+      "name": "Nashik",
+      "coordinates": [
+        19.99727,
+        73.79096
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-pimpri-1259652",
+      "name": "Pimpri",
+      "coordinates": [
+        18.62292,
+        73.80696
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-kalyan-1268295",
+      "name": "Kalyān",
+      "coordinates": [
+        19.2437,
+        73.13554
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-dombivali-1272423",
+      "name": "Dombivali",
+      "coordinates": [
+        19.21667,
+        73.08333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-virar-1253133",
+      "name": "Virār",
+      "coordinates": [
+        19.45591,
+        72.81136
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-aurangabad-1278149",
+      "name": "Aurangabad",
+      "coordinates": [
+        19.87757,
+        75.34226
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-sholapur-1256436",
+      "name": "Sholapur",
+      "coordinates": [
+        17.67152,
+        75.91044
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-bhiwandi-1275901",
+      "name": "Bhiwandi",
+      "coordinates": [
+        19.30023,
+        73.05881
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-bhayandar-1276014",
+      "name": "Bhayandar",
+      "coordinates": [
+        19.30157,
+        72.85107
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-amravati-1278718",
+      "name": "Amravati",
+      "coordinates": [
+        20.93333,
+        77.75
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-borivli-1275248",
+      "name": "Borivli",
+      "coordinates": [
+        19.23496,
+        72.85976
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-sangli-1257416",
+      "name": "Sāngli",
+      "coordinates": [
+        16.85438,
+        74.56417
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-nanded-1261977",
+      "name": "Nanded",
+      "coordinates": [
+        19.16023,
+        77.31497
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-kolhapur-1266285",
+      "name": "Kolhāpur",
+      "coordinates": [
+        16.69563,
+        74.23167
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-ulhasnagar-1253894",
+      "name": "Ulhasnagar",
+      "coordinates": [
+        19.21667,
+        73.15
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-malegaon-1264115",
+      "name": "Malegaon",
+      "coordinates": [
+        20.54966,
+        74.53462
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-jalgaon-1269407",
+      "name": "Jalgaon",
+      "coordinates": [
+        21.00292,
+        75.56602
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-akola-1279105",
+      "name": "Akola",
+      "coordinates": [
+        20.70957,
+        76.9981
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-latur-1265014",
+      "name": "Latur",
+      "coordinates": [
+        18.39721,
+        76.56784
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-dhule-1272691",
+      "name": "Dhule",
+      "coordinates": [
+        20.9013,
+        74.77737
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-ahilyanagar-1279228",
+      "name": "Ahilyanagar",
+      "coordinates": [
+        19.09457,
+        74.73843
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-chanda-1274693",
+      "name": "Chānda",
+      "coordinates": [
+        19.95076,
+        79.29523
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-parbhani-1260341",
+      "name": "Parbhani",
+      "coordinates": [
+        19.26855,
+        76.77081
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-ichalkaranji-1269834",
+      "name": "Ichalkaranji",
+      "coordinates": [
+        16.69117,
+        74.46054
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-jalna-1269395",
+      "name": "Jālna",
+      "coordinates": [
+        19.84102,
+        75.88636
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

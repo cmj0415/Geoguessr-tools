@@ -1,14 +1,14 @@
 {
   "type": "administrative",
-  "name": "Ishikawa",
+  "name": "石川県",
   "children": [
     {
       "type": "place",
-      "id": "jp-kanazawa",
-      "name": "Kanazawa",
+      "id": "jp-kanazawa-1860243",
+      "name": "金沢",
       "coordinates": [
-        36.5613,
-        136.6562
+        36.6,
+        136.61667
       ],
       "difficulty": "Easy"
     }

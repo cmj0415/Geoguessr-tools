@@ -4,13 +4,123 @@
   "children": [
     {
       "type": "place",
-      "id": "br-pelotas-rs",
+      "id": "br-porto-alegre-3452925",
+      "name": "Porto Alegre",
+      "coordinates": [
+        -30.03283,
+        -51.23019
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-caxias-do-sul-3466537",
+      "name": "Caxias do Sul",
+      "coordinates": [
+        -29.16806,
+        -51.17944
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-pelotas-3454244",
       "name": "Pelotas",
       "coordinates": [
-        -31.7654,
-        -52.3376
+        -31.76997,
+        -52.34101
       ],
       "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-canoas-3467467",
+      "name": "Canoas",
+      "coordinates": [
+        -29.91778,
+        -51.18361
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-santa-maria-3450083",
+      "name": "Santa Maria",
+      "coordinates": [
+        -29.68417,
+        -53.80694
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-gravatai-3462089",
+      "name": "Gravataí",
+      "coordinates": [
+        -29.94218,
+        -50.99278
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-novo-hamburgo-3456068",
+      "name": "Novo Hamburgo",
+      "coordinates": [
+        -29.67833,
+        -51.13056
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-viamao-3445156",
+      "name": "Viamão",
+      "coordinates": [
+        -30.08111,
+        -51.02333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-passo-fundo-3454857",
+      "name": "Passo Fundo",
+      "coordinates": [
+        -28.26278,
+        -52.40667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-sao-leopoldo-3448622",
+      "name": "São Leopoldo",
+      "coordinates": [
+        -29.76028,
+        -51.14722
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-rio-grande-3451138",
+      "name": "Rio Grande",
+      "coordinates": [
+        -32.035,
+        -52.09861
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-alvorada-3454865",
+      "name": "Alvorada",
+      "coordinates": [
+        -30.00018,
+        -51.07632
+      ],
+      "difficulty": "Hard"
     }
   ]
 }

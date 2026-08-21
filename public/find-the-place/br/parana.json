@@ -4,13 +4,113 @@
   "children": [
     {
       "type": "place",
-      "id": "br-londrina-pr",
-      "name": "Londrina",
+      "id": "br-curitiba-3464975",
+      "name": "Curitiba",
       "coordinates": [
-        -23.3045,
-        -51.1696
+        -25.42778,
+        -49.27306
       ],
       "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-londrina-3458449",
+      "name": "Londrina",
+      "coordinates": [
+        -23.31028,
+        -51.16278
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-maringa-3457671",
+      "name": "Maringá",
+      "coordinates": [
+        -23.42528,
+        -51.93861
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-cascavel-3466779",
+      "name": "Cascavel",
+      "coordinates": [
+        -24.95583,
+        -53.45528
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-sao-jose-dos-pinhais-3448632",
+      "name": "São José dos Pinhais",
+      "coordinates": [
+        -25.5302,
+        -49.20836
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-foz-do-iguacu-3463030",
+      "name": "Foz do Iguaçu",
+      "coordinates": [
+        -25.54778,
+        -54.58806
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-ponta-grossa-3453186",
+      "name": "Ponta Grossa",
+      "coordinates": [
+        -25.095,
+        -50.16194
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-colombo-3465927",
+      "name": "Colombo",
+      "coordinates": [
+        -25.29167,
+        -49.22417
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-guarapuava-3461879",
+      "name": "Guarapuava",
+      "coordinates": [
+        -25.39048,
+        -51.46541
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-araucaria-3471697",
+      "name": "Araucária",
+      "coordinates": [
+        -25.59306,
+        -49.41028
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-toledo-3446370",
+      "name": "Toledo",
+      "coordinates": [
+        -24.71361,
+        -53.74306
+      ],
+      "difficulty": "Hard"
     }
   ]
 }

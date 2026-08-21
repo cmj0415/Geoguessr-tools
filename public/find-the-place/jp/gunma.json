@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "群馬県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-takasaki-1851002",
+      "name": "高崎",
+      "coordinates": [
+        36.33333,
+        139.01667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-maebashi-1857843",
+      "name": "前橋",
+      "coordinates": [
+        36.4,
+        139.08333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-ota-1853677",
+      "name": "太田",
+      "coordinates": [
+        36.3,
+        139.36667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-isesaki-1861436",
+      "name": "伊勢崎",
+      "coordinates": [
+        36.31667,
+        139.2
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

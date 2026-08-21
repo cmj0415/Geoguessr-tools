@@ -1,0 +1,196 @@
+{
+  "type": "administrative",
+  "name": "東京都",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-tokyo-1850147",
+      "name": "東京",
+      "coordinates": [
+        35.6895,
+        139.69171
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-ota-8469289",
+      "name": "大田区",
+      "coordinates": [
+        35.56126,
+        139.71605
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-hachioji-1863440",
+      "name": "八王子",
+      "coordinates": [
+        35.65583,
+        139.32389
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-katsushika-8469284",
+      "name": "葛飾",
+      "coordinates": [
+        35.73333,
+        139.85
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-machida-1857871",
+      "name": "町田",
+      "coordinates": [
+        35.54028,
+        139.45083
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-nakano-8715035",
+      "name": "中野",
+      "coordinates": [
+        35.70449,
+        139.66946
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-kita-8469285",
+      "name": "北",
+      "coordinates": [
+        35.75264,
+        139.73348
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-fuchu-11611632",
+      "name": "府中",
+      "coordinates": [
+        35.67452,
+        139.48216
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-minato-city-13353696",
+      "name": "港区",
+      "coordinates": [
+        35.6581,
+        139.7515
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-chofu-1864518",
+      "name": "調布ヶ丘",
+      "coordinates": [
+        35.65924,
+        139.54837
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-nishi-tokyo-shi-1850692",
+      "name": "西東京",
+      "coordinates": [
+        35.72526,
+        139.5383
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-kodaira-11611930",
+      "name": "小平",
+      "coordinates": [
+        35.72603,
+        139.48508
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-hino-1862599",
+      "name": "日野",
+      "coordinates": [
+        35.67306,
+        139.40028
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-tachikawa-11611487",
+      "name": "立川",
+      "coordinates": [
+        35.7091,
+        139.41891
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-chuo-13353695",
+      "name": "中央区",
+      "coordinates": [
+        35.67004,
+        139.77544
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-higashimurayama-7279570",
+      "name": "東村山",
+      "coordinates": [
+        35.75459,
+        139.46852
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-musashino-1856367",
+      "name": "武蔵野",
+      "coordinates": [
+        35.70611,
+        139.55944
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-tama-6822129",
+      "name": "多摩",
+      "coordinates": [
+        35.6436,
+        139.46844
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-ome-1854162",
+      "name": "青梅",
+      "coordinates": [
+        35.78389,
+        139.24306
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

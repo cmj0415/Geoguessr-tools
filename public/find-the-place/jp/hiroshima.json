@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "広島県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-hiroshima-1862415",
+      "name": "広島",
+      "coordinates": [
+        34.4,
+        132.45
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-fukuyama-1863917",
+      "name": "福山",
+      "coordinates": [
+        34.48333,
+        133.36667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "jp-kure-1858296",
+      "name": "呉",
+      "coordinates": [
+        34.23222,
+        132.56658
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-higashihiroshima-11611627",
+      "name": "東広島",
+      "coordinates": [
+        34.40861,
+        132.73682
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

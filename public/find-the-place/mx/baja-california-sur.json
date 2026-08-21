@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Baja California Sur",
+  "children": [
+    {
+      "type": "place",
+      "id": "mx-la-paz-4000900",
+      "name": "La Paz",
+      "coordinates": [
+        24.14231,
+        -110.31316
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-cabo-san-lucas-3985710",
+      "name": "Cabo San Lucas",
+      "coordinates": [
+        22.89088,
+        -109.91238
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "mx-san-jose-del-cabo-3986172",
+      "name": "San José del Cabo",
+      "coordinates": [
+        23.05406,
+        -109.70367
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

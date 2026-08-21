@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Espírito Santo",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-serra-3447779",
+      "name": "Serra",
+      "coordinates": [
+        -20.12861,
+        -40.30778
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-vila-velha-3445026",
+      "name": "Vila Velha",
+      "coordinates": [
+        -20.32972,
+        -40.2925
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-cariacica-3466954",
+      "name": "Cariacica",
+      "coordinates": [
+        -20.26389,
+        -40.42
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-vitoria-3444924",
+      "name": "Vitória",
+      "coordinates": [
+        -20.31944,
+        -40.33778
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-cachoeiro-de-itapemirim-3468376",
+      "name": "Cachoeiro de Itapemirim",
+      "coordinates": [
+        -20.84889,
+        -41.11278
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-linhares-3458498",
+      "name": "Linhares",
+      "coordinates": [
+        -19.39111,
+        -40.07222
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

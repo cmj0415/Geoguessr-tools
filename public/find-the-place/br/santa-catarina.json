@@ -1,0 +1,106 @@
+{
+  "type": "administrative",
+  "name": "Santa Catarina",
+  "children": [
+    {
+      "type": "place",
+      "id": "br-joinville-3459712",
+      "name": "Joinville",
+      "coordinates": [
+        -26.30444,
+        -48.84556
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-florianopolis-3463237",
+      "name": "Florianópolis",
+      "coordinates": [
+        -27.59667,
+        -48.54917
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "br-blumenau-3469968",
+      "name": "Blumenau",
+      "coordinates": [
+        -26.91944,
+        -49.06611
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-sao-jose-3448744",
+      "name": "São José",
+      "coordinates": [
+        -27.61528,
+        -48.6275
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-itajai-3460845",
+      "name": "Itajaí",
+      "coordinates": [
+        -26.90778,
+        -48.66194
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-chapeco-3466296",
+      "name": "Chapecó",
+      "coordinates": [
+        -27.09639,
+        -52.61833
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "br-criciuma-3465196",
+      "name": "Criciúma",
+      "coordinates": [
+        -28.6775,
+        -49.36972
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-palhoca-3455478",
+      "name": "Palhoça",
+      "coordinates": [
+        -27.64528,
+        -48.66778
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-jaragua-do-sul-3460102",
+      "name": "Jaraguá do Sul",
+      "coordinates": [
+        -26.48611,
+        -49.06667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "br-lages-3458930",
+      "name": "Lages",
+      "coordinates": [
+        -27.81611,
+        -50.32611
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

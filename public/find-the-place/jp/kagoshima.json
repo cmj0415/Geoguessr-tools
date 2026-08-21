@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "鹿児島県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-kagoshima-1860827",
+      "name": "鹿児島",
+      "coordinates": [
+        31.56667,
+        130.55
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

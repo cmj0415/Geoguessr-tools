@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "山梨県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-kofu-1859100",
+      "name": "甲府",
+      "coordinates": [
+        35.66667,
+        138.56667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "type": "administrative",
+  "name": "Karnataka",
+  "children": [
+    {
+      "type": "place",
+      "id": "in-bengaluru-1277333",
+      "name": "Bengaluru",
+      "coordinates": [
+        12.97194,
+        77.59369
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "in-hubballi-1269920",
+      "name": "Hubballi",
+      "coordinates": [
+        15.34776,
+        75.13378
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-mysuru-1262321",
+      "name": "Mysuru",
+      "coordinates": [
+        12.29791,
+        76.63925
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-kalaburagi-1270752",
+      "name": "Kalaburagi",
+      "coordinates": [
+        17.33583,
+        76.83757
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-mangaluru-1263780",
+      "name": "Mangaluru",
+      "coordinates": [
+        12.91723,
+        74.85603
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-belagavi-1276533",
+      "name": "Belagavi",
+      "coordinates": [
+        15.85212,
+        74.50447
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-davangere-1273368",
+      "name": "Davangere",
+      "coordinates": [
+        14.46693,
+        75.92694
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-ballari-1276509",
+      "name": "Ballari",
+      "coordinates": [
+        15.14205,
+        76.92398
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "in-vijayapura-1275701",
+      "name": "Vijayapura",
+      "coordinates": [
+        16.82442,
+        75.71537
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-shivamogga-1256515",
+      "name": "Shivamogga",
+      "coordinates": [
+        13.93157,
+        75.56791
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "in-tumkur-1254089",
+      "name": "Tumkūr",
+      "coordinates": [
+        13.34136,
+        77.1022
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

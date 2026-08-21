@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "三重県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-yokkaichi-1848373",
+      "name": "四日",
+      "coordinates": [
+        34.96667,
+        136.61667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-tsu-1849796",
+      "name": "津",
+      "coordinates": [
+        34.73333,
+        136.51667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-suzuka-1851348",
+      "name": "鈴鹿",
+      "coordinates": [
+        34.88333,
+        136.58333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "jp-matsusaka-11468431",
+      "name": "松阪",
+      "coordinates": [
+        34.57895,
+        136.53706
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "jp-kuwana-11468429",
+      "name": "桑名",
+      "coordinates": [
+        35.05192,
+        136.66958
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

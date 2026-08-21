@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "奈良県",
+  "children": [
+    {
+      "type": "place",
+      "id": "jp-nara-shi-1855612",
+      "name": "奈良",
+      "coordinates": [
+        34.68505,
+        135.80485
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

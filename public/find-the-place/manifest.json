@@ -4,6 +4,49 @@
       "name": "North America",
       "countries": [
         {
+          "code": "mx",
+          "name": "Mexico",
+          "counts": {
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
+          },
+          "shards": [
+            "/find-the-place/mx/aguascalientes.json",
+            "/find-the-place/mx/baja-california-sur.json",
+            "/find-the-place/mx/baja-california.json",
+            "/find-the-place/mx/campeche.json",
+            "/find-the-place/mx/chiapas.json",
+            "/find-the-place/mx/chihuahua.json",
+            "/find-the-place/mx/coahuila.json",
+            "/find-the-place/mx/colima.json",
+            "/find-the-place/mx/durango.json",
+            "/find-the-place/mx/guanajuato.json",
+            "/find-the-place/mx/guerrero.json",
+            "/find-the-place/mx/hidalgo.json",
+            "/find-the-place/mx/jalisco.json",
+            "/find-the-place/mx/mexico-city.json",
+            "/find-the-place/mx/mexico.json",
+            "/find-the-place/mx/michoacan.json",
+            "/find-the-place/mx/morelos.json",
+            "/find-the-place/mx/nayarit.json",
+            "/find-the-place/mx/nuevo-leon.json",
+            "/find-the-place/mx/oaxaca.json",
+            "/find-the-place/mx/puebla.json",
+            "/find-the-place/mx/queretaro.json",
+            "/find-the-place/mx/quintana-roo.json",
+            "/find-the-place/mx/san-luis-potosi.json",
+            "/find-the-place/mx/sinaloa.json",
+            "/find-the-place/mx/sonora.json",
+            "/find-the-place/mx/tabasco.json",
+            "/find-the-place/mx/tamaulipas.json",
+            "/find-the-place/mx/tlaxcala.json",
+            "/find-the-place/mx/veracruz.json",
+            "/find-the-place/mx/yucatan.json",
+            "/find-the-place/mx/zacatecas.json"
+          ]
+        },
+        {
           "code": "us",
           "name": "USA",
           "counts": {
@@ -73,17 +116,38 @@
           "code": "br",
           "name": "Brazil",
           "counts": {
-            "Easy": 2,
-            "Medium": 2,
-            "Hard": 2
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
           },
           "shards": [
-            "/find-the-place/br/parana.json",
-            "/find-the-place/br/para.json",
+            "/find-the-place/br/acre.json",
+            "/find-the-place/br/alagoas.json",
+            "/find-the-place/br/amapa.json",
+            "/find-the-place/br/amazonas.json",
             "/find-the-place/br/bahia.json",
+            "/find-the-place/br/ceara.json",
+            "/find-the-place/br/espirito-santo.json",
+            "/find-the-place/br/federal-district.json",
+            "/find-the-place/br/goias.json",
+            "/find-the-place/br/maranhao.json",
+            "/find-the-place/br/mato-grosso-do-sul.json",
+            "/find-the-place/br/mato-grosso.json",
             "/find-the-place/br/minas-gerais.json",
+            "/find-the-place/br/para.json",
+            "/find-the-place/br/paraiba.json",
+            "/find-the-place/br/parana.json",
+            "/find-the-place/br/pernambuco.json",
+            "/find-the-place/br/piaui.json",
+            "/find-the-place/br/rio-de-janeiro.json",
+            "/find-the-place/br/rio-grande-do-norte.json",
             "/find-the-place/br/rio-grande-do-sul.json",
-            "/find-the-place/br/roraima.json"
+            "/find-the-place/br/rondonia.json",
+            "/find-the-place/br/roraima.json",
+            "/find-the-place/br/santa-catarina.json",
+            "/find-the-place/br/sao-paulo.json",
+            "/find-the-place/br/sergipe.json",
+            "/find-the-place/br/tocantins.json"
           ]
         }
       ]
@@ -308,20 +372,132 @@
       "name": "Asia",
       "countries": [
         {
+          "code": "in",
+          "name": "India",
+          "counts": {
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
+          },
+          "shards": [
+            "/find-the-place/in/andaman-and-nicobar.json",
+            "/find-the-place/in/andhra-pradesh.json",
+            "/find-the-place/in/arunachal-pradesh.json",
+            "/find-the-place/in/assam.json",
+            "/find-the-place/in/bihar.json",
+            "/find-the-place/in/chandigarh.json",
+            "/find-the-place/in/chhattisgarh.json",
+            "/find-the-place/in/dadra-and-nagar-haveli-and-daman-and-diu.json",
+            "/find-the-place/in/delhi.json",
+            "/find-the-place/in/goa.json",
+            "/find-the-place/in/gujarat.json",
+            "/find-the-place/in/haryana.json",
+            "/find-the-place/in/himachal-pradesh.json",
+            "/find-the-place/in/jammu-and-kashmir.json",
+            "/find-the-place/in/jharkhand.json",
+            "/find-the-place/in/karnataka.json",
+            "/find-the-place/in/kerala.json",
+            "/find-the-place/in/ladakh.json",
+            "/find-the-place/in/lakshadweep.json",
+            "/find-the-place/in/madhya-pradesh.json",
+            "/find-the-place/in/maharashtra.json",
+            "/find-the-place/in/manipur.json",
+            "/find-the-place/in/meghalaya.json",
+            "/find-the-place/in/mizoram.json",
+            "/find-the-place/in/nagaland.json",
+            "/find-the-place/in/odisha.json",
+            "/find-the-place/in/puducherry.json",
+            "/find-the-place/in/punjab.json",
+            "/find-the-place/in/rajasthan.json",
+            "/find-the-place/in/sikkim.json",
+            "/find-the-place/in/tamil-nadu.json",
+            "/find-the-place/in/telangana.json",
+            "/find-the-place/in/tripura.json",
+            "/find-the-place/in/uttar-pradesh.json",
+            "/find-the-place/in/uttarakhand.json",
+            "/find-the-place/in/west-bengal.json"
+          ]
+        },
+        {
           "code": "jp",
           "name": "Japan",
           "counts": {
-            "Easy": 2,
-            "Medium": 2,
-            "Hard": 2
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
           },
           "shards": [
+            "/find-the-place/jp/aichi.json",
+            "/find-the-place/jp/akita.json",
+            "/find-the-place/jp/aomori.json",
+            "/find-the-place/jp/chiba.json",
+            "/find-the-place/jp/ehime.json",
+            "/find-the-place/jp/fukui.json",
+            "/find-the-place/jp/fukuoka.json",
+            "/find-the-place/jp/fukushima.json",
+            "/find-the-place/jp/gifu.json",
+            "/find-the-place/jp/gunma.json",
+            "/find-the-place/jp/hiroshima.json",
             "/find-the-place/jp/hokkaido.json",
-            "/find-the-place/jp/nagano.json",
+            "/find-the-place/jp/hyogo.json",
+            "/find-the-place/jp/ibaraki.json",
             "/find-the-place/jp/ishikawa.json",
+            "/find-the-place/jp/iwate.json",
+            "/find-the-place/jp/kagawa.json",
+            "/find-the-place/jp/kagoshima.json",
+            "/find-the-place/jp/kanagawa.json",
             "/find-the-place/jp/kochi.json",
+            "/find-the-place/jp/kumamoto.json",
+            "/find-the-place/jp/kyoto.json",
+            "/find-the-place/jp/mie.json",
+            "/find-the-place/jp/miyagi.json",
             "/find-the-place/jp/miyazaki.json",
-            "/find-the-place/jp/aomori.json"
+            "/find-the-place/jp/nagano.json",
+            "/find-the-place/jp/nagasaki.json",
+            "/find-the-place/jp/nara.json",
+            "/find-the-place/jp/niigata.json",
+            "/find-the-place/jp/oita.json",
+            "/find-the-place/jp/okayama.json",
+            "/find-the-place/jp/okinawa.json",
+            "/find-the-place/jp/osaka.json",
+            "/find-the-place/jp/saga.json",
+            "/find-the-place/jp/saitama.json",
+            "/find-the-place/jp/shiga.json",
+            "/find-the-place/jp/shimane.json",
+            "/find-the-place/jp/shizuoka.json",
+            "/find-the-place/jp/tochigi.json",
+            "/find-the-place/jp/tokushima.json",
+            "/find-the-place/jp/tokyo.json",
+            "/find-the-place/jp/tottori.json",
+            "/find-the-place/jp/toyama.json",
+            "/find-the-place/jp/wakayama.json",
+            "/find-the-place/jp/yamagata.json",
+            "/find-the-place/jp/yamaguchi.json",
+            "/find-the-place/jp/yamanashi.json"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oceania",
+      "countries": [
+        {
+          "code": "au",
+          "name": "Australia",
+          "counts": {
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
+          },
+          "shards": [
+            "/find-the-place/au/australian-capital-territory.json",
+            "/find-the-place/au/new-south-wales.json",
+            "/find-the-place/au/northern-territory.json",
+            "/find-the-place/au/queensland.json",
+            "/find-the-place/au/south-australia.json",
+            "/find-the-place/au/tasmania.json",
+            "/find-the-place/au/victoria.json",
+            "/find-the-place/au/western-australia.json"
           ]
         }
       ]
