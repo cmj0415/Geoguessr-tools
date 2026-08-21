@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Ternopil",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-ternopil-691650",
+      "name": "Ternopil",
+      "coordinates": [
+        49.55404,
+        25.59067
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-chortkiv-710400",
+      "name": "Chortkiv",
+      "coordinates": [
+        49.01701,
+        25.79808
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-kremenets-704143",
+      "name": "Kremenets",
+      "coordinates": [
+        50.09864,
+        25.72787
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

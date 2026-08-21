@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-arkhangelsk-oblast-arkhangelsk",
           "name": "Arkhangelsk",
-          "coordinates": [64.5461, 40.55183],
+          "coordinates": [
+            64.5461,
+            40.55183
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-arkhangelsk-oblast-severodvinsk",
           "name": "Severodvinsk",
-          "coordinates": [64.55825, 39.82971],
-          "difficulty": "Easy"
+          "coordinates": [
+            64.55825,
+            39.82971
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-arkhangelsk-oblast-kotlas",
           "name": "Kotlas",
-          "coordinates": [61.25663, 46.6537],
-          "difficulty": "Medium"
+          "coordinates": [
+            61.25663,
+            46.6537
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-arkhangelsk-oblast-novodvinsk",
           "name": "Novodvinsk",
-          "coordinates": [64.41638, 40.81674],
-          "difficulty": "Medium"
+          "coordinates": [
+            64.41638,
+            40.81674
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-arkhangelsk-oblast-koryazhma",
           "name": "Koryazhma",
-          "coordinates": [61.31242, 47.14829],
+          "coordinates": [
+            61.31242,
+            47.14829
+          ],
           "difficulty": "Hard"
         }
       ]

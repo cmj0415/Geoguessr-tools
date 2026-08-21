@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Krāslava Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-kraslava-458623",
+      "name": "Krāslava",
+      "coordinates": [
+        55.89514,
+        27.16799
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

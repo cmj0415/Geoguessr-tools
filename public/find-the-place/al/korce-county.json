@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Korçë County",
+  "children": [
+    {
+      "type": "place",
+      "id": "al-korce-782756",
+      "name": "Korçë",
+      "coordinates": [
+        40.61861,
+        20.78083
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "al-pogradec-781988",
+      "name": "Pogradec",
+      "coordinates": [
+        40.9025,
+        20.6525
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

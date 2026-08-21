@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-novgorod-oblast-velikiy-novgorod",
           "name": "Velikiy Novgorod",
-          "coordinates": [58.52131, 31.27104],
+          "coordinates": [
+            58.52131,
+            31.27104
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-novgorod-oblast-borovichi",
           "name": "Borovichi",
-          "coordinates": [58.39418, 33.91864],
-          "difficulty": "Easy"
+          "coordinates": [
+            58.39418,
+            33.91864
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-novgorod-oblast-staraya-russa",
           "name": "Staraya Russa",
-          "coordinates": [57.99618, 31.36003],
-          "difficulty": "Medium"
+          "coordinates": [
+            57.99618,
+            31.36003
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-novgorod-oblast-valday",
           "name": "Valday",
-          "coordinates": [57.97729, 33.25153],
-          "difficulty": "Medium"
+          "coordinates": [
+            57.97729,
+            33.25153
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-novgorod-oblast-chudovo",
           "name": "Chudovo",
-          "coordinates": [59.12225, 31.68125],
+          "coordinates": [
+            59.12225,
+            31.68125
+          ],
           "difficulty": "Hard"
         }
       ]

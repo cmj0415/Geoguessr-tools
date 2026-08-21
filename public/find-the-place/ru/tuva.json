@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-tuva-kyzyl",
           "name": "Kyzyl",
-          "coordinates": [51.71108, 94.43776],
-          "difficulty": "Easy"
+          "coordinates": [
+            51.71108,
+            94.43776
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-tuva-ak-dovurak",
           "name": "Ak-Dovurak",
-          "coordinates": [51.17524, 90.59782],
-          "difficulty": "Easy"
+          "coordinates": [
+            51.17524,
+            90.59782
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-tuva-shagonar",
           "name": "Shagonar",
-          "coordinates": [51.534, 92.93164],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.534,
+            92.93164
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-tuva-kaa-khem",
           "name": "Kaa-Khem",
-          "coordinates": [51.69435, 94.57021],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.69435,
+            94.57021
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-tuva-chadan",
           "name": "Chadan",
-          "coordinates": [51.28896, 91.57266],
+          "coordinates": [
+            51.28896,
+            91.57266
+          ],
           "difficulty": "Hard"
         }
       ]

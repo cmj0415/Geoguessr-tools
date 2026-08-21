@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Saare",
+  "children": [
+    {
+      "type": "place",
+      "id": "ee-kuressaare-590939",
+      "name": "Kuressaare",
+      "coordinates": [
+        58.25382,
+        22.49217
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

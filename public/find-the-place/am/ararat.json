@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Ararat",
+  "children": [
+    {
+      "type": "place",
+      "id": "am-masis-616435",
+      "name": "Masis",
+      "coordinates": [
+        40.06595,
+        44.43669
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "am-artashat-174979",
+      "name": "Artashat",
+      "coordinates": [
+        39.95484,
+        44.54874
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "am-ararat-174991",
+      "name": "Ararat",
+      "coordinates": [
+        39.85494,
+        44.6947
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-vedi-174725",
+      "name": "Vedi",
+      "coordinates": [
+        39.91291,
+        44.72083
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-ayntap-823814",
+      "name": "Ayntap",
+      "coordinates": [
+        40.09659,
+        44.4646
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-nor-kharberd-616338",
+      "name": "Nor Kharberd",
+      "coordinates": [
+        40.09168,
+        44.48053
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "am-ararat-village-174992",
+      "name": "Ararat village",
+      "coordinates": [
+        39.83166,
+        44.70489
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

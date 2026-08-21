@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "East Macedonia and Thrace",
+  "children": [
+    {
+      "type": "place",
+      "id": "gr-kavala-735861",
+      "name": "Kavála",
+      "coordinates": [
+        40.93959,
+        24.40687
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gr-alexandroupoli-736928",
+      "name": "Alexandroupoli",
+      "coordinates": [
+        40.84995,
+        25.87644
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gr-xanthi-733840",
+      "name": "Xánthi",
+      "coordinates": [
+        41.13488,
+        24.888
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gr-komotini-735640",
+      "name": "Komotiní",
+      "coordinates": [
+        41.11758,
+        25.40587
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gr-drama-736364",
+      "name": "Dráma",
+      "coordinates": [
+        41.15283,
+        24.1473
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Azores",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-ponta-delgada-6941014",
+      "name": "Ponta Delgada",
+      "coordinates": [
+        37.73952,
+        -25.66874
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

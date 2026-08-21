@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Birżebbuġa",
+  "children": [
+    {
+      "type": "place",
+      "id": "mt-birzebbuga-2563189",
+      "name": "Birżebbuġa",
+      "coordinates": [
+        35.82546,
+        14.52685
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jelgava Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-ozolnieki-456954",
+      "name": "Ozolnieki",
+      "coordinates": [
+        56.68986,
+        23.7761
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

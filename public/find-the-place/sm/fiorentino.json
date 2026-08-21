@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Fiorentino",
+  "children": [
+    {
+      "type": "place",
+      "id": "sm-fiorentino-3176966",
+      "name": "Fiorentino",
+      "coordinates": [
+        43.91001,
+        12.45738
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

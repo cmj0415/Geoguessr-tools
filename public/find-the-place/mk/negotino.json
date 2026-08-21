@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Negotino",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-negotino-787716",
+      "name": "Negotino",
+      "coordinates": [
+        41.48456,
+        22.09056
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

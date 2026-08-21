@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Brežice",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-brezice-3203412",
+      "name": "Brežice",
+      "coordinates": [
+        45.90726,
+        15.59319
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

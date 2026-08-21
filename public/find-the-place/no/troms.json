@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Troms",
+  "children": [
+    {
+      "type": "place",
+      "id": "no-tromso-3133895",
+      "name": "Tromsø",
+      "coordinates": [
+        69.6489,
+        18.95508
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-harstad-3153823",
+      "name": "Harstad",
+      "coordinates": [
+        68.79833,
+        16.54165
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-tromsdalen-3133904",
+      "name": "Tromsdalen",
+      "coordinates": [
+        69.65,
+        19.01667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-lenvik-3147743",
+      "name": "Lenvik",
+      "coordinates": [
+        69.44318,
+        18.15643
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Kaunas",
+  "children": [
+    {
+      "type": "place",
+      "id": "lt-kaunas-598316",
+      "name": "Kaunas",
+      "coordinates": [
+        54.90156,
+        23.90909
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-jonava-598818",
+      "name": "Jonava",
+      "coordinates": [
+        55.08014,
+        24.27544
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-kedainiai-598272",
+      "name": "Kėdainiai",
+      "coordinates": [
+        55.28782,
+        23.97275
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-garliava-599504",
+      "name": "Garliava",
+      "coordinates": [
+        54.82139,
+        23.8713
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "lt-kaisiadorys-598567",
+      "name": "Kaišiadorys",
+      "coordinates": [
+        54.86528,
+        24.46815
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "lt-raseiniai-595378",
+      "name": "Raseiniai",
+      "coordinates": [
+        55.37973,
+        23.12386
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "lt-prienai-595596",
+      "name": "Prienai",
+      "coordinates": [
+        54.636,
+        23.94585
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

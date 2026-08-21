@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Limbaži Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-limbazi-457890",
+      "name": "Limbaži",
+      "coordinates": [
+        57.51287,
+        24.71941
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

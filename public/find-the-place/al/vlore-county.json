@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Vlorë County",
+  "children": [
+    {
+      "type": "place",
+      "id": "al-vlore-3183719",
+      "name": "Vlorë",
+      "coordinates": [
+        40.4696,
+        19.48379
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "al-sarande-363243",
+      "name": "Sarandë",
+      "coordinates": [
+        39.87534,
+        20.00477
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Fuzuli District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-fuzuli-148106",
+      "name": "Fuzuli",
+      "coordinates": [
+        39.60094,
+        47.14529
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

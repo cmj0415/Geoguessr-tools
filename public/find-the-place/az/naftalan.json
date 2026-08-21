@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Naftalan",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-naftalan-585400",
+      "name": "Naftalan",
+      "coordinates": [
+        40.50821,
+        46.8203
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

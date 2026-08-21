@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Birkirkara",
+  "children": [
+    {
+      "type": "place",
+      "id": "mt-birkirkara-2563191",
+      "name": "Birkirkara",
+      "coordinates": [
+        35.89706,
+        14.46115
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

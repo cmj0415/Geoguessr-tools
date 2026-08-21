@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Samtskhe-Javakheti",
+  "children": [
+    {
+      "type": "place",
+      "id": "ge-akhaltsikhe-615860",
+      "name": "Akhaltsikhe",
+      "coordinates": [
+        41.63952,
+        42.98604
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ge-borjomi-615403",
+      "name": "Borjomi",
+      "coordinates": [
+        41.84692,
+        43.3971
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ge-akhalkalaki-615893",
+      "name": "Akhalkalaki",
+      "coordinates": [
+        41.40514,
+        43.48629
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

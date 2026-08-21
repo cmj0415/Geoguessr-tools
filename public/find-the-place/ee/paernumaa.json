@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Pärnumaa",
+  "children": [
+    {
+      "type": "place",
+      "id": "ee-paernu-589580",
+      "name": "Pärnu",
+      "coordinates": [
+        58.38588,
+        24.49711
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ee-tori-588215",
+      "name": "Tori",
+      "coordinates": [
+        58.47889,
+        24.82417
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ee-sindi-588673",
+      "name": "Sindi",
+      "coordinates": [
+        58.40056,
+        24.6675
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

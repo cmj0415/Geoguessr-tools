@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Gümüşhane Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-guemueshane-746425",
+      "name": "Gümüşhane",
+      "coordinates": [
+        40.46001,
+        39.47176
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

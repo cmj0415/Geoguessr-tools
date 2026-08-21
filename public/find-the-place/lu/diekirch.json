@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Diekirch",
+  "children": [
+    {
+      "type": "place",
+      "id": "lu-diekirch-2960657",
+      "name": "Diekirch",
+      "coordinates": [
+        49.86687,
+        6.15451
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

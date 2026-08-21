@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Lapland",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-rovaniemi-638936",
+      "name": "Rovaniemi",
+      "coordinates": [
+        66.49897,
+        25.68867
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "fi-tornio-634093",
+      "name": "Tornio",
+      "coordinates": [
+        65.84811,
+        24.14662
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "fi-kemi-653281",
+      "name": "Kemi",
+      "coordinates": [
+        65.73641,
+        24.56371
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

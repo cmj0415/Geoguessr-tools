@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Lucerne",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-luzern-2659811",
+      "name": "Luzern",
+      "coordinates": [
+        47.05048,
+        8.30635
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ch-emmen-2660911",
+      "name": "Emmen",
+      "coordinates": [
+        47.07819,
+        8.27331
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ch-kriens-2660104",
+      "name": "Kriens",
+      "coordinates": [
+        47.0311,
+        8.28547
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-littau-2659873",
+      "name": "Littau",
+      "coordinates": [
+        47.05,
+        8.26274
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ch-horw-2660298",
+      "name": "Horw",
+      "coordinates": [
+        47.01692,
+        8.30956
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

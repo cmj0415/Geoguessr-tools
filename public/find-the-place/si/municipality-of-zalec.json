@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Žalec",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-zalec-3186844",
+      "name": "Žalec",
+      "coordinates": [
+        46.25151,
+        15.16482
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

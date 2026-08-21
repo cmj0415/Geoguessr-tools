@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Veszprém",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-veszprem-3042929",
+      "name": "Veszprém",
+      "coordinates": [
+        47.09327,
+        17.91149
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-papa-3046686",
+      "name": "Pápa",
+      "coordinates": [
+        47.33004,
+        17.4674
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-ajka-3056357",
+      "name": "Ajka",
+      "coordinates": [
+        47.10196,
+        17.55892
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-varpalota-3043095",
+      "name": "Várpalota",
+      "coordinates": [
+        47.19936,
+        18.13954
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-tapolca-3044141",
+      "name": "Tapolca",
+      "coordinates": [
+        46.88152,
+        17.44117
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

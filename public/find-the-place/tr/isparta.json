@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Isparta",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-isparta-311073",
+      "name": "Isparta",
+      "coordinates": [
+        37.76444,
+        30.55222
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Burgenland",
+  "children": [
+    {
+      "type": "place",
+      "id": "at-eisenzicken-2780180",
+      "name": "Eisenzicken",
+      "coordinates": [
+        47.27603,
+        16.25908
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-eisenstadt-2780190",
+      "name": "Eisenstadt",
+      "coordinates": [
+        47.84565,
+        16.52327
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-neusiedl-am-see-2770684",
+      "name": "Neusiedl am See",
+      "coordinates": [
+        47.94901,
+        16.8417
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-walbersdorf-2762059",
+      "name": "Walbersdorf",
+      "coordinates": [
+        47.74198,
+        16.42053
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-mattersburg-2771817",
+      "name": "Mattersburg",
+      "coordinates": [
+        47.73333,
+        16.4
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-oberwart-2769623",
+      "name": "Oberwart",
+      "coordinates": [
+        47.28971,
+        16.20595
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

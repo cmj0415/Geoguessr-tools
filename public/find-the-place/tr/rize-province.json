@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Rize Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-rize-740483",
+      "name": "Rize",
+      "coordinates": [
+        41.02083,
+        40.52194
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-ardesen-751949",
+      "name": "Ardeşen",
+      "coordinates": [
+        41.19064,
+        40.97935
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

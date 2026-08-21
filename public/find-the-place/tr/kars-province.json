@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kars Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-kars-743952",
+      "name": "Kars",
+      "coordinates": [
+        40.59825,
+        43.08548
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Lublin",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-lublin-765876",
+      "name": "Lublin",
+      "coordinates": [
+        51.25058,
+        22.57009
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-zamosc-753866",
+      "name": "Zamość",
+      "coordinates": [
+        50.72314,
+        23.25196
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-chelm-774558",
+      "name": "Chełm",
+      "coordinates": [
+        51.14312,
+        23.4716
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-biala-podlaska-776175",
+      "name": "Biała Podlaska",
+      "coordinates": [
+        52.03238,
+        23.11652
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-pulawy-760924",
+      "name": "Puławy",
+      "coordinates": [
+        51.41655,
+        21.96939
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-swidnik-757692",
+      "name": "Świdnik",
+      "coordinates": [
+        51.21898,
+        22.69621
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-krasnik-767623",
+      "name": "Kraśnik",
+      "coordinates": [
+        50.9236,
+        22.22706
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

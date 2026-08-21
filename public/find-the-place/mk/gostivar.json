@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Gostivar",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-gostivar-790295",
+      "name": "Gostivar",
+      "coordinates": [
+        41.79627,
+        20.90799
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

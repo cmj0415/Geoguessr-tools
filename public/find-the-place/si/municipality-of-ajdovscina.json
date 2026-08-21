@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Ajdovščina",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-ajdovscina-3204854",
+      "name": "Ajdovščina",
+      "coordinates": [
+        45.88601,
+        13.90946
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

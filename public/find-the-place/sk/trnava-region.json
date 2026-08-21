@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Trnava Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "sk-trnava-3057124",
+      "name": "Trnava",
+      "coordinates": [
+        48.37773,
+        17.58603
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-piestany-3058202",
+      "name": "Piešťany",
+      "coordinates": [
+        48.59479,
+        17.82591
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-dunajska-streda-3060308",
+      "name": "Dunajská Streda",
+      "coordinates": [
+        47.99268,
+        17.61211
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-hlohovec-3060095",
+      "name": "Hlohovec",
+      "coordinates": [
+        48.43174,
+        17.8031
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-senica-3057691",
+      "name": "Senica",
+      "coordinates": [
+        48.67922,
+        17.36697
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-skalica-3057630",
+      "name": "Skalica",
+      "coordinates": [
+        48.8449,
+        17.22635
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-galanta-3060219",
+      "name": "Galanta",
+      "coordinates": [
+        48.19001,
+        17.72747
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-sereg-3057685",
+      "name": "Sereď",
+      "coordinates": [
+        48.29117,
+        17.73331
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

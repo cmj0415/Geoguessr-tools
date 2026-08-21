@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kochani",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-kochani-789403",
+      "name": "Kochani",
+      "coordinates": [
+        41.91639,
+        22.41278
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

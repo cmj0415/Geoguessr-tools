@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Zeta",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-golubovci-3200422",
+      "name": "Golubovci",
+      "coordinates": [
+        42.3352,
+        19.23104
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

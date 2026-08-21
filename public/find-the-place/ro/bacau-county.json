@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Bacău County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-bacau-685948",
+      "name": "Bacău",
+      "coordinates": [
+        46.56718,
+        26.91384
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-moinesti-672926",
+      "name": "Moineşti",
+      "coordinates": [
+        46.47523,
+        26.48907
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-comanesti-681017",
+      "name": "Comăneşti",
+      "coordinates": [
+        46.42135,
+        26.43645
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-buhusi-683365",
+      "name": "Buhuşi",
+      "coordinates": [
+        46.71667,
+        26.7
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Redange",
+  "children": [
+    {
+      "type": "place",
+      "id": "lu-redange-sur-attert-2960160",
+      "name": "Redange-sur-Attert",
+      "coordinates": [
+        49.76437,
+        5.88997
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

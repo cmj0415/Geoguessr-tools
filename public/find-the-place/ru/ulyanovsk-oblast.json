@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-ulyanovsk-oblast-ulyanovsk",
           "name": "Ulyanovsk",
-          "coordinates": [54.32824, 48.38657],
+          "coordinates": [
+            54.32824,
+            48.38657
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-ulyanovsk-oblast-dimitrovgrad",
           "name": "Dimitrovgrad",
-          "coordinates": [54.21386, 49.61838],
-          "difficulty": "Easy"
+          "coordinates": [
+            54.21386,
+            49.61838
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-ulyanovsk-oblast-inza",
           "name": "Inza",
-          "coordinates": [53.85342, 46.3513],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.85342,
+            46.3513
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-ulyanovsk-oblast-barysh",
           "name": "Barysh",
-          "coordinates": [53.64976, 47.12715],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.64976,
+            47.12715
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-ulyanovsk-oblast-novoulyanovsk",
           "name": "Novoulyanovsk",
-          "coordinates": [54.14774, 48.38644],
+          "coordinates": [
+            54.14774,
+            48.38644
+          ],
           "difficulty": "Hard"
         }
       ]

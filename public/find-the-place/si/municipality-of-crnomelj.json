@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Črnomelj",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-crnomelj-3202333",
+      "name": "Črnomelj",
+      "coordinates": [
+        45.57262,
+        15.1919
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

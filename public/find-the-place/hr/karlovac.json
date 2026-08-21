@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Karlovac",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-karlovac-3345300",
+      "name": "Karlovac",
+      "coordinates": [
+        45.49167,
+        15.55
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hr-ogulin-3194183",
+      "name": "Ogulin",
+      "coordinates": [
+        45.26611,
+        15.22861
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

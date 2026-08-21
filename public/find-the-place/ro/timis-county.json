@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Timiș County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-timisoara-665087",
+      "name": "Timişoara",
+      "coordinates": [
+        45.75372,
+        21.22571
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-lugoj-674531",
+      "name": "Lugoj",
+      "coordinates": [
+        45.68861,
+        21.90306
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

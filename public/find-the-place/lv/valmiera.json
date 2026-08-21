@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Valmiera",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-valmiera-453754",
+      "name": "Valmiera",
+      "coordinates": [
+        57.54108,
+        25.42751
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

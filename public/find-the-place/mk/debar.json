@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Debar",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-debar-791606",
+      "name": "Debar",
+      "coordinates": [
+        41.52286,
+        20.52198
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Līvāni",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-livani-457860",
+      "name": "Līvāni",
+      "coordinates": [
+        56.35431,
+        26.17579
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

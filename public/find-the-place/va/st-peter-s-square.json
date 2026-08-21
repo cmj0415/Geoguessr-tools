@@ -1,0 +1,10 @@
+{
+  "type": "place",
+  "id": "va-st-peters-square",
+  "name": "St. Peter's Square",
+  "coordinates": [
+    41.90225,
+    12.45726
+  ],
+  "difficulty": "Easy"
+}

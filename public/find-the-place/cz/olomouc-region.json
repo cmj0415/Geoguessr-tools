@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Olomouc Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "cz-olomouc-3069011",
+      "name": "Olomouc",
+      "coordinates": [
+        49.59552,
+        17.25175
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cz-prostejov-3067421",
+      "name": "Prostějov",
+      "coordinates": [
+        49.47188,
+        17.11184
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-prerov-3067580",
+      "name": "Přerov",
+      "coordinates": [
+        49.45511,
+        17.4509
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-sumperk-3064673",
+      "name": "Šumperk",
+      "coordinates": [
+        49.96528,
+        16.97061
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-hranice-3074893",
+      "name": "Hranice",
+      "coordinates": [
+        49.54796,
+        17.73469
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

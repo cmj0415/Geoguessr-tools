@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Prilep",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-prilep-786735",
+      "name": "Prilep",
+      "coordinates": [
+        41.34558,
+        21.5537
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

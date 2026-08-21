@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-murmansk-oblast-murmansk",
           "name": "Murmansk",
-          "coordinates": [68.96778, 33.09922],
+          "coordinates": [
+            68.96778,
+            33.09922
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-murmansk-oblast-apatity",
           "name": "Apatity",
-          "coordinates": [67.58267, 33.41339],
-          "difficulty": "Easy"
+          "coordinates": [
+            67.58267,
+            33.41339
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-murmansk-oblast-severomorsk",
           "name": "Severomorsk",
-          "coordinates": [69.06936, 33.40807],
-          "difficulty": "Medium"
+          "coordinates": [
+            69.06936,
+            33.40807
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-murmansk-oblast-monchegorsk",
           "name": "Monchegorsk",
-          "coordinates": [67.93972, 32.87389],
-          "difficulty": "Medium"
+          "coordinates": [
+            67.93972,
+            32.87389
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-murmansk-oblast-kandalaksha",
           "name": "Kandalaksha",
-          "coordinates": [67.15123, 32.41284],
+          "coordinates": [
+            67.15123,
+            32.41284
+          ],
           "difficulty": "Hard"
         }
       ]

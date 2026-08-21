@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Sumy",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-sumy-692194",
+      "name": "Sumy",
+      "coordinates": [
+        50.91741,
+        34.79906
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-konotop-705135",
+      "name": "Konotop",
+      "coordinates": [
+        51.23251,
+        33.2004
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-shostka-693942",
+      "name": "Shostka",
+      "coordinates": [
+        51.86434,
+        33.47283
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-okhtyrka-713749",
+      "name": "Okhtyrka",
+      "coordinates": [
+        50.30852,
+        34.89468
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-romny-695464",
+      "name": "Romny",
+      "coordinates": [
+        50.74025,
+        33.4952
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-hlukhiv-707758",
+      "name": "Hlukhiv",
+      "coordinates": [
+        51.67982,
+        33.91682
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-krolevets-704000",
+      "name": "Krolevets",
+      "coordinates": [
+        51.55181,
+        33.38044
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-lebedyn-613273",
+      "name": "Lebedyn",
+      "coordinates": [
+        50.58228,
+        34.48258
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

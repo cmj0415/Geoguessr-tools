@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Schwyz",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-einsiedeln-2660925",
+      "name": "Einsiedeln",
+      "coordinates": [
+        47.12849,
+        8.74735
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ch-schwyz-2658665",
+      "name": "Schwyz",
+      "coordinates": [
+        47.02076,
+        8.65414
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ch-freienbach-2660721",
+      "name": "Freienbach",
+      "coordinates": [
+        47.20534,
+        8.75842
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ch-kuessnacht-2660088",
+      "name": "Küssnacht",
+      "coordinates": [
+        47.08557,
+        8.44206
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

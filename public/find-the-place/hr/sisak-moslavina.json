@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Sisak-Moslavina",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-sisak-3190813",
+      "name": "Sisak",
+      "coordinates": [
+        45.46608,
+        16.37748
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hr-petrinja-3193420",
+      "name": "Petrinja",
+      "coordinates": [
+        45.4375,
+        16.29
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-kutina-3196864",
+      "name": "Kutina",
+      "coordinates": [
+        45.475,
+        16.78194
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-novska-3194319",
+      "name": "Novska",
+      "coordinates": [
+        45.34056,
+        16.97694
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

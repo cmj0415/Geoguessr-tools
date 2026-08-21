@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Opština Plužine",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-pluzine-3193131",
+      "name": "Plužine",
+      "coordinates": [
+        43.15211,
+        18.83902
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

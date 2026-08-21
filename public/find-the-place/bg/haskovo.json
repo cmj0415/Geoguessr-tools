@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Haskovo",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-haskovo-730435",
+      "name": "Haskovo",
+      "coordinates": [
+        41.93415,
+        25.55557
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "bg-dimitrovgrad-732263",
+      "name": "Dimitrovgrad",
+      "coordinates": [
+        42.05,
+        25.6
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-harmanli-730442",
+      "name": "Harmanli",
+      "coordinates": [
+        41.93233,
+        25.90172
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-svilengrad-726546",
+      "name": "Svilengrad",
+      "coordinates": [
+        41.76836,
+        26.19775
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

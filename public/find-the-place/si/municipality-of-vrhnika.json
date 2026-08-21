@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Vrhnika",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-vrhnika-3187214",
+      "name": "Vrhnika",
+      "coordinates": [
+        45.9635,
+        14.29484
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

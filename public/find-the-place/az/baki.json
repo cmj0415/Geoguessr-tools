@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Baki",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-baku-587084",
+      "name": "Baku",
+      "coordinates": [
+        40.37767,
+        49.89201
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "az-qaracuxur-585103",
+      "name": "Qaraçuxur",
+      "coordinates": [
+        40.39667,
+        49.97361
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "az-bakixanov-824003",
+      "name": "Bakıxanov",
+      "coordinates": [
+        40.41894,
+        49.96693
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "az-bilajari-587078",
+      "name": "Bilajari",
+      "coordinates": [
+        40.4444,
+        49.80566
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "az-mastaga-585557",
+      "name": "Maştağa",
+      "coordinates": [
+        40.52983,
+        50.00616
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "az-hovsan-586429",
+      "name": "Hövsan",
+      "coordinates": [
+        40.37444,
+        50.08528
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

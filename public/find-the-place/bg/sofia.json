@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Sofia",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-samokov-727462",
+      "name": "Samokov",
+      "coordinates": [
+        42.33855,
+        23.55805
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-botevgrad-733014",
+      "name": "Botevgrad",
+      "coordinates": [
+        42.90799,
+        23.79274
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-ihtiman-730919",
+      "name": "Ihtiman",
+      "coordinates": [
+        42.43821,
+        23.81608
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "bg-kostinbrod-730084",
+      "name": "Kostinbrod",
+      "coordinates": [
+        42.81667,
+        23.21667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "bg-etropole-731626",
+      "name": "Etropole",
+      "coordinates": [
+        42.8328,
+        23.99636
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

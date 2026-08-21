@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Salaspils Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-salaspils-455898",
+      "name": "Salaspils",
+      "coordinates": [
+        56.86014,
+        24.36544
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

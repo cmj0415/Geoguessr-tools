@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Brașov County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-brasov-683844",
+      "name": "Braşov",
+      "coordinates": [
+        45.64861,
+        25.60613
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-fagaras-678499",
+      "name": "Făgăraș",
+      "coordinates": [
+        45.85,
+        24.96667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-sacele-668314",
+      "name": "Săcele",
+      "coordinates": [
+        45.61674,
+        25.71101
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-zarnesti-662284",
+      "name": "Zărnești",
+      "coordinates": [
+        45.56093,
+        25.31787
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-codlea-681179",
+      "name": "Codlea",
+      "coordinates": [
+        45.7,
+        25.45
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Gǝncǝ",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-ganja-586523",
+      "name": "Ganja",
+      "coordinates": [
+        40.68157,
+        46.36134
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

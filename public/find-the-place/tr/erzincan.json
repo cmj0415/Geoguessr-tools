@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Erzincan",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-erzincan-315373",
+      "name": "Erzincan",
+      "coordinates": [
+        39.73919,
+        39.49015
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

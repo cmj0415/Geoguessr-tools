@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Volyn",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-lutsk-702569",
+      "name": "Lutsk",
+      "coordinates": [
+        50.75784,
+        25.35024
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-kovel-704617",
+      "name": "Kovel",
+      "coordinates": [
+        51.21548,
+        24.70077
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-novovolynsk-699035",
+      "name": "Novovolynsk",
+      "coordinates": [
+        50.72949,
+        24.15976
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-volodymyr-volynskyi-689378",
+      "name": "Volodymyr-Volynskyi",
+      "coordinates": [
+        50.85033,
+        24.32119
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

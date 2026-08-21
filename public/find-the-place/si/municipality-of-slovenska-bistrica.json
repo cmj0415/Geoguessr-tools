@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Slovenska Bistrica",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-slovenska-bistrica-3190534",
+      "name": "Slovenska Bistrica",
+      "coordinates": [
+        46.39309,
+        15.57347
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Gorj County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-targu-jiu-665010",
+      "name": "Târgu Jiu",
+      "coordinates": [
+        45.05,
+        23.28333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-motru-672757",
+      "name": "Motru",
+      "coordinates": [
+        44.80333,
+        22.97194
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

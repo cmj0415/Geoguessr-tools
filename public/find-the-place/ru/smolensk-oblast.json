@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-smolensk-oblast-smolensk",
           "name": "Smolensk",
-          "coordinates": [54.77826, 32.05088],
+          "coordinates": [
+            54.77826,
+            32.05088
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-smolensk-oblast-roslavl",
           "name": "Roslavl",
-          "coordinates": [53.95387, 32.86409],
-          "difficulty": "Easy"
+          "coordinates": [
+            53.95387,
+            32.86409
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-smolensk-oblast-vyazma",
           "name": "Vyazma",
-          "coordinates": [55.20997, 34.29695],
-          "difficulty": "Medium"
+          "coordinates": [
+            55.20997,
+            34.29695
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-smolensk-oblast-yartsevo",
           "name": "Yartsevo",
-          "coordinates": [55.06491, 32.69693],
-          "difficulty": "Medium"
+          "coordinates": [
+            55.06491,
+            32.69693
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-smolensk-oblast-safonovo",
           "name": "Safonovo",
-          "coordinates": [55.11091, 33.23728],
+          "coordinates": [
+            55.11091,
+            33.23728
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Zonguldak Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-zonguldak-737022",
+      "name": "Zonguldak",
+      "coordinates": [
+        41.45139,
+        31.79305
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-eregli-747471",
+      "name": "Ereğli",
+      "coordinates": [
+        41.28261,
+        31.41806
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

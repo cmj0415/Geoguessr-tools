@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jabrayil",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-jabrayil-148141",
+      "name": "Jabrayil",
+      "coordinates": [
+        39.39917,
+        47.02835
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

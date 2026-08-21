@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Mardin",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-kiziltepe-307084",
+      "name": "Kızıltepe",
+      "coordinates": [
+        37.18836,
+        40.57723
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-mardin-304797",
+      "name": "Mardin",
+      "coordinates": [
+        37.31309,
+        40.74357
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-nusaybin-303750",
+      "name": "Nusaybin",
+      "coordinates": [
+        37.07028,
+        41.21465
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "tr-midyat-304382",
+      "name": "Midyat",
+      "coordinates": [
+        37.41908,
+        41.33909
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

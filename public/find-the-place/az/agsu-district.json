@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Agsu District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-aghsu-587361",
+      "name": "Aghsu",
+      "coordinates": [
+        40.57028,
+        48.40087
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

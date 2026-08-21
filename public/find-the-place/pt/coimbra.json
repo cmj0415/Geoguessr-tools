@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Coimbra",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-coimbra-2740637",
+      "name": "Coimbra",
+      "coordinates": [
+        40.20686,
+        -8.41996
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-figueira-da-foz-2739590",
+      "name": "Figueira da Foz",
+      "coordinates": [
+        40.15085,
+        -8.86179
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-santo-antonio-dos-olivais-2734585",
+      "name": "Santo António dos Olivais",
+      "coordinates": [
+        40.21805,
+        -8.40523
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

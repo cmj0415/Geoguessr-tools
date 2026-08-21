@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Klaipėda County",
+  "children": [
+    {
+      "type": "place",
+      "id": "lt-klaipeda-598098",
+      "name": "Klaipėda",
+      "coordinates": [
+        55.7068,
+        21.13912
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-palanga-596238",
+      "name": "Palanga",
+      "coordinates": [
+        55.9175,
+        21.06861
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "lt-kretinga-597989",
+      "name": "Kretinga",
+      "coordinates": [
+        55.8888,
+        21.24448
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "lt-gargzdai-599506",
+      "name": "Gargždai",
+      "coordinates": [
+        55.70951,
+        21.39441
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "lt-silute-594656",
+      "name": "Silute",
+      "coordinates": [
+        55.34889,
+        21.48306
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "lt-skuodas-594488",
+      "name": "Skuodas",
+      "coordinates": [
+        56.27057,
+        21.53208
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

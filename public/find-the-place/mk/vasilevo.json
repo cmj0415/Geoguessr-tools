@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Vasilevo",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-vasilevo-784700",
+      "name": "Vasilevo",
+      "coordinates": [
+        41.47423,
+        22.64506
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

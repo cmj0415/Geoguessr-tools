@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-kurgan-oblast-kurgan",
           "name": "Kurgan",
-          "coordinates": [55.44905, 65.34344],
+          "coordinates": [
+            55.44905,
+            65.34344
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-kurgan-oblast-shadrinsk",
           "name": "Shadrinsk",
-          "coordinates": [56.08616, 63.63816],
-          "difficulty": "Easy"
+          "coordinates": [
+            56.08616,
+            63.63816
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kurgan-oblast-shumikha",
           "name": "Shumikha",
-          "coordinates": [55.22874, 63.28552],
-          "difficulty": "Medium"
+          "coordinates": [
+            55.22874,
+            63.28552
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-kurgan-oblast-kurtamysh",
           "name": "Kurtamysh",
-          "coordinates": [54.90973, 64.4319],
-          "difficulty": "Medium"
+          "coordinates": [
+            54.90973,
+            64.4319
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-kurgan-oblast-kataysk",
           "name": "Kataysk",
-          "coordinates": [56.28854, 62.58115],
+          "coordinates": [
+            56.28854,
+            62.58115
+          ],
           "difficulty": "Hard"
         }
       ]

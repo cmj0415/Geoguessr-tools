@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Mārupe",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-marupe-864723",
+      "name": "Mārupe",
+      "coordinates": [
+        56.90544,
+        24.05113
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

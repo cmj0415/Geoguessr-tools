@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Gusinje Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-gusinje-3199463",
+      "name": "Gusinje",
+      "coordinates": [
+        42.56194,
+        19.83389
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

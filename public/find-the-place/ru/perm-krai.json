@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-perm-krai-perm",
           "name": "Perm",
-          "coordinates": [58.01046, 56.25017],
+          "coordinates": [
+            58.01046,
+            56.25017
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-perm-krai-berezniki",
           "name": "Berezniki",
-          "coordinates": [59.4091, 56.8204],
-          "difficulty": "Easy"
+          "coordinates": [
+            59.4091,
+            56.8204
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-perm-krai-solikamsk",
           "name": "Solikamsk",
-          "coordinates": [59.66686, 56.74267],
+          "coordinates": [
+            59.66686,
+            56.74267
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-perm-krai-chaykovskiy",
           "name": "Chaykovskiy",
-          "coordinates": [56.76323, 54.11256],
-          "difficulty": "Medium"
+          "coordinates": [
+            56.76323,
+            54.11256
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-perm-krai-lysva",
           "name": "Lysva",
-          "coordinates": [58.10737, 57.81063],
+          "coordinates": [
+            58.10737,
+            57.81063
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Scotland",
+  "children": [
+    {
+      "type": "place",
+      "id": "gb-glasgow-2648579",
+      "name": "Glasgow",
+      "coordinates": [
+        55.86515,
+        -4.25763
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "gb-edinburgh-2650225",
+      "name": "Edinburgh",
+      "coordinates": [
+        55.95206,
+        -3.19648
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "gb-aberdeen-2657832",
+      "name": "Aberdeen",
+      "coordinates": [
+        57.14369,
+        -2.09814
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "gb-dundee-2650752",
+      "name": "Dundee",
+      "coordinates": [
+        56.46913,
+        -2.97489
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gb-paisley-2640677",
+      "name": "Paisley",
+      "coordinates": [
+        55.83173,
+        -4.43254
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "gb-east-kilbride-2650405",
+      "name": "East Kilbride",
+      "coordinates": [
+        55.76412,
+        -4.17669
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Carinthia",
+  "children": [
+    {
+      "type": "place",
+      "id": "at-klagenfurt-am-woerthersee-2774326",
+      "name": "Klagenfurt am Wörthersee",
+      "coordinates": [
+        46.62472,
+        14.30528
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-villach-2762372",
+      "name": "Villach",
+      "coordinates": [
+        46.61028,
+        13.85583
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-wolfsberg-2760910",
+      "name": "Wolfsberg",
+      "coordinates": [
+        46.84056,
+        14.84417
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-spittal-an-der-drau-2764786",
+      "name": "Spittal an der Drau",
+      "coordinates": [
+        46.8,
+        13.5
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-sankt-veit-an-der-glan-2766359",
+      "name": "Sankt Veit an der Glan",
+      "coordinates": [
+        46.76806,
+        14.36028
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-viktring-2762375",
+      "name": "Viktring",
+      "coordinates": [
+        46.59194,
+        14.26917
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-finkenstein-am-faaker-see-3218464",
+      "name": "Finkenstein am Faaker See",
+      "coordinates": [
+        46.56081,
+        13.87115
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-ebenthal-2780544",
+      "name": "Ebenthal",
+      "coordinates": [
+        46.60806,
+        14.36417
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

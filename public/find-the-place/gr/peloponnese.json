@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Peloponnese",
+  "children": [
+    {
+      "type": "place",
+      "id": "gr-kalamata-261604",
+      "name": "Kalamata",
+      "coordinates": [
+        37.03913,
+        22.11265
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gr-korinthos-259289",
+      "name": "Kórinthos",
+      "coordinates": [
+        37.94007,
+        22.9513
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "gr-tripoli-252601",
+      "name": "Trípoli",
+      "coordinates": [
+        37.50959,
+        22.37883
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "gr-argos-264670",
+      "name": "Árgos",
+      "coordinates": [
+        37.63333,
+        22.73333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-buryatia-ulan-ude",
           "name": "Ulan-Ude",
-          "coordinates": [51.82648, 107.59979],
+          "coordinates": [
+            51.82648,
+            107.59979
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-buryatia-severobaykalsk",
           "name": "Severobaykalsk",
-          "coordinates": [55.63826, 109.32709],
-          "difficulty": "Easy"
+          "coordinates": [
+            55.63826,
+            109.32709
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-buryatia-gusinoozyorsk",
           "name": "Gusinoozyorsk",
-          "coordinates": [51.28333, 106.5],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.28333,
+            106.5
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-buryatia-kyakhta",
           "name": "Kyakhta",
-          "coordinates": [50.34956, 106.451],
-          "difficulty": "Medium"
+          "coordinates": [
+            50.34956,
+            106.451
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-buryatia-selenginsk",
           "name": "Selenginsk",
-          "coordinates": [52.00639, 106.86472],
+          "coordinates": [
+            52.00639,
+            106.86472
+          ],
           "difficulty": "Hard"
         }
       ]

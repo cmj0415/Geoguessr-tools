@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Kymenlaakso",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-kouvola-650859",
+      "name": "Kouvola",
+      "coordinates": [
+        60.86667,
+        26.7
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "fi-kotka-650946",
+      "name": "Kotka",
+      "coordinates": [
+        60.4664,
+        26.94582
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "fi-karhula-654137",
+      "name": "Karhula",
+      "coordinates": [
+        60.52156,
+        26.93125
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "fi-hamina-659169",
+      "name": "Hamina",
+      "coordinates": [
+        60.56974,
+        27.19794
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

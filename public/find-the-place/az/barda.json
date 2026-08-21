@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Barda",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-barda-587057",
+      "name": "Barda",
+      "coordinates": [
+        40.37577,
+        47.12619
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

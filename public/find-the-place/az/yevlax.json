@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Yevlax",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-aran-824050",
+      "name": "Aran",
+      "coordinates": [
+        40.62528,
+        46.97556
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

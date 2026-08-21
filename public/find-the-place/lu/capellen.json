@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Capellen",
+  "children": [
+    {
+      "type": "place",
+      "id": "lu-mamer-2960299",
+      "name": "Mamer",
+      "coordinates": [
+        49.6275,
+        6.02333
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

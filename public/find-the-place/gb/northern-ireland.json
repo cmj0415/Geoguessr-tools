@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Northern Ireland",
+  "children": [
+    {
+      "type": "place",
+      "id": "gb-belfast-2655984",
+      "name": "Belfast",
+      "coordinates": [
+        54.59682,
+        -5.92541
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "gb-derry-2643736",
+      "name": "Derry",
+      "coordinates": [
+        54.9981,
+        -7.30934
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gb-lisburn-2644411",
+      "name": "Lisburn",
+      "coordinates": [
+        54.52337,
+        -6.03527
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "gb-newtownabbey-2641520",
+      "name": "Newtownabbey",
+      "coordinates": [
+        54.65983,
+        -5.90858
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "gb-bangor-2656396",
+      "name": "Bangor",
+      "coordinates": [
+        54.66079,
+        -5.66802
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "gb-craigavon-3345440",
+      "name": "Craigavon",
+      "coordinates": [
+        54.44709,
+        -6.387
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

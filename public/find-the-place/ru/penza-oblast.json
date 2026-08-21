@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-penza-oblast-penza",
           "name": "Penza",
-          "coordinates": [53.19568, 45.01075],
+          "coordinates": [
+            53.19568,
+            45.01075
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-penza-oblast-kuznetsk",
           "name": "Kuznetsk",
-          "coordinates": [53.11675, 46.60037],
-          "difficulty": "Easy"
+          "coordinates": [
+            53.11675,
+            46.60037
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-penza-oblast-zarechnyy",
           "name": "Zarechnyy",
-          "coordinates": [53.20356, 45.19227],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.20356,
+            45.19227
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-penza-oblast-serdobsk",
           "name": "Serdobsk",
-          "coordinates": [52.45861, 44.21689],
-          "difficulty": "Medium"
+          "coordinates": [
+            52.45861,
+            44.21689
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-penza-oblast-kamenka",
           "name": "Kamenka",
-          "coordinates": [53.18139, 44.04944],
+          "coordinates": [
+            53.18139,
+            44.04944
+          ],
           "difficulty": "Hard"
         }
       ]

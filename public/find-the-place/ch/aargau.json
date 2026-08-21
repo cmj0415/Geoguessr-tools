@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Aargau",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-aarau-2661881",
+      "name": "Aarau",
+      "coordinates": [
+        47.39254,
+        8.04422
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-baden-2661646",
+      "name": "Baden",
+      "coordinates": [
+        47.47333,
+        8.30592
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-wettingen-2658011",
+      "name": "Wettingen",
+      "coordinates": [
+        47.46606,
+        8.32663
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-wohlen-2657963",
+      "name": "Wohlen",
+      "coordinates": [
+        47.35066,
+        8.27517
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

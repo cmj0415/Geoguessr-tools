@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Kyustendil",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-kyustendil-729730",
+      "name": "Kyustendil",
+      "coordinates": [
+        42.28314,
+        22.69224
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-dupnitsa-726872",
+      "name": "Dupnitsa",
+      "coordinates": [
+        42.26478,
+        23.11723
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

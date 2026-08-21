@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Razgrad",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-razgrad-727696",
+      "name": "Razgrad",
+      "coordinates": [
+        43.53331,
+        26.51849
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

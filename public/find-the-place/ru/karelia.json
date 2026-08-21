@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-petrozavodsk",
           "name": "Petrozavodsk",
-          "coordinates": [61.784913, 34.34691],
+          "coordinates": [
+            61.784913,
+            34.34691
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-sortavala",
           "name": "Sortavala",
-          "coordinates": [61.712333, 30.709534],
-          "difficulty": "Easy"
+          "coordinates": [
+            61.712333,
+            30.709534
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kostomuksha",
           "name": "Kostomuksha",
-          "coordinates": [64.571005, 30.576668],
-          "difficulty": "Medium"
+          "coordinates": [
+            64.571005,
+            30.576668
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-kondopoga",
           "name": "Kondopoga",
-          "coordinates": [62.204057, 34.269318],
-          "difficulty": "Medium"
+          "coordinates": [
+            62.204057,
+            34.269318
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,8 +74,11 @@
           "type": "place",
           "id": "ru-segezha",
           "name": "Segezha",
-          "coordinates": [63.745494, 34.316144],
-          "difficulty": "Medium"
+          "coordinates": [
+            63.745494,
+            34.316144
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -75,7 +90,10 @@
           "type": "place",
           "id": "ru-belomorsk",
           "name": "Belomorsk",
-          "coordinates": [64.529998, 34.762924],
+          "coordinates": [
+            64.529998,
+            34.762924
+          ],
           "difficulty": "Hard"
         }
       ]
@@ -88,7 +106,10 @@
           "type": "place",
           "id": "ru-kem",
           "name": "Kem",
-          "coordinates": [64.956951, 34.591761],
+          "coordinates": [
+            64.956951,
+            34.591761
+          ],
           "difficulty": "Hard"
         }
       ]
@@ -101,7 +122,10 @@
           "type": "place",
           "id": "ru-pitkyaranta",
           "name": "Pitkyaranta",
-          "coordinates": [61.573873, 31.47889],
+          "coordinates": [
+            61.573873,
+            31.47889
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Lika-Senj",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-gospic-3199873",
+      "name": "Gospić",
+      "coordinates": [
+        44.54611,
+        15.37472
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

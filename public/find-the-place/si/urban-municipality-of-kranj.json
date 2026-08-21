@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Urban Municipality of Kranj",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-kranj-3197378",
+      "name": "Kranj",
+      "coordinates": [
+        46.23887,
+        14.35561
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

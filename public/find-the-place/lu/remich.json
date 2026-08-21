@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Remich",
+  "children": [
+    {
+      "type": "place",
+      "id": "lu-schengen-2960107",
+      "name": "Schengen",
+      "coordinates": [
+        49.47,
+        6.362
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-nenets-autonomous-okrug-naryan-mar",
           "name": "Naryan-Mar",
-          "coordinates": [67.63869, 53.00371],
-          "difficulty": "Easy"
+          "coordinates": [
+            67.63869,
+            53.00371
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -23,28 +26,40 @@
           "type": "place",
           "id": "ru-nenets-autonomous-okrug-iskateley",
           "name": "Iskateley",
-          "coordinates": [67.68026, 53.15117],
-          "difficulty": "Easy"
+          "coordinates": [
+            67.68026,
+            53.15117
+          ],
+          "difficulty": "Hard"
         },
         {
           "type": "place",
           "id": "ru-nenets-autonomous-okrug-nes",
           "name": "Nes",
-          "coordinates": [66.6004, 44.68094],
-          "difficulty": "Medium"
+          "coordinates": [
+            66.6004,
+            44.68094
+          ],
+          "difficulty": "Hard"
         },
         {
           "type": "place",
           "id": "ru-nenets-autonomous-okrug-khoreyver",
           "name": "Khoreyver",
-          "coordinates": [67.42199, 58.04901],
-          "difficulty": "Medium"
+          "coordinates": [
+            67.42199,
+            58.04901
+          ],
+          "difficulty": "Hard"
         },
         {
           "type": "place",
           "id": "ru-nenets-autonomous-okrug-amderma",
           "name": "Amderma",
-          "coordinates": [69.7576, 61.6655],
+          "coordinates": [
+            69.7576,
+            61.6655
+          ],
           "difficulty": "Hard"
         }
       ]

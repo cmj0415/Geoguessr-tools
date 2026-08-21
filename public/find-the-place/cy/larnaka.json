@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Larnaka",
+  "children": [
+    {
+      "type": "place",
+      "id": "cy-larnaca-146400",
+      "name": "Larnaca",
+      "coordinates": [
+        34.9221,
+        33.62794
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cy-aradippou-146796",
+      "name": "Aradíppou",
+      "coordinates": [
+        34.94779,
+        33.58813
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-pergamos-146189",
+      "name": "Pérgamos",
+      "coordinates": [
+        35.04167,
+        33.70833
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-dhromolaxia-146654",
+      "name": "Dhromolaxia",
+      "coordinates": [
+        34.87551,
+        33.58684
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cy-kolossi-146451",
+      "name": "Kolossi",
+      "coordinates": [
+        34.66865,
+        32.93375
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cy-xylofagou-145972",
+      "name": "Xylofágou",
+      "coordinates": [
+        34.97743,
+        33.84894
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

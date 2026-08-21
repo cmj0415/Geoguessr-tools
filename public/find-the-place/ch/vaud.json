@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Vaud",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-lausanne-2659994",
+      "name": "Lausanne",
+      "coordinates": [
+        46.516,
+        6.63282
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ch-yverdon-les-bains-2657941",
+      "name": "Yverdon-les-Bains",
+      "coordinates": [
+        46.77852,
+        6.64115
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ch-montreux-2659601",
+      "name": "Montreux",
+      "coordinates": [
+        46.43301,
+        6.91143
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-renens-2659070",
+      "name": "Renens",
+      "coordinates": [
+        46.53989,
+        6.5881
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-vevey-2658145",
+      "name": "Vevey",
+      "coordinates": [
+        46.46299,
+        6.84345
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-nyon-2659422",
+      "name": "Nyon",
+      "coordinates": [
+        46.38318,
+        6.23955
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-pully-2659127",
+      "name": "Pully",
+      "coordinates": [
+        46.51027,
+        6.66183
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-morges-2659587",
+      "name": "Morges",
+      "coordinates": [
+        46.51127,
+        6.49854
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

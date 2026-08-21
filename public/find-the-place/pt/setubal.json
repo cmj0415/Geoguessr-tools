@@ -1,0 +1,116 @@
+{
+  "type": "administrative",
+  "name": "Setúbal",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-setubal-2262963",
+      "name": "Setúbal",
+      "coordinates": [
+        38.5244,
+        -8.8882
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-amora-2271680",
+      "name": "Amora",
+      "coordinates": [
+        38.62961,
+        -9.11557
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-corroios-2269041",
+      "name": "Corroios",
+      "coordinates": [
+        38.64004,
+        -9.1508
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-barreiro-2271071",
+      "name": "Barreiro",
+      "coordinates": [
+        38.66314,
+        -9.0724
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-sesimbra-2262957",
+      "name": "Sesimbra",
+      "coordinates": [
+        38.44451,
+        -9.10149
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-almada-2271961",
+      "name": "Almada",
+      "coordinates": [
+        38.67902,
+        -9.1569
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-arrentela-2271473",
+      "name": "Arrentela",
+      "coordinates": [
+        38.625,
+        -9.10151
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-montijo-2265788",
+      "name": "Montijo",
+      "coordinates": [
+        38.70675,
+        -8.97388
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-charneca-de-caparica-2269282",
+      "name": "Charneca de Caparica",
+      "coordinates": [
+        38.62032,
+        -9.19426
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-quinta-do-conde-6559488",
+      "name": "Quinta Do Conde",
+      "coordinates": [
+        38.56528,
+        -9.04316
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-pinhal-novo-2264718",
+      "name": "Pinhal Novo",
+      "coordinates": [
+        38.63106,
+        -8.91376
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

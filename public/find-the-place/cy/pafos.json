@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Pafos",
+  "children": [
+    {
+      "type": "place",
+      "id": "cy-paphos-146214",
+      "name": "Paphos",
+      "coordinates": [
+        34.77679,
+        32.42451
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cy-geroskipou-11919534",
+      "name": "Geroskipou",
+      "coordinates": [
+        34.76091,
+        32.44844
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cy-chlorakas-146490",
+      "name": "Chlórakas",
+      "coordinates": [
+        34.79836,
+        32.40653
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cy-emba-146639",
+      "name": "Emba",
+      "coordinates": [
+        34.807,
+        32.42406
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "type": "administrative",
+  "name": "Porto",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-porto-2735943",
+      "name": "Porto",
+      "coordinates": [
+        41.1485,
+        -8.61097
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-vila-nova-de-gaia-2732544",
+      "name": "Vila Nova de Gaia",
+      "coordinates": [
+        41.12401,
+        -8.61241
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-felgueiras-2739693",
+      "name": "Felgueiras",
+      "coordinates": [
+        41.36806,
+        -8.19396
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-rio-tinto-2735083",
+      "name": "Rio Tinto",
+      "coordinates": [
+        41.17872,
+        -8.55953
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-paranhos-2736680",
+      "name": "Paranhos",
+      "coordinates": [
+        41.17289,
+        -8.59931
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-ermesinde-2739997",
+      "name": "Ermesinde",
+      "coordinates": [
+        41.21653,
+        -8.55318
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-santo-ovidio-2734576",
+      "name": "Santo Ovídio",
+      "coordinates": [
+        41.11379,
+        -8.60235
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-maia-2738014",
+      "name": "Maia",
+      "coordinates": [
+        41.23574,
+        -8.6199
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-afurada-de-baixo-2743373",
+      "name": "Afurada de Baixo",
+      "coordinates": [
+        41.14389,
+        -8.64639
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-campanha-2741667",
+      "name": "Campanhã",
+      "coordinates": [
+        41.15706,
+        -8.57466
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-aldoar-2743131",
+      "name": "Aldoar",
+      "coordinates": [
+        41.1671,
+        -8.6691
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-povoa-de-varzim-2735787",
+      "name": "Póvoa de Varzim",
+      "coordinates": [
+        41.38344,
+        -8.76364
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-senhora-da-hora-2734140",
+      "name": "Senhora da Hora",
+      "coordinates": [
+        41.18641,
+        -8.65172
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-matosinhos-2737824",
+      "name": "Matosinhos",
+      "coordinates": [
+        41.18207,
+        -8.68908
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-gondomar-2738925",
+      "name": "Gondomar",
+      "coordinates": [
+        41.14454,
+        -8.53223
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-aguas-santas-2743304",
+      "name": "Águas Santas",
+      "coordinates": [
+        41.21017,
+        -8.57599
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-vila-do-conde-2732649",
+      "name": "Vila do Conde",
+      "coordinates": [
+        41.35326,
+        -8.74516
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-canidelo-2741551",
+      "name": "Canidelo",
+      "coordinates": [
+        41.12314,
+        -8.64654
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-sao-mamede-de-infesta-2734434",
+      "name": "São Mamede de Infesta",
+      "coordinates": [
+        41.19183,
+        -8.61105
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-oliveira-do-douro-2737039",
+      "name": "Oliveira do Douro",
+      "coordinates": [
+        41.12466,
+        -8.58463
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-fanzeres-2739756",
+      "name": "Fânzeres",
+      "coordinates": [
+        41.16754,
+        -8.52981
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

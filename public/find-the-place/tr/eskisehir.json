@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Eskişehir",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-eskisehir-315202",
+      "name": "Eskişehir",
+      "coordinates": [
+        39.77667,
+        30.52056
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

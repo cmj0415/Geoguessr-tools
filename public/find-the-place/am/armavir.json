@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Armavir",
+  "children": [
+    {
+      "type": "place",
+      "id": "am-vagharshapat-616062",
+      "name": "Vagharshapat",
+      "coordinates": [
+        40.16557,
+        44.29462
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "am-armavir-616631",
+      "name": "Armavir",
+      "coordinates": [
+        40.15553,
+        44.0388
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "am-metsamor-823807",
+      "name": "Metsamor",
+      "coordinates": [
+        40.14459,
+        44.11484
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-parakar-616307",
+      "name": "Parakar",
+      "coordinates": [
+        40.16388,
+        44.4057
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "am-sardarapat-616328",
+      "name": "Sardarapat",
+      "coordinates": [
+        40.13206,
+        44.00969
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

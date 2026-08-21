@@ -1,0 +1,146 @@
+{
+  "type": "administrative",
+  "name": "Wallonia",
+  "children": [
+    {
+      "type": "place",
+      "id": "be-charleroi-2800481",
+      "name": "Charleroi",
+      "coordinates": [
+        50.41136,
+        4.44448
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-liege-2792413",
+      "name": "Liège",
+      "coordinates": [
+        50.63373,
+        5.56749
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-namur-2790471",
+      "name": "Namur",
+      "coordinates": [
+        50.4669,
+        4.86746
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-mons-2790869",
+      "name": "Mons",
+      "coordinates": [
+        50.45413,
+        3.95229
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-la-louviere-2793508",
+      "name": "La Louvière",
+      "coordinates": [
+        50.48657,
+        4.18785
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-tournai-2785341",
+      "name": "Tournai",
+      "coordinates": [
+        50.60715,
+        3.38932
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-seraing-2786824",
+      "name": "Seraing",
+      "coordinates": [
+        50.58362,
+        5.50115
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-verviers-2784821",
+      "name": "Verviers",
+      "coordinates": [
+        50.58907,
+        5.86241
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-mouscron-2790595",
+      "name": "Mouscron",
+      "coordinates": [
+        50.74497,
+        3.20639
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-braine-l-alleud-2801154",
+      "name": "Braine-l'Alleud",
+      "coordinates": [
+        50.68363,
+        4.36784
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-herstal-2795930",
+      "name": "Herstal",
+      "coordinates": [
+        50.66415,
+        5.62346
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "be-chatelet-2800448",
+      "name": "Châtelet",
+      "coordinates": [
+        50.40338,
+        4.52826
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "be-wavre-2783941",
+      "name": "Wavre",
+      "coordinates": [
+        50.71717,
+        4.60138
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "be-binche-2801922",
+      "name": "Binche",
+      "coordinates": [
+        50.41155,
+        4.16469
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

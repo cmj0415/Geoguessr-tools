@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "West",
+  "children": [
+    {
+      "type": "place",
+      "id": "is-akranes-3418653",
+      "name": "Akranes",
+      "coordinates": [
+        64.32179,
+        -22.0749
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "is-borgarnes-3418076",
+      "name": "Borgarnes",
+      "coordinates": [
+        64.53834,
+        -21.92064
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-stykkisholmur-3412888",
+      "name": "Stykkishólmur",
+      "coordinates": [
+        65.07537,
+        -22.72977
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-olafsvik-3414079",
+      "name": "Ólafsvík",
+      "coordinates": [
+        64.89429,
+        -23.70918
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-grundarfjoerdur-3416839",
+      "name": "Grundarfjörður",
+      "coordinates": [
+        64.92427,
+        -23.26313
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

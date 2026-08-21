@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Goygol Rayon",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-goygol-584716",
+      "name": "Goygol",
+      "coordinates": [
+        40.58584,
+        46.3189
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

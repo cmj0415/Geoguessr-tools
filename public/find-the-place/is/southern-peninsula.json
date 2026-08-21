@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Southern Peninsula",
+  "children": [
+    {
+      "type": "place",
+      "id": "is-reykjanesbaer-8644037",
+      "name": "Reykjanesbær",
+      "coordinates": [
+        63.99813,
+        -22.56111
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "is-keflavik-3415496",
+      "name": "Keflavík",
+      "coordinates": [
+        64.00492,
+        -22.56242
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "is-grindavik-3416888",
+      "name": "Grindavík",
+      "coordinates": [
+        63.83849,
+        -22.43931
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-sandgerdi-3413727",
+      "name": "Sandgerði",
+      "coordinates": [
+        64.03762,
+        -22.70799
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-gardur-3417079",
+      "name": "Garður",
+      "coordinates": [
+        64.07055,
+        -22.6513
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-vogar-3412011",
+      "name": "Vogar",
+      "coordinates": [
+        63.9816,
+        -22.38473
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

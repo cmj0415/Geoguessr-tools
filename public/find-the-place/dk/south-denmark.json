@@ -1,0 +1,126 @@
+{
+  "type": "administrative",
+  "name": "South Denmark",
+  "children": [
+    {
+      "type": "place",
+      "id": "dk-odense-2615876",
+      "name": "Odense",
+      "coordinates": [
+        55.39594,
+        10.38831
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-esbjerg-2622447",
+      "name": "Esbjerg",
+      "coordinates": [
+        55.47028,
+        8.45187
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-kolding-2618528",
+      "name": "Kolding",
+      "coordinates": [
+        55.4904,
+        9.47216
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-vejle-2610613",
+      "name": "Vejle",
+      "coordinates": [
+        55.70927,
+        9.5357
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-fredericia-2621951",
+      "name": "Fredericia",
+      "coordinates": [
+        55.56568,
+        9.75257
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-sonderborg-2613102",
+      "name": "Sønderborg",
+      "coordinates": [
+        54.90896,
+        9.78917
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-svendborg-2612045",
+      "name": "Svendborg",
+      "coordinates": [
+        55.05982,
+        10.60677
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-haderslev-2620964",
+      "name": "Haderslev",
+      "coordinates": [
+        55.24943,
+        9.48771
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-nyborg-2616015",
+      "name": "Nyborg",
+      "coordinates": [
+        55.31274,
+        10.78964
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-tonder-2611497",
+      "name": "Tønder",
+      "coordinates": [
+        54.93306,
+        8.86674
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-aabenraa-2625070",
+      "name": "Aabenraa",
+      "coordinates": [
+        55.04434,
+        9.41741
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-middelfart-2616933",
+      "name": "Middelfart",
+      "coordinates": [
+        55.50591,
+        9.73054
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

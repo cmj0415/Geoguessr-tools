@@ -1,0 +1,116 @@
+{
+  "type": "administrative",
+  "name": "Central Jutland",
+  "children": [
+    {
+      "type": "place",
+      "id": "dk-arhus-2624652",
+      "name": "Århus",
+      "coordinates": [
+        56.15674,
+        10.21076
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-randers-2615006",
+      "name": "Randers",
+      "coordinates": [
+        56.4607,
+        10.03639
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-horsens-2619771",
+      "name": "Horsens",
+      "coordinates": [
+        55.86066,
+        9.85034
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-herning-2620425",
+      "name": "Herning",
+      "coordinates": [
+        56.13615,
+        8.97662
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-silkeborg-2614030",
+      "name": "Silkeborg",
+      "coordinates": [
+        56.1697,
+        9.54508
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-hedensted-2620583",
+      "name": "Hedensted",
+      "coordinates": [
+        55.77043,
+        9.7011
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-viborg-2610319",
+      "name": "Viborg",
+      "coordinates": [
+        56.45319,
+        9.40201
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-holstebro-2620046",
+      "name": "Holstebro",
+      "coordinates": [
+        56.36009,
+        8.61607
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-viby-2610310",
+      "name": "Viby",
+      "coordinates": [
+        56.12259,
+        10.15145
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-skive-2613731",
+      "name": "Skive",
+      "coordinates": [
+        56.56699,
+        9.02707
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-tilst-2611720",
+      "name": "Tilst",
+      "coordinates": [
+        56.19376,
+        10.11283
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

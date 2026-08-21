@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Jõgevamaa",
+  "children": [
+    {
+      "type": "place",
+      "id": "ee-jogeva-591902",
+      "name": "Jõgeva",
+      "coordinates": [
+        58.74667,
+        26.39389
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ee-poltsamaa-589379",
+      "name": "Põltsamaa",
+      "coordinates": [
+        58.6525,
+        25.97056
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

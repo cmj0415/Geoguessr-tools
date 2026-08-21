@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kuldīga Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-kuldiga-458460",
+      "name": "Kuldīga",
+      "coordinates": [
+        56.97399,
+        21.95721
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

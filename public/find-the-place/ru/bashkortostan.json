@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-bashkortostan-ufa",
           "name": "Ufa",
-          "coordinates": [54.74306, 55.96779],
+          "coordinates": [
+            54.74306,
+            55.96779
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-bashkortostan-sterlitamak",
           "name": "Sterlitamak",
-          "coordinates": [53.63793, 55.9533],
+          "coordinates": [
+            53.63793,
+            55.9533
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-bashkortostan-salavat",
           "name": "Salavat",
-          "coordinates": [53.3828, 55.91094],
+          "coordinates": [
+            53.3828,
+            55.91094
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-bashkortostan-neftekamsk",
           "name": "Neftekamsk",
-          "coordinates": [56.08879, 54.26383],
+          "coordinates": [
+            56.08879,
+            54.26383
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,8 +74,11 @@
           "type": "place",
           "id": "ru-bashkortostan-oktyabrsky",
           "name": "Oktyabrsky",
-          "coordinates": [54.48147, 53.47103],
-          "difficulty": "Hard"
+          "coordinates": [
+            54.48147,
+            53.47103
+          ],
+          "difficulty": "Medium"
         }
       ]
     }

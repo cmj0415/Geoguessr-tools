@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Botoșani County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-botosani-684039",
+      "name": "Botoşani",
+      "coordinates": [
+        47.75,
+        26.66667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-dorohoi-679065",
+      "name": "Dorohoi",
+      "coordinates": [
+        47.95,
+        26.4
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

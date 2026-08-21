@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "East",
+  "children": [
+    {
+      "type": "place",
+      "id": "is-egilsstadir-2632132",
+      "name": "Egilsstaðir",
+      "coordinates": [
+        65.26687,
+        -14.39485
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-hoefn-2630299",
+      "name": "Höfn",
+      "coordinates": [
+        64.25388,
+        -15.21212
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-neskaupstadur-2628020",
+      "name": "Neskaupstaður",
+      "coordinates": [
+        65.14819,
+        -13.68368
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-reydarfjoerdur-2632428",
+      "name": "Reyðarfjörður",
+      "coordinates": [
+        65.03164,
+        -14.21832
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-eskifjoerdur-2632028",
+      "name": "Eskifjörður",
+      "coordinates": [
+        65.07306,
+        -14.01525
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Burgas",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-burgas-732770",
+      "name": "Burgas",
+      "coordinates": [
+        42.50651,
+        27.46886
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "bg-aytos-733579",
+      "name": "Aytos",
+      "coordinates": [
+        42.70322,
+        27.25464
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-karnobat-730559",
+      "name": "Karnobat",
+      "coordinates": [
+        42.65,
+        26.98333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-pomorie-728108",
+      "name": "Pomorie",
+      "coordinates": [
+        42.56326,
+        27.62986
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "bg-nesebar-728825",
+      "name": "Nesebar",
+      "coordinates": [
+        42.65921,
+        27.73602
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

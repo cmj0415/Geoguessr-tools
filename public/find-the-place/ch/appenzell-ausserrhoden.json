@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Appenzell Ausserrhoden",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-herisau-2660365",
+      "name": "Herisau",
+      "coordinates": [
+        47.38615,
+        9.27916
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

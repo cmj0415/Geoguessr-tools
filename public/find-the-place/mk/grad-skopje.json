@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Grad Skopje",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-skopje-785842",
+      "name": "Skopje",
+      "coordinates": [
+        41.99646,
+        21.43141
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

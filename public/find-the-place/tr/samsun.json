@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Samsun",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-samsun-740264",
+      "name": "Samsun",
+      "coordinates": [
+        41.27976,
+        36.3361
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-bafra-751335",
+      "name": "Bafra",
+      "coordinates": [
+        41.56787,
+        35.90311
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-carsamba-749704",
+      "name": "Çarşamba",
+      "coordinates": [
+        41.19889,
+        36.72194
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

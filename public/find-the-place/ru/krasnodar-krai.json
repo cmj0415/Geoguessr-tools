@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-krasnodar-krai-krasnodar",
           "name": "Krasnodar",
-          "coordinates": [45.04534, 38.98178],
+          "coordinates": [
+            45.04534,
+            38.98178
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-krasnodar-krai-sochi",
           "name": "Sochi",
-          "coordinates": [43.59699, 39.72477],
+          "coordinates": [
+            43.59699,
+            39.72477
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-krasnodar-krai-novorossiysk",
           "name": "Novorossiysk",
-          "coordinates": [44.73188, 37.76176],
-          "difficulty": "Medium"
+          "coordinates": [
+            44.73188,
+            37.76176
+          ],
+          "difficulty": "Easy"
         }
       ]
     },
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-krasnodar-krai-armavir",
           "name": "Armavir",
-          "coordinates": [44.99849, 41.11472],
+          "coordinates": [
+            44.99849,
+            41.11472
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-krasnodar-krai-yeysk",
           "name": "Yeysk",
-          "coordinates": [46.69263, 38.27907],
+          "coordinates": [
+            46.69263,
+            38.27907
+          ],
           "difficulty": "Hard"
         }
       ]

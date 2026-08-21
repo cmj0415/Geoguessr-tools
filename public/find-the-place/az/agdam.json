@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ağdam",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-aghdam-148619",
+      "name": "Aghdam",
+      "coordinates": [
+        39.99096,
+        46.92736
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

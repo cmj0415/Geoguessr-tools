@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Järvamaa",
+  "children": [
+    {
+      "type": "place",
+      "id": "ee-paide-589709",
+      "name": "Paide",
+      "coordinates": [
+        58.88768,
+        25.54042
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ee-tueri-588153",
+      "name": "Türi",
+      "coordinates": [
+        58.80861,
+        25.4325
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

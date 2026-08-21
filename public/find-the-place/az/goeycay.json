@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Göyçay",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-goeycay-586427",
+      "name": "Göyçay",
+      "coordinates": [
+        40.65055,
+        47.74219
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

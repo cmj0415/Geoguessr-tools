@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ağstafa",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-aghstafa-587362",
+      "name": "Aghstafa",
+      "coordinates": [
+        41.11889,
+        45.45389
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

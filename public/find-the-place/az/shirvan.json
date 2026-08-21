@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Shirvan",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-sirvan-148565",
+      "name": "Şirvan",
+      "coordinates": [
+        39.93778,
+        48.929
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

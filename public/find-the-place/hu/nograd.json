@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Nógrád",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-salgotarjan-3045643",
+      "name": "Salgótarján",
+      "coordinates": [
+        48.09872,
+        19.80303
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-batonyterenye-3055287",
+      "name": "Bátonyterenye",
+      "coordinates": [
+        47.96962,
+        19.84076
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-balassagyarmat-3055601",
+      "name": "Balassagyarmat",
+      "coordinates": [
+        48.07296,
+        19.29614
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

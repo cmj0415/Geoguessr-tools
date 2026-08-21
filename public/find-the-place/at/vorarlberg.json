@@ -1,0 +1,126 @@
+{
+  "type": "administrative",
+  "name": "Vorarlberg",
+  "children": [
+    {
+      "type": "place",
+      "id": "at-dornbirn-2780741",
+      "name": "Dornbirn",
+      "coordinates": [
+        47.41427,
+        9.74195
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-feldkirch-2779674",
+      "name": "Feldkirch",
+      "coordinates": [
+        47.23645,
+        9.59734
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-bregenz-2781503",
+      "name": "Bregenz",
+      "coordinates": [
+        47.50311,
+        9.7471
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-lustenau-2772173",
+      "name": "Lustenau",
+      "coordinates": [
+        47.42642,
+        9.65851
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-hohenems-2775742",
+      "name": "Hohenems",
+      "coordinates": [
+        47.36121,
+        9.68694
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-bludenz-2781680",
+      "name": "Bludenz",
+      "coordinates": [
+        47.15476,
+        9.82255
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-hard-2776874",
+      "name": "Hard",
+      "coordinates": [
+        47.48306,
+        9.68306
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-rankweil-2767974",
+      "name": "Rankweil",
+      "coordinates": [
+        47.27108,
+        9.64308
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-goetzis-2778218",
+      "name": "Götzis",
+      "coordinates": [
+        47.33306,
+        9.63306
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-lauterach-2772827",
+      "name": "Lauterach",
+      "coordinates": [
+        47.47572,
+        9.72941
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-wolfurt-2760894",
+      "name": "Wolfurt",
+      "coordinates": [
+        47.46667,
+        9.75
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-hoechst-2775950",
+      "name": "Höchst",
+      "coordinates": [
+        47.45934,
+        9.6405
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-kursk-oblast-kursk",
           "name": "Kursk",
-          "coordinates": [51.72689, 36.18457],
+          "coordinates": [
+            51.72689,
+            36.18457
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-kursk-oblast-zheleznogorsk",
           "name": "Zheleznogorsk",
-          "coordinates": [52.34198, 35.35917],
-          "difficulty": "Easy"
+          "coordinates": [
+            52.34198,
+            35.35917
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kursk-oblast-kurchatov",
           "name": "Kurchatov",
-          "coordinates": [51.65356, 35.68651],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.65356,
+            35.68651
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-kursk-oblast-lgovskiy",
           "name": "Lgovskiy",
-          "coordinates": [51.63069, 35.2775],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.63069,
+            35.2775
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-kursk-oblast-shchigry",
           "name": "Shchigry",
-          "coordinates": [51.87598, 36.90535],
+          "coordinates": [
+            51.87598,
+            36.90535
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Kalmar",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-kalmar-2702261",
+      "name": "Kalmar",
+      "coordinates": [
+        56.66157,
+        16.36163
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-vaestervik-2664203",
+      "name": "Västervik",
+      "coordinates": [
+        57.7584,
+        16.63733
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-oskarshamn-2686162",
+      "name": "Oskarshamn",
+      "coordinates": [
+        57.26455,
+        16.44837
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "se-nybro-2687902",
+      "name": "Nybro",
+      "coordinates": [
+        56.74461,
+        15.90714
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

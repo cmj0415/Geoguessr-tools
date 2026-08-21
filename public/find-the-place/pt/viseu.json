@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Viseu",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-viseu-2732265",
+      "name": "Viseu",
+      "coordinates": [
+        40.66165,
+        -7.90905
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-pskov-oblast-pskov",
           "name": "Pskov",
-          "coordinates": [57.81922, 28.33181],
+          "coordinates": [
+            57.81922,
+            28.33181
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-pskov-oblast-velikiye-luki",
           "name": "Velikiye Luki",
-          "coordinates": [56.34063, 30.54377],
-          "difficulty": "Easy"
+          "coordinates": [
+            56.34063,
+            30.54377
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-pskov-oblast-ostrov",
           "name": "Ostrov",
-          "coordinates": [57.3438, 28.35363],
-          "difficulty": "Medium"
+          "coordinates": [
+            57.3438,
+            28.35363
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-pskov-oblast-nevel",
           "name": "Nevel",
-          "coordinates": [56.02, 29.92824],
-          "difficulty": "Medium"
+          "coordinates": [
+            56.02,
+            29.92824
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-pskov-oblast-opochka",
           "name": "Opochka",
-          "coordinates": [56.71448, 28.66287],
+          "coordinates": [
+            56.71448,
+            28.66287
+          ],
           "difficulty": "Hard"
         }
       ]

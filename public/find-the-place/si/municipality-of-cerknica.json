@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Cerknica",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-cerknica-3202709",
+      "name": "Cerknica",
+      "coordinates": [
+        45.79703,
+        14.36263
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Aksaray",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-aksaray-324496",
+      "name": "Aksaray",
+      "coordinates": [
+        38.37255,
+        34.02537
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

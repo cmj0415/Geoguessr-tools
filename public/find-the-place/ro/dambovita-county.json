@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Dâmbovița County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-targoviste-665024",
+      "name": "Târgovişte",
+      "coordinates": [
+        44.92543,
+        25.4567
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-moreni-672862",
+      "name": "Moreni",
+      "coordinates": [
+        44.98301,
+        25.64415
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

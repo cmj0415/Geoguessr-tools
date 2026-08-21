@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Vrancea",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-focsani-678015",
+      "name": "Focșani",
+      "coordinates": [
+        45.7,
+        27.18333
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

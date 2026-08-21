@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Norrbotten",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-lulea-604490",
+      "name": "Luleå",
+      "coordinates": [
+        65.58415,
+        22.15465
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-pitea-603570",
+      "name": "Piteå",
+      "coordinates": [
+        65.31717,
+        21.47944
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-kiruna-605155",
+      "name": "Kiruna",
+      "coordinates": [
+        67.85572,
+        20.22513
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "se-boden-606531",
+      "name": "Boden",
+      "coordinates": [
+        65.82518,
+        21.68864
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

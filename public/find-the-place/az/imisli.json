@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "İmişli",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-imishli-147982",
+      "name": "Imishli",
+      "coordinates": [
+        39.87095,
+        48.05995
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

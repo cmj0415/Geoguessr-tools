@@ -1,0 +1,136 @@
+{
+  "type": "administrative",
+  "name": "Gelderland",
+  "children": [
+    {
+      "type": "place",
+      "id": "nl-nijmegen-2750053",
+      "name": "Nijmegen",
+      "coordinates": [
+        51.8425,
+        5.85278
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "nl-arnhem-2759661",
+      "name": "Arnhem",
+      "coordinates": [
+        51.98,
+        5.91111
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "nl-apeldoorn-2759706",
+      "name": "Apeldoorn",
+      "coordinates": [
+        52.21,
+        5.96944
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "nl-ede-2756429",
+      "name": "Ede",
+      "coordinates": [
+        52.03333,
+        5.65833
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "nl-doetinchem-2756767",
+      "name": "Doetinchem",
+      "coordinates": [
+        51.965,
+        6.28889
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "nl-tiel-2746331",
+      "name": "Tiel",
+      "coordinates": [
+        51.88667,
+        5.42917
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-harderwijk-2754848",
+      "name": "Harderwijk",
+      "coordinates": [
+        52.34167,
+        5.62083
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-nijkerk-2750065",
+      "name": "Nijkerk",
+      "coordinates": [
+        52.22,
+        5.48611
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-zutphen-2743608",
+      "name": "Zutphen",
+      "coordinates": [
+        52.13833,
+        6.20139
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-wageningen-2745088",
+      "name": "Wageningen",
+      "coordinates": [
+        51.97,
+        5.66667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-barneveld-2759407",
+      "name": "Barneveld",
+      "coordinates": [
+        52.14,
+        5.58472
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-epe-2756059",
+      "name": "Epe",
+      "coordinates": [
+        52.3475,
+        5.98333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-wijchen-2744514",
+      "name": "Wijchen",
+      "coordinates": [
+        51.80917,
+        5.725
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

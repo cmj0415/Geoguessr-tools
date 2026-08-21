@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-kalmykia-elista",
           "name": "Elista",
-          "coordinates": [46.30794, 44.25537],
-          "difficulty": "Easy"
+          "coordinates": [
+            46.30794,
+            44.25537
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-kalmykia-lagan",
           "name": "Lagan",
-          "coordinates": [45.39177, 47.36452],
-          "difficulty": "Easy"
+          "coordinates": [
+            45.39177,
+            47.36452
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kalmykia-troitskoye",
           "name": "Troitskoye",
-          "coordinates": [46.41303, 44.25788],
-          "difficulty": "Medium"
+          "coordinates": [
+            46.41303,
+            44.25788
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-kalmykia-gorodovikovsk",
           "name": "Gorodovikovsk",
-          "coordinates": [46.08776, 41.93344],
-          "difficulty": "Medium"
+          "coordinates": [
+            46.08776,
+            41.93344
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-kalmykia-yashkul",
           "name": "Yashkul",
-          "coordinates": [46.1709, 45.34213],
+          "coordinates": [
+            46.1709,
+            45.34213
+          ],
           "difficulty": "Hard"
         }
       ]

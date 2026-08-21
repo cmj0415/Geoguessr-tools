@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-lipetsk-oblast-lipetsk",
           "name": "Lipetsk",
-          "coordinates": [52.5876, 39.55151],
+          "coordinates": [
+            52.5876,
+            39.55151
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-lipetsk-oblast-yelets",
           "name": "Yelets",
-          "coordinates": [52.61435, 38.50935],
-          "difficulty": "Easy"
+          "coordinates": [
+            52.61435,
+            38.50935
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-lipetsk-oblast-gryazi",
           "name": "Gryazi",
-          "coordinates": [52.49535, 39.94031],
-          "difficulty": "Medium"
+          "coordinates": [
+            52.49535,
+            39.94031
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-lipetsk-oblast-lebedyan",
           "name": "Lebedyan",
-          "coordinates": [53.01532, 39.14458],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.01532,
+            39.14458
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-lipetsk-oblast-dankov",
           "name": "Dankov",
-          "coordinates": [53.24976, 39.14409],
+          "coordinates": [
+            53.24976,
+            39.14409
+          ],
           "difficulty": "Hard"
         }
       ]

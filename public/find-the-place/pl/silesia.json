@@ -1,0 +1,286 @@
+{
+  "type": "administrative",
+  "name": "Silesia",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-katowice-3096472",
+      "name": "Katowice",
+      "coordinates": [
+        50.2597,
+        19.02173
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-czestochowa-3100946",
+      "name": "Częstochowa",
+      "coordinates": [
+        50.79646,
+        19.12409
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-sosnowiec-3085128",
+      "name": "Sosnowiec",
+      "coordinates": [
+        50.28682,
+        19.10385
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-gliwice-3099230",
+      "name": "Gliwice",
+      "coordinates": [
+        50.29761,
+        18.67658
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-zabrze-3080985",
+      "name": "Zabrze",
+      "coordinates": [
+        50.32492,
+        18.78576
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-bytom-3101950",
+      "name": "Bytom",
+      "coordinates": [
+        50.34802,
+        18.93282
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-bielsko-biala-3103402",
+      "name": "Bielsko-Biala",
+      "coordinates": [
+        49.82245,
+        19.04686
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-ruda-slaska-3086800",
+      "name": "Ruda Śląska",
+      "coordinates": [
+        50.2584,
+        18.85632
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-rybnik-3086586",
+      "name": "Rybnik",
+      "coordinates": [
+        50.09713,
+        18.54179
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-tychy-3082914",
+      "name": "Tychy",
+      "coordinates": [
+        50.13717,
+        18.96641
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-dabrowa-gornicza-3100796",
+      "name": "Dąbrowa Górnicza",
+      "coordinates": [
+        50.33394,
+        19.20479
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-chorzow-3101619",
+      "name": "Chorzów",
+      "coordinates": [
+        50.30582,
+        18.9742
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-jaworzno-3097333",
+      "name": "Jaworzno",
+      "coordinates": [
+        50.20528,
+        19.27498
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-jastrzebie-zdroj-3097391",
+      "name": "Jastrzębie Zdrój",
+      "coordinates": [
+        49.95542,
+        18.57479
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-siemianowice-slaskie-3086024",
+      "name": "Siemianowice Śląskie",
+      "coordinates": [
+        50.32738,
+        19.02901
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-myslowice-3091232",
+      "name": "Mysłowice",
+      "coordinates": [
+        50.20745,
+        19.16668
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-zory-3080004",
+      "name": "Żory",
+      "coordinates": [
+        50.04523,
+        18.70062
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-tarnowskie-gory-3083440",
+      "name": "Tarnowskie Góry",
+      "coordinates": [
+        50.44548,
+        18.86147
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-piekary-slaskie-3089125",
+      "name": "Piekary Śląskie",
+      "coordinates": [
+        50.38017,
+        18.92653
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-raciborz-3087584",
+      "name": "Racibórz",
+      "coordinates": [
+        50.09195,
+        18.21928
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-bedzin-3103719",
+      "name": "Będzin",
+      "coordinates": [
+        50.32607,
+        19.12565
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-swietochlowice-3083988",
+      "name": "Świętochłowice",
+      "coordinates": [
+        50.29636,
+        18.91726
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-zawiercie-3080526",
+      "name": "Zawiercie",
+      "coordinates": [
+        50.48766,
+        19.41679
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-wodzislaw-slaski-3081677",
+      "name": "Wodzisław Śląski",
+      "coordinates": [
+        50.00377,
+        18.47205
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-knurow-3095971",
+      "name": "Knurów",
+      "coordinates": [
+        50.21971,
+        18.65067
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-mikolow-3091831",
+      "name": "Mikołów",
+      "coordinates": [
+        50.17103,
+        18.9041
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-cieszyn-3101321",
+      "name": "Cieszyn",
+      "coordinates": [
+        49.75133,
+        18.63213
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-czechowice-dziedzice-3101076",
+      "name": "Czechowice-Dziedzice",
+      "coordinates": [
+        49.91342,
+        19.00479
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

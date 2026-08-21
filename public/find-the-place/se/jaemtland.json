@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jämtland",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-oestersund-2685750",
+      "name": "Östersund",
+      "coordinates": [
+        63.1792,
+        14.63566
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

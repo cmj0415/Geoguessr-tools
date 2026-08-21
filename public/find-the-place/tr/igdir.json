@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Iğdır",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-igdir-311665",
+      "name": "Iğdır",
+      "coordinates": [
+        39.92371,
+        44.045
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

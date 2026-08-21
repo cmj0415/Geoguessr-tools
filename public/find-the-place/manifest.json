@@ -156,6 +156,379 @@
       "name": "Europe",
       "countries": [
         {
+          "code": "al",
+          "name": "Albania",
+          "counts": {
+            "Easy": 10,
+            "Medium": 15,
+            "Hard": 15
+          },
+          "shards": [
+            "/find-the-place/al/berat-county.json",
+            "/find-the-place/al/diber-county.json",
+            "/find-the-place/al/durres-county.json",
+            "/find-the-place/al/elbasan-county.json",
+            "/find-the-place/al/fier-county.json",
+            "/find-the-place/al/gjirokaster-county.json",
+            "/find-the-place/al/korce-county.json",
+            "/find-the-place/al/kukes-county.json",
+            "/find-the-place/al/lezhe-county.json",
+            "/find-the-place/al/shkoder-county.json",
+            "/find-the-place/al/tirana.json",
+            "/find-the-place/al/vlore-county.json"
+          ]
+        },
+        {
+          "code": "ad",
+          "name": "Andorra",
+          "counts": {
+            "Easy": 1,
+            "Medium": 2,
+            "Hard": 2
+          },
+          "shards": [
+            "/find-the-place/ad/andorra-la-vella.json",
+            "/find-the-place/ad/encamp.json",
+            "/find-the-place/ad/escaldes-engordany.json",
+            "/find-the-place/ad/la-massana.json",
+            "/find-the-place/ad/sant-julia-de-loria.json"
+          ]
+        },
+        {
+          "code": "am",
+          "name": "Armenia",
+          "counts": {
+            "Easy": 13,
+            "Medium": 19,
+            "Hard": 18
+          },
+          "shards": [
+            "/find-the-place/am/aragatsotn.json",
+            "/find-the-place/am/ararat.json",
+            "/find-the-place/am/armavir.json",
+            "/find-the-place/am/gegharkunik.json",
+            "/find-the-place/am/kotayk.json",
+            "/find-the-place/am/lori.json",
+            "/find-the-place/am/shirak.json",
+            "/find-the-place/am/syunik.json",
+            "/find-the-place/am/tavush.json",
+            "/find-the-place/am/vayots-dzor.json",
+            "/find-the-place/am/yerevan.json"
+          ]
+        },
+        {
+          "code": "at",
+          "name": "Austria",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/at/burgenland.json",
+            "/find-the-place/at/carinthia.json",
+            "/find-the-place/at/lower-austria.json",
+            "/find-the-place/at/salzburg.json",
+            "/find-the-place/at/styria.json",
+            "/find-the-place/at/tyrol.json",
+            "/find-the-place/at/upper-austria.json",
+            "/find-the-place/at/vienna.json",
+            "/find-the-place/at/vorarlberg.json"
+          ]
+        },
+        {
+          "code": "az",
+          "name": "Azerbaijan",
+          "counts": {
+            "Easy": 19,
+            "Medium": 28,
+            "Hard": 28
+          },
+          "shards": [
+            "/find-the-place/az/abseron.json",
+            "/find-the-place/az/agdam.json",
+            "/find-the-place/az/agdas.json",
+            "/find-the-place/az/aghjabadi-rayon.json",
+            "/find-the-place/az/agstafa.json",
+            "/find-the-place/az/agsu-district.json",
+            "/find-the-place/az/astara.json",
+            "/find-the-place/az/baki.json",
+            "/find-the-place/az/balakan-district.json",
+            "/find-the-place/az/barda.json",
+            "/find-the-place/az/beylaqan.json",
+            "/find-the-place/az/bilasuvar-district.json",
+            "/find-the-place/az/dashkasan-rayon.json",
+            "/find-the-place/az/fuzuli-district.json",
+            "/find-the-place/az/gadabay-district.json",
+            "/find-the-place/az/ganja-city.json",
+            "/find-the-place/az/goeycay.json",
+            "/find-the-place/az/goranboy-district.json",
+            "/find-the-place/az/goygol-rayon.json",
+            "/find-the-place/az/haciqabul.json",
+            "/find-the-place/az/imisli.json",
+            "/find-the-place/az/ismayilli-district.json",
+            "/find-the-place/az/jabrayil.json",
+            "/find-the-place/az/jalilabad.json",
+            "/find-the-place/az/kalbajar.json",
+            "/find-the-place/az/khojaly.json",
+            "/find-the-place/az/khojavend.json",
+            "/find-the-place/az/kurdamir-district.json",
+            "/find-the-place/az/lachin-rayon.json",
+            "/find-the-place/az/lankaran.json",
+            "/find-the-place/az/lerik-district.json",
+            "/find-the-place/az/masally.json",
+            "/find-the-place/az/mingacevir-city.json",
+            "/find-the-place/az/naftalan.json",
+            "/find-the-place/az/nakhchivan.json",
+            "/find-the-place/az/neftcala.json",
+            "/find-the-place/az/oguz.json",
+            "/find-the-place/az/qabala-district.json",
+            "/find-the-place/az/qax.json",
+            "/find-the-place/az/qazax.json",
+            "/find-the-place/az/qobustan.json",
+            "/find-the-place/az/quba.json",
+            "/find-the-place/az/qubadli.json",
+            "/find-the-place/az/qusar-district.json",
+            "/find-the-place/az/saatli.json",
+            "/find-the-place/az/sabirabad-district.json",
+            "/find-the-place/az/salyan-district.json",
+            "/find-the-place/az/samaxi.json",
+            "/find-the-place/az/samux.json",
+            "/find-the-place/az/shabran.json",
+            "/find-the-place/az/shaki-city.json",
+            "/find-the-place/az/shaki.json",
+            "/find-the-place/az/shamkir-rayon.json",
+            "/find-the-place/az/shirvan.json",
+            "/find-the-place/az/shusha.json",
+            "/find-the-place/az/siazan-rayon.json",
+            "/find-the-place/az/sumqayit.json",
+            "/find-the-place/az/tartar-district.json",
+            "/find-the-place/az/tovuz-district.json",
+            "/find-the-place/az/ucar.json",
+            "/find-the-place/az/xacmaz.json",
+            "/find-the-place/az/xankandi-sahari.json",
+            "/find-the-place/az/xizi.json",
+            "/find-the-place/az/yardimli-district.json",
+            "/find-the-place/az/yevlax-city.json",
+            "/find-the-place/az/yevlax.json",
+            "/find-the-place/az/zangilan-district.json",
+            "/find-the-place/az/zaqatala-district.json",
+            "/find-the-place/az/zardab.json"
+          ]
+        },
+        {
+          "code": "be",
+          "name": "Belgium",
+          "counts": {
+            "Easy": 19,
+            "Medium": 28,
+            "Hard": 28
+          },
+          "shards": [
+            "/find-the-place/be/brussels-capital.json",
+            "/find-the-place/be/flanders.json",
+            "/find-the-place/be/wallonia.json"
+          ]
+        },
+        {
+          "code": "ba",
+          "name": "Bosnia and Herzegovina",
+          "counts": {
+            "Easy": 13,
+            "Medium": 19,
+            "Hard": 18
+          },
+          "shards": [
+            "/find-the-place/ba/brcko.json",
+            "/find-the-place/ba/federation-of-b-h.json",
+            "/find-the-place/ba/srpska.json"
+          ]
+        },
+        {
+          "code": "bg",
+          "name": "Bulgaria",
+          "counts": {
+            "Easy": 19,
+            "Medium": 28,
+            "Hard": 28
+          },
+          "shards": [
+            "/find-the-place/bg/blagoevgrad.json",
+            "/find-the-place/bg/burgas.json",
+            "/find-the-place/bg/dobrich.json",
+            "/find-the-place/bg/gabrovo.json",
+            "/find-the-place/bg/haskovo.json",
+            "/find-the-place/bg/kardzhali.json",
+            "/find-the-place/bg/kyustendil.json",
+            "/find-the-place/bg/lovech.json",
+            "/find-the-place/bg/montana.json",
+            "/find-the-place/bg/pazardzhik.json",
+            "/find-the-place/bg/pernik.json",
+            "/find-the-place/bg/pleven.json",
+            "/find-the-place/bg/plovdiv.json",
+            "/find-the-place/bg/razgrad.json",
+            "/find-the-place/bg/ruse.json",
+            "/find-the-place/bg/shumen.json",
+            "/find-the-place/bg/silistra.json",
+            "/find-the-place/bg/sliven.json",
+            "/find-the-place/bg/smolyan.json",
+            "/find-the-place/bg/sofia-capital.json",
+            "/find-the-place/bg/sofia.json",
+            "/find-the-place/bg/stara-zagora.json",
+            "/find-the-place/bg/targovishte.json",
+            "/find-the-place/bg/varna.json",
+            "/find-the-place/bg/veliko-tarnovo.json",
+            "/find-the-place/bg/vidin.json",
+            "/find-the-place/bg/vratsa.json",
+            "/find-the-place/bg/yambol.json"
+          ]
+        },
+        {
+          "code": "hr",
+          "name": "Croatia",
+          "counts": {
+            "Easy": 15,
+            "Medium": 23,
+            "Hard": 22
+          },
+          "shards": [
+            "/find-the-place/hr/bjelovar-bilogora.json",
+            "/find-the-place/hr/brod-posavina.json",
+            "/find-the-place/hr/county-of-osijek-baranja.json",
+            "/find-the-place/hr/dubrovnik-neretva.json",
+            "/find-the-place/hr/istria.json",
+            "/find-the-place/hr/karlovac.json",
+            "/find-the-place/hr/koprivnica-krizevci.json",
+            "/find-the-place/hr/krapina-zagorje.json",
+            "/find-the-place/hr/lika-senj.json",
+            "/find-the-place/hr/megimurje.json",
+            "/find-the-place/hr/pozega-slavonia.json",
+            "/find-the-place/hr/primorje-gorski-kotar.json",
+            "/find-the-place/hr/sibenik-knin.json",
+            "/find-the-place/hr/sisak-moslavina.json",
+            "/find-the-place/hr/split-dalmatia.json",
+            "/find-the-place/hr/varazdin.json",
+            "/find-the-place/hr/virovitica-podravina.json",
+            "/find-the-place/hr/vukovar-srijem.json",
+            "/find-the-place/hr/zadar.json",
+            "/find-the-place/hr/zagreb-county.json",
+            "/find-the-place/hr/zagreb.json"
+          ]
+        },
+        {
+          "code": "cy",
+          "name": "Cyprus",
+          "counts": {
+            "Easy": 8,
+            "Medium": 11,
+            "Hard": 11
+          },
+          "shards": [
+            "/find-the-place/cy/ammochostos.json",
+            "/find-the-place/cy/keryneia.json",
+            "/find-the-place/cy/larnaka.json",
+            "/find-the-place/cy/limassol.json",
+            "/find-the-place/cy/nicosia.json",
+            "/find-the-place/cy/pafos.json"
+          ]
+        },
+        {
+          "code": "cz",
+          "name": "Czechia",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/cz/carlsbad-region.json",
+            "/find-the-place/cz/central-bohemia.json",
+            "/find-the-place/cz/hradec-kralove-region.json",
+            "/find-the-place/cz/liberec-region.json",
+            "/find-the-place/cz/moravian-silesian-region.json",
+            "/find-the-place/cz/olomouc-region.json",
+            "/find-the-place/cz/pardubice-region.json",
+            "/find-the-place/cz/plzen-region.json",
+            "/find-the-place/cz/prague.json",
+            "/find-the-place/cz/south-bohemian-region.json",
+            "/find-the-place/cz/south-moravian.json",
+            "/find-the-place/cz/usti-nad-labem-region.json",
+            "/find-the-place/cz/vysocina.json",
+            "/find-the-place/cz/zlin.json"
+          ]
+        },
+        {
+          "code": "dk",
+          "name": "Denmark",
+          "counts": {
+            "Easy": 15,
+            "Medium": 23,
+            "Hard": 22
+          },
+          "shards": [
+            "/find-the-place/dk/capital-region.json",
+            "/find-the-place/dk/central-jutland.json",
+            "/find-the-place/dk/north-denmark.json",
+            "/find-the-place/dk/south-denmark.json",
+            "/find-the-place/dk/zealand.json"
+          ]
+        },
+        {
+          "code": "ee",
+          "name": "Estonia",
+          "counts": {
+            "Easy": 10,
+            "Medium": 15,
+            "Hard": 15
+          },
+          "shards": [
+            "/find-the-place/ee/harjumaa.json",
+            "/find-the-place/ee/hiiumaa.json",
+            "/find-the-place/ee/ida-virumaa.json",
+            "/find-the-place/ee/jaervamaa.json",
+            "/find-the-place/ee/jogevamaa.json",
+            "/find-the-place/ee/laeaene-virumaa.json",
+            "/find-the-place/ee/laeaene.json",
+            "/find-the-place/ee/paernumaa.json",
+            "/find-the-place/ee/polvamaa.json",
+            "/find-the-place/ee/raplamaa.json",
+            "/find-the-place/ee/saare.json",
+            "/find-the-place/ee/tartu.json",
+            "/find-the-place/ee/valgamaa.json",
+            "/find-the-place/ee/viljandimaa.json",
+            "/find-the-place/ee/vorumaa.json"
+          ]
+        },
+        {
+          "code": "fi",
+          "name": "Finland",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/fi/central-finland.json",
+            "/find-the-place/fi/central-ostrobothnia.json",
+            "/find-the-place/fi/kainuu.json",
+            "/find-the-place/fi/kanta-haeme.json",
+            "/find-the-place/fi/kymenlaakso.json",
+            "/find-the-place/fi/lapland.json",
+            "/find-the-place/fi/north-karelia.json",
+            "/find-the-place/fi/north-ostrobothnia.json",
+            "/find-the-place/fi/north-savo.json",
+            "/find-the-place/fi/ostrobothnia.json",
+            "/find-the-place/fi/paijat-hame.json",
+            "/find-the-place/fi/pirkanmaa.json",
+            "/find-the-place/fi/satakunta.json",
+            "/find-the-place/fi/south-karelia.json",
+            "/find-the-place/fi/south-ostrobothnia.json",
+            "/find-the-place/fi/south-savo.json",
+            "/find-the-place/fi/southwest-finland.json",
+            "/find-the-place/fi/uusimaa.json"
+          ]
+        },
+        {
           "code": "fr",
           "name": "France",
           "counts": {
@@ -185,6 +558,29 @@
           ]
         },
         {
+          "code": "ge",
+          "name": "Georgia",
+          "counts": {
+            "Easy": 13,
+            "Medium": 19,
+            "Hard": 18
+          },
+          "shards": [
+            "/find-the-place/ge/abkhazia.json",
+            "/find-the-place/ge/adjara.json",
+            "/find-the-place/ge/guria.json",
+            "/find-the-place/ge/imereti.json",
+            "/find-the-place/ge/kakheti.json",
+            "/find-the-place/ge/kvemo-kartli.json",
+            "/find-the-place/ge/mtskheta-mtianeti.json",
+            "/find-the-place/ge/racha-lechkhumi-and-kvemo-svaneti.json",
+            "/find-the-place/ge/samegrelo-and-zemo-svaneti.json",
+            "/find-the-place/ge/samtskhe-javakheti.json",
+            "/find-the-place/ge/shida-kartli.json",
+            "/find-the-place/ge/tbilisi.json"
+          ]
+        },
+        {
           "code": "de",
           "name": "Germany",
           "counts": {
@@ -209,6 +605,96 @@
             "/find-the-place/de/saxony-anhalt.json",
             "/find-the-place/de/schleswig-holstein.json",
             "/find-the-place/de/thuringia.json"
+          ]
+        },
+        {
+          "code": "gr",
+          "name": "Greece",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/gr/attica.json",
+            "/find-the-place/gr/central-greece.json",
+            "/find-the-place/gr/central-macedonia.json",
+            "/find-the-place/gr/crete.json",
+            "/find-the-place/gr/east-macedonia-and-thrace.json",
+            "/find-the-place/gr/epirus.json",
+            "/find-the-place/gr/ionian-islands.json",
+            "/find-the-place/gr/mount-athos.json",
+            "/find-the-place/gr/north-aegean.json",
+            "/find-the-place/gr/peloponnese.json",
+            "/find-the-place/gr/south-aegean.json",
+            "/find-the-place/gr/thessaly.json",
+            "/find-the-place/gr/west-greece.json",
+            "/find-the-place/gr/west-macedonia.json"
+          ]
+        },
+        {
+          "code": "hu",
+          "name": "Hungary",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/hu/bacs-kiskun.json",
+            "/find-the-place/hu/baranya.json",
+            "/find-the-place/hu/bekes-county.json",
+            "/find-the-place/hu/borsod-abauj-zemplen.json",
+            "/find-the-place/hu/budapest.json",
+            "/find-the-place/hu/csongrad.json",
+            "/find-the-place/hu/fejer.json",
+            "/find-the-place/hu/gyor-moson-sopron.json",
+            "/find-the-place/hu/hajdu-bihar.json",
+            "/find-the-place/hu/heves-county.json",
+            "/find-the-place/hu/jasz-nagykun-szolnok.json",
+            "/find-the-place/hu/komarom-esztergom.json",
+            "/find-the-place/hu/nograd.json",
+            "/find-the-place/hu/pest-county.json",
+            "/find-the-place/hu/somogy-county.json",
+            "/find-the-place/hu/szabolcs-szatmar-bereg.json",
+            "/find-the-place/hu/tolna-county.json",
+            "/find-the-place/hu/vas-county.json",
+            "/find-the-place/hu/veszprem.json",
+            "/find-the-place/hu/zala-county.json"
+          ]
+        },
+        {
+          "code": "is",
+          "name": "Iceland",
+          "counts": {
+            "Easy": 10,
+            "Medium": 15,
+            "Hard": 15
+          },
+          "shards": [
+            "/find-the-place/is/capital-region.json",
+            "/find-the-place/is/east.json",
+            "/find-the-place/is/northeast.json",
+            "/find-the-place/is/northwest.json",
+            "/find-the-place/is/south.json",
+            "/find-the-place/is/southern-peninsula.json",
+            "/find-the-place/is/west.json",
+            "/find-the-place/is/westfjords.json"
+          ]
+        },
+        {
+          "code": "ie",
+          "name": "Ireland",
+          "counts": {
+            "Easy": 15,
+            "Medium": 23,
+            "Hard": 22
+          },
+          "shards": [
+            "/find-the-place/ie/connacht.json",
+            "/find-the-place/ie/leinster.json",
+            "/find-the-place/ie/munster.json",
+            "/find-the-place/ie/ulster.json"
           ]
         },
         {
@@ -243,12 +729,473 @@
           ]
         },
         {
+          "code": "xk",
+          "name": "Kosovo",
+          "counts": {
+            "Easy": 8,
+            "Medium": 11,
+            "Hard": 11
+          },
+          "shards": [
+            "/find-the-place/xk/ferizaj.json",
+            "/find-the-place/xk/gjakova.json",
+            "/find-the-place/xk/gjilan.json",
+            "/find-the-place/xk/mitrovica.json",
+            "/find-the-place/xk/pec.json",
+            "/find-the-place/xk/pristina.json",
+            "/find-the-place/xk/prizren.json"
+          ]
+        },
+        {
+          "code": "lv",
+          "name": "Latvia",
+          "counts": {
+            "Easy": 10,
+            "Medium": 15,
+            "Hard": 15
+          },
+          "shards": [
+            "/find-the-place/lv/adazi.json",
+            "/find-the-place/lv/aizkraukle-municipality.json",
+            "/find-the-place/lv/aluksne-municipality.json",
+            "/find-the-place/lv/balvi-municipality.json",
+            "/find-the-place/lv/bauska-municipality.json",
+            "/find-the-place/lv/cesis-municipality.json",
+            "/find-the-place/lv/daugavpils.json",
+            "/find-the-place/lv/dobele-municipality.json",
+            "/find-the-place/lv/gulbene-municipality.json",
+            "/find-the-place/lv/jekabpils-municipality.json",
+            "/find-the-place/lv/jelgava-municipality.json",
+            "/find-the-place/lv/jelgava.json",
+            "/find-the-place/lv/jurmala.json",
+            "/find-the-place/lv/kekava.json",
+            "/find-the-place/lv/kraslava-municipality.json",
+            "/find-the-place/lv/kuldiga-municipality.json",
+            "/find-the-place/lv/liepaja.json",
+            "/find-the-place/lv/limbazi-municipality.json",
+            "/find-the-place/lv/livani.json",
+            "/find-the-place/lv/ludza-municipality.json",
+            "/find-the-place/lv/madonas-novads.json",
+            "/find-the-place/lv/marupe.json",
+            "/find-the-place/lv/ogre.json",
+            "/find-the-place/lv/olaine.json",
+            "/find-the-place/lv/preilu-novads.json",
+            "/find-the-place/lv/rezekne-municipality.json",
+            "/find-the-place/lv/rezekne.json",
+            "/find-the-place/lv/riga.json",
+            "/find-the-place/lv/ropazi-municipality.json",
+            "/find-the-place/lv/salaspils-municipality.json",
+            "/find-the-place/lv/saldus-rajons.json",
+            "/find-the-place/lv/saulkrasti-municipality.json",
+            "/find-the-place/lv/sigulda-municipality.json",
+            "/find-the-place/lv/smiltene-municipality.json",
+            "/find-the-place/lv/south-kurzeme-municipality.json",
+            "/find-the-place/lv/talsu-novads.json",
+            "/find-the-place/lv/tukums-municipality.json",
+            "/find-the-place/lv/valka.json",
+            "/find-the-place/lv/valmiera.json",
+            "/find-the-place/lv/ventspils.json"
+          ]
+        },
+        {
+          "code": "li",
+          "name": "Liechtenstein",
+          "counts": {
+            "Easy": 1,
+            "Medium": 2,
+            "Hard": 2
+          },
+          "shards": [
+            "/find-the-place/li/balzers.json",
+            "/find-the-place/li/eschen.json",
+            "/find-the-place/li/schaan.json",
+            "/find-the-place/li/triesen.json",
+            "/find-the-place/li/vaduz.json"
+          ]
+        },
+        {
+          "code": "lt",
+          "name": "Lithuania",
+          "counts": {
+            "Easy": 13,
+            "Medium": 19,
+            "Hard": 18
+          },
+          "shards": [
+            "/find-the-place/lt/alytus.json",
+            "/find-the-place/lt/kaunas.json",
+            "/find-the-place/lt/klaipeda-county.json",
+            "/find-the-place/lt/marijampole-county.json",
+            "/find-the-place/lt/panevezys.json",
+            "/find-the-place/lt/siauliai.json",
+            "/find-the-place/lt/taurage-county.json",
+            "/find-the-place/lt/telsiai.json",
+            "/find-the-place/lt/utena.json",
+            "/find-the-place/lt/vilnius.json"
+          ]
+        },
+        {
+          "code": "lu",
+          "name": "Luxembourg",
+          "counts": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 5
+          },
+          "shards": [
+            "/find-the-place/lu/capellen.json",
+            "/find-the-place/lu/clervaux.json",
+            "/find-the-place/lu/diekirch.json",
+            "/find-the-place/lu/echternach.json",
+            "/find-the-place/lu/esch-sur-alzette.json",
+            "/find-the-place/lu/grevenmacher.json",
+            "/find-the-place/lu/luxembourg.json",
+            "/find-the-place/lu/mersch.json",
+            "/find-the-place/lu/redange.json",
+            "/find-the-place/lu/remich.json",
+            "/find-the-place/lu/vianden.json",
+            "/find-the-place/lu/wiltz.json"
+          ]
+        },
+        {
+          "code": "mt",
+          "name": "Malta",
+          "counts": {
+            "Easy": 4,
+            "Medium": 6,
+            "Hard": 5
+          },
+          "shards": [
+            "/find-the-place/mt/birkirkara.json",
+            "/find-the-place/mt/birzebbuga.json",
+            "/find-the-place/mt/haz-zabbar.json",
+            "/find-the-place/mt/il-fgura.json",
+            "/find-the-place/mt/il-gzira.json",
+            "/find-the-place/mt/il-mosta.json",
+            "/find-the-place/mt/in-naxxar.json",
+            "/find-the-place/mt/ir-rabat.json",
+            "/find-the-place/mt/is-swieqi.json",
+            "/find-the-place/mt/l-imsida.json",
+            "/find-the-place/mt/qormi.json",
+            "/find-the-place/mt/saint-john.json",
+            "/find-the-place/mt/saint-julian.json",
+            "/find-the-place/mt/saint-paul-s-bay.json",
+            "/find-the-place/mt/tas-sliema.json"
+          ]
+        },
+        {
+          "code": "md",
+          "name": "Moldova",
+          "counts": {
+            "Easy": 10,
+            "Medium": 15,
+            "Hard": 15
+          },
+          "shards": [
+            "/find-the-place/md/anenii-noi.json",
+            "/find-the-place/md/balti.json",
+            "/find-the-place/md/basarabeasca.json",
+            "/find-the-place/md/bender-municipality.json",
+            "/find-the-place/md/briceni.json",
+            "/find-the-place/md/cahul.json",
+            "/find-the-place/md/calarasi.json",
+            "/find-the-place/md/cantemir.json",
+            "/find-the-place/md/causeni.json",
+            "/find-the-place/md/chisinau-municipality.json",
+            "/find-the-place/md/cimislia.json",
+            "/find-the-place/md/criuleni.json",
+            "/find-the-place/md/donduseni.json",
+            "/find-the-place/md/drochia.json",
+            "/find-the-place/md/dubasari-district.json",
+            "/find-the-place/md/falesti.json",
+            "/find-the-place/md/floresti.json",
+            "/find-the-place/md/gagauzia.json",
+            "/find-the-place/md/glodeni.json",
+            "/find-the-place/md/hincesti.json",
+            "/find-the-place/md/ialoveni.json",
+            "/find-the-place/md/leova.json",
+            "/find-the-place/md/nisporeni.json",
+            "/find-the-place/md/orhei.json",
+            "/find-the-place/md/raionul-edinet.json",
+            "/find-the-place/md/raionul-ocnita.json",
+            "/find-the-place/md/rezina.json",
+            "/find-the-place/md/riscani.json",
+            "/find-the-place/md/singerei.json",
+            "/find-the-place/md/soldanesti.json",
+            "/find-the-place/md/soroca-district.json",
+            "/find-the-place/md/stefan-voda.json",
+            "/find-the-place/md/straseni.json",
+            "/find-the-place/md/taraclia.json",
+            "/find-the-place/md/telenesti.json",
+            "/find-the-place/md/transnistria.json",
+            "/find-the-place/md/ungheni.json"
+          ]
+        },
+        {
+          "code": "mc",
+          "name": "Monaco",
+          "counts": {
+            "Easy": 1,
+            "Medium": 2,
+            "Hard": 2
+          },
+          "shards": [
+            "/find-the-place/mc/municipality-of-monaco.json"
+          ]
+        },
+        {
+          "code": "me",
+          "name": "Montenegro",
+          "counts": {
+            "Easy": 6,
+            "Medium": 9,
+            "Hard": 10
+          },
+          "shards": [
+            "/find-the-place/me/andrijevica.json",
+            "/find-the-place/me/bar.json",
+            "/find-the-place/me/berane.json",
+            "/find-the-place/me/bijelo-polje.json",
+            "/find-the-place/me/budva.json",
+            "/find-the-place/me/cetinje.json",
+            "/find-the-place/me/danilovgrad.json",
+            "/find-the-place/me/gusinje-municipality.json",
+            "/find-the-place/me/herceg-novi.json",
+            "/find-the-place/me/kotor.json",
+            "/find-the-place/me/mojkovac.json",
+            "/find-the-place/me/opstina-kolasin.json",
+            "/find-the-place/me/opstina-niksic.json",
+            "/find-the-place/me/opstina-plav.json",
+            "/find-the-place/me/opstina-pluzine.json",
+            "/find-the-place/me/opstina-savnik.json",
+            "/find-the-place/me/opstina-zabljak.json",
+            "/find-the-place/me/pljevlja.json",
+            "/find-the-place/me/podgorica.json",
+            "/find-the-place/me/rozaje-municipality.json",
+            "/find-the-place/me/tivat.json",
+            "/find-the-place/me/tuzi-municipality.json",
+            "/find-the-place/me/ulcinj.json",
+            "/find-the-place/me/zeta.json"
+          ]
+        },
+        {
+          "code": "nl",
+          "name": "Netherlands",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/nl/drenthe.json",
+            "/find-the-place/nl/flevoland.json",
+            "/find-the-place/nl/friesland.json",
+            "/find-the-place/nl/gelderland.json",
+            "/find-the-place/nl/groningen.json",
+            "/find-the-place/nl/limburg.json",
+            "/find-the-place/nl/north-brabant.json",
+            "/find-the-place/nl/north-holland.json",
+            "/find-the-place/nl/overijssel.json",
+            "/find-the-place/nl/south-holland.json",
+            "/find-the-place/nl/utrecht.json",
+            "/find-the-place/nl/zeeland.json"
+          ]
+        },
+        {
+          "code": "mk",
+          "name": "North Macedonia",
+          "counts": {
+            "Easy": 10,
+            "Medium": 15,
+            "Hard": 15
+          },
+          "shards": [
+            "/find-the-place/mk/arachinovo.json",
+            "/find-the-place/mk/berovo.json",
+            "/find-the-place/mk/bitola.json",
+            "/find-the-place/mk/bogovinje.json",
+            "/find-the-place/mk/bosilovo.json",
+            "/find-the-place/mk/brvenica.json",
+            "/find-the-place/mk/centar-zhupa.json",
+            "/find-the-place/mk/debar.json",
+            "/find-the-place/mk/delchevo.json",
+            "/find-the-place/mk/dolneni.json",
+            "/find-the-place/mk/gevgelija.json",
+            "/find-the-place/mk/gostivar.json",
+            "/find-the-place/mk/grad-skopje.json",
+            "/find-the-place/mk/ilinden.json",
+            "/find-the-place/mk/kavadarci.json",
+            "/find-the-place/mk/kichevo.json",
+            "/find-the-place/mk/kochani.json",
+            "/find-the-place/mk/kratovo.json",
+            "/find-the-place/mk/kriva-palanka.json",
+            "/find-the-place/mk/kumanovo.json",
+            "/find-the-place/mk/lipkovo.json",
+            "/find-the-place/mk/negotino.json",
+            "/find-the-place/mk/novo-selo.json",
+            "/find-the-place/mk/ohrid.json",
+            "/find-the-place/mk/prilep.json",
+            "/find-the-place/mk/probishtip.json",
+            "/find-the-place/mk/radovish.json",
+            "/find-the-place/mk/resen.json",
+            "/find-the-place/mk/shtip.json",
+            "/find-the-place/mk/struga.json",
+            "/find-the-place/mk/strumica.json",
+            "/find-the-place/mk/studenichani.json",
+            "/find-the-place/mk/sveti-nikole.json",
+            "/find-the-place/mk/tearce.json",
+            "/find-the-place/mk/tetovo.json",
+            "/find-the-place/mk/vasilevo.json",
+            "/find-the-place/mk/veles.json",
+            "/find-the-place/mk/vinica.json",
+            "/find-the-place/mk/vrapchishte.json",
+            "/find-the-place/mk/zhelino.json"
+          ]
+        },
+        {
+          "code": "no",
+          "name": "Norway",
+          "counts": {
+            "Easy": 30,
+            "Medium": 45,
+            "Hard": 45
+          },
+          "shards": [
+            "/find-the-place/no/agder.json",
+            "/find-the-place/no/akershus.json",
+            "/find-the-place/no/buskerud.json",
+            "/find-the-place/no/finnmark.json",
+            "/find-the-place/no/innlandet.json",
+            "/find-the-place/no/more-og-romsdal.json",
+            "/find-the-place/no/nordland.json",
+            "/find-the-place/no/oslo.json",
+            "/find-the-place/no/ostfold.json",
+            "/find-the-place/no/rogaland.json",
+            "/find-the-place/no/telemark.json",
+            "/find-the-place/no/troms.json",
+            "/find-the-place/no/trondelag.json",
+            "/find-the-place/no/vestfold.json",
+            "/find-the-place/no/vestland.json"
+          ]
+        },
+        {
+          "code": "pl",
+          "name": "Poland",
+          "counts": {
+            "Easy": 38,
+            "Medium": 56,
+            "Hard": 56
+          },
+          "shards": [
+            "/find-the-place/pl/greater-poland.json",
+            "/find-the-place/pl/kujawsko-pomorskie.json",
+            "/find-the-place/pl/lesser-poland.json",
+            "/find-the-place/pl/lodz-voivodeship.json",
+            "/find-the-place/pl/lower-silesia.json",
+            "/find-the-place/pl/lublin.json",
+            "/find-the-place/pl/lubusz.json",
+            "/find-the-place/pl/mazovia.json",
+            "/find-the-place/pl/opole-voivodeship.json",
+            "/find-the-place/pl/podlasie.json",
+            "/find-the-place/pl/pomerania.json",
+            "/find-the-place/pl/silesia.json",
+            "/find-the-place/pl/subcarpathia.json",
+            "/find-the-place/pl/swietokrzyskie.json",
+            "/find-the-place/pl/warmia-masuria.json",
+            "/find-the-place/pl/west-pomerania.json"
+          ]
+        },
+        {
+          "code": "pt",
+          "name": "Portugal",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/pt/aveiro.json",
+            "/find-the-place/pt/azores.json",
+            "/find-the-place/pt/beja.json",
+            "/find-the-place/pt/braga.json",
+            "/find-the-place/pt/braganca.json",
+            "/find-the-place/pt/castelo-branco.json",
+            "/find-the-place/pt/coimbra.json",
+            "/find-the-place/pt/evora.json",
+            "/find-the-place/pt/faro.json",
+            "/find-the-place/pt/guarda.json",
+            "/find-the-place/pt/leiria.json",
+            "/find-the-place/pt/lisbon.json",
+            "/find-the-place/pt/madeira.json",
+            "/find-the-place/pt/portalegre.json",
+            "/find-the-place/pt/porto.json",
+            "/find-the-place/pt/santarem.json",
+            "/find-the-place/pt/setubal.json",
+            "/find-the-place/pt/viana-do-castelo.json",
+            "/find-the-place/pt/vila-real.json",
+            "/find-the-place/pt/viseu.json"
+          ]
+        },
+        {
+          "code": "ro",
+          "name": "Romania",
+          "counts": {
+            "Easy": 30,
+            "Medium": 45,
+            "Hard": 45
+          },
+          "shards": [
+            "/find-the-place/ro/alba-county.json",
+            "/find-the-place/ro/arad-county.json",
+            "/find-the-place/ro/arges.json",
+            "/find-the-place/ro/bacau-county.json",
+            "/find-the-place/ro/bihor-county.json",
+            "/find-the-place/ro/bistrita-nasaud-county.json",
+            "/find-the-place/ro/botosani-county.json",
+            "/find-the-place/ro/braila-county.json",
+            "/find-the-place/ro/brasov-county.json",
+            "/find-the-place/ro/bucharest.json",
+            "/find-the-place/ro/buzau-county.json",
+            "/find-the-place/ro/calarasi-county.json",
+            "/find-the-place/ro/caras-severin-county.json",
+            "/find-the-place/ro/cluj-county.json",
+            "/find-the-place/ro/constanta-county.json",
+            "/find-the-place/ro/covasna-county.json",
+            "/find-the-place/ro/dambovita-county.json",
+            "/find-the-place/ro/dolj.json",
+            "/find-the-place/ro/galati-county.json",
+            "/find-the-place/ro/giurgiu-county.json",
+            "/find-the-place/ro/gorj-county.json",
+            "/find-the-place/ro/harghita-county.json",
+            "/find-the-place/ro/hunedoara-county.json",
+            "/find-the-place/ro/ialomita-county.json",
+            "/find-the-place/ro/iasi-county.json",
+            "/find-the-place/ro/ilfov.json",
+            "/find-the-place/ro/maramures.json",
+            "/find-the-place/ro/mehedinti-county.json",
+            "/find-the-place/ro/mures-county.json",
+            "/find-the-place/ro/neamt-county.json",
+            "/find-the-place/ro/olt.json",
+            "/find-the-place/ro/prahova.json",
+            "/find-the-place/ro/salaj-county.json",
+            "/find-the-place/ro/satu-mare-county.json",
+            "/find-the-place/ro/sibiu-county.json",
+            "/find-the-place/ro/suceava.json",
+            "/find-the-place/ro/teleorman-county.json",
+            "/find-the-place/ro/timis-county.json",
+            "/find-the-place/ro/tulcea-county.json",
+            "/find-the-place/ro/valcea-county.json",
+            "/find-the-place/ro/vaslui-county.json",
+            "/find-the-place/ro/vrancea.json"
+          ]
+        },
+        {
           "code": "ru",
           "name": "Russia",
           "counts": {
-            "Easy": 166,
-            "Medium": 167,
-            "Hard": 85
+            "Easy": 92,
+            "Medium": 66,
+            "Hard": 260
           },
           "shards": [
             "/find-the-place/ru/adygea.json",
@@ -337,6 +1284,115 @@
           ]
         },
         {
+          "code": "sm",
+          "name": "San Marino",
+          "counts": {
+            "Easy": 1,
+            "Medium": 2,
+            "Hard": 2
+          },
+          "shards": [
+            "/find-the-place/sm/borgo-maggiore.json",
+            "/find-the-place/sm/domagnano.json",
+            "/find-the-place/sm/fiorentino.json",
+            "/find-the-place/sm/san-marino.json",
+            "/find-the-place/sm/serravalle.json"
+          ]
+        },
+        {
+          "code": "rs",
+          "name": "Serbia",
+          "counts": {
+            "Easy": 19,
+            "Medium": 28,
+            "Hard": 28
+          },
+          "shards": [
+            "/find-the-place/rs/central-serbia.json",
+            "/find-the-place/rs/vojvodina.json"
+          ]
+        },
+        {
+          "code": "sk",
+          "name": "Slovakia",
+          "counts": {
+            "Easy": 15,
+            "Medium": 23,
+            "Hard": 22
+          },
+          "shards": [
+            "/find-the-place/sk/banska-bystrica-region.json",
+            "/find-the-place/sk/bratislava-region.json",
+            "/find-the-place/sk/kosice-region.json",
+            "/find-the-place/sk/nitra-region.json",
+            "/find-the-place/sk/presov-region.json",
+            "/find-the-place/sk/trencin-region.json",
+            "/find-the-place/sk/trnava-region.json",
+            "/find-the-place/sk/zilina-region.json"
+          ]
+        },
+        {
+          "code": "si",
+          "name": "Slovenia",
+          "counts": {
+            "Easy": 13,
+            "Medium": 19,
+            "Hard": 18
+          },
+          "shards": [
+            "/find-the-place/si/ljubljana.json",
+            "/find-the-place/si/logatec.json",
+            "/find-the-place/si/municipality-of-ajdovscina.json",
+            "/find-the-place/si/municipality-of-bled.json",
+            "/find-the-place/si/municipality-of-brezice.json",
+            "/find-the-place/si/municipality-of-cerknica.json",
+            "/find-the-place/si/municipality-of-crnomelj.json",
+            "/find-the-place/si/municipality-of-domzale.json",
+            "/find-the-place/si/municipality-of-grosuplje.json",
+            "/find-the-place/si/municipality-of-hrastnik.json",
+            "/find-the-place/si/municipality-of-idrija.json",
+            "/find-the-place/si/municipality-of-ilirska-bistrica.json",
+            "/find-the-place/si/municipality-of-izola.json",
+            "/find-the-place/si/municipality-of-jesenice.json",
+            "/find-the-place/si/municipality-of-kamnik.json",
+            "/find-the-place/si/municipality-of-kocevje.json",
+            "/find-the-place/si/municipality-of-litija.json",
+            "/find-the-place/si/municipality-of-medvode.json",
+            "/find-the-place/si/municipality-of-menges.json",
+            "/find-the-place/si/municipality-of-miklavz-na-dravskem-polju.json",
+            "/find-the-place/si/municipality-of-piran.json",
+            "/find-the-place/si/municipality-of-postojna.json",
+            "/find-the-place/si/municipality-of-prevalje.json",
+            "/find-the-place/si/municipality-of-ravne-na-koroskem.json",
+            "/find-the-place/si/municipality-of-rogaska-slatina.json",
+            "/find-the-place/si/municipality-of-ruse.json",
+            "/find-the-place/si/municipality-of-sentilj.json",
+            "/find-the-place/si/municipality-of-sevnica.json",
+            "/find-the-place/si/municipality-of-sezana.json",
+            "/find-the-place/si/municipality-of-slovenska-bistrica.json",
+            "/find-the-place/si/municipality-of-slovenske-konjice.json",
+            "/find-the-place/si/municipality-of-trbovlje.json",
+            "/find-the-place/si/municipality-of-trzin.json",
+            "/find-the-place/si/municipality-of-vrhnika.json",
+            "/find-the-place/si/municipality-of-zagorje-ob-savi.json",
+            "/find-the-place/si/municipality-of-zalec.json",
+            "/find-the-place/si/radovljica.json",
+            "/find-the-place/si/sentjur.json",
+            "/find-the-place/si/skofja-loka.json",
+            "/find-the-place/si/urban-municipality-of-celje.json",
+            "/find-the-place/si/urban-municipality-of-koper.json",
+            "/find-the-place/si/urban-municipality-of-kranj.json",
+            "/find-the-place/si/urban-municipality-of-krsko.json",
+            "/find-the-place/si/urban-municipality-of-maribor.json",
+            "/find-the-place/si/urban-municipality-of-murska-sobota.json",
+            "/find-the-place/si/urban-municipality-of-nova-gorica.json",
+            "/find-the-place/si/urban-municipality-of-novo-mesto.json",
+            "/find-the-place/si/urban-municipality-of-ptuj.json",
+            "/find-the-place/si/urban-municipality-of-slovenj-gradec.json",
+            "/find-the-place/si/urban-municipality-of-velenje.json"
+          ]
+        },
+        {
           "code": "es",
           "name": "Spain",
           "counts": {
@@ -364,6 +1420,233 @@
             "/find-the-place/es/principality-of-asturias.json",
             "/find-the-place/es/region-of-murcia.json",
             "/find-the-place/es/valencian-community.json"
+          ]
+        },
+        {
+          "code": "se",
+          "name": "Sweden",
+          "counts": {
+            "Easy": 30,
+            "Medium": 45,
+            "Hard": 45
+          },
+          "shards": [
+            "/find-the-place/se/blekinge.json",
+            "/find-the-place/se/dalarna.json",
+            "/find-the-place/se/gaevleborg.json",
+            "/find-the-place/se/gotland.json",
+            "/find-the-place/se/halland.json",
+            "/find-the-place/se/jaemtland.json",
+            "/find-the-place/se/joenkoeping.json",
+            "/find-the-place/se/kalmar.json",
+            "/find-the-place/se/kronoberg.json",
+            "/find-the-place/se/norrbotten.json",
+            "/find-the-place/se/oerebro.json",
+            "/find-the-place/se/oestergoetland.json",
+            "/find-the-place/se/skane.json",
+            "/find-the-place/se/soedermanland.json",
+            "/find-the-place/se/stockholm.json",
+            "/find-the-place/se/uppsala.json",
+            "/find-the-place/se/vaermland.json",
+            "/find-the-place/se/vaesterbotten.json",
+            "/find-the-place/se/vaesternorrland.json",
+            "/find-the-place/se/vaestmanland.json",
+            "/find-the-place/se/vaestra-goetaland.json"
+          ]
+        },
+        {
+          "code": "ch",
+          "name": "Switzerland",
+          "counts": {
+            "Easy": 25,
+            "Medium": 38,
+            "Hard": 37
+          },
+          "shards": [
+            "/find-the-place/ch/aargau.json",
+            "/find-the-place/ch/appenzell-ausserrhoden.json",
+            "/find-the-place/ch/appenzell-innerrhoden.json",
+            "/find-the-place/ch/basel-city.json",
+            "/find-the-place/ch/basel-landschaft.json",
+            "/find-the-place/ch/bern.json",
+            "/find-the-place/ch/fribourg.json",
+            "/find-the-place/ch/geneva.json",
+            "/find-the-place/ch/glarus.json",
+            "/find-the-place/ch/grisons.json",
+            "/find-the-place/ch/jura.json",
+            "/find-the-place/ch/lucerne.json",
+            "/find-the-place/ch/neuchatel.json",
+            "/find-the-place/ch/nidwalden.json",
+            "/find-the-place/ch/obwalden.json",
+            "/find-the-place/ch/saint-gallen.json",
+            "/find-the-place/ch/schaffhausen.json",
+            "/find-the-place/ch/schwyz.json",
+            "/find-the-place/ch/solothurn.json",
+            "/find-the-place/ch/thurgau.json",
+            "/find-the-place/ch/ticino.json",
+            "/find-the-place/ch/uri.json",
+            "/find-the-place/ch/valais.json",
+            "/find-the-place/ch/vaud.json",
+            "/find-the-place/ch/zug.json",
+            "/find-the-place/ch/zurich.json"
+          ]
+        },
+        {
+          "code": "tr",
+          "name": "Turkey",
+          "counts": {
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
+          },
+          "shards": [
+            "/find-the-place/tr/adana.json",
+            "/find-the-place/tr/adiyaman-province.json",
+            "/find-the-place/tr/afyonkarahisar-province.json",
+            "/find-the-place/tr/agri.json",
+            "/find-the-place/tr/aksaray.json",
+            "/find-the-place/tr/amasya.json",
+            "/find-the-place/tr/ankara.json",
+            "/find-the-place/tr/antalya.json",
+            "/find-the-place/tr/ardahan.json",
+            "/find-the-place/tr/artvin.json",
+            "/find-the-place/tr/aydin.json",
+            "/find-the-place/tr/balikesir.json",
+            "/find-the-place/tr/bartin.json",
+            "/find-the-place/tr/batman.json",
+            "/find-the-place/tr/bayburt-province.json",
+            "/find-the-place/tr/bilecik.json",
+            "/find-the-place/tr/bingoel.json",
+            "/find-the-place/tr/bitlis.json",
+            "/find-the-place/tr/bolu.json",
+            "/find-the-place/tr/burdur.json",
+            "/find-the-place/tr/bursa-province.json",
+            "/find-the-place/tr/canakkale.json",
+            "/find-the-place/tr/cankiri.json",
+            "/find-the-place/tr/corum.json",
+            "/find-the-place/tr/denizli.json",
+            "/find-the-place/tr/diyarbakir-province.json",
+            "/find-the-place/tr/duzce.json",
+            "/find-the-place/tr/edirne.json",
+            "/find-the-place/tr/elazig.json",
+            "/find-the-place/tr/erzincan.json",
+            "/find-the-place/tr/erzurum.json",
+            "/find-the-place/tr/eskisehir.json",
+            "/find-the-place/tr/gaziantep.json",
+            "/find-the-place/tr/giresun.json",
+            "/find-the-place/tr/guemueshane-province.json",
+            "/find-the-place/tr/hakkari.json",
+            "/find-the-place/tr/hatay.json",
+            "/find-the-place/tr/igdir.json",
+            "/find-the-place/tr/isparta.json",
+            "/find-the-place/tr/istanbul.json",
+            "/find-the-place/tr/izmir-province.json",
+            "/find-the-place/tr/kahramanmaras.json",
+            "/find-the-place/tr/karabuek-province.json",
+            "/find-the-place/tr/karaman.json",
+            "/find-the-place/tr/kars-province.json",
+            "/find-the-place/tr/kastamonu.json",
+            "/find-the-place/tr/kayseri.json",
+            "/find-the-place/tr/kilis.json",
+            "/find-the-place/tr/kirikkale.json",
+            "/find-the-place/tr/kirklareli.json",
+            "/find-the-place/tr/kirsehir.json",
+            "/find-the-place/tr/kocaeli.json",
+            "/find-the-place/tr/konya.json",
+            "/find-the-place/tr/kuetahya.json",
+            "/find-the-place/tr/malatya.json",
+            "/find-the-place/tr/manisa.json",
+            "/find-the-place/tr/mardin.json",
+            "/find-the-place/tr/mersin.json",
+            "/find-the-place/tr/mugla.json",
+            "/find-the-place/tr/mus.json",
+            "/find-the-place/tr/nevsehir-province.json",
+            "/find-the-place/tr/nigde-province.json",
+            "/find-the-place/tr/ordu.json",
+            "/find-the-place/tr/osmaniye.json",
+            "/find-the-place/tr/rize-province.json",
+            "/find-the-place/tr/sakarya.json",
+            "/find-the-place/tr/samsun.json",
+            "/find-the-place/tr/sanliurfa.json",
+            "/find-the-place/tr/siirt.json",
+            "/find-the-place/tr/sinop.json",
+            "/find-the-place/tr/sirnak.json",
+            "/find-the-place/tr/sivas.json",
+            "/find-the-place/tr/tekirdag.json",
+            "/find-the-place/tr/tokat-province.json",
+            "/find-the-place/tr/trabzon.json",
+            "/find-the-place/tr/tunceli.json",
+            "/find-the-place/tr/usak.json",
+            "/find-the-place/tr/van.json",
+            "/find-the-place/tr/yalova.json",
+            "/find-the-place/tr/yozgat.json",
+            "/find-the-place/tr/zonguldak-province.json"
+          ]
+        },
+        {
+          "code": "ua",
+          "name": "Ukraine",
+          "counts": {
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
+          },
+          "shards": [
+            "/find-the-place/ua/cherkasy.json",
+            "/find-the-place/ua/chernihiv-oblast.json",
+            "/find-the-place/ua/chernivtsi.json",
+            "/find-the-place/ua/crimea.json",
+            "/find-the-place/ua/dnipropetrovsk.json",
+            "/find-the-place/ua/donetsk.json",
+            "/find-the-place/ua/ivano-frankivsk.json",
+            "/find-the-place/ua/kharkiv.json",
+            "/find-the-place/ua/kherson.json",
+            "/find-the-place/ua/khmelnytskyi.json",
+            "/find-the-place/ua/kirovohrad.json",
+            "/find-the-place/ua/kyiv-city.json",
+            "/find-the-place/ua/kyiv-oblast.json",
+            "/find-the-place/ua/luhansk.json",
+            "/find-the-place/ua/lviv.json",
+            "/find-the-place/ua/mykolaiv.json",
+            "/find-the-place/ua/odesa.json",
+            "/find-the-place/ua/poltava.json",
+            "/find-the-place/ua/rivne-oblast.json",
+            "/find-the-place/ua/sevastopol-city.json",
+            "/find-the-place/ua/sumy.json",
+            "/find-the-place/ua/ternopil.json",
+            "/find-the-place/ua/vinnytsia.json",
+            "/find-the-place/ua/volyn.json",
+            "/find-the-place/ua/zakarpattia.json",
+            "/find-the-place/ua/zaporizhzhia.json",
+            "/find-the-place/ua/zhytomyr-oblast.json"
+          ]
+        },
+        {
+          "code": "gb",
+          "name": "United Kingdom",
+          "counts": {
+            "Easy": 50,
+            "Medium": 75,
+            "Hard": 75
+          },
+          "shards": [
+            "/find-the-place/gb/england.json",
+            "/find-the-place/gb/northern-ireland.json",
+            "/find-the-place/gb/scotland.json",
+            "/find-the-place/gb/wales.json"
+          ]
+        },
+        {
+          "code": "va",
+          "name": "Vatican City",
+          "counts": {
+            "Easy": 1,
+            "Medium": 0,
+            "Hard": 1
+          },
+          "shards": [
+            "/find-the-place/va/st-peter-s-square.json",
+            "/find-the-place/va/vatican-museums.json"
           ]
         }
       ]

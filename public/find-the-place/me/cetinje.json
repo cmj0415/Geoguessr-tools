@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Cetinje",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-cetinje-3202641",
+      "name": "Cetinje",
+      "coordinates": [
+        42.39063,
+        18.91417
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

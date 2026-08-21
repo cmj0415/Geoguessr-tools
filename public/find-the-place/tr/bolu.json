@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bolu",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-bolu-750516",
+      "name": "Bolu",
+      "coordinates": [
+        40.73583,
+        31.60611
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

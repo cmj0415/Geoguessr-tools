@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-amur-oblast-blagoveshchensk",
           "name": "Blagoveshchensk",
-          "coordinates": [50.27593, 127.52637],
+          "coordinates": [
+            50.27593,
+            127.52637
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-amur-oblast-belogorsk",
           "name": "Belogorsk",
-          "coordinates": [50.91239, 128.51238],
-          "difficulty": "Easy"
+          "coordinates": [
+            50.91239,
+            128.51238
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-amur-oblast-svobodnyy",
           "name": "Svobodnyy",
-          "coordinates": [51.37498, 128.1401],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.37498,
+            128.1401
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-amur-oblast-tynda",
           "name": "Tynda",
-          "coordinates": [55.14941, 124.73676],
-          "difficulty": "Medium"
+          "coordinates": [
+            55.14941,
+            124.73676
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-amur-oblast-zeya",
           "name": "Zeya",
-          "coordinates": [53.73586, 127.25598],
+          "coordinates": [
+            53.73586,
+            127.25598
+          ],
           "difficulty": "Hard"
         }
       ]

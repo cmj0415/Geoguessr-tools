@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "South Savo",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-mikkeli-646005",
+      "name": "Mikkeli",
+      "coordinates": [
+        61.68857,
+        27.27227
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "fi-savonlinna-637292",
+      "name": "Savonlinna",
+      "coordinates": [
+        61.8699,
+        28.87999
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "fi-pieksaemaeki-641869",
+      "name": "Pieksämäki",
+      "coordinates": [
+        62.3,
+        27.13333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jēkabpils Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-jekabpils-459283",
+      "name": "Jēkabpils",
+      "coordinates": [
+        56.49903,
+        25.85735
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

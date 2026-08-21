@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Balvi Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-balvi-461163",
+      "name": "Balvi",
+      "coordinates": [
+        57.1313,
+        27.26583
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

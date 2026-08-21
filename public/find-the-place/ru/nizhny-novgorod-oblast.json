@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-nizhny-novgorod-oblast-nizhny-novgorod",
           "name": "Nizhny Novgorod",
-          "coordinates": [56.32867, 44.00205],
+          "coordinates": [
+            56.32867,
+            44.00205
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-nizhny-novgorod-oblast-dzerzhinsk",
           "name": "Dzerzhinsk",
-          "coordinates": [56.24422, 43.45543],
+          "coordinates": [
+            56.24422,
+            43.45543
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-nizhny-novgorod-oblast-arzamas",
           "name": "Arzamas",
-          "coordinates": [55.39563, 43.8381],
+          "coordinates": [
+            55.39563,
+            43.8381
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-nizhny-novgorod-oblast-sarov",
           "name": "Sarov",
-          "coordinates": [54.94802, 43.31521],
-          "difficulty": "Medium"
+          "coordinates": [
+            54.94802,
+            43.31521
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-nizhny-novgorod-oblast-kstovo",
           "name": "Kstovo",
-          "coordinates": [56.1475, 44.19865],
+          "coordinates": [
+            56.1475,
+            44.19865
+          ],
           "difficulty": "Hard"
         }
       ]

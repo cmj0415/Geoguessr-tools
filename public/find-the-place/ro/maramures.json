@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Maramureş",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-baia-mare-685826",
+      "name": "Baia Mare",
+      "coordinates": [
+        47.65729,
+        23.56808
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-sighetu-marmatiei-667227",
+      "name": "Sighetu Marmaţiei",
+      "coordinates": [
+        47.93195,
+        23.88603
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-borsa-684156",
+      "name": "Borşa",
+      "coordinates": [
+        47.65527,
+        24.66328
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-baia-sprie-685823",
+      "name": "Baia Sprie",
+      "coordinates": [
+        47.66189,
+        23.69215
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-viseu-de-sus-662699",
+      "name": "Vişeu de Sus",
+      "coordinates": [
+        47.7079,
+        24.42953
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

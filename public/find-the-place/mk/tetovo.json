@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Tetovo",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-tetovo-785082",
+      "name": "Tetovo",
+      "coordinates": [
+        42.00989,
+        20.97138
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

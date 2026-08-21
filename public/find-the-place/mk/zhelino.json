@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Zhelino",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-zelino-783926",
+      "name": "Zelino",
+      "coordinates": [
+        41.98028,
+        21.06417
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Lezhë County",
+  "children": [
+    {
+      "type": "place",
+      "id": "al-lezhe-3184935",
+      "name": "Lezhë",
+      "coordinates": [
+        41.78361,
+        19.64361
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "al-lac-3185012",
+      "name": "Laç",
+      "coordinates": [
+        41.63556,
+        19.71306
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

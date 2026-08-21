@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Neamț County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-piatra-neamt-670889",
+      "name": "Piatra Neamţ",
+      "coordinates": [
+        46.91667,
+        26.33333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-roman-668732",
+      "name": "Roman",
+      "coordinates": [
+        46.92119,
+        26.92646
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-targu-neamt-665003",
+      "name": "Târgu Neamţ",
+      "coordinates": [
+        47.2,
+        26.36667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

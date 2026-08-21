@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jalilabad",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-jalilabad-148290",
+      "name": "Jalilabad",
+      "coordinates": [
+        39.20963,
+        48.49186
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

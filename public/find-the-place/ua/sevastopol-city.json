@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Sevastopol City",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-sevastopol-694423",
+      "name": "Sevastopol",
+      "coordinates": [
+        44.60795,
+        33.52134
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

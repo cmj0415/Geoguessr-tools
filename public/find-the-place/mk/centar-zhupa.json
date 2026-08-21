@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Centar Zhupa",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-centar-zupa-7886881",
+      "name": "Centar Župa",
+      "coordinates": [
+        41.47849,
+        20.55945
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

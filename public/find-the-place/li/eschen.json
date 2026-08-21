@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Eschen",
+  "children": [
+    {
+      "type": "place",
+      "id": "li-eschen-3042068",
+      "name": "Eschen",
+      "coordinates": [
+        47.21071,
+        9.52223
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

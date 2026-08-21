@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ağcabǝdi",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-aghjabadi-587384",
+      "name": "Aghjabadi",
+      "coordinates": [
+        40.05015,
+        47.45937
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

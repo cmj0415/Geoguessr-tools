@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Balzers",
+  "children": [
+    {
+      "type": "place",
+      "id": "li-balzers-3042073",
+      "name": "Balzers",
+      "coordinates": [
+        47.06661,
+        9.50355
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

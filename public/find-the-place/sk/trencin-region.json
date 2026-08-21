@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Trenčín Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "sk-trencin-3057140",
+      "name": "Trenčín",
+      "coordinates": [
+        48.89452,
+        18.04436
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-prievidza-3058000",
+      "name": "Prievidza",
+      "coordinates": [
+        48.77446,
+        18.6275
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-povazska-bystrica-3058060",
+      "name": "Považská Bystrica",
+      "coordinates": [
+        49.12153,
+        18.42169
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-dubnica-nad-vahom-3060346",
+      "name": "Dubnica nad Váhom",
+      "coordinates": [
+        48.95981,
+        18.16634
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-partizanske-3058268",
+      "name": "Partizánske",
+      "coordinates": [
+        48.62861,
+        18.38455
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-nove-mesto-nad-vahom-3058477",
+      "name": "Nové Mesto nad Váhom",
+      "coordinates": [
+        48.75763,
+        17.8309
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-puchov-3057963",
+      "name": "Púchov",
+      "coordinates": [
+        49.12494,
+        18.32597
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-banovce-nad-bebravou-3061188",
+      "name": "Bánovce nad Bebravou",
+      "coordinates": [
+        48.7213,
+        18.25754
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-handlova-3060139",
+      "name": "Handlová",
+      "coordinates": [
+        48.7276,
+        18.76012
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

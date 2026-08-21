@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Tauragė County",
+  "children": [
+    {
+      "type": "place",
+      "id": "lt-taurage-593959",
+      "name": "Taurage",
+      "coordinates": [
+        55.25222,
+        22.28972
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-jurbarkas-598655",
+      "name": "Jurbarkas",
+      "coordinates": [
+        55.07556,
+        22.76416
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

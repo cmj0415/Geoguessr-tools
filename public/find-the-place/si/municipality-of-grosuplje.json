@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Grosuplje",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-grosuplje-3199523",
+      "name": "Grosuplje",
+      "coordinates": [
+        45.95579,
+        14.65891
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

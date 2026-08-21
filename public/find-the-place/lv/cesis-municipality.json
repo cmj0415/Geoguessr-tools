@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Cēsis Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-cesis-460570",
+      "name": "Cēsis",
+      "coordinates": [
+        57.31188,
+        25.27456
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-kamchatka-krai-petropavlovsk-kamchatsky",
           "name": "Petropavlovsk-Kamchatsky",
-          "coordinates": [53.06393, 158.62751],
-          "difficulty": "Easy"
+          "coordinates": [
+            53.06393,
+            158.62751
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-kamchatka-krai-yelizovo",
           "name": "Yelizovo",
-          "coordinates": [53.18936, 158.38282],
-          "difficulty": "Easy"
+          "coordinates": [
+            53.18936,
+            158.38282
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kamchatka-krai-vilyuchinsk",
           "name": "Vilyuchinsk",
-          "coordinates": [52.93196, 158.40585],
-          "difficulty": "Medium"
+          "coordinates": [
+            52.93196,
+            158.40585
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-kamchatka-krai-klyuchi",
           "name": "Klyuchi",
-          "coordinates": [56.32035, 160.84541],
-          "difficulty": "Medium"
+          "coordinates": [
+            56.32035,
+            160.84541
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-kamchatka-krai-milkovo",
           "name": "Milkovo",
-          "coordinates": [54.69469, 158.61884],
+          "coordinates": [
+            54.69469,
+            158.61884
+          ],
           "difficulty": "Hard"
         }
       ]

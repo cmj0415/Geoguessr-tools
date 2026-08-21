@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Opština Kolašin",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-kolasin-3197896",
+      "name": "Kolašin",
+      "coordinates": [
+        42.82229,
+        19.51653
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

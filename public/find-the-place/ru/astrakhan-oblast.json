@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-astrakhan-oblast-astrakhan",
           "name": "Astrakhan",
-          "coordinates": [46.34968, 48.04076],
+          "coordinates": [
+            46.34968,
+            48.04076
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-astrakhan-oblast-akhtubinsk",
           "name": "Akhtubinsk",
-          "coordinates": [48.28339, 46.16519],
-          "difficulty": "Easy"
+          "coordinates": [
+            48.28339,
+            46.16519
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-astrakhan-oblast-znamensk",
           "name": "Znamensk",
-          "coordinates": [48.5842, 45.7338],
-          "difficulty": "Medium"
+          "coordinates": [
+            48.5842,
+            45.7338
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-astrakhan-oblast-kharabali",
           "name": "Kharabali",
-          "coordinates": [47.40769, 47.25391],
-          "difficulty": "Medium"
+          "coordinates": [
+            47.40769,
+            47.25391
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-astrakhan-oblast-kamyzyak",
           "name": "Kamyzyak",
-          "coordinates": [46.10502, 48.07823],
+          "coordinates": [
+            46.10502,
+            48.07823
+          ],
           "difficulty": "Hard"
         }
       ]

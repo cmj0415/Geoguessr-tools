@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Delchevo",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-delcevo-791559",
+      "name": "Delcevo",
+      "coordinates": [
+        41.96722,
+        22.76944
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

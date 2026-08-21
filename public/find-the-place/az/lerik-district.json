@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Lerik District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-lerik-147611",
+      "name": "Lerik",
+      "coordinates": [
+        38.77388,
+        48.41497
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

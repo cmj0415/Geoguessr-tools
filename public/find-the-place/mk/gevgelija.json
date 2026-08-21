@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Gevgelija",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-gevgelija-790744",
+      "name": "Gevgelija",
+      "coordinates": [
+        41.14289,
+        22.50108
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

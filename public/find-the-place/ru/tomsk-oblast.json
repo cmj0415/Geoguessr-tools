@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-tomsk-oblast-tomsk",
           "name": "Tomsk",
-          "coordinates": [56.50049, 84.98216],
+          "coordinates": [
+            56.50049,
+            84.98216
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-tomsk-oblast-seversk",
           "name": "Seversk",
-          "coordinates": [56.60056, 84.88639],
-          "difficulty": "Easy"
+          "coordinates": [
+            56.60056,
+            84.88639
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-tomsk-oblast-strezhevoy",
           "name": "Strezhevoy",
-          "coordinates": [60.7333, 77.5889],
-          "difficulty": "Medium"
+          "coordinates": [
+            60.7333,
+            77.5889
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-tomsk-oblast-kolpashevo",
           "name": "Kolpashevo",
-          "coordinates": [58.32007, 82.90295],
-          "difficulty": "Medium"
+          "coordinates": [
+            58.32007,
+            82.90295
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-tomsk-oblast-asino",
           "name": "Asino",
-          "coordinates": [56.99918, 86.15518],
+          "coordinates": [
+            56.99918,
+            86.15518
+          ],
           "difficulty": "Hard"
         }
       ]

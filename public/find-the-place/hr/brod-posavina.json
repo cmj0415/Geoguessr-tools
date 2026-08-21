@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Brod-Posavina",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-slavonski-brod-3190586",
+      "name": "Slavonski Brod",
+      "coordinates": [
+        45.16158,
+        18.0163
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hr-nova-gradiska-3194449",
+      "name": "Nova Gradiška",
+      "coordinates": [
+        45.255,
+        17.38306
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

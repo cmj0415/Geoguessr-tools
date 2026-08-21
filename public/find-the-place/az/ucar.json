@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ucar",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-ujar-584791",
+      "name": "Ujar",
+      "coordinates": [
+        40.51902,
+        47.65423
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

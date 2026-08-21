@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-ingushetia-nazran",
           "name": "Nazran",
-          "coordinates": [43.22597, 44.77323],
-          "difficulty": "Easy"
+          "coordinates": [
+            43.22597,
+            44.77323
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-ingushetia-sunzha",
           "name": "Sunzha",
-          "coordinates": [43.32059, 45.04903],
-          "difficulty": "Easy"
+          "coordinates": [
+            43.32059,
+            45.04903
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-ingushetia-malgobek",
           "name": "Malgobek",
-          "coordinates": [43.51121, 44.59051],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.51121,
+            44.59051
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-ingushetia-karabulak",
           "name": "Karabulak",
-          "coordinates": [43.30513, 44.89949],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.30513,
+            44.89949
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-ingushetia-ekazhevo",
           "name": "Ekazhevo",
-          "coordinates": [43.21222, 44.82306],
+          "coordinates": [
+            43.21222,
+            44.82306
+          ],
           "difficulty": "Hard"
         }
       ]

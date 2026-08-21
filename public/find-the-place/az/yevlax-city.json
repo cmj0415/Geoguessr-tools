@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Yevlax City",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-yevlakh-584649",
+      "name": "Yevlakh",
+      "coordinates": [
+        40.61832,
+        47.15014
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

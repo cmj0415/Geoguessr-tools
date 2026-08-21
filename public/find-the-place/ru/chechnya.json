@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-chechnya-grozny",
           "name": "Grozny",
-          "coordinates": [43.31195, 45.68895],
+          "coordinates": [
+            43.31195,
+            45.68895
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-chechnya-urus-martan",
           "name": "Urus-Martan",
-          "coordinates": [43.13053, 45.53791],
-          "difficulty": "Easy"
+          "coordinates": [
+            43.13053,
+            45.53791
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-chechnya-gudermes",
           "name": "Gudermes",
-          "coordinates": [43.35082, 46.10095],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.35082,
+            46.10095
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-chechnya-argun",
           "name": "Argun",
-          "coordinates": [43.29289, 45.86691],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.29289,
+            45.86691
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-chechnya-shali",
           "name": "Shali",
-          "coordinates": [43.14806, 45.90194],
+          "coordinates": [
+            43.14806,
+            45.90194
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Tolna County",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-szekszard-3044760",
+      "name": "Szekszárd",
+      "coordinates": [
+        46.34723,
+        18.71189
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-dombovar-3053590",
+      "name": "Dombóvár",
+      "coordinates": [
+        46.37657,
+        18.13696
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-paks-3046768",
+      "name": "Paks",
+      "coordinates": [
+        46.6221,
+        18.85569
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-bonyhad-3054809",
+      "name": "Bonyhád",
+      "coordinates": [
+        46.29921,
+        18.53024
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

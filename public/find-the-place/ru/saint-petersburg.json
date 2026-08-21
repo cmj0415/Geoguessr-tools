@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-saint-petersburg-saint-petersburg",
           "name": "Saint Petersburg",
-          "coordinates": [59.93863, 30.31413],
+          "coordinates": [
+            59.93863,
+            30.31413
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-saint-petersburg-kolpino",
           "name": "Kolpino",
-          "coordinates": [59.75069, 30.58856],
-          "difficulty": "Easy"
+          "coordinates": [
+            59.75069,
+            30.58856
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-saint-petersburg-pushkin",
           "name": "Pushkin",
-          "coordinates": [59.71417, 30.39642],
-          "difficulty": "Medium"
+          "coordinates": [
+            59.71417,
+            30.39642
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-saint-petersburg-peterhof",
           "name": "Peterhof",
-          "coordinates": [59.88333, 29.9],
-          "difficulty": "Medium"
+          "coordinates": [
+            59.88333,
+            29.9
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-saint-petersburg-kronstadt",
           "name": "Kronstadt",
-          "coordinates": [59.992, 29.77616],
+          "coordinates": [
+            59.992,
+            29.77616
+          ],
           "difficulty": "Hard"
         }
       ]

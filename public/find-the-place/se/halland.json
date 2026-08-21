@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Halland",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-halmstad-2708365",
+      "name": "Halmstad",
+      "coordinates": [
+        56.67446,
+        12.85676
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-varberg-2664996",
+      "name": "Varberg",
+      "coordinates": [
+        57.10557,
+        12.25078
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-falkenberg-2715573",
+      "name": "Falkenberg",
+      "coordinates": [
+        56.90552,
+        12.49118
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-kungsbacka-2698729",
+      "name": "Kungsbacka",
+      "coordinates": [
+        57.48719,
+        12.07612
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

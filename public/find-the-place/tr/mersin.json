@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Mersin",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-mersin-304531",
+      "name": "Mersin",
+      "coordinates": [
+        36.81196,
+        34.63886
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-tarsus-299817",
+      "name": "Tarsus",
+      "coordinates": [
+        36.91766,
+        34.89277
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-silifke-300808",
+      "name": "Silifke",
+      "coordinates": [
+        36.37778,
+        33.93444
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-anamur-323828",
+      "name": "Anamur",
+      "coordinates": [
+        36.07508,
+        32.83691
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "tr-mut-304013",
+      "name": "Mut",
+      "coordinates": [
+        36.64389,
+        33.43885
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

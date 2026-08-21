@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ropaži Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-ulbroka-454714",
+      "name": "Ulbroka",
+      "coordinates": [
+        56.9363,
+        24.30387
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

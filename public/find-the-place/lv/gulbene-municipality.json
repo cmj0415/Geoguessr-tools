@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Gulbene Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-gulbene-459668",
+      "name": "Gulbene",
+      "coordinates": [
+        57.17767,
+        26.75291
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

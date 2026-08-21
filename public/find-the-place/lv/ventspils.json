@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ventspils",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-ventspils-454310",
+      "name": "Ventspils",
+      "coordinates": [
+        57.39485,
+        21.56121
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

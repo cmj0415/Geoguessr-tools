@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "South",
+  "children": [
+    {
+      "type": "place",
+      "id": "is-selfoss-3413604",
+      "name": "Selfoss",
+      "coordinates": [
+        63.93311,
+        -20.99712
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "is-vestmannaeyjar-3412093",
+      "name": "Vestmannaeyjar",
+      "coordinates": [
+        63.44273,
+        -20.27339
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-hveragerdi-3415761",
+      "name": "Hveragerði",
+      "coordinates": [
+        64.00039,
+        -21.18602
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-thorlakshoefn-3412589",
+      "name": "Þorlákshöfn",
+      "coordinates": [
+        63.85591,
+        -21.38337
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-hvolsvoellur-3415720",
+      "name": "Hvolsvöllur",
+      "coordinates": [
+        63.75069,
+        -20.22454
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-hella-3416453",
+      "name": "Hella",
+      "coordinates": [
+        63.8348,
+        -20.40084
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-fludir-6951090",
+      "name": "Flúðir",
+      "coordinates": [
+        64.13428,
+        -20.32265
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

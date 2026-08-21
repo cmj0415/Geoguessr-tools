@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-leningrad-oblast-gatchina",
           "name": "Gatchina",
-          "coordinates": [59.57639, 30.12833],
-          "difficulty": "Easy"
+          "coordinates": [
+            59.57639,
+            30.12833
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-leningrad-oblast-vyborg",
           "name": "Vyborg",
-          "coordinates": [60.70763, 28.75283],
-          "difficulty": "Easy"
+          "coordinates": [
+            60.70763,
+            28.75283
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-leningrad-oblast-sosnovyy-bor",
           "name": "Sosnovyy Bor",
-          "coordinates": [59.8996, 29.08574],
-          "difficulty": "Medium"
+          "coordinates": [
+            59.8996,
+            29.08574
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-leningrad-oblast-tikhvin",
           "name": "Tikhvin",
-          "coordinates": [59.63924, 33.52555],
-          "difficulty": "Medium"
+          "coordinates": [
+            59.63924,
+            33.52555
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-leningrad-oblast-kirishi",
           "name": "Kirishi",
-          "coordinates": [59.47417, 32.04007],
+          "coordinates": [
+            59.47417,
+            32.04007
+          ],
           "difficulty": "Hard"
         }
       ]

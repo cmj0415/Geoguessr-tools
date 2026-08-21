@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Lubusz",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-zielona-gora-3080165",
+      "name": "Zielona Góra",
+      "coordinates": [
+        51.93548,
+        15.50643
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-gorzow-wielkopolski-3098722",
+      "name": "Gorzów Wielkopolski",
+      "coordinates": [
+        52.73371,
+        15.22505
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-nowa-sol-3090764",
+      "name": "Nowa Sól",
+      "coordinates": [
+        51.80333,
+        15.71702
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-zary-3080644",
+      "name": "Żary",
+      "coordinates": [
+        51.64205,
+        15.13727
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

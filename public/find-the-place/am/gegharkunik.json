@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Gegharkunik",
+  "children": [
+    {
+      "type": "place",
+      "id": "am-sevan-616250",
+      "name": "Sevan",
+      "coordinates": [
+        40.548,
+        44.95314
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "am-gavar-616599",
+      "name": "Gavar",
+      "coordinates": [
+        40.35398,
+        45.12386
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-vardenis-616108",
+      "name": "Vardenis",
+      "coordinates": [
+        40.1827,
+        45.73156
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-martuni-616438",
+      "name": "Martuni",
+      "coordinates": [
+        40.14028,
+        45.30232
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-nerkin-getashen-616375",
+      "name": "Nerkin Getashen",
+      "coordinates": [
+        40.14172,
+        45.27087
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "am-vardenik-616109",
+      "name": "Vardenik",
+      "coordinates": [
+        40.13722,
+        45.42914
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "am-sarukhan-616255",
+      "name": "Sarukhan",
+      "coordinates": [
+        40.29169,
+        45.13068
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "am-zolakar-616040",
+      "name": "Zolakar",
+      "coordinates": [
+        40.12512,
+        45.38068
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

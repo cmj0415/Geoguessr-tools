@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Izola",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-izola-3199017",
+      "name": "Izola",
+      "coordinates": [
+        45.53661,
+        13.66015
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

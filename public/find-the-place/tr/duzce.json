@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Düzce",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-duezce-747764",
+      "name": "Düzce",
+      "coordinates": [
+        40.83889,
+        31.16389
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Međimurje",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-cakovec-3202888",
+      "name": "Čakovec",
+      "coordinates": [
+        46.38444,
+        16.43389
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

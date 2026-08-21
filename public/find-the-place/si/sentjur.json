@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Sentjur",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-sentjur-3191029",
+      "name": "Šentjur",
+      "coordinates": [
+        46.21722,
+        15.3975
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

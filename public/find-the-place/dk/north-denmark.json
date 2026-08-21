@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "North Denmark",
+  "children": [
+    {
+      "type": "place",
+      "id": "dk-aalborg-2624886",
+      "name": "Aalborg",
+      "coordinates": [
+        57.048,
+        9.9187
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-hjorring-2620214",
+      "name": "Hjørring",
+      "coordinates": [
+        57.46417,
+        9.98229
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-norresundby-2616235",
+      "name": "Nørresundby",
+      "coordinates": [
+        57.05877,
+        9.92284
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-frederikshavn-2621927",
+      "name": "Frederikshavn",
+      "coordinates": [
+        57.44073,
+        10.53661
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Appenzell Innerrhoden",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-appenzell-2661740",
+      "name": "Appenzell",
+      "coordinates": [
+        47.33103,
+        9.40996
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

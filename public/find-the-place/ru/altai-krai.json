@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-altai-krai-barnaul",
           "name": "Barnaul",
-          "coordinates": [53.36199, 83.72786],
+          "coordinates": [
+            53.36199,
+            83.72786
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-altai-krai-biysk",
           "name": "Biysk",
-          "coordinates": [52.53423, 85.19661],
+          "coordinates": [
+            52.53423,
+            85.19661
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-altai-krai-rubtsovsk",
           "name": "Rubtsovsk",
-          "coordinates": [51.51473, 81.20613],
+          "coordinates": [
+            51.51473,
+            81.20613
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-altai-krai-novoaltaysk",
           "name": "Novoaltaysk",
-          "coordinates": [53.41426, 83.94108],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.41426,
+            83.94108
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-altai-krai-zarinsk",
           "name": "Zarinsk",
-          "coordinates": [53.70821, 84.94307],
+          "coordinates": [
+            53.70821,
+            84.94307
+          ],
           "difficulty": "Hard"
         }
       ]

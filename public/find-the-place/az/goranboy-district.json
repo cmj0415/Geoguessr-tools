@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Goranboy District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-goranboy-586430",
+      "name": "Goranboy",
+      "coordinates": [
+        40.61028,
+        46.78972
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

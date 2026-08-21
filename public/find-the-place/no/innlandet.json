@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Innlandet",
+  "children": [
+    {
+      "type": "place",
+      "id": "no-hamar-3154084",
+      "name": "Hamar",
+      "coordinates": [
+        60.7945,
+        11.06798
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-lillehammer-3147474",
+      "name": "Lillehammer",
+      "coordinates": [
+        61.11514,
+        10.46628
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-gjovik-3155573",
+      "name": "Gjøvik",
+      "coordinates": [
+        60.79574,
+        10.69155
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-elverum-3158300",
+      "name": "Elverum",
+      "coordinates": [
+        60.88191,
+        11.56231
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-kongsvinger-3149533",
+      "name": "Kongsvinger",
+      "coordinates": [
+        60.19049,
+        11.99772
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-brumunddal-3159894",
+      "name": "Brumunddal",
+      "coordinates": [
+        60.88095,
+        10.93948
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-raufoss-3142228",
+      "name": "Raufoss",
+      "coordinates": [
+        60.72604,
+        10.6133
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-jaren-3150911",
+      "name": "Jaren",
+      "coordinates": [
+        60.39273,
+        10.56155
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

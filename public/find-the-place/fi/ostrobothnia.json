@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Ostrobothnia",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-vaasa-632978",
+      "name": "Vaasa",
+      "coordinates": [
+        63.096,
+        21.61577
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "fi-jakobstad-656130",
+      "name": "Jakobstad",
+      "coordinates": [
+        63.67486,
+        22.70256
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "fi-korsholm-651299",
+      "name": "Korsholm",
+      "coordinates": [
+        63.11418,
+        21.68216
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "fi-pedersoere-642455",
+      "name": "Pedersöre",
+      "coordinates": [
+        63.65,
+        22.68333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

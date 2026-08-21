@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Ilfov",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-voluntari-662476",
+      "name": "Voluntari",
+      "coordinates": [
+        44.49002,
+        26.17338
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-buftea-683394",
+      "name": "Buftea",
+      "coordinates": [
+        44.56139,
+        25.94889
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-pantelimon-671382",
+      "name": "Pantelimon",
+      "coordinates": [
+        44.45,
+        26.2
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

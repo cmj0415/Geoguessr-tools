@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Koprivnica-Križevci",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-koprivnica-3197728",
+      "name": "Koprivnica",
+      "coordinates": [
+        46.16364,
+        16.8297
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-krizevci-3197230",
+      "name": "Križevci",
+      "coordinates": [
+        46.02194,
+        16.5425
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-gjurgevac-3200961",
+      "name": "Đurđevac",
+      "coordinates": [
+        46.04111,
+        17.06972
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

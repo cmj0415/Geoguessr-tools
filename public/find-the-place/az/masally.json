@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Masally",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-masally-147552",
+      "name": "Masally",
+      "coordinates": [
+        39.03532,
+        48.6654
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

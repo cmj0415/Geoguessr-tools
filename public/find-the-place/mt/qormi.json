@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Qormi",
+  "children": [
+    {
+      "type": "place",
+      "id": "mt-qormi-2562629",
+      "name": "Qormi",
+      "coordinates": [
+        35.87601,
+        14.472
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

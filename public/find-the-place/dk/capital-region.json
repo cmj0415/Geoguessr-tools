@@ -1,0 +1,226 @@
+{
+  "type": "administrative",
+  "name": "Capital Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "dk-copenhagen-2618425",
+      "name": "Copenhagen",
+      "coordinates": [
+        55.67594,
+        12.56553
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-frederiksberg-2621942",
+      "name": "Frederiksberg",
+      "coordinates": [
+        55.67938,
+        12.53463
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-hvidovre-2619528",
+      "name": "Hvidovre",
+      "coordinates": [
+        55.64297,
+        12.47708
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-avedore-2624427",
+      "name": "Avedøre",
+      "coordinates": [
+        55.62722,
+        12.45644
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "dk-horsholm-2619856",
+      "name": "Hørsholm",
+      "coordinates": [
+        55.88098,
+        12.50111
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-rodovre-2614600",
+      "name": "Rødovre",
+      "coordinates": [
+        55.68062,
+        12.45373
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-charlottenlund-2623188",
+      "name": "Charlottenlund",
+      "coordinates": [
+        55.75238,
+        12.5745
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-ballerup-2624341",
+      "name": "Ballerup",
+      "coordinates": [
+        55.73165,
+        12.36328
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-hillerod-2620320",
+      "name": "Hillerød",
+      "coordinates": [
+        55.92791,
+        12.30081
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-taastrup-2611828",
+      "name": "Taastrup",
+      "coordinates": [
+        55.65006,
+        12.3016
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-helsingor-2620473",
+      "name": "Helsingør",
+      "coordinates": [
+        56.03606,
+        12.6136
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-albertslund-2624906",
+      "name": "Albertslund",
+      "coordinates": [
+        55.65691,
+        12.36381
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-allerod-2624843",
+      "name": "Allerød",
+      "coordinates": [
+        55.87035,
+        12.35737
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "dk-glostrup-2621356",
+      "name": "Glostrup",
+      "coordinates": [
+        55.6666,
+        12.40377
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-birkerod-2624112",
+      "name": "Birkerød",
+      "coordinates": [
+        55.84759,
+        12.42791
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-farum-2622306",
+      "name": "Farum",
+      "coordinates": [
+        55.80858,
+        12.36066
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-brondbyvester-2623340",
+      "name": "Brøndbyvester",
+      "coordinates": [
+        55.6455,
+        12.41008
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-stenlose-2612629",
+      "name": "Stenløse",
+      "coordinates": [
+        55.76828,
+        12.19723
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-ishoj-2619377",
+      "name": "Ishøj",
+      "coordinates": [
+        55.61543,
+        12.35182
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-frederikssund-2621912",
+      "name": "Frederikssund",
+      "coordinates": [
+        55.83956,
+        12.06896
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-lillerod-2617658",
+      "name": "Lillerød",
+      "coordinates": [
+        55.87496,
+        12.34579
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "dk-vallensbaek-2610789",
+      "name": "Vallensbæk",
+      "coordinates": [
+        55.62199,
+        12.38511
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

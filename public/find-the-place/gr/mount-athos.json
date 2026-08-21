@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Mount Athos",
+  "children": [
+    {
+      "type": "place",
+      "id": "gr-karyes-735972",
+      "name": "Karyes",
+      "coordinates": [
+        40.25715,
+        24.24498
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

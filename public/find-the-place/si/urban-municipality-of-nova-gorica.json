@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Urban Municipality of Nova Gorica",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-nova-gorica-3194452",
+      "name": "Nova Gorica",
+      "coordinates": [
+        45.95604,
+        13.64837
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

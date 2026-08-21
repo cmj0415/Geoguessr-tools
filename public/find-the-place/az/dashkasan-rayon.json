@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Daşkǝsǝn",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-dashkasan-586765",
+      "name": "Dashkasan",
+      "coordinates": [
+        40.52393,
+        46.08186
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

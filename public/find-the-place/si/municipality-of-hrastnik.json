@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Hrastnik",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-hrastnik-3199297",
+      "name": "Hrastnik",
+      "coordinates": [
+        46.14655,
+        15.08456
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

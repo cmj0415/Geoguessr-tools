@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Varaždin",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-varazdin-3188383",
+      "name": "Varaždin",
+      "coordinates": [
+        46.30444,
+        16.33778
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

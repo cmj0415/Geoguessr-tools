@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ādaži",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-adazi-461650",
+      "name": "Ādaži",
+      "coordinates": [
+        57.0708,
+        24.33678
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

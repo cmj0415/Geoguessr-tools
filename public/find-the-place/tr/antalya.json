@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Antalya",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-antalya-323777",
+      "name": "Antalya",
+      "coordinates": [
+        36.90812,
+        30.69556
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-muratpasa-8074174",
+      "name": "Muratpaşa",
+      "coordinates": [
+        36.89157,
+        30.76498
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-alanya-324190",
+      "name": "Alanya",
+      "coordinates": [
+        36.54375,
+        31.99982
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-manavgat-304854",
+      "name": "Manavgat",
+      "coordinates": [
+        36.78672,
+        31.44086
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-belek-321580",
+      "name": "Belek",
+      "coordinates": [
+        36.8631,
+        31.06541
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

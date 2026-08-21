@@ -1,0 +1,136 @@
+{
+  "type": "administrative",
+  "name": "Brussels Capital",
+  "children": [
+    {
+      "type": "place",
+      "id": "be-brussels-2800866",
+      "name": "Brussels",
+      "coordinates": [
+        50.85045,
+        4.34878
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-anderlecht-2803201",
+      "name": "Anderlecht",
+      "coordinates": [
+        50.83619,
+        4.31454
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-schaerbeek-2787149",
+      "name": "Schaerbeek",
+      "coordinates": [
+        50.86935,
+        4.37737
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-molenbeek-saint-jean-2791018",
+      "name": "Molenbeek-Saint-Jean",
+      "coordinates": [
+        50.8499,
+        4.31248
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-ixelles-2795011",
+      "name": "Ixelles",
+      "coordinates": [
+        50.83333,
+        4.36667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-uccle-2785123",
+      "name": "Uccle",
+      "coordinates": [
+        50.80225,
+        4.33943
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "be-woluwe-saint-lambert-2783476",
+      "name": "Woluwe-Saint-Lambert",
+      "coordinates": [
+        50.84389,
+        4.42912
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-forest-2798139",
+      "name": "Forest",
+      "coordinates": [
+        50.81678,
+        4.32775
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-jette-2794914",
+      "name": "Jette",
+      "coordinates": [
+        50.87309,
+        4.33419
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-saint-gilles-2787413",
+      "name": "Saint-Gilles",
+      "coordinates": [
+        50.82763,
+        4.34389
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-etterbeek-2798578",
+      "name": "Etterbeek",
+      "coordinates": [
+        50.83272,
+        4.38835
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-evere-2798554",
+      "name": "Evere",
+      "coordinates": [
+        50.87441,
+        4.39905
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "be-auderghem-2802960",
+      "name": "Auderghem",
+      "coordinates": [
+        50.81667,
+        4.43333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

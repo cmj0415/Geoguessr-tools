@@ -1,0 +1,106 @@
+{
+  "type": "administrative",
+  "name": "Nicosia",
+  "children": [
+    {
+      "type": "place",
+      "id": "cy-nicosia-146268",
+      "name": "Nicosia",
+      "coordinates": [
+        35.17284,
+        33.35397
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cy-strovolos-146054",
+      "name": "Stróvolos",
+      "coordinates": [
+        35.14867,
+        33.33384
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cy-kato-lakatameia-146523",
+      "name": "Káto Lakatámeia",
+      "coordinates": [
+        35.11755,
+        33.32539
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cy-morfou-146286",
+      "name": "Mórfou",
+      "coordinates": [
+        35.19869,
+        32.99338
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-aglantzia-146619",
+      "name": "Aglantziá",
+      "coordinates": [
+        35.15422,
+        33.39643
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-agios-dometios-146732",
+      "name": "Ágios Dométios",
+      "coordinates": [
+        35.17346,
+        33.34045
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-dali-146666",
+      "name": "Dáli",
+      "coordinates": [
+        35.02294,
+        33.42195
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-geri-145964",
+      "name": "Géri",
+      "coordinates": [
+        35.1056,
+        33.41977
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cy-lefka-146392",
+      "name": "Léfka",
+      "coordinates": [
+        35.11199,
+        32.84997
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cy-tseri-145981",
+      "name": "Tséri",
+      "coordinates": [
+        35.07307,
+        33.32344
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

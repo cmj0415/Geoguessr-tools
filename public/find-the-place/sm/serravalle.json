@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Serravalle",
+  "children": [
+    {
+      "type": "place",
+      "id": "sm-serravalle-3166645",
+      "name": "Serravalle",
+      "coordinates": [
+        43.96897,
+        12.48167
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

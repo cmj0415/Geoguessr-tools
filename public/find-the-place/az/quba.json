@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Quba",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-quba-585221",
+      "name": "Quba",
+      "coordinates": [
+        41.36108,
+        48.51341
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

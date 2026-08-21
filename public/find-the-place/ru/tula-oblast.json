@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-tula-oblast-tula",
           "name": "Tula",
-          "coordinates": [54.19609, 37.61822],
+          "coordinates": [
+            54.19609,
+            37.61822
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-tula-oblast-novomoskovsk",
           "name": "Novomoskovsk",
-          "coordinates": [54.01098, 38.29084],
-          "difficulty": "Easy"
+          "coordinates": [
+            54.01098,
+            38.29084
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-tula-oblast-aleksin",
           "name": "Aleksin",
-          "coordinates": [54.50484, 37.06697],
-          "difficulty": "Medium"
+          "coordinates": [
+            54.50484,
+            37.06697
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-tula-oblast-shchekino",
           "name": "Shchekino",
-          "coordinates": [54.00734, 37.50647],
-          "difficulty": "Medium"
+          "coordinates": [
+            54.00734,
+            37.50647
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-tula-oblast-uzlovaya",
           "name": "Uzlovaya",
-          "coordinates": [53.9839, 38.15984],
+          "coordinates": [
+            53.9839,
+            38.15984
+          ],
           "difficulty": "Hard"
         }
       ]

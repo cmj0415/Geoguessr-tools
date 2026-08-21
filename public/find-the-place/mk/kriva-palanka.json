@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kriva Palanka",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-kriva-palanka-789045",
+      "name": "Kriva Palanka",
+      "coordinates": [
+        42.20197,
+        22.33385
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

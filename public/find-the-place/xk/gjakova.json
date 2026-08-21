@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Gjakova",
+  "children": [
+    {
+      "type": "place",
+      "id": "xk-gjakove-791646",
+      "name": "Gjakovë",
+      "coordinates": [
+        42.38028,
+        20.43083
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "xk-decan-791580",
+      "name": "Deçan",
+      "coordinates": [
+        42.54018,
+        20.28793
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "xk-orahovac-787456",
+      "name": "Orahovac",
+      "coordinates": [
+        42.39944,
+        20.65472
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

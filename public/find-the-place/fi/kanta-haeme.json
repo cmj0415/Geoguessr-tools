@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Kanta-Häme",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-haemeenlinna-659180",
+      "name": "Hämeenlinna",
+      "coordinates": [
+        60.99596,
+        24.46434
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "fi-riihimaeki-639406",
+      "name": "Riihimäki",
+      "coordinates": [
+        60.73769,
+        24.77726
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "fi-forssa-659935",
+      "name": "Forssa",
+      "coordinates": [
+        60.81462,
+        23.62146
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "fi-janakkala-656073",
+      "name": "Janakkala",
+      "coordinates": [
+        60.9,
+        24.6
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

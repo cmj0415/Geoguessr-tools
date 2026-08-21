@@ -1,0 +1,356 @@
+{
+  "type": "administrative",
+  "name": "Vojvodina",
+  "children": [
+    {
+      "type": "place",
+      "id": "rs-novi-sad-3194360",
+      "name": "Novi Sad",
+      "coordinates": [
+        45.25167,
+        19.83694
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "rs-subotica-3189595",
+      "name": "Subotica",
+      "coordinates": [
+        46.1,
+        19.66667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "rs-zrenjanin-783814",
+      "name": "Zrenjanin",
+      "coordinates": [
+        45.38361,
+        20.38194
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "rs-pancevo-787237",
+      "name": "Pančevo",
+      "coordinates": [
+        44.87177,
+        20.64167
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "rs-sombor-3190342",
+      "name": "Sombor",
+      "coordinates": [
+        45.77417,
+        19.11222
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-kikinda-789518",
+      "name": "Kikinda",
+      "coordinates": [
+        45.82972,
+        20.46528
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-sremska-mitrovica-3190103",
+      "name": "Sremska Mitrovica",
+      "coordinates": [
+        44.97639,
+        19.61222
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-vrsac-784136",
+      "name": "Vršac",
+      "coordinates": [
+        45.11667,
+        21.30361
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-ruma-3191429",
+      "name": "Ruma",
+      "coordinates": [
+        45.00806,
+        19.82222
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-backa-palanka-3204674",
+      "name": "Bačka Palanka",
+      "coordinates": [
+        45.24966,
+        19.39664
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-vrbas-3187297",
+      "name": "Vrbas",
+      "coordinates": [
+        45.57139,
+        19.64083
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-becej-792814",
+      "name": "Bečej",
+      "coordinates": [
+        45.61632,
+        20.03331
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-ingija-790015",
+      "name": "Inđija",
+      "coordinates": [
+        45.04816,
+        20.08165
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-senta-785965",
+      "name": "Senta",
+      "coordinates": [
+        45.9275,
+        20.07722
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-apatin-3204793",
+      "name": "Apatin",
+      "coordinates": [
+        45.6726,
+        18.978
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-futog-3200802",
+      "name": "Futog",
+      "coordinates": [
+        45.23874,
+        19.71416
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "rs-stara-pazova-785559",
+      "name": "Stara Pazova",
+      "coordinates": [
+        44.985,
+        20.16083
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-backa-topola-3204672",
+      "name": "Bačka Topola",
+      "coordinates": [
+        45.81516,
+        19.6318
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-nova-pazova-787615",
+      "name": "Nova Pazova",
+      "coordinates": [
+        44.94366,
+        20.21931
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-kovin-789168",
+      "name": "Kovin",
+      "coordinates": [
+        44.7475,
+        20.97611
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-sremska-kamenica-3190104",
+      "name": "Sremska Kamenica",
+      "coordinates": [
+        45.22334,
+        19.84263
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-petrovaradin-3193406",
+      "name": "Petrovaradin",
+      "coordinates": [
+        45.24667,
+        19.87944
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-kac-3198513",
+      "name": "Kać",
+      "coordinates": [
+        45.30407,
+        19.94299
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-bela-crkva-792794",
+      "name": "Bela Crkva",
+      "coordinates": [
+        44.8975,
+        21.41722
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-veternik-3187829",
+      "name": "Veternik",
+      "coordinates": [
+        45.25446,
+        19.7588
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-kanjiza-789600",
+      "name": "Kanjiža",
+      "coordinates": [
+        46.06667,
+        20.05
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-curug-791672",
+      "name": "Čurug",
+      "coordinates": [
+        45.47221,
+        20.06861
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-backo-petrovo-selo-793014",
+      "name": "Bačko Petrovo Selo",
+      "coordinates": [
+        45.70681,
+        20.07928
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-sremski-karlovci-3190101",
+      "name": "Sremski Karlovci",
+      "coordinates": [
+        45.20285,
+        19.93373
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-crvenka-3202318",
+      "name": "Crvenka",
+      "coordinates": [
+        45.66098,
+        19.45435
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-zabalj-784068",
+      "name": "Žabalj",
+      "coordinates": [
+        45.37222,
+        20.06389
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-novi-knezevac-787600",
+      "name": "Novi Kneževac",
+      "coordinates": [
+        46.05,
+        20.1
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-mol-787855",
+      "name": "Mol",
+      "coordinates": [
+        45.76457,
+        20.13286
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-novo-milosevo-787584",
+      "name": "Novo Miloševo",
+      "coordinates": [
+        45.71916,
+        20.30364
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "rs-melenci-788040",
+      "name": "Melenci",
+      "coordinates": [
+        45.5168,
+        20.31961
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

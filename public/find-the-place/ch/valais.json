@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Valais",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-sitten-2658576",
+      "name": "Sitten",
+      "coordinates": [
+        46.22739,
+        7.35559
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ch-martigny-ville-2659748",
+      "name": "Martigny-Ville",
+      "coordinates": [
+        46.10276,
+        7.07245
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-monthey-2659613",
+      "name": "Monthey",
+      "coordinates": [
+        46.25451,
+        6.95406
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ch-sierre-2658606",
+      "name": "Sierre",
+      "coordinates": [
+        46.29192,
+        7.53559
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

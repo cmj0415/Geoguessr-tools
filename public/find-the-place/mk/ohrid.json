@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ohrid",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-ohrid-787487",
+      "name": "Ohrid",
+      "coordinates": [
+        41.11701,
+        20.80175
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

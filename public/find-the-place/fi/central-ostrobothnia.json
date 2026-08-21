@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Central Ostrobothnia",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-kokkola-651943",
+      "name": "Kokkola",
+      "coordinates": [
+        63.83847,
+        23.13066
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

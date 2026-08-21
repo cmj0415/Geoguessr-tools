@@ -1,0 +1,116 @@
+{
+  "type": "administrative",
+  "name": "Crimea",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-simferopol-693805",
+      "name": "Simferopol",
+      "coordinates": [
+        44.95719,
+        34.11079
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-kerch-706524",
+      "name": "Kerch",
+      "coordinates": [
+        45.35675,
+        36.47542
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-yevpatoriya-688105",
+      "name": "Yevpatoriya",
+      "coordinates": [
+        45.20091,
+        33.36655
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-yalta-688533",
+      "name": "Yalta",
+      "coordinates": [
+        44.50218,
+        34.16624
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-feodosiya-709161",
+      "name": "Feodosiya",
+      "coordinates": [
+        45.03199,
+        35.38153
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-dzhankoy-709334",
+      "name": "Dzhankoy",
+      "coordinates": [
+        45.7131,
+        34.39273
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-yany-kapu-704362",
+      "name": "Yany Kapu",
+      "coordinates": [
+        45.95547,
+        33.79261
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-alushta-713513",
+      "name": "Alushta",
+      "coordinates": [
+        44.67728,
+        34.4097
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-saky-694910",
+      "name": "Saky",
+      "coordinates": [
+        45.13424,
+        33.59996
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-bakhchysaray-712969",
+      "name": "Bakhchysaray",
+      "coordinates": [
+        44.75525,
+        33.85782
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-armyansk-713203",
+      "name": "Armyansk",
+      "coordinates": [
+        46.10919,
+        33.69206
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

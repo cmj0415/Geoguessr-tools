@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-yamalo-nenets-autonomous-okrug-noyabrsk",
           "name": "Noyabrsk",
-          "coordinates": [63.19309, 75.43728],
-          "difficulty": "Easy"
+          "coordinates": [
+            63.19309,
+            75.43728
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-yamalo-nenets-autonomous-okrug-novyy-urengoy",
           "name": "Novyy Urengoy",
-          "coordinates": [66.08333, 76.63333],
-          "difficulty": "Easy"
+          "coordinates": [
+            66.08333,
+            76.63333
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-yamalo-nenets-autonomous-okrug-salekhard",
           "name": "Salekhard",
-          "coordinates": [66.53373, 66.60955],
-          "difficulty": "Medium"
+          "coordinates": [
+            66.53373,
+            66.60955
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-yamalo-nenets-autonomous-okrug-nadym",
           "name": "Nadym",
-          "coordinates": [65.53333, 72.51667],
-          "difficulty": "Medium"
+          "coordinates": [
+            65.53333,
+            72.51667
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-yamalo-nenets-autonomous-okrug-muravlenko",
           "name": "Muravlenko",
-          "coordinates": [63.78977, 74.52301],
+          "coordinates": [
+            63.78977,
+            74.52301
+          ],
           "difficulty": "Hard"
         }
       ]

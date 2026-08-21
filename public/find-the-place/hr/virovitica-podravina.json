@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Virovitica-Podravina",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-virovitica-3187694",
+      "name": "Virovitica",
+      "coordinates": [
+        45.83448,
+        17.38555
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-slatina-3192932",
+      "name": "Slatina",
+      "coordinates": [
+        45.70333,
+        17.70278
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

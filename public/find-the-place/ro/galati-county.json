@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Galați County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-galati-677697",
+      "name": "Galaţi",
+      "coordinates": [
+        45.43687,
+        28.05028
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-tecuci-665355",
+      "name": "Tecuci",
+      "coordinates": [
+        45.84973,
+        27.43441
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

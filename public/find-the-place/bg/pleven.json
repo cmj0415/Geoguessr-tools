@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Pleven",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-pleven-728203",
+      "name": "Pleven",
+      "coordinates": [
+        43.41791,
+        24.61666
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "bg-cherven-bryag-732491",
+      "name": "Cherven Bryag",
+      "coordinates": [
+        43.27884,
+        24.08251
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "bg-levski-729636",
+      "name": "Levski",
+      "coordinates": [
+        43.36667,
+        25.13333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

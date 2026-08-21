@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bitola",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-bitola-792578",
+      "name": "Bitola",
+      "coordinates": [
+        41.03226,
+        21.33553
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Borgo Maggiore",
+  "children": [
+    {
+      "type": "place",
+      "id": "sm-valdragone-8199071",
+      "name": "Valdragone",
+      "coordinates": [
+        43.94021,
+        12.45622
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

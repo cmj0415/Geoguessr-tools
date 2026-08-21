@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Malatya",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-malatya-304922",
+      "name": "Malatya",
+      "coordinates": [
+        38.35018,
+        38.31667
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

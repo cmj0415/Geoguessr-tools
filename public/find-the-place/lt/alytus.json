@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Alytus",
+  "children": [
+    {
+      "type": "place",
+      "id": "lt-alytus-601084",
+      "name": "Alytus",
+      "coordinates": [
+        54.39574,
+        24.03885
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-druskininkai-599757",
+      "name": "Druskininkai",
+      "coordinates": [
+        54.01573,
+        23.98703
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "lt-varena-593406",
+      "name": "Varėna",
+      "coordinates": [
+        54.21546,
+        24.57538
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-tver-oblast-tver",
           "name": "Tver",
-          "coordinates": [56.85836, 35.90057],
+          "coordinates": [
+            56.85836,
+            35.90057
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-tver-oblast-rzhev",
           "name": "Rzhev",
-          "coordinates": [56.26289, 34.3289],
-          "difficulty": "Easy"
+          "coordinates": [
+            56.26289,
+            34.3289
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-tver-oblast-vyshniy-volochek",
           "name": "Vyshniy Volochek",
-          "coordinates": [57.5888, 34.56854],
-          "difficulty": "Medium"
+          "coordinates": [
+            57.5888,
+            34.56854
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-tver-oblast-kimry",
           "name": "Kimry",
-          "coordinates": [56.87456, 37.35957],
-          "difficulty": "Medium"
+          "coordinates": [
+            56.87456,
+            37.35957
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-tver-oblast-torzhok",
           "name": "Torzhok",
-          "coordinates": [57.0436, 34.96221],
+          "coordinates": [
+            57.0436,
+            34.96221
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Neuchâtel",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-la-chaux-de-fonds-2660076",
+      "name": "La Chaux-de-Fonds",
+      "coordinates": [
+        47.09993,
+        6.82586
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ch-neuchatel-2659496",
+      "name": "Neuchâtel",
+      "coordinates": [
+        46.99179,
+        6.931
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jura",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-delemont-2661035",
+      "name": "Delémont",
+      "coordinates": [
+        47.36493,
+        7.34453
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

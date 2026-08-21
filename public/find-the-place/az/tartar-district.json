@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Tartar District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-tartar-584871",
+      "name": "Tartar",
+      "coordinates": [
+        40.34201,
+        46.93161
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

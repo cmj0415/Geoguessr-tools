@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Karaman",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-karaman-309527",
+      "name": "Karaman",
+      "coordinates": [
+        37.18111,
+        33.215
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

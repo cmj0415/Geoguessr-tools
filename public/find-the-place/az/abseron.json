@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Abşeron",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-khirdalan-585915",
+      "name": "Khirdalan",
+      "coordinates": [
+        40.44808,
+        49.75502
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "az-saray-585145",
+      "name": "Saray",
+      "coordinates": [
+        40.53299,
+        49.71681
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

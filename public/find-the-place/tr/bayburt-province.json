@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bayburt Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-bayburt-750938",
+      "name": "Bayburt",
+      "coordinates": [
+        40.25631,
+        40.22289
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

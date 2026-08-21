@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Gotland",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-visby-2662689",
+      "name": "Visby",
+      "coordinates": [
+        57.64089,
+        18.29602
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

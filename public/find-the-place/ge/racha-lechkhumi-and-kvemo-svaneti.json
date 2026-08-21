@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Racha-Lechkhumi and Kvemo Svaneti",
+  "children": [
+    {
+      "type": "place",
+      "id": "ge-oni-612592",
+      "name": "Oni",
+      "coordinates": [
+        42.58453,
+        43.44356
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

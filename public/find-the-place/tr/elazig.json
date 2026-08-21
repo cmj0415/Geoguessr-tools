@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Elazığ",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-elazig-315808",
+      "name": "Elazığ",
+      "coordinates": [
+        38.67431,
+        39.22321
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "type": "administrative",
+  "name": "Donetsk",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-donetsk-709717",
+      "name": "Donetsk",
+      "coordinates": [
+        48.023,
+        37.80224
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-makiyivka-702320",
+      "name": "Makiyivka",
+      "coordinates": [
+        48.04782,
+        37.92576
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-horlivka-707753",
+      "name": "Horlivka",
+      "coordinates": [
+        48.29986,
+        38.01709
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-mariupol-701822",
+      "name": "Mariupol",
+      "coordinates": [
+        47.09514,
+        37.54131
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-kramatorsk-704508",
+      "name": "Kramatorsk",
+      "coordinates": [
+        48.73106,
+        37.56779
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-slovyansk-693468",
+      "name": "Slovyansk",
+      "coordinates": [
+        48.84974,
+        37.59739
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-bakhmut-713174",
+      "name": "Bakhmut",
+      "coordinates": [
+        48.59419,
+        37.99886
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-yenakiyeve-688148",
+      "name": "Yenakiyeve",
+      "coordinates": [
+        48.23857,
+        38.20403
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-shakhtarsk-694382",
+      "name": "Shakhtarsk",
+      "coordinates": [
+        48.05657,
+        38.43826
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-kostyantynivka-705104",
+      "name": "Kostyantynivka",
+      "coordinates": [
+        48.52728,
+        37.70594
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-pokrovsk-704422",
+      "name": "Pokrovsk",
+      "coordinates": [
+        48.28014,
+        37.17706
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-khartsyzk-706466",
+      "name": "Khartsyzk",
+      "coordinates": [
+        48.04277,
+        38.14025
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-snizhne-693381",
+      "name": "Snizhne",
+      "coordinates": [
+        48.02328,
+        38.76205
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-druzhkivka-616743",
+      "name": "Druzhkivka",
+      "coordinates": [
+        48.61995,
+        37.52537
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-chystyakove-691374",
+      "name": "Chystyakove",
+      "coordinates": [
+        48.03876,
+        38.59685
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-khanzhonkivskyi-13607655",
+      "name": "Khanzhonkivskyi",
+      "coordinates": [
+        48.09512,
+        38.04202
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-myrnohrad-710035",
+      "name": "Myrnohrad",
+      "coordinates": [
+        48.3099,
+        37.26513
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-yasynuvata-688373",
+      "name": "Yasynuvata",
+      "coordinates": [
+        48.12678,
+        37.85924
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-avdiyivka-713122",
+      "name": "Avdiyivka",
+      "coordinates": [
+        48.14019,
+        37.75008
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-toretsk-709354",
+      "name": "Toretsk",
+      "coordinates": [
+        48.39477,
+        37.8478
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-dobropillya-709900",
+      "name": "Dobropillya",
+      "coordinates": [
+        48.46674,
+        37.08567
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-khrestivka-705797",
+      "name": "Khrestivka",
+      "coordinates": [
+        48.14969,
+        38.35941
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-debaltseve-710229",
+      "name": "Debaltseve",
+      "coordinates": [
+        48.33592,
+        38.40261
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-dokuchayevsk-709835",
+      "name": "Dokuchayevsk",
+      "coordinates": [
+        47.7522,
+        37.67761
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-selydove-694677",
+      "name": "Selydove",
+      "coordinates": [
+        48.1465,
+        37.3022
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-volnovakha-689198",
+      "name": "Volnovakha",
+      "coordinates": [
+        47.6008,
+        37.49358
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

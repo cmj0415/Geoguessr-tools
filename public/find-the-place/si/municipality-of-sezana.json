@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Sežana",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-sezana-3190945",
+      "name": "Sežana",
+      "coordinates": [
+        45.70924,
+        13.87333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

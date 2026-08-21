@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Trabzon",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-trabzon-738648",
+      "name": "Trabzon",
+      "coordinates": [
+        41.005,
+        39.72694
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

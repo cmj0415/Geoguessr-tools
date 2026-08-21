@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Grisons",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-chur-2661169",
+      "name": "Chur",
+      "coordinates": [
+        46.84986,
+        9.53287
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

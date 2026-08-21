@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Madonas novads",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-madona-457714",
+      "name": "Madona",
+      "coordinates": [
+        56.85329,
+        26.21698
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

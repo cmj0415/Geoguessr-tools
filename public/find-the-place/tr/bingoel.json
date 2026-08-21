@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bingöl",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-bingoel-321082",
+      "name": "Bingöl",
+      "coordinates": [
+        38.88472,
+        40.49389
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

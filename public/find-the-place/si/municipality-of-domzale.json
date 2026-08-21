@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Domžale",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-domzale-3201730",
+      "name": "Domžale",
+      "coordinates": [
+        46.13774,
+        14.59371
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

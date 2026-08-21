@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Adıyaman Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-adiyaman-325330",
+      "name": "Adıyaman",
+      "coordinates": [
+        37.76441,
+        38.27629
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-kahta-310855",
+      "name": "Kâhta",
+      "coordinates": [
+        37.78552,
+        38.6237
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

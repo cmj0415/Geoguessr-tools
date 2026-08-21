@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Novo Selo",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-novo-selo-787574",
+      "name": "Novo Selo",
+      "coordinates": [
+        41.41536,
+        22.88336
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

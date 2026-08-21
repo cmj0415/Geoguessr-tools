@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bijelo Polje",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-bijelo-polje-3204176",
+      "name": "Bijelo Polje",
+      "coordinates": [
+        43.03834,
+        19.74758
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Afyonkarahisar Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-afyonkarahisar-325303",
+      "name": "Afyonkarahisar",
+      "coordinates": [
+        38.75667,
+        30.54333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-bolvadin-320879",
+      "name": "Bolvadin",
+      "coordinates": [
+        38.71111,
+        31.04861
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Chernivtsi",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-chernivtsi-710719",
+      "name": "Chernivtsi",
+      "coordinates": [
+        48.29045,
+        25.93241
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

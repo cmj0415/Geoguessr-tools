@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Harghita County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-odorheiu-secuiesc-671964",
+      "name": "Odorheiu Secuiesc",
+      "coordinates": [
+        46.3,
+        25.3
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-miercurea-ciuc-673441",
+      "name": "Miercurea-Ciuc",
+      "coordinates": [
+        46.35,
+        25.8
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-gheorgheni-677458",
+      "name": "Gheorgheni",
+      "coordinates": [
+        46.72292,
+        25.60055
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

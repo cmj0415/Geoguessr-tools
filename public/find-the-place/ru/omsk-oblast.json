@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-omsk-oblast-omsk",
           "name": "Omsk",
-          "coordinates": [54.99244, 73.36859],
+          "coordinates": [
+            54.99244,
+            73.36859
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-omsk-oblast-tara",
           "name": "Tara",
-          "coordinates": [56.89603, 74.36938],
-          "difficulty": "Easy"
+          "coordinates": [
+            56.89603,
+            74.36938
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-omsk-oblast-kalachinsk",
           "name": "Kalachinsk",
-          "coordinates": [55.0522, 74.5787],
-          "difficulty": "Medium"
+          "coordinates": [
+            55.0522,
+            74.5787
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-omsk-oblast-isilkul",
           "name": "Isilkul",
-          "coordinates": [54.91214, 71.27184],
-          "difficulty": "Medium"
+          "coordinates": [
+            54.91214,
+            71.27184
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-omsk-oblast-znamenskoye",
           "name": "Znamenskoye",
-          "coordinates": [57.12735, 73.82614],
+          "coordinates": [
+            57.12735,
+            73.82614
+          ],
           "difficulty": "Hard"
         }
       ]

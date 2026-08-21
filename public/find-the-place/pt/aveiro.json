@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Aveiro",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-aveiro-2742611",
+      "name": "Aveiro",
+      "coordinates": [
+        40.64575,
+        -8.64643
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-espinho-2739868",
+      "name": "Espinho",
+      "coordinates": [
+        41.00763,
+        -8.64125
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

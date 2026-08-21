@@ -1,0 +1,156 @@
+{
+  "type": "administrative",
+  "name": "Tyrol",
+  "children": [
+    {
+      "type": "place",
+      "id": "at-innsbruck-2775220",
+      "name": "Innsbruck",
+      "coordinates": [
+        47.26266,
+        11.39454
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "at-telfs-2763810",
+      "name": "Telfs",
+      "coordinates": [
+        47.30707,
+        11.06817
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-woergl-2760854",
+      "name": "Wörgl",
+      "coordinates": [
+        47.48906,
+        12.06174
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-schwaz-2765390",
+      "name": "Schwaz",
+      "coordinates": [
+        47.35169,
+        11.71014
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-hall-in-tirol-2764958",
+      "name": "Hall in Tirol",
+      "coordinates": [
+        47.28333,
+        11.51667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-lienz-2772505",
+      "name": "Lienz",
+      "coordinates": [
+        46.8289,
+        12.76903
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-imst-2775307",
+      "name": "Imst",
+      "coordinates": [
+        47.24504,
+        10.73974
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-kufstein-2773300",
+      "name": "Kufstein",
+      "coordinates": [
+        47.58333,
+        12.16667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-sankt-johann-in-tirol-2766636",
+      "name": "Sankt Johann in Tirol",
+      "coordinates": [
+        47.5233,
+        12.4232
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "at-rum-2766971",
+      "name": "Rum",
+      "coordinates": [
+        47.28333,
+        11.45
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-kitzbuehel-2774347",
+      "name": "Kitzbühel",
+      "coordinates": [
+        47.44637,
+        12.39215
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-zirl-2760523",
+      "name": "Zirl",
+      "coordinates": [
+        47.2741,
+        11.23961
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-wattens-2761834",
+      "name": "Wattens",
+      "coordinates": [
+        47.29419,
+        11.5907
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-landeck-2773070",
+      "name": "Landeck",
+      "coordinates": [
+        47.13988,
+        10.56593
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "at-jenbach-2775093",
+      "name": "Jenbach",
+      "coordinates": [
+        47.39173,
+        11.77245
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

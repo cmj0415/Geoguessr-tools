@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Miklavž na Dravskem Polju",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-miklavz-na-dravskem-polju-3195162",
+      "name": "Miklavž na Dravskem Polju",
+      "coordinates": [
+        46.50613,
+        15.69704
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

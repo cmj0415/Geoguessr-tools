@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Södermanland",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-eskilstuna-2715953",
+      "name": "Eskilstuna",
+      "coordinates": [
+        59.36661,
+        16.5077
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-nykoeping-2687700",
+      "name": "Nyköping",
+      "coordinates": [
+        58.753,
+        17.00788
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-katrineholm-2701223",
+      "name": "Katrineholm",
+      "coordinates": [
+        58.99587,
+        16.20721
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-straengnaes-2671392",
+      "name": "Strängnäs",
+      "coordinates": [
+        59.37741,
+        17.03119
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

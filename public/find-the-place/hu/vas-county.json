@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Vas County",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-szombathely-3044310",
+      "name": "Szombathely",
+      "coordinates": [
+        47.23088,
+        16.62155
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-sarvar-3045487",
+      "name": "Sárvár",
+      "coordinates": [
+        47.25395,
+        16.93525
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

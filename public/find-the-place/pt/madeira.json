@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Madeira",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-funchal-2267827",
+      "name": "Funchal",
+      "coordinates": [
+        32.66568,
+        -16.92547
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-camara-de-lobos-2270380",
+      "name": "Câmara de Lobos",
+      "coordinates": [
+        32.65043,
+        -16.97718
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-sao-martinho-2263284",
+      "name": "São Martinho",
+      "coordinates": [
+        32.6448,
+        -16.93843
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-santo-antonio-2263432",
+      "name": "Santo António",
+      "coordinates": [
+        32.66138,
+        -16.93482
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-canico-2270258",
+      "name": "Caniço",
+      "coordinates": [
+        32.65078,
+        -16.83749
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

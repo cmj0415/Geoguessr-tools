@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-moscow-oblast-khimki",
           "name": "Khimki",
-          "coordinates": [55.9001, 37.42848],
+          "coordinates": [
+            55.9001,
+            37.42848
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-moscow-oblast-podolsk",
           "name": "Podolsk",
-          "coordinates": [55.42419, 37.55472],
-          "difficulty": "Easy"
+          "coordinates": [
+            55.42419,
+            37.55472
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-moscow-oblast-mytishchi",
           "name": "Mytishchi",
-          "coordinates": [55.91099, 37.72964],
+          "coordinates": [
+            55.91099,
+            37.72964
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-moscow-oblast-lyubertsy",
           "name": "Lyubertsy",
-          "coordinates": [55.67719, 37.89322],
+          "coordinates": [
+            55.67719,
+            37.89322
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,8 +74,11 @@
           "type": "place",
           "id": "ru-moscow-oblast-balashikha",
           "name": "Balashikha",
-          "coordinates": [55.79479, 37.94794],
-          "difficulty": "Hard"
+          "coordinates": [
+            55.79479,
+            37.94794
+          ],
+          "difficulty": "Medium"
         }
       ]
     }

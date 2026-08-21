@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Ruše",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-ruse-3191401",
+      "name": "Ruše",
+      "coordinates": [
+        46.54013,
+        15.5179
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

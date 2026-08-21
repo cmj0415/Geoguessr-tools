@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Arges",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-pitesti-670609",
+      "name": "Piteşti",
+      "coordinates": [
+        44.85,
+        24.86667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-curtea-de-arges-679907",
+      "name": "Curtea de Argeş",
+      "coordinates": [
+        45.13422,
+        24.67409
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-mioveni-7733099",
+      "name": "Mioveni",
+      "coordinates": [
+        44.95905,
+        24.94198
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

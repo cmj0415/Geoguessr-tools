@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Rogaška Slatina",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-rogaska-slatina-3191580",
+      "name": "Rogaška Slatina",
+      "coordinates": [
+        46.23733,
+        15.63912
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

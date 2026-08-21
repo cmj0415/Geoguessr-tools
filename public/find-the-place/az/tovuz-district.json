@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Tovuz District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-govlar-585802",
+      "name": "Govlar",
+      "coordinates": [
+        40.94595,
+        45.73175
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

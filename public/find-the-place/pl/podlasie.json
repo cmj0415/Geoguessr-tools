@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Podlasie",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-bialystok-776069",
+      "name": "Białystok",
+      "coordinates": [
+        53.13333,
+        23.16433
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-suwalki-757718",
+      "name": "Suwałki",
+      "coordinates": [
+        54.11175,
+        22.93087
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-lomza-766027",
+      "name": "Łomża",
+      "coordinates": [
+        53.17806,
+        22.05935
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

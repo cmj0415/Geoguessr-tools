@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Uşak",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-usak-298299",
+      "name": "Uşak",
+      "coordinates": [
+        38.67351,
+        29.4058
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

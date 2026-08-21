@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Giresun",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-giresun-746881",
+      "name": "Giresun",
+      "coordinates": [
+        40.91698,
+        38.38741
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-sebin-karahisar-739914",
+      "name": "Şebin Karahisar",
+      "coordinates": [
+        40.28833,
+        38.42361
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

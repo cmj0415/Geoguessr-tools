@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Schaan",
+  "children": [
+    {
+      "type": "place",
+      "id": "li-schaan-3042041",
+      "name": "Schaan",
+      "coordinates": [
+        47.16498,
+        9.50867
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

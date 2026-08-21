@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Muş",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-mus-304081",
+      "name": "Muş",
+      "coordinates": [
+        38.73163,
+        41.48482
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

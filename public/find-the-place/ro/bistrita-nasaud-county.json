@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bistrița-Năsăud County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-bistrita-684657",
+      "name": "Bistriţa",
+      "coordinates": [
+        47.13316,
+        24.50011
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

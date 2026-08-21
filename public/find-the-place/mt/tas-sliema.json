@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Tas-Sliema",
+  "children": [
+    {
+      "type": "place",
+      "id": "mt-sliema-2562501",
+      "name": "Sliema",
+      "coordinates": [
+        35.91247,
+        14.50175
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

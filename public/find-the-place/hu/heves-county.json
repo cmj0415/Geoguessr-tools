@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Heves County",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-eger-721239",
+      "name": "Eger",
+      "coordinates": [
+        47.90265,
+        20.37329
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-gyongyos-3052040",
+      "name": "Gyöngyös",
+      "coordinates": [
+        47.78257,
+        19.928
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-hatvan-3051621",
+      "name": "Hatvan",
+      "coordinates": [
+        47.66667,
+        19.68333
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

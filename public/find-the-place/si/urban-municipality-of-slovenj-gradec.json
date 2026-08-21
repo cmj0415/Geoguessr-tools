@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Urban Municipality of Slovenj Gradec",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-slovenj-gradec-3190536",
+      "name": "Slovenj Gradec",
+      "coordinates": [
+        46.51088,
+        15.08377
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

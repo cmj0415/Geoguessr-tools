@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Tearce",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-tearce-785113",
+      "name": "Tearce",
+      "coordinates": [
+        42.07593,
+        21.05179
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

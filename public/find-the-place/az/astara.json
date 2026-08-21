@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Astara",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-astara-148445",
+      "name": "Astara",
+      "coordinates": [
+        38.45598,
+        48.87498
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

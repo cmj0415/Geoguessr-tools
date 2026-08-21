@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Odesa",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-odesa-698740",
+      "name": "Odesa",
+      "coordinates": [
+        46.48572,
+        30.74383
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-cheremushky-9983718",
+      "name": "Cheremushky",
+      "coordinates": [
+        46.43251,
+        30.71151
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-izmayil-707308",
+      "name": "Izmayil",
+      "coordinates": [
+        45.35058,
+        28.83751
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-chornomors-k-707688",
+      "name": "Chornomors’k",
+      "coordinates": [
+        46.29914,
+        30.65529
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-bilhorod-dnistrovskyi-712160",
+      "name": "Bilhorod-Dnistrovskyi",
+      "coordinates": [
+        46.19484,
+        30.34827
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-podilsk-704679",
+      "name": "Podilsk",
+      "coordinates": [
+        47.74988,
+        29.53074
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-pivdenne-687997",
+      "name": "Pivdenne",
+      "coordinates": [
+        46.62472,
+        31.10182
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

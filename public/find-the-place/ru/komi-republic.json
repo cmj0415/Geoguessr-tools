@@ -10,15 +10,21 @@
           "type": "place",
           "id": "ru-komi-republic-syktyvkar",
           "name": "Syktyvkar",
-          "coordinates": [61.66393, 50.8163],
+          "coordinates": [
+            61.66393,
+            50.8163
+          ],
           "difficulty": "Easy"
         },
         {
           "type": "place",
           "id": "ru-komi-republic-ezhva",
           "name": "Ezhva",
-          "coordinates": [61.81281, 50.72834],
-          "difficulty": "Medium"
+          "coordinates": [
+            61.81281,
+            50.72834
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -30,8 +36,11 @@
           "type": "place",
           "id": "ru-komi-republic-ukhta",
           "name": "Ukhta",
-          "coordinates": [63.56904, 53.69141],
-          "difficulty": "Easy"
+          "coordinates": [
+            63.56904,
+            53.69141
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -43,8 +52,11 @@
           "type": "place",
           "id": "ru-komi-republic-vorkuta",
           "name": "Vorkuta",
-          "coordinates": [67.50867, 64.0667],
-          "difficulty": "Medium"
+          "coordinates": [
+            67.50867,
+            64.0667
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -56,7 +68,10 @@
           "type": "place",
           "id": "ru-komi-republic-pechora",
           "name": "Pechora",
-          "coordinates": [65.14717, 57.22439],
+          "coordinates": [
+            65.14717,
+            57.22439
+          ],
           "difficulty": "Hard"
         }
       ]

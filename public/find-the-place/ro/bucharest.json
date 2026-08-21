@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bucharest",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-bucharest-683506",
+      "name": "Bucharest",
+      "coordinates": [
+        44.43225,
+        26.10626
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

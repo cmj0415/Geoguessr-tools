@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Saulkrasti Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-saulkrasti-455812",
+      "name": "Saulkrasti",
+      "coordinates": [
+        57.26224,
+        24.41471
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

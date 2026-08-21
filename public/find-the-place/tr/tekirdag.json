@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Tekirdağ",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-corlu-748893",
+      "name": "Çorlu",
+      "coordinates": [
+        41.16069,
+        27.80093
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-tekirdag-738927",
+      "name": "Tekirdağ",
+      "coordinates": [
+        40.9781,
+        27.51101
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-cerkezkoey-749274",
+      "name": "Çerkezköy",
+      "coordinates": [
+        41.28629,
+        27.99939
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

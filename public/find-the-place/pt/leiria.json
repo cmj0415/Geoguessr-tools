@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Leiria",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-leiria-2267095",
+      "name": "Leiria",
+      "coordinates": [
+        39.74362,
+        -8.80705
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-marinha-grande-2266703",
+      "name": "Marinha Grande",
+      "coordinates": [
+        39.74769,
+        -8.93228
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pt-caldas-da-rainha-2270437",
+      "name": "Caldas da Rainha",
+      "coordinates": [
+        39.40326,
+        -9.13839
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

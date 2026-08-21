@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "South Aegean",
+  "children": [
+    {
+      "type": "place",
+      "id": "gr-rhodes-400666",
+      "name": "Rhodes",
+      "coordinates": [
+        36.43556,
+        28.22199
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

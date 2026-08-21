@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Studenichani",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-studenicani-785345",
+      "name": "Studeničani",
+      "coordinates": [
+        41.92208,
+        21.53483
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

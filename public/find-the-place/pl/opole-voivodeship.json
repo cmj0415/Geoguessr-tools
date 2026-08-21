@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Opole Voivodeship",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-opole-3090048",
+      "name": "Opole",
+      "coordinates": [
+        50.67119,
+        17.92604
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-kedzierzyn-kozle-3096372",
+      "name": "Kędzierzyn-Koźle",
+      "coordinates": [
+        50.34984,
+        18.22606
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-nysa-3090436",
+      "name": "Nysa",
+      "coordinates": [
+        50.47379,
+        17.33437
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-brzeg-3102459",
+      "name": "Brzeg",
+      "coordinates": [
+        50.86079,
+        17.4674
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

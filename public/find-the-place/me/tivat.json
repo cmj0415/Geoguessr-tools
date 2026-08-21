@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Tivat",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-tivat-3189073",
+      "name": "Tivat",
+      "coordinates": [
+        42.43623,
+        18.69361
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

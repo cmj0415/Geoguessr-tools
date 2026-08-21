@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Hacıqabul",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-haciqabul-585225",
+      "name": "Hacıqabul",
+      "coordinates": [
+        40.03874,
+        48.94286
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

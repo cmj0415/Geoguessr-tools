@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Durrës County",
+  "children": [
+    {
+      "type": "place",
+      "id": "al-durres-3185728",
+      "name": "Durrës",
+      "coordinates": [
+        41.32355,
+        19.45469
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "al-kruje-3185082",
+      "name": "Krujë",
+      "coordinates": [
+        41.50917,
+        19.79278
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "al-rrashbull-3184271",
+      "name": "Rrashbull",
+      "coordinates": [
+        41.32278,
+        19.51028
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "al-fushe-kruje-3185638",
+      "name": "Fushë-Krujë",
+      "coordinates": [
+        41.47833,
+        19.71778
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "al-shijak-3184099",
+      "name": "Shijak",
+      "coordinates": [
+        41.34556,
+        19.56722
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "al-sukth-3183945",
+      "name": "Sukth",
+      "coordinates": [
+        41.38056,
+        19.53778
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "al-xhafzotaj-3183684",
+      "name": "Xhafzotaj",
+      "coordinates": [
+        41.34444,
+        19.5475
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "al-thumane-3183881",
+      "name": "Thumanë",
+      "coordinates": [
+        41.5475,
+        19.67778
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "al-nikel-3184594",
+      "name": "Nikël",
+      "coordinates": [
+        41.44417,
+        19.74833
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

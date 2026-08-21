@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Tbilisi",
+  "children": [
+    {
+      "type": "place",
+      "id": "ge-tbilisi-611717",
+      "name": "Tbilisi",
+      "coordinates": [
+        41.69143,
+        44.83412
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ge-dighomi-614909",
+      "name": "Dighomi",
+      "coordinates": [
+        41.77278,
+        44.73208
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Buzău County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-buzau-683123",
+      "name": "Buzău",
+      "coordinates": [
+        45.15,
+        26.83333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-ramnicu-sarat-668873",
+      "name": "Râmnicu Sărat",
+      "coordinates": [
+        45.38333,
+        27.05
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

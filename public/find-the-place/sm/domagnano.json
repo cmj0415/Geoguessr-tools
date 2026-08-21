@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Domagnano",
+  "children": [
+    {
+      "type": "place",
+      "id": "sm-domagnano-3177542",
+      "name": "Domagnano",
+      "coordinates": [
+        43.94961,
+        12.46828
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

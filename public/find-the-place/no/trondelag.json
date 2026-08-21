@@ -1,0 +1,126 @@
+{
+  "type": "administrative",
+  "name": "Trøndelag",
+  "children": [
+    {
+      "type": "place",
+      "id": "no-trondheim-3133880",
+      "name": "Trondheim",
+      "coordinates": [
+        63.43049,
+        10.39506
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-levanger-3147698",
+      "name": "Levanger",
+      "coordinates": [
+        63.74644,
+        11.29963
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-stjordalshalsen-3136765",
+      "name": "Stjørdalshalsen",
+      "coordinates": [
+        63.4681,
+        10.92618
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-steinkjer-3136947",
+      "name": "Steinkjer",
+      "coordinates": [
+        64.01487,
+        11.49537
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-stjordal-6951004",
+      "name": "Stjørdal",
+      "coordinates": [
+        63.46803,
+        10.91776
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-namsos-3145023",
+      "name": "Namsos",
+      "coordinates": [
+        64.46624,
+        11.49572
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-verdal-3132176",
+      "name": "Verdal",
+      "coordinates": [
+        63.79332,
+        11.4817
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-orkanger-3143423",
+      "name": "Orkanger",
+      "coordinates": [
+        63.30668,
+        9.85025
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-malvik-3146470",
+      "name": "Malvik",
+      "coordinates": [
+        63.43333,
+        10.68333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-melhus-3146125",
+      "name": "Melhus",
+      "coordinates": [
+        63.28555,
+        10.27806
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-roros-3141332",
+      "name": "Røros",
+      "coordinates": [
+        62.57468,
+        11.3842
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-hommelvik-3151942",
+      "name": "Hommelvik",
+      "coordinates": [
+        63.41083,
+        10.79424
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

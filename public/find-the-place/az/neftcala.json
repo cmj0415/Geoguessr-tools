@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Neftçala",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-neftcala-147425",
+      "name": "Neftçala",
+      "coordinates": [
+        39.3768,
+        49.247
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

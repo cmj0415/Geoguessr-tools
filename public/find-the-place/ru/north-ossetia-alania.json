@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-north-ossetia-alania-vladikavkaz",
           "name": "Vladikavkaz",
-          "coordinates": [43.04101, 44.66986],
+          "coordinates": [
+            43.04101,
+            44.66986
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-north-ossetia-alania-mozdok",
           "name": "Mozdok",
-          "coordinates": [43.73976, 44.65157],
-          "difficulty": "Easy"
+          "coordinates": [
+            43.73976,
+            44.65157
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-north-ossetia-alania-beslan",
           "name": "Beslan",
-          "coordinates": [43.19277, 44.53274],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.19277,
+            44.53274
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-north-ossetia-alania-alagir",
           "name": "Alagir",
-          "coordinates": [43.04252, 44.2202],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.04252,
+            44.2202
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-north-ossetia-alania-ardon",
           "name": "Ardon",
-          "coordinates": [43.17888, 44.29464],
+          "coordinates": [
+            43.17888,
+            44.29464
+          ],
           "difficulty": "Hard"
         }
       ]

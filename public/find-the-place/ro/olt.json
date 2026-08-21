@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Olt",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-slatina-666767",
+      "name": "Slatina",
+      "coordinates": [
+        44.43333,
+        24.36667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-caracal-682747",
+      "name": "Caracal",
+      "coordinates": [
+        44.11667,
+        24.35
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-bals-685586",
+      "name": "Balş",
+      "coordinates": [
+        44.35,
+        24.1
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-corabia-680897",
+      "name": "Corabia",
+      "coordinates": [
+        43.77513,
+        24.50146
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

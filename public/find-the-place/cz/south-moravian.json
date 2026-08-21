@@ -1,0 +1,126 @@
+{
+  "type": "administrative",
+  "name": "South Moravian",
+  "children": [
+    {
+      "type": "place",
+      "id": "cz-brno-3078610",
+      "name": "Brno",
+      "coordinates": [
+        49.19522,
+        16.60796
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cz-brno-stred-6694367",
+      "name": "Brno střed",
+      "coordinates": [
+        49.19343,
+        16.60712
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cz-znojmo-3061344",
+      "name": "Znojmo",
+      "coordinates": [
+        48.8555,
+        16.0488
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-breclav-3078773",
+      "name": "Břeclav",
+      "coordinates": [
+        48.75897,
+        16.88203
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-lisen-3071748",
+      "name": "Líšeň",
+      "coordinates": [
+        49.20711,
+        16.69484
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-kralovo-pole-3072934",
+      "name": "Královo Pole",
+      "coordinates": [
+        49.22522,
+        16.58987
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-hodonin-3075654",
+      "name": "Hodonín",
+      "coordinates": [
+        48.84893,
+        17.13244
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-bystrc-3078308",
+      "name": "Bystrc",
+      "coordinates": [
+        49.22645,
+        16.5303
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-vyskov-3062283",
+      "name": "Vyškov",
+      "coordinates": [
+        49.27747,
+        16.99897
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cz-blansko-3079273",
+      "name": "Blansko",
+      "coordinates": [
+        49.36304,
+        16.64446
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cz-zabovresky-3062119",
+      "name": "Žabovřesky",
+      "coordinates": [
+        49.21395,
+        16.57253
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cz-zidenice-3061473",
+      "name": "Židenice",
+      "coordinates": [
+        49.19654,
+        16.64738
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

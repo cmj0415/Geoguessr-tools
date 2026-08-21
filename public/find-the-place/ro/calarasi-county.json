@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Călărași County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-oltenita-671832",
+      "name": "Olteniţa",
+      "coordinates": [
+        44.08333,
+        26.63333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Satakunta",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-pori-640999",
+      "name": "Pori",
+      "coordinates": [
+        61.48072,
+        21.78518
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "fi-rauma-639734",
+      "name": "Rauma",
+      "coordinates": [
+        61.12724,
+        21.51127
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "fi-kankaanpaeae-654363",
+      "name": "Kankaanpää",
+      "coordinates": [
+        61.8,
+        22.41667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "fi-ulvila-633395",
+      "name": "Ulvila",
+      "coordinates": [
+        61.42844,
+        21.87103
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

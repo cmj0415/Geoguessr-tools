@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Chernihiv Oblast",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-chernihiv-710735",
+      "name": "Chernihiv",
+      "coordinates": [
+        51.50541,
+        31.28656
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-nizhyn-699942",
+      "name": "Nizhyn",
+      "coordinates": [
+        51.04772,
+        31.88844
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-pryluky-696108",
+      "name": "Pryluky",
+      "coordinates": [
+        50.59525,
+        32.38382
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-masany-701643",
+      "name": "Masany",
+      "coordinates": [
+        51.53316,
+        31.2313
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

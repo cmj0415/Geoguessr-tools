@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Zagorje ob Savi",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-zagorje-ob-savi-3186906",
+      "name": "Zagorje ob Savi",
+      "coordinates": [
+        46.13179,
+        14.99694
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

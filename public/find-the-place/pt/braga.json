@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Braga",
+  "children": [
+    {
+      "type": "place",
+      "id": "pt-braga-2742032",
+      "name": "Braga",
+      "coordinates": [
+        41.5514,
+        -8.42311
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pt-guimaraes-2738752",
+      "name": "Guimarães",
+      "coordinates": [
+        41.44443,
+        -8.29619
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-esposende-2739848",
+      "name": "Esposende",
+      "coordinates": [
+        41.5361,
+        -8.78201
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pt-bairro-novo-2742493",
+      "name": "Bairro Novo",
+      "coordinates": [
+        41.54317,
+        -8.40725
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

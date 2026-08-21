@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-chukotka-autonomous-okrug-anadyr",
           "name": "Anadyr",
-          "coordinates": [64.73424, 177.5103],
-          "difficulty": "Easy"
+          "coordinates": [
+            64.73424,
+            177.5103
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-chukotka-autonomous-okrug-bilibino",
           "name": "Bilibino",
-          "coordinates": [68.05464, 166.43721],
-          "difficulty": "Easy"
+          "coordinates": [
+            68.05464,
+            166.43721
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-chukotka-autonomous-okrug-pevek",
           "name": "Pevek",
-          "coordinates": [69.70279, 170.30708],
-          "difficulty": "Medium"
+          "coordinates": [
+            69.70279,
+            170.30708
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-chukotka-autonomous-okrug-provideniya",
           "name": "Provideniya",
-          "coordinates": [64.42289, -173.22641],
-          "difficulty": "Medium"
+          "coordinates": [
+            64.42289,
+            -173.22641
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-chukotka-autonomous-okrug-egvekinot",
           "name": "Egvekinot",
-          "coordinates": [66.32321, -179.11838],
+          "coordinates": [
+            66.32321,
+            -179.11838
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Valka",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-valka-454572",
+      "name": "Valka",
+      "coordinates": [
+        57.7752,
+        26.01013
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

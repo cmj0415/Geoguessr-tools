@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Sivas",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-sivas-300619",
+      "name": "Sivas",
+      "coordinates": [
+        39.74833,
+        37.01611
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Mojkovac",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-mojkovac-3194926",
+      "name": "Mojkovac",
+      "coordinates": [
+        42.96044,
+        19.5833
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

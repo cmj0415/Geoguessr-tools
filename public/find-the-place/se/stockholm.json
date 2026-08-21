@@ -1,0 +1,236 @@
+{
+  "type": "administrative",
+  "name": "Stockholm",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-stockholm-2673730",
+      "name": "Stockholm",
+      "coordinates": [
+        59.32938,
+        18.06871
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-sollentuna-2675408",
+      "name": "Sollentuna",
+      "coordinates": [
+        59.42804,
+        17.95093
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-huddinge-2704620",
+      "name": "Huddinge",
+      "coordinates": [
+        59.23705,
+        17.98192
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-haninge-2707953",
+      "name": "Haninge",
+      "coordinates": [
+        59.16775,
+        18.14478
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-soedertaelje-2676176",
+      "name": "Södertälje",
+      "coordinates": [
+        59.19554,
+        17.62525
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-solna-2675397",
+      "name": "Solna",
+      "coordinates": [
+        59.36004,
+        18.00086
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-taby-2669772",
+      "name": "Täby",
+      "coordinates": [
+        59.4439,
+        18.06872
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-lidingoe-2696334",
+      "name": "Lidingö",
+      "coordinates": [
+        59.36667,
+        18.13333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-tumba-2667094",
+      "name": "Tumba",
+      "coordinates": [
+        59.19858,
+        17.83317
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-upplands-vaesby-2666238",
+      "name": "Upplands Väsby",
+      "coordinates": [
+        59.51839,
+        17.91128
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-sundbyberg-2670879",
+      "name": "Sundbyberg",
+      "coordinates": [
+        59.36128,
+        17.97114
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-akersberga-2727234",
+      "name": "Åkersberga",
+      "coordinates": [
+        59.47944,
+        18.29967
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-danderyd-2718000",
+      "name": "Danderyd",
+      "coordinates": [
+        59.40398,
+        18.02376
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-vallentuna-2665452",
+      "name": "Vallentuna",
+      "coordinates": [
+        59.53436,
+        18.07758
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-maersta-2692475",
+      "name": "Märsta",
+      "coordinates": [
+        59.62157,
+        17.85476
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-nacka-2690580",
+      "name": "Nacka",
+      "coordinates": [
+        59.31053,
+        18.16372
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-jakobsberg-2703396",
+      "name": "Jakobsberg",
+      "coordinates": [
+        59.42268,
+        17.83508
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-trangsund-2667569",
+      "name": "Trångsund",
+      "coordinates": [
+        59.23333,
+        18.13333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-gustavsberg-2709628",
+      "name": "Gustavsberg",
+      "coordinates": [
+        59.32684,
+        18.38975
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-norrtaelje-2688250",
+      "name": "Norrtälje",
+      "coordinates": [
+        59.75799,
+        18.70496
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "se-rinkeby-2682484",
+      "name": "Rinkeby",
+      "coordinates": [
+        59.38708,
+        17.92754
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "se-tullinge-2667109",
+      "name": "Tullinge",
+      "coordinates": [
+        59.2,
+        17.9
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "se-nynaeshamn-2687636",
+      "name": "Nynäshamn",
+      "coordinates": [
+        58.90337,
+        17.94793
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

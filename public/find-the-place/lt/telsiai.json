@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Telsiai",
+  "children": [
+    {
+      "type": "place",
+      "id": "lt-mazeikiai-597188",
+      "name": "Mazeikiai",
+      "coordinates": [
+        56.31667,
+        22.33333
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-telsiai-593926",
+      "name": "Telsiai",
+      "coordinates": [
+        55.98139,
+        22.24722
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "lt-plunge-595689",
+      "name": "Plunge",
+      "coordinates": [
+        55.91139,
+        21.84417
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

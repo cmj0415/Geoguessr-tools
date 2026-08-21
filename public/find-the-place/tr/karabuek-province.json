@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Karabük Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-karabuek-744562",
+      "name": "Karabük",
+      "coordinates": [
+        41.20488,
+        32.62768
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

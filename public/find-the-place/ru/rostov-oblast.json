@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-rostov-oblast-rostov-on-don",
           "name": "Rostov-on-Don",
-          "coordinates": [47.21997, 39.70769],
+          "coordinates": [
+            47.21997,
+            39.70769
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-rostov-oblast-taganrog",
           "name": "Taganrog",
-          "coordinates": [47.23627, 38.9053],
+          "coordinates": [
+            47.23627,
+            38.9053
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-rostov-oblast-shakhty",
           "name": "Shakhty",
-          "coordinates": [47.71916, 40.21603],
-          "difficulty": "Medium"
+          "coordinates": [
+            47.71916,
+            40.21603
+          ],
+          "difficulty": "Easy"
         }
       ]
     },
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-rostov-oblast-volgodonsk",
           "name": "Volgodonsk",
-          "coordinates": [47.51141, 42.15269],
+          "coordinates": [
+            47.51141,
+            42.15269
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,8 +74,11 @@
           "type": "place",
           "id": "ru-rostov-oblast-novocherkassk",
           "name": "Novocherkassk",
-          "coordinates": [47.4222, 40.09373],
-          "difficulty": "Hard"
+          "coordinates": [
+            47.4222,
+            40.09373
+          ],
+          "difficulty": "Medium"
         }
       ]
     }

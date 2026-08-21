@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Schaffhausen",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-schaffhausen-2658761",
+      "name": "Schaffhausen",
+      "coordinates": [
+        47.69732,
+        8.63493
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

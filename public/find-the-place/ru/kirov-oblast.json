@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-kirov-oblast-kirov",
           "name": "Kirov",
-          "coordinates": [58.59809, 49.65783],
+          "coordinates": [
+            58.59809,
+            49.65783
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-kirov-oblast-kirovo-chepetsk",
           "name": "Kirovo-Chepetsk",
-          "coordinates": [58.55091, 50.031],
-          "difficulty": "Easy"
+          "coordinates": [
+            58.55091,
+            50.031
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kirov-oblast-vyatskiye-polyany",
           "name": "Vyatskiye Polyany",
-          "coordinates": [56.22912, 51.06098],
-          "difficulty": "Medium"
+          "coordinates": [
+            56.22912,
+            51.06098
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-kirov-oblast-slobodskoy",
           "name": "Slobodskoy",
-          "coordinates": [58.73133, 50.17119],
-          "difficulty": "Medium"
+          "coordinates": [
+            58.73133,
+            50.17119
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-kirov-oblast-kotelnich",
           "name": "Kotelnich",
-          "coordinates": [58.30348, 48.33745],
+          "coordinates": [
+            58.30348,
+            48.33745
+          ],
           "difficulty": "Hard"
         }
       ]

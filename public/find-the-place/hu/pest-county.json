@@ -1,0 +1,236 @@
+{
+  "type": "administrative",
+  "name": "Pest County",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-erd-3053281",
+      "name": "Érd",
+      "coordinates": [
+        47.39489,
+        18.91361
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-cegled-3054543",
+      "name": "Cegléd",
+      "coordinates": [
+        47.17266,
+        19.79952
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-vac-3043293",
+      "name": "Vác",
+      "coordinates": [
+        47.77591,
+        19.13612
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-godollo-3052236",
+      "name": "Gödöllő",
+      "coordinates": [
+        47.59657,
+        19.35515
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-dunakeszi-3053476",
+      "name": "Dunakeszi",
+      "coordinates": [
+        47.63641,
+        19.13864
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-budaors-3054646",
+      "name": "Budaörs",
+      "coordinates": [
+        47.46181,
+        18.95845
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-szigetszentmiklos-3044475",
+      "name": "Szigetszentmiklós",
+      "coordinates": [
+        47.34382,
+        19.04335
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-szentendre-3044681",
+      "name": "Szentendre",
+      "coordinates": [
+        47.66943,
+        19.07561
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-nagykoroes-3047651",
+      "name": "Nagykőrös",
+      "coordinates": [
+        47.03419,
+        19.77857
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-gyal-3052101",
+      "name": "Gyál",
+      "coordinates": [
+        47.38449,
+        19.2214
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-monor-3047942",
+      "name": "Monor",
+      "coordinates": [
+        47.35133,
+        19.44733
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-vecses-3043019",
+      "name": "Vecsés",
+      "coordinates": [
+        47.40705,
+        19.28648
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-veresegyhaz-3042968",
+      "name": "Veresegyház",
+      "coordinates": [
+        47.6459,
+        19.29536
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-szazhalombatta-3044821",
+      "name": "Százhalombatta",
+      "coordinates": [
+        47.32949,
+        18.93878
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-dunaharaszti-3053485",
+      "name": "Dunaharaszti",
+      "coordinates": [
+        47.3545,
+        19.09822
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-fot-3052542",
+      "name": "Fót",
+      "coordinates": [
+        47.6177,
+        19.1887
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-dabas-3053836",
+      "name": "Dabas",
+      "coordinates": [
+        47.18594,
+        19.31091
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-abony-723030",
+      "name": "Abony",
+      "coordinates": [
+        47.1899,
+        20.00476
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-god-3052241",
+      "name": "Göd",
+      "coordinates": [
+        47.68324,
+        19.13417
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-pomaz-3046230",
+      "name": "Pomáz",
+      "coordinates": [
+        47.64227,
+        19.02784
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-budakeszi-3054648",
+      "name": "Budakeszi",
+      "coordinates": [
+        47.51083,
+        18.92717
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-pilisvoeroesvar-3046340",
+      "name": "Pilisvörösvár",
+      "coordinates": [
+        47.61386,
+        18.90893
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-gyomro-3052045",
+      "name": "Gyömrő",
+      "coordinates": [
+        47.42733,
+        19.40133
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

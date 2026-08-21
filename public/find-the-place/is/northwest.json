@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Northwest",
+  "children": [
+    {
+      "type": "place",
+      "id": "is-saudarkrokur-2627309",
+      "name": "Sauðárkrókur",
+      "coordinates": [
+        65.74611,
+        -19.63944
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-bloenduos-3418130",
+      "name": "Blönduós",
+      "coordinates": [
+        65.65932,
+        -20.28083
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

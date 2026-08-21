@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Lower Silesia",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-wroclaw-3081368",
+      "name": "Wrocław",
+      "coordinates": [
+        51.10286,
+        17.03006
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-walbrzych-3082707",
+      "name": "Wałbrzych",
+      "coordinates": [
+        50.77141,
+        16.28432
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-legnica-3093692",
+      "name": "Legnica",
+      "coordinates": [
+        51.21006,
+        16.1619
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-lubin-3092931",
+      "name": "Lubin",
+      "coordinates": [
+        51.40089,
+        16.20149
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-jelenia-gora-3097257",
+      "name": "Jelenia Góra",
+      "coordinates": [
+        50.89973,
+        15.72899
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-glogow-3099213",
+      "name": "Głogów",
+      "coordinates": [
+        51.66361,
+        16.0845
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-swidnica-3084093",
+      "name": "Świdnica",
+      "coordinates": [
+        50.84378,
+        16.48859
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-boleslawiec-3102987",
+      "name": "Bolesławiec",
+      "coordinates": [
+        51.26418,
+        15.5697
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-olesnica-3090170",
+      "name": "Oleśnica",
+      "coordinates": [
+        51.21338,
+        17.38986
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

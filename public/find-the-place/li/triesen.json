@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Triesen",
+  "children": [
+    {
+      "type": "place",
+      "id": "li-triesen-3042035",
+      "name": "Triesen",
+      "coordinates": [
+        47.10752,
+        9.52815
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

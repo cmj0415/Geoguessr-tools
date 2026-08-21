@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Vinica",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-vinica-784424",
+      "name": "Vinica",
+      "coordinates": [
+        41.8812,
+        22.51074
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

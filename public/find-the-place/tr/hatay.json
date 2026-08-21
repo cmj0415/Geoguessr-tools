@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Hatay",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-antakya-323779",
+      "name": "Antakya",
+      "coordinates": [
+        36.20655,
+        36.15722
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-iskenderun-311111",
+      "name": "İskenderun",
+      "coordinates": [
+        36.58718,
+        36.17347
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-samandag-301975",
+      "name": "Samandağ",
+      "coordinates": [
+        36.08012,
+        35.97603
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-arsuz-298435",
+      "name": "Arsuz",
+      "coordinates": [
+        36.41305,
+        35.89033
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-kirikhan-307657",
+      "name": "Kırıkhan",
+      "coordinates": [
+        36.49939,
+        36.35755
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "tr-reyhanli-302355",
+      "name": "Reyhanlı",
+      "coordinates": [
+        36.26791,
+        36.56747
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "tr-doertyol-316284",
+      "name": "Dörtyol",
+      "coordinates": [
+        36.83917,
+        36.23025
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

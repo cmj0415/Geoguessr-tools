@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Kyiv City",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-kyiv-703448",
+      "name": "Kyiv",
+      "coordinates": [
+        50.45466,
+        30.5238
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-bilychi-712631",
+      "name": "Bilychi",
+      "coordinates": [
+        50.46544,
+        30.34654
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

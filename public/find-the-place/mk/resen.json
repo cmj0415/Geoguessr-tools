@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Resen",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-resen-786341",
+      "name": "Resen",
+      "coordinates": [
+        41.08999,
+        21.00885
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

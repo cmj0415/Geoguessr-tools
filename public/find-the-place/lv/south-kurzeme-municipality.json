@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "South Kurzeme Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-aizpute-461602",
+      "name": "Aizpute",
+      "coordinates": [
+        56.72108,
+        21.60156
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

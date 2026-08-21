@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Borsod-Abaúj-Zemplén",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-miskolc-717582",
+      "name": "Miskolc",
+      "coordinates": [
+        48.10327,
+        20.77806
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-kazincbarcika-719311",
+      "name": "Kazincbarcika",
+      "coordinates": [
+        48.25,
+        20.63333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-ozd-716671",
+      "name": "Ózd",
+      "coordinates": [
+        48.21667,
+        20.3
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-satoraljaujhely-715839",
+      "name": "Sátoraljaújhely",
+      "coordinates": [
+        48.39492,
+        21.65871
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-mezokovesd-717652",
+      "name": "Mezőkövesd",
+      "coordinates": [
+        47.81667,
+        20.58333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-tiszaujvaros-714697",
+      "name": "Tiszaújváros",
+      "coordinates": [
+        47.93333,
+        21.08333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

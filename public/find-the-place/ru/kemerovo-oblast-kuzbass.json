@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-kemerovo-oblast-kuzbass-kemerovo",
           "name": "Kemerovo",
-          "coordinates": [55.35417, 86.10435],
+          "coordinates": [
+            55.35417,
+            86.10435
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-kemerovo-oblast-kuzbass-novokuznetsk",
           "name": "Novokuznetsk",
-          "coordinates": [53.75752, 87.13599],
+          "coordinates": [
+            53.75752,
+            87.13599
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kemerovo-oblast-kuzbass-prokopyevsk",
           "name": "Prokopyevsk",
-          "coordinates": [53.91518, 86.71891],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.91518,
+            86.71891
+          ],
+          "difficulty": "Easy"
         }
       ]
     },
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-kemerovo-oblast-kuzbass-leninsk-kuznetsky",
           "name": "Leninsk-Kuznetsky",
-          "coordinates": [54.6567, 86.1737],
+          "coordinates": [
+            54.6567,
+            86.1737
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,8 +74,11 @@
           "type": "place",
           "id": "ru-kemerovo-oblast-kuzbass-kiselevsk",
           "name": "Kiselevsk",
-          "coordinates": [53.99, 86.6621],
-          "difficulty": "Hard"
+          "coordinates": [
+            53.99,
+            86.6621
+          ],
+          "difficulty": "Medium"
         }
       ]
     }

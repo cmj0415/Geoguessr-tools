@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Sakarya",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-adapazari-752850",
+      "name": "Adapazarı",
+      "coordinates": [
+        40.78056,
+        30.40333
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

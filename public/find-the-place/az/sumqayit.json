@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Sumqayit",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-sumgayit-584923",
+      "name": "Sumgayit",
+      "coordinates": [
+        40.58972,
+        49.66861
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

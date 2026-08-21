@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Kujawsko-Pomorskie",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-bydgoszcz-3102014",
+      "name": "Bydgoszcz",
+      "coordinates": [
+        53.1235,
+        18.00762
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-torun-3083271",
+      "name": "Toruń",
+      "coordinates": [
+        53.01375,
+        18.59814
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-wloclawek-3081741",
+      "name": "Włocławek",
+      "coordinates": [
+        52.64817,
+        19.0678
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-grudziadz-3098218",
+      "name": "Grudziądz",
+      "coordinates": [
+        53.48411,
+        18.75366
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-inowroclaw-3097872",
+      "name": "Inowrocław",
+      "coordinates": [
+        52.79886,
+        18.26387
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-fordon-3099654",
+      "name": "Fordon",
+      "coordinates": [
+        53.14821,
+        18.17036
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

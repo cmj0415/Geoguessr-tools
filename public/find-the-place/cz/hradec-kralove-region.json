@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Hradec Králové Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "cz-hradec-kralove-3074967",
+      "name": "Hradec Králové",
+      "coordinates": [
+        50.20923,
+        15.83277
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cz-trutnov-3063907",
+      "name": "Trutnov",
+      "coordinates": [
+        50.56101,
+        15.9127
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-nachod-3070122",
+      "name": "Náchod",
+      "coordinates": [
+        50.4167,
+        16.16289
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cz-jicin-3074204",
+      "name": "Jičín",
+      "coordinates": [
+        50.43723,
+        15.35162
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cz-dvur-kralove-nad-labem-3061284",
+      "name": "Dvůr Králové nad Labem",
+      "coordinates": [
+        50.43172,
+        15.81402
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

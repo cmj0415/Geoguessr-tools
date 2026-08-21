@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-voronezh-oblast-voronezh",
           "name": "Voronezh",
-          "coordinates": [51.66833, 39.19204],
+          "coordinates": [
+            51.66833,
+            39.19204
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-voronezh-oblast-borisoglebsk",
           "name": "Borisoglebsk",
-          "coordinates": [51.36892, 42.09804],
-          "difficulty": "Easy"
+          "coordinates": [
+            51.36892,
+            42.09804
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-voronezh-oblast-rossosh",
           "name": "Rossosh",
-          "coordinates": [51.1209, 38.5116],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.1209,
+            38.5116
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-voronezh-oblast-liski",
           "name": "Liski",
-          "coordinates": [50.9824, 39.50403],
-          "difficulty": "Medium"
+          "coordinates": [
+            50.9824,
+            39.50403
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-voronezh-oblast-novovoronezh",
           "name": "Novovoronezh",
-          "coordinates": [51.31528, 39.21872],
+          "coordinates": [
+            51.31528,
+            39.21872
+          ],
           "difficulty": "Hard"
         }
       ]

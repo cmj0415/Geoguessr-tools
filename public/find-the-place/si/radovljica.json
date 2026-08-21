@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Radovljica",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-radovljica-3192063",
+      "name": "Radovljica",
+      "coordinates": [
+        46.34347,
+        14.17547
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

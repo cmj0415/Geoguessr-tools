@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-zabaykalsky-krai-chita",
           "name": "Chita",
-          "coordinates": [52.04311, 113.49171],
+          "coordinates": [
+            52.04311,
+            113.49171
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-zabaykalsky-krai-krasnokamensk",
           "name": "Krasnokamensk",
-          "coordinates": [50.09284, 118.03224],
-          "difficulty": "Easy"
+          "coordinates": [
+            50.09284,
+            118.03224
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-zabaykalsky-krai-borzya",
           "name": "Borzya",
-          "coordinates": [50.39138, 116.53355],
-          "difficulty": "Medium"
+          "coordinates": [
+            50.39138,
+            116.53355
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-zabaykalsky-krai-petrovsk-zabaykalskiy",
           "name": "Petrovsk-Zabaykalskiy",
-          "coordinates": [51.2758, 108.84714],
-          "difficulty": "Medium"
+          "coordinates": [
+            51.2758,
+            108.84714
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-zabaykalsky-krai-aginskoye",
           "name": "Aginskoye",
-          "coordinates": [51.10754, 114.54173],
+          "coordinates": [
+            51.10754,
+            114.54173
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Andrijevica",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-andrijevica-3204816",
+      "name": "Andrijevica",
+      "coordinates": [
+        42.73389,
+        19.79194
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

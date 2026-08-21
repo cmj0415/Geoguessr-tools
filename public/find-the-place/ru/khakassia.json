@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-khakassia-abakan",
           "name": "Abakan",
-          "coordinates": [53.7154, 91.42593],
-          "difficulty": "Easy"
+          "coordinates": [
+            53.7154,
+            91.42593
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-khakassia-chernogorsk",
           "name": "Chernogorsk",
-          "coordinates": [53.82878, 91.30953],
-          "difficulty": "Easy"
+          "coordinates": [
+            53.82878,
+            91.30953
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-khakassia-sayanogorsk",
           "name": "Sayanogorsk",
-          "coordinates": [53.09975, 91.40736],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.09975,
+            91.40736
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-khakassia-abaza",
           "name": "Abaza",
-          "coordinates": [52.65303, 90.09454],
-          "difficulty": "Medium"
+          "coordinates": [
+            52.65303,
+            90.09454
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-khakassia-ust-abakan",
           "name": "Ust-Abakan",
-          "coordinates": [53.83573, 91.39047],
+          "coordinates": [
+            53.83573,
+            91.39047
+          ],
           "difficulty": "Hard"
         }
       ]

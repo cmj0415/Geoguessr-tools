@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kayseri",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-kayseri-308464",
+      "name": "Kayseri",
+      "coordinates": [
+        38.73222,
+        35.48528
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

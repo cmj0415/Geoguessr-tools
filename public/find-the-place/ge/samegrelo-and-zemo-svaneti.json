@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Samegrelo and Zemo Svaneti",
+  "children": [
+    {
+      "type": "place",
+      "id": "ge-poti-612366",
+      "name": "Poti",
+      "coordinates": [
+        42.14272,
+        41.67384
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ge-zugdidi-610824",
+      "name": "Zugdidi",
+      "coordinates": [
+        42.5084,
+        41.86796
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ge-senaki-612053",
+      "name": "Senaki",
+      "coordinates": [
+        42.27077,
+        42.06334
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

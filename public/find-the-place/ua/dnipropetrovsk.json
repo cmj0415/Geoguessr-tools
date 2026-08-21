@@ -1,0 +1,146 @@
+{
+  "type": "administrative",
+  "name": "Dnipropetrovsk",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-dnipro-709930",
+      "name": "Dnipro",
+      "coordinates": [
+        48.46664,
+        35.04066
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-kryvyy-rih-703845",
+      "name": "Kryvyy Rih",
+      "coordinates": [
+        47.90572,
+        33.39404
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-kamyanske-709932",
+      "name": "Kamyanske",
+      "coordinates": [
+        48.51716,
+        34.60617
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-nikopol-700051",
+      "name": "Nikopol",
+      "coordinates": [
+        47.56826,
+        34.39126
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-pavlohrad-697889",
+      "name": "Pavlohrad",
+      "coordinates": [
+        48.53214,
+        35.86878
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-samar-699445",
+      "name": "Samar",
+      "coordinates": [
+        48.62893,
+        35.2589
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-inhulets-707601",
+      "name": "Inhulets",
+      "coordinates": [
+        47.7301,
+        33.25189
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-marhanets-701855",
+      "name": "Marhanets",
+      "coordinates": [
+        47.63088,
+        34.6245
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-zhovti-vody-687196",
+      "name": "Zhovti Vody",
+      "coordinates": [
+        48.34518,
+        33.49743
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-pokrov-698436",
+      "name": "Pokrov",
+      "coordinates": [
+        47.65361,
+        34.11488
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-synelnykove-693796",
+      "name": "Synelnykove",
+      "coordinates": [
+        48.32362,
+        35.52612
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-shakhtarske-697616",
+      "name": "Shakhtarske",
+      "coordinates": [
+        48.3479,
+        36.39637
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-ternivka-691628",
+      "name": "Ternivka",
+      "coordinates": [
+        48.52656,
+        36.07051
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ua-vilnohirsk-689200",
+      "name": "Vilnohirsk",
+      "coordinates": [
+        48.48416,
+        34.01708
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

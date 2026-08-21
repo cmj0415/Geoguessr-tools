@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Lääne-Virumaa",
+  "children": [
+    {
+      "type": "place",
+      "id": "ee-rakvere-589165",
+      "name": "Rakvere",
+      "coordinates": [
+        59.34808,
+        26.35784
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ee-tapa-588348",
+      "name": "Tapa",
+      "coordinates": [
+        59.26056,
+        25.95861
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ee-kunda-590977",
+      "name": "Kunda",
+      "coordinates": [
+        59.48333,
+        26.53333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

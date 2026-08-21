@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kainuu",
+  "children": [
+    {
+      "type": "place",
+      "id": "fi-kajaani-654899",
+      "name": "Kajaani",
+      "coordinates": [
+        64.22728,
+        27.72846
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "type": "administrative",
+  "name": "Bratislava Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "sk-bratislava-3060972",
+      "name": "Bratislava",
+      "coordinates": [
+        48.14816,
+        17.10674
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-petrzalka-3058213",
+      "name": "Petržalka",
+      "coordinates": [
+        48.12331,
+        17.12866
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-karlova-ves-3059564",
+      "name": "Karlova Ves",
+      "coordinates": [
+        48.15344,
+        17.05522
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-dubravka-3060322",
+      "name": "Dúbravka",
+      "coordinates": [
+        48.18872,
+        17.03521
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-pezinok-3058210",
+      "name": "Pezinok",
+      "coordinates": [
+        48.28986,
+        17.26664
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-podunajske-biskupice-3058117",
+      "name": "Podunajské Biskupice",
+      "coordinates": [
+        48.13246,
+        17.20963
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-vrakuna-3056708",
+      "name": "Vrakuňa",
+      "coordinates": [
+        48.1383,
+        17.20866
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-senec-3057692",
+      "name": "Senec",
+      "coordinates": [
+        48.21951,
+        17.40043
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-malacky-3058897",
+      "name": "Malacky",
+      "coordinates": [
+        48.43604,
+        17.02188
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-devinska-nova-ves-3077170",
+      "name": "Devínska Nová Ves",
+      "coordinates": [
+        48.20711,
+        16.9786
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

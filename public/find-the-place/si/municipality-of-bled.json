@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Bled",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-bled-3203925",
+      "name": "Bled",
+      "coordinates": [
+        46.36859,
+        14.11652
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

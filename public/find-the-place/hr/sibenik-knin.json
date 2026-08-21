@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Šibenik-Knin",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-sibenik-3190941",
+      "name": "Šibenik",
+      "coordinates": [
+        43.73429,
+        15.8942
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hr-knin-3197986",
+      "name": "Knin",
+      "coordinates": [
+        44.04063,
+        16.19662
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-vodice-3187489",
+      "name": "Vodice",
+      "coordinates": [
+        43.76083,
+        15.78278
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

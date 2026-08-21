@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Suceava",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-suceava-665850",
+      "name": "Suceava",
+      "coordinates": [
+        47.63333,
+        26.25
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-falticeni-678459",
+      "name": "Fălticeni",
+      "coordinates": [
+        47.45,
+        26.3
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-radauti-669289",
+      "name": "Rădăuți",
+      "coordinates": [
+        47.85,
+        25.91667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-campulung-moldovenesc-681845",
+      "name": "Câmpulung Moldovenesc",
+      "coordinates": [
+        47.53333,
+        25.56667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-vatra-dornei-663100",
+      "name": "Vatra Dornei",
+      "coordinates": [
+        47.35,
+        25.36667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ro-gura-humorului-676527",
+      "name": "Gura Humorului",
+      "coordinates": [
+        47.55,
+        25.9
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

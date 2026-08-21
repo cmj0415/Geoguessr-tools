@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Fejér",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-szekesfehervar-3044774",
+      "name": "Székesfehérvár",
+      "coordinates": [
+        47.18995,
+        18.41034
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-dunaujvaros-3053438",
+      "name": "Dunaújváros",
+      "coordinates": [
+        46.96479,
+        18.93974
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-mor-3047927",
+      "name": "Mór",
+      "coordinates": [
+        47.37787,
+        18.20353
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

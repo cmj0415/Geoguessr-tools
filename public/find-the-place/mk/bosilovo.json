@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Bosilovo",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-bosilovo-792419",
+      "name": "Bosilovo",
+      "coordinates": [
+        41.44064,
+        22.72786
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

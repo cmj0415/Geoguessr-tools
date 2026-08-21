@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-krasnoyarsk-krai-krasnoyarsk",
           "name": "Krasnoyarsk",
-          "coordinates": [56.03742, 92.93136],
+          "coordinates": [
+            56.03742,
+            92.93136
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-krasnoyarsk-krai-norilsk",
           "name": "Norilsk",
-          "coordinates": [69.3535, 88.2027],
-          "difficulty": "Easy"
+          "coordinates": [
+            69.3535,
+            88.2027
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-krasnoyarsk-krai-achinsk",
           "name": "Achinsk",
-          "coordinates": [56.26792, 90.50145],
+          "coordinates": [
+            56.26792,
+            90.50145
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-krasnoyarsk-krai-kansk",
           "name": "Kansk",
-          "coordinates": [56.20218, 95.71848],
+          "coordinates": [
+            56.20218,
+            95.71848
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-krasnoyarsk-krai-zheleznogorsk",
           "name": "Zheleznogorsk",
-          "coordinates": [56.25109, 93.53142],
+          "coordinates": [
+            56.25109,
+            93.53142
+          ],
           "difficulty": "Hard"
         }
       ]

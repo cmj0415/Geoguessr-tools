@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ogre",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-ogre-457065",
+      "name": "Ogre",
+      "coordinates": [
+        56.8162,
+        24.61401
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Värmland",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-karlstad-2701680",
+      "name": "Karlstad",
+      "coordinates": [
+        59.3793,
+        13.50357
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-kristinehamn-2699282",
+      "name": "Kristinehamn",
+      "coordinates": [
+        59.30978,
+        14.10808
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "se-arvika-2725123",
+      "name": "Arvika",
+      "coordinates": [
+        59.65528,
+        12.58518
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "se-skoghall-2677456",
+      "name": "Skoghall",
+      "coordinates": [
+        59.32324,
+        13.46552
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

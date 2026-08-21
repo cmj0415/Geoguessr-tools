@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Shtip",
+  "children": [
+    {
+      "type": "place",
+      "id": "mk-shtip-785482",
+      "name": "Shtip",
+      "coordinates": [
+        41.74583,
+        22.19583
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

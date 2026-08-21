@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Siirt",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-siirt-300822",
+      "name": "Siirt",
+      "coordinates": [
+        37.9293,
+        41.94134
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

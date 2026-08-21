@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-stavropol-krai-stavropol",
           "name": "Stavropol",
-          "coordinates": [45.03442, 41.9642],
+          "coordinates": [
+            45.03442,
+            41.9642
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-stavropol-krai-pyatigorsk",
           "name": "Pyatigorsk",
-          "coordinates": [44.05, 43.05036],
-          "difficulty": "Easy"
+          "coordinates": [
+            44.05,
+            43.05036
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-stavropol-krai-nevinnomyssk",
           "name": "Nevinnomyssk",
-          "coordinates": [44.6333, 41.9444],
+          "coordinates": [
+            44.6333,
+            41.9444
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-stavropol-krai-kislovodsk",
           "name": "Kislovodsk",
-          "coordinates": [43.91333, 42.72083],
+          "coordinates": [
+            43.91333,
+            42.72083
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-stavropol-krai-yessentuki",
           "name": "Yessentuki",
-          "coordinates": [44.04826, 42.85638],
+          "coordinates": [
+            44.04826,
+            42.85638
+          ],
           "difficulty": "Hard"
         }
       ]

@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "County of Osijek-Baranja",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-osijek-3193935",
+      "name": "Osijek",
+      "coordinates": [
+        45.55066,
+        18.6942
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hr-gjakovo-3202220",
+      "name": "Đakovo",
+      "coordinates": [
+        45.30833,
+        18.41056
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-cepin-3202743",
+      "name": "Čepin",
+      "coordinates": [
+        45.52403,
+        18.57762
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-nasice-3194581",
+      "name": "Našice",
+      "coordinates": [
+        45.48861,
+        18.08778
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-valpovo-3188395",
+      "name": "Valpovo",
+      "coordinates": [
+        45.66083,
+        18.41861
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-beli-manastir-3204320",
+      "name": "Beli Manastir",
+      "coordinates": [
+        45.77,
+        18.60361
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-tenja-3189161",
+      "name": "Tenja",
+      "coordinates": [
+        45.49806,
+        18.74722
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-visnjevac-3187657",
+      "name": "Višnjevac",
+      "coordinates": [
+        45.56861,
+        18.61389
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

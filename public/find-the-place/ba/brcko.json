@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Brčko",
+  "children": [
+    {
+      "type": "place",
+      "id": "ba-brcko-3203521",
+      "name": "Brčko",
+      "coordinates": [
+        44.87162,
+        18.8163
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

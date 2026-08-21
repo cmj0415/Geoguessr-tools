@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-sakhalin-oblast-yuzhno-sakhalinsk",
           "name": "Yuzhno-Sakhalinsk",
-          "coordinates": [46.9543, 142.73559],
-          "difficulty": "Easy"
+          "coordinates": [
+            46.9543,
+            142.73559
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-sakhalin-oblast-korsakov",
           "name": "Korsakov",
-          "coordinates": [46.63406, 142.78288],
-          "difficulty": "Easy"
+          "coordinates": [
+            46.63406,
+            142.78288
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-sakhalin-oblast-kholmsk",
           "name": "Kholmsk",
-          "coordinates": [47.04612, 142.04938],
-          "difficulty": "Medium"
+          "coordinates": [
+            47.04612,
+            142.04938
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-sakhalin-oblast-okha",
           "name": "Okha",
-          "coordinates": [53.59485, 142.9528],
-          "difficulty": "Medium"
+          "coordinates": [
+            53.59485,
+            142.9528
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-sakhalin-oblast-nevelsk",
           "name": "Nevelsk",
-          "coordinates": [46.67956, 141.85587],
+          "coordinates": [
+            46.67956,
+            141.85587
+          ],
           "difficulty": "Hard"
         }
       ]

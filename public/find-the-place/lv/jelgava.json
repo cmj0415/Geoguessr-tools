@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jelgava",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-jelgava-459279",
+      "name": "Jelgava",
+      "coordinates": [
+        56.65,
+        23.71278
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

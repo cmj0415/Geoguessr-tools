@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Budva",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-budva-3203106",
+      "name": "Budva",
+      "coordinates": [
+        42.28721,
+        18.83922
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

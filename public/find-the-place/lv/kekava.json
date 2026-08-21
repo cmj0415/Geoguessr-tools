@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ķekava",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-balozi-864721",
+      "name": "Baloži",
+      "coordinates": [
+        56.87643,
+        24.11825
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

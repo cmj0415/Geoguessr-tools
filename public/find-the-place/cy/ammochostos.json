@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Ammochostos",
+  "children": [
+    {
+      "type": "place",
+      "id": "cy-famagusta-146617",
+      "name": "Famagusta",
+      "coordinates": [
+        35.12489,
+        33.94135
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cy-egkomi-146638",
+      "name": "Égkomi",
+      "coordinates": [
+        35.16272,
+        33.88322
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-protaras-18918",
+      "name": "Protaras",
+      "coordinates": [
+        35.0125,
+        34.05833
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-paralimni-146209",
+      "name": "Paralímni",
+      "coordinates": [
+        35.03945,
+        33.98181
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cy-deryneia-146661",
+      "name": "Derýneia",
+      "coordinates": [
+        35.06484,
+        33.96083
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

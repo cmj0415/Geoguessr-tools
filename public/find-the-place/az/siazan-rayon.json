@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Siyǝzǝn",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-siyazan-584954",
+      "name": "Siyazan",
+      "coordinates": [
+        41.07811,
+        49.11564
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Shaki City",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-sheki-585170",
+      "name": "Sheki",
+      "coordinates": [
+        41.19194,
+        47.17056
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

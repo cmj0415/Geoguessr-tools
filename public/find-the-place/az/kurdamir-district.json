@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Kurdamir District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-kyurdarmir-585763",
+      "name": "Kyurdarmir",
+      "coordinates": [
+        40.34257,
+        48.15649
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

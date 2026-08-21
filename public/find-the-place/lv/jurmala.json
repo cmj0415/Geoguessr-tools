@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Jūrmala",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-jurmala-459201",
+      "name": "Jūrmala",
+      "coordinates": [
+        56.968,
+        23.77038
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

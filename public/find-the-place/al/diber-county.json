@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Dibër County",
+  "children": [
+    {
+      "type": "place",
+      "id": "al-bulqize-783508",
+      "name": "Bulqizë",
+      "coordinates": [
+        41.49167,
+        20.22194
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "al-peshkopi-782061",
+      "name": "Peshkopi",
+      "coordinates": [
+        41.685,
+        20.42858
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

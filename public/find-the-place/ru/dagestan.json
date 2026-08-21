@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-dagestan-makhachkala",
           "name": "Makhachkala",
-          "coordinates": [42.97782, 47.50027],
+          "coordinates": [
+            42.97782,
+            47.50027
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-dagestan-khasavyurt",
           "name": "Khasavyurt",
-          "coordinates": [43.24872, 46.58571],
-          "difficulty": "Easy"
+          "coordinates": [
+            43.24872,
+            46.58571
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-dagestan-derbent",
           "name": "Derbent",
-          "coordinates": [42.06622, 48.28759],
+          "coordinates": [
+            42.06622,
+            48.28759
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-dagestan-kaspiysk",
           "name": "Kaspiysk",
-          "coordinates": [42.88165, 47.63919],
-          "difficulty": "Medium"
+          "coordinates": [
+            42.88165,
+            47.63919
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-dagestan-buynaksk",
           "name": "Buynaksk",
-          "coordinates": [42.81802, 47.12684],
+          "coordinates": [
+            42.81802,
+            47.12684
+          ],
           "difficulty": "Hard"
         }
       ]

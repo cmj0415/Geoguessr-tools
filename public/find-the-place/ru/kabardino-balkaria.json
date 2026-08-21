@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-kabardino-balkaria-nalchik",
           "name": "Nalchik",
-          "coordinates": [43.49806, 43.61889],
+          "coordinates": [
+            43.49806,
+            43.61889
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-kabardino-balkaria-prokhladnyy",
           "name": "Prokhladnyy",
-          "coordinates": [43.75741, 44.0297],
-          "difficulty": "Easy"
+          "coordinates": [
+            43.75741,
+            44.0297
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-kabardino-balkaria-baksan",
           "name": "Baksan",
-          "coordinates": [43.68374, 43.53507],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.68374,
+            43.53507
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-kabardino-balkaria-nartkala",
           "name": "Nartkala",
-          "coordinates": [43.5544, 43.85499],
-          "difficulty": "Medium"
+          "coordinates": [
+            43.5544,
+            43.85499
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-kabardino-balkaria-terek",
           "name": "Terek",
-          "coordinates": [43.48329, 44.13781],
+          "coordinates": [
+            43.48329,
+            44.13781
+          ],
           "difficulty": "Hard"
         }
       ]

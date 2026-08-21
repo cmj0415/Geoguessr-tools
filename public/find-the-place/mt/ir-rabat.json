@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ir-Rabat",
+  "children": [
+    {
+      "type": "place",
+      "id": "mt-rabat-2562620",
+      "name": "Rabat",
+      "coordinates": [
+        35.88152,
+        14.39872
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

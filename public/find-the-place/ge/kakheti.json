@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Kakheti",
+  "children": [
+    {
+      "type": "place",
+      "id": "ge-telavi-611694",
+      "name": "Telavi",
+      "coordinates": [
+        41.91957,
+        45.47002
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ge-kvareli-612338",
+      "name": "Kvareli",
+      "coordinates": [
+        41.95493,
+        45.81716
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ge-sagarejo-612230",
+      "name": "Sagarejo",
+      "coordinates": [
+        41.73691,
+        45.32596
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ge-gurjaani-614351",
+      "name": "Gurjaani",
+      "coordinates": [
+        41.74384,
+        45.80246
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ge-akhmeta-615844",
+      "name": "Akhmeta",
+      "coordinates": [
+        42.03495,
+        45.20804
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ge-lagodekhi-613342",
+      "name": "Lagodekhi",
+      "coordinates": [
+        41.82747,
+        46.27495
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

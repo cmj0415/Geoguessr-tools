@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Świętokrzyskie",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-kielce-769250",
+      "name": "Kielce",
+      "coordinates": [
+        50.87033,
+        20.62752
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-ostrowiec-swietokrzyski-762863",
+      "name": "Ostrowiec Świętokrzyski",
+      "coordinates": [
+        50.92936,
+        21.38525
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-starachowice-758390",
+      "name": "Starachowice",
+      "coordinates": [
+        51.0374,
+        21.07126
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "pl-skarzysko-kamienna-759141",
+      "name": "Skarżysko-Kamienna",
+      "coordinates": [
+        51.11311,
+        20.87162
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

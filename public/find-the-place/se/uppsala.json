@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Uppsala",
+  "children": [
+    {
+      "type": "place",
+      "id": "se-uppsala-2666199",
+      "name": "Uppsala",
+      "coordinates": [
+        59.85882,
+        17.63889
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "se-enkoeping-2716166",
+      "name": "Enköping",
+      "coordinates": [
+        59.63607,
+        17.07768
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "se-balsta-2723567",
+      "name": "Bålsta",
+      "coordinates": [
+        59.5671,
+        17.52781
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

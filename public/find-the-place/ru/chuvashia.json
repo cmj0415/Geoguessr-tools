@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-chuvashia-cheboksary",
           "name": "Cheboksary",
-          "coordinates": [56.13218, 47.246],
+          "coordinates": [
+            56.13218,
+            47.246
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-chuvashia-novocheboksarsk",
           "name": "Novocheboksarsk",
-          "coordinates": [56.11095, 47.47755],
-          "difficulty": "Easy"
+          "coordinates": [
+            56.11095,
+            47.47755
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-chuvashia-kanash",
           "name": "Kanash",
-          "coordinates": [55.50962, 47.49127],
-          "difficulty": "Medium"
+          "coordinates": [
+            55.50962,
+            47.49127
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-chuvashia-alatyr",
           "name": "Alatyr",
-          "coordinates": [54.8421, 46.5813],
-          "difficulty": "Medium"
+          "coordinates": [
+            54.8421,
+            46.5813
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-chuvashia-shumerlya",
           "name": "Shumerlya",
-          "coordinates": [55.5005, 46.41288],
+          "coordinates": [
+            55.5005,
+            46.41288
+          ],
           "difficulty": "Hard"
         }
       ]

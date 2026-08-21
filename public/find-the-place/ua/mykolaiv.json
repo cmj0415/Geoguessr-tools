@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Mykolaiv",
+  "children": [
+    {
+      "type": "place",
+      "id": "ua-mykolayiv-700569",
+      "name": "Mykolayiv",
+      "coordinates": [
+        46.97625,
+        31.99296
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ua-pervomaysk-697593",
+      "name": "Pervomaysk",
+      "coordinates": [
+        48.04478,
+        30.84784
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-pivdennoukrainsk-7525990",
+      "name": "Pivdennoukrainsk",
+      "coordinates": [
+        47.82879,
+        31.17513
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ua-voznesensk-688860",
+      "name": "Voznesensk",
+      "coordinates": [
+        47.56218,
+        31.33602
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

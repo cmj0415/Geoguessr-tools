@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-irkutsk-oblast-irkutsk",
           "name": "Irkutsk",
-          "coordinates": [52.29566, 104.29076],
+          "coordinates": [
+            52.29566,
+            104.29076
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-irkutsk-oblast-bratsk",
           "name": "Bratsk",
-          "coordinates": [56.1325, 101.61417],
+          "coordinates": [
+            56.1325,
+            101.61417
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-irkutsk-oblast-angarsk",
           "name": "Angarsk",
-          "coordinates": [52.55968, 103.91413],
-          "difficulty": "Medium"
+          "coordinates": [
+            52.55968,
+            103.91413
+          ],
+          "difficulty": "Easy"
         }
       ]
     },
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-irkutsk-oblast-ust-ilimsk",
           "name": "Ust-Ilimsk",
-          "coordinates": [58.00056, 102.66194],
+          "coordinates": [
+            58.00056,
+            102.66194
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-irkutsk-oblast-usolye-sibirskoye",
           "name": "Usolye-Sibirskoye",
-          "coordinates": [52.75194, 103.64528],
+          "coordinates": [
+            52.75194,
+            103.64528
+          ],
           "difficulty": "Hard"
         }
       ]

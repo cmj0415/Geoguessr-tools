@@ -1,0 +1,76 @@
+{
+  "type": "administrative",
+  "name": "Greater Poland",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-poznan-3088171",
+      "name": "Poznań",
+      "coordinates": [
+        52.40692,
+        16.92993
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-kalisz-3096880",
+      "name": "Kalisz",
+      "coordinates": [
+        51.76109,
+        18.09102
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-konin-3095321",
+      "name": "Konin",
+      "coordinates": [
+        52.22338,
+        18.25121
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-pila-3089033",
+      "name": "Piła",
+      "coordinates": [
+        53.15145,
+        16.73782
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-ostrow-wielkopolski-3089684",
+      "name": "Ostrów Wielkopolski",
+      "coordinates": [
+        51.65501,
+        17.80686
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-gniezno-3099112",
+      "name": "Gniezno",
+      "coordinates": [
+        52.53481,
+        17.58259
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "pl-leszno-3093524",
+      "name": "Leszno",
+      "coordinates": [
+        51.84034,
+        16.57494
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

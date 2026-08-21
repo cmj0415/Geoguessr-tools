@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Kütahya",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-kuetahya-305268",
+      "name": "Kütahya",
+      "coordinates": [
+        39.42417,
+        29.98333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-tavsanli-299545",
+      "name": "Tavşanlı",
+      "coordinates": [
+        39.54237,
+        29.49866
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

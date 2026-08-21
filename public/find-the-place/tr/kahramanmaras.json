@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Kahramanmaraş",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-kahramanmaras-310859",
+      "name": "Kahramanmaraş",
+      "coordinates": [
+        37.5847,
+        36.92641
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-elbistan-315795",
+      "name": "Elbistan",
+      "coordinates": [
+        38.20591,
+        37.1983
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

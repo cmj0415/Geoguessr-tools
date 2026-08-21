@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Şǝmkir",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-shamkhir-585152",
+      "name": "Shamkhir",
+      "coordinates": [
+        40.82975,
+        46.0178
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

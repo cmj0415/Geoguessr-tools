@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Bursa Province",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-bursa-750269",
+      "name": "Bursa",
+      "coordinates": [
+        40.19559,
+        29.06013
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-niluefer-10346824",
+      "name": "Nilüfer",
+      "coordinates": [
+        40.21401,
+        28.91567
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-inegol-745169",
+      "name": "İnegol",
+      "coordinates": [
+        40.07806,
+        29.51333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-mustafakemalpasa-741385",
+      "name": "Mustafakemalpaşa",
+      "coordinates": [
+        40.03815,
+        28.40866
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-gemlik-746958",
+      "name": "Gemlik",
+      "coordinates": [
+        40.43094,
+        29.15969
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "tr-orhangazi-741045",
+      "name": "Orhangazi",
+      "coordinates": [
+        40.48917,
+        29.30889
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Giurgiu County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-giurgiu-677106",
+      "name": "Giurgiu",
+      "coordinates": [
+        43.88664,
+        25.9627
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

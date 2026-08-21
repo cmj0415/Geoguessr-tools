@@ -1,0 +1,86 @@
+{
+  "type": "administrative",
+  "name": "Zlín",
+  "children": [
+    {
+      "type": "place",
+      "id": "cz-zlin-3061370",
+      "name": "Zlín",
+      "coordinates": [
+        49.22645,
+        17.67065
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "cz-kromeriz-3072649",
+      "name": "Kroměříž",
+      "coordinates": [
+        49.29785,
+        17.39312
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-valasske-mezirici-3063447",
+      "name": "Valašské Meziříčí",
+      "coordinates": [
+        49.47181,
+        17.97113
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-vsetin-3062339",
+      "name": "Vsetín",
+      "coordinates": [
+        49.33871,
+        17.99619
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-uherske-hradiste-3063739",
+      "name": "Uherské Hradiště",
+      "coordinates": [
+        49.06975,
+        17.45969
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "cz-otrokovice-3068690",
+      "name": "Otrokovice",
+      "coordinates": [
+        49.20934,
+        17.53944
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cz-roznov-pod-radhostem-3066651",
+      "name": "Rožnov pod Radhoštěm",
+      "coordinates": [
+        49.45853,
+        18.14302
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "cz-uhersky-brod-3063736",
+      "name": "Uherský Brod",
+      "coordinates": [
+        49.02513,
+        17.64715
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

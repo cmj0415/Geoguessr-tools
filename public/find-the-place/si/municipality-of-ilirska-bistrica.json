@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Ilirska Bistrica",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-ilirska-bistrica-3199131",
+      "name": "Ilirska Bistrica",
+      "coordinates": [
+        45.56757,
+        14.24571
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

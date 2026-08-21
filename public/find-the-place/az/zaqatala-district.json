@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Zaqatala District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-zaqatala-584596",
+      "name": "Zaqatala",
+      "coordinates": [
+        41.6316,
+        46.64479
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

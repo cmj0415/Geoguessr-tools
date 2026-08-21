@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Connacht",
+  "children": [
+    {
+      "type": "place",
+      "id": "ie-galway-2964180",
+      "name": "Galway",
+      "coordinates": [
+        53.27245,
+        -9.05095
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ie-sligo-2961423",
+      "name": "Sligo",
+      "coordinates": [
+        54.26969,
+        -8.46943
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ie-castlebar-2965654",
+      "name": "Castlebar",
+      "coordinates": [
+        53.85,
+        -9.3
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

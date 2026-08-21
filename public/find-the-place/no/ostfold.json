@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Østfold",
+  "children": [
+    {
+      "type": "place",
+      "id": "no-fredrikstad-3156529",
+      "name": "Fredrikstad",
+      "coordinates": [
+        59.2181,
+        10.9298
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-sarpsborg-3140084",
+      "name": "Sarpsborg",
+      "coordinates": [
+        59.28391,
+        11.10962
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-moss-3145375",
+      "name": "Moss",
+      "coordinates": [
+        59.43403,
+        10.65771
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-halden-3154209",
+      "name": "Halden",
+      "coordinates": [
+        59.12478,
+        11.38754
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-askim-3162651",
+      "name": "Askim",
+      "coordinates": [
+        59.58326,
+        11.16286
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-mysen-3145094",
+      "name": "Mysen",
+      "coordinates": [
+        59.55354,
+        11.32578
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

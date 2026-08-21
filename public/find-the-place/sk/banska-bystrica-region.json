@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Banská Bystrica Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "sk-banska-bystrica-3061186",
+      "name": "Banská Bystrica",
+      "coordinates": [
+        48.73947,
+        19.14932
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-zvolen-3056459",
+      "name": "Zvolen",
+      "coordinates": [
+        48.57442,
+        19.15324
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-lucenec-3058986",
+      "name": "Lučenec",
+      "coordinates": [
+        48.33249,
+        19.66708
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-rimavska-sobota-723736",
+      "name": "Rimavská Sobota",
+      "coordinates": [
+        48.38284,
+        20.02239
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-brezno-3060950",
+      "name": "Brezno",
+      "coordinates": [
+        48.80431,
+        19.63631
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-ziar-nad-hronom-3056523",
+      "name": "Žiar nad Hronom",
+      "coordinates": [
+        48.59184,
+        18.84958
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

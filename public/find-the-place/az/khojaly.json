@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Khojaly",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-khojaly-147774",
+      "name": "Khojaly",
+      "coordinates": [
+        39.91361,
+        46.79213
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

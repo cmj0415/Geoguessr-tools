@@ -1,0 +1,226 @@
+{
+  "type": "administrative",
+  "name": "Istanbul",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-istanbul-745044",
+      "name": "Istanbul",
+      "coordinates": [
+        41.01384,
+        28.94966
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-esenyurt-747323",
+      "name": "Esenyurt",
+      "coordinates": [
+        41.02697,
+        28.67732
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-kuecuekcekmece-742394",
+      "name": "Küçükçekmece",
+      "coordinates": [
+        40.99104,
+        28.77123
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-bagcilar-751324",
+      "name": "Bağcılar",
+      "coordinates": [
+        41.03903,
+        28.85671
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-bahcelievler-7627067",
+      "name": "Bahçelievler",
+      "coordinates": [
+        41.00231,
+        28.8598
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-umraniye-738377",
+      "name": "Umraniye",
+      "coordinates": [
+        41.01643,
+        29.12476
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-ueskuedar-738329",
+      "name": "Üsküdar",
+      "coordinates": [
+        41.02274,
+        29.01366
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-esenler-747340",
+      "name": "Esenler",
+      "coordinates": [
+        41.0435,
+        28.87619
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-sancaktepe-7628420",
+      "name": "Sancaktepe",
+      "coordinates": [
+        41.00244,
+        29.23187
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-sultangazi-7628416",
+      "name": "Sultangazi",
+      "coordinates": [
+        41.10652,
+        28.86847
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-maltepe-741763",
+      "name": "Maltepe",
+      "coordinates": [
+        40.93567,
+        29.15507
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-beylikduezue-6947640",
+      "name": "Beylikdüzü",
+      "coordinates": [
+        40.982,
+        28.6399
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-atasehir-6947637",
+      "name": "Ataşehir",
+      "coordinates": [
+        40.9833,
+        29.1167
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-sultanbeyli-7628419",
+      "name": "Sultanbeyli",
+      "coordinates": [
+        40.96072,
+        29.27067
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-fatih-747158",
+      "name": "Fatih",
+      "coordinates": [
+        41.0225,
+        28.94083
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-sisli-739549",
+      "name": "Şişli",
+      "coordinates": [
+        41.06046,
+        28.98717
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-zeytinburnu-737071",
+      "name": "Zeytinburnu",
+      "coordinates": [
+        40.99441,
+        28.90417
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-arnavutkoey-751868",
+      "name": "Arnavutköy",
+      "coordinates": [
+        41.18355,
+        28.7402
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-basaksehir-6947639",
+      "name": "Başakşehir",
+      "coordinates": [
+        41.106,
+        28.791
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-bueyuekcekmece-6947641",
+      "name": "Büyükçekmece",
+      "coordinates": [
+        41.02072,
+        28.58502
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-silivri-739634",
+      "name": "Silivri",
+      "coordinates": [
+        41.07393,
+        28.24644
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "tr-kavakli-743818",
+      "name": "Kavaklı",
+      "coordinates": [
+        41.09258,
+        28.33172
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

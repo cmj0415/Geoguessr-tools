@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Podgorica",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-podgorica-3193044",
+      "name": "Podgorica",
+      "coordinates": [
+        42.44124,
+        19.26309
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

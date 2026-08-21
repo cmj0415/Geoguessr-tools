@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Ankara",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-ankara-323786",
+      "name": "Ankara",
+      "coordinates": [
+        39.91987,
+        32.85427
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-cankaya-6955677",
+      "name": "Çankaya",
+      "coordinates": [
+        39.9179,
+        32.86268
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "tr-goelbasi-314133",
+      "name": "Gölbaşı",
+      "coordinates": [
+        39.79043,
+        32.80903
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-polatli-302525",
+      "name": "Polatlı",
+      "coordinates": [
+        39.57715,
+        32.14132
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "tr-cubuk-748870",
+      "name": "Çubuk",
+      "coordinates": [
+        40.23861,
+        33.03222
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Clervaux",
+  "children": [
+    {
+      "type": "place",
+      "id": "lu-troisvierges-2960030",
+      "name": "Troisvierges",
+      "coordinates": [
+        50.12111,
+        6.00028
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

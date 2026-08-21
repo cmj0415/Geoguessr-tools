@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Logatec",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-logatec-3218907",
+      "name": "Logatec",
+      "coordinates": [
+        45.9168,
+        14.22652
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

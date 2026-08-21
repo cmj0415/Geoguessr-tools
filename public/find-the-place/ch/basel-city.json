@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Basel-City",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-basel-2661604",
+      "name": "Basel",
+      "coordinates": [
+        47.55839,
+        7.57327
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ch-riehen-3206590",
+      "name": "Riehen",
+      "coordinates": [
+        47.57884,
+        7.64683
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

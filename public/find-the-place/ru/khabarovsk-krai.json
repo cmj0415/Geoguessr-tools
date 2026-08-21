@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-khabarovsk-krai-khabarovsk",
           "name": "Khabarovsk",
-          "coordinates": [48.46204, 135.0971],
+          "coordinates": [
+            48.46204,
+            135.0971
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-khabarovsk-krai-komsomolsk-on-amur",
           "name": "Komsomolsk-on-Amur",
-          "coordinates": [50.55034, 137.00995],
+          "coordinates": [
+            50.55034,
+            137.00995
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-khabarovsk-krai-amursk",
           "name": "Amursk",
-          "coordinates": [50.23221, 136.89703],
-          "difficulty": "Medium"
+          "coordinates": [
+            50.23221,
+            136.89703
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-khabarovsk-krai-sovetskaya-gavan",
           "name": "Sovetskaya Gavan",
-          "coordinates": [48.97215, 140.28881],
-          "difficulty": "Medium"
+          "coordinates": [
+            48.97215,
+            140.28881
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-khabarovsk-krai-nikolayevsk-on-amure",
           "name": "Nikolayevsk-on-Amure",
-          "coordinates": [53.14657, 140.72287],
+          "coordinates": [
+            53.14657,
+            140.72287
+          ],
           "difficulty": "Hard"
         }
       ]

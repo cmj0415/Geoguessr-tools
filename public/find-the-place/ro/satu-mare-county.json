@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Satu Mare County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-satu-mare-667873",
+      "name": "Satu Mare",
+      "coordinates": [
+        47.79926,
+        22.86255
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ro-carei-682685",
+      "name": "Carei",
+      "coordinates": [
+        47.68333,
+        22.46667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

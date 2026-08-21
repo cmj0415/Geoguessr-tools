@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Idrija",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-idrija-3199171",
+      "name": "Idrija",
+      "coordinates": [
+        46.00295,
+        14.02787
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

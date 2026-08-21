@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Komárom-Esztergom",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-tatabanya-3044082",
+      "name": "Tatabánya",
+      "coordinates": [
+        47.59247,
+        18.38099
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-esztergom-3053163",
+      "name": "Esztergom",
+      "coordinates": [
+        47.7928,
+        18.74148
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-tata-3044083",
+      "name": "Tata",
+      "coordinates": [
+        47.65289,
+        18.31838
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-oroszlany-3046888",
+      "name": "Oroszlány",
+      "coordinates": [
+        47.48671,
+        18.31225
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-komarom-3049519",
+      "name": "Komárom",
+      "coordinates": [
+        47.74318,
+        18.11913
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

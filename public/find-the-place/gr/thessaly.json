@@ -1,0 +1,56 @@
+{
+  "type": "administrative",
+  "name": "Thessaly",
+  "children": [
+    {
+      "type": "place",
+      "id": "gr-larisa-258576",
+      "name": "Lárisa",
+      "coordinates": [
+        39.62847,
+        22.42112
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "gr-volos-251833",
+      "name": "Volos",
+      "coordinates": [
+        39.36923,
+        22.94769
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "gr-trikala-252664",
+      "name": "Tríkala",
+      "coordinates": [
+        39.55493,
+        21.76837
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gr-karditsa-260989",
+      "name": "Kardítsa",
+      "coordinates": [
+        39.36485,
+        21.92191
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "gr-nea-ionia-9034728",
+      "name": "Néa Ionía",
+      "coordinates": [
+        39.37904,
+        22.92752
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-khanty-mansi-autonomous-okrug-yugra-surgut",
           "name": "Surgut",
-          "coordinates": [61.25757, 73.41775],
+          "coordinates": [
+            61.25757,
+            73.41775
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-khanty-mansi-autonomous-okrug-yugra-nizhnevartovsk",
           "name": "Nizhnevartovsk",
-          "coordinates": [60.9344, 76.5531],
+          "coordinates": [
+            60.9344,
+            76.5531
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-khanty-mansi-autonomous-okrug-yugra-nefteyugansk",
           "name": "Nefteyugansk",
-          "coordinates": [61.09979, 72.60349],
+          "coordinates": [
+            61.09979,
+            72.60349
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-khanty-mansi-autonomous-okrug-yugra-khanty-mansiysk",
           "name": "Khanty-Mansiysk",
-          "coordinates": [61.00187, 69.02728],
+          "coordinates": [
+            61.00187,
+            69.02728
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-khanty-mansi-autonomous-okrug-yugra-kogalym",
           "name": "Kogalym",
-          "coordinates": [62.26537, 74.47906],
+          "coordinates": [
+            62.26537,
+            74.47906
+          ],
           "difficulty": "Hard"
         }
       ]

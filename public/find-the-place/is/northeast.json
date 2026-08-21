@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Northeast",
+  "children": [
+    {
+      "type": "place",
+      "id": "is-akureyri-2633274",
+      "name": "Akureyri",
+      "coordinates": [
+        65.68353,
+        -18.0878
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "is-nordurthing-2629833",
+      "name": "Norðurþing",
+      "coordinates": [
+        66.04148,
+        -17.33834
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-dalvik-2632287",
+      "name": "Dalvík",
+      "coordinates": [
+        65.97018,
+        -18.52861
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-siglufjoerdur-2627130",
+      "name": "Siglufjörður",
+      "coordinates": [
+        66.15198,
+        -18.90815
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-laugar-8643948",
+      "name": "Laugar",
+      "coordinates": [
+        65.72159,
+        -17.37352
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "is-olafsfjoerdur-2627843",
+      "name": "Ólafsfjörður",
+      "coordinates": [
+        66.06722,
+        -18.64399
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

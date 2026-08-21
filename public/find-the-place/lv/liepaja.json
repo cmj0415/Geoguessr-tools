@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Liepaja",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-liepaja-457954",
+      "name": "Liepāja",
+      "coordinates": [
+        56.50474,
+        21.01085
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

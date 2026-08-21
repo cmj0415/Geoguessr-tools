@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Sabirabad District",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-sabirabad-585187",
+      "name": "Sabirabad",
+      "coordinates": [
+        40.00869,
+        48.47701
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

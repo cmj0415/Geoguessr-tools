@@ -1,0 +1,46 @@
+{
+  "type": "administrative",
+  "name": "Istria",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-pula-3192224",
+      "name": "Pula",
+      "coordinates": [
+        44.86833,
+        13.84806
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hr-rovinj-3191518",
+      "name": "Rovinj",
+      "coordinates": [
+        45.08268,
+        13.63457
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-porec-3192699",
+      "name": "Poreč",
+      "coordinates": [
+        45.22567,
+        13.59511
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-umag-3188498",
+      "name": "Umag",
+      "coordinates": [
+        45.43139,
+        13.52389
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

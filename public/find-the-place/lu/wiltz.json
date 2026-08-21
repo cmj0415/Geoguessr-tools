@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Wiltz",
+  "children": [
+    {
+      "type": "place",
+      "id": "lu-wiltz-2959977",
+      "name": "Wiltz",
+      "coordinates": [
+        49.96547,
+        5.9339
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

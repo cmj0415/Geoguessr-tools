@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Westfjords",
+  "children": [
+    {
+      "type": "place",
+      "id": "is-isafjoerdur-3415667",
+      "name": "Ísafjörður",
+      "coordinates": [
+        66.07475,
+        -23.13498
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "is-bolungarvik-3418112",
+      "name": "Bolungarvík",
+      "coordinates": [
+        66.15917,
+        -23.24941
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

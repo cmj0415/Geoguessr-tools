@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Bilecik",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-bilecik-750598",
+      "name": "Bilecik",
+      "coordinates": [
+        40.14192,
+        29.97932
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "tr-bozueyuek-320557",
+      "name": "Bozüyük",
+      "coordinates": [
+        39.90778,
+        30.03667
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

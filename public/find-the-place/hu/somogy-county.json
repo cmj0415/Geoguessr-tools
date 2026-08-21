@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Somogy County",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-kaposvar-3050616",
+      "name": "Kaposvár",
+      "coordinates": [
+        46.36667,
+        17.8
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-siofok-3045332",
+      "name": "Siófok",
+      "coordinates": [
+        46.90413,
+        18.058
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

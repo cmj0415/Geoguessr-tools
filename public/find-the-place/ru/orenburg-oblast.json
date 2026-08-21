@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-orenburg-oblast-orenburg",
           "name": "Orenburg",
-          "coordinates": [51.76712, 55.09883],
+          "coordinates": [
+            51.76712,
+            55.09883
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-orenburg-oblast-orsk",
           "name": "Orsk",
-          "coordinates": [51.23206, 58.48802],
+          "coordinates": [
+            51.23206,
+            58.48802
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-orenburg-oblast-novotroitsk",
           "name": "Novotroitsk",
-          "coordinates": [51.20099, 58.31318],
+          "coordinates": [
+            51.20099,
+            58.31318
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-orenburg-oblast-buzuluk",
           "name": "Buzuluk",
-          "coordinates": [52.77825, 52.25854],
-          "difficulty": "Medium"
+          "coordinates": [
+            52.77825,
+            52.25854
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-orenburg-oblast-buguruslan",
           "name": "Buguruslan",
-          "coordinates": [53.6554, 52.442],
+          "coordinates": [
+            53.6554,
+            52.442
+          ],
           "difficulty": "Hard"
         }
       ]

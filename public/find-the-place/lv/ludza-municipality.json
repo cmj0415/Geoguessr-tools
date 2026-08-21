@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Ludza Municipality",
+  "children": [
+    {
+      "type": "place",
+      "id": "lv-ludza-457776",
+      "name": "Ludza",
+      "coordinates": [
+        56.53373,
+        27.72155
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

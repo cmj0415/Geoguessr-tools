@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Covasna County",
+  "children": [
+    {
+      "type": "place",
+      "id": "ro-sfantu-gheorghe-667303",
+      "name": "Sfântu Gheorghe",
+      "coordinates": [
+        45.86667,
+        25.78333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ro-targu-secuiesc-665000",
+      "name": "Târgu Secuiesc",
+      "coordinates": [
+        46,
+        26.13333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

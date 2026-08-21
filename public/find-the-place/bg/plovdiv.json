@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Plovdiv",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-plovdiv-728193",
+      "name": "Plovdiv",
+      "coordinates": [
+        42.15387,
+        24.75001
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "bg-asenovgrad-733618",
+      "name": "Asenovgrad",
+      "coordinates": [
+        42.01667,
+        24.86667
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "bg-karlovo-730565",
+      "name": "Karlovo",
+      "coordinates": [
+        42.63333,
+        24.8
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-parvomay-727886",
+      "name": "Parvomay",
+      "coordinates": [
+        42.1,
+        25.21667
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "bg-rakovski-727791",
+      "name": "Rakovski",
+      "coordinates": [
+        42.28819,
+        24.96779
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "bg-stamboliyski-726890",
+      "name": "Stamboliyski",
+      "coordinates": [
+        42.13333,
+        24.53333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

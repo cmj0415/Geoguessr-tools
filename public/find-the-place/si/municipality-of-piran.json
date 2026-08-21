@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Piran",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-lucija-3343512",
+      "name": "Lucija",
+      "coordinates": [
+        45.50526,
+        13.6024
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

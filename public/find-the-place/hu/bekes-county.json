@@ -1,0 +1,66 @@
+{
+  "type": "administrative",
+  "name": "Bekes County",
+  "children": [
+    {
+      "type": "place",
+      "id": "hu-bekescsaba-722437",
+      "name": "Békéscsaba",
+      "coordinates": [
+        46.68333,
+        21.1
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hu-gyula-720334",
+      "name": "Gyula",
+      "coordinates": [
+        46.65,
+        21.28333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-oroshaza-716736",
+      "name": "Orosháza",
+      "coordinates": [
+        46.56667,
+        20.66667
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-bekes-722439",
+      "name": "Békés",
+      "coordinates": [
+        46.76667,
+        21.13333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hu-szarvas-715466",
+      "name": "Szarvas",
+      "coordinates": [
+        46.86667,
+        20.55
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hu-gyomaendrod-720364",
+      "name": "Gyomaendrőd",
+      "coordinates": [
+        46.93333,
+        20.83333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

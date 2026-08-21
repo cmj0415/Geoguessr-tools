@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Municipality of Medvode",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-medvode-3195281",
+      "name": "Medvode",
+      "coordinates": [
+        46.1422,
+        14.41114
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

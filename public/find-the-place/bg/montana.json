@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Montana",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-montana-729114",
+      "name": "Montana",
+      "coordinates": [
+        43.41285,
+        23.22174
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-lom-729581",
+      "name": "Lom",
+      "coordinates": [
+        43.8317,
+        23.23793
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "bg-berkovitsa-733264",
+      "name": "Berkovitsa",
+      "coordinates": [
+        43.23741,
+        23.12509
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

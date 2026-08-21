@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Opština Plav",
+  "children": [
+    {
+      "type": "place",
+      "id": "me-plav-3193228",
+      "name": "Plav",
+      "coordinates": [
+        42.5969,
+        19.94415
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

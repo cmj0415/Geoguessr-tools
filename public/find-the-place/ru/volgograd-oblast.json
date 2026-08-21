@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-volgograd-oblast-volgograd",
           "name": "Volgograd",
-          "coordinates": [48.71378, 44.4976],
+          "coordinates": [
+            48.71378,
+            44.4976
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-volgograd-oblast-volzhsky",
           "name": "Volzhsky",
-          "coordinates": [48.78583, 44.77973],
+          "coordinates": [
+            48.78583,
+            44.77973
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-volgograd-oblast-kamyshin",
           "name": "Kamyshin",
-          "coordinates": [50.0885, 45.41277],
+          "coordinates": [
+            50.0885,
+            45.41277
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-volgograd-oblast-mikhaylovka",
           "name": "Mikhaylovka",
-          "coordinates": [50.06187, 43.23335],
-          "difficulty": "Medium"
+          "coordinates": [
+            50.06187,
+            43.23335
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-volgograd-oblast-uryupinsk",
           "name": "Uryupinsk",
-          "coordinates": [50.806, 42.00923],
+          "coordinates": [
+            50.806,
+            42.00923
+          ],
           "difficulty": "Hard"
         }
       ]

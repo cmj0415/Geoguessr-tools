@@ -1,0 +1,116 @@
+{
+  "type": "administrative",
+  "name": "Agder",
+  "children": [
+    {
+      "type": "place",
+      "id": "no-kristiansand-3149318",
+      "name": "Kristiansand",
+      "coordinates": [
+        58.14671,
+        7.9956
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-arendal-3162955",
+      "name": "Arendal",
+      "coordinates": [
+        58.46151,
+        8.77253
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-grimstad-3155041",
+      "name": "Grimstad",
+      "coordinates": [
+        58.3405,
+        8.59343
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "no-vennesla-3132208",
+      "name": "Vennesla",
+      "coordinates": [
+        58.26856,
+        7.97314
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-mandal-3146463",
+      "name": "Mandal",
+      "coordinates": [
+        58.0274,
+        7.45342
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-flekkefjord-3157090",
+      "name": "Flekkefjord",
+      "coordinates": [
+        58.29705,
+        6.66069
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-sogne-3137971",
+      "name": "Søgne",
+      "coordinates": [
+        58.09328,
+        7.78294
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "no-lillesand-3147467",
+      "name": "Lillesand",
+      "coordinates": [
+        58.24879,
+        8.3778
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-tvedestrand-3133681",
+      "name": "Tvedestrand",
+      "coordinates": [
+        58.62203,
+        8.93147
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-kvinesdal-3148776",
+      "name": "Kvinesdal",
+      "coordinates": [
+        58.31215,
+        6.96187
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "no-fevik-3157679",
+      "name": "Fevik",
+      "coordinates": [
+        58.3782,
+        8.67601
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

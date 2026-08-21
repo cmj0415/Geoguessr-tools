@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Valgamaa",
+  "children": [
+    {
+      "type": "place",
+      "id": "ee-valga-587876",
+      "name": "Valga",
+      "coordinates": [
+        57.77781,
+        26.0473
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

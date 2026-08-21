@@ -10,8 +10,11 @@
           "type": "place",
           "id": "ru-adygea-maykop",
           "name": "Maykop",
-          "coordinates": [44.60789, 40.10242],
-          "difficulty": "Easy"
+          "coordinates": [
+            44.60789,
+            40.10242
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -23,15 +26,21 @@
           "type": "place",
           "id": "ru-adygea-yablonovskiy",
           "name": "Yablonovskiy",
-          "coordinates": [44.98901, 38.94324],
-          "difficulty": "Easy"
+          "coordinates": [
+            44.98901,
+            38.94324
+          ],
+          "difficulty": "Hard"
         },
         {
           "type": "place",
           "id": "ru-adygea-enem",
           "name": "Enem",
-          "coordinates": [44.9264, 38.90584],
-          "difficulty": "Medium"
+          "coordinates": [
+            44.9264,
+            38.90584
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -43,8 +52,11 @@
           "type": "place",
           "id": "ru-adygea-giaginskaya",
           "name": "Giaginskaya",
-          "coordinates": [44.86208, 40.07195],
-          "difficulty": "Medium"
+          "coordinates": [
+            44.86208,
+            40.07195
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -56,7 +68,10 @@
           "type": "place",
           "id": "ru-adygea-adygeysk",
           "name": "Adygeysk",
-          "coordinates": [44.88524, 39.19059],
+          "coordinates": [
+            44.88524,
+            39.19059
+          ],
           "difficulty": "Hard"
         }
       ]

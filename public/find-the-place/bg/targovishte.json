@@ -1,0 +1,26 @@
+{
+  "type": "administrative",
+  "name": "Targovishte",
+  "children": [
+    {
+      "type": "place",
+      "id": "bg-targovishte-726174",
+      "name": "Targovishte",
+      "coordinates": [
+        43.2512,
+        26.57215
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "bg-popovo-728075",
+      "name": "Popovo",
+      "coordinates": [
+        43.35,
+        26.23333
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

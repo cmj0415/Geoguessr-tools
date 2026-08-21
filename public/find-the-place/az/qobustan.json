@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Qobustan",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-gobustan-585570",
+      "name": "Gobustan",
+      "coordinates": [
+        40.5336,
+        48.92819
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

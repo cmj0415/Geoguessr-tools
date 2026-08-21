@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Urban Municipality of Krško",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-krsko-3197147",
+      "name": "Krško",
+      "coordinates": [
+        45.95915,
+        15.49167
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

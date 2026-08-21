@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Oğuz",
+  "children": [
+    {
+      "type": "place",
+      "id": "az-oguz-585333",
+      "name": "Oğuz",
+      "coordinates": [
+        41.07128,
+        47.46528
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

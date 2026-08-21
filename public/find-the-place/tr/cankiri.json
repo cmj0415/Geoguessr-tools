@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Çankırı",
+  "children": [
+    {
+      "type": "place",
+      "id": "tr-cankiri-749748",
+      "name": "Çankırı",
+      "coordinates": [
+        40.59995,
+        33.6153
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

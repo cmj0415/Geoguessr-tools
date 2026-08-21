@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Tavush",
+  "children": [
+    {
+      "type": "place",
+      "id": "am-ijevan-616627",
+      "name": "Ijevan",
+      "coordinates": [
+        40.88037,
+        45.14776
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "am-dilijan-616752",
+      "name": "Dilijan",
+      "coordinates": [
+        40.74037,
+        44.86344
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "am-berd-616802",
+      "name": "Berd",
+      "coordinates": [
+        40.88066,
+        45.38901
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Urban Municipality of Maribor",
+  "children": [
+    {
+      "type": "place",
+      "id": "si-maribor-3195506",
+      "name": "Maribor",
+      "coordinates": [
+        46.55583,
+        15.64593
+      ],
+      "difficulty": "Easy"
+    }
+  ]
+}

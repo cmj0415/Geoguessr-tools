@@ -1,0 +1,16 @@
+{
+  "type": "administrative",
+  "name": "Glarus",
+  "children": [
+    {
+      "type": "place",
+      "id": "ch-glarus-2660594",
+      "name": "Glarus",
+      "coordinates": [
+        47.04057,
+        9.06804
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

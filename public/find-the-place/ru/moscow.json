@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-moscow-moscow",
           "name": "Moscow",
-          "coordinates": [55.75204, 37.61781],
+          "coordinates": [
+            55.75204,
+            37.61781
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,7 +26,10 @@
           "type": "place",
           "id": "ru-moscow-zelenograd",
           "name": "Zelenograd",
-          "coordinates": [55.9825, 37.18139],
+          "coordinates": [
+            55.9825,
+            37.18139
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -36,7 +42,10 @@
           "type": "place",
           "id": "ru-moscow-novo-peredelkino",
           "name": "Novo-Peredelkino",
-          "coordinates": [55.64528, 37.33583],
+          "coordinates": [
+            55.64528,
+            37.33583
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -49,7 +58,10 @@
           "type": "place",
           "id": "ru-moscow-cheremushki",
           "name": "Cheremushki",
-          "coordinates": [55.66473, 37.56135],
+          "coordinates": [
+            55.66473,
+            37.56135
+          ],
           "difficulty": "Medium"
         }
       ]
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-moscow-vostochnoe-degunino",
           "name": "Vostochnoe Degunino",
-          "coordinates": [55.8801, 37.55758],
+          "coordinates": [
+            55.8801,
+            37.55758
+          ],
           "difficulty": "Hard"
         }
       ]

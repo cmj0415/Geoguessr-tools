@@ -1,0 +1,146 @@
+{
+  "type": "administrative",
+  "name": "Munster",
+  "children": [
+    {
+      "type": "place",
+      "id": "ie-cork-2965140",
+      "name": "Cork",
+      "coordinates": [
+        51.89797,
+        -8.47061
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ie-limerick-2962943",
+      "name": "Limerick",
+      "coordinates": [
+        52.66472,
+        -8.62306
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ie-waterford-2960992",
+      "name": "Waterford",
+      "coordinates": [
+        52.25833,
+        -7.11194
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ie-ennis-2964405",
+      "name": "Ennis",
+      "coordinates": [
+        52.84361,
+        -8.98639
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ie-douglas-2964690",
+      "name": "Douglas",
+      "coordinates": [
+        51.87444,
+        -8.435
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "ie-tralee-2961123",
+      "name": "Tralee",
+      "coordinates": [
+        52.27042,
+        -9.70264
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ie-ballincollig-2966749",
+      "name": "Ballincollig",
+      "coordinates": [
+        51.88333,
+        -8.58333
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ie-cluain-meala-2965353",
+      "name": "Cluain Meala",
+      "coordinates": [
+        52.355,
+        -7.70389
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ie-carrigaline-2965715",
+      "name": "Carrigaline",
+      "coordinates": [
+        51.81167,
+        -8.39861
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "ie-castletroy-7838907",
+      "name": "Castletroy",
+      "coordinates": [
+        52.67349,
+        -8.55333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ie-killarney-2963370",
+      "name": "Killarney",
+      "coordinates": [
+        52.0598,
+        -9.50858
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ie-cobh-2965260",
+      "name": "Cobh",
+      "coordinates": [
+        51.85046,
+        -8.2948
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ie-mallow-2962714",
+      "name": "Mallow",
+      "coordinates": [
+        52.13333,
+        -8.63333
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "ie-midleton-2962630",
+      "name": "Midleton",
+      "coordinates": [
+        51.91526,
+        -8.18052
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

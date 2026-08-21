@@ -1,0 +1,36 @@
+{
+  "type": "administrative",
+  "name": "Warmia-Masuria",
+  "children": [
+    {
+      "type": "place",
+      "id": "pl-olsztyn-763166",
+      "name": "Olsztyn",
+      "coordinates": [
+        53.78376,
+        20.49272
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-elblag-3099759",
+      "name": "Elbląg",
+      "coordinates": [
+        54.1522,
+        19.40884
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "pl-elk-772621",
+      "name": "Ełk",
+      "coordinates": [
+        53.82824,
+        22.36469
+      ],
+      "difficulty": "Medium"
+    }
+  ]
+}

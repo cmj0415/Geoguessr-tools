@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Prešov Region",
+  "children": [
+    {
+      "type": "place",
+      "id": "sk-presov-723819",
+      "name": "Prešov",
+      "coordinates": [
+        48.99923,
+        21.2355
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-poprad-723846",
+      "name": "Poprad",
+      "coordinates": [
+        49.06144,
+        20.29798
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "sk-humenne-724627",
+      "name": "Humenné",
+      "coordinates": [
+        48.93707,
+        21.91625
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-bardejov-725168",
+      "name": "Bardejov",
+      "coordinates": [
+        49.29175,
+        21.27271
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-snina-723559",
+      "name": "Snina",
+      "coordinates": [
+        48.98857,
+        22.15099
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "sk-vranov-nad-toplou-723195",
+      "name": "Vranov nad Topľou",
+      "coordinates": [
+        48.88836,
+        21.68479
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-stara-lubovna-723505",
+      "name": "Stará Ľubovňa",
+      "coordinates": [
+        49.29859,
+        20.6862
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-kezmarok-724503",
+      "name": "Kežmarok",
+      "coordinates": [
+        49.13571,
+        20.43352
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "sk-levoca-724294",
+      "name": "Levoča",
+      "coordinates": [
+        49.02173,
+        20.59212
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

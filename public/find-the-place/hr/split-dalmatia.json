@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Split-Dalmatia",
+  "children": [
+    {
+      "type": "place",
+      "id": "hr-split-3190261",
+      "name": "Split",
+      "coordinates": [
+        43.50891,
+        16.43915
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "hr-solin-3190359",
+      "name": "Solin",
+      "coordinates": [
+        43.5432,
+        16.49314
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-makarska-3195890",
+      "name": "Makarska",
+      "coordinates": [
+        43.29694,
+        17.01778
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-sinj-3190865",
+      "name": "Sinj",
+      "coordinates": [
+        43.70361,
+        16.63944
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-trogir-3188763",
+      "name": "Trogir",
+      "coordinates": [
+        43.5125,
+        16.25167
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "hr-kastel-stari-3198212",
+      "name": "Kaštel Stari",
+      "coordinates": [
+        43.55,
+        16.35
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-kastel-sucurac-3198210",
+      "name": "Kaštel Sućurac",
+      "coordinates": [
+        43.55028,
+        16.42639
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-kastel-novi-3198214",
+      "name": "Kaštel Novi",
+      "coordinates": [
+        43.55243,
+        16.33628
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "hr-omis-3194114",
+      "name": "Omiš",
+      "coordinates": [
+        43.44472,
+        16.68861
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "type": "administrative",
+  "name": "Limburg",
+  "children": [
+    {
+      "type": "place",
+      "id": "nl-maastricht-2751283",
+      "name": "Maastricht",
+      "coordinates": [
+        50.84833,
+        5.68889
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "nl-venlo-2745641",
+      "name": "Venlo",
+      "coordinates": [
+        51.37,
+        6.16806
+      ],
+      "difficulty": "Easy"
+    },
+    {
+      "type": "place",
+      "id": "nl-heerlen-2754652",
+      "name": "Heerlen",
+      "coordinates": [
+        50.88365,
+        5.98154
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "nl-kerkrade-2752923",
+      "name": "Kerkrade",
+      "coordinates": [
+        50.86583,
+        6.0625
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "nl-weert-2744911",
+      "name": "Weert",
+      "coordinates": [
+        51.25167,
+        5.70694
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "nl-sittard-2747203",
+      "name": "Sittard",
+      "coordinates": [
+        50.99833,
+        5.86944
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "type": "place",
+      "id": "nl-roermond-2748000",
+      "name": "Roermond",
+      "coordinates": [
+        51.19417,
+        5.9875
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-venray-2745634",
+      "name": "Venray",
+      "coordinates": [
+        51.525,
+        5.975
+      ],
+      "difficulty": "Hard"
+    },
+    {
+      "type": "place",
+      "id": "nl-geleen-2755616",
+      "name": "Geleen",
+      "coordinates": [
+        50.97417,
+        5.82917
+      ],
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -10,7 +10,10 @@
           "type": "place",
           "id": "ru-udmurtia-izhevsk",
           "name": "Izhevsk",
-          "coordinates": [56.85225, 53.19862],
+          "coordinates": [
+            56.85225,
+            53.19862
+          ],
           "difficulty": "Easy"
         }
       ]
@@ -23,8 +26,11 @@
           "type": "place",
           "id": "ru-udmurtia-glazov",
           "name": "Glazov",
-          "coordinates": [58.14, 52.65619],
-          "difficulty": "Easy"
+          "coordinates": [
+            58.14,
+            52.65619
+          ],
+          "difficulty": "Medium"
         }
       ]
     },
@@ -36,8 +42,11 @@
           "type": "place",
           "id": "ru-udmurtia-sarapul",
           "name": "Sarapul",
-          "coordinates": [56.47633, 53.79782],
-          "difficulty": "Medium"
+          "coordinates": [
+            56.47633,
+            53.79782
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -49,8 +58,11 @@
           "type": "place",
           "id": "ru-udmurtia-votkinsk",
           "name": "Votkinsk",
-          "coordinates": [57.04867, 53.9872],
-          "difficulty": "Medium"
+          "coordinates": [
+            57.04867,
+            53.9872
+          ],
+          "difficulty": "Hard"
         }
       ]
     },
@@ -62,7 +74,10 @@
           "type": "place",
           "id": "ru-udmurtia-mozhga",
           "name": "Mozhga",
-          "coordinates": [56.44576, 52.2156],
+          "coordinates": [
+            56.44576,
+            52.2156
+          ],
           "difficulty": "Hard"
         }
       ]
