@@ -188,8 +188,12 @@ export function parsePlaceTreeNode(value: unknown): PlaceTreeNode {
   return node
 }
 
-async function fetchJson(url: string, signal?: AbortSignal): Promise<unknown> {
-  const response = await fetch(url, { signal })
+async function fetchJson(
+  url: string,
+  signal?: AbortSignal,
+  cache: RequestCache = 'default'
+): Promise<unknown> {
+  const response = await fetch(url, { signal, cache })
   if (!response.ok) {
     throw new Error(`Unable to load Find the Place data (${response.status}).`)
   }
@@ -198,7 +202,7 @@ async function fetchJson(url: string, signal?: AbortSignal): Promise<unknown> {
 
 export async function loadFindThePlaceManifest(signal?: AbortSignal) {
   return parseFindThePlaceManifest(
-    await fetchJson(FIND_THE_PLACE_MANIFEST_URL, signal)
+    await fetchJson(FIND_THE_PLACE_MANIFEST_URL, signal, 'no-cache')
   )
 }
 
