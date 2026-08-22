@@ -1,11 +1,17 @@
-import { DIFFICULTIES, flattenPlaceData } from './findThePlace'
+import { getApps, initializeApp } from 'firebase/app'
+import {
+  ReCaptchaEnterpriseProvider,
+  initializeAppCheck,
+} from 'firebase/app-check'
+import {
+  connectFunctionsEmulator,
+  getFunctions,
+  httpsCallable,
+} from 'firebase/functions'
+import { DIFFICULTIES } from './findThePlace'
 import type {
-  AdministrativeNode,
-  ContinentNode,
   Coordinates,
   Difficulty,
-  PlaceNode,
-  PlaceTreeNode,
   PlayablePlace,
 } from './findThePlace'
 
@@ -15,7 +21,6 @@ export type FindThePlaceManifestCountry = {
   code: string
   name: string
   counts: DifficultyCounts
-  shards: readonly string[]
 }
 
 export type FindThePlaceManifestContinent = {
@@ -24,19 +29,24 @@ export type FindThePlaceManifestContinent = {
 }
 
 export type FindThePlaceManifest = {
+  version: string
+  generatedAt: string
   continents: readonly FindThePlaceManifestContinent[]
 }
 
-export const FIND_THE_PLACE_MANIFEST_URL = '/find-the-place/manifest.json'
+type SessionRequest = {
+  countryCodes: string[]
+  difficulties: Difficulty[]
+  roundCount: 5
+}
 
-const shardCache = new Map<string, Promise<PlaceTreeNode>>()
+type SessionResponse = {
+  catalogVersion: string
+  questions: PlayablePlace[]
+}
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value)
-}
-
-function isDifficulty(value: unknown): value is Difficulty {
-  return DIFFICULTIES.some((difficulty) => difficulty === value)
 }
 
 function readNonEmptyString(value: unknown, label: string) {
@@ -46,18 +56,19 @@ function readNonEmptyString(value: unknown, label: string) {
   return value
 }
 
+function isDifficulty(value: unknown): value is Difficulty {
+  return DIFFICULTIES.some((difficulty) => difficulty === value)
+}
+
 function readDifficultyCounts(value: unknown): DifficultyCounts {
   if (!isRecord(value)) {
-    throw new Error('Manifest difficulty counts must be an object.')
+    throw new Error('Catalog difficulty counts must be an object.')
   }
-
   return Object.fromEntries(
     DIFFICULTIES.map((difficulty) => {
       const count = value[difficulty]
       if (!Number.isInteger(count) || Number(count) < 0) {
-        throw new Error(
-          `Manifest count for ${difficulty} must be a non-negative integer.`
-        )
+        throw new Error(`Catalog count for ${difficulty} is invalid.`)
       }
       return [difficulty, Number(count)]
     })
@@ -68,72 +79,49 @@ export function parseFindThePlaceManifest(
   value: unknown
 ): FindThePlaceManifest {
   if (!isRecord(value) || !Array.isArray(value.continents)) {
-    throw new Error('The Find the Place manifest has an invalid shape.')
+    throw new Error('The Find the Place catalog has an invalid shape.')
   }
-
+  const version = readNonEmptyString(value.version, 'Catalog version')
+  const generatedAt = readNonEmptyString(
+    value.generatedAt,
+    'Catalog generation date'
+  )
   const countryCodes = new Set<string>()
   const countryNames = new Set<string>()
   const continents = value.continents.map((continentValue) => {
     if (!isRecord(continentValue) || !Array.isArray(continentValue.countries)) {
-      throw new Error('Every manifest continent must contain countries.')
+      throw new Error('Every catalog continent must contain countries.')
     }
-
     const name = readNonEmptyString(
       continentValue.name,
-      'Manifest continent name'
+      'Catalog continent name'
     )
     const countries = continentValue.countries.map((countryValue) => {
-      if (!isRecord(countryValue) || !Array.isArray(countryValue.shards)) {
-        throw new Error('Every manifest country must contain data shards.')
+      if (!isRecord(countryValue)) {
+        throw new Error('Every catalog country must be an object.')
       }
-
-      const code = readNonEmptyString(
-        countryValue.code,
-        'Manifest country code'
-      )
+      const code = readNonEmptyString(countryValue.code, 'Catalog country code')
       const countryName = readNonEmptyString(
         countryValue.name,
-        'Manifest country name'
+        'Catalog country name'
       )
-      if (countryCodes.has(code)) {
-        throw new Error(`Duplicate manifest country code: ${code}`)
+      if (countryCodes.has(code) || countryNames.has(countryName)) {
+        throw new Error(`Duplicate catalog country: ${countryName}`)
       }
-      if (countryNames.has(countryName)) {
-        throw new Error(`Duplicate manifest country name: ${countryName}`)
-      }
-      if (countryValue.shards.length === 0) {
-        throw new Error(`Manifest country "${countryName}" has no shards.`)
-      }
-
-      const shards = countryValue.shards.map((shardValue) => {
-        const shard = readNonEmptyString(shardValue, 'Manifest shard URL')
-        if (
-          !shard.startsWith('/find-the-place/') ||
-          !shard.endsWith('.json') ||
-          shard.includes('..')
-        ) {
-          throw new Error(`Unsafe Find the Place shard URL: ${shard}`)
-        }
-        return shard
-      })
-
       countryCodes.add(code)
       countryNames.add(countryName)
       return {
         code,
         name: countryName,
         counts: readDifficultyCounts(countryValue.counts),
-        shards,
       }
     })
-
     return { name, countries }
   })
-
-  return { continents }
+  return { version, generatedAt, continents }
 }
 
-function readCoordinates(value: unknown, placeId: string): Coordinates {
+function readCoordinates(value: unknown): Coordinates {
   if (
     !Array.isArray(value) ||
     value.length !== 2 ||
@@ -146,64 +134,117 @@ function readCoordinates(value: unknown, placeId: string): Coordinates {
     value[1] < -180 ||
     value[1] > 180
   ) {
-    throw new Error(`Place "${placeId}" has invalid coordinates.`)
+    throw new Error('A session question has invalid coordinates.')
   }
-
   return [value[0], value[1]]
 }
 
-export function parsePlaceTreeNode(value: unknown): PlaceTreeNode {
-  if (!isRecord(value)) {
-    throw new Error('Every place-data node must be an object.')
+function parsePlayablePlace(value: unknown): PlayablePlace {
+  if (!isRecord(value) || !Array.isArray(value.administrativePath)) {
+    throw new Error('A session question has an invalid shape.')
   }
-
-  const name = readNonEmptyString(value.name, 'Place-data node name')
-  if (value.type === 'administrative') {
-    if (!Array.isArray(value.children) || value.children.length === 0) {
-      throw new Error(`Administrative node "${name}" cannot be empty.`)
-    }
-    const node: AdministrativeNode = {
-      type: 'administrative',
-      name,
-      children: value.children.map(parsePlaceTreeNode),
-    }
-    return node
-  }
-
-  if (value.type !== 'place') {
-    throw new Error(`Place-data node "${name}" has an invalid type.`)
-  }
-
-  const id = readNonEmptyString(value.id, 'Place ID')
   if (!isDifficulty(value.difficulty)) {
-    throw new Error(`Place "${id}" has an invalid difficulty.`)
+    throw new Error('A session question has an invalid difficulty.')
   }
-  const node: PlaceNode = {
-    type: 'place',
-    id,
-    name,
-    coordinates: readCoordinates(value.coordinates, id),
-    difficulty: value.difficulty,
-  }
-  return node
-}
-
-async function fetchJson(
-  url: string,
-  signal?: AbortSignal,
-  cache: RequestCache = 'default'
-): Promise<unknown> {
-  const response = await fetch(url, { signal, cache })
-  if (!response.ok) {
-    throw new Error(`Unable to load Find the Place data (${response.status}).`)
-  }
-  return response.json() as Promise<unknown>
-}
-
-export async function loadFindThePlaceManifest(signal?: AbortSignal) {
-  return parseFindThePlaceManifest(
-    await fetchJson(FIND_THE_PLACE_MANIFEST_URL, signal, 'no-cache')
+  const administrativePath = value.administrativePath.map((name) =>
+    readNonEmptyString(name, 'Administrative name')
   )
+  return {
+    type: 'place',
+    id: readNonEmptyString(value.id, 'Place ID'),
+    name: readNonEmptyString(value.name, 'Place name'),
+    coordinates: readCoordinates(value.coordinates),
+    difficulty: value.difficulty,
+    countryCode: readNonEmptyString(value.countryCode, 'Country code'),
+    countryName: readNonEmptyString(value.countryName, 'Country name'),
+    continentName: readNonEmptyString(value.continentName, 'Continent name'),
+    jurisdictionName: readNonEmptyString(
+      value.jurisdictionName,
+      'Jurisdiction name'
+    ),
+    administrativePath,
+    question: readNonEmptyString(value.question, 'Question'),
+  }
+}
+
+function parseSessionResponse(value: unknown): SessionResponse {
+  if (!isRecord(value) || !Array.isArray(value.questions)) {
+    throw new Error('The Find the Place session has an invalid shape.')
+  }
+  const questions = value.questions.map(parsePlayablePlace)
+  if (questions.length !== 5) {
+    throw new Error('A Find the Place session must contain five questions.')
+  }
+  if (new Set(questions.map((question) => question.id)).size !== 5) {
+    throw new Error('A Find the Place session contains duplicate questions.')
+  }
+  return {
+    catalogVersion: readNonEmptyString(
+      value.catalogVersion,
+      'Session catalog version'
+    ),
+    questions,
+  }
+}
+
+const firebaseApp =
+  getApps()[0] ??
+  initializeApp({
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId:
+      import.meta.env.VITE_FIREBASE_PROJECT_ID ?? 'geoguessr-9ui2',
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  })
+
+const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_ENTERPRISE_SITE_KEY
+if (recaptchaSiteKey) {
+  if (import.meta.env.DEV && import.meta.env.VITE_APP_CHECK_DEBUG === 'true') {
+    const debugGlobal = globalThis as typeof globalThis & {
+      FIREBASE_APPCHECK_DEBUG_TOKEN?: boolean
+    }
+    debugGlobal.FIREBASE_APPCHECK_DEBUG_TOKEN = true
+  }
+  initializeAppCheck(firebaseApp, {
+    provider: new ReCaptchaEnterpriseProvider(recaptchaSiteKey),
+    isTokenAutoRefreshEnabled: true,
+  })
+}
+
+const functions = getFunctions(firebaseApp, 'asia-east1')
+const emulatorAddress = import.meta.env.VITE_FIREBASE_FUNCTIONS_EMULATOR
+if (emulatorAddress) {
+  const [host, portValue] = emulatorAddress.split(':')
+  const port = Number(portValue)
+  if (host && Number.isInteger(port)) {
+    connectFunctionsEmulator(functions, host, port)
+  }
+}
+
+const getCatalog = httpsCallable<undefined, unknown>(
+  functions,
+  'getFindThePlaceCatalog'
+)
+const createSession = httpsCallable<SessionRequest, unknown>(
+  functions,
+  'createFindThePlaceSession'
+)
+
+export async function loadFindThePlaceManifest() {
+  const response = await getCatalog()
+  return parseFindThePlaceManifest(response.data)
+}
+
+export async function createFindThePlaceSession(
+  countryCodes: ReadonlySet<string>,
+  difficulties: ReadonlySet<Difficulty>
+) {
+  const response = await createSession({
+    countryCodes: Array.from(countryCodes),
+    difficulties: Array.from(difficulties),
+    roundCount: 5,
+  })
+  return parseSessionResponse(response.data).questions
 }
 
 export function getCountryDivisions(manifest: FindThePlaceManifest) {
@@ -255,69 +296,4 @@ export function countEligibleManifestPlaces(
       }, 0),
     0
   )
-}
-
-function loadPlaceShard(url: string) {
-  const cached = shardCache.get(url)
-  if (cached) return cached
-
-  const request = fetchJson(url)
-    .then(parsePlaceTreeNode)
-    .catch((error: unknown) => {
-      shardCache.delete(url)
-      throw error
-    })
-  shardCache.set(url, request)
-  return request
-}
-
-export async function loadSelectedPlaceData(
-  manifest: FindThePlaceManifest,
-  selectedCountryCodes: ReadonlySet<string>
-): Promise<PlayablePlace[]> {
-  const loadedContinents = await Promise.all(
-    manifest.continents.map(async (continent) => {
-      const selectedCountries = continent.countries.filter((country) =>
-        selectedCountryCodes.has(country.code)
-      )
-      if (selectedCountries.length === 0) return null
-
-      const loadedContinent: ContinentNode = {
-        name: continent.name,
-        countries: await Promise.all(
-          selectedCountries.map(async (country) => ({
-            code: country.code,
-            name: country.name,
-            children: await Promise.all(country.shards.map(loadPlaceShard)),
-          }))
-        ),
-      }
-      return loadedContinent
-    })
-  )
-  const continents = loadedContinents.filter(
-    (continent): continent is ContinentNode => continent !== null
-  )
-
-  const places = flattenPlaceData(continents)
-  for (const continent of manifest.continents) {
-    for (const country of continent.countries) {
-      if (!selectedCountryCodes.has(country.code)) continue
-
-      for (const difficulty of DIFFICULTIES) {
-        const actualCount = places.filter(
-          (place) =>
-            place.countryCode === country.code &&
-            place.difficulty === difficulty
-        ).length
-        if (actualCount !== country.counts[difficulty]) {
-          throw new Error(
-            `Manifest count does not match loaded data for ${country.name} (${difficulty}).`
-          )
-        }
-      }
-    }
-  }
-
-  return places
 }

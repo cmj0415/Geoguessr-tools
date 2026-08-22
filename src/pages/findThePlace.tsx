@@ -6,21 +6,19 @@ import InfoWindow from '../components/InfoWindow'
 import QuizLayout from '../components/QuizLayout'
 import {
   countEligibleManifestPlaces,
+  createFindThePlaceSession,
   getAllCountryCodes,
   getCountryCodesByName,
   getCountryDivisions,
   loadFindThePlaceManifest,
-  loadSelectedPlaceData,
 } from '../utils/findThePlaceData'
 import type { FindThePlaceManifest } from '../utils/findThePlaceData'
 import {
   DIFFICULTIES,
   calculateDistanceKm,
   calculateRoundScore,
-  createSessionQuestions,
   formatDistance,
   formatTime,
-  getEligiblePlaces,
 } from '../utils/findThePlace'
 import type {
   Coordinates,
@@ -81,19 +79,22 @@ export default function FindThePlace() {
   )
 
   useEffect(() => {
-    const controller = new AbortController()
+    let cancelled = false
 
-    loadFindThePlaceManifest(controller.signal)
+    loadFindThePlaceManifest()
       .then((nextManifest) => {
+        if (cancelled) return
         setManifest(nextManifest)
         setSelectedCountryCodes(getAllCountryCodes(nextManifest))
       })
-      .catch((error: unknown) => {
-        if (error instanceof DOMException && error.name === 'AbortError') return
+      .catch(() => {
+        if (cancelled) return
         setManifestError(true)
       })
 
-    return () => controller.abort()
+    return () => {
+      cancelled = true
+    }
   }, [manifestRequestVersion])
 
   useEffect(() => {
@@ -117,22 +118,14 @@ export default function FindThePlace() {
     setStartError(null)
 
     try {
-      const loadedPlaces = await loadSelectedPlaceData(
-        manifest,
-        selectedCountryCodes
-      )
-      const eligiblePlaces = getEligiblePlaces(
-        loadedPlaces,
+      const sessionQuestions = await createFindThePlaceSession(
         selectedCountryCodes,
         selectedDifficulties
       )
-      if (eligiblePlaces.length < ROUND_COUNT) {
-        throw new Error('The selected data contains fewer than five places.')
-      }
 
       const startedAt = performance.now()
       guessLockedRef.current = false
-      setQuestions(createSessionQuestions(eligiblePlaces, ROUND_COUNT))
+      setQuestions(sessionQuestions)
       setResults([])
       setNow(startedAt)
       setPhase({ name: 'guessing', roundIndex: 0, startedAt })
@@ -356,7 +349,9 @@ export default function FindThePlace() {
                 Beyond that, points decrease smoothly with both time and
                 distance.
               </p>
-              <p>More and more locations will be added to this quiz!</p>
+              <p>
+                The online location catalog is refreshed weekly from GeoNames.
+              </p>
             </div>
           }
           onClose={() => setIsInfoOpen(false)}
