@@ -1,6 +1,7 @@
 import AdmZip from 'adm-zip'
 import type { Firestore } from 'firebase-admin/firestore'
 import { logger } from 'firebase-functions'
+import OpenCC from 'opencc-js'
 import {
   MINIMUM_POPULATION,
   PLAYABLE_FEATURE_CODES,
@@ -18,6 +19,54 @@ import type {
 const GEONAMES_DUMP_URL = 'https://download.geonames.org/export/dump'
 const JAPANESE_SCRIPT_PATTERN =
   /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}]/u
+const HAN_SCRIPT_PATTERN = /\p{Script=Han}/u
+const HANGUL_SCRIPT_PATTERN = /\p{Script=Hangul}/u
+const LOCALIZED_SOURCE_COUNTRY_CODES = ['JP', 'KR', 'TW', 'HK', 'MO'] as const
+const ALLOWED_ALTERNATE_NAME_LANGUAGES = new Set([
+  'en',
+  'ja',
+  'ko',
+  'yue',
+  'zh',
+  'zh-HK',
+  'zh-Hant',
+  'zh-MO',
+  'zh-TW',
+])
+const toTaiwanTraditional = OpenCC.Converter({ from: 'cn', to: 'tw' })
+const toHongKongTraditional = OpenCC.Converter({ from: 'cn', to: 'hk' })
+
+type LocalizationConfiguration = {
+  languages: readonly string[]
+  scriptPattern: RegExp
+  normalize?: (value: string) => string
+}
+
+const LOCALIZATION_BY_POOL: Readonly<
+  Record<string, LocalizationConfiguration>
+> = {
+  jp: { languages: ['ja'], scriptPattern: JAPANESE_SCRIPT_PATTERN },
+  kr: { languages: ['ko'], scriptPattern: HANGUL_SCRIPT_PATTERN },
+  tw: {
+    languages: ['zh-TW', 'zh-Hant', 'zh'],
+    scriptPattern: HAN_SCRIPT_PATTERN,
+    normalize: toTaiwanTraditional,
+  },
+  hk: {
+    languages: ['zh-Hant', 'zh-HK', 'zh-TW', 'yue', 'zh'],
+    scriptPattern: HAN_SCRIPT_PATTERN,
+    normalize: toHongKongTraditional,
+  },
+  mo: {
+    languages: ['zh-Hant', 'zh-MO', 'zh-TW', 'yue', 'zh'],
+    scriptPattern: HAN_SCRIPT_PATTERN,
+    normalize: toHongKongTraditional,
+  },
+}
+
+function normalizeLocalizedName(poolCode: string, value: string) {
+  return LOCALIZATION_BY_POOL[poolCode]?.normalize?.(value) ?? value
+}
 
 type AdminName = { id: string; name: string }
 
@@ -156,7 +205,7 @@ function parseAlternateNames(value: string) {
     const language = columns[2]
     const name = columns[3]
     if (!geoNamesId || !language || !name) continue
-    if (language !== 'en' && language !== 'ja') continue
+    if (!ALLOWED_ALTERNATE_NAME_LANGUAGES.has(language)) continue
 
     const names = namesById.get(geoNamesId) ?? []
     names.push({
@@ -174,23 +223,28 @@ function parseAlternateNames(value: string) {
 
 function selectLocalizedName(
   names: readonly AlternateName[] | undefined,
-  language: 'en' | 'ja'
+  languages: string | readonly string[],
+  scriptPattern?: RegExp
 ) {
-  const candidates = (names ?? []).filter(
-    (candidate) =>
-      candidate.language === language &&
-      !candidate.colloquial &&
-      !candidate.historic &&
-      (language !== 'ja' || JAPANESE_SCRIPT_PATTERN.test(candidate.name))
-  )
-  candidates.sort(
-    (first, second) =>
-      Number(second.preferred) - Number(first.preferred) ||
-      Number(second.short) - Number(first.short) ||
-      first.name.length - second.name.length ||
-      first.name.localeCompare(second.name)
-  )
-  return candidates[0]?.name
+  const languageOrder = typeof languages === 'string' ? [languages] : languages
+  for (const language of languageOrder) {
+    const candidates = (names ?? []).filter(
+      (candidate) =>
+        candidate.language === language &&
+        !candidate.colloquial &&
+        !candidate.historic &&
+        (!scriptPattern || scriptPattern.test(candidate.name))
+    )
+    candidates.sort(
+      (first, second) =>
+        Number(second.preferred) - Number(first.preferred) ||
+        Number(second.short) - Number(first.short) ||
+        first.name.length - second.name.length ||
+        first.name.localeCompare(second.name)
+    )
+    if (candidates[0]) return candidates[0].name
+  }
+  return undefined
 }
 
 async function download(url: string, attempts = 3): Promise<Buffer> {
@@ -205,7 +259,10 @@ async function download(url: string, attempts = 3): Promise<Buffer> {
     return Buffer.from(await response.arrayBuffer())
   } catch (error: unknown) {
     if (attempts <= 1) throw error
-    logger.warn('Retrying GeoNames download.', { url, attemptsRemaining: attempts - 1 })
+    logger.warn('Retrying GeoNames download.', {
+      url,
+      attemptsRemaining: attempts - 1,
+    })
     return download(url, attempts - 1)
   }
 }
@@ -217,17 +274,18 @@ function unzipText(buffer: Buffer, preferredFileName?: string) {
   const entry =
     entries.find((candidate) => candidate.entryName === preferredFileName) ??
     entries[0]
-  if (!entry) throw new Error('The GeoNames archive did not contain a text file.')
+  if (!entry)
+    throw new Error('The GeoNames archive did not contain a text file.')
   return entry.getData().toString('utf8')
 }
 
 function getAdministrationName(
   administration: AdminName | undefined,
   sourceData: SourceData,
-  isJapan: boolean
+  localization: LocalizationConfiguration | undefined
 ) {
   if (!administration) return undefined
-  if (!isJapan) {
+  if (!localization) {
     return (
       selectLocalizedName(
         sourceData.alternateNames.get(administration.id),
@@ -235,9 +293,13 @@ function getAdministrationName(
       ) ?? administration.name
     )
   }
-  return selectLocalizedName(
+  const localizedName = selectLocalizedName(
     sourceData.alternateNames.get(administration.id),
-    'ja'
+    localization.languages,
+    localization.scriptPattern
+  )
+  return (
+    localizedName && (localization.normalize?.(localizedName) ?? localizedName)
   )
 }
 
@@ -248,7 +310,7 @@ function createCandidates(
   admin1Names: ReadonlyMap<string, AdminName>,
   admin2Names: ReadonlyMap<string, AdminName>
 ) {
-  const isJapan = configuration.code === 'jp'
+  const localization = LOCALIZATION_BY_POOL[configuration.code]
   const dependencyLabel = configuration.dependencyLabels?.[sourceCountryCode]
   const jurisdictionName =
     configuration.jurisdictionLabels?.[sourceCountryCode] ?? configuration.name
@@ -269,25 +331,30 @@ function createCandidates(
     .map((record): CandidatePlace | undefined => {
       const localizedName = selectLocalizedName(
         sourceData.alternateNames.get(record.id),
-        isJapan ? 'ja' : 'en'
+        localization?.languages ?? 'en',
+        localization?.scriptPattern
       )
-      const displayName = localizedName ?? (isJapan ? undefined : record.name)
-      if (!displayName || (isJapan && !JAPANESE_SCRIPT_PATTERN.test(displayName))) {
+      const displayName = localizedName
+        ? normalizeLocalizedName(configuration.code, localizedName)
+        : localization
+          ? undefined
+          : record.name
+      if (!displayName) {
         return undefined
       }
 
       const admin1 = getAdministrationName(
         admin1Names.get(`${sourceCountryCode}.${record.admin1Code}`),
         sourceData,
-        isJapan
+        localization
       )
-      if (isJapan && record.admin1Code && !admin1) return undefined
+      if (localization && record.admin1Code && !admin1) return undefined
       const admin2 = getAdministrationName(
         admin2Names.get(
           `${sourceCountryCode}.${record.admin1Code}.${record.admin2Code}`
         ),
         sourceData,
-        isJapan
+        localization
       )
       const administrativePath = distinctNames([
         admin2,
@@ -386,7 +453,10 @@ function placeDocumentId(place: CatalogPlace) {
   return `${place.countryCode}__${place.difficulty.toLowerCase()}__${place.tierRank}`
 }
 
-async function removeObsoleteCatalogs(firestore: Firestore, activeVersion: string) {
+async function removeObsoleteCatalogs(
+  firestore: Firestore,
+  activeVersion: string
+) {
   const snapshots = await firestore.collection('findThePlaceCatalogs').get()
   const readyVersions = snapshots.docs
     .filter((snapshot) => snapshot.get('status') === 'ready')
@@ -417,16 +487,26 @@ export async function importFindThePlaceCatalog(
   await catalogReference.set({ version, generatedAt, status: 'building' })
 
   try {
-    const [admin1Text, admin2Text, citiesArchive, japanNamesArchive] =
+    const [admin1Text, admin2Text, citiesArchive, localizedNames] =
       await Promise.all([
-      download(`${GEONAMES_DUMP_URL}/admin1CodesASCII.txt`).then((buffer) =>
-        buffer.toString('utf8')
-      ),
-      download(`${GEONAMES_DUMP_URL}/admin2Codes.txt`).then((buffer) =>
-        buffer.toString('utf8')
-      ),
+        download(`${GEONAMES_DUMP_URL}/admin1CodesASCII.txt`).then((buffer) =>
+          buffer.toString('utf8')
+        ),
+        download(`${GEONAMES_DUMP_URL}/admin2Codes.txt`).then((buffer) =>
+          buffer.toString('utf8')
+        ),
         download(`${GEONAMES_DUMP_URL}/cities500.zip`),
-        download(`${GEONAMES_DUMP_URL}/alternatenames/JP.zip`),
+        Promise.all(
+          LOCALIZED_SOURCE_COUNTRY_CODES.map(async (countryCode) => {
+            const archive = await download(
+              `${GEONAMES_DUMP_URL}/alternatenames/${countryCode}.zip`
+            )
+            return [
+              countryCode,
+              parseAlternateNames(unzipText(archive, `${countryCode}.txt`)),
+            ] as const
+          })
+        ),
       ])
     const admin1Names = parseAdminNames(admin1Text)
     const admin2Names = parseAdminNames(admin2Text)
@@ -445,9 +525,10 @@ export async function importFindThePlaceCatalog(
       countryRecords.push(record)
       recordsByCountry.set(record.countryCode, countryRecords)
     }
-    const japaneseAlternateNames = parseAlternateNames(
-      unzipText(japanNamesArchive, 'JP.txt')
-    )
+    const localizedAlternateNames = new Map<
+      string,
+      Map<string, AlternateName[]>
+    >(localizedNames)
     const emptyAlternateNames = new Map<string, AlternateName[]>()
     const generatedPools = await mapWithConcurrency(
       POOL_CONFIGURATIONS,
@@ -458,9 +539,8 @@ export async function importFindThePlaceCatalog(
           const sourceData: SourceData = {
             records: recordsByCountry.get(sourceCountryCode) ?? [],
             alternateNames:
-              sourceCountryCode === 'JP'
-                ? japaneseAlternateNames
-                : emptyAlternateNames,
+              localizedAlternateNames.get(sourceCountryCode) ??
+              emptyAlternateNames,
           }
           candidates.push(
             ...createCandidates(
@@ -543,6 +623,7 @@ export const catalogInternals = {
   parseAdminNames,
   parseAlternateNames,
   selectLocalizedName,
+  normalizeLocalizedName,
   countDifficulties,
   placeDocumentId,
 }

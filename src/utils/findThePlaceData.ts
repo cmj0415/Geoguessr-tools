@@ -198,7 +198,7 @@ const firebaseApp =
   })
 
 const recaptchaSiteKey = import.meta.env.VITE_RECAPTCHA_ENTERPRISE_SITE_KEY
-if (recaptchaSiteKey) {
+if (recaptchaSiteKey && typeof document !== 'undefined') {
   if (import.meta.env.DEV && import.meta.env.VITE_APP_CHECK_DEBUG === 'true') {
     const debugGlobal = globalThis as typeof globalThis & {
       FIREBASE_APPCHECK_DEBUG_TOKEN?: boolean
