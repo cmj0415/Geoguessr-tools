@@ -33,6 +33,7 @@ const ALLOWED_ALTERNATE_NAME_LANGUAGES = new Set([
   'zh-MO',
   'zh-TW',
 ])
+const ADMINISTRATION_NAME_OVERRIDES = new Map([['RU.29', 'Kemerovo Oblast']])
 const toTaiwanTraditional = OpenCC.Converter({ from: 'cn', to: 'tw' })
 const toHongKongTraditional = OpenCC.Converter({ from: 'cn', to: 'hk' })
 
@@ -192,7 +193,10 @@ function parseAdminNames(value: string) {
       .split('\n')
       .map((line) => {
         const [code = '', name = '', , id = ''] = line.split('\t')
-        return [code, { id, name }]
+        return [
+          code,
+          { id, name: ADMINISTRATION_NAME_OVERRIDES.get(code) ?? name },
+        ]
       })
   )
 }
