@@ -102,7 +102,7 @@ function toSessionQuestion(place: CatalogPlace): SessionQuestion {
 }
 
 export const getFindThePlaceCatalog = onCall(
-  { region: REGION, enforceAppCheck: true },
+  { region: REGION, enforceAppCheck: true, maxInstances: 5 },
   async () => {
     const { metadata } = await getActiveCatalog()
     return {
@@ -114,7 +114,7 @@ export const getFindThePlaceCatalog = onCall(
 )
 
 export const createFindThePlaceSession = onCall(
-  { region: REGION, enforceAppCheck: true },
+  { region: REGION, enforceAppCheck: true, maxInstances: 5 },
   async (request) => {
     const { countryCodes, difficulties } = parseSessionRequest(request.data)
     const { reference, metadata } = await getActiveCatalog()
