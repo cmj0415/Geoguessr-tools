@@ -176,6 +176,10 @@ function Home() {
               <span>Province Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
+            <Link className={QUIZ_LINK_CLASSES} to="/tr/districts">
+              <span>District Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
             <Link className={QUIZ_LINK_CLASSES} to="/tr/area-codes">
               <span>Area Code Quiz</span>
               <span aria-hidden="true">→</span>

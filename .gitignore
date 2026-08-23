@@ -30,3 +30,4 @@ forger/in/
 forger/out/
 forger/*.geojson
 AGENTS.md
+*.test.ts

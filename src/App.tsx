@@ -31,6 +31,7 @@ import ColombiaDepartments from './pages/co/departments'
 import ChileRegions from './pages/cl/regions'
 import ParaguayDepartments from './pages/py/departments'
 import UruguayDepartments from './pages/uy/departments'
+import TurkeyDistricts from './pages/tr/districts'
 
 function App() {
   return (
@@ -69,6 +70,7 @@ function App() {
         <Route path="cl/regions" element={<ChileRegions />} />
         <Route path="py/departments" element={<ParaguayDepartments />} />
         <Route path="uy/departments" element={<UruguayDepartments />} />
+        <Route path="tr/districts" element={<TurkeyDistricts />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

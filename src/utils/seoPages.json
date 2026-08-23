@@ -147,6 +147,11 @@
       "path": "/py/departments",
       "title": "Paraguay Departments Map Quiz | GeoGuessr Tools",
       "description": "Learn Paraguay's 17 departments and the capital district of Asunción with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/tr/districts",
+      "title": "Turkey Districts Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 973 districts of Turkey with a province-selectable interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }
