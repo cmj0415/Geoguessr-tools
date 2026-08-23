@@ -28,6 +28,9 @@ import EcuadorTaxiLetters from './pages/ec/taxiLetters'
 import PeruProvinces from './pages/pe/provinces'
 import ArgentinaProvinces from './pages/ar/provinces'
 import ColombiaDepartments from './pages/co/departments'
+import ChileRegions from './pages/cl/regions'
+import ParaguayDepartments from './pages/py/departments'
+import UruguayDepartments from './pages/uy/departments'
 
 function App() {
   return (
@@ -63,6 +66,9 @@ function App() {
         <Route path="pe/provinces" element={<PeruProvinces />} />
         <Route path="ar/provinces" element={<ArgentinaProvinces />} />
         <Route path="co/departments" element={<ColombiaDepartments />} />
+        <Route path="cl/regions" element={<ChileRegions />} />
+        <Route path="py/departments" element={<ParaguayDepartments />} />
+        <Route path="uy/departments" element={<UruguayDepartments />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

@@ -47,6 +47,13 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="Chile" flag={<span>🇨🇱</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/cl/regions">
+              <span>Region Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Colombia" flag={<span>🇨🇴</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/co/departments">
               <span>Department Quiz</span>
@@ -121,6 +128,13 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="Paraguay" flag={<span>🇵🇾</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/py/departments">
+              <span>Department Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Russia" flag={<span>🇷🇺</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/ru/area-codes">
               <span>Area Code Quiz</span>
@@ -171,6 +185,13 @@ function Home() {
           <CountryCard countryName="United States" flag={<span>🇺🇸</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/us/area-codes">
               <span>Area Code Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
+          <CountryCard countryName="Uruguay" flag={<span>🇺🇾</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/uy/departments">
+              <span>Department Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>

@@ -132,6 +132,21 @@
       "path": "/ar/provinces",
       "title": "Argentina Provinces Map Quiz | GeoGuessr Tools",
       "description": "Learn Argentina's 23 provinces and the Autonomous City of Buenos Aires with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/cl/regions",
+      "title": "Chile Regions Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 16 regions of Chile with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/uy/departments",
+      "title": "Uruguay Departments Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 19 departments of Uruguay with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/py/departments",
+      "title": "Paraguay Departments Map Quiz | GeoGuessr Tools",
+      "description": "Learn Paraguay's 17 departments and the capital district of Asunción with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }
