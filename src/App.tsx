@@ -25,6 +25,9 @@ import TurkeyProvinces from './pages/tr/provinces'
 import TurkeyCodes from './pages/tr/codes'
 import EcuadorProvinces from './pages/ec/provinces'
 import EcuadorTaxiLetters from './pages/ec/taxiLetters'
+import PeruProvinces from './pages/pe/provinces'
+import ArgentinaProvinces from './pages/ar/provinces'
+import ColombiaDepartments from './pages/co/departments'
 
 function App() {
   return (
@@ -57,6 +60,9 @@ function App() {
         <Route path="tr/area-codes" element={<TurkeyCodes />} />
         <Route path="ec/provinces" element={<EcuadorProvinces />} />
         <Route path="ec/taxi-letters" element={<EcuadorTaxiLetters />} />
+        <Route path="pe/provinces" element={<PeruProvinces />} />
+        <Route path="ar/provinces" element={<ArgentinaProvinces />} />
+        <Route path="co/departments" element={<ColombiaDepartments />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

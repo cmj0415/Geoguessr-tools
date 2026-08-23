@@ -117,6 +117,21 @@
       "path": "/ec/taxi-letters",
       "title": "Ecuador Taxi First Letters Map Quiz | GeoGuessr Tools",
       "description": "Learn the first letters on Ecuadorian taxi license plates with an interactive province map quiz for GeoGuessr practice."
+    },
+    {
+      "path": "/pe/provinces",
+      "title": "Peru Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn Peru's 24 departments and the Constitutional Province of Callao with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/co/departments",
+      "title": "Colombia Departments Map Quiz | GeoGuessr Tools",
+      "description": "Learn Colombia's 32 departments and Bogotá, D.C. with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ar/provinces",
+      "title": "Argentina Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn Argentina's 23 provinces and the Autonomous City of Buenos Aires with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }
