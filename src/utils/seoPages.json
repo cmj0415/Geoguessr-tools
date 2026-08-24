@@ -34,6 +34,16 @@
       "description": "Learn Germany's two-digit geographic area-code prefixes with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/de/states",
+      "title": "Germany States Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 16 federal states of Germany with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/de/districts",
+      "title": "Germany Districts Map Quiz | GeoGuessr Tools",
+      "description": "Practice 401 district-level areas of Germany with a Regierungsbezirk-selectable interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/mx/postal-codes",
       "title": "Mexico Postal Code Map Quiz | GeoGuessr Tools",
       "description": "Learn Mexico's two-digit postal code regions with an interactive map quiz covering codes 01 to 97."

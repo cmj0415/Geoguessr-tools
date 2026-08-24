@@ -15,6 +15,8 @@ import NigeriaStates from './pages/ng/states'
 import FranceDepartments from './pages/fr/departments'
 import BangladeshDistricts from './pages/bd/districts'
 import GermanyCodes from './pages/de/codes'
+import GermanyStates from './pages/de/states'
+import GermanyDistricts from './pages/de/districts'
 import ItalyProvinces from './pages/it/provinces'
 import RussiaFederalSubjects from './pages/ru/federalSubjects'
 import RussiaCodes from './pages/ru/codes'
@@ -48,6 +50,8 @@ function App() {
         <Route path="bd/bengali" element={<Bengali />} />
         <Route path="bd/districts" element={<BangladeshDistricts />} />
         <Route path="de/area-codes" element={<GermanyCodes />} />
+        <Route path="de/states" element={<GermanyStates />} />
+        <Route path="de/districts" element={<GermanyDistricts />} />
         <Route path="fr/departments" element={<FranceDepartments />} />
         <Route path="it/provinces" element={<ItalyProvinces />} />
         <Route path="mx/postal-codes" element={<MexicoCodes />} />
