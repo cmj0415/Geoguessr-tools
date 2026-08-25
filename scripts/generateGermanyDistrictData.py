@@ -9,7 +9,8 @@ from collections import defaultdict
 from pathlib import Path
 
 from shapely import make_valid
-from shapely.geometry import shape
+from shapely.geometry import mapping, shape
+from shapely.ops import unary_union
 
 
 PROJECT_DIRECTORY = Path(__file__).resolve().parent.parent
@@ -82,16 +83,15 @@ def main():
     for region, state in state_by_region.items():
         regions_by_state[state].add(region)
 
-    feature_indices_by_district = defaultdict(list)
     geometries_by_district = defaultdict(list)
-    for index, feature in enumerate(district_data["features"]):
+    for feature in district_data["features"]:
         district = feature["properties"].get("district")
         if not isinstance(district, str) or not district:
             raise RuntimeError("A district has an invalid name.")
-        feature_indices_by_district[district].append(index)
         geometries_by_district[district].append(valid_geometry(feature))
 
     districts_by_region = defaultdict(set)
+    merged_features = []
     for district, geometries in geometries_by_district.items():
         region = assign_area(geometries, regions, district)
         state = assign_area(geometries, states, district)
@@ -101,10 +101,24 @@ def main():
             )
 
         districts_by_region[region].add(district)
-        for index in feature_indices_by_district[district]:
-            properties = district_data["features"][index]["properties"]
-            properties["regierungsbezirk"] = region
-            properties["state"] = state
+        merged_geometry = unary_union(geometries)
+        if merged_geometry.geom_type not in {"Polygon", "MultiPolygon"}:
+            raise RuntimeError(
+                f"Merging {district} produced {merged_geometry.geom_type}."
+            )
+        merged_features.append(
+            {
+                "type": "Feature",
+                "geometry": mapping(merged_geometry),
+                "properties": {
+                    "district": district,
+                    "regierungsbezirk": region,
+                    "state": state,
+                },
+            }
+        )
+
+    district_data["features"] = merged_features
 
     district_count = sum(
         len(districts) for districts in districts_by_region.values()
@@ -118,6 +132,8 @@ def main():
         raise RuntimeError(
             f"Expected regions in 16 states, got {len(regions_by_state)}."
         )
+    if len(district_data["features"]) != district_count:
+        raise RuntimeError("Expected exactly one GeoJSON feature per district.")
 
     write_text_safely(
         DISTRICT_GEOJSON_PATH,
