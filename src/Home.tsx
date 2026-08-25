@@ -158,9 +158,20 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="South Africa" flag={<span>🇿🇦</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/za/provinces">
+              <span>Province Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Spain" flag={<span>🇪🇸</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/es/provinces">
               <span>Province Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+            <Link className={QUIZ_LINK_CLASSES} to="/es/area-codes">
+              <span>Area Code Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
             <Link

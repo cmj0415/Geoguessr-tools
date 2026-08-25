@@ -104,6 +104,11 @@
       "description": "Learn Spain's 50 provinces plus Ceuta and Melilla with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/es/area-codes",
+      "title": "Spain Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 48 geographic telephone codes of Spain by prefix with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/es/provincial-road-prefixes",
       "title": "Spain Provincial Road Prefix Map Quiz | GeoGuessr Tools",
       "description": "Learn Spain's provincial road prefixes with an interactive map quiz for geography and GeoGuessr practice."
@@ -162,6 +167,11 @@
       "path": "/tr/districts",
       "title": "Turkey Districts Map Quiz | GeoGuessr Tools",
       "description": "Learn all 973 districts of Turkey with a province-selectable interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/za/provinces",
+      "title": "South Africa Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn all nine provinces of South Africa with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }

@@ -22,6 +22,7 @@ import RussiaFederalSubjects from './pages/ru/federalSubjects'
 import RussiaCodes from './pages/ru/codes'
 import SpainProvinces from './pages/es/provinces'
 import SpainProvincialRoadPrefixes from './pages/es/roadPrefix'
+import SpainCodes from './pages/es/codes'
 import FindThePlace from './pages/findThePlace'
 import TurkeyProvinces from './pages/tr/provinces'
 import TurkeyCodes from './pages/tr/codes'
@@ -34,6 +35,7 @@ import ChileRegions from './pages/cl/regions'
 import ParaguayDepartments from './pages/py/departments'
 import UruguayDepartments from './pages/uy/departments'
 import TurkeyDistricts from './pages/tr/districts'
+import SouthAfricaProvinces from './pages/za/provinces'
 
 function App() {
   return (
@@ -60,6 +62,7 @@ function App() {
         <Route path="ru/federal-subjects" element={<RussiaFederalSubjects />} />
         <Route path="ru/russian" element={<Russian />} />
         <Route path="es/provinces" element={<SpainProvinces />} />
+        <Route path="es/area-codes" element={<SpainCodes />} />
         <Route
           path="es/provincial-road-prefixes"
           element={<SpainProvincialRoadPrefixes />}
@@ -75,6 +78,7 @@ function App() {
         <Route path="py/departments" element={<ParaguayDepartments />} />
         <Route path="uy/departments" element={<UruguayDepartments />} />
         <Route path="tr/districts" element={<TurkeyDistricts />} />
+        <Route path="za/provinces" element={<SouthAfricaProvinces />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
