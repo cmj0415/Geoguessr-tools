@@ -172,6 +172,11 @@
       "path": "/za/provinces",
       "title": "South Africa Provinces Map Quiz | GeoGuessr Tools",
       "description": "Learn all nine provinces of South Africa with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/za/area-codes",
+      "title": "South Africa Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 36 geographic telephone codes represented on this South Africa interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }

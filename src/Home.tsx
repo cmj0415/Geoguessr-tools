@@ -163,6 +163,10 @@ function Home() {
               <span>Province Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
+            <Link className={QUIZ_LINK_CLASSES} to="/za/area-codes">
+              <span>Area Code Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
           </CountryCard>
 
           <CountryCard countryName="Spain" flag={<span>🇪🇸</span>}>
