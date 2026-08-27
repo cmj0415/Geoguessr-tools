@@ -37,6 +37,8 @@ import UruguayDepartments from './pages/uy/departments'
 import TurkeyDistricts from './pages/tr/districts'
 import SouthAfricaProvinces from './pages/za/provinces'
 import SouthAfricaCodes from './pages/za/codes'
+import IndiaStates from './pages/in/states'
+import RomaniaCounties from './pages/ro/counties'
 
 function App() {
   return (
@@ -81,6 +83,8 @@ function App() {
         <Route path="tr/districts" element={<TurkeyDistricts />} />
         <Route path="za/provinces" element={<SouthAfricaProvinces />} />
         <Route path="za/area-codes" element={<SouthAfricaCodes />} />
+        <Route path="in/states" element={<IndiaStates />} />
+        <Route path="ro/counties" element={<RomaniaCounties />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

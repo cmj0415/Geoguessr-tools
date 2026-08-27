@@ -94,6 +94,13 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="India" flag={<span>🇮🇳</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/in/states">
+              <span>State Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Indonesia" flag={<span>🇮🇩</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/id/regencies">
               <span>Kabupatens Quiz</span>
@@ -139,6 +146,13 @@ function Home() {
           <CountryCard countryName="Paraguay" flag={<span>🇵🇾</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/py/departments">
               <span>Department Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
+          <CountryCard countryName="Romania" flag={<span>🇷🇴</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/ro/counties">
+              <span>County Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>

@@ -177,6 +177,16 @@
       "path": "/za/area-codes",
       "title": "South Africa Area Code Map Quiz | GeoGuessr Tools",
       "description": "Learn 36 geographic telephone codes represented on this South Africa interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/in/states",
+      "title": "India States Map Quiz | GeoGuessr Tools",
+      "description": "Learn the 28 states and six union territories represented on this India interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ro/counties",
+      "title": "Romania Counties Map Quiz | GeoGuessr Tools",
+      "description": "Learn Romania's 41 counties plus Bucharest with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }
