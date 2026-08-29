@@ -123,6 +123,10 @@ function Home() {
           </CountryCard>
 
           <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/mx/area-codes">
+              <span>Area Code Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
             <Link className={QUIZ_LINK_CLASSES} to="/mx/postal-codes">
               <span>Postal Code Quiz</span>
               <span aria-hidden="true">→</span>

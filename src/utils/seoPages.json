@@ -44,6 +44,11 @@
       "description": "Practice 401 district-level areas of Germany with a Regierungsbezirk-selectable interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/mx/area-codes",
+      "title": "Mexico Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 396 Mexican geographic telephone codes by prefix with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/mx/postal-codes",
       "title": "Mexico Postal Code Map Quiz | GeoGuessr Tools",
       "description": "Learn Mexico's two-digit postal code regions with an interactive map quiz covering codes 01 to 97."
