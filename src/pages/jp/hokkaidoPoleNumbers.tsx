@@ -1,8 +1,10 @@
 import type L from 'leaflet'
+import PoleGridOriginsLayer from '../../components/PoleGridOriginsLayer'
 import PoleNumberMap from '../../components/PoleNumberMap'
 import PoleNumberQuiz from '../../components/PoleNumberQuiz'
 import {
   getHokkaidoPoleGridGeometry,
+  getHokkaidoPoleGridOrigins,
   parseHokkaidoPoleQuestionPool,
 } from '../../utils/jp/poleNumbers'
 
@@ -10,6 +12,7 @@ const HOKKAIDO_PLAY_BOUNDS: L.LatLngBoundsExpression = [
   [41.2, 139.15],
   [45.7, 146],
 ]
+const HOKKAIDO_GRID_ORIGINS = getHokkaidoPoleGridOrigins()
 
 export default function HokkaidoPoleNumbers() {
   return (
@@ -24,7 +27,9 @@ export default function HokkaidoPoleNumbers() {
           {...props}
           bounds={HOKKAIDO_PLAY_BOUNDS}
           minZoom={5}
-        />
+        >
+          <PoleGridOriginsLayer origins={HOKKAIDO_GRID_ORIGINS} />
+        </PoleNumberMap>
       )}
       infoContent={
         <div className="space-y-4 text-justify">
@@ -36,7 +41,8 @@ export default function HokkaidoPoleNumbers() {
           <p>
             The first two digits select an approximately 80 × 80 kilometer
             block. The last two divide that block into an 8 × 8 grid, producing
-            an answer cell of roughly 10 × 10 kilometers.
+            an answer cell of roughly 10 × 10 kilometers. The optional
+            Pole-grid origins layer marks each major block&apos;s southwest corner.
           </p>
           <p>
             Place a marker, adjust it if needed, and press Submit. Accuracy is

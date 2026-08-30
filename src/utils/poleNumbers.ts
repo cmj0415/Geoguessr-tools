@@ -6,6 +6,12 @@ export type PoleGridGeometry = {
   sector: PoleCoordinates[]
 }
 
+export type PoleGridOrigin = {
+  id: string
+  label: string
+  coordinates: PoleCoordinates
+}
+
 export type PoleRoundResult = {
   guessedCoordinates: PoleCoordinates
   geometry: PoleGridGeometry

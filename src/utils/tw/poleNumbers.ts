@@ -1,5 +1,8 @@
 import proj4 from 'proj4'
-import type { PoleCoordinates, PoleGridGeometry } from '../poleNumbers'
+import type {
+  PoleGridGeometry,
+  PoleGridOrigin,
+} from '../poleNumbers'
 
 export {
   calculateAverageAccuracy,
@@ -14,12 +17,6 @@ export type { PoleCoordinates, PoleGridGeometry } from '../poleNumbers'
 export type PoleQuestionPool = {
   version: 1
   codes: string[]
-}
-
-export type PoleGridOrigin = {
-  id: string
-  label: string
-  coordinates: PoleCoordinates
 }
 
 type ProjectedPoint = readonly [easting: number, northing: number]

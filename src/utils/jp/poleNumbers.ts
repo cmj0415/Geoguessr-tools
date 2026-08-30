@@ -1,4 +1,8 @@
-import type { PoleCoordinates, PoleGridGeometry } from '../poleNumbers'
+import type {
+  PoleCoordinates,
+  PoleGridGeometry,
+  PoleGridOrigin,
+} from '../poleNumbers'
 
 export type HokkaidoPoleQuestionPool = {
   version: 1
@@ -141,4 +145,15 @@ export function getHokkaidoPoleGridGeometry(code: string): PoleGridGeometry {
     ),
     sector: toPolygon(sectorSouth, sectorWest, 2 / 3, 1),
   }
+}
+
+export function getHokkaidoPoleGridOrigins(): PoleGridOrigin[] {
+  return Array.from(HOKKAIDO_MAJOR_BLOCKS, (majorBlock) => {
+    const { south, west } = getMajorBlockOrigin(majorBlock)
+    return {
+      id: majorBlock,
+      label: `${majorBlock}00`,
+      coordinates: toWgs84(south, west),
+    }
+  })
 }
