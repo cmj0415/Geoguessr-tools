@@ -12,12 +12,12 @@ export default function TaiwanCodes() {
       infoContent={
         <div className="text-justify">
           <p>
-            Practice the 30 geographic telephone-code regions represented on
+            Practice the 31 geographic telephone-code regions represented on
             the supplied map of Taiwan.
           </p>
           <p className="mt-4">
-            Where one map region contains multiple codes separated by a slash,
-            the complete code string is treated as a single answer.
+            There are some exceptions where the actual boundary is not the ADM2 
+            boundary, but this should be comprehensive enough to learn.
           </p>
         </div>
       }
