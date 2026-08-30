@@ -12,6 +12,7 @@ import {
 import { OPEN_STREET_MAP_TILE_LAYER } from '../utils/geoJsonCodeQuiz'
 import type { Coordinates, RoundResult } from '../utils/findThePlace'
 import { formatDistance } from '../utils/findThePlace'
+import { ANSWER_MAP_PIN_ICON, GUESS_MAP_PIN_ICON } from './mapMarkerIcons'
 
 type FindThePlaceMapProps = {
   roundKey: number
@@ -36,20 +37,6 @@ function getReviewPositions(result: RoundResult) {
 
   return { answerPosition, guessPosition }
 }
-
-const GUESS_ICON = L.divIcon({
-  className: 'find-place-marker-container',
-  html: '<span class="find-place-marker find-place-marker--guess"><span></span></span>',
-  iconSize: [30, 42],
-  iconAnchor: [15, 40],
-})
-
-const ANSWER_ICON = L.divIcon({
-  className: 'find-place-marker-container',
-  html: '<span class="find-place-marker find-place-marker--answer"><span></span></span>',
-  iconSize: [30, 42],
-  iconAnchor: [15, 40],
-})
 
 function MapGuessHandler({
   enabled,
@@ -123,15 +110,17 @@ export default function FindThePlaceMap({
 
       {result && reviewPositions && (
         <>
-          <Marker position={reviewPositions.guessPosition} icon={GUESS_ICON}>
-            <Tooltip direction="top" offset={[0, -34]}>
-              Your guess
-            </Tooltip>
+          <Marker
+            position={reviewPositions.guessPosition}
+            icon={GUESS_MAP_PIN_ICON}
+          >
+            <Tooltip direction="top">Your guess</Tooltip>
           </Marker>
-          <Marker position={reviewPositions.answerPosition} icon={ANSWER_ICON}>
-            <Tooltip direction="top" offset={[0, -34]}>
-              Answer
-            </Tooltip>
+          <Marker
+            position={reviewPositions.answerPosition}
+            icon={ANSWER_MAP_PIN_ICON}
+          >
+            <Tooltip direction="top">Answer</Tooltip>
           </Marker>
           <Polyline
             positions={[

@@ -15,6 +15,7 @@ import {
 import { OPEN_STREET_MAP_TILE_LAYER } from '../utils/geoJsonCodeQuiz'
 import { formatPoleDistance, getPoleGridOrigins } from '../utils/tw/poleNumbers'
 import type { PoleCoordinates, PoleGridGeometry } from '../utils/tw/poleNumbers'
+import { ANSWER_MAP_PIN_ICON, GUESS_MAP_PIN_ICON } from './mapMarkerIcons'
 
 export type TaiwanPoleRoundResult = {
   guessedCoordinates: PoleCoordinates
@@ -37,20 +38,6 @@ const GRID_ORIGINS = getPoleGridOrigins()
 function toLatLng(coordinates: PoleCoordinates): L.LatLngTuple {
   return [coordinates[0], coordinates[1]]
 }
-
-const GUESS_ICON = L.divIcon({
-  className: 'find-place-marker-container',
-  html: '<span class="find-place-marker find-place-marker--guess"><span></span></span>',
-  iconSize: [30, 42],
-  iconAnchor: [15, 40],
-})
-
-const ANSWER_ICON = L.divIcon({
-  className: 'find-place-marker-container',
-  html: '<span class="find-place-marker find-place-marker--answer"><span></span></span>',
-  iconSize: [30, 42],
-  iconAnchor: [15, 40],
-})
 
 function GuessHandler({
   enabled,
@@ -151,10 +138,8 @@ export default function TaiwanPoleNumberMap({
       </LayersControl>
 
       {guessCoordinates && (
-        <Marker position={toLatLng(guessCoordinates)} icon={GUESS_ICON}>
-          <Tooltip direction="top" offset={[0, -34]}>
-            Your guess
-          </Tooltip>
+        <Marker position={toLatLng(guessCoordinates)} icon={GUESS_MAP_PIN_ICON}>
+          <Tooltip direction="top">Your guess</Tooltip>
         </Marker>
       )}
 
@@ -182,11 +167,9 @@ export default function TaiwanPoleNumberMap({
           />
           <Marker
             position={toLatLng(result.geometry.center)}
-            icon={ANSWER_ICON}
+            icon={ANSWER_MAP_PIN_ICON}
           >
-            <Tooltip direction="top" offset={[0, -34]}>
-              Answer
-            </Tooltip>
+            <Tooltip direction="top">Answer</Tooltip>
           </Marker>
           <Polyline
             positions={[
