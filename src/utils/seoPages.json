@@ -192,6 +192,11 @@
       "path": "/ro/counties",
       "title": "Romania Counties Map Quiz | GeoGuessr Tools",
       "description": "Learn Romania's 41 counties plus Bucharest with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/tw/pole-numbers",
+      "title": "Taiwan Pole Number Map Quiz | GeoGuessr Tools",
+      "description": "Practice Taiwan Power Company pole-number grid coordinates with an interactive map, distance feedback, and accuracy tracking."
     }
   ]
 }

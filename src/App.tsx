@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './Home'
@@ -40,6 +41,8 @@ import SouthAfricaProvinces from './pages/za/provinces'
 import SouthAfricaCodes from './pages/za/codes'
 import IndiaStates from './pages/in/states'
 import RomaniaCounties from './pages/ro/counties'
+
+const TaiwanPoleNumbers = lazy(() => import('./pages/tw/poleNumbers'))
 
 function App() {
   return (
@@ -87,6 +90,18 @@ function App() {
         <Route path="za/area-codes" element={<SouthAfricaCodes />} />
         <Route path="in/states" element={<IndiaStates />} />
         <Route path="ro/counties" element={<RomaniaCounties />} />
+        <Route
+          path="tw/pole-numbers"
+          element={
+            <Suspense
+              fallback={
+                <div className="h-dvh bg-slate-950" aria-label="Loading" />
+              }
+            >
+              <TaiwanPoleNumbers />
+            </Suspense>
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
