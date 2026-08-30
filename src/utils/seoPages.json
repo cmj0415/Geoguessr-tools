@@ -207,6 +207,16 @@
       "path": "/tw/pole-numbers",
       "title": "Taiwan Pole Number Map Quiz | GeoGuessr Tools",
       "description": "Practice Taiwan Power Company pole-number grid coordinates with an interactive map, distance feedback, and accuracy tracking."
+    },
+    {
+      "path": "/tw/counties",
+      "title": "Taiwan Counties Map Quiz | GeoGuessr Tools",
+      "description": "Learn the 22 county-level divisions represented on this interactive Taiwan map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/tw/area-codes",
+      "title": "Taiwan Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 30 geographic telephone-code regions of Taiwan with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }
