@@ -31,3 +31,7 @@ forger/out/
 forger/*.geojson
 AGENTS.md
 *.test.ts
+*.spec.ts
+scripts/*
+proposal.md
+stats.html

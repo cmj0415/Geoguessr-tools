@@ -18,7 +18,9 @@ export default function MexicoCodes() {
         <div className="text-justify">
           <p>
             Practice the 396 geographic telephone codes represented in the
-            supplied map of Mexico.
+            supplied map of Mexico. Note that this map is not meant to be 
+            100% accurate. I did my best to make it look legit, and it
+            serves as an overview of how the codes are distributed.
           </p>
           <p className="mt-4">
             Use the prefix selector to practice codes beginning with 2, 3, 4, 5,
