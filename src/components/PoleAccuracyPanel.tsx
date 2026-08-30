@@ -1,7 +1,7 @@
 import Frame from './Frame'
-import { formatPoleAccuracy } from '../utils/tw/poleNumbers'
+import { formatPoleAccuracy } from '../utils/poleNumbers'
 
-type TaiwanPoleAccuracyPanelProps = {
+type PoleAccuracyPanelProps = {
   overallAccuracy: number | null
   sessionAccuracy: number | null
   roundAccuracy: number | null
@@ -9,11 +9,11 @@ type TaiwanPoleAccuracyPanelProps = {
 
 const METRIC_LABELS = ['Overall', 'Session', 'Round'] as const
 
-export default function TaiwanPoleAccuracyPanel({
+export default function PoleAccuracyPanel({
   overallAccuracy,
   sessionAccuracy,
   roundAccuracy,
-}: TaiwanPoleAccuracyPanelProps) {
+}: PoleAccuracyPanelProps) {
   const values = [overallAccuracy, sessionAccuracy, roundAccuracy]
 
   return (

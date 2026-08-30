@@ -7,6 +7,7 @@ import IndonesiaRegencies from './pages/id/regencies'
 import PhilippinesProvinces from './pages/ph/provinces'
 import BrazilCodes from './pages/br/codes'
 import JapanPrefectures from './pages/jp/prefectures'
+import JapanCodes from './pages/jp/codes'
 import Bengali from './pages/bd/bengali'
 import MexicoCodes from './pages/mx/codes'
 import MexicoPostalCodes from './pages/mx/postalCodes'
@@ -43,6 +44,9 @@ import IndiaStates from './pages/in/states'
 import RomaniaCounties from './pages/ro/counties'
 
 const TaiwanPoleNumbers = lazy(() => import('./pages/tw/poleNumbers'))
+const HokkaidoPoleNumbers = lazy(
+  () => import('./pages/jp/hokkaidoPoleNumbers')
+)
 
 function App() {
   return (
@@ -54,6 +58,19 @@ function App() {
         <Route path="us/area-codes" element={<USCodes />} />
         <Route path="id/regencies" element={<IndonesiaRegencies />} />
         <Route path="/jp/prefectures" element={<JapanPrefectures />} />
+        <Route path="/jp/area-codes" element={<JapanCodes />} />
+        <Route
+          path="/jp/hokkaido-pole-numbers"
+          element={
+            <Suspense
+              fallback={
+                <div className="h-dvh bg-slate-950" aria-label="Loading" />
+              }
+            >
+              <HokkaidoPoleNumbers />
+            </Suspense>
+          }
+        />
         <Route path="/ph/provinces" element={<PhilippinesProvinces />} />
         <Route path="br/area-codes" element={<BrazilCodes />} />
         <Route path="bd/bengali" element={<Bengali />} />

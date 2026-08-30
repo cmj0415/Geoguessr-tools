@@ -74,6 +74,16 @@
       "description": "Learn all 47 Japanese prefectures with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/jp/area-codes",
+      "title": "Japan Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 59 geographic telephone area-code regions of Japan with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/jp/hokkaido-pole-numbers",
+      "title": "Hokkaido Pole Number Map Quiz | GeoGuessr Tools",
+      "description": "Practice locating Hokkaido Electric Power pole-number grid cells with an interactive map, distance feedback, and accuracy tracking."
+    },
+    {
       "path": "/ph/provinces",
       "title": "Philippines Provinces Map Quiz | GeoGuessr Tools",
       "description": "Practice identifying Philippine provinces across Luzon, Visayas, and Mindanao with an interactive map quiz."

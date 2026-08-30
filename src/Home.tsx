@@ -120,6 +120,17 @@ function Home() {
               <span>Prefecture Quiz</span>
               <span aria-hidden="true">→</span>
             </Link>
+            <Link className={QUIZ_LINK_CLASSES} to="/jp/area-codes">
+              <span>Area Code Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+            <Link
+              className={QUIZ_LINK_CLASSES}
+              to="/jp/hokkaido-pole-numbers"
+            >
+              <span>Hokkaido Pole Number Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
           </CountryCard>
 
           <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
