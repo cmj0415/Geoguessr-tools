@@ -42,6 +42,7 @@ import SouthAfricaProvinces from './pages/za/provinces'
 import SouthAfricaCodes from './pages/za/codes'
 import IndiaStates from './pages/in/states'
 import RomaniaCounties from './pages/ro/counties'
+import ThailandCodes from './pages/th/codes'
 import TaiwanCounties from './pages/tw/counties'
 import TaiwanCodes from './pages/tw/codes'
 
@@ -109,6 +110,7 @@ function App() {
         <Route path="za/area-codes" element={<SouthAfricaCodes />} />
         <Route path="in/states" element={<IndiaStates />} />
         <Route path="ro/counties" element={<RomaniaCounties />} />
+        <Route path="th/area-codes" element={<ThailandCodes />} />
         <Route path="tw/counties" element={<TaiwanCounties />} />
         <Route path="tw/area-codes" element={<TaiwanCodes />} />
         <Route

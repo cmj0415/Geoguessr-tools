@@ -209,6 +209,11 @@
       "description": "Practice Taiwan Power Company pole-number grid coordinates with an interactive map, distance feedback, and accuracy tracking."
     },
     {
+      "path": "/th/area-codes",
+      "title": "Thailand Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 21 geographic telephone area-code regions of Thailand with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/tw/counties",
       "title": "Taiwan Counties Map Quiz | GeoGuessr Tools",
       "description": "Learn the 22 county-level divisions represented on this interactive Taiwan map quiz for geography and GeoGuessr practice."
