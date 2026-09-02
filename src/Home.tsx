@@ -133,6 +133,17 @@ function Home() {
             </Link>
           </CountryCard>
 
+          <CountryCard countryName="Kenya" flag={<span>🇰🇪</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/ke/counties">
+              <span>County Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+            <Link className={QUIZ_LINK_CLASSES} to="/ke/postal-codes">
+              <span>Postal Code Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
+
           <CountryCard countryName="Mexico" flag={<span>🇲🇽</span>}>
             <Link className={QUIZ_LINK_CLASSES} to="/mx/area-codes">
               <span>Area Code Quiz</span>

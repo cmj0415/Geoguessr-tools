@@ -8,6 +8,8 @@ import PhilippinesProvinces from './pages/ph/provinces'
 import BrazilCodes from './pages/br/codes'
 import JapanPrefectures from './pages/jp/prefectures'
 import JapanCodes from './pages/jp/codes'
+import KenyaCounties from './pages/ke/counties'
+import KenyaPostalCodes from './pages/ke/postalCodes'
 import Bengali from './pages/bd/bengali'
 import MexicoCodes from './pages/mx/codes'
 import MexicoPostalCodes from './pages/mx/postalCodes'
@@ -64,6 +66,8 @@ function App() {
         <Route path="id/regencies" element={<IndonesiaRegencies />} />
         <Route path="/jp/prefectures" element={<JapanPrefectures />} />
         <Route path="/jp/area-codes" element={<JapanCodes />} />
+        <Route path="/ke/counties" element={<KenyaCounties />} />
+        <Route path="/ke/postal-codes" element={<KenyaPostalCodes />} />
         <Route
           path="/jp/hokkaido-pole-numbers"
           element={

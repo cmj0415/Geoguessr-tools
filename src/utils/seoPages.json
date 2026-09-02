@@ -74,6 +74,16 @@
       "description": "Learn all 47 Japanese prefectures with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/ke/counties",
+      "title": "Kenya Counties Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 47 counties of Kenya with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ke/postal-codes",
+      "title": "Kenya Postal Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 43 postal-code regions of Kenya with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/jp/area-codes",
       "title": "Japan Area Code Map Quiz | GeoGuessr Tools",
       "description": "Learn 59 geographic telephone area-code regions of Japan with an interactive map quiz for geography and GeoGuessr practice."
