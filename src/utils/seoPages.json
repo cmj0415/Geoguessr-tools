@@ -214,6 +214,16 @@
       "description": "Learn 21 geographic telephone area-code regions of Thailand with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/th/province-abbreviations",
+      "title": "Thailand Province Abbreviation Map Quiz | GeoGuessr Tools",
+      "description": "Learn the Thai-script abbreviations for Thailand's 76 provinces with an interactive map quiz and script guide for GeoGuessr practice."
+    },
+    {
+      "path": "/th/provinces",
+      "title": "Thailand Provinces Map Quiz | GeoGuessr Tools",
+      "description": "Learn the English full names of Thailand's 76 provinces and Bangkok with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/tw/counties",
       "title": "Taiwan Counties Map Quiz | GeoGuessr Tools",
       "description": "Learn the 22 county-level divisions represented on this interactive Taiwan map quiz for geography and GeoGuessr practice."

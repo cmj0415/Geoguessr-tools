@@ -79,14 +79,14 @@ export const TH_PROVINCE_ABBREVIATIONS = [
   { id: 'Yasothon Province', label: 'ยส' },
 ]
 
-const TH_PROVINCE_IDS = new Set<string>(
+const TH_PROVINCE_ABBREVIATION_IDS = new Set<string>(
   TH_PROVINCE_ABBREVIATIONS.map((province) => province.id)
 )
 
-export function getThailandProvinceIds(feature: unknown) {
+export function getThailandProvinceAbbreviationIds(feature: unknown) {
   const rawProvince = getFeatureProperties(feature)?.shapeName
   if (typeof rawProvince !== 'string') return []
 
   const province = rawProvince.trim()
-  return TH_PROVINCE_IDS.has(province) ? [province] : []
+  return TH_PROVINCE_ABBREVIATION_IDS.has(province) ? [province] : []
 }

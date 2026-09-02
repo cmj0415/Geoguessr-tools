@@ -239,6 +239,14 @@ function Home() {
           </CountryCard>
 
           <CountryCard countryName="Thailand" flag={<span>🇹🇭</span>}>
+            <Link className={QUIZ_LINK_CLASSES} to="/th/province-abbreviations">
+              <span>Province Quiz (Thai abbreviation)</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+            <Link className={QUIZ_LINK_CLASSES} to="/th/provinces">
+              <span>Province Quiz (English full name)</span>
+              <span aria-hidden="true">→</span>
+            </Link>
             <Link className={QUIZ_LINK_CLASSES} to="/th/area-codes">
               <span>Area Code Quiz</span>
               <span aria-hidden="true">→</span>
