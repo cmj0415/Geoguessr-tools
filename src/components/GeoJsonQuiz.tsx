@@ -54,6 +54,7 @@ type GeoJsonQuizProps = {
   getFeatureIds: (feature: unknown) => string[]
   map: GeoJsonQuizMapConfiguration
   selector?: ReactElement<GeoJsonQuizSelectorProps>
+  headerActions?: ReactNode
   emptyQuestion: string
   loadErrorMessage: string
 }
@@ -69,6 +70,7 @@ export default function GeoJsonQuiz({
   getFeatureIds,
   map,
   selector,
+  headerActions,
   emptyQuestion,
   loadErrorMessage,
 }: GeoJsonQuizProps) {
@@ -299,6 +301,7 @@ export default function GeoJsonQuiz({
         title={title}
         question={mode === 'quiz' ? (question?.label ?? emptyQuestion) : null}
         controls={controls}
+        headerActions={headerActions}
         isInfoOpen={isInfoOpen}
         onInfoClick={() => setIsInfoOpen(true)}
       >

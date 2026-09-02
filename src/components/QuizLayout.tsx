@@ -1,12 +1,13 @@
 import type { ReactNode } from 'react'
 import InfoButton from './InfoButton'
-import NavBar from './NavBar'
+import QuizHeader from './QuizHeader'
 import QuestionCard from './QuestionCard'
 
 type QuizLayoutProps = {
   title: string
   question: string | null
   controls?: ReactNode
+  headerActions?: ReactNode
   isInfoOpen: boolean
   onInfoClick: () => void
   children: ReactNode
@@ -16,6 +17,7 @@ export default function QuizLayout({
   title,
   question,
   controls,
+  headerActions,
   isInfoOpen,
   onInfoClick,
   children,
@@ -27,17 +29,15 @@ export default function QuizLayout({
       <div className="pointer-events-none absolute -left-24 -top-28 h-80 w-80 rounded-full bg-emerald-500/15 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 -right-20 h-96 w-96 rounded-full bg-rose-500/10 blur-3xl" />
 
-      <header className="relative z-[1200] shrink-0 border-b border-white/10 bg-slate-950/60 backdrop-blur">
-        <div className="mx-auto flex items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
-          <NavBar />
-          <div className="flex min-w-0 items-center gap-3 text-right">
-            <h1 className="truncate text-base font-bold text-white sm:text-lg">
-              {title}
-            </h1>
+      <QuizHeader
+        title={title}
+        actions={
+          <>
+            {headerActions}
             <InfoButton active={isInfoOpen} onClick={onInfoClick} />
-          </div>
-        </div>
-      </header>
+          </>
+        }
+      />
       <main className="relative min-h-0 flex-1 p-3 sm:p-6">
         {controls && (
           <div className="absolute right-5 top-5 z-[1100] sm:right-9 sm:top-9">

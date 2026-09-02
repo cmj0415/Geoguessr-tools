@@ -27,6 +27,7 @@ type GeoJsonRegionQuizProps = {
   items: GeoJsonRegionQuizItem[]
   getFeatureIds: (feature: unknown) => string[]
   selector?: RegionSelectorConfiguration
+  headerActions?: ReactNode
   map: GeoJsonQuizMapConfiguration
   emptyQuestion?: string
   loadErrorMessage?: string
@@ -73,6 +74,7 @@ export default function GeoJsonRegionQuiz({
   items,
   getFeatureIds,
   selector,
+  headerActions,
   map,
   emptyQuestion = selector ? 'Select regions to begin' : 'No regions available',
   loadErrorMessage = 'Unable to load the region map.',
@@ -94,6 +96,7 @@ export default function GeoJsonRegionQuiz({
       items={items}
       getFeatureIds={getFeatureIds}
       map={map}
+      headerActions={headerActions}
       selector={
         selector ? (
           <RegionQuizSelector

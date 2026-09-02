@@ -12,7 +12,10 @@ import type {
   ScriptReference,
   TranslationPracticeEntry,
 } from '../utils/translationPractice'
-import NavBar from './NavBar'
+import QuizHeader, {
+  QuizHeaderActionButton,
+  QuizHeaderBadge,
+} from './QuizHeader'
 import ScriptReferencePanel from './ScriptReferencePanel'
 import TranslationExplanation from './TranslationExplanation'
 
@@ -119,36 +122,28 @@ export default function TranslationPractice({
       <div className="pointer-events-none absolute -left-24 -top-28 h-80 w-80 rounded-full bg-emerald-500/15 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 -right-20 h-96 w-96 rounded-full bg-rose-500/10 blur-3xl" />
 
-      <header className="relative z-[1200] shrink-0 border-b border-white/10 bg-slate-950/60 backdrop-blur">
-        <div className="mx-auto flex items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
-          <NavBar />
-          <div className="flex min-w-0 items-center gap-2 text-right sm:gap-3">
-            <h1 className="truncate text-base font-bold text-white sm:text-lg">
-              {title}
-            </h1>
-            <span
-              aria-label={`${entries.length} ${itemCountLabel}`}
-              className="hidden h-10 items-center rounded-xl border border-white/10 bg-white/5 px-3 text-xs font-semibold text-slate-400 sm:inline-flex"
-            >
+      <QuizHeader
+        title={title}
+        actions={
+          <>
+            <QuizHeaderBadge ariaLabel={`${entries.length} ${itemCountLabel}`}>
               {entries.length} {itemCountLabel}
-            </span>
+            </QuizHeaderBadge>
             {scriptReference && (
-              <ActionButton
+              <QuizHeaderActionButton
                 buttonRef={referenceButtonRef}
                 aria-controls={referencePanelId}
                 aria-expanded={isReferenceOpen}
                 aria-haspopup="dialog"
-                variant="secondary"
                 type="button"
-                className="min-h-10 shrink-0 px-3 py-2 text-xs sm:text-sm"
                 onClick={() => setIsReferenceOpen(true)}
               >
                 Script guide
-              </ActionButton>
+              </QuizHeaderActionButton>
             )}
-          </div>
-        </div>
-      </header>
+          </>
+        }
+      />
 
       <main className="relative mx-auto flex max-w-5xl flex-col gap-5 px-4 py-6 sm:px-6 sm:py-10">
         {!entry ? (
