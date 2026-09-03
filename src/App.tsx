@@ -49,6 +49,9 @@ import ThailandProvinceAbbreviations from './pages/th/provinceAbbreviations'
 import ThailandProvinces from './pages/th/provinces'
 import TaiwanCounties from './pages/tw/counties'
 import TaiwanCodes from './pages/tw/codes'
+import VietnamCodes from './pages/vn/codes'
+import VietnamProvincesPost2025 from './pages/vn/provincesPost2025'
+import VietnamProvincesPre2025 from './pages/vn/provincesPre2025'
 
 const TaiwanPoleNumbers = lazy(() => import('./pages/tw/poleNumbers'))
 const HokkaidoPoleNumbers = lazy(
@@ -124,6 +127,15 @@ function App() {
         />
         <Route path="tw/counties" element={<TaiwanCounties />} />
         <Route path="tw/area-codes" element={<TaiwanCodes />} />
+        <Route path="vn/area-codes" element={<VietnamCodes />} />
+        <Route
+          path="vn/provinces-post-2025"
+          element={<VietnamProvincesPost2025 />}
+        />
+        <Route
+          path="vn/provinces-pre-2025"
+          element={<VietnamProvincesPre2025 />}
+        />
         <Route
           path="tw/pole-numbers"
           element={

@@ -242,6 +242,21 @@
       "path": "/tw/area-codes",
       "title": "Taiwan Area Code Map Quiz | GeoGuessr Tools",
       "description": "Learn 30 geographic telephone-code regions of Taiwan with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/vn/provinces-post-2025",
+      "title": "Vietnam Provinces Map Quiz (Post 2025) | GeoGuessr Tools",
+      "description": "Learn Vietnam's 34 post-2025 province-level administrative units with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/vn/provinces-pre-2025",
+      "title": "Vietnam Provinces Map Quiz (Pre 2025) | GeoGuessr Tools",
+      "description": "Learn Vietnam's 63 pre-2025 province-level administrative units with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/vn/area-codes",
+      "title": "Vietnam Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn 63 geographic telephone area-code regions of Vietnam with an interactive map quiz for geography and GeoGuessr practice."
     }
   ]
 }

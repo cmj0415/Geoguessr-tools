@@ -292,6 +292,27 @@ function Home() {
               <span aria-hidden="true">→</span>
             </Link>
           </CountryCard>
+
+          <CountryCard countryName="Vietnam" flag={<span>🇻🇳</span>}>
+            <Link
+              className={QUIZ_LINK_CLASSES}
+              to="/vn/provinces-post-2025"
+            >
+              <span>Province Quiz (Post 2025)</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+            <Link
+              className={QUIZ_LINK_CLASSES}
+              to="/vn/provinces-pre-2025"
+            >
+              <span>Province Quiz (Pre 2025)</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+            <Link className={QUIZ_LINK_CLASSES} to="/vn/area-codes">
+              <span>Area Code Quiz</span>
+              <span aria-hidden="true">→</span>
+            </Link>
+          </CountryCard>
         </div>
       </main>
       <Link
