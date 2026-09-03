@@ -25,7 +25,7 @@ export default function PhilippinesProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/phprovince.geojson"
+      geoJsonUrl="/country_specific/ph/phprovince.geojson"
       items={PH_PROVINCES}
       getFeatureIds={getPhilippinesProvinceIds}
       selector={{

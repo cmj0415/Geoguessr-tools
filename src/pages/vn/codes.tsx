@@ -14,7 +14,7 @@ export default function VietnamCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/vnprovince_old.geojson"
+      geoJsonUrl="/country_specific/vn/vnprovince_old.geojson"
       items={VN_AREA_CODES}
       getFeatureIds={getVietnamAreaCodeIds}
       map={{

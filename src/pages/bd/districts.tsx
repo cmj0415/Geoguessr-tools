@@ -23,7 +23,7 @@ export default function BangladeshDistricts() {
           </p>
         </div>
       }
-      geoJsonUrl="/bddistrict.geojson"
+      geoJsonUrl="/country_specific/bd/bddistrict.geojson"
       items={BD_DISTRICTS}
       getFeatureIds={getBangladeshDistrictIds}
       selector={{

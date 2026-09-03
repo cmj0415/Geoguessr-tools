@@ -14,7 +14,7 @@ export default function UruguayDepartments() {
           <p>Practice all 19 departments of Uruguay.</p>
         </div>
       }
-      geoJsonUrl="/uydepartment.geojson"
+      geoJsonUrl="/country_specific/uy/uydepartment.geojson"
       items={UY_DEPARTMENTS}
       getFeatureIds={getUruguayDepartmentIds}
       map={{

@@ -19,7 +19,7 @@ export default function HokkaidoPoleNumbers() {
     <PoleNumberQuiz
       title="Hokkaido Pole Number Quiz"
       infoTitle="Hokkaido Pole Numbers"
-      poolUrl="/jp-hokkaido-pole-number/cells.json"
+      poolUrl="/country_specific/jp/jp-hokkaido-pole-number/cells.json"
       parsePool={parseHokkaidoPoleQuestionPool}
       getGeometry={getHokkaidoPoleGridGeometry}
       renderMap={(props) => (

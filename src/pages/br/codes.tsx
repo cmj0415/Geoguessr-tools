@@ -16,7 +16,7 @@ export default function BrazilCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/brazil_ddd.geojson"
+      geoJsonUrl="/country_specific/br/brazil_ddd.geojson"
       availableCodes={BR_AVAILABLE_CODES}
       getFeatureCodes={getBrazilFeatureCodes}
       range={{

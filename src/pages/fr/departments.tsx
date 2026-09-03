@@ -21,7 +21,7 @@ export default function FranceDepartments() {
           </p>
         </div>
       }
-      geoJsonUrl="/frdepartment.geojson"
+      geoJsonUrl="/country_specific/fr/frdepartment.geojson"
       items={FR_DEPARTMENTS}
       getFeatureIds={getFranceDepartmentIds}
       map={{

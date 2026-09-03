@@ -11,7 +11,7 @@ export default function KenyaCounties() {
           <p>Practice the 47 counties represented on this map of Kenya.</p>
         </div>
       }
-      geoJsonUrl="/kecounty.geojson"
+      geoJsonUrl="/country_specific/ke/kecounty.geojson"
       items={KE_COUNTIES}
       getFeatureIds={getKenyaCountyIds}
       map={{

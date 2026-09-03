@@ -18,7 +18,7 @@ export default function TurkeyProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/trprovince.geojson"
+      geoJsonUrl="/country_specific/tr/trprovince.geojson"
       items={TR_PROVINCES}
       getFeatureIds={getTurkeyProvinceIds}
       map={{

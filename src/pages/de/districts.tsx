@@ -23,7 +23,7 @@ export default function GermanyDistricts() {
           </p>
         </div>
       }
-      geoJsonUrl="/dedistrict.geojson"
+      geoJsonUrl="/country_specific/de/dedistrict.geojson"
       items={DE_DISTRICTS}
       getFeatureIds={getGermanyDistrictIds}
       selector={{

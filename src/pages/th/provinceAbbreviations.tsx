@@ -48,7 +48,7 @@ export default function ThailandProvinceAbbreviations() {
             </p>
           </div>
         }
-        geoJsonUrl="/thprovince.geojson"
+        geoJsonUrl="/country_specific/th/thprovince.geojson"
         items={TH_PROVINCE_ABBREVIATIONS}
         getFeatureIds={getThailandProvinceAbbreviationIds}
         headerActions={

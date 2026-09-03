@@ -11,7 +11,7 @@ export default function RomaniaCounties() {
           <p>Practice Romania&apos;s 41 counties plus Bucharest.</p>
         </div>
       }
-      geoJsonUrl="/rocounty.geojson"
+      geoJsonUrl="/country_specific/ro/rocounty.geojson"
       items={RO_COUNTIES}
       getFeatureIds={getRomaniaCountyIds}
       map={{

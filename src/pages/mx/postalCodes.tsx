@@ -21,7 +21,7 @@ export default function MexicoPostalCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/mxzip.geojson"
+      geoJsonUrl="/country_specific/mx/mxzip.geojson"
       availableCodes={MX_POSTAL_CODES}
       getFeatureCodes={getMexicoPostalFeatureCodes}
       range={{

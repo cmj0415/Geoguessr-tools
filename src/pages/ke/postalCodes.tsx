@@ -17,7 +17,7 @@ export default function KenyaPostalCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/kecode.geojson"
+      geoJsonUrl="/country_specific/ke/kecode.geojson"
       items={KE_POSTAL_CODE_ITEMS}
       getFeatureIds={getKenyaPostalCodeIds}
       map={{

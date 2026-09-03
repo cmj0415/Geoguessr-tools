@@ -15,7 +15,7 @@ export default function TaiwanCounties() {
           </p>
         </div>
       }
-      geoJsonUrl="/twcounty.geojson"
+      geoJsonUrl="/country_specific/tw/twcounty.geojson"
       items={TW_COUNTIES}
       getFeatureIds={getTaiwanCountyIds}
       map={{

@@ -20,7 +20,7 @@ export default function RussiaFederalSubjects() {
           </p>
         </div>
       }
-      geoJsonUrl="/rufedsubject.geojson"
+      geoJsonUrl="/country_specific/ru/rufedsubject.geojson"
       items={RU_FEDERAL_SUBJECTS}
       getFeatureIds={getRussiaFederalSubjectIds}
       map={{

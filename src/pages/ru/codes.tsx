@@ -27,7 +27,7 @@ export default function RussiaCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/rufedsubject.geojson"
+      geoJsonUrl="/country_specific/ru/rufedsubject.geojson"
       items={RU_AREA_CODES}
       getFeatureIds={getRussiaFeatureCodes}
       selector={{

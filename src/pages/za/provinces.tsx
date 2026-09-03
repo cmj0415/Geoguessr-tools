@@ -14,7 +14,7 @@ export default function SouthAfricaProvinces() {
           <p>Practice all nine provinces of South Africa.</p>
         </div>
       }
-      geoJsonUrl="/zaprovince.geojson"
+      geoJsonUrl="/country_specific/za/zaprovince.geojson"
       items={ZA_PROVINCES}
       getFeatureIds={getSouthAfricaProvinceIds}
       map={{

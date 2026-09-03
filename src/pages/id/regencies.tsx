@@ -70,7 +70,7 @@ export default function IndonesiaRegencies() {
           </p>
         </div>
       }
-      geoJsonUrl="/idkabupaten.geojson"
+      geoJsonUrl="/country_specific/id/idkabupaten.geojson"
       items={ID_REGENCIES}
       getFeatureIds={getIndonesiaRegencyIds}
       selector={{

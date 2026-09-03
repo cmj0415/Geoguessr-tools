@@ -45,7 +45,7 @@ export default function SouthAfricaCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/zacode.geojson"
+      geoJsonUrl="/country_specific/za/zacode.geojson"
       items={ZA_AREA_CODES}
       getFeatureIds={getSouthAfricaFeatureCodes}
       map={{

@@ -15,7 +15,7 @@ export default function PeruProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/peprovince.geojson"
+      geoJsonUrl="/country_specific/pe/peprovince.geojson"
       items={PE_PROVINCES}
       getFeatureIds={getPeruProvinceIds}
       map={{

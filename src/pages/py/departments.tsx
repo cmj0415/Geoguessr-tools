@@ -17,7 +17,7 @@ export default function ParaguayDepartments() {
           </p>
         </div>
       }
-      geoJsonUrl="/pydepartment.geojson"
+      geoJsonUrl="/country_specific/py/pydepartment.geojson"
       items={PY_DEPARTMENTS}
       getFeatureIds={getParaguayDepartmentIds}
       map={{

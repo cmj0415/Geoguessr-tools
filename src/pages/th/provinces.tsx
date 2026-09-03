@@ -17,7 +17,7 @@ export default function ThailandProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/thprovince.geojson"
+      geoJsonUrl="/country_specific/th/thprovince.geojson"
       items={TH_PROVINCES}
       getFeatureIds={getThailandProvinceIds}
       map={{

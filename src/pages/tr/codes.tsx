@@ -26,7 +26,7 @@ export default function TurkeyCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/trprovince.geojson"
+      geoJsonUrl="/country_specific/tr/trprovince.geojson"
       items={TR_AREA_CODES}
       getFeatureIds={getTurkeyFeatureCodes}
       selector={{

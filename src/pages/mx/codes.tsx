@@ -28,7 +28,7 @@ export default function MexicoCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/mxcode.geojson"
+      geoJsonUrl="/country_specific/mx/mxcode.geojson"
       items={MX_AREA_CODES}
       getFeatureIds={getMexicoFeatureCodes}
       selector={{

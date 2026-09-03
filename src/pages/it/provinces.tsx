@@ -27,7 +27,7 @@ export default function ItalyProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/itprovince.geojson"
+      geoJsonUrl="/country_specific/it/itprovince.geojson"
       items={IT_PROVINCES}
       getFeatureIds={getItalyProvinceIds}
       selector={{

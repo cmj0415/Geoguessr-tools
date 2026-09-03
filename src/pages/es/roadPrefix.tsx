@@ -17,7 +17,7 @@ export default function SpainProvincialRoadPrefixes() {
           </p>
         </div>
       }
-      geoJsonUrl="/esprovince.geojson"
+      geoJsonUrl="/country_specific/es/esprovince.geojson"
       items={ES_PROVINCIAL_ROAD_PREFIXES}
       getFeatureIds={getSpainProvincialRoadPrefixIds}
       map={{

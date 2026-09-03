@@ -15,7 +15,7 @@ export default function ChileRegions() {
           </p>
         </div>
       }
-      geoJsonUrl="/clregion.geojson"
+      geoJsonUrl="/country_specific/cl/clregion.geojson"
       items={CL_REGIONS}
       getFeatureIds={getChileRegionIds}
       map={{

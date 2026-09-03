@@ -21,7 +21,7 @@ export default function EcuadorProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/ecprovince.geojson"
+      geoJsonUrl="/country_specific/ec/ecprovince.geojson"
       items={EC_PROVINCES}
       getFeatureIds={getEcuadorProvinceIds}
       map={{

@@ -18,7 +18,7 @@ export default function NigeriaStates() {
           </p>
         </div>
       }
-      geoJsonUrl="/ngstates.geojson"
+      geoJsonUrl="/country_specific/ng/ngstates.geojson"
       items={NG_STATES}
       getFeatureIds={getNigeriaStateIds}
       map={{

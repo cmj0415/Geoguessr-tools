@@ -17,7 +17,7 @@ export default function ThailandCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/thcode.geojson"
+      geoJsonUrl="/country_specific/th/thcode.geojson"
       items={TH_AREA_CODES}
       getFeatureIds={getThailandFeatureCodes}
       map={{

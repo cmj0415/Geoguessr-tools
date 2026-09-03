@@ -26,7 +26,7 @@ export default function SpainCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/esprovince.geojson"
+      geoJsonUrl="/country_specific/es/esprovince.geojson"
       items={ES_AREA_CODES}
       getFeatureIds={getSpainFeatureCodes}
       selector={{

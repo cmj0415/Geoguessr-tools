@@ -20,7 +20,7 @@ export default function TurkeyDistricts() {
           </p>
         </div>
       }
-      geoJsonUrl="/trdistrict.geojson"
+      geoJsonUrl="/country_specific/tr/trdistrict.geojson"
       items={TR_DISTRICTS}
       getFeatureIds={getTurkeyDistrictIds}
       selector={{

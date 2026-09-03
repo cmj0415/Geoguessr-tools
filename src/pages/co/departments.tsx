@@ -17,7 +17,7 @@ export default function ColombiaDepartments() {
           </p>
         </div>
       }
-      geoJsonUrl="/codepartment.geojson"
+      geoJsonUrl="/country_specific/co/codepartment.geojson"
       items={CO_DEPARTMENTS}
       getFeatureIds={getColombiaDepartmentIds}
       map={{

@@ -14,7 +14,7 @@ export default function IndiaStates() {
           </p>
         </div>
       }
-      geoJsonUrl="/instate.geojson"
+      geoJsonUrl="/country_specific/in/instate.geojson"
       items={IN_STATES}
       getFeatureIds={getIndiaStateIds}
       map={{

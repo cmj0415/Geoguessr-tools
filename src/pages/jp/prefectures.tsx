@@ -27,7 +27,7 @@ export default function JapanPrefecture() {
           </p>
         </div>
       }
-      geoJsonUrl="/jpprefecture.geojson"
+      geoJsonUrl="/country_specific/jp/jpprefecture.geojson"
       items={JP_PREFECTURES}
       getFeatureIds={getJapanPrefectureIds}
       selector={{

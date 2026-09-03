@@ -17,7 +17,7 @@ export default function SpainProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/esprovince.geojson"
+      geoJsonUrl="/country_specific/es/esprovince.geojson"
       items={ES_PROVINCES}
       getFeatureIds={getSpainProvinceIds}
       map={{

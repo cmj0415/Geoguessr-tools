@@ -17,7 +17,7 @@ export default function VietnamProvincesPre2025() {
           </p>
         </div>
       }
-      geoJsonUrl="/vnprovince_old.geojson"
+      geoJsonUrl="/country_specific/vn/vnprovince_old.geojson"
       items={VN_PRE_2025_PROVINCES}
       getFeatureIds={getVietnamPre2025ProvinceIds}
       map={{

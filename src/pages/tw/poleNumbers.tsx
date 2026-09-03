@@ -10,7 +10,7 @@ export default function TaiwanPoleNumbers() {
     <PoleNumberQuiz
       title="Taiwan Pole Number Quiz"
       infoTitle="Taiwan Pole Numbers"
-      poolUrl="/tw-pole-number/cells.json"
+      poolUrl="/country_specific/tw/tw-pole-number/cells.json"
       parsePool={parsePoleQuestionPool}
       getGeometry={getPoleGridGeometry}
       renderMap={(props) => <TaiwanPoleNumberMap {...props} />}

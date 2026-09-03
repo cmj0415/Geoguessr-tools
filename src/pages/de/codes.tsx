@@ -19,7 +19,7 @@ export default function GermanyCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/decode.geojson"
+      geoJsonUrl="/country_specific/de/decode.geojson"
       availableCodes={DE_AVAILABLE_CODES}
       getFeatureCodes={getGermanyFeatureCodes}
       range={{

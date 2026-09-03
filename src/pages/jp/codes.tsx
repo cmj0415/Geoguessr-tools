@@ -18,7 +18,7 @@ export default function JapanCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/jpcode.geojson"
+      geoJsonUrl="/country_specific/jp/jpcode.geojson"
       items={JP_AREA_CODES}
       getFeatureIds={getJapanFeatureCodes}
       map={{

@@ -17,7 +17,7 @@ export default function ArgentinaProvinces() {
           </p>
         </div>
       }
-      geoJsonUrl="/arprovince.geojson"
+      geoJsonUrl="/country_specific/ar/arprovince.geojson"
       items={AR_PROVINCES}
       getFeatureIds={getArgentinaProvinceIds}
       map={{

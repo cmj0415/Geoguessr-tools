@@ -19,7 +19,7 @@ export default function USCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/uscode.geojson"
+      geoJsonUrl="/country_specific/us/uscode.geojson"
       availableCodes={US_AVAILABLE_CODES}
       getFeatureCodes={getUsFeatureCodes}
       range={{

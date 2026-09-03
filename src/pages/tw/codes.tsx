@@ -21,7 +21,7 @@ export default function TaiwanCodes() {
           </p>
         </div>
       }
-      geoJsonUrl="/twcode.geojson"
+      geoJsonUrl="/country_specific/tw/twcode.geojson"
       items={TW_AREA_CODES}
       getFeatureIds={getTaiwanFeatureCodes}
       map={{

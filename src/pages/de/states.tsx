@@ -11,7 +11,7 @@ export default function GermanyStates() {
           <p>Practice all 16 federal states of Germany.</p>
         </div>
       }
-      geoJsonUrl="/destate.geojson"
+      geoJsonUrl="/country_specific/de/destate.geojson"
       items={DE_STATES}
       getFeatureIds={getGermanyStateIds}
       map={{
