@@ -110,6 +110,11 @@ const COUNTRY_QUIZ_GROUPS: CountryQuizGroup[] = [
     ],
   },
   {
+    countryName: 'New Zealand',
+    flag: '🇳🇿',
+    quizzes: [{ label: 'Region Quiz', to: '/nz/regions' }],
+  },
+  {
     countryName: 'Nigeria',
     flag: '🇳🇬',
     quizzes: [{ label: 'State Quiz', to: '/ng/states' }],

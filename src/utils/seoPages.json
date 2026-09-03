@@ -54,6 +54,11 @@
       "description": "Learn Mexico's two-digit postal code regions with an interactive map quiz covering codes 01 to 97."
     },
     {
+      "path": "/nz/regions",
+      "title": "New Zealand Regions Map Quiz | GeoGuessr Tools",
+      "description": "Learn all 16 regions of New Zealand with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/ng/states",
       "title": "Nigeria States Map Quiz | GeoGuessr Tools",
       "description": "Learn Nigeria's 36 states and Abuja with an interactive map quiz for geography and GeoGuessr practice."

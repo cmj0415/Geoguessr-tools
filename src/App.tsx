@@ -17,6 +17,7 @@ import Russian from './pages/ru/russian'
 import PageMetadata from './components/PageMetadata'
 import NotFound from './pages/NotFound'
 import NigeriaStates from './pages/ng/states'
+import NewZealandRegions from './pages/nz/regions'
 import FranceDepartments from './pages/fr/departments'
 import BangladeshDistricts from './pages/bd/districts'
 import GermanyCodes from './pages/de/codes'
@@ -95,6 +96,7 @@ function App() {
         <Route path="mx/area-codes" element={<MexicoCodes />} />
         <Route path="mx/postal-codes" element={<MexicoPostalCodes />} />
         <Route path="ng/states" element={<NigeriaStates />} />
+        <Route path="nz/regions" element={<NewZealandRegions />} />
         <Route path="ru/area-codes" element={<RussiaCodes />} />
         <Route path="ru/federal-subjects" element={<RussiaFederalSubjects />} />
         <Route path="ru/russian" element={<Russian />} />
