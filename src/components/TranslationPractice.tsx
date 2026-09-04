@@ -1,9 +1,5 @@
 import { useCallback, useId, useRef, useState } from 'react'
-import type {
-  ButtonHTMLAttributes,
-  Ref,
-  SubmitEvent as ReactSubmitEvent,
-} from 'react'
+import type { SubmitEvent as ReactSubmitEvent } from 'react'
 import {
   normalizeTranslationAnswer,
   pickNextTranslationIndex,
@@ -16,17 +12,11 @@ import QuizHeader, {
   QuizHeaderActionButton,
   QuizHeaderBadge,
 } from './QuizHeader'
+import QuizActionButton from './QuizActionButton'
 import ScriptReferencePanel from './ScriptReferencePanel'
 import TranslationExplanation from './TranslationExplanation'
 
 type QuizStatus = 'unanswered' | 'incorrect' | 'correct' | 'revealed'
-type ButtonVariant = 'primary' | 'secondary' | 'next'
-
-type ActionButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  variant: ButtonVariant
-  buttonRef?: Ref<HTMLButtonElement>
-}
-
 type TranslationPracticeProps = {
   title: string
   sourceLanguage: string
@@ -34,32 +24,6 @@ type TranslationPracticeProps = {
   itemCountLabel?: string
   componentLabel?: string
   scriptReference?: ScriptReference
-}
-
-const BUTTON_BASE_CLASSES =
-  'inline-flex min-h-12 items-center justify-center rounded-xl border px-5 py-3 text-sm font-bold transition focus-visible:outline-none focus-visible:ring-4 disabled:cursor-not-allowed disabled:opacity-40 sm:text-base'
-
-const BUTTON_VARIANT_CLASSES: Record<ButtonVariant, string> = {
-  primary:
-    'border-emerald-300/30 bg-emerald-700 text-white shadow-lg shadow-emerald-950/40 hover:bg-emerald-600 focus-visible:ring-emerald-300/40 disabled:bg-emerald-950 disabled:text-slate-400',
-  secondary:
-    'border-white/15 bg-white/5 text-slate-100 hover:border-white/30 hover:bg-white/10 focus-visible:ring-white/15',
-  next: 'border-rose-300/20 bg-rose-500 text-white shadow-lg shadow-rose-950/30 hover:bg-rose-400 focus-visible:ring-rose-300/30',
-}
-
-function ActionButton({
-  variant,
-  buttonRef,
-  className = '',
-  ...buttonProps
-}: ActionButtonProps) {
-  return (
-    <button
-      ref={buttonRef}
-      className={`${BUTTON_BASE_CLASSES} ${BUTTON_VARIANT_CLASSES[variant]} ${className}`}
-      {...buttonProps}
-    />
-  )
 }
 
 export default function TranslationPractice({
@@ -188,14 +152,14 @@ export default function TranslationPractice({
                     placeholder="Type your answer"
                     className="min-h-12 min-w-0 flex-1 rounded-xl border border-white/15 bg-slate-950/70 px-4 py-3 text-lg text-white outline-none transition placeholder:text-slate-600 focus:border-emerald-300/70 focus:ring-4 focus:ring-emerald-300/10 disabled:opacity-60"
                   />
-                  <ActionButton
+                  <QuizActionButton
                     variant="primary"
                     type="submit"
                     disabled={!answer.trim() || canAdvance}
                     className="sm:min-w-36"
                   >
                     Check answer
-                  </ActionButton>
+                  </QuizActionButton>
                 </div>
 
                 <p
@@ -212,22 +176,22 @@ export default function TranslationPractice({
                 </p>
 
                 <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                  <ActionButton
+                  <QuizActionButton
                     variant="secondary"
                     type="button"
                     disabled={canAdvance}
                     onClick={() => setStatus('revealed')}
                   >
                     Show answer
-                  </ActionButton>
-                  <ActionButton
+                  </QuizActionButton>
+                  <QuizActionButton
                     variant="next"
                     type="button"
                     disabled={!canAdvance}
                     onClick={handleNext}
                   >
                     Next place →
-                  </ActionButton>
+                  </QuizActionButton>
                 </div>
               </form>
             </section>

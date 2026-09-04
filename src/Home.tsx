@@ -3,6 +3,7 @@ import { FaMapMarkedAlt } from 'react-icons/fa'
 import { CountryQuizGrid } from './components/CountryQuizGrid.tsx'
 import Header from './components/Header.tsx'
 import { HomeQuizTabs } from './components/HomeQuizTabs.tsx'
+import { MiscellaneousQuizGrid } from './components/MiscellaneousQuizGrid.tsx'
 import NavBar from './components/NavBar.tsx'
 
 function Home() {
@@ -20,7 +21,10 @@ function Home() {
           </h2>
         </div>
 
-        <HomeQuizTabs countrySpecificContent={<CountryQuizGrid />} />
+        <HomeQuizTabs
+          countrySpecificContent={<CountryQuizGrid />}
+          miscellaneousContent={<MiscellaneousQuizGrid />}
+        />
       </main>
 
       <Link

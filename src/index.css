@@ -47,6 +47,11 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+.leaflet-interactive[role='button']:focus-visible {
+  outline: 3px solid rgb(110 231 183);
+  outline-offset: 2px;
+}
+
 .leaflet-tooltip.geo-json-answer-label {
   max-width: 12rem;
   border: 1px solid rgb(251 191 36 / 0.55);

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
 import { CountryCard } from './CountryCard.tsx'
+import QuizCardLink from './QuizCardLink.tsx'
 
 type QuizLink = {
   label: string
@@ -11,9 +11,6 @@ type CountryQuizGroup = {
   flag: string
   quizzes: QuizLink[]
 }
-
-const QUIZ_LINK_CLASSES =
-  'flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm font-semibold text-slate-300 transition hover:border-emerald-300/30 hover:bg-emerald-400/10 hover:text-emerald-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300'
 
 const COUNTRY_QUIZ_GROUPS: CountryQuizGroup[] = [
   {
@@ -232,10 +229,7 @@ export function CountryQuizGrid() {
           flag={<span>{flag}</span>}
         >
           {quizzes.map(({ label, to }) => (
-            <Link key={to} className={QUIZ_LINK_CLASSES} to={to}>
-              <span>{label}</span>
-              <span aria-hidden="true">→</span>
-            </Link>
+            <QuizCardLink key={to} label={label} to={to} />
           ))}
         </CountryCard>
       ))}

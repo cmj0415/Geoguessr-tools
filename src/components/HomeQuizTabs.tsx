@@ -9,6 +9,7 @@ import { useSwipeableTabs } from './useSwipeableTabs.ts'
 
 type HomeQuizTabsProps = {
   countrySpecificContent: ReactNode
+  miscellaneousContent: ReactNode
 }
 
 type QuizTab = 'country-specific' | 'miscellaneous'
@@ -21,7 +22,10 @@ const QUIZ_TABS: { id: QuizTab; label: string }[] = [
 const getTabIndex = (tab: QuizTab) =>
   QUIZ_TABS.findIndex(({ id }) => id === tab)
 
-export function HomeQuizTabs({ countrySpecificContent }: HomeQuizTabsProps) {
+export function HomeQuizTabs({
+  countrySpecificContent,
+  miscellaneousContent,
+}: HomeQuizTabsProps) {
   const [activeTab, setActiveTab] = useState<QuizTab>('country-specific')
   const [activePanelHeight, setActivePanelHeight] = useState<number>()
   const activeIndex = getTabIndex(activeTab)
@@ -165,14 +169,7 @@ export function HomeQuizTabs({ countrySpecificContent }: HomeQuizTabsProps) {
             inert={activeIndex !== 1}
             className="w-full shrink-0"
           >
-            <div className="grid min-h-72 place-items-center rounded-2xl border border-dashed border-white/15 bg-slate-900/45 px-6 py-16 text-center">
-              <div>
-                <p className="text-2xl font-bold text-white">Coming Soon!</p>
-                <p className="mt-2 text-sm text-slate-400">
-                  New quiz formats will appear here.
-                </p>
-              </div>
-            </div>
+            {miscellaneousContent}
           </section>
         </div>
       </div>

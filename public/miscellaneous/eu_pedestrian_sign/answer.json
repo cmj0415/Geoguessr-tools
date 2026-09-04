@@ -1,0 +1,115 @@
+{
+  "sign-01": {
+    "country": [
+      "fr",
+      "nl",
+      "it",
+      "ro",
+      "me",
+      "al",
+      "xk",
+      "rs",
+      "ba",
+      "sm",
+      "si",
+      "mk"
+    ],
+    "note": "Regular 5-stripe"
+  },
+  "sign-02": {
+    "country": ["es", "ad"],
+    "note": "8-stripe"
+  },
+  "sign-03": {
+    "country": ["no"],
+    "note": "4-stripe, casually-drawn man"
+  },
+  "sign-04": {
+    "country": ["no"],
+    "note": "5-stripe, detailed man with hat"
+  },
+  "sign-05": {
+    "country": ["se"],
+    "note": "4-stripe, detailed man"
+  },
+  "sign-06": {
+    "country": ["se"],
+    "note": "Female version"
+  },
+  "sign-07": {
+    "country": ["fi"],
+    "note": "5-stripe, detailed man"
+  },
+  "sign-08": {
+    "country": ["dk"],
+    "note": "5-stripe, touching triangle"
+  },
+  "sign-09": {
+    "country": ["be"],
+    "note": "Dotted lines, man with square head"
+  },
+  "sign-10": {
+    "country": ["de", "lu", "hr", "mk", "ba", "sk"],
+    "note": "5-stripe, man with regular belt"
+  },
+  "sign-11": {
+    "country": ["pl"],
+    "note": "Solid lines"
+  },
+  "sign-12": {
+    "country": ["cz"],
+    "note": "5-stripe, man with hat"
+  },
+  "sign-13": {
+    "country": ["at"],
+    "note": "Dotted lines, man with hat"
+  },
+  "sign-14": {
+    "country": ["pt"],
+    "note": "5-stripe, man with high belt"
+  },
+  "sign-15": {
+    "country": ["hu"],
+    "note": "5-stripe, man with low belt"
+  },
+  "sign-16": {
+    "country": ["hu"],
+    "note": "4-stripe, man with suitcase"
+  },
+  "sign-17": {
+    "country": ["bg"],
+    "note": "4-stripe, man with hat"
+  },
+  "sign-18": {
+    "country": ["gr", "mk"],
+    "note": "Dotted lines"
+  },
+  "sign-19": {
+    "country": ["is"],
+    "note": "4-stripe, yellow triangle"
+  },
+  "sign-20": {
+    "country": ["lt", "ua", "ru"],
+    "note": "3-stripe, separated man"
+  },
+  "sign-21": {
+    "country": ["lv"],
+    "note": "5-stripe, man with long legs"
+  },
+  "sign-22": {
+    "country": ["ee"],
+    "note": "3-stripe, intact man"
+  },
+  "sign-23": {
+    "country": ["ru"],
+    "note": "3-stripe, yellow border"
+  },
+  "sign-24": {
+    "country": ["ch", "li"],
+    "note": "7-stripe"
+  },
+  "sign-25": {
+    "country": ["sk"],
+    "note": "5-stripe, man with hat, large margin from triangle"
+  }
+}

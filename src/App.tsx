@@ -53,11 +53,10 @@ import TaiwanCodes from './pages/tw/codes'
 import VietnamCodes from './pages/vn/codes'
 import VietnamProvincesPost2025 from './pages/vn/provincesPost2025'
 import VietnamProvincesPre2025 from './pages/vn/provincesPre2025'
+import EuropePedestrianSigns from './pages/miscellaneous/europePedestrianSigns'
 
 const TaiwanPoleNumbers = lazy(() => import('./pages/tw/poleNumbers'))
-const HokkaidoPoleNumbers = lazy(
-  () => import('./pages/jp/hokkaidoPoleNumbers')
-)
+const HokkaidoPoleNumbers = lazy(() => import('./pages/jp/hokkaidoPoleNumbers'))
 
 function App() {
   return (
@@ -137,6 +136,10 @@ function App() {
         <Route
           path="vn/provinces-pre-2025"
           element={<VietnamProvincesPre2025 />}
+        />
+        <Route
+          path="miscellaneous/europe-pedestrian-crossing-signs"
+          element={<EuropePedestrianSigns />}
         />
         <Route
           path="tw/pole-numbers"
