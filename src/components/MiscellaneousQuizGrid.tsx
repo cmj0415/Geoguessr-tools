@@ -1,4 +1,4 @@
-import { FaWalking } from 'react-icons/fa'
+import { FaChevronRight, FaWalking } from 'react-icons/fa'
 import { CountryCard } from './CountryCard'
 import QuizCardLink from './QuizCardLink'
 
@@ -12,6 +12,20 @@ export function MiscellaneousQuizGrid() {
         <QuizCardLink
           label="Pedestrian Crossing Sign Quiz"
           to="/miscellaneous/europe-pedestrian-crossing-signs"
+        />
+      </CountryCard>
+      <CountryCard
+        countryName="Europe"
+        flag={
+          <FaChevronRight
+            aria-hidden="true"
+            className="h-5 w-5 text-amber-300"
+          />
+        }
+      >
+        <QuizCardLink
+          label="Chevron Quiz"
+          to="/miscellaneous/europe-chevrons"
         />
       </CountryCard>
     </div>

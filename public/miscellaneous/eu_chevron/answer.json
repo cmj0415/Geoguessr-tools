@@ -1,0 +1,46 @@
+{
+    "ch-01": {
+        "country": ["es", "ch", "it", "uk", "al", "gr"],
+        "note": "white on black"
+    },
+    "ch-02": {
+        "country": ["es", "fr"],
+        "note": "white on blue"
+    },
+    "ch-03": {
+        "country": ["nl", "be", "de", "dk", "cz", "pl", "si", "hr", "ba", "al", "mk", "bg", "ro", "tr", "cy", "lt", "lv"],
+        "note": "red on white"
+    },
+    "ch-04": {
+        "country": ["at", "hu", "al", "ru", "ee", "ua"],
+        "note": "white on red"
+    },
+    "ch-05": {
+        "country": ["ro"],
+        "note": "red on white, yellow border"
+    },
+    "ch-06": {
+        "country": ["lt"],
+        "note": "red on white, red border"
+    },
+    "ch-07": {
+        "country": ["ie", "is", "no", "fi", "pt", "lu"],
+        "note": "yellow on black"
+    },
+    "ch-08": {
+        "country": ["at", "sk", "hr", "me", "sm"],
+        "note": "red on yellow"
+    },
+    "ch-09": {
+        "country": ["se"],
+        "note": "yellow on blue"
+    },
+    "ch-10": {
+        "country": ["je"],
+        "note": "white on black, yellow border"
+    },
+    "ch-11": {
+        "country": ["si", "rs", "me", "xk", "mk"],
+        "note": "black on white"
+    }
+}

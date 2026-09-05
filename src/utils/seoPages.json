@@ -267,6 +267,11 @@
       "path": "/miscellaneous/europe-pedestrian-crossing-signs",
       "title": "Europe Pedestrian Crossing Sign Quiz | GeoGuessr Tools",
       "description": "Learn where pedestrian crossing sign designs appear across Europe with a multiple-answer interactive map quiz for GeoGuessr practice."
+    },
+    {
+      "path": "/miscellaneous/europe-chevrons",
+      "title": "Europe Chevron Quiz | GeoGuessr Tools",
+      "description": "Learn where road chevron designs appear across Europe with a multiple-answer interactive map quiz for GeoGuessr practice."
     }
   ]
 }
