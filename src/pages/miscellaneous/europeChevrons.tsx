@@ -1,4 +1,5 @@
 import PictureGeoJsonQuiz from '../../components/PictureGeoJsonQuiz'
+import EuropeChevronGuide from '../../components/EuropeChevronGuide'
 import { OPEN_STREET_MAP_TILE_LAYER } from '../../utils/geoJsonCodeQuiz'
 import {
   getChevronCountryIds,
@@ -11,6 +12,10 @@ export default function EuropeChevrons() {
     <PictureGeoJsonQuiz
       title="Europe Chevron Quiz"
       prompt="In which countries will you see this?"
+      guide={{
+        title: 'Europe Chevrons',
+        content: <EuropeChevronGuide />,
+      }}
       infoContent={
         <div className="space-y-3 text-left">
           <p>
