@@ -53,8 +53,11 @@ import TaiwanCodes from './pages/tw/codes'
 import VietnamCodes from './pages/vn/codes'
 import VietnamProvincesPost2025 from './pages/vn/provincesPost2025'
 import VietnamProvincesPre2025 from './pages/vn/provincesPre2025'
+import UkraineOblasts from './pages/ua/oblasts'
+import UkraineCodes from './pages/ua/codes'
 import EuropePedestrianSigns from './pages/miscellaneous/europePedestrianSigns'
 import EuropeChevrons from './pages/miscellaneous/europeChevrons'
+import EuropeBollards from './pages/miscellaneous/europeBollards'
 
 const TaiwanPoleNumbers = lazy(() => import('./pages/tw/poleNumbers'))
 const HokkaidoPoleNumbers = lazy(() => import('./pages/jp/hokkaidoPoleNumbers'))
@@ -129,6 +132,8 @@ function App() {
         />
         <Route path="tw/counties" element={<TaiwanCounties />} />
         <Route path="tw/area-codes" element={<TaiwanCodes />} />
+        <Route path="ua/oblasts" element={<UkraineOblasts />} />
+        <Route path="ua/area-codes" element={<UkraineCodes />} />
         <Route path="vn/area-codes" element={<VietnamCodes />} />
         <Route
           path="vn/provinces-post-2025"
@@ -145,6 +150,10 @@ function App() {
         <Route
           path="miscellaneous/europe-chevrons"
           element={<EuropeChevrons />}
+        />
+        <Route
+          path="miscellaneous/europe-bollards"
+          element={<EuropeBollards />}
         />
         <Route
           path="tw/pole-numbers"

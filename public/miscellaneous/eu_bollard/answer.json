@@ -1,0 +1,116 @@
+{
+    "b01": {
+        "country": ["fr"]    
+    },
+    "b02": {
+        "country": ["fr"]    
+    },
+    "b03": {
+        "country": ["fr"]    
+    },
+    "b04": {
+        "country": ["es"]    
+    },
+    "b05": {
+        "country": ["pt"]    
+    },
+    "b06": {
+        "country": ["pt"]    
+    },
+    "b07": {
+        "country": ["ad"]    
+    },
+    "b08": {
+        "country": ["it", "al"]    
+    },
+    "b09": {
+        "country": ["de", "se", "ch"]    
+    },
+    "b10": {
+        "country": ["lu"]    
+    },
+    "b11": {
+        "country": ["nl"]    
+    },
+    "b12": {
+        "country": ["be"]    
+    },
+    "b13": {
+        "country": ["ie"]    
+    },
+    "b14": {
+        "country": ["dk"]    
+    },
+    "b15": {
+        "country": ["cz", "sk"]    
+    },
+    "b16": {
+        "country": ["pl"]    
+    },
+    "b17": {
+        "country": ["at"]    
+    },
+    "b18": {
+        "country": ["si", "me", "ba"]    
+    },
+    "b19": {
+        "country": ["rs", "xk"]    
+    },
+    "b20": {
+        "country": ["rs", "ba", "xk"]    
+    },
+    "b21": {
+        "country": ["gr"]    
+    },
+    "b22": {
+        "country": ["tr", "ro"]    
+    },
+    "b23": {
+        "country": ["hu", "xk"]    
+    },
+    "b24": {
+        "country": ["hr", "ba", "xk", "me"]    
+    },
+    "b25": {
+        "country": ["ru"]    
+    },
+    "b26": {
+        "country": ["ru"]    
+    },
+    "b27": {
+        "country": ["lt"]    
+    },
+    "b28": {
+        "country": ["lv"]    
+    },
+    "b29": {
+        "country": ["ee"]    
+    },
+    "b30": {
+        "country": ["fi"]    
+    },
+    "b31": {
+        "country": ["no"]    
+    },
+    "b32": {
+        "country": ["se"]    
+    },
+    "b33": {
+        "country": ["se"]    
+    },
+    "b34": {
+        "country": ["cy"]    
+    },
+    "b35": {
+        "country": ["ch"]    
+    },
+    "b36": {
+        "country": ["mk"]    
+    },
+    "b37": {
+        "country": ["is"]    
+    },
+    "b38": {
+        "country": ["fo"]    
+    }
+}

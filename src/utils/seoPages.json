@@ -264,6 +264,16 @@
       "description": "Learn 63 geographic telephone area-code regions of Vietnam with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/ua/oblasts",
+      "title": "Ukraine Oblasts Map Quiz | GeoGuessr Tools",
+      "description": "Learn Ukraine's 24 oblasts, Crimea, Kyiv, and Sevastopol with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
+      "path": "/ua/area-codes",
+      "title": "Ukraine Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn Ukraine's 27 two-digit geographic telephone area-code prefixes with an interactive map quiz for geography and GeoGuessr practice."
+    },
+    {
       "path": "/miscellaneous/europe-pedestrian-crossing-signs",
       "title": "Europe Pedestrian Crossing Sign Quiz | GeoGuessr Tools",
       "description": "Learn where pedestrian crossing sign designs appear across Europe with a multiple-answer interactive map quiz for GeoGuessr practice."
@@ -272,6 +282,11 @@
       "path": "/miscellaneous/europe-chevrons",
       "title": "Europe Chevron Quiz | GeoGuessr Tools",
       "description": "Learn where road chevron designs appear across Europe with a multiple-answer interactive map quiz for GeoGuessr practice."
+    },
+    {
+      "path": "/miscellaneous/europe-bollards",
+      "title": "Europe Bollard Quiz | GeoGuessr Tools",
+      "description": "Learn where roadside bollard designs appear across Europe with a multiple-answer interactive map quiz for GeoGuessr practice."
     }
   ]
 }

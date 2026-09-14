@@ -13,7 +13,7 @@ export type PictureGeoJsonQuestion = {
 
 type CountryPictureManifestEntry = {
   country: string[]
-  note: string
+  note?: string
 }
 
 type ParseCountryPictureManifestOptions = {
@@ -21,6 +21,7 @@ type ParseCountryPictureManifestOptions = {
   imageDirectory: string
   imageAltPrefix: string
   manifestName: string
+  noteRequired?: boolean
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -29,7 +30,8 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function parseCountryPictureEntry(
   id: string,
-  value: unknown
+  value: unknown,
+  noteRequired: boolean
 ): CountryPictureManifestEntry {
   if (!isRecord(value) || !Array.isArray(value.country)) {
     throw new Error(`Question ${id} has an invalid answer entry.`)
@@ -44,11 +46,20 @@ function parseCountryPictureEntry(
   if (country.length === 0 || new Set(country).size !== country.length) {
     throw new Error(`Question ${id} needs unique country answers.`)
   }
-  if (typeof value.note !== 'string' || value.note.trim().length === 0) {
+  if (
+    value.note !== undefined &&
+    (typeof value.note !== 'string' || value.note.trim().length === 0)
+  ) {
+    throw new Error(`Question ${id} needs an image description.`)
+  }
+  if (noteRequired && value.note === undefined) {
     throw new Error(`Question ${id} needs an image description.`)
   }
 
-  return { country, note: value.note.trim() }
+  return {
+    country,
+    note: typeof value.note === 'string' ? value.note.trim() : undefined,
+  }
 }
 
 export function parseCountryPictureManifest(
@@ -58,6 +69,7 @@ export function parseCountryPictureManifest(
     imageDirectory,
     imageAltPrefix,
     manifestName,
+    noteRequired = true,
   }: ParseCountryPictureManifestOptions
 ): PictureGeoJsonQuestion[] {
   if (!isRecord(value)) {
@@ -66,11 +78,13 @@ export function parseCountryPictureManifest(
 
   const questions = Object.entries(value).map(([id, rawEntry]) => {
     if (!idPattern.test(id)) throw new Error(`Question ID ${id} is invalid.`)
-    const entry = parseCountryPictureEntry(id, rawEntry)
+    const entry = parseCountryPictureEntry(id, rawEntry, noteRequired)
     return {
       id,
       imageUrl: `${imageDirectory}/${id}.png`,
-      imageAlt: `${imageAltPrefix}: ${entry.note}`,
+      imageAlt: entry.note
+        ? `${imageAltPrefix}: ${entry.note}`
+        : `${imageAltPrefix}, question ${id}`,
       answerIds: entry.country,
     }
   })

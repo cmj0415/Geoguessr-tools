@@ -199,6 +199,14 @@ const COUNTRY_QUIZ_GROUPS: CountryQuizGroup[] = [
     ],
   },
   {
+    countryName: 'Ukraine',
+    flag: '🇺🇦',
+    quizzes: [
+      { label: 'Oblast Quiz', to: '/ua/oblasts' },
+      { label: 'Area Code Quiz', to: '/ua/area-codes' },
+    ],
+  },
+  {
     countryName: 'United States',
     flag: '🇺🇸',
     quizzes: [{ label: 'Area Code Quiz', to: '/us/area-codes' }],
