@@ -1,5 +1,6 @@
 import PictureGeoJsonQuiz from '../../components/PictureGeoJsonQuiz'
-import EuropeChevronGuide from '../../components/EuropeChevronGuide'
+import QuizGuide from '../../components/QuizGuide'
+import { EUROPE_CHEVRON_GUIDE } from '../../utils/miscellaneous/europeChevronGuideData'
 import { OPEN_STREET_MAP_TILE_LAYER } from '../../utils/geoJsonCodeQuiz'
 import { loadEuropeChevronQuestions } from '../../utils/miscellaneous/europeChevronData'
 import {
@@ -14,7 +15,7 @@ export default function EuropeChevrons() {
       prompt="In which countries will you see this?"
       guide={{
         title: 'Europe Chevrons',
-        content: <EuropeChevronGuide />,
+        content: <QuizGuide document={EUROPE_CHEVRON_GUIDE} />,
       }}
       infoContent={
         <div className="space-y-3 text-left">

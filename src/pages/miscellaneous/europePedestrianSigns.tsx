@@ -1,5 +1,6 @@
 import PictureGeoJsonQuiz from '../../components/PictureGeoJsonQuiz'
-import EuropePedestrianSignGuide from '../../components/EuropePedestrianSignGuide'
+import QuizGuide from '../../components/QuizGuide'
+import { EUROPE_PEDESTRIAN_SIGN_GUIDE } from '../../utils/miscellaneous/europePedestrianSignGuideData'
 import { OPEN_STREET_MAP_TILE_LAYER } from '../../utils/geoJsonCodeQuiz'
 import {
   getEuropeCountryIds,
@@ -14,7 +15,7 @@ export default function EuropePedestrianSigns() {
       prompt="In which countries will you see this?"
       guide={{
         title: 'Europe Pedestrian Crossing Signs',
-        content: <EuropePedestrianSignGuide />,
+        content: <QuizGuide document={EUROPE_PEDESTRIAN_SIGN_GUIDE} />,
       }}
       infoContent={
         <div className="space-y-3 text-left">
