@@ -1,16 +1,22 @@
 import PictureGeoJsonQuiz from '../../components/PictureGeoJsonQuiz'
+import QuizGuide from '../../components/QuizGuide'
 import { OPEN_STREET_MAP_TILE_LAYER } from '../../utils/geoJsonCodeQuiz'
 import {
   getEuropeAdminCountryIds,
   getEuropeAdminCountryLabel,
 } from '../../utils/miscellaneous/europeAdminMapData'
 import { loadEuropeBollardQuestions } from '../../utils/miscellaneous/europeBollardData'
+import { EUROPE_BOLLARD_GUIDE } from '../../utils/miscellaneous/europeBollardGuideData'
 
 export default function EuropeBollards() {
   return (
     <PictureGeoJsonQuiz
       title="Europe Bollard Quiz"
       prompt="In which countries will you see this?"
+      guide={{
+        title: 'Europe Bollards',
+        content: <QuizGuide document={EUROPE_BOLLARD_GUIDE} />,
+      }}
       infoContent={
         <div className="space-y-3 text-left">
           <p>
