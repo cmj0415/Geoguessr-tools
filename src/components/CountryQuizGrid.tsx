@@ -76,7 +76,10 @@ const COUNTRY_QUIZ_GROUPS: CountryQuizGroup[] = [
   {
     countryName: 'Italy',
     flag: '🇮🇹',
-    quizzes: [{ label: 'Province Quiz', to: '/it/provinces' }],
+    quizzes: [
+      { label: 'Province Quiz', to: '/it/provinces' },
+      { label: 'Area Code Quiz', to: '/it/area-codes' },
+    ],
   },
   {
     countryName: 'Japan',

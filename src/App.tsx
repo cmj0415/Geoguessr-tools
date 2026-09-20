@@ -24,6 +24,7 @@ import GermanyCodes from './pages/de/codes'
 import GermanyStates from './pages/de/states'
 import GermanyDistricts from './pages/de/districts'
 import ItalyProvinces from './pages/it/provinces'
+import ItalyCodes from './pages/it/codes'
 import RussiaFederalSubjects from './pages/ru/federalSubjects'
 import RussiaCodes from './pages/ru/codes'
 import SpainProvinces from './pages/es/provinces'
@@ -96,6 +97,7 @@ function App() {
         <Route path="de/districts" element={<GermanyDistricts />} />
         <Route path="fr/departments" element={<FranceDepartments />} />
         <Route path="it/provinces" element={<ItalyProvinces />} />
+        <Route path="it/area-codes" element={<ItalyCodes />} />
         <Route path="mx/area-codes" element={<MexicoCodes />} />
         <Route path="mx/postal-codes" element={<MexicoPostalCodes />} />
         <Route path="ng/states" element={<NigeriaStates />} />
