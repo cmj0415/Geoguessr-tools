@@ -78,7 +78,11 @@ const COUNTRY_QUIZ_GROUPS: CountryQuizGroup[] = [
     flag: '🇮🇹',
     quizzes: [
       { label: 'Province Quiz', to: '/it/provinces' },
-      { label: 'Area Code Quiz', to: '/it/area-codes' },
+      { label: 'Area Code Quiz (full)', to: '/it/area-codes' },
+      {
+        label: 'Area Code Quiz (3 digits)',
+        to: '/it/area-codes-3-digits',
+      },
     ],
   },
   {

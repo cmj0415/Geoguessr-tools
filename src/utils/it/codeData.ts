@@ -261,10 +261,48 @@ export const IT_AREA_CODES = Object.entries(IT_AREA_CODE_MAP).flatMap(
 
 const IT_AREA_CODE_IDS = new Set(IT_AREA_CODES.map((code) => code.id))
 
+function getThreeDigitAreaCode(code: string) {
+  return code === '02' || code === '06' ? code : code.slice(0, 3)
+}
+
+export const IT_THREE_DIGIT_AREA_CODE_MAP: Record<string, string[]> =
+  Object.fromEntries(
+    Object.entries(IT_AREA_CODE_MAP).map(([region, codes]) => [
+      region,
+      Array.from(new Set(codes.map(getThreeDigitAreaCode))),
+    ])
+  )
+
+export const IT_THREE_DIGIT_AREA_CODE_PREFIXES = Object.keys(
+  IT_THREE_DIGIT_AREA_CODE_MAP
+)
+
+export const IT_THREE_DIGIT_AREA_CODES = Object.entries(
+  IT_THREE_DIGIT_AREA_CODE_MAP
+).flatMap(([region, codes]) =>
+  codes.map((code) => ({
+    id: code,
+    label: code,
+    region,
+  }))
+)
+
+const IT_THREE_DIGIT_AREA_CODE_IDS = new Set(
+  IT_THREE_DIGIT_AREA_CODES.map((code) => code.id)
+)
+
 export function getItalyFeatureCodes(feature: unknown) {
   const rawCode = getFeatureProperties(feature)?.code
   if (typeof rawCode !== 'string' && typeof rawCode !== 'number') return []
 
   const code = String(rawCode).trim()
   return IT_AREA_CODE_IDS.has(code) ? [code] : []
+}
+
+export function getItalyThreeDigitFeatureCodes(feature: unknown) {
+  const rawCode = getFeatureProperties(feature)?.code
+  if (typeof rawCode !== 'string' && typeof rawCode !== 'number') return []
+
+  const code = String(rawCode).trim()
+  return IT_THREE_DIGIT_AREA_CODE_IDS.has(code) ? [code] : []
 }

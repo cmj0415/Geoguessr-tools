@@ -79,6 +79,11 @@
       "description": "Learn Italy's 231 geographic telephone area codes by prefix with an interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/it/area-codes-3-digits",
+      "title": "Italy 3-Digit Area Code Map Quiz | GeoGuessr Tools",
+      "description": "Learn Italy's 71 geographic telephone area-code regions grouped to three digits with an interactive map quiz for GeoGuessr practice."
+    },
+    {
       "path": "/jp/prefectures",
       "title": "Japan Prefectures Map Quiz | GeoGuessr Tools",
       "description": "Learn all 47 Japanese prefectures with an interactive map quiz for geography and GeoGuessr practice."
