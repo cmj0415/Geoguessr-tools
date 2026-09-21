@@ -56,8 +56,11 @@ export function QuestionSelector({
     const availableHeight = opensUpward ? spaceAbove : spaceBelow
 
     setMenuLayout({
-      opensUpward,
-      maxHeight: Math.max(96, Math.min(672, availableHeight)),
+      opensUpward: window.innerWidth >= 640 && opensUpward,
+      maxHeight:
+        window.innerWidth < 640
+          ? Math.min(448, window.innerHeight * 0.45)
+          : Math.max(96, Math.min(672, availableHeight)),
     })
   }
 
@@ -211,12 +214,12 @@ export function QuestionSelector({
           </span>
         </summary>
         <div
-          className={`absolute z-10 w-[min(22rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md ${
-            menuAlign === 'left' ? 'left-0' : 'right-0'
+          className={`relative z-10 mt-2 w-[min(22rem,calc(100vw-4.5rem))] overflow-y-auto rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md sm:absolute sm:mt-0 sm:w-[min(22rem,calc(100vw-2rem))] ${
+            menuAlign === 'left' ? 'sm:left-0' : 'sm:right-0'
           } ${
             menuLayout.opensUpward
-              ? 'bottom-[calc(100%+0.5rem)]'
-              : 'top-[calc(100%+0.5rem)]'
+              ? 'sm:bottom-[calc(100%+0.5rem)]'
+              : 'sm:top-[calc(100%+0.5rem)]'
           }`}
           style={{ maxHeight: menuLayout.maxHeight }}
         >

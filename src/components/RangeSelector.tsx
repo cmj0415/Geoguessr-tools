@@ -96,7 +96,7 @@ export function RangeSelector({
         </span>
       </summary>
 
-      <div className="absolute right-0 top-[calc(100%+0.5rem)] w-[min(24rem,calc(100vw-2rem))] rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md">
+      <div className="relative mt-2 w-[min(24rem,calc(100vw-4.5rem))] rounded-2xl border border-white/10 bg-slate-950/95 p-4 text-left shadow-2xl shadow-black/40 backdrop-blur-md sm:absolute sm:right-0 sm:top-[calc(100%+0.5rem)] sm:mt-0 sm:w-[min(24rem,calc(100vw-2rem))]">
         <div className="mb-6 flex items-center justify-between gap-3">
           <div>
             <div className="font-semibold">{title}</div>

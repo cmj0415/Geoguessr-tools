@@ -274,7 +274,7 @@ export default function GeoJsonQuiz({
     ? cloneElement(selector, { onSelectionChange: handleSelectionChange })
     : undefined
   const controls = (
-    <div className="flex flex-col items-end gap-2 sm:flex-row">
+    <div className="flex flex-col items-start gap-2 sm:items-end sm:flex-row">
       {selectorContent}
       <GeoJsonRealityModeButton
         active={isRealityMode}
@@ -301,6 +301,7 @@ export default function GeoJsonQuiz({
         title={title}
         question={mode === 'quiz' ? (question?.label ?? emptyQuestion) : null}
         controls={controls}
+        collapsibleMobileControls
         headerActions={headerActions}
         isInfoOpen={isInfoOpen}
         onInfoClick={() => setIsInfoOpen(true)}
