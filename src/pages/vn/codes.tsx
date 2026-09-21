@@ -17,6 +17,7 @@ export default function VietnamCodes() {
       geoJsonUrl="/country_specific/vn/vnprovince_old.geojson"
       items={VN_AREA_CODES}
       getFeatureIds={getVietnamAreaCodeIds}
+      searchKind="code"
       map={{
         center: [16.2, 107.8],
         zoom: 5,

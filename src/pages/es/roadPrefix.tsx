@@ -20,6 +20,7 @@ export default function SpainProvincialRoadPrefixes() {
       geoJsonUrl="/country_specific/es/esprovince.geojson"
       items={ES_PROVINCIAL_ROAD_PREFIXES}
       getFeatureIds={getSpainProvincialRoadPrefixIds}
+      searchKind="code"
       map={{
         center: [39.5, -3.7],
         zoom: 5,

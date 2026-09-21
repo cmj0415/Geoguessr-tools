@@ -21,6 +21,7 @@ export default function UkraineCodes() {
       geoJsonUrl="/country_specific/ua/uaoblast.geojson"
       items={UA_AREA_CODES}
       getFeatureIds={getUkraineFeatureCodes}
+      searchKind="code"
       map={{
         center: [48.4, 31.2],
         zoom: 6,

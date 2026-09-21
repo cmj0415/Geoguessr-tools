@@ -29,6 +29,7 @@ export default function SpainCodes() {
       geoJsonUrl="/country_specific/es/esprovince.geojson"
       items={ES_AREA_CODES}
       getFeatureIds={getSpainFeatureCodes}
+      searchKind="code"
       selector={{
         divisions: PREFIX_GROUPS,
         title: 'Select prefixes',

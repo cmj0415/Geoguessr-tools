@@ -29,6 +29,7 @@ export default function ItalyCodes() {
       geoJsonUrl="/country_specific/it/itcodes.geojson"
       items={IT_AREA_CODES}
       getFeatureIds={getItalyFeatureCodes}
+      searchKind="code"
       selector={{
         divisions: PREFIX_GROUPS,
         title: 'Select prefixes',

@@ -8,7 +8,7 @@ import {
 } from 'react'
 import type { ReactElement, ReactNode } from 'react'
 import type { GeoJsonObject } from 'geojson'
-import type L from 'leaflet'
+import L from 'leaflet'
 import { GeoJSON, MapContainer, TileLayer } from 'react-leaflet'
 import {
   GEO_JSON_HOVER_STYLE,
@@ -22,6 +22,8 @@ import GeoJsonAnswerModeButton from './GeoJsonAnswerModeButton'
 import GeoJsonRealityModeButton from './GeoJsonRealityModeButton'
 import QuizLayout from './QuizLayout'
 import useFixedGeoJsonAnswerLabels from './useFixedGeoJsonAnswerLabels'
+import GeoJsonQuizSearch from './GeoJsonQuizSearch'
+import type { QuizSearchKind } from './GeoJsonQuizSearch'
 
 export type GeoJsonQuizItem = {
   id: string
@@ -52,6 +54,7 @@ type GeoJsonQuizProps = {
   cache?: RequestCache
   items: GeoJsonQuizItem[]
   getFeatureIds: (feature: unknown) => string[]
+  searchKind?: QuizSearchKind | false
   map: GeoJsonQuizMapConfiguration
   selector?: ReactElement<GeoJsonQuizSelectorProps>
   headerActions?: ReactNode
@@ -59,7 +62,7 @@ type GeoJsonQuizProps = {
   loadErrorMessage: string
 }
 
-type GeoJsonQuizMode = 'quiz' | 'answers'
+type GeoJsonQuizMode = 'quiz' | 'answers' | 'search'
 
 export default function GeoJsonQuiz({
   title,
@@ -68,6 +71,7 @@ export default function GeoJsonQuiz({
   cache,
   items,
   getFeatureIds,
+  searchKind = false,
   map,
   selector,
   headerActions,
@@ -91,9 +95,11 @@ export default function GeoJsonQuiz({
   )
   const [correctId, setCorrectId] = useState<string | null>(null)
   const [hintedId, setHintedId] = useState<string | null>(null)
+  const [searchedId, setSearchedId] = useState<string | null>(null)
   const questionRef = useRef(question)
   const correctIdRef = useRef(correctId)
   const hintedIdRef = useRef(hintedId)
+  const searchedIdRef = useRef(searchedId)
   const modeRef = useRef<GeoJsonQuizMode>(mode)
   const isRealityModeRef = useRef(isRealityMode)
   const geoRef = useRef<L.GeoJSON | null>(null)
@@ -103,7 +109,7 @@ export default function GeoJsonQuiz({
     [items]
   )
   const answerLabels = useFixedGeoJsonAnswerLabels({
-    enabled: mode !== 'quiz',
+    enabled: mode === 'answers',
     isGeoJsonLoaded: geoData !== null,
     selectedIds,
     labelsById,
@@ -146,6 +152,10 @@ export default function GeoJsonQuiz({
   }, [hintedId])
 
   useEffect(() => {
+    searchedIdRef.current = searchedId
+  }, [searchedId])
+
+  useEffect(() => {
     modeRef.current = mode
   }, [mode])
 
@@ -172,14 +182,51 @@ export default function GeoJsonQuiz({
         hintedId,
         correctId,
         isRealityMode,
+        searchedId,
       })
     },
-    [correctId, getFeatureIds, hintedId, isRealityMode]
+    [correctId, getFeatureIds, hintedId, isRealityMode, searchedId]
   )
 
   useEffect(() => {
     geoRef.current?.setStyle(styleByState)
   }, [styleByState])
+
+  useEffect(() => {
+    if (mode !== 'search' || !searchedId || !geoData) return
+
+    let labelLayer: L.Polygon | null = null
+    let largestBoundsArea = -1
+    geoRef.current?.eachLayer((candidateLayer) => {
+      const layer = candidateLayer as L.Polygon & { feature?: unknown }
+      if (!getFeatureIds(layer.feature).includes(searchedId)) return
+      const bounds = layer.getBounds()
+      const boundsArea =
+        (bounds.getEast() - bounds.getWest()) *
+        (bounds.getNorth() - bounds.getSouth())
+      if (boundsArea > largestBoundsArea) {
+        labelLayer = layer
+        largestBoundsArea = boundsArea
+      }
+    })
+    if (!labelLayer || !mapRef.current) return
+
+    const label = items.find((item) => item.id === searchedId)?.label
+    if (!label) return
+    const tooltip = L.tooltip({
+      permanent: true,
+      direction: 'center',
+      interactive: false,
+      className: 'geo-json-answer-label',
+    })
+      .setLatLng((labelLayer as L.Polygon).getCenter())
+      .setContent(label)
+      .addTo(mapRef.current)
+
+    return () => {
+      tooltip.remove()
+    }
+  }, [geoData, getFeatureIds, items, mode, searchedId])
 
   function handleSelectionChange(nextIds: Set<string>) {
     const nextPool = items.filter((item) => nextIds.has(item.id))
@@ -189,6 +236,35 @@ export default function GeoJsonQuiz({
     setHintedId(null)
   }
 
+  function handleSearchSelect(item: GeoJsonQuizItem) {
+    const currentMap = mapRef.current
+    const currentGeoJson = geoRef.current
+    if (!currentMap || !currentGeoJson) return false
+
+    const bounds = L.latLngBounds([])
+    currentGeoJson.eachLayer((candidateLayer) => {
+      const layer = candidateLayer as L.Polygon & { feature?: unknown }
+      if (!getFeatureIds(layer.feature).includes(item.id)) return
+      bounds.extend(layer.getBounds())
+    })
+    if (!bounds.isValid()) return false
+
+    modeRef.current = 'search'
+    isRealityModeRef.current = false
+    questionRef.current = null
+    correctIdRef.current = null
+    hintedIdRef.current = null
+    searchedIdRef.current = item.id
+    setMode('search')
+    setIsRealityMode(false)
+    setQuestion(null)
+    setCorrectId(null)
+    setHintedId(null)
+    setSearchedId(item.id)
+    currentMap.fitBounds(bounds, { padding: [32, 32] })
+    return true
+  }
+
   function restoreCurrentStyles() {
     geoRef.current?.setStyle((feature) => {
       const featureIds = getFeatureIds(feature)
@@ -196,12 +272,13 @@ export default function GeoJsonQuiz({
         hintedId: hintedIdRef.current,
         correctId: correctIdRef.current,
         isRealityMode: isRealityModeRef.current,
+        searchedId: searchedIdRef.current,
       })
     })
   }
 
   function highlightFeatureGroup(featureIds: string[]) {
-    if (isRealityModeRef.current) return
+    if (isRealityModeRef.current || modeRef.current !== 'quiz') return
 
     const groupKey = getFeatureGroupKey(featureIds)
 
@@ -248,6 +325,8 @@ export default function GeoJsonQuiz({
     setQuestion(null)
     setCorrectId(null)
     setHintedId(null)
+    setSearchedId(null)
+    searchedIdRef.current = null
   }
 
   function startQuiz() {
@@ -258,10 +337,12 @@ export default function GeoJsonQuiz({
     questionRef.current = nextQuestion
     correctIdRef.current = null
     hintedIdRef.current = null
+    searchedIdRef.current = null
     setMode('quiz')
     setQuestion(nextQuestion)
     setCorrectId(null)
     setHintedId(null)
+    setSearchedId(null)
   }
 
   function toggleRealityMode() {
@@ -285,12 +366,18 @@ export default function GeoJsonQuiz({
         mode={
           mode === 'quiz'
             ? 'quiz'
-            : answerLabels.isPrepared
-              ? 'answers'
-              : 'preparing'
+            : mode === 'search'
+              ? 'search'
+              : answerLabels.isPrepared
+                ? 'answers'
+                : 'preparing'
         }
-        disabled={!geoData || pool.length === 0 || answerLabels.isPreparing}
-        onClick={mode === 'answers' ? startQuiz : showAnswers}
+        disabled={
+          !geoData ||
+          pool.length === 0 ||
+          (mode === 'answers' && answerLabels.isPreparing)
+        }
+        onClick={mode === 'quiz' ? showAnswers : startQuiz}
       />
     </div>
   )
@@ -301,6 +388,16 @@ export default function GeoJsonQuiz({
         title={title}
         question={mode === 'quiz' ? (question?.label ?? emptyQuestion) : null}
         controls={controls}
+        mapActions={
+          searchKind ? (
+            <GeoJsonQuizSearch
+              kind={searchKind}
+              items={items}
+              disabled={!geoData}
+              onSelect={handleSearchSelect}
+            />
+          ) : undefined
+        }
         collapsibleMobileControls
         headerActions={headerActions}
         isInfoOpen={isInfoOpen}

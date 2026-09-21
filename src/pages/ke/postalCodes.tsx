@@ -20,6 +20,7 @@ export default function KenyaPostalCodes() {
       geoJsonUrl="/country_specific/ke/kecode.geojson"
       items={KE_POSTAL_CODE_ITEMS}
       getFeatureIds={getKenyaPostalCodeIds}
+      searchKind="code"
       map={{
         center: [0.2, 37.8],
         zoom: 6,

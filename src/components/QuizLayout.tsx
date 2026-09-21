@@ -9,6 +9,7 @@ type QuizLayoutProps = {
   question: string | null
   questionOverlay?: ReactNode
   controls?: ReactNode
+  mapActions?: ReactNode
   collapsibleMobileControls?: boolean
   headerActions?: ReactNode
   isInfoOpen: boolean
@@ -21,6 +22,7 @@ export default function QuizLayout({
   question,
   questionOverlay,
   controls,
+  mapActions,
   collapsibleMobileControls = false,
   headerActions,
   isInfoOpen,
@@ -103,6 +105,7 @@ export default function QuizLayout({
         }
       />
       <main className="relative min-h-0 flex-1 p-3 sm:p-6">
+        {mapActions}
         {controls && collapsibleMobileControls && (
           <button
             ref={mobileControlsTriggerRef}

@@ -48,6 +48,7 @@ export default function SouthAfricaCodes() {
       geoJsonUrl="/country_specific/za/zacode.geojson"
       items={ZA_AREA_CODES}
       getFeatureIds={getSouthAfricaFeatureCodes}
+      searchKind="code"
       map={{
         center: [-30.6, 24.3],
         zoom: 5,

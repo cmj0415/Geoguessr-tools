@@ -21,6 +21,7 @@ export default function JapanCodes() {
       geoJsonUrl="/country_specific/jp/jpcode.geojson"
       items={JP_AREA_CODES}
       getFeatureIds={getJapanFeatureCodes}
+      searchKind="code"
       map={{
         center: [36.2, 138.2],
         zoom: 5,

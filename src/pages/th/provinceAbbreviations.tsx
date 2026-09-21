@@ -51,6 +51,7 @@ export default function ThailandProvinceAbbreviations() {
         geoJsonUrl="/country_specific/th/thprovince.geojson"
         items={TH_PROVINCE_ABBREVIATIONS}
         getFeatureIds={getThailandProvinceAbbreviationIds}
+        searchKind={false}
         headerActions={
           <>
             <QuizHeaderBadge ariaLabel="76 provinces">

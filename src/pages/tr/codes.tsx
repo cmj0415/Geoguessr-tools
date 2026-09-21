@@ -29,6 +29,7 @@ export default function TurkeyCodes() {
       geoJsonUrl="/country_specific/tr/trprovince.geojson"
       items={TR_AREA_CODES}
       getFeatureIds={getTurkeyFeatureCodes}
+      searchKind="code"
       selector={{
         divisions: PREFIX_GROUPS,
         title: 'Select prefixes',

@@ -7,6 +7,7 @@ import type {
   GeoJsonQuizSelectorProps,
 } from './GeoJsonQuiz'
 import { QuestionSelector } from './QuestionSelector'
+import type { QuizSearchKind } from './GeoJsonQuizSearch'
 
 export type GeoJsonRegionQuizItem = GeoJsonQuizItem & {
   region?: string
@@ -26,6 +27,7 @@ type GeoJsonRegionQuizProps = {
   cache?: RequestCache
   items: GeoJsonRegionQuizItem[]
   getFeatureIds: (feature: unknown) => string[]
+  searchKind?: QuizSearchKind | false
   selector?: RegionSelectorConfiguration
   headerActions?: ReactNode
   map: GeoJsonQuizMapConfiguration
@@ -73,6 +75,7 @@ export default function GeoJsonRegionQuiz({
   cache,
   items,
   getFeatureIds,
+  searchKind = 'place',
   selector,
   headerActions,
   map,
@@ -95,6 +98,7 @@ export default function GeoJsonRegionQuiz({
       cache={cache}
       items={items}
       getFeatureIds={getFeatureIds}
+      searchKind={searchKind}
       map={map}
       headerActions={headerActions}
       selector={

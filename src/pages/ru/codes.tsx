@@ -30,6 +30,7 @@ export default function RussiaCodes() {
       geoJsonUrl="/country_specific/ru/rufedsubject.geojson"
       items={RU_AREA_CODES}
       getFeatureIds={getRussiaFeatureCodes}
+      searchKind="code"
       selector={{
         divisions: PREFIX_GROUPS,
         title: 'Select prefixes',

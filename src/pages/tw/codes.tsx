@@ -24,6 +24,7 @@ export default function TaiwanCodes() {
       geoJsonUrl="/country_specific/tw/twcode.geojson"
       items={TW_AREA_CODES}
       getFeatureIds={getTaiwanFeatureCodes}
+      searchKind="code"
       map={{
         center: [23.7, 120.8],
         zoom: 6,

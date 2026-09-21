@@ -1,7 +1,7 @@
 import { MAP_CONTROL_TRIGGER_CLASS_NAME } from './mapControlStyles'
 
 type GeoJsonAnswerModeButtonProps = {
-  mode: 'quiz' | 'preparing' | 'answers'
+  mode: 'quiz' | 'preparing' | 'answers' | 'search'
   disabled: boolean
   onClick: () => void
 }
@@ -11,7 +11,7 @@ export default function GeoJsonAnswerModeButton({
   disabled,
   onClick,
 }: GeoJsonAnswerModeButtonProps) {
-  const isAnswerMode = mode !== 'quiz'
+  const isAnswerMode = mode === 'answers' || mode === 'preparing'
 
   return (
     <button

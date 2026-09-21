@@ -79,6 +79,7 @@ export default function GeoJsonCodeQuiz({
       cache={cache}
       items={items}
       getFeatureIds={getFeatureCodes}
+      searchKind="code"
       map={{ ...map, tileLayer: OPEN_STREET_MAP_TILE_LAYER }}
       selector={
         <CodeQuizSelector availableCodes={availableCodes} range={range} />

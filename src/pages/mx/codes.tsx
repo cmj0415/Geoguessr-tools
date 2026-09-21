@@ -31,6 +31,7 @@ export default function MexicoCodes() {
       geoJsonUrl="/country_specific/mx/mxcode.geojson"
       items={MX_AREA_CODES}
       getFeatureIds={getMexicoFeatureCodes}
+      searchKind="code"
       selector={{
         divisions: PREFIX_GROUPS,
         title: 'Select prefixes',

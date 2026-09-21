@@ -20,6 +20,7 @@ export default function ThailandCodes() {
       geoJsonUrl="/country_specific/th/thcode.geojson"
       items={TH_AREA_CODES}
       getFeatureIds={getThailandFeatureCodes}
+      searchKind="code"
       map={{
         center: [13.8, 101],
         zoom: 6,

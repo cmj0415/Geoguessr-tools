@@ -24,6 +24,7 @@ export default function EcuadorTaxiLetters() {
       geoJsonUrl="/country_specific/ec/ecprovince.geojson"
       items={EC_TAXI_LETTERS}
       getFeatureIds={getEcuadorTaxiLetterIds}
+      searchKind={false}
       map={{
         center: [-1.5, -78.4],
         zoom: 7,

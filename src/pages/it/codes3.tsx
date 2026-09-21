@@ -30,6 +30,7 @@ export default function ItalyThreeDigitCodes() {
       geoJsonUrl="/country_specific/it/itcodes3.geojson"
       items={IT_THREE_DIGIT_AREA_CODES}
       getFeatureIds={getItalyThreeDigitFeatureCodes}
+      searchKind="code"
       selector={{
         divisions: PREFIX_GROUPS,
         title: 'Select prefixes',
