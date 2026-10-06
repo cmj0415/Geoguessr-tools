@@ -66,7 +66,10 @@ const COUNTRY_QUIZ_GROUPS: CountryQuizGroup[] = [
   {
     countryName: 'India',
     flag: '🇮🇳',
-    quizzes: [{ label: 'State Quiz', to: '/in/states' }],
+    quizzes: [
+      { label: 'State Quiz', to: '/in/states' },
+      { label: 'Hindi Translation Practice', to: '/in/hindi' },
+    ],
   },
   {
     countryName: 'Indonesia',

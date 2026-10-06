@@ -1,0 +1,8336 @@
+[
+  {
+    "prompt": "आगर मालवा",
+    "answer": "Agar-Malwa",
+    "alternativeAnswers": ["Agar Malwa"],
+    "segments": [
+      {
+        "source": "आ",
+        "reading": "a"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "आगरा",
+    "answer": "Agra",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "आ",
+        "reading": "a"
+      },
+      {
+        "source": "ग",
+        "reading": "g"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "अजमेर",
+    "answer": "Ajmer",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "मे",
+        "reading": "me"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "अलीगढ़",
+    "answer": "Aligarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "अलीराजपुर",
+    "answer": "Alirajpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "अल्मोड़ा",
+    "answer": "Almora",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "ल्मो",
+        "reading": "lmo",
+        "components": ["ल", "म"]
+      },
+      {
+        "source": "ड़ा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "अलवर",
+    "answer": "Alwar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "व",
+        "reading": "wa"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "अंबाला",
+    "answer": "Ambala",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अं",
+        "reading": "am"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "अंबेडकर नगर",
+    "answer": "Ambedkar Nagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अं",
+        "reading": "am"
+      },
+      {
+        "source": "बे",
+        "reading": "be"
+      },
+      {
+        "source": "ड",
+        "reading": "d"
+      },
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "अमेठी",
+    "answer": "Amethi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "मे",
+        "reading": "me"
+      },
+      {
+        "source": "ठी",
+        "reading": "thi"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "अमरोहा",
+    "answer": "Amroha",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "रो",
+        "reading": "ro"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "अनूपपुर",
+    "answer": "Anuppur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "नू",
+        "reading": "nu"
+      },
+      {
+        "source": "प",
+        "reading": "p"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "अररिया",
+    "answer": "Araria",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "रि",
+        "reading": "ri"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "अरवल",
+    "answer": "Arwal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "व",
+        "reading": "wa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "अशोक नगर",
+    "answer": "Ashoknagar",
+    "alternativeAnswers": ["Ashok Nagar"],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "शो",
+        "reading": "sho"
+      },
+      {
+        "source": "क",
+        "reading": "k"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "औरैया",
+    "answer": "Auraiya",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "औ",
+        "reading": "au"
+      },
+      {
+        "source": "रै",
+        "reading": "rai"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "औरंगाबाद",
+    "answer": "Aurangabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "औ",
+        "reading": "au"
+      },
+      {
+        "source": "रं",
+        "reading": "ran"
+      },
+      {
+        "source": "गा",
+        "reading": "ga"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "अयोध्या",
+    "answer": "Ayodhya",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "अ",
+        "reading": "a"
+      },
+      {
+        "source": "यो",
+        "reading": "yo"
+      },
+      {
+        "source": "ध्या",
+        "reading": "dhya",
+        "components": ["ध", "य"]
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "आजमगढ़",
+    "answer": "Azamgarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "आ",
+        "reading": "a"
+      },
+      {
+        "source": "ज",
+        "reading": "za"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बागेश्वर",
+    "answer": "Bageshwar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "गे",
+        "reading": "ge"
+      },
+      {
+        "source": "श्व",
+        "reading": "shwa",
+        "components": ["श", "व"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "बागपत",
+    "answer": "Baghpat",
+    "alternativeAnswers": ["Bagpat"],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बहराइच",
+    "answer": "Bahraich",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "इ",
+        "reading": "i"
+      },
+      {
+        "source": "च",
+        "reading": "ch"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बालाघाट",
+    "answer": "Balaghat",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "घा",
+        "reading": "gha"
+      },
+      {
+        "source": "ट",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "बलिया",
+    "answer": "Ballia",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "लि",
+        "reading": "li"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बालोद",
+    "answer": "Balod",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "लो",
+        "reading": "lo"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "बलौदाबाजार-भाटापारा",
+    "answer": "Balodabazar-Bhatapara",
+    "alternativeAnswers": ["Baloda Bazar", "Baloda Bazar-Bhatapara"],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "लौ",
+        "reading": "lau"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "जा",
+        "reading": "za"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "भा",
+        "reading": "bha"
+      },
+      {
+        "source": "टा",
+        "reading": "ta"
+      },
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "बालोतरा",
+    "answer": "Balotra",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "लो",
+        "reading": "lo"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "बलरामपुर",
+    "answer": "Balrampur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बलरामपुर-रामानुजगंज",
+    "answer": "Balrampur-Ramanujganj",
+    "alternativeAnswers": ["Balrampur"],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      },
+      {
+        "source": "नु",
+        "reading": "nu"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "बांदा",
+    "answer": "Banda",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बां",
+        "reading": "ban"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बांका",
+    "answer": "Banka",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बां",
+        "reading": "ban"
+      },
+      {
+        "source": "का",
+        "reading": "ka"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "बांसवाड़ा",
+    "answer": "Banswara",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बां",
+        "reading": "ban"
+      },
+      {
+        "source": "स",
+        "reading": "s"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ड़ा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "बाराबंकी",
+    "answer": "Barabanki",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "बं",
+        "reading": "ban"
+      },
+      {
+        "source": "की",
+        "reading": "ki"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बारां",
+    "answer": "Baran",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "रां",
+        "reading": "ran"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "बरेली",
+    "answer": "Bareilly",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "रे",
+        "reading": "re"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बाड़मेर",
+    "answer": "Barmer",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      },
+      {
+        "source": "मे",
+        "reading": "me"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "बड़वानी",
+    "answer": "Barwani",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "बस्तर",
+    "answer": "Bastar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "स्त",
+        "reading": "sta",
+        "components": ["स", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "बस्ती",
+    "answer": "Basti",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "स्ती",
+        "reading": "sti",
+        "components": ["स", "त"]
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "ब्यावर",
+    "answer": "Beawar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब्या",
+        "reading": "bya",
+        "components": ["ब", "य"]
+      },
+      {
+        "source": "व",
+        "reading": "wa"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "बेगूसराय",
+    "answer": "Begusarai",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बे",
+        "reading": "be"
+      },
+      {
+        "source": "गू",
+        "reading": "gu"
+      },
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "बेमेतरा",
+    "answer": "Bemetara",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बे",
+        "reading": "be"
+      },
+      {
+        "source": "मे",
+        "reading": "me"
+      },
+      {
+        "source": "त",
+        "reading": "ta"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "बैतूल",
+    "answer": "Betul",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बै",
+        "reading": "bai"
+      },
+      {
+        "source": "तू",
+        "reading": "tu"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "भदोही",
+    "answer": "Bhadohi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भ",
+        "reading": "bha"
+      },
+      {
+        "source": "दो",
+        "reading": "do"
+      },
+      {
+        "source": "ही",
+        "reading": "hi"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "भागलपुर",
+    "answer": "Bhagalpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भा",
+        "reading": "bha"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "भरतपुर",
+    "answer": "Bharatpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भ",
+        "reading": "bha"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "भीलवाड़ा",
+    "answer": "Bhilwara",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भी",
+        "reading": "bhi"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ड़ा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "भिंड",
+    "answer": "Bhind",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भिं",
+        "reading": "bhin"
+      },
+      {
+        "source": "ड",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "भिवानी",
+    "answer": "Bhiwani",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भि",
+        "reading": "bhi"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "भोजपुर",
+    "answer": "Bhojpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भो",
+        "reading": "bho"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "भोपाल",
+    "answer": "Bhopal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "भो",
+        "reading": "bho"
+      },
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "बीजापुर",
+    "answer": "Bijapur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बी",
+        "reading": "bi"
+      },
+      {
+        "source": "जा",
+        "reading": "ja"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "बिजनौर",
+    "answer": "Bijnor",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बि",
+        "reading": "bi"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "नौ",
+        "reading": "nau"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बीकानेर",
+    "answer": "Bikaner",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बी",
+        "reading": "bi"
+      },
+      {
+        "source": "का",
+        "reading": "ka"
+      },
+      {
+        "source": "ने",
+        "reading": "ne"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "बिलासपुर",
+    "answer": "Bilaspur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बि",
+        "reading": "bi"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "स",
+        "reading": "s"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "बिलासपुर",
+    "answer": "Bilaspur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बि",
+        "reading": "bi"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "स",
+        "reading": "s"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "बोकारो",
+    "answer": "Bokaro",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बो",
+        "reading": "bo"
+      },
+      {
+        "source": "का",
+        "reading": "ka"
+      },
+      {
+        "source": "रो",
+        "reading": "ro"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "बुडयून",
+    "answer": "Budaun",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बु",
+        "reading": "bu"
+      },
+      {
+        "source": "ड",
+        "reading": "d"
+      },
+      {
+        "source": "यू",
+        "reading": "yu"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बुलंदशहर",
+    "answer": "Bulandshahr",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बु",
+        "reading": "bu"
+      },
+      {
+        "source": "लं",
+        "reading": "lan"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      },
+      {
+        "source": "श",
+        "reading": "sha"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "बूंदी",
+    "answer": "Bundi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बूं",
+        "reading": "bun"
+      },
+      {
+        "source": "दी",
+        "reading": "di"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "बुरहानपुर",
+    "answer": "Burhanpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "बु",
+        "reading": "bu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "बक्सर",
+    "answer": "Buxar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ब",
+        "reading": "b"
+      },
+      {
+        "source": "क्स",
+        "reading": "ksa",
+        "components": ["क", "स"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "मध्य दिल्ली",
+    "answer": "Central",
+    "alternativeAnswers": ["Central Delhi"],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "ध्य",
+        "reading": "dhya",
+        "components": ["ध", "य"]
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "मध्य उत्तर दिल्ली",
+    "answer": "Central North",
+    "alternativeAnswers": ["Central North Delhi"],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "ध्य",
+        "reading": "dhya",
+        "components": ["ध", "य"]
+      },
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "त्त",
+        "reading": "tta",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "चंबा",
+    "answer": "Chamba",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "चं",
+        "reading": "cham"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "चमोली",
+    "answer": "Chamoli",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "च",
+        "reading": "cha"
+      },
+      {
+        "source": "मो",
+        "reading": "mo"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "चंपावत",
+    "answer": "Champawat",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "चं",
+        "reading": "cham"
+      },
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "व",
+        "reading": "wa"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "चंदौली",
+    "answer": "Chandauli",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "चं",
+        "reading": "chan"
+      },
+      {
+        "source": "दौ",
+        "reading": "dau"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "चरखी दादरी",
+    "answer": "Charkhi Dadri",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "च",
+        "reading": "cha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "खी",
+        "reading": "khi"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "चतरा",
+    "answer": "Chatra",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "च",
+        "reading": "cha"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "छतरपुर",
+    "answer": "Chhatarpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "छ",
+        "reading": "chha"
+      },
+      {
+        "source": "त",
+        "reading": "ta"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "छिंदवाड़ा",
+    "answer": "Chhindwara",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "छिं",
+        "reading": "chhin"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ड़ा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "चित्रकूट",
+    "answer": "Chitrakoot",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "चि",
+        "reading": "chi"
+      },
+      {
+        "source": "त्र",
+        "reading": "tra",
+        "components": ["त", "र"]
+      },
+      {
+        "source": "कू",
+        "reading": "koo"
+      },
+      {
+        "source": "ट",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "चित्तौड़गढ़",
+    "answer": "Chittorgarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "चि",
+        "reading": "chi"
+      },
+      {
+        "source": "त्तौ",
+        "reading": "ttau",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "चूरू",
+    "answer": "Churu",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "चू",
+        "reading": "chu"
+      },
+      {
+        "source": "रू",
+        "reading": "ru"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "दक्षिण बस्तर दंतेवाड़ा",
+    "answer": "Dakshin Bastar Dantewada",
+    "alternativeAnswers": ["Dantewada"],
+    "segments": [
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "क्षि",
+        "reading": "kshi",
+        "components": ["क", "ष"]
+      },
+      {
+        "source": "ण",
+        "reading": "n"
+      },
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "स्त",
+        "reading": "sta",
+        "components": ["स", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "दं",
+        "reading": "dan"
+      },
+      {
+        "source": "ते",
+        "reading": "te"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ड़ा",
+        "reading": "da"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "दमोह",
+    "answer": "Damoh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "मो",
+        "reading": "mo"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "दरभंगा",
+    "answer": "Darbhanga",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "भं",
+        "reading": "bhan"
+      },
+      {
+        "source": "गा",
+        "reading": "ga"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "दतिया",
+    "answer": "Datia",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "ति",
+        "reading": "ti"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "दौसा",
+    "answer": "Dausa",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "दौ",
+        "reading": "dau"
+      },
+      {
+        "source": "सा",
+        "reading": "sa"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "डीग",
+    "answer": "Deeg",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "डी",
+        "reading": "dee"
+      },
+      {
+        "source": "ग",
+        "reading": "g"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "देहरादून",
+    "answer": "Dehradun",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "दे",
+        "reading": "de"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "दू",
+        "reading": "du"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "देवघर",
+    "answer": "Deoghar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "दे",
+        "reading": "de"
+      },
+      {
+        "source": "व",
+        "reading": "v"
+      },
+      {
+        "source": "घ",
+        "reading": "gha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "देवरिया",
+    "answer": "Deoria",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "दे",
+        "reading": "de"
+      },
+      {
+        "source": "व",
+        "reading": "v"
+      },
+      {
+        "source": "रि",
+        "reading": "ri"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "देवास",
+    "answer": "Dewas",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "दे",
+        "reading": "de"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "स",
+        "reading": "s"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "धमतरी",
+    "answer": "Dhamtari",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ध",
+        "reading": "dha"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "त",
+        "reading": "ta"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "धनबाद",
+    "answer": "Dhanbad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ध",
+        "reading": "dha"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "धर",
+    "answer": "Dhar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ध",
+        "reading": "dha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "धौलपुर",
+    "answer": "Dholpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "धौ",
+        "reading": "dhau"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "डीडवाना-कुचामन",
+    "answer": "Didwana-Kuchaman",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "डी",
+        "reading": "di"
+      },
+      {
+        "source": "ड",
+        "reading": "d"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      },
+      {
+        "source": "कु",
+        "reading": "ku"
+      },
+      {
+        "source": "चा",
+        "reading": "cha"
+      },
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "डिंडोरी",
+    "answer": "Dindori",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "डिं",
+        "reading": "din"
+      },
+      {
+        "source": "डो",
+        "reading": "do"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "दुमका",
+    "answer": "Dumka",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "दु",
+        "reading": "du"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "का",
+        "reading": "ka"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "डूंगरपुर",
+    "answer": "Dungarpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "डूं",
+        "reading": "dun"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "दुर्ग",
+    "answer": "Durg",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "दु",
+        "reading": "du"
+      },
+      {
+        "source": "र्ग",
+        "reading": "rg",
+        "components": ["र", "ग"]
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "पूर्वी दिल्ली",
+    "answer": "East",
+    "alternativeAnswers": ["East Delhi"],
+    "segments": [
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "र्वी",
+        "reading": "rvi",
+        "components": ["र", "व"]
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "पूर्वी सिंहभूम",
+    "answer": "East Singhbhum",
+    "alternativeAnswers": ["East Singhbum"],
+    "segments": [
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "र्वी",
+        "reading": "rvi",
+        "components": ["र", "व"]
+      },
+      {
+        "source": "सिं",
+        "reading": "sin"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "भू",
+        "reading": "bhu"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "एटा",
+    "answer": "Etah",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ए",
+        "reading": "e"
+      },
+      {
+        "source": "टा",
+        "reading": "ta"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "इटावा",
+    "answer": "Etawah",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "इ",
+        "reading": "i"
+      },
+      {
+        "source": "टा",
+        "reading": "ta"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "फरीदाबाद",
+    "answer": "Faridabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "फ",
+        "reading": "fa"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "फर्रुखाबाद",
+    "answer": "Farrukhabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "फ",
+        "reading": "fa"
+      },
+      {
+        "source": "र्रु",
+        "reading": "rru",
+        "components": ["र", "र"]
+      },
+      {
+        "source": "खा",
+        "reading": "kha"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "फतेहाबाद",
+    "answer": "Fatehabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "फ",
+        "reading": "fa"
+      },
+      {
+        "source": "ते",
+        "reading": "te"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "फतेहपुर",
+    "answer": "Fatehpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "फ",
+        "reading": "fa"
+      },
+      {
+        "source": "ते",
+        "reading": "te"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "फीरोजाबाद",
+    "answer": "Firozabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "फी",
+        "reading": "fi"
+      },
+      {
+        "source": "रो",
+        "reading": "ro"
+      },
+      {
+        "source": "जा",
+        "reading": "za"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "गंगानगर",
+    "answer": "Ganganagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "गा",
+        "reading": "ga"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "गढ़वा",
+    "answer": "Garhwa",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "गरियाबंद",
+    "answer": "Gariyaband",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "रि",
+        "reading": "ri"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      },
+      {
+        "source": "बं",
+        "reading": "ban"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "गौरेला-पेंड्रा-मरवाही",
+    "answer": "Gaurela-Pendra-Marwahi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गौ",
+        "reading": "gau"
+      },
+      {
+        "source": "रे",
+        "reading": "re"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "पें",
+        "reading": "pen"
+      },
+      {
+        "source": "ड्रा",
+        "reading": "dra",
+        "components": ["ड", "र"]
+      },
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ही",
+        "reading": "hi"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "गौतमबुद्धनगर",
+    "answer": "Gautam Buddha Nagar",
+    "alternativeAnswers": ["Gautam Buddh Nagar"],
+    "segments": [
+      {
+        "source": "गौ",
+        "reading": "gau"
+      },
+      {
+        "source": "त",
+        "reading": "ta"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "बु",
+        "reading": "bu"
+      },
+      {
+        "source": "द्ध",
+        "reading": "ddha",
+        "components": ["द", "ध"]
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "गया",
+    "answer": "Gaya",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "गाजियाबाद",
+    "answer": "Ghaziabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गा",
+        "reading": "ga"
+      },
+      {
+        "source": "जि",
+        "reading": "zi"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "गाजीपुर",
+    "answer": "Ghazipur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गा",
+        "reading": "gaa"
+      },
+      {
+        "source": "जी",
+        "reading": "zi"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "गिरिडीह",
+    "answer": "Giridih",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गि",
+        "reading": "gi"
+      },
+      {
+        "source": "रि",
+        "reading": "ri"
+      },
+      {
+        "source": "डी",
+        "reading": "di"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "गोड्डा",
+    "answer": "Godda",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गो",
+        "reading": "go"
+      },
+      {
+        "source": "ड्डा",
+        "reading": "dda",
+        "components": ["ड", "ड"]
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "गोंडा",
+    "answer": "Gonda",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गों",
+        "reading": "gon"
+      },
+      {
+        "source": "डा",
+        "reading": "da"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "गोपालगंज",
+    "answer": "Gopalganj",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गो",
+        "reading": "go"
+      },
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "गोरखपुर",
+    "answer": "Gorakhpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गो",
+        "reading": "go"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "ख",
+        "reading": "kh"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "गुमला",
+    "answer": "Gumla",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गु",
+        "reading": "gu"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "गुना",
+    "answer": "Guna",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "गु",
+        "reading": "gu"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "गुरुग्राम",
+    "answer": "Gurugram",
+    "alternativeAnswers": ["Gurgaon"],
+    "segments": [
+      {
+        "source": "गु",
+        "reading": "gu"
+      },
+      {
+        "source": "रु",
+        "reading": "ru"
+      },
+      {
+        "source": "ग्रा",
+        "reading": "gra",
+        "components": ["ग", "र"]
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "ग्वालियर",
+    "answer": "Gwalior",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ग्वा",
+        "reading": "gwa",
+        "components": ["ग", "व"]
+      },
+      {
+        "source": "लि",
+        "reading": "li"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "हमीरपुर",
+    "answer": "Hamirpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "मी",
+        "reading": "mi"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "हमीरपुर",
+    "answer": "Hamirpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "मी",
+        "reading": "mi"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "हांसी",
+    "answer": "Hansi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "हां",
+        "reading": "han"
+      },
+      {
+        "source": "सी",
+        "reading": "si"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "हनुमानगढ़",
+    "answer": "Hanumangarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "नु",
+        "reading": "nu"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "हापुड़",
+    "answer": "Hapur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "हरदा",
+    "answer": "Harda",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "हरदोई",
+    "answer": "Hardoi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "दो",
+        "reading": "do"
+      },
+      {
+        "source": "ई",
+        "reading": "i"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "हरिद्वार",
+    "answer": "Haridwar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "रि",
+        "reading": "ri"
+      },
+      {
+        "source": "द्वा",
+        "reading": "dwa",
+        "components": ["द", "व"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "हाथरस",
+    "answer": "Hathras",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "थ",
+        "reading": "th"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "स",
+        "reading": "s"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "हजारीबाग",
+    "answer": "Hazaribagh",
+    "alternativeAnswers": ["Hazaribag"],
+    "segments": [
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "जा",
+        "reading": "za"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "ग",
+        "reading": "g"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "हिसार",
+    "answer": "Hisar",
+    "alternativeAnswers": ["Hissar"],
+    "segments": [
+      {
+        "source": "हि",
+        "reading": "hi"
+      },
+      {
+        "source": "सा",
+        "reading": "sa"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "इंदौर",
+    "answer": "Indore",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "इं",
+        "reading": "in"
+      },
+      {
+        "source": "दौ",
+        "reading": "dau"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "जबलपुर",
+    "answer": "Jabalpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ज",
+        "reading": "ja"
+      },
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "जयपुर",
+    "answer": "Jaipur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ज",
+        "reading": "ja"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "जैसलमेर",
+    "answer": "Jaisalmer",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जै",
+        "reading": "jai"
+      },
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "मे",
+        "reading": "me"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "जालौन",
+    "answer": "Jalaun",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जा",
+        "reading": "ja"
+      },
+      {
+        "source": "लौ",
+        "reading": "lau"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "जालौर",
+    "answer": "Jalore",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जा",
+        "reading": "ja"
+      },
+      {
+        "source": "लौ",
+        "reading": "lau"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "जामताड़ा",
+    "answer": "Jamtara",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जा",
+        "reading": "ja"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "ता",
+        "reading": "ta"
+      },
+      {
+        "source": "ड़ा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "जमुई",
+    "answer": "Jamui",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ज",
+        "reading": "ja"
+      },
+      {
+        "source": "मु",
+        "reading": "mu"
+      },
+      {
+        "source": "ई",
+        "reading": "i"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "जांजगीर-चांपा",
+    "answer": "Janjgir-Champa",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जां",
+        "reading": "jan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "गी",
+        "reading": "gi"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "चां",
+        "reading": "cham"
+      },
+      {
+        "source": "पा",
+        "reading": "pa"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "जशपुर",
+    "answer": "Jashpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ज",
+        "reading": "ja"
+      },
+      {
+        "source": "श",
+        "reading": "sh"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "जौनपुर",
+    "answer": "Jaunpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जौ",
+        "reading": "jau"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "जहानाबाद",
+    "answer": "Jehanabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ज",
+        "reading": "ja"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "झबुआ",
+    "answer": "Jhabua",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "झ",
+        "reading": "jha"
+      },
+      {
+        "source": "बु",
+        "reading": "bu"
+      },
+      {
+        "source": "आ",
+        "reading": "a"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "झज्जर",
+    "answer": "Jhajjar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "झ",
+        "reading": "jha"
+      },
+      {
+        "source": "ज्ज",
+        "reading": "jja",
+        "components": ["ज", "ज"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "झालावाड़",
+    "answer": "Jhalawar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "झा",
+        "reading": "jha"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "झांसी",
+    "answer": "Jhansi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "झां",
+        "reading": "jhan"
+      },
+      {
+        "source": "सी",
+        "reading": "si"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "झुंझुनू",
+    "answer": "Jhunjhunu",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "झुं",
+        "reading": "jhun"
+      },
+      {
+        "source": "झु",
+        "reading": "jhu"
+      },
+      {
+        "source": "नू",
+        "reading": "nu"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "जीन्द",
+    "answer": "Jind",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जी",
+        "reading": "ji"
+      },
+      {
+        "source": "न्द",
+        "reading": "nd",
+        "components": ["न", "द"]
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "जोधपुर",
+    "answer": "Jodhpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "जो",
+        "reading": "jo"
+      },
+      {
+        "source": "ध",
+        "reading": "dh"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "कबीरधाम",
+    "answer": "Kabeerdham",
+    "alternativeAnswers": ["Kabirdham"],
+    "segments": [
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "बी",
+        "reading": "bee"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "धा",
+        "reading": "dha"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "कैमूर (भभुआ)",
+    "answer": "Kaimur (Bhabua)",
+    "alternativeAnswers": ["Kaimur", "Bhabua"],
+    "segments": [
+      {
+        "source": "कै",
+        "reading": "kai"
+      },
+      {
+        "source": "मू",
+        "reading": "mu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "भ",
+        "reading": "bha"
+      },
+      {
+        "source": "भु",
+        "reading": "bhu"
+      },
+      {
+        "source": "आ",
+        "reading": "a"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "कैथल",
+    "answer": "Kaithal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कै",
+        "reading": "kai"
+      },
+      {
+        "source": "थ",
+        "reading": "tha"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "कांगड़ा",
+    "answer": "Kangra",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कां",
+        "reading": "kan"
+      },
+      {
+        "source": "ग",
+        "reading": "g"
+      },
+      {
+        "source": "ड़ा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "कन्नौज",
+    "answer": "Kannauj",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "न्नौ",
+        "reading": "nnau",
+        "components": ["न", "न"]
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "कानपुर देहात",
+    "answer": "Kanpur Dehat",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "का",
+        "reading": "ka"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "दे",
+        "reading": "de"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "कानपुर नगर",
+    "answer": "Kanpur Nagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "का",
+        "reading": "ka"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "करौली",
+    "answer": "Karauli",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "रौ",
+        "reading": "rau"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "करनाल",
+    "answer": "Karnal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "कासगंज",
+    "answer": "Kasganj",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "का",
+        "reading": "ka"
+      },
+      {
+        "source": "स",
+        "reading": "s"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "कटिहार",
+    "answer": "Katihar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "टि",
+        "reading": "ti"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "कटनी",
+    "answer": "Katni",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "ट",
+        "reading": "t"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "कौशांबी",
+    "answer": "Kaushambi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कौ",
+        "reading": "kau"
+      },
+      {
+        "source": "शां",
+        "reading": "sham"
+      },
+      {
+        "source": "बी",
+        "reading": "bi"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "खगड़िया",
+    "answer": "Khagaria",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ख",
+        "reading": "kha"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ड़ि",
+        "reading": "ri"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "खैरागढ़-छुईखदान-गंडई",
+    "answer": "Khairagarh-Chhuikhadan-Gandai",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "खै",
+        "reading": "khai"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      },
+      {
+        "source": "छु",
+        "reading": "chhu"
+      },
+      {
+        "source": "ई",
+        "reading": "i"
+      },
+      {
+        "source": "ख",
+        "reading": "kha"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ड",
+        "reading": "da"
+      },
+      {
+        "source": "ई",
+        "reading": "i"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "खैरथल-तिजारा",
+    "answer": "Khairthal-Tijara",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "खै",
+        "reading": "khai"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "थ",
+        "reading": "tha"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "ति",
+        "reading": "ti"
+      },
+      {
+        "source": "जा",
+        "reading": "ja"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "खंडवा (पूर्व निमाड़)",
+    "answer": "Khandwa (East Nimar)",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "खं",
+        "reading": "khan"
+      },
+      {
+        "source": "ड",
+        "reading": "d"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "र्व",
+        "reading": "rva",
+        "components": ["र", "व"]
+      },
+      {
+        "source": "नि",
+        "reading": "ni"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "खरगोन (पश्चिम निमाड़)",
+    "answer": "Khargone (West Nimar)",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ख",
+        "reading": "kha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "गो",
+        "reading": "go"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "श्चि",
+        "reading": "shchi",
+        "components": ["श", "च"]
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "नि",
+        "reading": "ni"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "खूंटी",
+    "answer": "Khunti",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "खूं",
+        "reading": "khun"
+      },
+      {
+        "source": "टी",
+        "reading": "ti"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "किन्नौर",
+    "answer": "Kinnaur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कि",
+        "reading": "ki"
+      },
+      {
+        "source": "न्नौ",
+        "reading": "nnau",
+        "components": ["न", "न"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "किशनगंज",
+    "answer": "Kishanganj",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कि",
+        "reading": "ki"
+      },
+      {
+        "source": "श",
+        "reading": "sha"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "कोडरमा",
+    "answer": "Koderma",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "को",
+        "reading": "ko"
+      },
+      {
+        "source": "ड",
+        "reading": "da"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "कोंडागांव",
+    "answer": "Kondagaon",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कों",
+        "reading": "kon"
+      },
+      {
+        "source": "डा",
+        "reading": "da"
+      },
+      {
+        "source": "गां",
+        "reading": "gan"
+      },
+      {
+        "source": "व",
+        "reading": "v"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "कोरबा",
+    "answer": "Korba",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "को",
+        "reading": "ko"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "कोरिया",
+    "answer": "Korea",
+    "alternativeAnswers": ["Koriya"],
+    "segments": [
+      {
+        "source": "को",
+        "reading": "ko"
+      },
+      {
+        "source": "रि",
+        "reading": "ri"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "कोटा",
+    "answer": "Kota",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "को",
+        "reading": "ko"
+      },
+      {
+        "source": "टा",
+        "reading": "ta"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "कोटपूतली-बहरोड़",
+    "answer": "Kotputli-Behror",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "को",
+        "reading": "ko"
+      },
+      {
+        "source": "ट",
+        "reading": "t"
+      },
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      },
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "रो",
+        "reading": "ro"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "कुल्लू",
+    "answer": "Kullu",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कु",
+        "reading": "ku"
+      },
+      {
+        "source": "ल्लू",
+        "reading": "llu",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "कुरुक्षेत्र",
+    "answer": "Kurukshetra",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कु",
+        "reading": "ku"
+      },
+      {
+        "source": "रु",
+        "reading": "ru"
+      },
+      {
+        "source": "क्षे",
+        "reading": "kshe",
+        "components": ["क", "ष"]
+      },
+      {
+        "source": "त्र",
+        "reading": "tra",
+        "components": ["त", "र"]
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "कुशीनगर",
+    "answer": "Kushinagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "कु",
+        "reading": "ku"
+      },
+      {
+        "source": "शी",
+        "reading": "shi"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "लाहौल और स्पीति",
+    "answer": "Lahaul And Spiti",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "हौ",
+        "reading": "hau"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "औ",
+        "reading": "au"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "स्पी",
+        "reading": "spi",
+        "components": ["स", "प"]
+      },
+      {
+        "source": "ति",
+        "reading": "ti"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "लखीमपुर खीरी",
+    "answer": "Lakhimpur Kheri",
+    "alternativeAnswers": ["Kheri"],
+    "segments": [
+      {
+        "source": "ल",
+        "reading": "la"
+      },
+      {
+        "source": "खी",
+        "reading": "khi"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "खी",
+        "reading": "khi"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "लखीसराय",
+    "answer": "Lakhisarai",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ल",
+        "reading": "la"
+      },
+      {
+        "source": "खी",
+        "reading": "khi"
+      },
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "ललितपुर",
+    "answer": "Lalitpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ल",
+        "reading": "la"
+      },
+      {
+        "source": "लि",
+        "reading": "li"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "लातेहार",
+    "answer": "Latehar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "ते",
+        "reading": "te"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "लोहरदगा",
+    "answer": "Lohardaga",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "लो",
+        "reading": "lo"
+      },
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "गा",
+        "reading": "ga"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "लखनऊ",
+    "answer": "Lucknow",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "ख",
+        "reading": "kha"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "ऊ",
+        "reading": "oo"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मधेपुरा",
+    "answer": "Madhepura",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "धे",
+        "reading": "dhe"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "मधुबनी",
+    "answer": "Madhubani",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "धु",
+        "reading": "dhu"
+      },
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "महाराजगंज",
+    "answer": "Maharajganj",
+    "alternativeAnswers": ["Mahrajganj"],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "महासमुंद",
+    "answer": "Mahasamund",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "मुं",
+        "reading": "mun"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "महेंद्रगढ़",
+    "answer": "Mahendragarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "हें",
+        "reading": "hen"
+      },
+      {
+        "source": "द्र",
+        "reading": "dra",
+        "components": ["द", "र"]
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "महोबा",
+    "answer": "Mahoba",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "हो",
+        "reading": "ho"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मैहर",
+    "answer": "Maihar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मै",
+        "reading": "mai"
+      },
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "मैनपुरी",
+    "answer": "Mainpuri",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मै",
+        "reading": "mai"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मंडी",
+    "answer": "Mandi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मं",
+        "reading": "man"
+      },
+      {
+        "source": "डी",
+        "reading": "di"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "मंडला",
+    "answer": "Mandla",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मं",
+        "reading": "man"
+      },
+      {
+        "source": "ड",
+        "reading": "d"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "मंदसौर",
+    "answer": "Mandsaur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मं",
+        "reading": "man"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      },
+      {
+        "source": "सौ",
+        "reading": "sau"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "मनेन्द्रगढ़-चिरमिरी-भरतपुर",
+    "answer": "Manendragarh-Chirmiri-Bharatpur(M C B)",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "ने",
+        "reading": "ne"
+      },
+      {
+        "source": "न्द्र",
+        "reading": "ndra",
+        "components": ["न", "द", "र"]
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      },
+      {
+        "source": "चि",
+        "reading": "chi"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "मि",
+        "reading": "mi"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "भ",
+        "reading": "bha"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "मथुरा",
+    "answer": "Mathura",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "थु",
+        "reading": "thu"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मऊ",
+    "answer": "Mau",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "ऊ",
+        "reading": "u"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मऊगंज",
+    "answer": "Mauganj",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "ऊ",
+        "reading": "u"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "मेरठ",
+    "answer": "Meerut",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मे",
+        "reading": "me"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "ठ",
+        "reading": "th"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मिर्जापुर",
+    "answer": "Mirzapur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मि",
+        "reading": "mi"
+      },
+      {
+        "source": "र्जा",
+        "reading": "rza",
+        "components": ["र", "ज"]
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मोहला-मानपुर-अंबागढ़ चौकी",
+    "answer": "Mohla-Manpur-Ambagarh Chouki",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मो",
+        "reading": "mo"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "अं",
+        "reading": "am"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      },
+      {
+        "source": "चौ",
+        "reading": "chau"
+      },
+      {
+        "source": "की",
+        "reading": "ki"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "मुरादाबाद",
+    "answer": "Moradabad",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मु",
+        "reading": "mu"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      },
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मुरैना",
+    "answer": "Morena",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मु",
+        "reading": "mu"
+      },
+      {
+        "source": "रै",
+        "reading": "rai"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "मुंगेली",
+    "answer": "Mungeli",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मुं",
+        "reading": "mun"
+      },
+      {
+        "source": "गे",
+        "reading": "ge"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "मुंगेर",
+    "answer": "Munger",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मुं",
+        "reading": "mun"
+      },
+      {
+        "source": "गे",
+        "reading": "ge"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "मुजफ्फरनगर",
+    "answer": "Muzaffarnagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मु",
+        "reading": "mu"
+      },
+      {
+        "source": "ज",
+        "reading": "za"
+      },
+      {
+        "source": "फ्फ",
+        "reading": "ffa",
+        "components": ["फ", "फ"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "मुजफ्फरपुर",
+    "answer": "Muzaffarpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "मु",
+        "reading": "mu"
+      },
+      {
+        "source": "ज",
+        "reading": "za"
+      },
+      {
+        "source": "फ्फ",
+        "reading": "ffa",
+        "components": ["फ", "फ"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "नागौर",
+    "answer": "Nagaur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ना",
+        "reading": "na"
+      },
+      {
+        "source": "गौ",
+        "reading": "gau"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "नैनीताल",
+    "answer": "Nainital",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "नै",
+        "reading": "nai"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      },
+      {
+        "source": "ता",
+        "reading": "ta"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "नालंदा",
+    "answer": "Nalanda",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ना",
+        "reading": "na"
+      },
+      {
+        "source": "लं",
+        "reading": "lan"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "नारायणपुर",
+    "answer": "Narayanpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ना",
+        "reading": "na"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "य",
+        "reading": "ya"
+      },
+      {
+        "source": "ण",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "नर्मदापुरम",
+    "answer": "Narmadapuram",
+    "alternativeAnswers": ["Hoshangabad"],
+    "segments": [
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "र्म",
+        "reading": "rma",
+        "components": ["र", "म"]
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "नरसिंहपुर",
+    "answer": "Narsinghpur",
+    "alternativeAnswers": ["Narsimhapur"],
+    "segments": [
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "सिं",
+        "reading": "sin"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "नवादा",
+    "answer": "Nawada",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "दा",
+        "reading": "da"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "नीमच",
+    "answer": "Neemuch",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "नी",
+        "reading": "nee"
+      },
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "च",
+        "reading": "ch"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "नई दिल्ली",
+    "answer": "New Delhi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "ई",
+        "reading": "ee"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "निवाड़ी",
+    "answer": "Niwari",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "नि",
+        "reading": "ni"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ड़ी",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "उत्तरी दिल्ली",
+    "answer": "North",
+    "alternativeAnswers": ["North Delhi"],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "त्त",
+        "reading": "tta",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "उत्तर पूर्वी दिल्ली",
+    "answer": "North East",
+    "alternativeAnswers": ["North East Delhi"],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "त्त",
+        "reading": "tta",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "र्वी",
+        "reading": "rvi",
+        "components": ["र", "व"]
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "उत्तर पश्चिमी दिल्ली",
+    "answer": "North West",
+    "alternativeAnswers": ["North West Delhi"],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "त्त",
+        "reading": "tta",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "श्चि",
+        "reading": "shchi",
+        "components": ["श", "च"]
+      },
+      {
+        "source": "मी",
+        "reading": "mi"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "नूह",
+    "answer": "Nuh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "नू",
+        "reading": "nu"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "पुरानी दिल्ली",
+    "answer": "Old Delhi",
+    "alternativeAnswers": ["Old Delhi District"],
+    "segments": [
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "बाहरी उत्तरी दिल्ली",
+    "answer": "Outer North",
+    "alternativeAnswers": ["Outer North Delhi"],
+    "segments": [
+      {
+        "source": "बा",
+        "reading": "ba"
+      },
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "त्त",
+        "reading": "tta",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "पाकुड़",
+    "answer": "Pakur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "कु",
+        "reading": "ku"
+      },
+      {
+        "source": "ड़",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "पलामू",
+    "answer": "Palamu",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "मू",
+        "reading": "mu"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "पाली",
+    "answer": "Pali",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "पलवल",
+    "answer": "Palwal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      },
+      {
+        "source": "व",
+        "reading": "wa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "पंचकूला",
+    "answer": "Panchkula",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पं",
+        "reading": "pan"
+      },
+      {
+        "source": "च",
+        "reading": "ch"
+      },
+      {
+        "source": "कू",
+        "reading": "ku"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "पांढुर्णा",
+    "answer": "Pandhurna",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पां",
+        "reading": "pan"
+      },
+      {
+        "source": "ढु",
+        "reading": "dhu"
+      },
+      {
+        "source": "र्णा",
+        "reading": "rna",
+        "components": ["र", "ण"]
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "पानीपत",
+    "answer": "Panipat",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      },
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "पन्ना",
+    "answer": "Panna",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "न्ना",
+        "reading": "nna",
+        "components": ["न", "न"]
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "पश्चिमी चंपारण",
+    "answer": "Pashchim Champaran",
+    "alternativeAnswers": ["West Champaran"],
+    "segments": [
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "श्चि",
+        "reading": "shchi",
+        "components": ["श", "च"]
+      },
+      {
+        "source": "मी",
+        "reading": "mi"
+      },
+      {
+        "source": "चं",
+        "reading": "cham"
+      },
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "ण",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "पटना",
+    "answer": "Patna",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "ट",
+        "reading": "t"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "पौड़ी गढ़वाल",
+    "answer": "Pauri Garhwal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पौ",
+        "reading": "pau"
+      },
+      {
+        "source": "ड़ी",
+        "reading": "ri"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "फलोदी",
+    "answer": "Phalodi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "फ",
+        "reading": "pha"
+      },
+      {
+        "source": "लो",
+        "reading": "lo"
+      },
+      {
+        "source": "दी",
+        "reading": "di"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "पीलीभीत",
+    "answer": "Pilibhit",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पी",
+        "reading": "pi"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      },
+      {
+        "source": "भी",
+        "reading": "bhi"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "पिथौरागढ़",
+    "answer": "Pithoragarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पि",
+        "reading": "pi"
+      },
+      {
+        "source": "थौ",
+        "reading": "thau"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "प्रतापगढ़",
+    "answer": "Pratapgarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प्र",
+        "reading": "pra",
+        "components": ["प", "र"]
+      },
+      {
+        "source": "ता",
+        "reading": "ta"
+      },
+      {
+        "source": "प",
+        "reading": "p"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "प्रतापगढ़",
+    "answer": "Pratapgarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प्र",
+        "reading": "pra",
+        "components": ["प", "र"]
+      },
+      {
+        "source": "ता",
+        "reading": "ta"
+      },
+      {
+        "source": "प",
+        "reading": "p"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "प्रयागराज",
+    "answer": "Prayagraj",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प्र",
+        "reading": "pra",
+        "components": ["प", "र"]
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      },
+      {
+        "source": "ग",
+        "reading": "g"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "पूर्वी चंपारण",
+    "answer": "Purbi Champaran",
+    "alternativeAnswers": ["East Champaran"],
+    "segments": [
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "र्वी",
+        "reading": "rvi",
+        "components": ["र", "व"]
+      },
+      {
+        "source": "चं",
+        "reading": "cham"
+      },
+      {
+        "source": "पा",
+        "reading": "pa"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "ण",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "पूर्णिया",
+    "answer": "Purnia",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "र्णि",
+        "reading": "rni",
+        "components": ["र", "ण"]
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "रायबरेली",
+    "answer": "Rae Bareli",
+    "alternativeAnswers": ["Raebareli"],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      },
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "रे",
+        "reading": "re"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "रायगढ़",
+    "answer": "Raigarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "रायपुर",
+    "answer": "Raipur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "रायसेन",
+    "answer": "Raisen",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      },
+      {
+        "source": "से",
+        "reading": "se"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "राजगढ़",
+    "answer": "Rajgarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "राजनांदगांव",
+    "answer": "Rajnandgaon",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "नां",
+        "reading": "nan"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      },
+      {
+        "source": "गां",
+        "reading": "gan"
+      },
+      {
+        "source": "व",
+        "reading": "v"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "राजसमंद",
+    "answer": "Rajsamand",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "मं",
+        "reading": "man"
+      },
+      {
+        "source": "द",
+        "reading": "d"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "रामगढ़",
+    "answer": "Ramgarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "रामपुर",
+    "answer": "Rampur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "रांची",
+    "answer": "Ranchi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रां",
+        "reading": "ran"
+      },
+      {
+        "source": "ची",
+        "reading": "chi"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "रतलाम",
+    "answer": "Ratlam",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "रीवा",
+    "answer": "Rewa",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "रेवाड़ी",
+    "answer": "Rewari",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रे",
+        "reading": "re"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ड़ी",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "रोहतक",
+    "answer": "Rohtak",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रो",
+        "reading": "ro"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "त",
+        "reading": "ta"
+      },
+      {
+        "source": "क",
+        "reading": "k"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "रोहतास",
+    "answer": "Rohtas",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रो",
+        "reading": "ro"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "ता",
+        "reading": "ta"
+      },
+      {
+        "source": "स",
+        "reading": "s"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "रुद्रप्रयाग",
+    "answer": "Rudraprayag",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "रु",
+        "reading": "ru"
+      },
+      {
+        "source": "द्र",
+        "reading": "dra",
+        "components": ["द", "र"]
+      },
+      {
+        "source": "प्र",
+        "reading": "pra",
+        "components": ["प", "र"]
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      },
+      {
+        "source": "ग",
+        "reading": "g"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "सागर",
+    "answer": "Sagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सा",
+        "reading": "sa"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "सहारनपुर",
+    "answer": "Saharanpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "हा",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "सहरसा",
+    "answer": "Saharsa",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "सा",
+        "reading": "sa"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "साहिबगंज",
+    "answer": "Sahibganj",
+    "alternativeAnswers": ["Sahebganj"],
+    "segments": [
+      {
+        "source": "सा",
+        "reading": "sa"
+      },
+      {
+        "source": "हि",
+        "reading": "hi"
+      },
+      {
+        "source": "ब",
+        "reading": "b"
+      },
+      {
+        "source": "गं",
+        "reading": "gan"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "सक्ती",
+    "answer": "Sakti",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "क्ती",
+        "reading": "kti",
+        "components": ["क", "त"]
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "सलूंबर",
+    "answer": "Salumbar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "लूं",
+        "reading": "lum"
+      },
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "समस्तीपुर",
+    "answer": "Samastipur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "स्ती",
+        "reading": "sti",
+        "components": ["स", "त"]
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "सम्भल",
+    "answer": "Sambhal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "म्भ",
+        "reading": "mbha",
+        "components": ["म", "भ"]
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "संत कबीर नगर",
+    "answer": "Sant Kabir Nagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सं",
+        "reading": "san"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "बी",
+        "reading": "bi"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "सरन",
+    "answer": "Saran",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "सारंगढ़-बिलाईगढ़",
+    "answer": "Sarangarh-Bilaigarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सा",
+        "reading": "sa"
+      },
+      {
+        "source": "रं",
+        "reading": "ran"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      },
+      {
+        "source": "बि",
+        "reading": "bi"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "ई",
+        "reading": "i"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "सतना",
+    "answer": "Satna",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "सवाई माधोपुर",
+    "answer": "Sawai Madhopur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ई",
+        "reading": "i"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      },
+      {
+        "source": "धो",
+        "reading": "dho"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "सीहोर",
+    "answer": "Sehore",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सी",
+        "reading": "si"
+      },
+      {
+        "source": "हो",
+        "reading": "ho"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "सिवनी",
+    "answer": "Seoni",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सि",
+        "reading": "si"
+      },
+      {
+        "source": "व",
+        "reading": "v"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "सेरीकेला खरसावां",
+    "answer": "Seraikela Kharsawan",
+    "alternativeAnswers": ["Saraikela Kharsawan"],
+    "segments": [
+      {
+        "source": "से",
+        "reading": "se"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "के",
+        "reading": "ke"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      },
+      {
+        "source": "ख",
+        "reading": "kha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "सा",
+        "reading": "sa"
+      },
+      {
+        "source": "वां",
+        "reading": "wan"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "शहडोल",
+    "answer": "Shahdol",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "श",
+        "reading": "sha"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "डो",
+        "reading": "do"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "शाहजहाँपुर",
+    "answer": "Shahjahanpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शा",
+        "reading": "sha"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "ज",
+        "reading": "ja"
+      },
+      {
+        "source": "हाँ",
+        "reading": "han"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "शाजापुर",
+    "answer": "Shajapur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शा",
+        "reading": "sha"
+      },
+      {
+        "source": "जा",
+        "reading": "ja"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "शामली",
+    "answer": "Shamli",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शा",
+        "reading": "sha"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "शेखपुरा",
+    "answer": "Sheikhpura",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शे",
+        "reading": "she"
+      },
+      {
+        "source": "ख",
+        "reading": "kh"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "शेओहर",
+    "answer": "Sheohar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शे",
+        "reading": "she"
+      },
+      {
+        "source": "ओ",
+        "reading": "o"
+      },
+      {
+        "source": "ह",
+        "reading": "ha"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "शेओपुर",
+    "answer": "Sheopur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शे",
+        "reading": "she"
+      },
+      {
+        "source": "ओ",
+        "reading": "o"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "शिमला",
+    "answer": "Shimla",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शि",
+        "reading": "shi"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "ला",
+        "reading": "la"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "शिवपुरी",
+    "answer": "Shivpuri",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "शि",
+        "reading": "shi"
+      },
+      {
+        "source": "व",
+        "reading": "v"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "श्रावस्ती",
+    "answer": "Shravasti",
+    "alternativeAnswers": ["Shrawasti"],
+    "segments": [
+      {
+        "source": "श्रा",
+        "reading": "shra",
+        "components": ["श", "र"]
+      },
+      {
+        "source": "व",
+        "reading": "va"
+      },
+      {
+        "source": "स्ती",
+        "reading": "sti",
+        "components": ["स", "त"]
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "सिद्धार्थनगर",
+    "answer": "Siddharthnagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सि",
+        "reading": "si"
+      },
+      {
+        "source": "द्धा",
+        "reading": "ddha",
+        "components": ["द", "ध"]
+      },
+      {
+        "source": "र्थ",
+        "reading": "rth",
+        "components": ["र", "थ"]
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "सीधी",
+    "answer": "Sidhi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सी",
+        "reading": "si"
+      },
+      {
+        "source": "धी",
+        "reading": "dhi"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "सीकर",
+    "answer": "Sikar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सी",
+        "reading": "si"
+      },
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "सिमडेगा",
+    "answer": "Simdega",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सि",
+        "reading": "si"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "डे",
+        "reading": "de"
+      },
+      {
+        "source": "गा",
+        "reading": "ga"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "सिंगरौली",
+    "answer": "Singrauli",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सिं",
+        "reading": "sin"
+      },
+      {
+        "source": "ग",
+        "reading": "g"
+      },
+      {
+        "source": "रौ",
+        "reading": "rau"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "सिरमौर",
+    "answer": "Sirmaur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सि",
+        "reading": "si"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "मौ",
+        "reading": "mau"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "सिरोही",
+    "answer": "Sirohi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सि",
+        "reading": "si"
+      },
+      {
+        "source": "रो",
+        "reading": "ro"
+      },
+      {
+        "source": "ही",
+        "reading": "hi"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "सिरसा",
+    "answer": "Sirsa",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सि",
+        "reading": "si"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "सा",
+        "reading": "sa"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "सीतामढ़ी",
+    "answer": "Sitamarhi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सी",
+        "reading": "si"
+      },
+      {
+        "source": "ता",
+        "reading": "ta"
+      },
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "ढ़ी",
+        "reading": "rhi"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "सीतापुर",
+    "answer": "Sitapur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सी",
+        "reading": "si"
+      },
+      {
+        "source": "ता",
+        "reading": "ta"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "सिवान",
+    "answer": "Siwan",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सि",
+        "reading": "si"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "सोलन",
+    "answer": "Solan",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सो",
+        "reading": "so"
+      },
+      {
+        "source": "ल",
+        "reading": "la"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "सोनभद्र",
+    "answer": "Sonbhadra",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सो",
+        "reading": "so"
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "भ",
+        "reading": "bha"
+      },
+      {
+        "source": "द्र",
+        "reading": "dra",
+        "components": ["द", "र"]
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "सोनीपत",
+    "answer": "Sonipat",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सो",
+        "reading": "so"
+      },
+      {
+        "source": "नी",
+        "reading": "ni"
+      },
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "त",
+        "reading": "t"
+      }
+    ],
+    "note": "State: Haryana."
+  },
+  {
+    "prompt": "दक्षिणी दिल्ली",
+    "answer": "South",
+    "alternativeAnswers": ["South Delhi"],
+    "segments": [
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "क्षि",
+        "reading": "kshi",
+        "components": ["क", "ष"]
+      },
+      {
+        "source": "णी",
+        "reading": "ni"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "दक्षिण पूर्वी दिल्ली",
+    "answer": "South East",
+    "alternativeAnswers": ["South East Delhi"],
+    "segments": [
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "क्षि",
+        "reading": "kshi",
+        "components": ["क", "ष"]
+      },
+      {
+        "source": "ण",
+        "reading": "n"
+      },
+      {
+        "source": "पू",
+        "reading": "pu"
+      },
+      {
+        "source": "र्वी",
+        "reading": "rvi",
+        "components": ["र", "व"]
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "दक्षिण पश्चिमी दिल्ली",
+    "answer": "South West",
+    "alternativeAnswers": ["South West Delhi"],
+    "segments": [
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "क्षि",
+        "reading": "kshi",
+        "components": ["क", "ष"]
+      },
+      {
+        "source": "ण",
+        "reading": "n"
+      },
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "श्चि",
+        "reading": "shchi",
+        "components": ["श", "च"]
+      },
+      {
+        "source": "मी",
+        "reading": "mi"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "सुकमा",
+    "answer": "Sukma",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सु",
+        "reading": "su"
+      },
+      {
+        "source": "क",
+        "reading": "k"
+      },
+      {
+        "source": "मा",
+        "reading": "ma"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "सुल्तानपुर",
+    "answer": "Sultanpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सु",
+        "reading": "su"
+      },
+      {
+        "source": "ल्ता",
+        "reading": "lta",
+        "components": ["ल", "त"]
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "सुपौल",
+    "answer": "Supaul",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सु",
+        "reading": "su"
+      },
+      {
+        "source": "पौ",
+        "reading": "pau"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "सूरजपुर",
+    "answer": "Surajpur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "सू",
+        "reading": "su"
+      },
+      {
+        "source": "र",
+        "reading": "ra"
+      },
+      {
+        "source": "ज",
+        "reading": "j"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "सरगुजा",
+    "answer": "Surguja",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "स",
+        "reading": "sa"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "गु",
+        "reading": "gu"
+      },
+      {
+        "source": "जा",
+        "reading": "ja"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "टिहरी गढ़वाल",
+    "answer": "Tehri Garhwal",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "टि",
+        "reading": "ti"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "री",
+        "reading": "ri"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      },
+      {
+        "source": "वा",
+        "reading": "wa"
+      },
+      {
+        "source": "ल",
+        "reading": "l"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "टीकमगढ़",
+    "answer": "Tikamgarh",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "टी",
+        "reading": "ti"
+      },
+      {
+        "source": "क",
+        "reading": "ka"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "ढ़",
+        "reading": "rh"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "टोंक",
+    "answer": "Tonk",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "टों",
+        "reading": "ton"
+      },
+      {
+        "source": "क",
+        "reading": "k"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "उदयपुर",
+    "answer": "Udaipur",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "द",
+        "reading": "da"
+      },
+      {
+        "source": "य",
+        "reading": "y"
+      },
+      {
+        "source": "पु",
+        "reading": "pu"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Rajasthan."
+  },
+  {
+    "prompt": "उधमसिंह नगर",
+    "answer": "Udham Singh Nagar",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "ध",
+        "reading": "dha"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      },
+      {
+        "source": "सिं",
+        "reading": "sin"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "उज्जैन",
+    "answer": "Ujjain",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "ज्जै",
+        "reading": "jjai",
+        "components": ["ज", "ज"]
+      },
+      {
+        "source": "न",
+        "reading": "n"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "उमरिया",
+    "answer": "Umaria",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "म",
+        "reading": "ma"
+      },
+      {
+        "source": "रि",
+        "reading": "ri"
+      },
+      {
+        "source": "या",
+        "reading": "ya"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "ऊना",
+    "answer": "Una",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "ऊ",
+        "reading": "u"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      }
+    ],
+    "note": "State: Himachal Pradesh."
+  },
+  {
+    "prompt": "उन्नाव",
+    "answer": "Unnao",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "न्ना",
+        "reading": "nna",
+        "components": ["न", "न"]
+      },
+      {
+        "source": "व",
+        "reading": "v"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "उत्तर बस्तर कांकेर",
+    "answer": "Uttar Bastar Kanker",
+    "alternativeAnswers": ["Kanker"],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "त्त",
+        "reading": "tta",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "ब",
+        "reading": "ba"
+      },
+      {
+        "source": "स्त",
+        "reading": "sta",
+        "components": ["स", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "कां",
+        "reading": "kan"
+      },
+      {
+        "source": "के",
+        "reading": "ke"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Chhattisgarh."
+  },
+  {
+    "prompt": "उत्तरकाशी",
+    "answer": "Uttarkashi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "उ",
+        "reading": "u"
+      },
+      {
+        "source": "त्त",
+        "reading": "tta",
+        "components": ["त", "त"]
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      },
+      {
+        "source": "का",
+        "reading": "ka"
+      },
+      {
+        "source": "शी",
+        "reading": "shi"
+      }
+    ],
+    "note": "State: Uttarakhand."
+  },
+  {
+    "prompt": "वैशाली",
+    "answer": "Vaishali",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "वै",
+        "reading": "vai"
+      },
+      {
+        "source": "शा",
+        "reading": "sha"
+      },
+      {
+        "source": "ली",
+        "reading": "li"
+      }
+    ],
+    "note": "State: Bihar."
+  },
+  {
+    "prompt": "वाराणसी",
+    "answer": "Varanasi",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "वा",
+        "reading": "va"
+      },
+      {
+        "source": "रा",
+        "reading": "ra"
+      },
+      {
+        "source": "ण",
+        "reading": "na"
+      },
+      {
+        "source": "सी",
+        "reading": "si"
+      }
+    ],
+    "note": "State: Uttar Pradesh."
+  },
+  {
+    "prompt": "विदिशा",
+    "answer": "Vidisha",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "वि",
+        "reading": "vi"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "शा",
+        "reading": "sha"
+      }
+    ],
+    "note": "State: Madhya Pradesh."
+  },
+  {
+    "prompt": "पश्चिमी दिल्ली",
+    "answer": "West",
+    "alternativeAnswers": ["West Delhi"],
+    "segments": [
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "श्चि",
+        "reading": "shchi",
+        "components": ["श", "च"]
+      },
+      {
+        "source": "मी",
+        "reading": "mi"
+      },
+      {
+        "source": "दि",
+        "reading": "di"
+      },
+      {
+        "source": "ल्ली",
+        "reading": "lli",
+        "components": ["ल", "ल"]
+      }
+    ],
+    "note": "State: Delhi."
+  },
+  {
+    "prompt": "पश्चिमी सिंहभूम",
+    "answer": "West Singhbhum",
+    "alternativeAnswers": [],
+    "segments": [
+      {
+        "source": "प",
+        "reading": "pa"
+      },
+      {
+        "source": "श्चि",
+        "reading": "shchi",
+        "components": ["श", "च"]
+      },
+      {
+        "source": "मी",
+        "reading": "mi"
+      },
+      {
+        "source": "सिं",
+        "reading": "sin"
+      },
+      {
+        "source": "ह",
+        "reading": "h"
+      },
+      {
+        "source": "भू",
+        "reading": "bhu"
+      },
+      {
+        "source": "म",
+        "reading": "m"
+      }
+    ],
+    "note": "State: Jharkhand."
+  },
+  {
+    "prompt": "यमुना नगर",
+    "answer": "Yamunanagar",
+    "alternativeAnswers": ["Yamuna Nagar"],
+    "segments": [
+      {
+        "source": "य",
+        "reading": "ya"
+      },
+      {
+        "source": "मु",
+        "reading": "mu"
+      },
+      {
+        "source": "ना",
+        "reading": "na"
+      },
+      {
+        "source": "न",
+        "reading": "na"
+      },
+      {
+        "source": "ग",
+        "reading": "ga"
+      },
+      {
+        "source": "र",
+        "reading": "r"
+      }
+    ],
+    "note": "State: Haryana."
+  }
+]

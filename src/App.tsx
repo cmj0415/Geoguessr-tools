@@ -63,6 +63,7 @@ import EuropeBollards from './pages/miscellaneous/europeBollards'
 
 const TaiwanPoleNumbers = lazy(() => import('./pages/tw/poleNumbers'))
 const HokkaidoPoleNumbers = lazy(() => import('./pages/jp/hokkaidoPoleNumbers'))
+const Hindi = lazy(() => import('./pages/in/hindi'))
 
 function App() {
   return (
@@ -130,6 +131,18 @@ function App() {
         <Route path="za/provinces" element={<SouthAfricaProvinces />} />
         <Route path="za/area-codes" element={<SouthAfricaCodes />} />
         <Route path="in/states" element={<IndiaStates />} />
+        <Route
+          path="in/hindi"
+          element={
+            <Suspense
+              fallback={
+                <div className="h-dvh bg-slate-950" aria-label="Loading" />
+              }
+            >
+              <Hindi />
+            </Suspense>
+          }
+        />
         <Route path="ro/counties" element={<RomaniaCounties />} />
         <Route path="th/area-codes" element={<ThailandCodes />} />
         <Route path="th/provinces" element={<ThailandProvinces />} />

@@ -224,6 +224,11 @@
       "description": "Learn the 28 states and six union territories represented on this India interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/in/hindi",
+      "title": "Hindi District Name Translation Practice | GeoGuessr Tools",
+      "description": "Practice reading 327 district names from India's core Hindi belt in Devanagari, with English answers and a Hindi script guide."
+    },
+    {
       "path": "/ro/counties",
       "title": "Romania Counties Map Quiz | GeoGuessr Tools",
       "description": "Learn Romania's 41 counties plus Bucharest with an interactive map quiz for geography and GeoGuessr practice."
