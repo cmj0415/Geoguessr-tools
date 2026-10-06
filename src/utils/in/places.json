@@ -330,7 +330,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. The medial य supplies a y glide in the Hindi pronunciation, but that y is not written separately in the established English spelling Araria."
   },
   {
     "prompt": "अरवल",
@@ -532,7 +532,7 @@
         "reading": "t"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. The established English spelling Baghpat uses gh for the ग sound in बाग, rather than following the Hindi letters one for one."
   },
   {
     "prompt": "बहराइच",
@@ -604,7 +604,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. The medial य supplies a y glide in the Hindi pronunciation, but the established English spelling contracts -iya to -ia."
   },
   {
     "prompt": "बालोद",
@@ -672,7 +672,7 @@
         "reading": "ra"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Balodabazar-Bhatapara” is an established English spelling rather than a letter-for-letter transliteration of बलौदाबाजार-भाटापारा."
   },
   {
     "prompt": "बालोतरा",
@@ -900,7 +900,7 @@
         "reading": "li"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Bareilly” is an established English spelling rather than a letter-for-letter transliteration of बरेली."
   },
   {
     "prompt": "बाड़मेर",
@@ -1007,7 +1007,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Rajasthan."
+    "note": "State: Rajasthan. “Beawar” is an established English spelling rather than a letter-for-letter transliteration of ब्यावर."
   },
   {
     "prompt": "बेगूसराय",
@@ -1035,7 +1035,7 @@
         "reading": "y"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Begusarai” is an established English spelling rather than a letter-for-letter transliteration of बेगूसराय."
   },
   {
     "prompt": "बेमेतरा",
@@ -1079,7 +1079,7 @@
         "reading": "l"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Betul” is an established English spelling rather than a letter-for-letter transliteration of बैतूल."
   },
   {
     "prompt": "भदोही",
@@ -1307,7 +1307,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Bijnor” is an established English spelling rather than a letter-for-letter transliteration of बिजनौर."
   },
   {
     "prompt": "बीकानेर",
@@ -1410,28 +1410,24 @@
     "note": "State: Jharkhand."
   },
   {
-    "prompt": "बुडयून",
+    "prompt": "बदायूँ",
     "answer": "Budaun",
     "alternativeAnswers": [],
     "segments": [
       {
-        "source": "बु",
-        "reading": "bu"
+        "source": "ब",
+        "reading": "b"
       },
       {
-        "source": "ड",
-        "reading": "d"
+        "source": "दा",
+        "reading": "da"
       },
       {
-        "source": "यू",
-        "reading": "yu"
-      },
-      {
-        "source": "न",
-        "reading": "n"
+        "source": "यूँ",
+        "reading": "yun"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. The Hindi name is pronounced closer to Badayun; Budaun is its long-established English spelling."
   },
   {
     "prompt": "बुलंदशहर",
@@ -1532,7 +1528,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. The Hindi name is pronounced closer to Baksar; Buxar is its established English spelling."
   },
   {
     "prompt": "मध्य दिल्ली",
@@ -1558,7 +1554,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. मध्य means “central” and दिल्ली means “Delhi”; the quiz answer uses the shortened English district label Central."
   },
   {
     "prompt": "मध्य उत्तर दिल्ली",
@@ -1597,7 +1593,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. मध्य उत्तर means “central north” and दिल्ली means “Delhi”; the quiz answer omits Delhi."
   },
   {
     "prompt": "चंबा",
@@ -1835,7 +1831,7 @@
         "reading": "rh"
       }
     ],
-    "note": "State: Rajasthan."
+    "note": "State: Rajasthan. “Chittorgarh” is an established English spelling rather than a letter-for-letter transliteration of चित्तौड़गढ़."
   },
   {
     "prompt": "चूरू",
@@ -1965,7 +1961,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. The medial य supplies a y glide in the Hindi pronunciation, but the established English spelling contracts -iya to -ia."
   },
   {
     "prompt": "दौसा",
@@ -2049,7 +2045,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Jharkhand."
+    "note": "State: Jharkhand. “Deoghar” is an established English spelling rather than a letter-for-letter transliteration of देवघर."
   },
   {
     "prompt": "देवरिया",
@@ -2073,7 +2069,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Deoria” is an established English spelling rather than a letter-for-letter transliteration of देवरिया."
   },
   {
     "prompt": "देवास",
@@ -2181,7 +2177,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Rajasthan."
+    "note": "State: Rajasthan. “Dholpur” is an established English spelling rather than a letter-for-letter transliteration of धौलपुर."
   },
   {
     "prompt": "डीडवाना-कुचामन",
@@ -2332,7 +2328,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. पूर्वी means “east/eastern” and दिल्ली means “Delhi”; the quiz answer uses the shortened district label East."
   },
   {
     "prompt": "पूर्वी सिंहभूम",
@@ -2365,7 +2361,7 @@
         "reading": "m"
       }
     ],
-    "note": "State: Jharkhand."
+    "note": "State: Jharkhand. पूर्वी means “eastern”; the English answer translates that word as East."
   },
   {
     "prompt": "एटा",
@@ -2381,7 +2377,7 @@
         "reading": "ta"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Etah” is an established English spelling rather than a letter-for-letter transliteration of एटा."
   },
   {
     "prompt": "इटावा",
@@ -2401,7 +2397,7 @@
         "reading": "wa"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Etawah” is an established English spelling rather than a letter-for-letter transliteration of इटावा."
   },
   {
     "prompt": "फरीदाबाद",
@@ -2748,7 +2744,7 @@
         "reading": "d"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. The ज sound in गाजियाबाद is conventionally represented by z in the established English spelling Ghaziabad."
   },
   {
     "prompt": "गाजीपुर",
@@ -2772,7 +2768,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. The ज sound in गाजीपुर is conventionally represented by z in the established English spelling Ghazipur."
   },
   {
     "prompt": "गिरिडीह",
@@ -2971,7 +2967,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Gwalior” is an established English spelling rather than a letter-for-letter transliteration of ग्वालियर."
   },
   {
     "prompt": "हमीरपुर",
@@ -3216,7 +3212,7 @@
         "reading": "g"
       }
     ],
-    "note": "State: Jharkhand."
+    "note": "State: Jharkhand. “Hazaribagh” is an established English spelling rather than a letter-for-letter transliteration of हजारीबाग."
   },
   {
     "prompt": "हिसार",
@@ -3256,7 +3252,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Indore” is an established English spelling rather than a letter-for-letter transliteration of इंदौर."
   },
   {
     "prompt": "जबलपुर",
@@ -3308,7 +3304,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Rajasthan."
+    "note": "State: Rajasthan. “Jaipur” is an established English spelling rather than a letter-for-letter transliteration of जयपुर."
   },
   {
     "prompt": "जैसलमेर",
@@ -3376,7 +3372,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Rajasthan."
+    "note": "State: Rajasthan. “Jalore” is an established English spelling rather than a letter-for-letter transliteration of जालौर."
   },
   {
     "prompt": "जामताड़ा",
@@ -3528,7 +3524,7 @@
         "reading": "d"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Jehanabad” is an established English spelling rather than a letter-for-letter transliteration of जहानाबाद."
   },
   {
     "prompt": "झबुआ",
@@ -3730,7 +3726,7 @@
         "reading": "a"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Kaimur (Bhabua)” is an established English spelling rather than a letter-for-letter transliteration of कैमूर (भभुआ)."
   },
   {
     "prompt": "कैथल",
@@ -4019,7 +4015,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Khagaria” is an established English spelling rather than a letter-for-letter transliteration of खगड़िया."
   },
   {
     "prompt": "खैरागढ़-छुईखदान-गंडई",
@@ -4152,7 +4148,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. पूर्व means “east”; the English answer translates it and uses the established spelling Nimar for निमाड़."
   },
   {
     "prompt": "खरगोन (पश्चिम निमाड़)",
@@ -4201,7 +4197,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. पश्चिम means “west”; the English answer translates it and uses the established spelling Nimar for निमाड़."
   },
   {
     "prompt": "खूंटी",
@@ -4290,7 +4286,7 @@
         "reading": "ma"
       }
     ],
-    "note": "State: Jharkhand."
+    "note": "State: Jharkhand. “Koderma” is an established English spelling rather than a letter-for-letter transliteration of कोडरमा."
   },
   {
     "prompt": "कोंडागांव",
@@ -4314,7 +4310,7 @@
         "reading": "v"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Kondagaon” is an established English spelling rather than a letter-for-letter transliteration of कोंडागांव."
   },
   {
     "prompt": "कोरबा",
@@ -4354,7 +4350,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Korea” is an established English spelling rather than a letter-for-letter transliteration of कोरिया."
   },
   {
     "prompt": "कोटा",
@@ -4414,7 +4410,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Rajasthan."
+    "note": "State: Rajasthan. “Kotputli-Behror” is an established English spelling rather than a letter-for-letter transliteration of कोटपूतली-बहरोड़."
   },
   {
     "prompt": "कुल्लू",
@@ -4522,7 +4518,7 @@
         "reading": "ti"
       }
     ],
-    "note": "State: Himachal Pradesh."
+    "note": "State: Himachal Pradesh. The Hindi conjunction और means “and” and is translated in the English district name."
   },
   {
     "prompt": "लखीमपुर खीरी",
@@ -4558,7 +4554,7 @@
         "reading": "ri"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Lakhimpur Kheri” is an established English spelling rather than a letter-for-letter transliteration of लखीमपुर खीरी."
   },
   {
     "prompt": "लखीसराय",
@@ -4586,7 +4582,7 @@
         "reading": "y"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Lakhisarai” is an established English spelling rather than a letter-for-letter transliteration of लखीसराय."
   },
   {
     "prompt": "ललितपुर",
@@ -4690,7 +4686,7 @@
         "reading": "oo"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. The Hindi name is pronounced closer to Lakhnau; Lucknow is its long-established English spelling."
   },
   {
     "prompt": "मधेपुरा",
@@ -5016,7 +5012,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. The parenthetical M C B is an English initialism of Manendragarh, Chirmiri, and Bharatpur and is not repeated in the Hindi name."
   },
   {
     "prompt": "मथुरा",
@@ -5096,7 +5092,7 @@
         "reading": "th"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Meerut” is an established English spelling rather than a letter-for-letter transliteration of मेरठ."
   },
   {
     "prompt": "मिर्जापुर",
@@ -5181,7 +5177,7 @@
         "reading": "ki"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Mohla-Manpur-Ambagarh Chouki” is an established English spelling rather than a letter-for-letter transliteration of मोहला-मानपुर-अंबागढ़ चौकी."
   },
   {
     "prompt": "मुरादाबाद",
@@ -5209,7 +5205,7 @@
         "reading": "d"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Moradabad” is an established English spelling rather than a letter-for-letter transliteration of मुरादाबाद."
   },
   {
     "prompt": "मुरैना",
@@ -5229,7 +5225,7 @@
         "reading": "na"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Morena” is an established English spelling rather than a letter-for-letter transliteration of मुरैना."
   },
   {
     "prompt": "मुंगेली",
@@ -5500,7 +5496,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. The sequence सिंह is represented by the conventional English spelling Singh rather than a letter-for-letter sinh."
   },
   {
     "prompt": "नवादा",
@@ -5540,7 +5536,7 @@
         "reading": "ch"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Neemuch” is an established English spelling rather than a letter-for-letter transliteration of नीमच."
   },
   {
     "prompt": "नई दिल्ली",
@@ -5565,7 +5561,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. नई means “new” and is translated, while दिल्ली is conventionally written Delhi in English."
   },
   {
     "prompt": "निवाड़ी",
@@ -5615,7 +5611,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. उत्तरी means “north/northern” and दिल्ली means “Delhi”; the quiz answer uses the shortened district label North."
   },
   {
     "prompt": "उत्तर पूर्वी दिल्ली",
@@ -5654,7 +5650,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. उत्तर पूर्वी means “north east” and दिल्ली means “Delhi”; the quiz answer omits Delhi."
   },
   {
     "prompt": "उत्तर पश्चिमी दिल्ली",
@@ -5697,7 +5693,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. उत्तर पश्चिमी means “north west” and दिल्ली means “Delhi”; the quiz answer omits Delhi."
   },
   {
     "prompt": "नूह",
@@ -5742,7 +5738,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. पुरानी means “old” and is translated, while दिल्ली is conventionally written Delhi in English."
   },
   {
     "prompt": "बाहरी उत्तरी दिल्ली",
@@ -5784,7 +5780,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. बाहरी उत्तरी means “outer north” and दिल्ली means “Delhi”; the quiz answer omits Delhi."
   },
   {
     "prompt": "पाकुड़",
@@ -5987,7 +5983,7 @@
         "reading": "n"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Pashchim Champaran” is an established English spelling rather than a letter-for-letter transliteration of पश्चिमी चंपारण."
   },
   {
     "prompt": "पटना",
@@ -6111,7 +6107,7 @@
         "reading": "rh"
       }
     ],
-    "note": "State: Uttarakhand."
+    "note": "State: Uttarakhand. “Pithoragarh” is an established English spelling rather than a letter-for-letter transliteration of पिथौरागढ़."
   },
   {
     "prompt": "प्रतापगढ़",
@@ -6231,7 +6227,7 @@
         "reading": "n"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Purbi Champaran” is an established English spelling rather than a letter-for-letter transliteration of पूर्वी चंपारण."
   },
   {
     "prompt": "पूर्णिया",
@@ -6252,7 +6248,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Purnia” is an established English spelling rather than a letter-for-letter transliteration of पूर्णिया."
   },
   {
     "prompt": "रायबरेली",
@@ -6280,7 +6276,7 @@
         "reading": "li"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Rae Bareli” is an established English spelling rather than a letter-for-letter transliteration of रायबरेली."
   },
   {
     "prompt": "रायगढ़",
@@ -6304,7 +6300,7 @@
         "reading": "rh"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Raigarh” is an established English spelling rather than a letter-for-letter transliteration of रायगढ़."
   },
   {
     "prompt": "रायपुर",
@@ -6328,7 +6324,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Raipur” is an established English spelling rather than a letter-for-letter transliteration of रायपुर."
   },
   {
     "prompt": "रायसेन",
@@ -6352,7 +6348,7 @@
         "reading": "n"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Raisen” is an established English spelling rather than a letter-for-letter transliteration of रायसेन."
   },
   {
     "prompt": "राजगढ़",
@@ -6408,7 +6404,7 @@
         "reading": "v"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Rajnandgaon” is an established English spelling rather than a letter-for-letter transliteration of राजनांदगांव."
   },
   {
     "prompt": "राजसमंद",
@@ -6540,7 +6536,7 @@
         "reading": "wa"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Rewa” is an established English spelling rather than a letter-for-letter transliteration of रीवा."
   },
   {
     "prompt": "रेवाड़ी",
@@ -7013,7 +7009,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Sehore” is an established English spelling rather than a letter-for-letter transliteration of सीहोर."
   },
   {
     "prompt": "सिवनी",
@@ -7033,7 +7029,7 @@
         "reading": "ni"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. The Hindi name सिवनी is pronounced closer to Sivni; Seoni is its established English spelling."
   },
   {
     "prompt": "सेरीकेला खरसावां",
@@ -7073,7 +7069,7 @@
         "reading": "wan"
       }
     ],
-    "note": "State: Jharkhand."
+    "note": "State: Jharkhand. “Seraikela Kharsawan” is an established English spelling rather than a letter-for-letter transliteration of सेरीकेला खरसावां."
   },
   {
     "prompt": "शहडोल",
@@ -7197,7 +7193,7 @@
         "reading": "ra"
       }
     ],
-    "note": "State: Bihar."
+    "note": "State: Bihar. “Sheikhpura” is an established English spelling rather than a letter-for-letter transliteration of शेखपुरा."
   },
   {
     "prompt": "शेओहर",
@@ -7660,7 +7656,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. दक्षिणी means “south/southern” and दिल्ली means “Delhi”; the quiz answer uses the shortened district label South."
   },
   {
     "prompt": "दक्षिण पूर्वी दिल्ली",
@@ -7699,7 +7695,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. दक्षिण पूर्वी means “south east” and दिल्ली means “Delhi”; the quiz answer omits Delhi."
   },
   {
     "prompt": "दक्षिण पश्चिमी दिल्ली",
@@ -7742,7 +7738,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. दक्षिण पश्चिमी means “south west” and दिल्ली means “Delhi”; the quiz answer omits Delhi."
   },
   {
     "prompt": "सुकमा",
@@ -7863,7 +7859,7 @@
         "reading": "ja"
       }
     ],
-    "note": "State: Chhattisgarh."
+    "note": "State: Chhattisgarh. “Surguja” is an established English spelling rather than a letter-for-letter transliteration of सरगुजा."
   },
   {
     "prompt": "टिहरी गढ़वाल",
@@ -7899,7 +7895,7 @@
         "reading": "l"
       }
     ],
-    "note": "State: Uttarakhand."
+    "note": "State: Uttarakhand. “Tehri Garhwal” is an established English spelling rather than a letter-for-letter transliteration of टिहरी गढ़वाल."
   },
   {
     "prompt": "टीकमगढ़",
@@ -7971,7 +7967,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Rajasthan."
+    "note": "State: Rajasthan. “Udaipur” is an established English spelling rather than a letter-for-letter transliteration of उदयपुर."
   },
   {
     "prompt": "उधमसिंह नगर",
@@ -8011,7 +8007,7 @@
         "reading": "r"
       }
     ],
-    "note": "State: Uttarakhand."
+    "note": "State: Uttarakhand. The sequence सिंह is represented by the conventional English spelling Singh rather than a letter-for-letter sinh."
   },
   {
     "prompt": "उज्जैन",
@@ -8056,7 +8052,7 @@
         "reading": "ya"
       }
     ],
-    "note": "State: Madhya Pradesh."
+    "note": "State: Madhya Pradesh. “Umaria” is an established English spelling rather than a letter-for-letter transliteration of उमरिया."
   },
   {
     "prompt": "ऊना",
@@ -8093,7 +8089,7 @@
         "reading": "v"
       }
     ],
-    "note": "State: Uttar Pradesh."
+    "note": "State: Uttar Pradesh. “Unnao” is an established English spelling rather than a letter-for-letter transliteration of उन्नाव."
   },
   {
     "prompt": "उत्तर बस्तर कांकेर",
@@ -8262,7 +8258,7 @@
         "components": ["ल", "ल"]
       }
     ],
-    "note": "State: Delhi."
+    "note": "State: Delhi. पश्चिमी means “west/western” and दिल्ली means “Delhi”; the quiz answer uses the shortened district label West."
   },
   {
     "prompt": "पश्चिमी सिंहभूम",
@@ -8299,7 +8295,7 @@
         "reading": "m"
       }
     ],
-    "note": "State: Jharkhand."
+    "note": "State: Jharkhand. पश्चिमी means “western”; the English answer translates that word as West."
   },
   {
     "prompt": "यमुना नगर",
