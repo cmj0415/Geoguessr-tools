@@ -224,6 +224,11 @@
       "description": "Learn the 28 states and six union territories represented on this India interactive map quiz for geography and GeoGuessr practice."
     },
     {
+      "path": "/in/hindi-districts",
+      "title": "India Hindi-Written District Map Quiz | GeoGuessr Tools",
+      "description": "Practice locating 324 districts from India's core Hindi belt by their Devanagari names, with a state-selectable interactive map quiz."
+    },
+    {
       "path": "/in/hindi",
       "title": "Hindi District Name Translation Practice | GeoGuessr Tools",
       "description": "Practice reading 327 district names from India's core Hindi belt in Devanagari, with English answers and a Hindi script guide."

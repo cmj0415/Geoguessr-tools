@@ -68,6 +68,10 @@ const COUNTRY_QUIZ_GROUPS: CountryQuizGroup[] = [
     flag: '🇮🇳',
     quizzes: [
       { label: 'State Quiz', to: '/in/states' },
+      {
+        label: 'Hindi-written District Quiz',
+        to: '/in/hindi-districts',
+      },
       { label: 'Hindi Translation Practice', to: '/in/hindi' },
     ],
   },
