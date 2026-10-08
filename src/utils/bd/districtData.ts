@@ -1,4 +1,26 @@
 import { getFeatureProperties } from '../geoJsonCodeQuiz'
+import places from './places.json'
+
+const DISTRICT_NAME_ALIASES: Record<string, string> = {
+  Chapainababganj: 'Chapainawabganj',
+}
+
+const BENGALI_NAMES_BY_ENGLISH = new Map(
+  places.flatMap((place) =>
+    [place.answer, ...place.alternativeAnswers].map(
+      (englishForm) => [englishForm, place.prompt] as const
+    )
+  )
+)
+
+function getBengaliDistrictName(englishForm: string) {
+  const lookupName = DISTRICT_NAME_ALIASES[englishForm] ?? englishForm
+  const bengaliForm = BENGALI_NAMES_BY_ENGLISH.get(lookupName)
+  if (!bengaliForm) {
+    throw new Error(`Missing Bengali district name for ${englishForm}.`)
+  }
+  return bengaliForm
+}
 
 export const BD_DISTRICT_MAP: Record<string, string[]> = {
   Barishal: [
@@ -77,7 +99,8 @@ export const BD_DISTRICTS = Object.entries(BD_DISTRICT_MAP).flatMap(
   ([region, districts]) =>
     districts.map((district) => ({
       id: district,
-      label: district,
+      label: getBengaliDistrictName(district),
+      searchLabel: district,
       region,
     }))
 )

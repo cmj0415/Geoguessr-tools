@@ -16,7 +16,9 @@ export default function BangladeshDistricts() {
       title="Bangladesh Districts Quiz"
       infoContent={
         <div className="text-justify">
-          <p>Practice all 64 districts of Bangladesh.</p>
+          <p>
+            Practice all 64 districts of Bangladesh using their Bengali names.
+          </p>
           <p className="mt-4">
             Use the division selector to focus the question pool on one or more
             of Bangladesh&apos;s eight divisions.
