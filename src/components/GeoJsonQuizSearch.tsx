@@ -227,7 +227,7 @@ export default function GeoJsonQuizSearch({
                       onClick={() => selectItem(item)}
                       className={`block w-full px-3 py-2.5 text-left text-sm text-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-emerald-300 ${index === activeIndex ? 'bg-emerald-400/15' : 'hover:bg-white/10'}`}
                     >
-                      {item.label}
+                      {item.searchLabel ?? item.label}
                     </button>
                   ))
                 )}

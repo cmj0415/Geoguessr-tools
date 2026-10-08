@@ -1,4 +1,8 @@
-export type QuizSearchItem = { id: string; label: string }
+export type QuizSearchItem = {
+  id: string
+  label: string
+  searchLabel?: string
+}
 
 export function normalizePlaceSearch(value: string) {
   return value
@@ -15,9 +19,15 @@ export function filterPlaceSearchItems<T extends QuizSearchItem>(
   const normalizedQuery = normalizePlaceSearch(query)
   return [...items]
     .filter((item) =>
-      normalizePlaceSearch(item.label).includes(normalizedQuery)
+      normalizePlaceSearch(item.searchLabel ?? item.label).includes(
+        normalizedQuery
+      )
     )
-    .sort((first, second) => first.label.localeCompare(second.label))
+    .sort((first, second) =>
+      (first.searchLabel ?? first.label).localeCompare(
+        second.searchLabel ?? second.label
+      )
+    )
 }
 
 export function findExactCodeSearchItem<T extends QuizSearchItem>(

@@ -74,6 +74,7 @@ export const IN_HINDI_DISTRICTS = Object.entries(IN_HINDI_DISTRICT_MAP).flatMap(
     districts.map(({ englishForm, hindiForm }) => ({
       id: createDistrictId(region, englishForm),
       label: hindiForm,
+      searchLabel: englishForm,
       region,
     }))
 )

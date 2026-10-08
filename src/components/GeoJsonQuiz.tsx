@@ -28,6 +28,7 @@ import type { QuizSearchKind } from './GeoJsonQuizSearch'
 export type GeoJsonQuizItem = {
   id: string
   label: string
+  searchLabel?: string
 }
 
 export type GeoJsonTileLayer = {
